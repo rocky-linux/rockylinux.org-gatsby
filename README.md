@@ -4,6 +4,7 @@ If you're here, you may have seen my streams around migrating the Rocky Linux we
 ## To Do
 - [X] News Posts
 - [ ] Press Page and Content
+- [ ] Pagination for Content Lists (News & Press Lists)
 - [X] Sponsors Page
 - [ ] Localization (i18n)
 - [ ] Remove unnecessary fluff from starter project (partially done)
