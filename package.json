@@ -21,8 +21,11 @@
     "gatsby-remark-responsive-iframe": "^2.4.17",
     "gatsby-remark-smartypants": "^2.3.13",
     "gatsby-source-filesystem": "^2.3.32",
+    "gatsby-theme-i18n": "^1.0.5",
+    "gatsby-theme-i18n-react-i18next": "^1.0.4",
     "gatsby-transformer-remark": "^2.8.38",
     "gatsby-transformer-sharp": "^2.5.16",
+    "i18next": "^19.8.5",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "postcss": "^8.1.1",
@@ -30,7 +33,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.8.5"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.2.1",
