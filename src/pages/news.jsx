@@ -1,5 +1,7 @@
 import { graphql } from 'gatsby';
 import React from 'react';
+import { LocalizedLink } from 'gatsby-theme-i18n';
+import { Translate } from '../i18n/utils/translate';
 
 import BlogPosts from '../components/blog-posts';
 import Header from '../components/header';
@@ -8,7 +10,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import NotFound from '../pages/404';
 
-const Index = ({ data }) => {
+const Index = ({ data, pageContext: { locale: language } }) => {
   const posts = data.allMarkdownRemark.edges;
   const noBlog = !posts || !posts.length;
 
@@ -19,9 +21,9 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <SEO title="News" />
-      <Header metadata={data.site.siteMetadata} />
+      <Header metadata={data.site.siteMetadata} pageContext= "{locale: language}" />
       {!noBlog && <BlogPosts posts={posts} />}
-      <Footer />
+      <Footer pageContext= "{locale: language}" />
     </Layout>
   );
 };
