@@ -68,5 +68,33 @@ module.exports = {
         icon: `src/images/logo.png`,
       },
     },
+    {
+      resolve: `gatsby-theme-i18n`,
+      options: {
+        defaultLang: `en`,
+        configPath: require.resolve(`./src/i18n/config.json`),
+      },
+    },
+    {
+      resolve: `gatsby-theme-i18n-react-i18next`,
+      options: {
+        locales: `./src/i18n/locales`,
+        i18nextOptions: {
+          debug: process.env.NODE_ENV === 'development',
+          supportedLngs: ['en', 'tr'],
+          fallbackLng: 'en',
+          load: 'languageOnly',
+          cleanCode: true,
+          ns: ['translation'],
+          returnObjects: true,
+          interpolation: {
+            escapeValue: false,
+          },
+          react: {
+            wait: true,
+          },
+        },
+      },
+    },
   ],
 };

@@ -18,7 +18,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <Header metadata={data.site.siteMetadata} />
+      <Header metadata={data.site.siteMetadata} pageContext="{locale: language}" />
       <SEO title={post.frontmatter.title} />
       <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white z-0">
         <div className="max-w-4xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:px-8">
@@ -37,7 +37,7 @@ const BlogPost = ({ data }) => {
           </div>
         </div>
       </main>
-      <Footer />
+      <Footer pageContext="{locale: language}" />
     </Layout>
   );
 };

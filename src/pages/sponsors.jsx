@@ -3,16 +3,18 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import { LocalizedLink } from 'gatsby-theme-i18n';
+import { Translate } from '../i18n/utils/translate';
 
 import CtrlIqLogo from '../images/ciq.png';
 import MattermostLogo from '../images/mattermost.png';
 import AwsLogo from '../images/aws.png';
 
-const Sponsors = () => {
+const Sponsors = ({ data, pageContext: { locale: language } }) => {
   return (
     <Layout>
       <SEO />
-      <Header />
+      <Header pageContext= "{locale: language}" />
       <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white z-0">
         <div className="max-w-4xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:px-8">
           <div className="px-4 pb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -76,7 +78,9 @@ const Sponsors = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      <Footer
+        pageContext= "{locale: language}"
+      />
     </Layout>
   )
 }
