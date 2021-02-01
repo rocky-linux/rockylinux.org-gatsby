@@ -1,5 +1,5 @@
 # Rocky Linux Gatsby Project
-If you're here, you may have seen my streams around migrating the Rocky Linux website (rockylinux.org) to Gatsby. Below you'll find a checklist of tasks that have been completed and what is still left to do. Contributions are encouraged!
+If you're here, you may have seen my streams around migrating the Rocky Linux website ([rockylinux.org](https://rockylinux.org/)) to Gatsby. Below you'll find a checklist of tasks that have been completed and what is still left to do. Contributions are encouraged!
 
 ## To Do
 - [X] News Posts
