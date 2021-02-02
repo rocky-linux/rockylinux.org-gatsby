@@ -1,11 +1,16 @@
 import React from 'react';
 
 import Section from '../section';
+import { Translate } from '../../i18n/utils/translate';
 import PressSummaryItem from '../press-summary-item';
+import { useLocalization } from 'gatsby-theme-i18n';
 
 const PressLinks = ({ posts }) => {
+  const translate = Translate();
+  const { config } = useLocalization();
+
   return (
-    <Section title="Press" description="See the latest about Rocky in the press.">
+    <Section title={translate('press.title')} description={translate('press.description')}>
       {posts.map((post) => (
         <PressSummaryItem
           key={post.node.fields.slug}
