@@ -3,6 +3,8 @@ import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
+import {CoverImg} from '../../images/cover.png';
+
 const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -46,7 +48,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           property: `twitter:title`,
@@ -55,6 +57,14 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           property: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:image`,
+          content: CoverImg,
+        },
+        {
+          property: `theme-color`,
+          content: `#10B981`,
         },
       ].concat(meta)}
     />
