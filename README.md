@@ -3,12 +3,12 @@ If you're here, you may have seen my streams around migrating the Rocky Linux we
 
 ## To Do
 - [X] News Posts
-- [ ] Press Page and Content
+- [X] Press Page and Content
 - [ ] Pagination for Content Lists (News & Press Lists)
 - [X] Sponsors Page
 - [X] Localization (i18n)
-- [ ] Remove unnecessary fluff from starter project (partially done)
-- [ ] Implement re-used content to components
+- [X] Remove unnecessary fluff from starter project
+- [X] Implement re-used content to components
 
 ## Start Development Server
 1. Install dependencies via NPM.
