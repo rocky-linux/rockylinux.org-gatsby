@@ -13,7 +13,7 @@ const SummaryItem = ({ name, description, date, link = false, internal = false }
               className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100"></div>
             <div
               className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100"></div>
-            <div className="relative flex items-center justify-between p-5 bg-gray-100 dark:bg-gray-800 rounded-sm">
+            <div className="relative flex items-center justify-between p-5 bg-gray-100 dark:bg-gray-800 rounded-lg">
               <div className="pr-4">
                 <h5 className="mb-2 font-semibold leading-5">
                   {name}
