@@ -1,6 +1,6 @@
 import React from 'react';
 import { Translate } from '../../i18n/utils/translate';
-import { useLocalization } from 'gatsby-theme-i18n';
+import { LocalizedLink, useLocalization } from 'gatsby-theme-i18n';
 import { navigate } from "gatsby";
 
 const Footer = ({ pageContext: { locale: language } }) => {
@@ -18,9 +18,9 @@ const Footer = ({ pageContext: { locale: language } }) => {
             </a>
           </div>
           <div className="px-5 py-2">
-            <a href="/sponsors/" className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white">
+            <LocalizedLink to="/sponsors/" className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white">
               {translate('links.sponsors')}
-            </a>
+            </LocalizedLink>
           </div>
         </nav>
         <div className="mt-8 flex justify-center space-x-6">
