@@ -110,7 +110,7 @@ pre { @apply p-4 rounded-lg }
 
   .grayscale:hover {
     -webkit-filter: none;
-    opacity: 100%;
+    opacity: unset;
     filter: contrast(20%);
     filter: brightness(0%);
   }
