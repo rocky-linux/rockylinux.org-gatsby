@@ -31,22 +31,6 @@ const SEO = ({ description, lang, meta, title }) => {
       title={finalTitle}
       meta={[
         {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: finalTitle,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
           property: `twitter:card`,
           content: `summary_large_image`,
         },
