@@ -2,10 +2,9 @@ import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import CoverImg from '../../images/cover.png';
 
-import {CoverImg} from '../../images/cover.png';
-
-const SEO = ({ description, lang, meta, title }) => {
+const SEO = ({ description, lang, meta, image: metaImage, title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -20,6 +19,7 @@ const SEO = ({ description, lang, meta, title }) => {
   );
 
   const metaDescription = description || site.siteMetadata.description;
+  const image = metaImage && metaImage.src ? `${site.siteMetadata.siteUrl}${metaImage.src}` : null;
   const defaultTitle = site.siteMetadata?.title;
   const finalTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
 
@@ -31,10 +31,6 @@ const SEO = ({ description, lang, meta, title }) => {
       title={finalTitle}
       meta={[
         {
-          property: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
           property: `twitter:title`,
           content: finalTitle,
         },
@@ -43,10 +39,22 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
         {
-          property: `twitter:image`,
+          property: "og:image",
           content: CoverImg,
         },
-      ].concat(meta)}
+        {
+          property: "og:image:width",
+          content: 800,
+        },
+        {
+          property: "og:image:height",
+          content: 600,
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        ].concat(meta)}
     />
   );
 };

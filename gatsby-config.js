@@ -58,7 +58,7 @@ module.exports = {
         background_color: `#10B981`,
         theme_color: `#10B981`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/logo.png`,
+        icon: `src/images/logo.png`
       },
     },
     {
