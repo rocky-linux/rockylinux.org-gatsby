@@ -76,6 +76,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                 <option value={`${locale.code}`}>{locale.localName}</option>
               ))}
             </select>
+            <noscript className="mt-8 text-center text-base text-gray-500">JavaScript appears to be disabled in your browser. The language picker will not function without JavaScript, but you can append your language code to the URL to access a supported language. For example, "https://rockylinux.org/tr/".</noscript>
           </div>
         </nav>
         <p className="mt-8 text-center text-base text-gray-500" dir="auto">
