@@ -74,10 +74,10 @@ module.exports = {
         locales: `./src/i18n/locales`,
         i18nextOptions: {
           debug: process.env.NODE_ENV === 'development',
-          supportedLngs: ['en', 'tr'],
+          supportedLngs: ['en', 'tr', 'es', 'nl', 'it', 'de', 'fr', 'lv', 'pt-pt','pt-br', 'pl', 'id', 'ru', 'uk', 'vi', 'ja', 'ar', 'fa', 'zh-cn', 'zh-hk', 'zh-tw', 'ko', 'sv', 'ca'],
           fallbackLng: 'en',
-          load: 'languageOnly',
-          cleanCode: true,
+          lowerCaseLng: 'true',
+          load: 'currentOnly',
           ns: ['translation'],
           returnObjects: true,
           interpolation: {
