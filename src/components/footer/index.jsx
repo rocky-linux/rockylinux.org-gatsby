@@ -77,7 +77,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               ))}
             </select>
           </div>
-          <noscript className="mt-2 text-center text-sm text-gray-500">JavaScript appears to be disabled in your browser. The language picker will not function without JavaScript, but you can append your language code to the URL to access a supported language. For example, "https://rockylinux.org/tr/".</noscript>
+          <noscript className="mt-2 text-center text-sm text-gray-500">JavaScript appears to be disabled in your browser. The language picker is not available without JavaScript, but you can append your language code to the URL to access a supported language. For example, "https://rockylinux.org/tr/".</noscript>
         </nav>
         <p className="mt-8 text-center text-base text-gray-500" dir="auto">
           {translate('copyright.line1')}
