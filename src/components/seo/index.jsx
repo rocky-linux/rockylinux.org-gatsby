@@ -46,10 +46,6 @@ const SEO = ({ description, lang, meta, title }) => {
           property: `twitter:image`,
           content: CoverImg,
         },
-        {
-          property: `theme-color`,
-          content: `#10B981`,
-        },
       ].concat(meta)}
     />
   );

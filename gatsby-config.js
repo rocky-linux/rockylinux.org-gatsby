@@ -55,8 +55,8 @@ module.exports = {
         name: `Rocky Linux`,
         short_name: `Rocky`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`, // This color appears on mobile
+        background_color: `#10B981`,
+        theme_color: `#10B981`, // This color appears on mobile
         display: `minimal-ui`,
         icon: `src/images/logo.png`,
       },
