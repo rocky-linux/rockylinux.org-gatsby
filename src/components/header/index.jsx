@@ -21,16 +21,16 @@ const Header = ({ pageContext: { locale: language } }) => {
         </LocalizedLink>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <LocalizedLink to="/news/" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('links.posts')}</LocalizedLink>
-          <Link to="https://wiki.rockylinux.org/" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('links.documentation')}</Link>
-          <Link to="https://forums.rockylinux.org/" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('socials.forums')}</Link>
-          <Link to="https://www.mucklesu.com/collections/rocky-linux" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('links.store')}</Link>
-          <Link to="https://rockylinux.z2systems.com/np/clients/rockylinux/donation.jsp" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('links.donate')}</Link>
+          <a href="https://wiki.rockylinux.org/" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('links.documentation')}</a>
+          <a href="https://forums.rockylinux.org/" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('socials.forums')}</a>
+          <a href="https://www.mucklesu.com/collections/rocky-linux" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('links.store')}</a>
+          <a href="https://rockylinux.z2systems.com/np/clients/rockylinux/donation.jsp" className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">{translate('links.donate')}</a>
         </ul>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
-            <Link to="mailto:hello@rockylinux.org" className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out" aria-label="Get In Touch" title="Get In Touch">
+            <a href="mailto:hello@rockylinux.org" className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out" aria-label="Get In Touch" title="Get In Touch">
               {translate('links.get-in-touch')}
-            </Link>
+            </a>
           </li>
         </ul>
         <div className="lg:hidden">
@@ -72,14 +72,14 @@ const Header = ({ pageContext: { locale: language } }) => {
                 <nav>
                   <ul className="space-y-4">
                     <li><LocalizedLink to="/news/" aria-label="News" title="News" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">News</LocalizedLink></li>
-                    <li><Link to="https://wiki.rockylinux.org/" aria-label="Wiki" title="Wiki" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">Wiki</Link></li>
-                    <li><Link to="https://forums.rockylinux.org/" aria-label="Forums" title="Forums" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">Forums</Link></li>
-                    <li><Link to="https://www.mucklesu.com/collections/rocky-linux" aria-label="Store" title="Store" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">Store</Link></li>
-                    <li><Link to="https://rockylinux.z2systems.com/np/clients/rockylinux/donation.jsp" aria-label="Donate" title="Donate" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">Donate</Link></li>
+                    <li><a href="https://wiki.rockylinux.org/" aria-label="Wiki" title="Wiki" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">Wiki</a></li>
+                    <li><a href="https://forums.rockylinux.org/" aria-label="Forums" title="Forums" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">Forums</a></li>
+                    <li><a href="https://www.mucklesu.com/collections/rocky-linux" aria-label="Store" title="Store" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">Store</a></li>
+                    <li><a href="https://rockylinux.z2systems.com/np/clients/rockylinux/donation.jsp" aria-label="Donate" title="Donate" className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500">Donate</a></li>
                     <li>
-                      <Link to="mailto:hello@rockylinux.org" className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white dark:text-black transition duration-200 rounded shadow-md bg-green-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none" aria-label="Get In Touch" title="Get In Touch">
+                      <a href="mailto:hello@rockylinux.org" className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white dark:text-black transition duration-200 rounded shadow-md bg-green-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none" aria-label="Get In Touch" title="Get In Touch">
                         {translate('links.get-in-touch')}
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </nav>
