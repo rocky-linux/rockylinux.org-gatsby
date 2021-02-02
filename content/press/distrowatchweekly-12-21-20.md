@@ -1,6 +1,7 @@
 ---
 title: "DistroWatch Weekly"
-publishDate: '2020-12-21'
+date: '2020-12-21'
 description: "What to do in the wake of Red Hat phasing out CentOS"
-postUrl: "https://distrowatch.com/weekly.php?issue=20201221"
+url: "https://distrowatch.com/weekly.php?issue=20201221"
+posttype: "press"
 ---

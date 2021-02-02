@@ -5,6 +5,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
   const blogPost = path.resolve(`./src/templates/blog-post.jsx`);
+  const pressLinkTemplate = path.resolve(`./src/templates/project-post.jsx`);
   const result = await graphql(
     `
       {
@@ -31,22 +32,22 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors;
   }
 
-  // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges;
-
-  posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-    const next = index === 0 ? null : posts[index - 1].node;
-
-    createPage({
-      path: post.node.fields.slug,
-      component: blogPost,
-      context: {
-        slug: post.node.fields.slug,
-        previous,
-        next,
-      },
-    });
+  result.data.allMarkdownRemark.edges.forEach(edge => {
+    if (edge.node.frontmatter.posttype === "press") {
+      createPage({
+        path: edge.node.frontmatter.path,
+        component: pressLinkTemplate,
+        context: {}
+      });
+    } else {
+      createPage({
+        path: edge.node.fields.slug,
+        component: blogPost,
+        context: {
+          slug: edge.node.fields.slug,
+        },
+      });
+    }
   });
 };
 
@@ -71,13 +72,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       name: String
       title: String
       description: String
-      author: String
-      github: String
-      linkedin: String
-      about: String
-      projects: [SectionItem]
-      experience: [SectionItem]
-      skills: [SectionItem]
     }
 
     type SectionItem {
@@ -95,6 +89,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      url: String
     }
     
     type Fields {

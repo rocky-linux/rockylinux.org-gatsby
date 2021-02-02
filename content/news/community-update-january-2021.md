@@ -2,6 +2,7 @@
 title: Community Update - January 2021
 date: '2020-01-20'
 description: "In the three-plus weeks since our last community update, a lot has happened. Frustratingly--but also necessarily--for many of you, the progress we’ve made has been behind the scenes. In this community update, we share the latest from the project."
+posttype: "news"
 ---
 
 ## Summary

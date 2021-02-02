@@ -1,12 +1,12 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
-import BlogPosts from '../components/blog-posts';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import NotFound from '../pages/404';
+import PressLinks from '../components/press-links';
 
 const Index = ({ data, pageContext: { locale: language } }) => {
   const posts = data.allMarkdownRemark.edges;
@@ -18,9 +18,9 @@ const Index = ({ data, pageContext: { locale: language } }) => {
 
   return (
     <Layout>
-      <SEO title="News" />
+      <SEO title="Press" />
       <Header metadata={data.site.siteMetadata} pageContext= "{locale: language}" />
-      {!noBlog && <BlogPosts posts={posts} />}
+      <PressLinks posts={posts} />
       <Footer pageContext= "{locale: language}" />
     </Layout>
   );
@@ -39,7 +39,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { posttype: { eq: "news" } } }
+      filter: { frontmatter: { posttype: { eq: "press" } } }
     ) {
       edges {
         node {
@@ -51,6 +51,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            url
           }
         }
       }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Section = ({ title, children }) => {
+const Section = ({ title, children, description }) => {
   return (
     <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white z-0">
       <div className="max-w-4xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:px-8">
@@ -10,7 +10,7 @@ const Section = ({ title, children }) => {
               {title}
             </h2>
             <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-              Stay up-to-date on the latest from The Rocky Linux Project.
+              {description}
             </p>
             <hr className="mx-auto" />
           </div>
