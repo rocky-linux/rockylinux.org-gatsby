@@ -38,13 +38,31 @@
     "get-in-touch": "İletişim",
     "get-involved": "Bize Katılın",
     "go-home": "Ana Sayfa",
-    "join-the-discussion": "Tartışmaya Katılın"
+    "join-the-discussion": "Tartışmaya Katılın",
+    "posts": "News",
+    "show-your-interest": "Show Your Interest",
+    "sponsors": "Sponsors",
+    "donate": "Donate",
+    "store": "Store",
+    "press": "Press"
   },
   "socials": {
     "forums": "Forumlar",
     "github": "Github",
     "reddit": "Reddit",
-    "slack": "Slack",
+    "mattermost": "Mattermost",
     "twitter": "Twitter"
+  },
+  "news": {
+    "title": "News",
+    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
+  },
+  "press": {
+    "title": "Press",
+    "description": "See the latest about Rocky in the press."
+  },
+  "sponsors": {
+    "title": "Sponsors",
+    "description": "We would like to thank our sponsors for their support thus far on the project."
   }
 }
