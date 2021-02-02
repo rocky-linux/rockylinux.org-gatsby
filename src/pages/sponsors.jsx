@@ -3,8 +3,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import { LocalizedLink } from 'gatsby-theme-i18n';
-import { Translate } from '../i18n/utils/translate';
 
 import CtrlIqLogo from '../images/ciq.png';
 import MattermostLogo from '../images/mattermost.png';

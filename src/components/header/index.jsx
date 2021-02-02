@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { useState } from 'react';
 import { Transition } from '@headlessui/react';
-import { LocalizedLink } from 'gatsby-theme-i18n';
 import { Translate } from '../../i18n/utils/translate';
 
 const Header = ({ pageContext: { locale: language } }) => {

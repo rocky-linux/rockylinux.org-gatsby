@@ -1,7 +1,5 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import { LocalizedLink } from 'gatsby-theme-i18n';
-import { Translate } from '../i18n/utils/translate';
 
 import BlogPosts from '../components/blog-posts';
 import Header from '../components/header';

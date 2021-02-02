@@ -1,12 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
 
-const classes = {
-  wrapper: 'mb-6',
-  name: 'font-semibold text-gray-900 pb-1',
-  description: 'text-md text-gray-600 font-light',
-};
-
 const SummaryItem = ({ name, description, date, link = false, internal = false }) => {
 
   return (
