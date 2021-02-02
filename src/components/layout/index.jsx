@@ -6,6 +6,7 @@ const Layout = ({ children }) => {
       <noscript>
         <style>{`
           #languagePicker {display:none;}
+          #languageIcon {display:none;}
         `}
         </style>
       </noscript>
