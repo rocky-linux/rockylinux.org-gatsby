@@ -1,7 +1,7 @@
 import React from 'react';
 import { Translate } from '../../i18n/utils/translate';
 import { LocalizedLink, useLocalization } from 'gatsby-theme-i18n';
-import { navigate } from "gatsby";
+import { navigate, Link } from "gatsby";
 
 const Footer = ({ pageContext: { locale: language } }) => {
 
@@ -81,7 +81,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Links" dir="auto">
               {config.map((locale) => (
                 <div className="px-5 py-2">
-                  <LocalizedLink to={`/${locale.code}/`}>{locale.localName}</LocalizedLink>
+                  <Link to={`${locale.code === 'en' ? "/" : `/${locale.code}/`}`}>{locale.localName}</Link>
                 </div>
               ))}
             </nav>
