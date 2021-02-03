@@ -60,7 +60,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
           </a>
         </div>
         <nav className="mt-5 flex flex-wrap justify-center" aria-label="Language">
-          <div className="px-5 py-2 flex">
+          <div className="px-5 py-2 flex" id="LanguageDiv" name="LanguageDiv">
             <h5 className="font-medium text-sm text-gray-600 dark:text-gray-400 ml-2 mr-2 mt-2 flex">
               <svg id="languageIcon" name="languageIcon" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-1" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd"
@@ -68,16 +68,24 @@ const Footer = ({ pageContext: { locale: language } }) => {
                       clip-rule="evenodd" />
               </svg>
               <span className="sr-only">{translate('lang.footer.choose-language')}</span></h5>
-            <select id="languagePicker" onChange={(e) => navigate(`${e.target.value === 'en' ? `/` : `/${e.target.value}`}`)} name="language"
-                    className="mt-1 mr-2 block w-full pl-2 pr-8 py-1 text-sm text-black dark:text-white border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm rounded-md"
-                    aria-label="Language Select">
-              <option value="" selected hidden disabled>{translate('lang.footer.choose-language')}</option>
-              {config.map((locale) => (
-                <option value={`${locale.code}`}>{locale.localName}</option>
-              ))}
-            </select>
+              <select id="languagePicker" onChange={(e) => navigate(`${e.target.value === 'en' ? `/` : `/${e.target.value}`}`)} name="language"
+                      className="mt-1 mr-2 block w-full pl-2 pr-8 py-1 text-sm text-black dark:text-white border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm rounded-md"
+                      aria-label="Language Select">
+                <option value="" selected hidden disabled>{translate('lang.footer.choose-language')}</option>
+                {config.map((locale) => (
+                  <option value={`${locale.code}`}>{locale.localName}</option>
+                ))}
+              </select>
           </div>
-          <noscript className="mt-2 text-center text-sm text-gray-500">JavaScript appears to be disabled in your browser. The language picker is not available without JavaScript, but you can append your language code to the URL to access a supported language. For example, "https://rockylinux.org/tr/".</noscript>
+          <noscript className="mt-2 text-center text-sm text-gray-500">
+            <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Links" dir="auto">
+              {config.map((locale) => (
+                <div className="px-5 py-2">
+                  <LocalizedLink to={`/${locale.code}/`}>{locale.localName}</LocalizedLink>
+                </div>
+              ))}
+            </nav>
+          </noscript>
         </nav>
         <p className="mt-8 text-center text-base text-gray-500" dir="auto">
           {translate('copyright.line1')}

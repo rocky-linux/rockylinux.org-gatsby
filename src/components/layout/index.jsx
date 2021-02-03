@@ -5,8 +5,7 @@ const Layout = ({ children }) => {
     <div className="relative bg-gray-50 dark:bg-gray-900 overflow-hidden">
       <noscript>
         <style>{`
-          #languagePicker {display:none;}
-          #languageIcon {display:none;}
+          #LanguageDiv {display:none;}
         `}
         </style>
       </noscript>
