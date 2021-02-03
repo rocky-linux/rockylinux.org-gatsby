@@ -17,3 +17,7 @@ fields:
 - type: text
   name: posttype
   label: posttype
+  hidden: true
+  config:
+    required: true
+  default: press
