@@ -9,6 +9,8 @@ sections:
   label: Press
   create: documents
   match: "**/*"
+  templates:
+  - press-link
 - type: directory
   path: content/news
   label: News
