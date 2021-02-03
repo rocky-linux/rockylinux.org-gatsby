@@ -1,0 +1,19 @@
+---
+label: Press Link
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: text
+  name: url
+  label: url
+- type: text
+  name: posttype
+  label: posttype
