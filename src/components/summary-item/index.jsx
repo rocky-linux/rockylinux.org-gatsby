@@ -4,7 +4,7 @@ import { LocalizedLink } from 'gatsby-theme-i18n';
 const SummaryItem = ({ name, description, date, link = false, internal = false }) => {
 
   return (
-          <LocalizedLink to={link} className="relative block p-px overflow-hidden transition duration-300 transform rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+          <LocalizedLink to={link} className="relative block p-px overflow-hidden transition duration-300 transform rounded-lg shadow-sm hover:scale-105 group hover:shadow-xl">
             <div
               className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100"></div>
             <div
