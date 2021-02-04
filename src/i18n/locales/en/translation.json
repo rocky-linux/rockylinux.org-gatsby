@@ -2,7 +2,7 @@
   "language": "en",
   "copyright": {
     "line1": "© 2021 The Rocky Linux Project. All rights reserved.",
-    "line2": "CentOS is a registered trademark of Red Hat, Inc. The Rocky Linux Project is not affiliated with, nor endorsed by Red Hat, Inc."
+    "line2": "Red Hat and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat or the CentOS Project."
   },
   "errors": {
     "404": {
