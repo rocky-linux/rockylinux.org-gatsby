@@ -59,7 +59,7 @@ const Index = ({ pageContext: { locale: language } }) => {
         </div>
       </div>
       <div className="bg-gray-50 dark:bg-gray-900" dir="auto">
-        <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl md:mx-auto text-center">
@@ -78,7 +78,7 @@ const Index = ({ pageContext: { locale: language } }) => {
           <div className="max-w-screen-xl sm:mx-auto">
             <div className="mt-6 mb-2">
               <dl className="space-y-8 divide-y divide-gray-300 dark:divide-white">
-                <div className="pt-6 md:grid md:grid-cols-12 md:gap-8">
+                <div className="md:grid md:grid-cols-12 md:gap-8">
                   <dt className="text-base font-bold text-gray-900 dark:text-gray-200 md:col-span-5">
                     {translate('faq.q.downstream-partner-direction')}
                   </dt>
