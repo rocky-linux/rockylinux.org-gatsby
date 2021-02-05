@@ -11,6 +11,7 @@ import SEO from '../components/seo';
 import CtrlIqLogo from '../images/ciq.png';
 import MattermostLogo from '../images/mattermost.png';
 import AwsLogo from '../images/aws.png';
+import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const Index = ({ pageContext: { locale: language } }) => {
 
@@ -64,6 +65,14 @@ const Index = ({ pageContext: { locale: language } }) => {
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl md:mx-auto text-center">
                 {translate('faq.title')}
               </h2>
+              <div className="text-center mt-5">
+                <LocalizedLink
+                  to="/faq/"
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
+                >
+                  See More
+                </LocalizedLink>
+              </div>
             </div>
           </div>
           <div className="max-w-screen-xl sm:mx-auto">
@@ -135,7 +144,7 @@ const Index = ({ pageContext: { locale: language } }) => {
             </div>
           </div>
           <div className="text-center">
-            <Link
+            <LocalizedLink
                 to="/sponsors/"
                 className="mb-2 inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
             >
@@ -146,7 +155,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                         </svg>
                 </span>
               See All
-            </Link>
+            </LocalizedLink>
           </div>
         </div>
       </div>
