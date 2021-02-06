@@ -33,12 +33,12 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors;
   }
 
-  result.data.allMarkdownRemark.edges.forEach(edge => {
-    if (edge.node.frontmatter.posttype === "press") {
+  result.data.allMarkdownRemark.edges.forEach((edge) => {
+    if (edge.node.frontmatter.posttype === 'press') {
       createPage({
         path: edge.node.frontmatter.path,
         component: pressLinkTemplate,
-        context: {}
+        context: {},
       });
     } else {
       createPage({
@@ -92,7 +92,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       date: Date @dateformat
       url: String
     }
-    
+
     type Fields {
       slug: String
     }

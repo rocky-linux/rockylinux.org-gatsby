@@ -45,14 +45,14 @@ chore(merge): main -> develop
 ## Pull requests
 
 Allow us to preface this by saying - All bug fixes, feature implementations,
-documentation improvements, issues, etc. are all *very* much welcome. We
+documentation improvements, issues, etc. are all _very_ much welcome. We
 don't wish to discourage any such contributions, quite the opposite. With
 that said, we must ask that:
 
 - Pull requests must be linked to an issue and must be made against the
   `develop` branch. If there is no issue currently open describing the
   issue/feature request you are contributing a solution to, open one yourself
-  first, *before* you make a PR. This is to ensure that we know every part of
+  first, _before_ you make a PR. This is to ensure that we know every part of
   our project is organized well, and makes sure that we are able to track every
   problem and enhancement the community would like to raise with us.
 

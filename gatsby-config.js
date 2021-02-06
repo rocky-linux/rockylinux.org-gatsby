@@ -5,7 +5,8 @@ module.exports = {
     // Site Title
     title: 'Rocky Linux',
     // Site Description
-    description: 'Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux.',
+    description:
+      'Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux.',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -65,7 +66,7 @@ module.exports = {
         background_color: `#10B981`,
         theme_color: `#10B981`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/logo.png`
+        icon: `src/images/logo.png`,
       },
     },
     {
@@ -81,7 +82,32 @@ module.exports = {
         locales: `./src/i18n/locales`,
         i18nextOptions: {
           debug: process.env.NODE_ENV === 'development',
-          supportedLngs: ['en', 'tr', 'es', 'nl', 'it', 'de', 'fr', 'lv', 'pt-pt','pt-br', 'pl', 'id', 'ru', 'uk', 'vi', 'ja', 'ar', 'fa', 'zh-cn', 'zh-hk', 'zh-tw', 'ko', 'sv', 'ca'],
+          supportedLngs: [
+            'en',
+            'tr',
+            'es',
+            'nl',
+            'it',
+            'de',
+            'fr',
+            'lv',
+            'pt-pt',
+            'pt-br',
+            'pl',
+            'id',
+            'ru',
+            'uk',
+            'vi',
+            'ja',
+            'ar',
+            'fa',
+            'zh-cn',
+            'zh-hk',
+            'zh-tw',
+            'ko',
+            'sv',
+            'ca',
+          ],
           fallbackLng: 'en',
           lowerCaseLng: 'true',
           load: 'currentOnly',
