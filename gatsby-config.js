@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://rockylinux.org`,
+    siteUrl: 'https://rockylinux.org',
     // Site Title
-    title: `Rocky Linux`,
+    title: 'Rocky Linux',
     // Site Description
-    description: `Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux.`,
+    description: 'Rocky Linux is an open enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux.',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
