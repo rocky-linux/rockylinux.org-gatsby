@@ -1,9 +1,9 @@
 {
-  "name": "devfolio",
+  "name": "rockylinux.org",
   "private": true,
-  "description": "A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS",
+  "description": "The official website for the Rocky Linux project.",
   "version": "0.1.0",
-  "author": "Ryan Fitzgerald",
+  "author": "Rocky Linux Web Team <www@rockylinux.org> (https://rockylinux.org)",
   "dependencies": {
     "@headlessui/react": "^0.2.0",
     "gatsby": "^2.32.3",
@@ -55,9 +55,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanFitzgerald/devfolio"
+    "url": "https://github.com/rocky-linux/rockylinux.org"
   },
   "bugs": {
-    "url": "https://github.com/RyanFitzgerald/devfolio/issues"
+    "url": "https://github.com/rocky-linux/rockylinux.org/issues"
   }
 }
