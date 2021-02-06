@@ -19,7 +19,10 @@ const SEO = ({ description, lang, meta, image: metaImage, title }) => {
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const image = metaImage && metaImage.src ? `${site.siteMetadata.siteUrl}${metaImage.src}` : null;
+  const image =
+    metaImage && metaImage.src
+      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
+      : null;
   const defaultTitle = site.siteMetadata?.title;
   const finalTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
 
@@ -47,22 +50,22 @@ const SEO = ({ description, lang, meta, image: metaImage, title }) => {
           content: metaDescription,
         },
         {
-          property: "og:image",
+          property: 'og:image',
           content: CoverImg,
         },
         {
-          property: "og:image:width",
+          property: 'og:image:width',
           content: 800,
         },
         {
-          property: "og:image:height",
+          property: 'og:image:height',
           content: 600,
         },
         {
-          name: "twitter:card",
-          content: "summary_large_image",
+          name: 'twitter:card',
+          content: 'summary_large_image',
         },
-        ].concat(meta)}
+      ].concat(meta)}
     />
   );
 };

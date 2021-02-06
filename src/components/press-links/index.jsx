@@ -10,7 +10,10 @@ const PressLinks = ({ posts }) => {
   const { config } = useLocalization();
 
   return (
-    <Section title={translate('press.title')} description={translate('press.description')}>
+    <Section
+      title={translate('press.title')}
+      description={translate('press.description')}
+    >
       {posts.map((post) => (
         <PressSummaryItem
           key={post.node.fields.slug}

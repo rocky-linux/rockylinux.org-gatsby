@@ -4,7 +4,8 @@ const Layout = ({ children }) => {
   return (
     <div className="relative bg-gray-50 dark:bg-gray-900 overflow-hidden">
       <noscript>
-        <style>{`
+        <style>
+          {`
           #LanguageDiv {display:none;}
         `}
         </style>

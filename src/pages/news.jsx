@@ -19,9 +19,12 @@ const Index = ({ data, pageContext: { locale: language } }) => {
   return (
     <Layout>
       <SEO title="News" />
-      <Header metadata={data.site.siteMetadata} pageContext= "{locale: language}" />
+      <Header
+        metadata={data.site.siteMetadata}
+        pageContext="{locale: language}"
+      />
       {!noBlog && <BlogPosts posts={posts} />}
-      <Footer pageContext= "{locale: language}" />
+      <Footer pageContext="{locale: language}" />
     </Layout>
   );
 };

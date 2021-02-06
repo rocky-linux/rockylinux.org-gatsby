@@ -16,13 +16,10 @@ const Section = ({ title, children, description }) => {
           </div>
         </div>
         <div className="px-4">
-          <div className="grid gap-4 row-gap-6 lg:grid-cols-1">
-            {children}
-          </div>
+          <div className="grid gap-4 row-gap-6 lg:grid-cols-1">{children}</div>
         </div>
       </div>
     </main>
-
   );
 };
 
