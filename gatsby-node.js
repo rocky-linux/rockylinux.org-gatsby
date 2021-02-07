@@ -1,6 +1,57 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
+async function paginate({ graphql, actions, type }) {
+
+  const newsPage = path.resolve(`./src/pages/news.jsx`);
+  const result = await graphql(
+    `
+      {
+        allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, limit: 1000, filter: {frontmatter: {posttype: {eq: "${type}"}}}) {
+          totalCount
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                posttype
+              }
+            }
+          }
+        }
+      }
+    `
+  );
+
+  console.log("Result is coming:");
+  console.log(result);
+
+  if (result.errors) {
+    throw result.errors;
+  }
+
+  const { totalCount } = result.data.allMarkdownRemark;
+  const pages = Math.ceil(totalCount / 3);
+
+  Array.from({ length: pages }).forEach((_, i) =>{
+    //Dynamically create for each page
+    actions.createPage({
+      path: i === 0 ? `/news/` : `/news/${i + 1}`,
+      component: newsPage,
+      context: {
+        skip: i * 3,
+        currentPage: i + 1,
+      }
+    })
+  })
+}
+
+async function createPostsFromMdx({ graphql, actions }) {
+
+}
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
@@ -21,6 +72,7 @@ exports.createPages = async ({ graphql, actions }) => {
               frontmatter {
                 title
                 date
+                posttype
               }
             }
           }
@@ -33,13 +85,21 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors;
   }
 
+  await Promise.all([
+    paginate({ graphql, actions, type: 'news' }),
+  ]);
+
   result.data.allMarkdownRemark.edges.forEach((edge) => {
+    console.log(edge.node.frontmatter.posttype);
     if (edge.node.frontmatter.posttype === 'press') {
       createPage({
-        path: edge.node.frontmatter.path,
-        component: pressLinkTemplate,
-        context: {},
+        path: edge.node.fields.slug,
+        component: blogPost,
+        context: {
+          slug: edge.node.fields.slug,
+        },
       });
+    // if (edge.node.frontmatter.posttype !== 'news')
     } else {
       createPage({
         path: edge.node.fields.slug,
