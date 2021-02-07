@@ -127,8 +127,8 @@ module.exports = {
       options: {
         siteId: '1',
         matomoUrl: 'https://analytics.rockylinux.org',
-        siteUrl: 'https://rockylinux.org'
-      }
+        siteUrl: 'https://rockylinux.org',
+      },
     },
   ],
 };
