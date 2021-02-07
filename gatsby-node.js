@@ -25,9 +25,6 @@ async function paginate({ graphql, actions, type }) {
     `
   );
 
-  console.log("Result is coming:");
-  console.log(result);
-
   if (result.errors) {
     throw result.errors;
   }
@@ -38,7 +35,7 @@ async function paginate({ graphql, actions, type }) {
   Array.from({ length: pages }).forEach((_, i) =>{
     //Dynamically create for each page
     actions.createPage({
-      path: i === 0 ? `/news/` : `/news/${i + 1}`,
+      path: i === 0 ? `/news` : `/news/${i + 1}`,
       component: newsPage,
       context: {
         skip: i * 3,
@@ -46,10 +43,6 @@ async function paginate({ graphql, actions, type }) {
       }
     })
   })
-}
-
-async function createPostsFromMdx({ graphql, actions }) {
-
 }
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -90,7 +83,6 @@ exports.createPages = async ({ graphql, actions }) => {
   ]);
 
   result.data.allMarkdownRemark.edges.forEach((edge) => {
-    console.log(edge.node.frontmatter.posttype);
     if (edge.node.frontmatter.posttype === 'press') {
       createPage({
         path: edge.node.fields.slug,
@@ -99,8 +91,8 @@ exports.createPages = async ({ graphql, actions }) => {
           slug: edge.node.fields.slug,
         },
       });
-    // if (edge.node.frontmatter.posttype !== 'news')
-    } else {
+    //
+    } else if (edge.node.frontmatter.posttype !== 'news') {
       createPage({
         path: edge.node.fields.slug,
         component: blogPost,
