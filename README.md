@@ -10,7 +10,7 @@ The Rocky Linux landing page, built using [Gatsby](https://gatsbyjs.com) and [Ta
 
 - [x] News Posts
 - [x] Press Page and Content
-- [ ] Pagination for Content Lists (News & Press Lists)
+- [x] Pagination for Content Lists (News & Press Lists)
 - [x] Sponsors Page
 - [x] Localization (i18n)
 - [x] Remove unnecessary fluff from starter project
