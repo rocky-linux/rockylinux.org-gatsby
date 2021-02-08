@@ -2,7 +2,6 @@ const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 async function paginate({ graphql, actions, type }) {
-
   const newsPage = path.resolve(`./src/pages/news.jsx`);
   const result = await graphql(
     `
@@ -32,7 +31,7 @@ async function paginate({ graphql, actions, type }) {
   const { totalCount } = result.data.allMarkdownRemark;
   const pages = Math.ceil(totalCount / 3);
 
-  Array.from({ length: pages }).forEach((_, i) =>{
+  Array.from({ length: pages }).forEach((_, i) => {
     //Dynamically create for each page
     actions.createPage({
       path: i === 0 ? `/news/` : `/news/${i + 1}`,
@@ -40,9 +39,9 @@ async function paginate({ graphql, actions, type }) {
       context: {
         skip: i * 3,
         currentPage: i + 1,
-      }
-    })
-  })
+      },
+    });
+  });
 }
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -78,9 +77,7 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors;
   }
 
-  await Promise.all([
-    paginate({ graphql, actions, type: 'news' }),
-  ]);
+  await Promise.all([paginate({ graphql, actions, type: 'news' })]);
 
   result.data.allMarkdownRemark.edges.forEach((edge) => {
     if (edge.node.frontmatter.posttype === 'press') {
@@ -91,7 +88,7 @@ exports.createPages = async ({ graphql, actions }) => {
           slug: edge.node.fields.slug,
         },
       });
-    //
+      //
     } else if (edge.node.frontmatter.posttype !== 'news') {
       createPage({
         path: edge.node.fields.slug,
