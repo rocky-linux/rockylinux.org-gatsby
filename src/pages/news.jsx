@@ -7,10 +7,14 @@ import Footer from '../components/footer';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import NotFound from '../pages/404';
+import Pagination from '../components/pagination';
 
-const Index = ({ data, pageContext: { locale: language } }) => {
+const Index = ({ data, pageContext }) => {
+
   const posts = data.allMarkdownRemark.edges;
   const noBlog = !posts || !posts.length;
+
+  const totalCount = data.allMarkdownRemark.totalCount;
 
   if (!posts || !posts.length) {
     return <NotFound />;
@@ -21,10 +25,15 @@ const Index = ({ data, pageContext: { locale: language } }) => {
       <SEO title="News" />
       <Header
         metadata={data.site.siteMetadata}
-        pageContext="{locale: language}"
+        pageContext="{pageContext.language}"
       />
       {!noBlog && <BlogPosts posts={posts} />}
-      <Footer pageContext="{locale: language}" />
+      <Pagination
+        totalCount={totalCount}
+        currentPage={pageContext.currentPage}
+        itemPerPage={pageContext.itemPerPage}
+      />
+      <Footer pageContext="{pageContext.language}" />
     </Layout>
   );
 };
@@ -32,7 +41,7 @@ const Index = ({ data, pageContext: { locale: language } }) => {
 export default Index;
 
 export const pageQuery = graphql`
-  query {
+  query news($skip: Int! = 0) {
     site {
       siteMetadata {
         name
@@ -43,7 +52,10 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: ASC }
       filter: { frontmatter: { posttype: { eq: "news" } } }
+      limit: 3
+      skip: $skip
     ) {
+      totalCount
       edges {
         node {
           excerpt

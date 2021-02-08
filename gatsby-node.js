@@ -1,6 +1,41 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
+async function paginate({ graphql, actions, type, itemPerPage }) {
+  const newsTemplate = path.resolve('./src/pages/news.jsx');
+  const result = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: DESC }
+          filter: { frontmatter: { posttype: { eq: "${type}" } } }) {
+          totalCount
+        }
+      }
+    `
+  );
+
+  if (result.errors) {
+    throw result.errors;
+  }
+
+  const { totalCount } = result.data.allMarkdownRemark;
+  const newsPerPage = 3;
+  const pages = Math.ceil(totalCount / newsPerPage);
+
+  Array.from({ length: pages }).forEach((_, i) => {
+    actions.createPage({
+      path: `/news/${i + 1}`,
+      component: newsTemplate,
+      context: {
+        skip: i * newsPerPage,
+        currentPage: i + 1,
+        itemPerPage: itemPerPage,
+      }
+    });
+  });
+}
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
@@ -50,6 +85,10 @@ exports.createPages = async ({ graphql, actions }) => {
       });
     }
   });
+
+  await Promise.all([
+    paginate({ graphql, actions, type: 'news', itemPerPage: 3 }),
+  ])
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
