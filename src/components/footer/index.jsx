@@ -33,7 +33,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="px-5 py-2">
             <LocalizedLink
-              to="/press/"
+              to="/press/1/"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
               {translate('links.press')}

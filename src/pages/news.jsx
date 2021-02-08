@@ -32,6 +32,7 @@ const Index = ({ data, pageContext }) => {
         totalCount={totalCount}
         currentPage={pageContext.currentPage}
         itemPerPage={pageContext.itemPerPage}
+        type={pageContext.type}
       />
       <Footer pageContext="{pageContext.language}" />
     </Layout>
