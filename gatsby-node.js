@@ -35,7 +35,7 @@ async function paginate({ graphql, actions, type }) {
   Array.from({ length: pages }).forEach((_, i) =>{
     //Dynamically create for each page
     actions.createPage({
-      path: i === 0 ? `/news` : `/news/${i + 1}`,
+      path: i === 0 ? `/news/` : `/news/${i + 1}`,
       component: newsPage,
       context: {
         skip: i * 3,
