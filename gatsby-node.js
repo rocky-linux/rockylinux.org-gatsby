@@ -29,15 +29,18 @@ async function paginate({ graphql, actions, type }) {
   }
 
   const { totalCount } = result.data.allMarkdownRemark;
-  const pages = Math.ceil(totalCount / 3);
+  const newsPerPage = 3;
+  const pages = Math.ceil(totalCount / newsPerPage);
 
   Array.from({ length: pages }).forEach((_, i) => {
     //Dynamically create for each page
     actions.createPage({
-      path: i === 0 ? `/news/` : `/news/${i + 1}`,
+      path: i === 0 ? `/news` : `news/${i + 1}`,
       component: newsPage,
       context: {
-        skip: i * 3,
+        limit: newsPerPage,
+        skip: i * newsPerPage,
+        pages,
         currentPage: i + 1,
       },
     });
