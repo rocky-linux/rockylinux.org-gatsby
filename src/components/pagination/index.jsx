@@ -17,21 +17,19 @@ export default function Pagination({
   const nextPath = `/${type}/${nextPage}`;
 
   return (
-    <div className="text-center aria-label=Mattermost pagination-navi">
+    <div className="text-center pagination-navi text-gray-900 dark:text-gray-50">
       <LocalizedLink
-        class={previousPage <= 0 ? 'disabled' : null}
         to={prevPath}
+        className={`${previousPage <= 0 ? 'disabled' : null} mr-5 inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out`}
       >
-        {' '}
-        Previous Page{' '}
+          {`<`}
       </LocalizedLink>
-      | {currentPage} of {totalPages} |
+      {currentPage} of {totalPages}
       <LocalizedLink
-        class={nextPage > totalPages ? 'disabled' : null}
         to={nextPath}
+        className={`${nextPage > totalPages ? 'disabled' : null} ml-5 inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out`}
       >
-        {' '}
-        Next Page{' '}
+          {`>`}
       </LocalizedLink>
     </div>
   );
