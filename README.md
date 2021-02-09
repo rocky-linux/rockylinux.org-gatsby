@@ -6,16 +6,6 @@
 
 The Rocky Linux landing page, built using [Gatsby](https://gatsbyjs.com) and [TailwindCSS](https://tailwindcss.com).
 
-## To Do
-
-- [x] News Posts
-- [x] Press Page and Content
-- [x] Pagination for Content Lists (News & Press Lists)
-- [x] Sponsors Page
-- [x] Localization (i18n)
-- [x] Remove unnecessary fluff from starter project
-- [x] Implement re-used content to components
-
 ## Start Development Server
 
 1. Install dependencies via NPM.
