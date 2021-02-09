@@ -2,7 +2,6 @@ const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 async function paginate({ graphql, actions, type, itemPerPage }) {
-
   const template = path.resolve('./src/pages/' + type + '.jsx');
   const result = await graphql(
     `
@@ -32,7 +31,7 @@ async function paginate({ graphql, actions, type, itemPerPage }) {
         currentPage: i + 1,
         itemPerPage: itemPerPage,
         type: type,
-      }
+      },
     });
   });
 }
@@ -90,7 +89,7 @@ exports.createPages = async ({ graphql, actions }) => {
   await Promise.all([
     paginate({ graphql, actions, type: 'news', itemPerPage: 3 }),
     paginate({ graphql, actions, type: 'press', itemPerPage: 5 }),
-  ])
+  ]);
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

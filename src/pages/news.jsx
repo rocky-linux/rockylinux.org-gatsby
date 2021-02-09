@@ -10,7 +10,6 @@ import NotFound from '../pages/404';
 import Pagination from '../components/pagination';
 
 const Index = ({ data, pageContext }) => {
-
   const posts = data.allMarkdownRemark.edges;
   const noBlog = !posts || !posts.length;
 
