@@ -146,3 +146,10 @@ pre {
     filter: brightness(0%);
   }
 }
+
+.pagination-navi .disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+  text-decoration: none;
+}
