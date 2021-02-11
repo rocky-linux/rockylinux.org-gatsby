@@ -153,3 +153,7 @@ pre {
   cursor: not-allowed;
   text-decoration: none;
 }
+
+.icon-404 {
+  height: 250px;
+}
