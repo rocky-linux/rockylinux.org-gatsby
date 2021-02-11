@@ -1,5 +1,4 @@
 import { graphql } from 'gatsby';
-import moment from 'moment';
 import React from 'react';
 
 import Header from '../components/header';
@@ -28,7 +27,7 @@ const BlogPost = ({ data }) => {
               {post.frontmatter.title}
             </h2>
             <span className="dark:text-gray-300 italic">
-              {moment(post.frontmatter.date).format('MMMM D, YYYY')}
+              {post.frontmatter.date}
             </span>
           </div>
 

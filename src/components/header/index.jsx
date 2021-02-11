@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { Translate } from '../../i18n/utils/translate';

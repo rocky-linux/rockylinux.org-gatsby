@@ -19,10 +19,6 @@ const SEO = ({ description, lang, meta, image: metaImage, title }) => {
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const image =
-    metaImage && metaImage.src
-      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
-      : null;
   const defaultTitle = site.siteMetadata?.title;
   const finalTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
 

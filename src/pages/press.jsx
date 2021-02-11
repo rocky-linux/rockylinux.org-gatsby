@@ -11,7 +11,6 @@ import Pagination from '../components/pagination';
 
 const Index = ({ data, pageContext }) => {
   const posts = data.allMarkdownRemark.edges;
-  const noBlog = !posts || !posts.length;
 
   const totalCount = data.allMarkdownRemark.totalCount;
 

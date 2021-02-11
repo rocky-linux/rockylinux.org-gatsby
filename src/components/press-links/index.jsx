@@ -3,11 +3,9 @@ import React from 'react';
 import Section from '../section';
 import { Translate } from '../../i18n/utils/translate';
 import PressSummaryItem from '../press-summary-item';
-import { useLocalization } from 'gatsby-theme-i18n';
 
 const PressLinks = ({ posts }) => {
   const translate = Translate();
-  const { config } = useLocalization();
 
   return (
     <Section

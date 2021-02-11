@@ -1,5 +1,4 @@
 import React from 'react';
-import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const PressSummaryItem = ({
   name,
