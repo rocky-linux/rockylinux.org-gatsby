@@ -122,13 +122,5 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: 'gatsby-plugin-matomo',
-      options: {
-        siteId: '1',
-        matomoUrl: 'https://analytics.rockylinux.org',
-        siteUrl: 'https://rockylinux.org',
-      },
-    },
   ],
 };
