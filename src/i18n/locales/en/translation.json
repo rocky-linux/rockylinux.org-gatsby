@@ -27,7 +27,7 @@
       "heading": "Rocky Linux"
     },
     "p2": {
-      "content": "Rocky Linux is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution now that its downstream partner has shifted direction. It is under intensive development by the community. Rocky Linux is led by Gregory Kurtzer, founder of the CentOS project. There is no ETA for a release. Contributors are asked to reach out using the communication options offered on this site.",
+      "content": "Rocky Linux is a community enterprise operating system designed to be 100% bug-for-bug compatible with America's top enterprise Linux distribution now that its downstream partner has shifted direction. It is under intensive development by the community. Rocky Linux is led by Gregory Kurtzer, founder of the CentOS project. The current ETA for initial release is March 31. Contributors are asked to reach out using the communication options offered on this site.",
       "heading": "What is the Rocky Linux project?"
     }
   },

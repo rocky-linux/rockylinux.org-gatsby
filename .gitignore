@@ -174,3 +174,5 @@ fabric.properties
 .idea/codestream.xml
 
 .idea/codeStyles/Project.xml
+
+package-lock.json

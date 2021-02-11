@@ -40,7 +40,7 @@ const Header = ({ pageContext: { locale: language } }) => {
         </LocalizedLink>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <LocalizedLink
-            to="/news/"
+            to="/news/1/"
             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
             {translate('links.posts')}
@@ -167,7 +167,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                   <ul className="space-y-4">
                     <li>
                       <LocalizedLink
-                        to="/news/"
+                        to="/news/1/"
                         aria-label="News"
                         title="News"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
