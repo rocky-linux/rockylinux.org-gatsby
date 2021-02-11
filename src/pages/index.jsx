@@ -1,6 +1,5 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import { Link } from 'gatsby';
 import { Translate } from '../i18n/utils/translate';
 
 import Header from '../components/header';
