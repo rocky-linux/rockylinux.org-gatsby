@@ -5,4 +5,5 @@ description: 'Los días de CentOS están contados'
 url: 'https://nuevoperiodico.com/los-dias-de-centos-estan-contados/'
 posttype: 'press'
 ---
+
 [Read the Article](https://nuevoperiodico.com/los-dias-de-centos-estan-contados/)

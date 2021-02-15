@@ -5,4 +5,5 @@ description: 'Gregory Kurtzer discusses plans for Rocky Linux with Wikinews as R
 url: 'https://en.wikinews.org/wiki/Gregory_Kurtzer_discusses_plans_for_Rocky_Linux_with_Wikinews_as_Red_Hat_announces_moving_focus_away_from_CentOS'
 posttype: 'press'
 ---
+
 [Read the Article](https://en.wikinews.org/wiki/Gregory_Kurtzer_discusses_plans_for_Rocky_Linux_with_Wikinews_as_Red_Hat_announces_moving_focus_away_from_CentOS)
