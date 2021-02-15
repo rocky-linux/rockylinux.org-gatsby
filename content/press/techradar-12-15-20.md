@@ -5,3 +5,4 @@ description: 'Here’s another CentOS clone - and this one is backed by a millio
 url: 'https://www.techradar.com/news/heres-another-centos-clone-and-this-one-is-backed-by-a-million-dollars-a-year'
 posttype: 'press'
 ---
+[Read the Article](https://www.techradar.com/news/heres-another-centos-clone-and-this-one-is-backed-by-a-million-dollars-a-year)

@@ -5,3 +5,4 @@ description: 'CloudLinux y el nuevo Rocky Linux llegan al rescate de los usuario
 url: 'https://newsbeezer.com/mexico/cloudlinux-y-el-nuevo-rocky-linux-llegan-al-rescate-de-los-usuarios-de-centos-despues-del-volante-de-red-hat/'
 posttype: 'press'
 ---
+[Read the Article](https://newsbeezer.com/mexico/cloudlinux-y-el-nuevo-rocky-linux-llegan-al-rescate-de-los-usuarios-de-centos-despues-del-volante-de-red-hat/)

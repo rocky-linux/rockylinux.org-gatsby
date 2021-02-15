@@ -5,3 +5,4 @@ description: 'Rocky Linux: Developers say the first release is scheduled for the
 url: 'https://exbulletin.com/tech/635890/'
 posttype: 'press'
 ---
+[Read the Article](https://exbulletin.com/tech/635890/)
