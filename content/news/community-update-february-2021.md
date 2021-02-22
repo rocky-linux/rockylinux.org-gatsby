@@ -1,6 +1,6 @@
 ---
 title: Community Update - February 2021
-date: '2020-02-22'
+date: '2021-02-22'
 description: 'Release engineering is on pace with the timelines previously documented to provide a release of Rocky Linux by Q2 2021. Read our latest update to find out more!'
 posttype: 'news'
 ---
