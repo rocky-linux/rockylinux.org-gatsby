@@ -13,23 +13,18 @@ Release engineering is on pace with the timelines previously documented to provi
 
 In our previous update, we listed a number of items and gave dates to them. We remain committed to delivering an initial release of Rocky Linux by Q2. Here are what we listed previously, and where we stand with each:
 
-
-
--   Build systems and infrastructure readiness - January 31 [DONE]
--   Automatic package build infrastructures - January 31 [DONE]
--   Testing package repository made public - February 28 [In progress]
--   Installer testing readiness - February 28 [In progress]
--   ETA for length of time needed for community testing - March 31 [In progress]
--   Release candidate availability - March 31 [On Pace]
+- Build systems and infrastructure readiness - January 31 [DONE]
+- Automatic package build infrastructures - January 31 [DONE]
+- Testing package repository made public - February 28 [In progress]
+- Installer testing readiness - February 28 [In progress]
+- ETA for length of time needed for community testing - March 31 [In progress]
+- Release candidate availability - March 31 [On Pace]
 
 ---
-
 
 ## Legal
 
 The Linux Foundation has granted us a sub-license to legally use “Linux'' in the distribution’s name “Rocky Linux.” We have renamed the “Rocky Linux Foundation'' (RESF) to the “Rocky Enterprise Software Foundation” and changed it to a Public Benefits Organization in Delaware.
-
-
 
 ## Infrastructure
 
@@ -37,13 +32,9 @@ The build infrastructure for our first deployment in us-east-2 was completed and
 
 The next steps for the Infrastructure team is to ensure documentation (both internal and external) is accurate and up-to-date, and then to finalize the translation of the current infrastructure to automation tooling so we can replicate deployments to additional regions. These regions include Development, us-west-2, and GovCloud. Alerting automation is also in progress, so not only are we monitoring our metrics and syslogs, but when issues arise we are receiving the appropriate notifications to enable the team to respond accordingly in a timely manner. We continue to make progress toward an alternate build infrastructure to AWS and hope to have an announcement by the March community update.
 
-
-
 ## Release Engineering and Packaging
 
 The team is working on building packages and getting the processes ready to assemble the final release. This includes things like validating the operation of Pungi (repo/image compositions), and nailing the package build order. An [overview of the build process](https://wiki.rockylinux.org/en/Development/Build_Steps) can be found on our wiki. We’re seeking volunteers that can assist with debranding, so if this is an area you’d like to contribute, please reach out! An [overview of the steps for debranding](https://wiki.rockylinux.org/en/Development/Debranding/Debrand_Howto) is on the wiki, with a more detailed guide to shortly follow.
-
-
 
 ## Merchandise
 
@@ -65,11 +56,6 @@ The migration from Slack to Mattermost has been completed, and all of the legacy
 
 Lastly, be sure to check out the [latest episode](https://mattermost.com/blog/what-matters-episode-12-rocky-linux-with-jordan-pisaniello/) of “What Matters” a podcast by Mattermost where Community Manager Jordan Pisaniello sits down to discuss Rocky Linux.
 
-
-
-
-
-
 ## Documentation
 
 The Documentation team has been rapidly growing and has made great progress toward putting forward documentation of the highest quality, with a number of community members stepping up and taking ownership of the massive effort. The team is organizing around a number of topics, such as:
@@ -88,40 +74,39 @@ The team meets virtually once a month to plan and review progress, with scheduli
 
 Finally, we would like a special recognition of the Documentation Admin team—Calder Sheagren and Ezequiel Brun—for helping to keep us organized and on-task.
 
-
-
 ## Sponsors and Donations
 
 We’ve finalized the levels for sponsorships, which provide various benefits based on annual commitments. The tiers and benefits are as follows:
 
 #### Tier 1 - Principal Sponsors
--   “Principal Sponsor” level media kit and rights to use trademarks
--   Top placement of Company Logo on Sponsorship page
--   Includes a link to company’s website
--   180 character summary of company
--   Rotating logo/link featured on our main landing page
--   Quote from the RESF leadership team to be included in companies marketing collateral about support for RESF
--   Collaboration with the RESF team on individualized case studies, white papers, webinars, or other material
 
+- “Principal Sponsor” level media kit and rights to use trademarks
+- Top placement of Company Logo on Sponsorship page
+- Includes a link to company’s website
+- 180 character summary of company
+- Rotating logo/link featured on our main landing page
+- Quote from the RESF leadership team to be included in companies marketing collateral about support for RESF
+- Collaboration with the RESF team on individualized case studies, white papers, webinars, or other material
 
 #### Tier 2
--   “Tier 2” level media kit and rights to use trademarks
--   Inclusion of Company Logo on Sponsorship page
--   Includes a link to company’s website
--   90 character company tagline
--   Quote from the RESF leadership team to be included in companies marketing collateral about support for RESF
 
+- “Tier 2” level media kit and rights to use trademarks
+- Inclusion of Company Logo on Sponsorship page
+- Includes a link to company’s website
+- 90 character company tagline
+- Quote from the RESF leadership team to be included in companies marketing collateral about support for RESF
 
 #### Tier 3
--   “Tier 3” level media kit and rights to use trademarks
--   Inclusion of Company Logo on Sponsorship page
--   Includes a link to company’s website
 
+- “Tier 3” level media kit and rights to use trademarks
+- Inclusion of Company Logo on Sponsorship page
+- Includes a link to company’s website
 
 #### Tier 4
--   “Tier 4” level media kit and rights to use trademarks
--   Inclusion of name in dedicated section on Sponsorship page
--   Includes a link to company’s website
+
+- “Tier 4” level media kit and rights to use trademarks
+- Inclusion of name in dedicated section on Sponsorship page
+- Includes a link to company’s website
 
 We would also like to recognize [45drives](https://www.45drives.com/) and [OpenDrives](https://opendrives.com/), who have recently signed on to be Principal Sponsors.
 
@@ -131,22 +116,13 @@ We’d also like to send out a very special ‘thank you’ to the individuals w
 
 Finally, we have the option of forming partnerships with organizations. These are not based on any annual fee, but are instead geared toward ongoing collaboration and strategic initiatives. Contact us at [partners@rockylinux.org](mailto:partners@rockylinux.org) if is something your organization would like to explore.
 
-
-
-
-
 ## Organizational Structure
 
 We believe in ensuring that all perspectives are heard and taken into consideration while maintaining a strong commitment to our vision, mission, goals, integrity, and values with the highest degree of transparency possible. We count on the community, contributors, donors, sponsors, and partners all to hold us accountable to our pledge.
 
 The organization of RESF is composed of a tiered structure of teams, each including three primary roles: leads, deputies, and members. This ensures that all members have visibility and say into governance and decision making, ensuring equal representation across the organization. You can learn more about how we’ve structured ourselves [here](https://forums.rockylinux.org/t/organizational-structure).
 
-
-
-
 As always, if you have any questions, comments, concerns, suggestions, or if you would like to help out, feel free to discuss below or send a note to [hello@rockylinux.org](mailto:hello@rockylinux.org).
-
-
 
 <span class="mb-2">
   Sincerely,<br/>
