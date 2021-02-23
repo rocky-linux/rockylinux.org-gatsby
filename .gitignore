@@ -176,3 +176,5 @@ fabric.properties
 .idea/codeStyles/Project.xml
 
 package-lock.json
+
+.idea/inspectionProfiles/Project_Default.xml
