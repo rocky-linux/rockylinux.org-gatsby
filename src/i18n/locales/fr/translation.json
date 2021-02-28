@@ -42,13 +42,13 @@
     "get-in-touch": "Contactez-nous",
     "get-involved": "S'engager",
     "go-home": "Retour à l'accueil",
-    "join-the-discussion": "Participer aux discussions",
-    "posts": "News",
-    "show-your-interest": "Show Your Interest",
+    "join-the-discussion": "Participez aux discussions",
+    "posts": "Nouveautés",
+    "show-your-interest": "Faites part de votre intérêt",
     "sponsors": "Sponsors",
-    "donate": "Donate",
-    "store": "Store",
-    "press": "Press"
+    "donate": "Don",
+    "store": "Boutique",
+    "press": "Presse"
   },
   "socials": {
     "forums": "Forums",
@@ -58,15 +58,15 @@
     "twitter": "Twitter"
   },
   "news": {
-    "title": "News",
-    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
+    "title": "Nouveautés",
+    "description": "Restez au courant de l'avancée du projet Rocky Linux."
   },
   "press": {
-    "title": "Press",
-    "description": "See the latest about Rocky in the press."
+    "title": "Presse",
+    "description": "Voir l'actualité de Rocky dans la presse."
   },
   "sponsors": {
     "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project."
+    "description": "Nous souhaitons remercier nos sponsors de nous soutenir dans ce projet."
   }
 }
