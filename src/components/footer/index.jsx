@@ -116,26 +116,6 @@ const Footer = ({ pageContext: { locale: language } }) => {
               />
             </svg>
           </a>
-          <Link
-            to="/rss.xml"
-            className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
-          >
-            <span className="sr-only">RSS</span>
-            <svg
-              className="h-6 w-6"
-              stroke="currentColor"
-              fill="none"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z"
-              />
-            </svg>
-          </Link>
         </div>
         <nav
           className="mt-5 flex flex-wrap justify-center"
