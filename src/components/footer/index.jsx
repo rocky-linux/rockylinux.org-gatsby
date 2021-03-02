@@ -165,7 +165,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               id="languagePicker"
               onChange={(e) =>
                 navigate(
-                  `${e.target.value === 'en' ? `/` : `/${e.target.value}`}`
+                  `${e.target.value === 'en' ? `/` : `/${e.target.value}/`}`
                 )
               }
               name="language"
