@@ -163,11 +163,11 @@ const Footer = ({ pageContext: { locale: language } }) => {
             </h5>
             <select
               id="languagePicker"
-              onChange={(e) =>
-                navigate(
-                  `${e.target.value === 'en' ? `/` : `/${e.target.value}`}`
-                )
-              }
+              onChange={(e) => {
+                window.location.href = `${
+                  e.target.value === 'en' ? `/` : `/${e.target.value}`
+                }`;
+              }}
               name="language"
               className="mt-1 mr-2 block w-full pl-2 pr-8 py-1 text-sm text-black dark:text-white border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm rounded-md"
               aria-label="Language Select"
