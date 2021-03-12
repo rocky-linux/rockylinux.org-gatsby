@@ -50,7 +50,7 @@ The core tenets of the Infrastructure Team are:
 
 - The build process for Rocky Linux will use [Koji](https://fedoraproject.org/wiki/Koji) and [MBS](https://pagure.io/fm-orchestrator/tree/master).
 - We are developing scripts and build tools to create a pipeline that allows pulling sources, debranding, and building through Koji and [Mock](https://github.com/rpm-software-management/mock/wiki).
-- The progress of proof of concepts and processes utilized by the Rocky Linux build process, including all errors and dependencies, is being documented in the [wiki](https://wiki.rockylinux.org/en/Development).
+- The progress of proof of concepts and processes utilized by the Rocky Linux build process, including all errors and dependencies, is being documented in the [wiki](https://wiki.rockylinux.org).
 
 ## Security
 
