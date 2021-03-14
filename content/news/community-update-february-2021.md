@@ -34,7 +34,7 @@ The next steps for the Infrastructure team is to ensure documentation (both inte
 
 ## Release Engineering and Packaging
 
-The team is working on building packages and getting the processes ready to assemble the final release. This includes things like validating the operation of Pungi (repo/image compositions), and nailing the package build order. An [overview of the build process](https://wiki.rockylinux.org/en/Development/Build_Steps) can be found on our wiki. We’re seeking volunteers that can assist with debranding, so if this is an area you’d like to contribute, please reach out! An [overview of the steps for debranding](https://wiki.rockylinux.org/en/Development/Debranding/Debrand_Howto) is on the wiki, with a more detailed guide to shortly follow.
+The team is working on building packages and getting the processes ready to assemble the final release. This includes things like validating the operation of Pungi (repo/image compositions), and nailing the package build order. An [overview of the build process](https://wiki.rockylinux.org/en/team/development/build_steps) can be found on our wiki. We’re seeking volunteers that can assist with debranding, so if this is an area you’d like to contribute, please reach out! An [overview of the steps for debranding](https://wiki.rockylinux.org/en/team/development/debranding/how-to) is on the wiki, with a more detailed guide to shortly follow.
 
 ## Merchandise
 
@@ -72,7 +72,7 @@ The team meets virtually once a month to plan and review progress, with scheduli
 
 [Please join us](https://chat.rockylinux.org/rocky-linux/channels/documentation) on Mattermost and indicate the language or subject area you can assist with. You can also create [an issue or pull request on Github](https://github.com/rocky-linux/documentation) to propose a new documentation topic or to help fix existing documentation.
 
-Finally, we would like a special recognition of the Documentation Admin team—Calder Sheagren and Ezequiel Brun—for helping to keep us organized and on-task.
+Finally, we would like a special recognition of the Documentation Admin team—Calder Sheagren and Ezequiel Bruni—for helping to keep us organized and on-task.
 
 ## Sponsors and Donations
 
@@ -107,6 +107,7 @@ We’ve finalized the levels for sponsorships, which provide various benefits ba
 - “Tier 4” level media kit and rights to use trademarks
 - Inclusion of name in dedicated section on Sponsorship page
 - Includes a link to company’s website
+
 
 We would also like to recognize [45drives](https://www.45drives.com/) and [OpenDrives](https://opendrives.com/), who have recently signed on to be Principal Sponsors.
 
