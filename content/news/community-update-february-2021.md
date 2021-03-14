@@ -108,7 +108,6 @@ We’ve finalized the levels for sponsorships, which provide various benefits ba
 - Inclusion of name in dedicated section on Sponsorship page
 - Includes a link to company’s website
 
-
 We would also like to recognize [45drives](https://www.45drives.com/) and [OpenDrives](https://opendrives.com/), who have recently signed on to be Principal Sponsors.
 
 If either you or your organization is interested in sponsoring The Rocky Enterprise Software Foundation, please contact us at [sponsor@rockylinux.org](mailto:sponsor@rockylinux.org).
