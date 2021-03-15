@@ -132,9 +132,9 @@ const Index = ({ pageContext: { locale: language } }) => {
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://45drives.com" aria-label="CtrlIQ">
                     <img
-                        src={FortyFiveDrivesLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="45Drives"
+                      src={FortyFiveDrivesLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="45Drives"
                     />
                   </a>
                 </div>
