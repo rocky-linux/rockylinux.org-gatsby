@@ -4,9 +4,10 @@ import SEO from '../components/seo';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import CtrlIqLogo from '../images/ciq.png';
+import CtrlIqLogo from '../images/ciq-alt.png';
 import MattermostLogo from '../images/mattermost.png';
 import AwsLogo from '../images/aws.png';
+import FortyFiveDrivesLogo from '../images/45drives.jpg';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   return (
@@ -25,12 +26,12 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     viewBox="0 0 52 52"
                   >
                     <polygon
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       fill="none"
                       points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    ></polygon>
+                    />
                   </svg>
                 </div>
               </div>
@@ -44,17 +45,61 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
               <hr className="mx-auto" />
             </div>
           </div>
-          <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-6">
-            <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
-              <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
-                <a href="https://ctrliq.com" aria-label="CtrlIQ">
+          <div className="px-4 pb-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div className="grid gap-5 lg:grid-cols-2 sm:max-w-sm sm:mx-auto lg:max-w-full">
+              <div className="overflow-hidden transition-shadow duration-300 rounded">
+                <a href="https://www.45drives.com/">
                   <img
-                    className="object-cover w-full"
-                    src={CtrlIqLogo}
-                    alt="CtrlIQ"
+                    src={FortyFiveDrivesLogo}
+                    className="object-cover w-full h-64 rounded"
+                    alt=""
                   />
                 </a>
+                <div className="py-5">
+                  <a
+                    href="https://www.45drives.com/"
+                    className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
+                  >
+                    <p className="text-2xl font-bold leading-5">45Drives</p>
+                  </a>
+                  <p className="mb-4 text-gray-700 dark:text-gray-300">
+                    45Drives offers enterprise storage solutions built on
+                    powerful & robust open-source software that allows customers
+                    to benefit from the cost savings & flexibility of
+                    off-the-shelf hardware. Check them out for a fully supported
+                    data storage solution at the best cost per terabyte!
+                  </p>
+                </div>
               </div>
+              <div className="overflow-hidden transition-shadow duration-300 rounded">
+                <a href="https://ctrliq.com/">
+                  <img
+                    src={CtrlIqLogo}
+                    className="object-cover rounded bg-gray-500 dark:bg-gray-800"
+                    alt=""
+                  />
+                </a>
+                <div className="py-5">
+                  <a
+                    href="https://ctrliq.com/"
+                    className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
+                  >
+                    <p className="text-2xl font-bold leading-5">CtrlIQ</p>
+                  </a>
+                  <p className="mb-4 text-gray-700 dark:text-gray-300">
+                    Unified, secured, platform agnostic computing starting with
+                    the provisioning, management, and support of the base OS
+                    (Rocky Linux) and going through the deployment stack of
+                    containers with cloud native, multi-prem, multi-cloud
+                    meta-orchestration of performance critical workflows and
+                    data.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-6">
+            <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
               <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
                 <a href="https://mattermost.com" aria-label="Mattermost">
                   <img
