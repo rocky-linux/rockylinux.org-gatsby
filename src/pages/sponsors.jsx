@@ -50,40 +50,49 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
               <div className="overflow-hidden transition-shadow duration-300 rounded">
                 <a href="https://www.45drives.com/">
                   <img
-                      src={FortyFiveDrivesLogo}
-                      className="object-cover w-full h-64 rounded"
-                      alt=""
+                    src={FortyFiveDrivesLogo}
+                    className="object-cover w-full h-64 rounded"
+                    alt=""
                   />
                 </a>
                 <div className="py-5">
                   <a
-                      href="https://www.45drives.com/"
-                      className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
+                    href="https://www.45drives.com/"
+                    className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
                   >
                     <p className="text-2xl font-bold leading-5">45Drives</p>
                   </a>
                   <p className="mb-4 text-gray-700 dark:text-gray-300">
-                    45Drives offers enterprise storage solutions built on powerful & robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!
+                    45Drives offers enterprise storage solutions built on
+                    powerful & robust open-source software that allows customers
+                    to benefit from the cost savings & flexibility of
+                    off-the-shelf hardware. Check them out for a fully supported
+                    data storage solution at the best cost per terabyte!
                   </p>
                 </div>
               </div>
               <div className="overflow-hidden transition-shadow duration-300 rounded">
                 <a href="https://ctrliq.com/">
                   <img
-                      src={CtrlIqLogo}
-                      className="object-cover rounded bg-gray-500 dark:bg-gray-800"
-                      alt=""
+                    src={CtrlIqLogo}
+                    className="object-cover rounded bg-gray-500 dark:bg-gray-800"
+                    alt=""
                   />
                 </a>
                 <div className="py-5">
                   <a
-                      href="https://ctrliq.com/"
-                      className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
+                    href="https://ctrliq.com/"
+                    className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
                   >
                     <p className="text-2xl font-bold leading-5">CtrlIQ</p>
                   </a>
                   <p className="mb-4 text-gray-700 dark:text-gray-300">
-                    Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data.
+                    Unified, secured, platform agnostic computing starting with
+                    the provisioning, management, and support of the base OS
+                    (Rocky Linux) and going through the deployment stack of
+                    containers with cloud native, multi-prem, multi-cloud
+                    meta-orchestration of performance critical workflows and
+                    data.
                   </p>
                 </div>
               </div>
