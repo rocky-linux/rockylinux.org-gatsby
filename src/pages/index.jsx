@@ -10,6 +10,7 @@ import SEO from '../components/seo';
 import CtrlIqLogo from '../images/ciq.png';
 import MattermostLogo from '../images/mattermost.png';
 import AwsLogo from '../images/aws.png';
+import FortyFiveDrivesLogo from '../images/45drives-transparent.png';
 import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const Index = ({ pageContext: { locale: language } }) => {
@@ -127,7 +128,16 @@ const Index = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md mb-6">
             <div className="max-w-3xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-3">
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-4">
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <a href="https://45drives.com" aria-label="CtrlIQ">
+                    <img
+                        src={FortyFiveDrivesLogo}
+                        className="h-16 grayscale transition duration-200"
+                        alt="45Drives"
+                    />
+                  </a>
+                </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ctrliq.com" aria-label="CtrlIQ">
                     <img
@@ -170,12 +180,12 @@ const Index = ({ pageContext: { locale: language } }) => {
                   viewBox="0 0 52 52"
                 >
                   <polygon
-                    stroke-width="3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     fill="none"
                     points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  ></polygon>
+                  />
                 </svg>
               </span>
               See All
