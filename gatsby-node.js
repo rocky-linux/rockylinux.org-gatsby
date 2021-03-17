@@ -40,6 +40,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
   const blogPost = path.resolve(`./src/templates/blog-post.jsx`);
+  const genericPage = path.resolve(`./src/templates/generic-page.jsx`);
   const pressLinkTemplate = path.resolve(`./src/templates/project-post.jsx`);
   const result = await graphql(
     `
@@ -75,6 +76,14 @@ exports.createPages = async ({ graphql, actions }) => {
         component: pressLinkTemplate,
         context: {},
       });
+    } else if (edge.node.frontmatter.posttype === 'page') {
+      createPage({
+        path: edge.node.fields.slug,
+        component: genericPage,
+        context: {
+          slug: edge.node.fields.slug,
+        }
+      });
     } else {
       createPage({
         path: edge.node.fields.slug,
@@ -97,11 +106,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode });
-    createNodeField({
-      name: `slug`,
-      node,
-      value: `/news${value}`,
-    });
+    if (node.frontmatter.posttype == 'page') {
+      createNodeField({
+        name: `slug`,
+        node,
+        value: `${value}`,
+      });
+    } else {
+      createNodeField({
+        name: `slug`,
+        node,
+        value: `/news${value}`,
+      });
+    }
   }
 };
 
@@ -129,6 +146,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String
       description: String
+      keywords: String
       date: Date @dateformat
       url: String
     }
