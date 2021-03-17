@@ -82,7 +82,7 @@ exports.createPages = async ({ graphql, actions }) => {
         component: genericPage,
         context: {
           slug: edge.node.fields.slug,
-        }
+        },
       });
     } else {
       createPage({
