@@ -7,7 +7,7 @@ posttype: 'news'
 
 ## Summary
 
-Release engineering is on pace with the timelines previously documented to provide a release of Rocky Linux by Q2 2021. The infrastructure team is working on automation in their area to facilitate the deployment of build infrastructure in additional regions. We’ve finalized our sponsorship model, and are as well open to partnerships for deeper collaboration. We’ve drafted our organizational structure, as well as our community charter. Finally, we’ve secured authorization from The Linux Foundation to license Rocky Linux under the Rocky Software Enterprise Foundation, which is the official legal entity that represents Rocky Linux and fosters its growth.
+Release engineering is on pace with the timelines previously documented to provide a release of Rocky Linux by Q2 2021. The infrastructure team is working on automation in their area to facilitate the deployment of build infrastructure in additional regions. We’ve finalized our sponsorship model, and are as well open to partnerships for deeper collaboration. We’ve drafted our organizational structure, as well as our community charter. Finally, we’ve secured authorization from The Linux Foundation to license Rocky Linux under the Rocky Enterprise Software Foundation, which is the official legal entity that represents Rocky Linux and fosters its growth.
 
 ### Timeline
 
