@@ -126,6 +126,6 @@ As always, if you have any questions, comments, concerns, suggestions, or if you
 
 <span class="mb-2">
   Sincerely,<br/>
-  The Rocky Linux Foundation<br/>
+  The Rocky Enterprise Software Foundation<br/>
   <a href="https://rockylinux.org">https://rockylinux.org</a>
 </span>
