@@ -5,9 +5,7 @@ import SummaryItem from '../summary-item';
 
 const Generic = ({ posts }) => {
   return (
-    <Section
-      title="Other"
-    >
+    <Section title="Other">
       {posts.map((post) => (
         <SummaryItem
           key={post.node.fields.slug}
