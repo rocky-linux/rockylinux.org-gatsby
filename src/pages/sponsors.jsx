@@ -63,7 +63,12 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     <p className="text-2xl font-bold leading-5">Ctrl IQ</p>
                   </a>
                   <p className="mb-4 text-gray-700 dark:text-gray-300">
-                  Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data.
+                    Unified, secured, platform agnostic computing starting with
+                    the provisioning, management, and support of the base OS
+                    (Rocky Linux) and going through the deployment stack of
+                    containers with cloud native, multi-prem, multi-cloud
+                    meta-orchestration of performance critical workflows and
+                    data.
                   </p>
                 </div>
               </div>
