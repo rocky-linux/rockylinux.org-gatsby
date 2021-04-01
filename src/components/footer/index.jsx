@@ -25,14 +25,6 @@ const Footer = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="px-5 py-2">
             <LocalizedLink
-              to="/community-charter/"
-              className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
-            >
-              Community Charter
-            </LocalizedLink>
-          </div>
-          <div className="px-5 py-2">
-            <LocalizedLink
               to="/sponsors/"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
@@ -214,7 +206,29 @@ const Footer = ({ pageContext: { locale: language } }) => {
             </nav>
           </noscript>
         </nav>
-        <p className="mt-8 text-center text-base text-gray-500" dir="auto">
+        <nav
+          className="mt-4 -mx-5 flex flex-wrap justify-center"
+          aria-label="Links"
+          dir="auto"
+        >
+          <div className="px-5 py-2">
+            <LocalizedLink
+              to="/community-charter/"
+              className="text-sm text-gray-500 hover:text-gray-400"
+            >
+              Community Charter
+            </LocalizedLink>
+          </div>
+          <div className="px-5 py-2">
+            <LocalizedLink
+              to="/organizational-structure/"
+              className="text-sm text-gray-500 hover:text-gray-400"
+            >
+              Organizational Structure
+            </LocalizedLink>
+          </div>
+        </nav>
+        <p className="text-center text-base text-gray-500" dir="auto">
           {translate('copyright.line1')}
         </p>
         <p className="mt-2 text-center text-sm text-gray-500" dir="auto">
