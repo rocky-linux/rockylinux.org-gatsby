@@ -39,7 +39,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 Partners
               </h2>
               <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-              Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.
+                Partners of the RESF represent ongoing relationships of
+                strategic importance to the Rocky Linux project. Through
+                dedication of engineering expertise, infrastructure resources,
+                or other means, their support is critical to our continued
+                success and long term stability.
               </p>
               <hr className="mx-auto" />
             </div>

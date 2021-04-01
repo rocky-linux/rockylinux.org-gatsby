@@ -87,7 +87,12 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     <p className="text-2xl font-bold leading-5">OpenDrives</p>
                   </a>
                   <p className="mb-4 text-gray-700 dark:text-gray-300">
-                    OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud.
+                    OpenDrives is a global provider of enterprise-grade,
+                    hyper-scalable, network-attached-storage (NAS) solutions. We
+                    deliver the highest performing solutions for our customers -
+                    to match individual performance needs - for the most robust,
+                    complex and mission-critical projects and workflows,
+                    on-premises and into the cloud.
                   </p>
                 </div>
               </div>
