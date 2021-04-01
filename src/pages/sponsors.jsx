@@ -4,7 +4,7 @@ import SEO from '../components/seo';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import CtrlIqLogo from '../images/ciq-alt.png';
+import OpenDrivesLogo from '../images/opendrives.png';
 import MattermostLogo from '../images/mattermost.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives.jpg';
@@ -72,27 +72,27 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </div>
               </div>
               <div className="overflow-hidden transition-shadow duration-300 rounded">
-                <a href="https://ctrliq.com/">
+                <a href="https://opendrives.com/">
                   <img
-                    src={CtrlIqLogo}
-                    className="object-cover rounded bg-gray-500 dark:bg-gray-800"
+                    src={OpenDrivesLogo}
+                    className="rounded bg-white"
                     alt=""
                   />
                 </a>
                 <div className="py-5">
                   <a
-                    href="https://ctrliq.com/"
+                    href="https://opendrives.com/"
                     className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
                   >
-                    <p className="text-2xl font-bold leading-5">CtrlIQ</p>
+                    <p className="text-2xl font-bold leading-5">OpenDrives</p>
                   </a>
                   <p className="mb-4 text-gray-700 dark:text-gray-300">
-                    Unified, secured, platform agnostic computing starting with
-                    the provisioning, management, and support of the base OS
-                    (Rocky Linux) and going through the deployment stack of
-                    containers with cloud native, multi-prem, multi-cloud
-                    meta-orchestration of performance critical workflows and
-                    data.
+                    OpenDrives is a global provider of enterprise-grade,
+                    hyper-scalable, network-attached-storage (NAS) solutions. We
+                    deliver the highest performing solutions for our customers -
+                    to match individual performance needs - for the most robust,
+                    complex and mission-critical projects and workflows,
+                    on-premises and into the cloud.
                   </p>
                 </div>
               </div>
@@ -100,15 +100,6 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
           </div>
           <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-6">
             <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
-              <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
-                <a href="https://mattermost.com" aria-label="Mattermost">
-                  <img
-                    className="object-cover w-full"
-                    src={MattermostLogo}
-                    alt="Mattermost"
-                  />
-                </a>
-              </div>
               <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
                 <a href="https://aws.amazon.com/" aria-label="AWS">
                   <img
