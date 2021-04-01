@@ -8,6 +8,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 import CtrlIqLogo from '../images/ciq.png';
+import OpenDrivesLogo from '../images/opendrives-transparent.png';
 import MattermostLogo from '../images/mattermost.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives-transparent.png';
@@ -130,7 +131,7 @@ const Index = ({ pageContext: { locale: language } }) => {
             <div className="max-w-3xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-4">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <a href="https://www.45drives.com/" aria-label="CtrlIQ">
+                  <a href="https://www.45drives.com/" aria-label="45Drives">
                     <img
                       src={FortyFiveDrivesLogo}
                       className="h-16 grayscale transition duration-200"
@@ -139,11 +140,11 @@ const Index = ({ pageContext: { locale: language } }) => {
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <a href="https://ctrliq.com" aria-label="CtrlIQ">
+                  <a href="https://opendrives.com/" aria-label="OpenDrives">
                     <img
-                      src={CtrlIqLogo}
+                      src={OpenDrivesLogo}
                       className="h-16 grayscale transition duration-200"
-                      alt="CtrlIQ"
+                      alt="OpenDrives"
                     />
                   </a>
                 </div>
