@@ -131,6 +131,15 @@ const Index = ({ pageContext: { locale: language } }) => {
             <div className="max-w-3xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-4">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <a href="https://ctrliq.com/" aria-label="Ctrl IQ">
+                    <img
+                      src={CtrlIqLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Ctrl IQ"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://www.45drives.com/" aria-label="45Drives">
                     <img
                       src={FortyFiveDrivesLogo}
@@ -145,15 +154,6 @@ const Index = ({ pageContext: { locale: language } }) => {
                       src={OpenDrivesLogo}
                       className="h-16 grayscale transition duration-200"
                       alt="OpenDrives"
-                    />
-                  </a>
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <a href="https://mattermost.com" aria-label="Mattermost">
-                    <img
-                      src={MattermostLogo}
-                      className="h-16 grayscale transition duration-200"
-                      alt="Mattermost"
                     />
                   </a>
                 </div>
