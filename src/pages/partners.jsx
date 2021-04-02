@@ -69,11 +69,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </a>
               </div>
               <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
-                <a href="https://fosshost.org/" aria-label="Fosshost">
+                <a href="https://ncloud.com/" aria-label="NAVER Cloud">
                   <img
                     className="object-cover w-full"
                     src={NaverLogo}
-                    alt="Fosshost"
+                    alt="NAVER Cloud"
                   />
                 </a>
               </div>
