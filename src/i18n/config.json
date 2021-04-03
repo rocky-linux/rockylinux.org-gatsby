@@ -191,4 +191,12 @@
     "langDir": "ltr",
     "dateFormat": "DD/MM/YYYY"
   }
+    {
+    "code": "hu",
+    "hrefLang": "hu-HU",
+    "name": "Hungarian",
+    "localName": "Hungarian",
+    "langDir": "ltr",
+    "dateFormat": "YYYY/MM/DD"
+  },
 ]
