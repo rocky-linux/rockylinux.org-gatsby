@@ -1,0 +1,73 @@
+{
+  "language": "hu",
+  "copyright": {
+    "line1": "© 2021 A Rocky Linux Project. Minden jog fenntartva.",
+    "line2": "A Red Hat és a CentOS a Red Hat, Inc. vagy leányvállalatainak védjegyei vagy bejegyzett védjegyei az Egyesült Államokban és más országokban. Nem vagyunk kapcsolatban, nem támogatjuk vagy szponzoráljuk a Red Hat-ot vagy a CentOS Projektet."
+  },
+  "errors": {
+    "404": {
+      "explanation": "A keresett oldal nem található. Kérjük, próbálja meg újra.",
+      "title": "Az oldal nem található."
+    }
+  },
+  "faq": {
+    "a": {
+      "come-in": "A Rocky Linux célja, hogy downstream építőként működjön, ahogy a CentOS korábban tette, és kiadásokat épít azután, hogy az upstream gyártó hozzáadta őket, nem pedig korábban.",
+      "downstream-partner-direction": "A CentOS projekt nemrégiben a CentOS stratégiájának megváltoztatását jelentette be. Míg korábban a CentOS az upstream gyártója downstream buildjeként létezett (javításokat és frissítéseket kap, miután az upstream vendor megkapja), addig áttér egy upstream buildre (javítások és frissítések tesztelése az upstream szállítóba történő felvétel előtt). Ezenkívül a CentOS Linux 8 támogatása megszakadt, 2029. május 31. helyett 2021. December 31."
+    },
+    "q": {
+      "come-in": "Tehát hol jön szóba a Rocky Linux?",
+      "downstream-partner-direction": "Hogy érted, \"hogy a downstream partner irányt váltott?\""
+    },
+    "title": "Gyakran ismételt kérdések"
+  },
+  "landing": {
+    "p1": {
+      "content": "A közösség által vezérelt erőfeszítés, hogy vállalati szintű, gyártásra kész Linuxot nyújtson Önnek.",
+      "heading": "Rocky Linux"
+    },
+    "p2": {
+      "content": "A Rocky Linux egy közösségi vállalati operációs rendszer, amelyet úgy terveztek, hogy 100%-ig hibakeresés-kompatibilitással legyen kompatibilis az Amerikai legnagyobb vállalati Linux disztribúcióval, miután downstream partnere (Centos) irányt váltott. Intenzív közösségi fejlesztés alatt áll. A Rocky Linuxot Gregory Kurtzer, a CentOS projekt alapítója vezeti. A béta kiadás jelenlegi dátuma Április 30. Kérjük a közreműködőket, hogy vegyék fel a kapcsolatot az ezen az oldalon kínált kommunikációs lehetőségekkel.",
+      "heading": "Mi az a Rocky Linux projekt?"
+    }
+  },
+  "lang": {
+    "footer": {
+      "choose-language": "Nyelv kiválasztása..."
+    }
+  },
+  "links": {
+    "close-menu": "Menü bezárása",
+    "documentation": "Wiki",
+    "get-in-touch": "Kapcsolatfelvétel",
+    "get-involved": "Részvétel",
+    "go-home": "Irány a főoldal",
+    "join-the-discussion": "Csatlakozzon a beszélgetéshez",
+    "posts": "Hírek",
+    "show-your-interest": "Mutasson érdeklődést",
+    "sponsors": "Támogatók",
+    "partners": "Partnerek",
+    "donate": "Támogatás",
+    "store": "Áruház",
+    "press": "Sajtó"
+  },
+  "socials": {
+    "forums": "Fórumok",
+    "github": "Github",
+    "reddit": "Reddit",
+    "mattermost": "Mattermost",
+    "twitter": "Twitter"
+  },
+  "news": {
+    "title": "Hírek",
+    "description": "Legyen naprakész a The Rocky Linux Project legfrissebb híreivel."
+  },
+  "press": {
+    "title": "Sajtó",
+    "description": "A Rocky-val kapcsolatos legfrissebbeket a sajtóban."
+  },
+  "sponsors": {
+    "title": "Támogatók",
+    "description": "Ezúton szeretnénk köszönetet mondani támogatóinknak a projekt eddigi támogatásáért."
+  }
+}
