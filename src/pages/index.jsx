@@ -10,6 +10,7 @@ import SEO from '../components/seo';
 import CtrlIqLogo from '../images/ciq.png';
 import OpenDrivesLogo from '../images/opendrives-transparent.png';
 import MattermostLogo from '../images/mattermost.png';
+import MontaVistaLogo from '../images/montavista-alt.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives-transparent.png';
 import { LocalizedLink } from 'gatsby-theme-i18n';
@@ -129,7 +130,7 @@ const Index = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md mb-6">
             <div className="max-w-3xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-4">
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-5">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ctrliq.com/" aria-label="Ctrl IQ">
                     <img
@@ -163,6 +164,15 @@ const Index = ({ pageContext: { locale: language } }) => {
                       src={AwsLogo}
                       className="h-16 grayscale transition duration-200"
                       alt="AWS"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+                  <a href="https://www.mvista.com/" aria-label="MontaVista">
+                    <img
+                      src={MontaVistaLogo}
+                      className="grayscale transition duration-200 justify-center"
+                      alt="MontaVista"
                     />
                   </a>
                 </div>
