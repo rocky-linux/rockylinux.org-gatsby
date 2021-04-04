@@ -171,7 +171,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                   <a href="https://www.mvista.com/" aria-label="MontaVista">
                     <img
                       src={MontaVistaLogo}
-                      className="grayscale transition duration-200 justify-center"
+                      className="h-16 grayscale transition duration-200"
                       alt="MontaVista"
                     />
                   </a>
