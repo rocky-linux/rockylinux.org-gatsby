@@ -8,6 +8,7 @@ import OpenDrivesLogo from '../images/opendrives.png';
 import CIQLogo from '../images/ciq-alt.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives.jpg';
+import MontaVistaLogo from '../images/montavista.png';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   return (
@@ -118,6 +119,31 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     to match individual performance needs - for the most robust,
                     complex and mission-critical projects and workflows,
                     on-premises and into the cloud.
+                  </p>
+                </div>
+              </div>
+
+              <div className="overflow-hidden transition-shadow duration-300 rounded">
+                <a href="https://www.mvista.com/">
+                  <img
+                    src={MontaVistaLogo}
+                    className="rounded bg-white"
+                    alt=""
+                  />
+                </a>
+                <div className="py-5">
+                  <a
+                    href="https://www.mvista.com/"
+                    className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
+                  >
+                    <p className="text-2xl font-bold leading-5">MontaVista</p>
+                  </a>
+                  <p className="mb-4 text-gray-700 dark:text-gray-300">
+                    MontaVista Software is the leader in embedded commercial
+                    Linux, supporting MontaVista CGX, Yocto Project®, CentOS and
+                    Rocky Linux. MontaVista offers Open Source Software
+                    expertise, commercial-quality Linux distros, cost-effective
+                    maintenance and support for 10+ year life-cycles.
                   </p>
                 </div>
               </div>
