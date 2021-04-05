@@ -115,6 +115,7 @@ module.exports = {
             'ko',
             'sv',
             'ca',
+            'hu',
           ],
           fallbackLng: 'en',
           lowerCaseLng: 'true',
