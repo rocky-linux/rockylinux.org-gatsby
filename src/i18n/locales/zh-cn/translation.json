@@ -44,30 +44,30 @@
     "get-involved": "参与我们",
     "go-home": "前往主页",
     "join-the-discussion": "加入讨论",
-    "posts": "News",
+    "posts": "新闻",
     "show-your-interest": "Show Your Interest",
-    "sponsors": "Sponsors",
-    "donate": "Donate",
-    "store": "Store",
-    "press": "Press"
+    "sponsors": "赞助商",
+    "donate": "捐助",
+    "store": "商店",
+    "press": "新闻动态"
   },
   "socials": {
     "forums": "论坛",
-    "github": "Github",
+    "github": "GitHub",
     "reddit": "Reddit",
     "mattermost": "Mattermost",
     "twitter": "Twitter"
   },
   "news": {
-    "title": "News",
-    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
+    "title": "消息",
+    "description": "随时了解 Rocky Linux 项目的最新消息。"
   },
   "press": {
-    "title": "Press",
-    "description": "See the latest about Rocky in the press."
+    "title": "新闻动态",
+    "description": "关注 Rocky Linux 的最新动态。"
   },
   "sponsors": {
-    "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project."
+    "title": "赞助商",
+    "description": "感谢赞助商对此项目的长久支持。"
   }
 }
