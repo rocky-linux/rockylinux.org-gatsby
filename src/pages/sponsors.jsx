@@ -8,6 +8,7 @@ import OpenDrivesLogo from '../images/opendrives.png';
 import CIQLogo from '../images/ciq-alt.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives.jpg';
+import MontaVistaLogo from '../images/montavista.png';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   return (
@@ -46,7 +47,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
             </div>
           </div>
           <div className="px-4 pb-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+            <div className="grid gap-5 lg:grid-cols-2 sm:max-w-sm sm:mx-auto lg:max-w-full">
               <div className="overflow-hidden transition-shadow duration-300 rounded">
                 <a href="https://ctrliq.com/">
                   <img
@@ -118,6 +119,31 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     to match individual performance needs - for the most robust,
                     complex and mission-critical projects and workflows,
                     on-premises and into the cloud.
+                  </p>
+                </div>
+              </div>
+
+              <div className="overflow-hidden transition-shadow duration-300 rounded">
+                <a href="https://www.mvista.com/">
+                  <img
+                    src={MontaVistaLogo}
+                    className="rounded bg-white"
+                    alt=""
+                  />
+                </a>
+                <div className="py-5">
+                  <a
+                    href="https://www.mvista.com/"
+                    className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
+                  >
+                    <p className="text-2xl font-bold leading-5">MontaVista</p>
+                  </a>
+                  <p className="mb-4 text-gray-700 dark:text-gray-300">
+                    MontaVista Software is the leader in embedded commercial
+                    Linux, supporting MontaVista CGX, Yocto Project®, CentOS and
+                    Rocky Linux. MontaVista offers Open Source Software
+                    expertise, commercial-quality Linux distros, cost-effective
+                    maintenance and support for 10+ year life-cycles.
                   </p>
                 </div>
               </div>
