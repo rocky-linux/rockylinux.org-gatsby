@@ -9,6 +9,7 @@ every project member & collaborator, we need to set some policies on
 contributions.
 
 ## UI Kit
+
 We use the [Kometa UI Kit](https://kitwind.io/products/kometa/) as a base for all of the components on the site. If you are going to add components, be sure to reference this UI Kit to make your changes consistent with the design style.
 
 ## Linting & Commit Hooks
