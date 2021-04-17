@@ -8,6 +8,7 @@ import CtrlIqLogo from '../images/ciq.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import FossHostLogo from '../images/fosshost.png';
+import FastlyLogo from '../images/fastly.png';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   return (
@@ -48,7 +49,56 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
               <hr className="mx-auto" />
             </div>
           </div>
-          <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-6">
+          <div className="rounded-lg bg-gray-200 dark:bg-gray-900 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-800 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
+            <div className="rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+              <div>
+                <span className="rounded-lg inline-flex p-3">
+                <img
+                              className="object-cover w-full"
+                              src={CtrlIqLogo}
+                              alt="CIQ"
+                />
+                </span>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-lg font-medium text-gray-50">
+                  <a href="https://ctrliq.com" className="focus:outline-none">
+                    <span className="absolute inset-0" aria-hidden="true" />
+                    Ctrl IQ
+                    <span className="ml-2 bg-green-200 text-green-600 py-1 px-2 text-xs rounded-full self-center">Founding Partner</span>
+                  </a>
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data.
+                </p>
+              </div>
+            </div>
+            <div className="sm:rounded-tr-lg relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+              <div>
+                <span className="rounded-lg inline-flex p-3">
+                <img
+                                        className="object-cover w-full"
+                                        src={NaverLogo}
+                                        alt="NAVER Cloud"
+                          />
+                </span>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-lg font-medium">
+                  <a href="https://ncloud.com/" className="focus:outline-none">
+                    <span className="absolute inset-0" aria-hidden="true" />
+                    NAVER Cloud
+                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">Principal Partner</span>
+                  </a>
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="px-4 mx-auto my-5 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-6">
             <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
               <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
                 <a href="https://mattermost.com" aria-label="Mattermost">
@@ -60,20 +110,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </a>
               </div>
               <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
-                <a href="https://ctrliq.com/" aria-label="CIQ">
+                <a href="https://www.fastly.com/" aria-label="Fastly">
                   <img
                     className="object-cover w-full"
-                    src={CtrlIqLogo}
-                    alt="CIQ"
-                  />
-                </a>
-              </div>
-              <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
-                <a href="https://ncloud.com/" aria-label="NAVER Cloud">
-                  <img
-                    className="object-cover w-full"
-                    src={NaverLogo}
-                    alt="NAVER Cloud"
+                    src={FastlyLogo}
+                    alt="Fastly"
                   />
                 </a>
               </div>
