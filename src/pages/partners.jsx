@@ -53,11 +53,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
             <div className="rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
               <div>
                 <span className="rounded-lg inline-flex p-3">
-                <img
-                              className="object-cover w-full"
-                              src={CtrlIqLogo}
-                              alt="CIQ"
-                />
+                  <img
+                    className="object-cover w-full"
+                    src={CtrlIqLogo}
+                    alt="CIQ"
+                  />
                 </span>
               </div>
               <div className="mt-8">
@@ -65,22 +65,28 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   <a href="https://ctrliq.com" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
                     Ctrl IQ
-                    <span className="ml-2 bg-green-200 text-green-600 py-1 px-2 text-xs rounded-full self-center">Founding Partner</span>
+                    <span className="ml-2 bg-green-200 text-green-600 py-1 px-2 text-xs rounded-full self-center">
+                      Founding Partner
+                    </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data.
+                  Unified, secured, platform agnostic computing starting with
+                  the provisioning, management, and support of the base OS
+                  (Rocky Linux) and going through the deployment stack of
+                  containers with cloud native, multi-prem, multi-cloud
+                  meta-orchestration of performance critical workflows and data.
                 </p>
               </div>
             </div>
             <div className="sm:rounded-tr-lg relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
               <div>
                 <span className="rounded-lg inline-flex p-3">
-                <img
-                                        className="object-cover w-full"
-                                        src={NaverLogo}
-                                        alt="NAVER Cloud"
-                          />
+                  <img
+                    className="object-cover w-full"
+                    src={NaverLogo}
+                    alt="NAVER Cloud"
+                  />
                 </span>
               </div>
               <div className="mt-8">
@@ -88,11 +94,18 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   <a href="https://ncloud.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
                     NAVER Cloud
-                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">Principal Partner</span>
+                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
+                      Principal Partner
+                    </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world.
+                  NAVER Cloud Platform is a South Korean cloud service that
+                  started in 2017 under NAVER Cloud, a subsidiary of NAVER. It
+                  provides over 170 individual services in 2021 and holds
+                  various security certifications including CSA STAR GOLD, GDPR,
+                  and more. It also currently provides cloud services in 10
+                  locations around the world.
                 </p>
               </div>
             </div>
