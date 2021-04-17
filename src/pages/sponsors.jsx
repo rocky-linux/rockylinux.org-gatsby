@@ -87,7 +87,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </span>
               </div>
               <div className="mt-8">
-                <h3 className="text-lg font-medium">
+                <h3 className="text-lg font-medium text-gray-50">
                   <a
                     href="https://www.45drives.com/"
                     className="focus:outline-none"
@@ -119,7 +119,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </span>
               </div>
               <div className="mt-8">
-                <h3 className="text-lg font-medium">
+                <h3 className="text-lg font-medium text-gray-50">
                   <a
                     href="https://opendrives.com/"
                     className="focus:outline-none"
@@ -152,7 +152,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </span>
               </div>
               <div className="mt-8">
-                <h3 className="text-lg font-medium">
+                <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://mvista.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
                     MontaVista
@@ -181,7 +181,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </span>
               </div>
               <div className="mt-8">
-                <h3 className="text-lg font-medium">
+                <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://mvista.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
                     Amazon Web Services
