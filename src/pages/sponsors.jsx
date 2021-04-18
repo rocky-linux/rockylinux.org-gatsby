@@ -168,10 +168,10 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   </a>
                   <p className="mb-4 text-gray-700 dark:text-gray-300">
                     The RESF utilizes AWS to run much of the underlying
-                    infrastructure critical to the development and deployment
-                    of the services supporting Rocky Linux. From Koji builders
-                    for x86_64 and aarch64 running in EC2 to SRPM blob storage
-                    in S3, AWS is foundational to much of what we do.
+                    infrastructure critical to the development and deployment of
+                    the services supporting Rocky Linux. From Koji builders for
+                    x86_64 and aarch64 running in EC2 to SRPM blob storage in
+                    S3, AWS is foundational to much of what we do.
                   </p>
                 </div>
               </div>
