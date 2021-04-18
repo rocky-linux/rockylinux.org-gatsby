@@ -149,16 +149,31 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
               </div>
             </div>
           </div>
-          <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-6">
-            <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
-              <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
-                <a href="https://aws.amazon.com/" aria-label="AWS">
+          <div className="px-4 pb-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div className="grid gap-5 lg:grid-cols-2 sm:max-w-sm sm:mx-auto lg:max-w-full">
+              <div className="overflow-hidden transition-shadow duration-300 rounded">
+                <a href="https://aws.amazon.com/">
                   <img
-                    className="object-cover w-full"
                     src={AwsLogo}
-                    alt="AWS"
+                    className="object-cover w-full h-64 rounded bg-gray-500 dark:bg-gray-800"
+                    alt=""
                   />
                 </a>
+                <div className="py-5">
+                  <a
+                    href="https://aws.amazon.com/"
+                    className="inline-block mb-3 text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-gray-600 dark:hover:text-gray-300"
+                  >
+                    <p className="text-2xl font-bold leading-5">AWS</p>
+                  </a>
+                  <p className="mb-4 text-gray-700 dark:text-gray-300">
+                    The RESF utilizes AWS to run much of the underlying
+                    infrastructure critical to the development and deployment
+                    of the services supporting Rocky Linux. From Koji builders
+                    for x86_64 and aarch64 running in EC2 to SRPM blob storage
+                    in S3, AWS is foundational to much of what we do.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
