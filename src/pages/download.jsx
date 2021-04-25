@@ -42,43 +42,47 @@ const DownloadPage = ({ pageContext }) => {
                         <table className="min-w-full divide-y divide-gray-400">
                             <thead className="bg-gray-200 dark:bg-gray-600">
                                 <tr>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Filename</th>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Size</th>
-                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Checksum</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Architecture</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">ISOs</th>
+                                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Packages</th>
                                 </tr>
                             </thead>
                             <tbody className="bg-gray-100 dark:bg-gray-800">
                                 <tr>
                                     <td className="px-6 py-3 whitespace-nowrap">
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">RockyLinux-8.3-minimal.x86_64.iso</a> | <a className="font-medium text-green-600 dark:text-green-500" href="#">i386</a> | <a className="font-medium text-green-600 dark:text-green-500" href="#">aarch64</a>
+                                        x86_64
                                     </td>
-                                    <td className="px-6 py-3 whitespace-nowrap">1.2G</td>
                                     <td className="px-6 py-3 whitespace-nowrap">
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">SHA-256 Hash</a>
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">Minimal</a> |&nbsp;
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">DVD</a> |&nbsp;
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">Boot</a>
                                     </td>
-                                </tr>
-                                <tr className="dark:bg-gray-700 bg-gray-200">
                                     <td className="px-6 py-3 whitespace-nowrap">
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">RockyLinux-8.3-everything.x86_64.iso</a> | <a className="font-medium text-green-600 dark:text-green-500" href="#">i386</a> | <a className="font-medium text-green-600 dark:text-green-500" href="#">aarch64</a>
-                                    </td>
-                                    <td className="px-6 py-3 whitespace-nowrap">7.4G</td>
-                                    <td className="px-6 py-3 whitespace-nowrap">
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">SHA-256 Hash</a>
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/BaseOS/x86_64/os">BaseOS</a>
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr className="bg-gray-50 dark:bg-gray-700">
                                     <td className="px-6 py-3 whitespace-nowrap">
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">RockyLinux-8.3-boot.x86_64.iso</a> | <a className="font-medium text-green-600 dark:text-green-500" href="#">i386</a> | <a className="font-medium text-green-600 dark:text-green-500" href="#">aarch64</a>
+                                        ARM64 (aarch64)
                                     </td>
-                                    <td className="px-6 py-3 whitespace-nowrap">630M</td>
                                     <td className="px-6 py-3 whitespace-nowrap">
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">SHA-256 Hash</a>
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">Minimal</a> |&nbsp;
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">DVD</a> |&nbsp;
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">Boot</a>
+                                    </td>
+                                    <td className="px-6 py-3 whitespace-nowrap">
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/BaseOS/aarch64/os">BaseOS</a>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div className="max-w-screen-sm px-8 mx-auto mt-8">
+                    <div className="max-w-screen-sm px-8 mx-auto mt-8 flex flex-col">
+                        <div className="flex flex-col md:flex-row items-center justify-evenly mb-6">
+                            <a className="text-green-600 dark:text-green-500 font-medium" href="https://docs.rockylinux.org">Documentation</a>
+                            <a className="text-green-600 dark:text-green-500 font-medium" href="#">Upgrading from CentOS</a>
+                            <a className="text-green-600 dark:text-green-500 font-medium" href="#">Verifying your ISO</a>
+                        </div>
                         <p className="text-gray-700 dark:text-gray-300">
                             As you download and use Rocky Linux, the Rocky Enterprise
                             Software Foundation invites you to <a className="text-green-600 dark:text-green-500 font-medium" href="https://chat.rockylinux.org">be a part of the community
