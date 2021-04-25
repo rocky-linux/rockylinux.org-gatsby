@@ -38,21 +38,21 @@
     }
   },
   "links": {
-    "close-menu": "關閉菜單",
+    "close-menu": "關閉選單",
     "documentation": "文檔",
-    "get-in-touch": "保持聯繫",
+    "get-in-touch": "保持聯絡",
     "get-involved": "參與其中",
     "go-home": "去到主頁",
     "join-the-discussion": "參與討論",
     "posts": "News",
     "show-your-interest": "Show Your Interest",
-    "sponsors": "Sponsors",
-    "donate": "Donate",
-    "store": "Store",
+    "sponsors": "贊助商",
+    "donate": "捐獻",
+    "store": "商店",
     "press": "Press"
   },
   "socials": {
-    "forums": "Forums",
+    "forums": "討論區",
     "github": "Github",
     "reddit": "Reddit",
     "mattermost": "Mattermost",
