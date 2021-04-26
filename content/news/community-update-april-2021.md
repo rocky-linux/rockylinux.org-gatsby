@@ -5,8 +5,6 @@ description: 'There’s been a flurry of activity this month as we approach the 
 posttype: 'news'
 ---
 
-# Community Update - April 2021
-
 ## Summary
 
 There’s been a flurry of activity this month as we approach the general availability of our release candidate for Rocky Linux 8.3. The Development team has been holding regular hack-a-thon sessions with the community in our [~Dev/Packaging channel,](https://chat.rockylinux.org/rocky-linux/channels/dev-packaging) we’re now self hosting (no longer dependent on upstream packages), and a minimal ISO was produced and tested. The Infrastructure team has been working on getting Mirror Manager stood up, and we’ve been in contact with many of the folks who’ve offered to host mirrors. The Website team has our downloads page ready to go, as well as our documentation engine, where the Docs team will be locating all the great content they’ve authored. We’ve also started a Testing team, which will be responsible for the validation and error reporting of our release candidate. Finally, we’re excited to announce that Fastly and NAVER Cloud have been onboarded as Partners (and we have a few more on the way!).
