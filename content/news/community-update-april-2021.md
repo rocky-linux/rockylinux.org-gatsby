@@ -4,17 +4,14 @@
 
 There’s been a flurry of activity this month as we approach the general availability of our release candidate for Rocky Linux 8.3. The Development team has been holding regular hack-a-thon sessions with the community in our [~Dev/Packaging channel,](https://chat.rockylinux.org/rocky-linux/channels/dev-packaging) we’re now self hosting (no longer dependent on upstream packages), and a minimal ISO was produced and tested. The Infrastructure team has been working on getting Mirror Manager stood up, and we’ve been in contact with many of the folks who’ve offered to host mirrors. The Website team has our downloads page ready to go, as well as our documentation engine, where the Docs team will be locating all the great content they’ve authored. We’ve also started a Testing team, which will be responsible for the validation and error reporting of our release candidate. Finally, we’re excited to announce that Fastly and NAVER Cloud have been onboarded as Partners (and we have a few more on the way!).
 
-  
-
 ## Timeline
 
--   Build systems and infrastructure readiness - January 31 [DONE]
--   Automatic package build infrastructures - January 31 [DONE]
--   Testing package repository made public - February 28 [DONE]
--   Installer testing readiness - February 28 [DONE]
--   ETA for length of time needed for community testing - April 30 [On Pace] 
--   Release candidate availability - April 30 [On Pace]
-    
+- Build systems and infrastructure readiness - January 31 [DONE]
+- Automatic package build infrastructures - January 31 [DONE]
+- Testing package repository made public - February 28 [DONE]
+- Installer testing readiness - February 28 [DONE]
+- ETA for length of time needed for community testing - April 30 [On Pace]
+- Release candidate availability - April 30 [On Pace]
 
 # Team Updates
 
@@ -26,9 +23,8 @@ The community team is looking for new members! If you’re interested in engagin
 
 ### Events
 
--   We have added timestamps for all questions in video description from our [2021-03-26 Q&A Session](https://www.youtube.com/watch?v=ULPGVBLLGuc)
--   Wolves Linux Users Group will be hosting a talk on 2021-04-28 at 15:30 ET [19:30 UTC] with Gregory Kurtzer and R. Leigh Hennig. You can find more details about this event on Meetup [here](https://wolveslug.org.uk/event/talk-rocky-linux-28th-april-2021/).
-    
+- We have added timestamps for all questions in video description from our [2021-03-26 Q&A Session](https://www.youtube.com/watch?v=ULPGVBLLGuc)
+- Wolves Linux Users Group will be hosting a talk on 2021-04-28 at 15:30 ET [19:30 UTC] with Gregory Kurtzer and R. Leigh Hennig. You can find more details about this event on Meetup [here](https://wolveslug.org.uk/event/talk-rocky-linux-28th-april-2021/).
 
 ## Documentation
 
@@ -52,16 +48,15 @@ We now have a status page available at [status.rockylinux.org](https://status.ro
 
 We’re now using [Bugzilla](https://bugs.rockylinux.org/) for bug tracking. If you’re interested in how it was set up, check out [this GitHub commit](https://github.com/rocky-linux/infrastructure/commit/d532f6a28dca1682e6c8555981e1220e49d1e809) to our Ansible playbooks.
 
-  
 ## Legal
 
--   We’ve created a privacy policy that we’ll be publishing shortly that details what we track, why, and how, which will allow us to collect basic, anonymized analytics on our website. We’ll be using Matomo for this, and will announce when that’s enabled.
--   We’ve joined the [Open Innovation Network](https://openinventionnetwork.com/), which helps us and its members protect against patent trolling.
-    
+- We’ve created a privacy policy that we’ll be publishing shortly that details what we track, why, and how, which will allow us to collect basic, anonymized analytics on our website. We’ll be using Matomo for this, and will announce when that’s enabled.
+- We’ve joined the [Open Innovation Network](https://openinventionnetwork.com/), which helps us and its members protect against patent trolling.
+
 ## Release Engineering
 
 We have released a [devtools](https://github.com/rocky-linux/devtools) repository to help configure a build development for Rocky Linux package maintainers. It’s a great way to [help you get started](https://github.com/rocky-linux/documentation/blob/main/en/rocky/8/guides/developer_start2.md) working on failed packages as reported in our [Koji build system](https://kojidev.rockylinux.org/koji/).
-  
+
 [Mustafa Gezen](mailto:mustafa@rockylinux.org) has also released a work-in-progress of a [distrobuild](https://github.com/rocky-linux/distrobuild) utility as well as [srpmproc](https://github.com/rocky-linux/srpmproc), which help tremendously in our build efforts. Both are licensed under MIT.
 
 ## Testing
@@ -74,7 +69,6 @@ The Testing team is growing quickly! Please make sure you join the [~Testing cha
 
 There’s plenty of work to do around preparing and testing various virtual machine and cloud image and container formats for Rocky, and we have a new [~Images channel](https://chat.rockylinux.org/rocky-linux/channels/images) dedicated to just that. Drop in and see what’s going on!
 
-  
 ## Sponsors and Donations
 
 ### Fastly
@@ -89,8 +83,8 @@ We’re excited to announce our partnership with NAVER Cloud, whose cloud infras
 
 As we are now approaching the general availability of Rocky Linux, we welcome media inquiries and involvement! Please reach out to [media@resf.org](mailto:media@resf.org) for interviews, quotes, information, inclusion on press releases, etc.
 
-
 ---
+
 Please be on the lookout for another update this Friday, April 30 with more details about our first release candidate!
 
 If you have any comments, questions, concerns, suggestions, or would like to help out, send a note to [hello@rockylinux.org](mailto:hello@rockylinux.org).
