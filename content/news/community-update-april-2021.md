@@ -1,3 +1,10 @@
+---
+title: Community Update - April 2021
+date: '2021-04-26'
+description: 'There’s been a flurry of activity this month as we approach the general availability of our release candidate for Rocky Linux 8.3. Read our latest update to find out more!'
+posttype: 'news'
+---
+
 # Community Update - April 2021
 
 ## Summary
