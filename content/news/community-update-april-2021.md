@@ -20,11 +20,7 @@ There’s been a flurry of activity this month as we approach the general availa
 
 ## Community
 
-  
-
 The [~Merchandise](https://chat.rockylinux.org/rocky-linux/channels/merchandise) channel has been created on our Mattermost server, along with the @merchcustomerservice account (also on the forums), for all merchandising related inquiries.
-
-  
 
 The community team is looking for new members! If you’re interested in engaging the community on social media, organizing events, and working with other teams to support community initiatives; look no further. Please join us on the [~Community channel](https://chat.rockylinux.org/rocky-linux/channels/community) on our Mattermost server and reach out to @jorp for more details.
 
@@ -37,8 +33,6 @@ The community team is looking for new members! If you’re interested in engagin
 ## Documentation
 
 The main documentation site is still being prepared, but for now you can find collaboration and localization for all documentation [on GitHub](https://github.com/rocky-linux/documentation/). Be sure to check out the [~Documentation channel](https://chat.rockylinux.org/rocky-linux/channels/documentation) on Mattermost and reach out to @wale if you are interested in helping this effort! Lots will be coming in the coming months, you are invited, come and help.
-
-  
 
 ## Infrastructure
 
@@ -54,29 +48,21 @@ We have successfully upgraded our Mattermost server to 5.34.2. You can find the 
 
 We now have a status page available at [status.rockylinux.org](https://status.rockylinux.org/) for real time monitoring of Rocky Linux related systems.
 
-  
-
 ### Bugzilla
 
 We’re now using [Bugzilla](https://bugs.rockylinux.org/) for bug tracking. If you’re interested in how it was set up, check out [this GitHub commit](https://github.com/rocky-linux/infrastructure/commit/d532f6a28dca1682e6c8555981e1220e49d1e809) to our Ansible playbooks.
 
   
-
 ## Legal
 
 -   We’ve created a privacy policy that we’ll be publishing shortly that details what we track, why, and how, which will allow us to collect basic, anonymized analytics on our website. We’ll be using Matomo for this, and will announce when that’s enabled.
 -   We’ve joined the [Open Innovation Network](https://openinventionnetwork.com/), which helps us and its members protect against patent trolling.
     
-
 ## Release Engineering
 
 We have released a [devtools](https://github.com/rocky-linux/devtools) repository to help configure a build development for Rocky Linux package maintainers. It’s a great way to [help you get started](https://github.com/rocky-linux/documentation/blob/main/en/rocky/8/guides/developer_start2.md) working on failed packages as reported in our [Koji build system](https://kojidev.rockylinux.org/koji/).
-
   
 [Mustafa Gezen](mailto:mustafa@rockylinux.org) has also released a work-in-progress of a [distrobuild](https://github.com/rocky-linux/distrobuild) utility as well as [srpmproc](https://github.com/rocky-linux/srpmproc), which help tremendously in our build efforts. Both are licensed under MIT.
-
-  
-  
 
 ## Testing
 
@@ -89,28 +75,20 @@ The Testing team is growing quickly! Please make sure you join the [~Testing cha
 There’s plenty of work to do around preparing and testing various virtual machine and cloud image and container formats for Rocky, and we have a new [~Images channel](https://chat.rockylinux.org/rocky-linux/channels/images) dedicated to just that. Drop in and see what’s going on!
 
   
-
 ## Sponsors and Donations
 
 ### Fastly
 
 Fastly has stepped up in a huge way to help get in front of the content we need to serve. Currently fronting our Mattermost instance, they’re going to be helping out with their CDN service when we go live with the release candidate. We really can’t overstate how grateful we are for their massive support here.
 
-  
-
 ### NAVER Cloud
 
 We’re excited to announce our partnership with NAVER Cloud, whose cloud infrastructure and resources will be enormously helpful in ensuring long-term sustainability and independence for the Rocky Enterprise Software Foundation.
-
-  
 
 # Media
 
 As we are now approaching the general availability of Rocky Linux, we welcome media inquiries and involvement! Please reach out to [media@resf.org](mailto:media@resf.org) for interviews, quotes, information, inclusion on press releases, etc.
 
-  
-  
-  
 
 ---
 Please be on the lookout for another update this Friday, April 30 with more details about our first release candidate!
