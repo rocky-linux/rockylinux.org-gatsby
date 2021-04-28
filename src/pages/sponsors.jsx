@@ -13,7 +13,7 @@ import MontaVistaLogo from '../images/montavista.png';
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   return (
     <Layout>
-      <SEO />
+      <SEO title="Sponsors" />
       <Header pageContext="{locale: language}" />
       <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white z-0">
         <div className="max-w-4xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:px-8">

@@ -12,7 +12,7 @@ const NotFoundPage = ({ data, pageContext: { locale: language } }) => {
 
   return (
     <Layout>
-      <SEO title="Not found" />
+      <SEO title="404 Not Found" />
       <Header pageContext="{locale: language}" />
       <div className="max-w-4xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         <svg

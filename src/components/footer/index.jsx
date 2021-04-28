@@ -227,6 +227,14 @@ const Footer = ({ pageContext: { locale: language } }) => {
               Organizational Structure
             </LocalizedLink>
           </div>
+          <div className="px-5 py-2">
+            <LocalizedLink
+              to="/privacy-policy/"
+              className="text-sm text-gray-500 hover:text-gray-400"
+            >
+              Privacy Policy
+            </LocalizedLink>
+          </div>
         </nav>
         <p className="text-center text-base text-gray-500" dir="auto">
           {translate('copyright.line1')}
