@@ -41,15 +41,15 @@
     "close-menu": "Закрыть",
     "documentation": "Документация",
     "get-in-touch": "Связаться",
-    "get-involved": "Присоединяйтесь",
+    "get-involved": "Принять участие",
     "go-home": "Домашняя страница",
-    "join-the-discussion": "Присоединяйтесь к обсуждению",
-    "posts": "News",
-    "show-your-interest": "Show Your Interest",
-    "sponsors": "Sponsors",
-    "donate": "Donate",
-    "store": "Store",
-    "press": "Press"
+    "join-the-discussion": "Обсудить",
+    "posts": "Новости",
+    "show-your-interest": "Продемонстрировать интерес",
+    "sponsors": "Спонсоры",
+    "donate": "Поддержать рублём",
+    "store": "Магазин",
+    "press": "СМИ"
   },
   "socials": {
     "forums": "Форум",
@@ -59,15 +59,15 @@
     "twitter": "Twitter"
   },
   "news": {
-    "title": "News",
-    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
+    "title": "Новости",
+    "description": "Будьте в курсе последних новостей проекта Rocky Linux."
   },
   "press": {
-    "title": "Press",
-    "description": "See the latest about Rocky in the press."
+    "title": "СМИ",
+    "description": "Новости в прессе о Rocky."
   },
   "sponsors": {
-    "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project."
+    "title": "Спонсоры",
+    "description": "Наши благодарности спонсорам за их поддержку проекта."
   }
 }
