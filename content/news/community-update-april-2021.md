@@ -37,7 +37,7 @@ The main documentation site is still being prepared, but for now you can find co
 
 ## Infrastructure
 
-### Mirror Manger
+### Mirror Manager
 
 If you’re interested in mirroring Rocky Linux, we’ve set up Mirror Manager, please email [infrastructure@rockylinux.org](mailto:infrastructure@rockylinux.org) or drop a line in the [~Infrastructure channel](https://chat.rockylinux.org/rocky-linux/channels/infrastructure) on Mattermost..
 
