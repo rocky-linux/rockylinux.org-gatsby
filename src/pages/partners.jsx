@@ -4,7 +4,7 @@ import SEO from '../components/seo';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import CtrlIqLogo from '../images/ciq.png';
+import CtrlIqLogo from '../images/ciq-alt.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import FossHostLogo from '../images/fosshost.png';
@@ -50,7 +50,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
             </div>
           </div>
           <div className="rounded-lg bg-gray-200 dark:bg-gray-900 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-800 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
-            <div className="rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+            <div className="col-span-2 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
               <div>
                 <span className="rounded-lg inline-flex p-3">
                   <img
@@ -109,7 +109,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </p>
               </div>
             </div>
-            <div className="rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
               <div>
                 <span className="rounded-lg inline-flex p-3">
                   <img
@@ -127,6 +127,9 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
                     Mattermost
+		    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
+		      Principal Partner
+		    </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
