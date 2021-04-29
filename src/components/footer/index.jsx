@@ -32,6 +32,14 @@ const Footer = ({ pageContext: { locale: language } }) => {
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
+            <a
+              href="https://status.rockylinux.org/"
+              className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
+            >
+              {translate('links.status')}
+            </a>
+          </div>
+          <div className="px-5 py-2">
             <LocalizedLink
               to="/partners/"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
