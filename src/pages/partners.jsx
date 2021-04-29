@@ -127,9 +127,9 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
                     Mattermost
-		    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-		      Principal Partner
-		    </span>
+                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
+                      Principal Partner
+                    </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
