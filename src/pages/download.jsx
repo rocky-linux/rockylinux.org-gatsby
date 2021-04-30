@@ -38,6 +38,11 @@ const DownloadPage = ({ pageContext }) => {
                         </p>
                         <hr className="mx-auto" />
                     </div>
+                    <div className="max-w-screen-sm px-8 mx-auto mt-4 flex flex-col">
+                        <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4">
+                            <span>The release you can download here is a <i>Release Candidate</i> and should not be used in production.</span>
+                        </div>
+                    </div>
                     <div className="shadow overflow-scroll rounded-md shadow max-w-screen-md mx-auto">
                         <table className="min-w-full divide-y divide-gray-400">
                             <thead className="bg-gray-200 dark:bg-gray-600">
@@ -53,9 +58,9 @@ const DownloadPage = ({ pageContext }) => {
                                         x86_64
                                     </td>
                                     <td className="px-6 py-3 whitespace-nowrap">
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">Minimal</a> |&nbsp;
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">DVD</a> |&nbsp;
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">Boot</a>
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/isos/x86_64">Minimal</a> |&nbsp;
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/isos/x86_64">DVD</a> |&nbsp;
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/isos/x86_64">Boot</a>
                                     </td>
                                     <td className="px-6 py-3 whitespace-nowrap">
                                         <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/BaseOS/x86_64/os">BaseOS</a>
@@ -66,9 +71,9 @@ const DownloadPage = ({ pageContext }) => {
                                         ARM64 (aarch64)
                                     </td>
                                     <td className="px-6 py-3 whitespace-nowrap">
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">Minimal</a> |&nbsp;
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">DVD</a> |&nbsp;
-                                        <a className="font-medium text-green-600 dark:text-green-500" href="#">Boot</a>
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/isos/aarch64">Minimal</a> |&nbsp;
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/isos/aarch64">DVD</a> |&nbsp;
+                                        <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/isos/aarch64">Boot</a>
                                     </td>
                                     <td className="px-6 py-3 whitespace-nowrap">
                                         <a className="font-medium text-green-600 dark:text-green-500" href="https://download.rockylinux.org/pub/rockylinux/8/BaseOS/aarch64/os">BaseOS</a>
@@ -80,7 +85,7 @@ const DownloadPage = ({ pageContext }) => {
                     <div className="max-w-screen-sm px-8 mx-auto mt-8 flex flex-col">
                         <div className="flex flex-col md:flex-row items-center justify-evenly mb-6">
                             <a className="text-green-600 dark:text-green-500 font-medium" href="https://docs.rockylinux.org">Documentation</a>
-                            <a className="text-green-600 dark:text-green-500 font-medium" href="#">Upgrading from CentOS</a>
+                            <a className="text-green-600 dark:text-green-500 font-medium" href="https://bugs.rockylinux.org">Bugzilla</a>
                             <a className="text-green-600 dark:text-green-500 font-medium" href="#">Verifying your ISO</a>
                         </div>
                         <p className="text-gray-700 dark:text-gray-300">
