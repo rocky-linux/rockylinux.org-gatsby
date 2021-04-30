@@ -128,6 +128,9 @@ pre {
     filter: none;
     opacity: unset;
   }
+  th {
+    color: white;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -144,6 +147,9 @@ pre {
     opacity: unset;
     filter: contrast(20%);
     filter: brightness(0%);
+  }
+  th {
+    color: black;
   }
 }
 

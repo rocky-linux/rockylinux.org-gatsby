@@ -1,7 +1,7 @@
 {
   "language": "en",
   "copyright": {
-    "line1": "© 2021 The Rocky Linux Project. All rights reserved.",
+    "line1": "© 2021 Rocky Enterprise Software Foundation. All rights reserved.",
     "line2": "Red Hat and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat or the CentOS Project."
   },
   "errors": {
@@ -47,6 +47,7 @@
     "show-your-interest": "Show Your Interest",
     "sponsors": "Sponsors",
     "partners": "Partners",
+    "status": "Service Status",
     "donate": "Donate",
     "store": "Store",
     "press": "Press",
