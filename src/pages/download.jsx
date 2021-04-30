@@ -85,7 +85,7 @@ const DownloadPage = ({ pageContext }) => {
                     <div className="max-w-screen-sm px-8 mx-auto mt-8 flex flex-col">
                         <div className="flex flex-col md:flex-row items-center justify-evenly mb-6">
                             <a className="text-green-600 dark:text-green-500 font-medium" href="https://docs.rockylinux.org">Documentation</a>
-                            <a className="text-green-600 dark:text-green-500 font-medium" href="https://bugs.rockylinux.org">Bugzilla</a>
+                            <a className="text-green-600 dark:text-green-500 font-medium" href="https://bugs.rockylinux.org">Report a bug</a>
                             <a className="text-green-600 dark:text-green-500 font-medium" href="#">Verifying your ISO</a>
                         </div>
                         <p className="text-gray-700 dark:text-gray-300">
