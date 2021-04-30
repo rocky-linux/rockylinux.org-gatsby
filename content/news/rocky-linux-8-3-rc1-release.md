@@ -14,7 +14,7 @@ To download the release, visit [https://rockylinux.org/download](https://rockyli
 ## FAQ
 > What is a release candidate?
 
-A release candidate is a beta version of a product that has the potential to be stable.The intent of a release candidate is for the community to test and validate expected functionality of Rocky Linux and report any bugs if present.
+A release candidate is a beta version of a product that has the potential to be stable. The intent of a release candidate is for the community to test and validate expected functionality of Rocky Linux and report any bugs if present.
 
 > Where can I download the release candidate?
 
