@@ -79,7 +79,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </p>
               </div>
             </div>
-            <div className="sm:rounded-tr-lg relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
               <div>
                 <span className="rounded-lg inline-flex p-3">
                   <img
