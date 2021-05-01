@@ -178,6 +178,60 @@ const DownloadPage = ({ pageContext }) => {
             </p>
           </div>
         </div>
+        <div className="max-w-screen-md px-8 mx-auto mt-4 flex flex-col">
+          <h1 className="text-black dark:text-white text-xl self-center mb-1">
+            Verifying Your Download
+          </h1>
+          <p className="text-black dark:text-white text-center mb-2">
+            Before copying the image to your preferred installation media you
+            should check the sha256sum of the downloaded installation images.
+          </p>
+          <div className="flex flex-col md:flex-row items-center justify-evenly mb-2">
+            <a
+              className="text-green-600 dark:text-green-500 font-medium"
+              href="http://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/CHECKSUM.asc"
+            >
+              aarch64 ASC/PGP
+            </a>
+            <a
+              className="text-green-600 dark:text-green-500 font-medium"
+              href="http://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/CHECKSUM.asc"
+            >
+              x86_64 ASC/PGP
+            </a>
+          </div>
+          <div className="w-full px-5 py-6 rounded-lg shadow-inner bg-gray-700 text-white mb-4 font-mono">
+            <span className="text-gray-300"># Rocky-8.3-aarch64-boot.iso</span>
+            <br />
+            <span className="mb-4">
+              9949f624c3e2144bbb230416c69abbaec158c035201659b218c33afa2e14aa15
+            </span>
+            <br />
+            <span className="text-gray-300"># Rocky-8.3-aarch64-dvd1.iso</span>
+            <br />
+            47671465d7fc037ff6aff965a1ceb2249cd223affc2db3323a7a2e08e9a2c249
+            <br />
+            <span className="text-gray-300">
+              # Rocky-8.3-aarch64-minimal.iso
+            </span>
+            <br />
+            cce94842145f1138ad387dfd89dfd374f8493d44b5e3f54ec6039e554324ed4c
+            <br />
+            <span className="text-gray-300"># Rocky-8.3-x86_64-boot.iso</span>
+            <br />
+            7a0c39ec8c271c6112ea37ed9767d4ab98107a6c778e03d34d16cd5e4e0285f0
+            <br />
+            <span className="text-gray-300"># Rocky-8.3-x86_64-dvd1.iso</span>
+            <br />
+            4be83f5edf28209ce5caa06995c1c3fc5112d0d260b9e8c1cc2fecd384abcee0
+            <br />
+            <span className="text-gray-300">
+              # Rocky-8.3-x86_64-minimal.iso
+            </span>
+            <br />
+            fba979fde098027df79b4b686359a8e22daad7f6b269f34887dbe3a53f7cf73a
+          </div>
+        </div>
       </main>
       <Footer pageContext="{locale: language}" />
     </Layout>
