@@ -1,8 +1,8 @@
 {
   "language": "zh-cn",
   "copyright": {
-    "line1": "© 2021 Rocky 企业软件基金会（Rocky Enterprise Software Foundation）。版权所有。",
-    "line2": "Red Hat 和 CentOS 是红帽公司（Red Hat, Inc.）及其子公司在美国和其他国家的商标或注册商标。我们与 Red Hat 或 Cent OS 项目 无关、无受其认可，也无受它们支持或赞助。"
+    "line1": "© 2021 Rocky 企业软件基金会（Rocky Enterprise Software Foundation）。保留所有权利。",
+    "line2": "Red Hat 和 CentOS 是红帽公司（Red Hat, Inc.）及其子公司在美国和其他国家的商标或注册商标。我们与 Red Hat 或 Cent OS 项目无关、无受其认可，也无受它们支持或赞助。"
   },
   "errors": {
     "404": {
@@ -50,7 +50,8 @@
     "status": "服务状态",
     "donate": "捐助",
     "store": "商店",
-    "press": "资讯"
+    "press": "资讯",
+    "download": "下载"
   },
   "socials": {
     "forums": "论坛",
