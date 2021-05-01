@@ -12,6 +12,7 @@ The Rocky Enterprise Software Foundation (RESF) is pleased to announce the gener
 To download the release, visit [https://rockylinux.org/download](https://rockylinux.org/download).
 
 ## FAQ
+
 > What is a release candidate?
 
 A release candidate is a beta version of a product that has the potential to be stable. The intent of a release candidate is for the community to test and validate expected functionality of Rocky Linux and report any bugs if present.
@@ -45,6 +46,7 @@ Stay tuned to our [website](https://rockylinux.org), [Twitter](https://twitter.c
 Please email us: [hello@rockylinux.org](mailto:hello@rockylinux.org) and we’ll get back to you as soon as we can.
 
 ---
+
 This release is the culmination of months of hard work from every corner of the community. What started in a comment thread on a Red Hat blog in December of 2020 grew to a community over ten thousand strong in a Slack channel in a matter of days. From there you pulled together to build teams around infrastructure, branding, website, development, special interest groups, and more. By February of 2021, over 80 million hits had been recorded across various social media platforms and news sites.
 
 And now, four months later, we have a true open enterprise community operating system. More than that, we have a community, extending far beyond the scope of simply a Linux distribution.
@@ -56,12 +58,12 @@ We’d like to extend a special thanks to our sponsors and our partners, whose c
 - Amazon Web Services
 - Fosshost
 - Fastly
-- GitLab 
+- GitLab
 - Mattermost
 - MontaVista
 - NAVER Cloud
 - OpenDrives
 
 This is just the beginning. Our commitment to you is the long-lasting development and support of an open enterprise operating system by the community, and for the community.
-  
+
 We have so much more to do. From testing and validation of the core OS to the refinement of our build infrastructure and special interest groups, the work is not done. Come build the next open enterprise operating system with us at [https://rockylinux.org](https://rockylinux.org).
