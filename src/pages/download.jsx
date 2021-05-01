@@ -82,21 +82,21 @@ const DownloadPage = ({ pageContext }) => {
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rockylinux/8/isos/x86_64"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-minimal.iso"
                     >
                       Minimal
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rockylinux/8/isos/x86_64"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-dvd1.iso"
                     >
                       DVD
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rockylinux/8/isos/x86_64"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-boot.iso"
                     >
                       Boot
                     </a>
@@ -104,7 +104,7 @@ const DownloadPage = ({ pageContext }) => {
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rockylinux/8/BaseOS/x86_64/os"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/BaseOS/x86_64/"
                     >
                       BaseOS
                     </a>
@@ -117,21 +117,21 @@ const DownloadPage = ({ pageContext }) => {
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rockylinux/8/isos/aarch64"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/Rocky-8.3-aarch64-minimal.iso"
                     >
                       Minimal
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rockylinux/8/isos/aarch64"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/Rocky-8.3-aarch64-dvd1.iso"
                     >
                       DVD
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rockylinux/8/isos/aarch64"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/Rocky-8.3-aarch64-boot.iso"
                     >
                       Boot
                     </a>
@@ -139,7 +139,7 @@ const DownloadPage = ({ pageContext }) => {
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rockylinux/8/BaseOS/aarch64/os"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/BaseOS/aarch64/"
                     >
                       BaseOS
                     </a>
@@ -161,12 +161,6 @@ const DownloadPage = ({ pageContext }) => {
                 href="https://bugs.rockylinux.org"
               >
                 Report a bug
-              </a>
-              <a
-                className="text-green-600 dark:text-green-500 font-medium"
-                href="#"
-              >
-                Verifying your ISO
               </a>
             </div>
             <p className="text-gray-700 dark:text-gray-300">
