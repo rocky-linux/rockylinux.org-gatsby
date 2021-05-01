@@ -14,18 +14,19 @@ const DownloadPage = ({ pageContext }) => {
         <div className="px-4 pb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="max-w-screen-sm text-center sm:mx-auto">
             <div className="inline-block mb-5 rounded-full sm:mx-auto">
-              <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-600">
+              <div className="flex items-center justify-center w-16 h-16 mb-4 mt-10 bg-green-600 rounded-full">
                 <svg
-                  className="w-12 h-12 text-green-100"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-green-100"
+                  fill="none"
+                  viewBox="0 0 24 24"
                   stroke="currentColor"
-                  viewBox="0 0 52 52"
                 >
-                  <polygon
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                     strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                   />
                 </svg>
               </div>
