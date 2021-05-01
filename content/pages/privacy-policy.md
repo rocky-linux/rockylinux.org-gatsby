@@ -10,13 +10,15 @@ This Privacy Policy describes the information we collect from you, how we use th
 
 Unless explicitly noted, this Privacy Policy does not cover 3rd party services or mirror sites used by Rocky Enterprise Software Foundation.
 
-# Who are we?
+---
+
+## Who are we?
 
 [Rocky Linux](https://rockylinux.org) is an open source project brought to you by the Rocky Enterprise Software Foundation as well as many other contributors around the globe. If you have any questions about this privacy policy, please contact our privacy team at privacy@resf.org. We will never sell your personal data to anyone and we strongly believe in the right to privacy and anonymity.
 
 ---
 
-# What Data Do We Collect and Receive?
+## What Data Do We Collect and Receive?
 
 In order for us to both provide and maintain our Services, we collect certain information, including through [Matomo](https://matomo.org) for analytics on our websites. Depending on your use of the Services, we may collect the following information:
 
@@ -34,7 +36,7 @@ In order for us to both provide and maintain our Services, we collect certain in
 
 ---
 
-# Sharing of Data
+## Sharing of Data
 
 We share information collected about you with certain selected third parties ("3rd Party Service Providers") listed below.
 
@@ -60,7 +62,7 @@ We do not sell information collected about you.
 
 ---
 
-# Do Not Track and Cookie Controls
+## Do Not Track and Cookie Controls
 
 <u>Do Not Track Signals:</u> "Do not track" signals are preferences that users can set on their web browsers to limit how their activity is tracked across online services. Our Services may not all respond to "do not track" signals in your web browser.
 
@@ -68,7 +70,7 @@ We do not sell information collected about you.
 
 ---
 
-# California Rights Under the CCPA
+## California Rights Under the CCPA
 
 Where applicable, if you are a California resident you may have the following rights under the California Consumer Privacy Act of 2018 (the "CCPA") in relation to "personal information" we have collected about you as defined in the CCPA; these rights are to the extent required by the CCPA and subject to verification and any applicable exceptions:
 
@@ -88,31 +90,31 @@ We will need to verify your identity prior to addressing your request. Only you,
 
 ---
 
-# Retention of data
+## Retention of data
 
 We will retain your information as long as your account is active, as necessary to provide you with the services or as otherwise set forth in this Policy. We will also retain and use this information as necessary for the purposes set out in this Policy and to the extent necessary to comply with our legal obligations, resolve disputes, enforce our agreements and protect Rocky Enterprise Software Foundation's legal rights.
 
 ---
 
-# Information Security Risks
+## Information Security Risks
 
 While we maintain certain policies to protect information that we may collect from you, no method of transmission over the Internet is completely secure. Therefore, while we strive to protect information about you that we collect, we cannot guarantee absolute security and confidentiality.
 
 ---
 
-# Third Party Websites
+## Third Party Websites
 
 Our Services may from time to time contain links to other external websites or mirror sites. This Privacy Policy does not apply to third-party websites or mirror sites. We do not control and are not responsible for the privacy practices or the content of third-party websites or mirror sites.
 
 ---
 
-# Privacy Policy Changes
+## Privacy Policy Changes
 
 We may update this Policy from time to time. If we do, we'll update the "Last Updated" date at the top of this Privacy Policy. If we make any material changes, we will take steps as required by law, including by notifying you through the Services, sending you an email, or obtaining your consent. The updated Privacy Policy will be effective as of the time of posting, or such later date as may be specified in the updated Privacy Policy.
 
 ---
 
-# Contact Us
+## Contact Us
 
 If you have any questions or concerns regarding your information, please contact us via email at privacy@resf.org or physical mail at:
 

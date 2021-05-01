@@ -22,23 +22,96 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
           <div className="max-w-screen-xl sm:mx-auto">
             <div className="prose mx-auto dark-mode:prose-dark dark:text-gray-300">
               <h5 className="font-bold">
-                If Rocky Linux is just a respin of RHEL, what’s taking so long
-                for a release candidate?
+                Where can I download the release candidate?
+              </h5>
+              <p>
+                <a href="https://rockylinux.org/download">
+                  https://rockylinux.org/download
+                </a>
+              </p>
+              <hr />
+              <h5 className="font-bold">What is a release candidate?</h5>
+              <p>
+                A release candidate is a beta version of a product that has the
+                potential to be stable.The intent of a release candidate is for
+                the community to test and validate expected functionality of
+                Rocky Linux and report any bugs if present.
+              </p>
+              <hr />
+              <h5 className="font-bold">
+                Can I use the release candidate in production?
+              </h5>
+              <p>
+                Under no circumstance should you use a release candidate in a
+                production environment. A release candidate is provided for
+                testing and validation purposes only.
+              </p>
+              <hr />
+              <h5 className="font-bold">
+                How can I help mirror the release candidate and future Rocky
+                Linux releases?
+              </h5>
+              <p>
+                Please email{' '}
+                <a href="mailto:mirrors@rockylinux.org">
+                  mirrors@rockylinux.org
+                </a>{' '}
+                to express your interest.
+              </p>
+              <hr />
+              <h5 className="font-bold">
+                I encountered a bug while testing the release candidate, what
+                can I do?
+              </h5>
+              <p>
+                First, create an account using{' '}
+                <a href="https://accounts.rockylinux.org/">
+                  Rocky Linux Account Services
+                </a>
+                , then head over to our{' '}
+                <a href="https://bugs.rockylinux.org/">Bugzilla server</a> to
+                report any bugs.
+              </p>
+              <hr />
+              <h5 className="font-bold">
+                How can I get involved with the Testing team?
+              </h5>
+              <p>
+                Please join the{' '}
+                <a href="https://chat.rockylinux.org/rocky-linux/channels/testing">
+                  ~Testing
+                </a>{' '}
+                channel on our Mattermost server to get started. There’s also a
+                testing topic on the forums for more durable conversation.
+              </p>
+              <hr />
+              <h5 className="font-bold">
+                Where can I find the latest news about Rocky Linux?
+              </h5>
+              <p>
+                Stay tuned to our website, Twitter, LinkedIn, forums, and other
+                platforms listed in our link directory for the latest
+                announcements.
+              </p>
+              <hr />
+              <h5 className="font-bold">
+                If Rocky Linux is just a respin of RHEL, what took so long for a
+                release candidate?
               </h5>
               <p>
                 If our only goal for Rocky Linux was to debrand and repackage
-                RHEL, we would already be done. However, what we’re trying to do
-                differently is figure out how we can keep Rocky Linux in the
-                hands of the community. Carefully devising this strategy helps
-                make sure that Rocky Linux will never meet the same fate of
+                RHEL, we would have been done much sooner. However, what we had
+                to do differently is figure out how we could keep Rocky Linux in
+                the hands of the community. Carefully devising this strategy
+                ensures that Rocky Linux will never meet the same fate of
                 CentOS.
               </p>
               <p>
-                The goal is not just to create a community managed RPM based
+                The goal was not just to create a community managed RPM based
                 distribution of Linux, but to ensure that it will remain freely
                 available and always in the control of the community, much like
-                Linux itself has. To do that requires more than a build
-                infrastructure; it requires that we put in place the
+                Linux itself has. To do that required more than a build
+                infrastructure; it required that we put in place the
                 foundational structures that enable the community, ensuring that
                 Rocky Linux is forever inclusive, free, and open. The
                 infrastructure is built from the ground up by many collaborators
@@ -142,6 +215,15 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
                 but want to contribute anyway? Solving for all of these
                 challenges will take time, and we would love your help in doing
                 so.
+              </p>
+              <hr />
+              <h5 className="font-bold">
+                What if I have feedback or my question wasn’t answered here?
+              </h5>
+              <p>
+                Please email us:{' '}
+                <a href="mailto:hello@rockylinux.org">hello@rockylinux.org</a>{' '}
+                and we’ll get back to you as soon as we can.
               </p>
             </div>
           </div>
