@@ -5,8 +5,6 @@ description: 'The Rocky Enterprise Software Foundation is pleased to announce th
 posttype: 'news'
 ---
 
-# Rocky Linux 8.3 Release Candidate 1 Availability
-
 The Rocky Enterprise Software Foundation (RESF) is pleased to announce the general availability of the Rocky Linux 8.3 Release Candidate 1 for x86_64 and aarch64 architectures.
 
 To download the release, visit [https://rockylinux.org/download](https://rockylinux.org/download).
