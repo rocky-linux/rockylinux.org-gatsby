@@ -53,7 +53,7 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
               I encountered a bug while testing the release candidate, what can I do?
               </h5>
               <p>
-              First, create an account using Rocky Linux Account Services, then head over to our Bugzilla server to report any bugs.
+              First, create an account using <a href="https://accounts.rockylinux.org/">Rocky Linux Account Services</a>, then head over to our <a href="https://bugs.rockylinux.org/">Bugzilla server</a> to report any bugs.
               </p>
               <hr />
               <h5 className="font-bold">
