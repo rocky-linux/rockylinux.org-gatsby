@@ -39,8 +39,8 @@ const DownloadPage = ({ pageContext }) => {
             </p>
             <hr className="mx-auto" />
           </div>
-          <div className="max-w-screen-sm px-8 mx-auto mt-4 flex flex-col">
-            <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4">
+          <div className="max-w-screen-md px-8 mx-auto mt-4 flex flex-col">
+            <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4 text-center">
               <span>
                 The release you can download here is a <i>Release Candidate</i>{' '}
                 and should not be used in production. Please check our{' '}
