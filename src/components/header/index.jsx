@@ -73,10 +73,11 @@ const Header = ({ pageContext: { locale: language } }) => {
           <li>
             <LocalizedLink
               to="/download"
-              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white dark:text-black transition duration-200 rounded shadow-md bg-green-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-10 px-5 font-medium tracking-wide text-white dark:text-black transition duration-200 rounded-md shadow-md bg-green-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               aria-label="Download"
               title="Download"
             >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /> </svg>
               {translate('links.download')}
             </LocalizedLink>
           </li>
@@ -221,6 +222,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         aria-label="Download"
                         title="Download"
                       >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /> </svg>
                         {translate('links.download')}
                       </LocalizedLink>
                     </li>
