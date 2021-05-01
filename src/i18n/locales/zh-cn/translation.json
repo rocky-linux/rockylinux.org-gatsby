@@ -1,8 +1,8 @@
 {
   "language": "zh-cn",
   "copyright": {
-    "line1": "© 2021 Rocky Linux 项目。版权所有。",
-    "line2": "CentOS 是红帽公司（Red Hat, Inc.）的注册商标，Rocky Linux 项目既不隶属于红帽公司（Red Hat, Inc.），也无受其认可。"
+    "line1": "© 2021 Rocky 企业软件基金会（Rocky Enterprise Software Foundation）。版权所有。",
+    "line2": "Red Hat 和 CentOS 是红帽公司（Red Hat, Inc.）及其子公司在美国和其他国家的商标或注册商标。我们与 Red Hat 或 Cent OS 项目 无关、无受其认可，也无受它们支持或赞助。"
   },
   "errors": {
     "404": {
@@ -16,7 +16,7 @@
       "downstream-partner-direction": "CentOS 项目最近宣布了 CentOS 的战略转变，CentOS 以前是作为上游供应商的下游构建版本存在的（即它会在上游供应商之后收到补丁和更新），而现在它将转移为一个上游构建版本（即它会在上游供应商纳入之前测试补丁和更新）。另外，对 CentOS Linux 8 的支持也已从 2029年 5 月 31 日缩短至 2021 年 12 月 31 日。"
     },
     "q": {
-      "come-in": "那么 Rocky Linux 从何而来呢？",
+      "come-in": "那么 Rocky Linux 怎么发挥作用呢？",
       "downstream-partner-direction": "“下游合作伙伴转移了发展方向”是什么意思？"
     },
     "title": "常见问题"
@@ -27,14 +27,13 @@
       "heading": "Rocky Linux"
     },
     "p2": {
-      "content": "Rocky Linux 是一个社区化的企业级操作系统。其设计为的是与美国顶级企业 Linux 发行版实现 100％ Bug 级兼容，而原因是后者的下游合作伙伴转移了发展方向。目前社区正在集中力量发展有关设施。Rocky Linux 由 CentOS 项目的创始人 Gregory Kurtzer 领导。目前没有发布的具体时间。贡献者们须要用本网站上提供的通讯方式与我们联系。",
+      "content": "Rocky Linux 是一个社区化的企业级操作系统。其设计为的是与美国顶级企业 Linux 发行版实现 100％ Bug 级兼容，而原因是后者的下游合作伙伴转移了发展方向。目前社区正在集中力量发展有关设施。Rocky Linux 由 CentOS 项目的创始人 Gregory Kurtzer 领导。目前公测版（Beta）的预计发布时间是 4 月 30 日。贡献者们须要用本网站上提供的通讯方式与我们联系。",
       "heading": "Rocky Linux 项目是什么?"
     }
   },
   "lang": {
     "footer": {
-      "choose-language": "选择一种语言...",
-      "literal": "Language:"
+      "choose-language": "Language/选择一种语言..."
     }
   },
   "links": {
@@ -44,30 +43,32 @@
     "get-involved": "参与我们",
     "go-home": "前往主页",
     "join-the-discussion": "加入讨论",
-    "posts": "News",
-    "show-your-interest": "Show Your Interest",
-    "sponsors": "Sponsors",
-    "donate": "Donate",
-    "store": "Store",
-    "press": "Press"
+    "posts": "新闻",
+    "show-your-interest": "展现您的兴趣",
+    "sponsors": "赞助商",
+    "partners": "合作伙伴",
+    "status": "服务状态",
+    "donate": "捐助",
+    "store": "商店",
+    "press": "资讯"
   },
   "socials": {
     "forums": "论坛",
     "github": "Github",
     "reddit": "Reddit",
     "mattermost": "Mattermost",
-    "twitter": "Twitter"
+    "twitter": "推特"
   },
   "news": {
-    "title": "News",
-    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
+    "title": "新闻",
+    "description": "随时了解 Rocky Linux 项目的最新消息。"
   },
   "press": {
-    "title": "Press",
-    "description": "See the latest about Rocky in the press."
+    "title": "资讯",
+    "description": "在媒体上浏览关于 Rocky 的最新信息。"
   },
   "sponsors": {
-    "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project."
+    "title": "赞助商",
+    "description": "我们要感谢赞助者们迄今为止对这个项目的支持。"
   }
 }
