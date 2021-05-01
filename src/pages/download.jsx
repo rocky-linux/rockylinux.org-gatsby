@@ -99,6 +99,13 @@ const DownloadPage = ({ pageContext }) => {
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-boot.iso"
                     >
                       Boot
+                    </a>{' '}
+                    |&nbsp;
+                    <a
+                      className="font-medium text-green-600 dark:text-green-500"
+                      href="http://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/CHECKSUM"
+                    >
+                      Checksum
                     </a>
                   </td>
                   <td className="px-6 py-3 whitespace-nowrap">
@@ -134,6 +141,13 @@ const DownloadPage = ({ pageContext }) => {
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/Rocky-8.3-aarch64-boot.iso"
                     >
                       Boot
+                    </a>{' '}
+                    |&nbsp;
+                    <a
+                      className="font-medium text-green-600 dark:text-green-500"
+                      href="http://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/CHECKSUM"
+                    >
+                      Checksum
                     </a>
                   </td>
                   <td className="px-6 py-3 whitespace-nowrap">
