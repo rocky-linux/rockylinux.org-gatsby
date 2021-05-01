@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 import Footer from '../components/footer';
 import Header from '../components/header';
@@ -40,7 +41,7 @@ const DownloadPage = ({ pageContext }) => {
                     </div>
                     <div className="max-w-screen-sm px-8 mx-auto mt-4 flex flex-col">
                         <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4">
-                            <span>The release you can download here is a <i>Release Candidate</i> and should not be used in production.</span>
+                            <span>The release you can download here is a <i>Release Candidate</i> and should not be used in production. Please check our <Link className="underline font-medium" to="/faq/">FAQ</Link> for more information.</span>
                         </div>
                     </div>
                     <div className="shadow overflow-scroll rounded-md shadow max-w-screen-md mx-auto">
