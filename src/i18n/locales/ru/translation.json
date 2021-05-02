@@ -56,7 +56,13 @@
     "github": "GitHub",
     "reddit": "Reddit",
     "mattermost": "Mattermost",
-    "twitter": "Twitter"
+    "twitter": "Twitter",
+    "download": "Download",
+    "community-charter": "Community Charter",
+    "organizational-structure": "Organizational Structure",
+    "privacy-policy": "Privacy Policy",
+    "see-more": "See More",
+    "see-all": "See All"
   },
   "news": {
     "title": "Новости",

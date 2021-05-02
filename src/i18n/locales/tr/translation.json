@@ -1,1 +1,78 @@
-{"language":"tr","copyright":{"line1":"© 2021 Rocky Linux Projesi. Tüm hakları saklıdır.","line2":"Red Hat ve CentOS, Red Hat, Inc.'in veya yan kuruluşlarının ticari veya tescilli ticari markalarıdır. Rocky Linux Projesi, CentOS ve Red Hat, Inc.'e bağlı değildir ve Red Hat, Inc. tarafından desteklenmemektedir ve sponsorluğu altında değildir."},"errors":{"404":{"explanation":"İstenilen kaynağa erişilemedi. Lütfen tekrar deneyin.","title":"Sayfa bulunamadı."}},"faq":{"a":{"come-in":"Rocky Linux, CentOS'un geçmişte yaptığı gibi downstream bir versiyon olmayı hedefliyor. Sürümler upstream karşılığına yenilikler eklendikten sonra çıkacak, önce değil.","downstream-partner-direction":"CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Geçmişte CentOS, Enterprise Linux'in bir downstream (çıkan güncellemeleri ve güvenlik yamalarını upstream versiyonu aldıktan sonra alan) versiyonu olarak kullanılıyordu fakat Enterprise Linux'un upstream (çıkan güncellemeleri ve güvenlik yamalarının denendiği) versiyonu olma yönünde bir değişiklik yaşadı. Ek olarak, CentOS Linux 8'e verilecek desteğin son tarihi 31 Mayıs 2029'dan 31 Aralık 2021'e çekildi."},"q":{"come-in":"Peki Rocky Linux nereden geliyor?","downstream-partner-direction":"\"Downstream partneri yön değiştirdi.\" ne anlama geliyor?"},"title":"Sıkça Sorulan Sorular"},"landing":{"p1":{"content":"Topluluk odaklı, Kurumsal kullanıma hazır işletim sistemi.","heading":"Rocky Linux"},"p2":{"content":"Rocky Linux, topluluk tarafından oluşturulan ve karşılığı downstream olmayı bıraktıktan sonra Enterprise Linux ile 100% bug-for-bug şekilde uyumlu olması için dizayn edilmiş bir işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir.","heading":"Rocky Linux Projesi Nedir?"}},"lang":{"footer":{"choose-language":"Dilinizi Seçiniz..."}},"links":{"close-menu":"Menüyü Kapat","documentation":"Dokümantasyon","get-in-touch":"İletişime Geçin","get-involved":"Bize Katılın","go-home":"Ana Sayfa","join-the-discussion":"Tartışmaya Katılın","posts":"Haberler","show-your-interest":"İlginizi Gösterin","sponsors":"Sponsorlar","donate":"Bağış","store":"Mağaza","press":"Basın"},"socials":{"forums":"Forumlar","github":"Github","reddit":"Reddit","mattermost":"Mattermost","twitter":"Twitter"},"news":{"title":"Haberler","description":"Rocky Linux Projesi ile ilgili en son gelişmelerden haberdar olun."},"press":{"title":"Basın","description":"Basında Rocky hakkındaki son haberlere ulaşın."},"sponsors":{"title":"Sponsorlar","description":"Sponsorlarımıza şu ana kadar projeye verdikleri destek için teşekkür ederiz."}}
+{
+  "language": "tr",
+  "copyright": {
+    "line1": "© 2021 Rocky Linux Projesi. Tüm hakları saklıdır.",
+    "line2": "Red Hat ve CentOS, Red Hat, Inc.'in veya yan kuruluşlarının ticari veya tescilli ticari markalarıdır. Rocky Linux Projesi, CentOS ve Red Hat, Inc.'e bağlı değildir ve Red Hat, Inc. tarafından desteklenmemektedir ve sponsorluğu altında değildir."
+  },
+  "errors": {
+    "404": {
+      "explanation": "İstenilen kaynağa erişilemedi. Lütfen tekrar deneyin.",
+      "title": "Sayfa bulunamadı."
+    }
+  },
+  "faq": {
+    "a": {
+      "come-in": "Rocky Linux, CentOS'un geçmişte yaptığı gibi downstream bir versiyon olmayı hedefliyor. Sürümler upstream karşılığına yenilikler eklendikten sonra çıkacak, önce değil.",
+      "downstream-partner-direction": "CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Geçmişte CentOS, Enterprise Linux'in bir downstream (çıkan güncellemeleri ve güvenlik yamalarını upstream versiyonu aldıktan sonra alan) versiyonu olarak kullanılıyordu fakat Enterprise Linux'un upstream (çıkan güncellemeleri ve güvenlik yamalarının denendiği) versiyonu olma yönünde bir değişiklik yaşadı. Ek olarak, CentOS Linux 8'e verilecek desteğin son tarihi 31 Mayıs 2029'dan 31 Aralık 2021'e çekildi."
+    },
+    "q": {
+      "come-in": "Peki Rocky Linux nereden geliyor?",
+      "downstream-partner-direction": "\"Downstream partneri yön değiştirdi.\" ne anlama geliyor?"
+    },
+    "title": "Sıkça Sorulan Sorular"
+  },
+  "landing": {
+    "p1": {
+      "content": "Topluluk odaklı, Kurumsal kullanıma hazır işletim sistemi.",
+      "heading": "Rocky Linux"
+    },
+    "p2": {
+      "content": "Rocky Linux, topluluk tarafından oluşturulan ve karşılığı downstream olmayı bıraktıktan sonra Enterprise Linux ile 100% bug-for-bug şekilde uyumlu olması için dizayn edilmiş bir işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir.",
+      "heading": "Rocky Linux Projesi Nedir?"
+    }
+  },
+  "lang": {
+    "footer": {
+      "choose-language": "Dilinizi Seçiniz..."
+    }
+  },
+  "links": {
+    "close-menu": "Menüyü Kapat",
+    "documentation": "Dokümantasyon",
+    "get-in-touch": "İletişime Geçin",
+    "get-involved": "Bize Katılın",
+    "go-home": "Ana Sayfa",
+    "join-the-discussion": "Tartışmaya Katılın",
+    "posts": "Haberler",
+    "show-your-interest": "İlginizi Gösterin",
+    "sponsors": "Sponsorlar",
+    "donate": "Bağış",
+    "store": "Mağaza",
+    "press": "Basın",
+    "download": "Download",
+    "community-charter": "Community Charter",
+    "organizational-structure": "Organizational Structure",
+    "privacy-policy": "Privacy Policy",
+    "see-more": "See More",
+    "see-all": "See All"
+  },
+  "socials": {
+    "forums": "Forumlar",
+    "github": "Github",
+    "reddit": "Reddit",
+    "mattermost": "Mattermost",
+    "twitter": "Twitter"
+  },
+  "news": {
+    "title": "Haberler",
+    "description": "Rocky Linux Projesi ile ilgili en son gelişmelerden haberdar olun."
+  },
+  "press": {
+    "title": "Basın",
+    "description": "Basında Rocky hakkındaki son haberlere ulaşın."
+  },
+  "sponsors": {
+    "title": "Sponsorlar",
+    "description": "Sponsorlarımıza şu ana kadar projeye verdikleri destek için teşekkür ederiz."
+  }
+}
