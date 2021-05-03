@@ -182,7 +182,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
               </div>
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-50">
-                  <a href="https://mvista.com/" className="focus:outline-none">
+                  <a href="https://aws.amazon.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
                     Amazon Web Services
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
