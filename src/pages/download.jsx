@@ -103,7 +103,7 @@ const DownloadPage = ({ pageContext }) => {
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="http://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/CHECKSUM"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/CHECKSUM"
                     >
                       Checksum
                     </a>
@@ -145,7 +145,7 @@ const DownloadPage = ({ pageContext }) => {
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="http://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/CHECKSUM"
+                      href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/CHECKSUM"
                     >
                       Checksum
                     </a>

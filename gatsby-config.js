@@ -136,6 +136,7 @@ module.exports = {
         siteId: '1',
         matomoUrl: 'https://analytics.rockylinux.org',
         siteUrl: 'https://rockylinux.org',
+        trackLoad: false,
       },
     },
   ],
