@@ -49,20 +49,20 @@
     "sponsors": "Спонсоры",
     "donate": "Поддержать рублём",
     "store": "Магазин",
-    "press": "СМИ"
-  },
-  "socials": {
-    "forums": "Форум",
-    "github": "GitHub",
-    "reddit": "Reddit",
-    "mattermost": "Mattermost",
-    "twitter": "Twitter",
+    "press": "СМИ",
     "download": "Download",
     "community-charter": "Community Charter",
     "organizational-structure": "Organizational Structure",
     "privacy-policy": "Privacy Policy",
     "see-more": "See More",
     "see-all": "See All"
+  },
+  "socials": {
+    "forums": "Форум",
+    "github": "GitHub",
+    "reddit": "Reddit",
+    "mattermost": "Mattermost",
+    "twitter": "Twitter"
   },
   "news": {
     "title": "Новости",
