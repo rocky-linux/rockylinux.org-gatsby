@@ -40,11 +40,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 Partners
               </h2>
               <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-                Partners av RESF representerar pågående relationer av
-                strategisk betydelse för Rocky Linux-projektet. Genom
-                dedikation av teknisk expertis , infrastrukturresurser,
-                eller andra medel, deras stöd är kritisk till vår fortsatta
-                framgång och långsiktig stabilitet.
+                Partners av RESF representerar pågående relationer av strategisk
+                betydelse för Rocky Linux-projektet. Genom dedikation av teknisk
+                expertis , infrastrukturresurser, eller andra medel, deras stöd
+                är kritisk till vår fortsatta framgång och långsiktig
+                stabilitet.
               </p>
               <hr className="mx-auto" />
             </div>
@@ -71,11 +71,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  Enad, säker, agnostisk datorbearbetning som startar med 
-                  provisionering, hantering, och support av bas OS
-                  (Rocky Linux) och går igenom distributionsstacken av
-                  containers med cloud native, multi-prem, multi-cloud
-                  meta-orkestrering av prestanda kritiska arbetsflöden och data.
+                  Enad, säker, agnostisk datorbearbetning som startar med
+                  provisionering, hantering, och support av bas OS (Rocky Linux)
+                  och går igenom distributionsstacken av containers med cloud
+                  native, multi-prem, multi-cloud meta-orkestrering av prestanda
+                  kritiska arbetsflöden och data.
                 </p>
               </div>
             </div>
@@ -100,12 +100,12 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  NAVER Cloud Platform är en Sydkoreansk molntjänst som
-                  startade år 2017 under NAVER Cloud, ett dotterbolag till NAVER. Den
-                  erbjuder över 170 individuella tjänster år 2021 och har
-                  olika säkerhetscertifieringar som inkluderar CSA STAR GOLD, GDPR,
-                  och mer. För närvarande tillhandahåller vi också molntjänster på 10
-                  platser runt om i världen.
+                  NAVER Cloud Platform är en Sydkoreansk molntjänst som startade
+                  år 2017 under NAVER Cloud, ett dotterbolag till NAVER. Den
+                  erbjuder över 170 individuella tjänster år 2021 och har olika
+                  säkerhetscertifieringar som inkluderar CSA STAR GOLD, GDPR,
+                  och mer. För närvarande tillhandahåller vi också molntjänster
+                  på 10 platser runt om i världen.
                 </p>
               </div>
             </div>
@@ -135,9 +135,9 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <p className="mt-2 text-sm text-gray-200">
                   Mattermost är en öppen källkodsmeddelandelösning skapad för
                   organisationer med de högsta säkerhetskraven. Som stora
-                  troende på kraften i öppen källkod, Mattermost är glada
-                  att vara partners med RESF för att hjälpa till med att ge ut en företagsklass
-                  distribution av Linux till teknikgemenskapen.
+                  troende på kraften i öppen källkod, Mattermost är glada att
+                  vara partners med RESF för att hjälpa till med att ge ut en
+                  företagsklass distribution av Linux till teknikgemenskapen.
                 </p>
               </div>
             </div>

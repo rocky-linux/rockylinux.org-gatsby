@@ -68,11 +68,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  Enad, säker, agnostisk datorbearbetning som startar med 
-                  provisionering, hantering, och support av bas OS
-                  (Rocky Linux) och går igenom distributionsstacken av
-                  containers med cloud native, multi-prem, multi-cloud
-                  meta-orkestrering av prestanda kritiska arbetsflöden och data.
+                  Enad, säker, agnostisk datorbearbetning som startar med
+                  provisionering, hantering, och support av bas OS (Rocky Linux)
+                  och går igenom distributionsstacken av containers med cloud
+                  native, multi-prem, multi-cloud meta-orkestrering av prestanda
+                  kritiska arbetsflöden och data.
                 </p>
               </div>
             </div>
@@ -100,11 +100,12 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  45Drives erbjuder företagslagringslösningar byggda på kraftfull
-                  & robust öppenkällkodsprogramvara som gör att kunderna kan dra nytta
-                  från kostnadsbesparingarna & flexibilitet från hårdvara direkt från hyllan.
-                  Kolla in dem för en fullständigt stöd datalagringslösning för
-                  den bästa kostnaden per terabyte!
+                  45Drives erbjuder företagslagringslösningar byggda på
+                  kraftfull & robust öppenkällkodsprogramvara som gör att
+                  kunderna kan dra nytta från kostnadsbesparingarna &
+                  flexibilitet från hårdvara direkt från hyllan. Kolla in dem
+                  för en fullständigt stöd datalagringslösning för den bästa
+                  kostnaden per terabyte!
                 </p>
               </div>
             </div>
@@ -134,10 +135,10 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <p className="mt-2 text-sm text-gray-200">
                   OpenDrives är en global leverantör av företagsklassade,
                   hyperskalbara, nätverksanslutna lagringslösningar (NAS). Vi
-                  leverar de bästa lösningarna för våra kunder -
-                  för att matcha individuella prestationsbehov - för det mest robusta,
-                  komplexa och uppdragskritiska projekt och arbetsflöden,
-                  on-premises eller i molnet.
+                  leverar de bästa lösningarna för våra kunder - för att matcha
+                  individuella prestationsbehov - för det mest robusta, komplexa
+                  och uppdragskritiska projekt och arbetsflöden, on-premises
+                  eller i molnet.
                 </p>
               </div>
             </div>
@@ -164,9 +165,9 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <p className="mt-2 text-sm text-gray-200">
                   MontaVista Software är ledande inom inbäddad kommersiell
                   Linux, stödjer MontaVista CGX, Yocto Project®, CentOS och
-                  Rocky Linux. MontaVista erbjuder expertis i öppenkällkodsprogramvara,
-                  kommersiell kvalitet Linux distros, kostnadseffektivt underhåll
-                  och support för 10+ år livscyklar.
+                  Rocky Linux. MontaVista erbjuder expertis i
+                  öppenkällkodsprogramvara, kommersiell kvalitet Linux distros,
+                  kostnadseffektivt underhåll och support för 10+ år livscyklar.
                 </p>
               </div>
             </div>
@@ -191,7 +192,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                RESF använder AWS att driva mycket av den underliggande
+                  RESF använder AWS att driva mycket av den underliggande
                   kritiska infrastruktur för att utveckla och distribution av
                   tjänster för att stödja Rocky Linux. från Koji byggare för
                   x86_64 och aarch64 som körs i EC2 till SRPM bloblagring i S3,

@@ -178,8 +178,8 @@ const DownloadPage = ({ pageContext }) => {
               </a>
             </div>
             <p className="text-gray-700 dark:text-gray-300">
-              När du laddat ner och använder Rocky Linux, så bjuder Rocky Enterprise Software
-              Foundation in dig till{' '}
+              När du laddat ner och använder Rocky Linux, så bjuder Rocky
+              Enterprise Software Foundation in dig till{' '}
               <a
                 className="text-green-600 dark:text-green-500 font-medium"
                 href="https://chat.rockylinux.org"
@@ -187,8 +187,9 @@ const DownloadPage = ({ pageContext }) => {
                 att vara en del av gemenskapen som bidragsgivare
               </a>
               . Det finns många sätt att bidra till projektet, från
-              dokumentation, QA, och testning till att bidra med kodändringar för SIGs,
-              tillhandahålla speglar eller hosting, och hjälpa andra användare.
+              dokumentation, QA, och testning till att bidra med kodändringar
+              för SIGs, tillhandahålla speglar eller hosting, och hjälpa andra
+              användare.
             </p>
           </div>
         </div>
