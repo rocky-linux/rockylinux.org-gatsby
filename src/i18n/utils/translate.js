@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
-function Translate() {
-  const { t } = useTranslation();
+function Translate(ns) {
+  const { t } = useTranslation(ns);
   return t;
 }
 

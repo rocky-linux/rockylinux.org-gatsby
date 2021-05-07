@@ -16,7 +16,7 @@ import FortyFiveDrivesLogo from '../images/45drives-transparent.png';
 import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const Index = ({ pageContext: { locale: language } }) => {
-  const translate = Translate();
+  const translate = Translate('index');
 
   return (
     <Layout>
