@@ -1,7 +1,6 @@
 import React from 'react';
 export function onRenderBody({ setHeadComponents }) {
   setHeadComponents([
-    <script type="text/javascript" src="https://abc.com/abc/abc0123.js" />,
     <script
       dangerouslySetInnerHTML={{
         __html: `
