@@ -51,7 +51,10 @@
     "donate": "Don",
     "store": "Boutique",
     "press": "Presse",
-    "download": "Télécharger"
+    "download": "Télécharger",
+    "com_charter": "Charte communautaire",
+    "org_structure": "Structure de l'Organisation",
+    "privacy": "Politique de confidentialité"
   },
   "socials": {
     "forums": "Forums",

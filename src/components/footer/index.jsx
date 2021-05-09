@@ -224,7 +224,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/community-charter/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              Community Charter
+              {translate('links.com_charter')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
@@ -232,7 +232,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/organizational-structure/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              Organizational Structure
+              {translate('links.org_structure')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
@@ -240,7 +240,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/privacy-policy/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              Privacy Policy
+              {translate('links.privacy')}
             </LocalizedLink>
           </div>
         </nav>
