@@ -34,9 +34,29 @@ const Index = ({ pageContext: { locale: language } }) => {
               </p>
             </div>
             <div>
+              <LocalizedLink
+                to="/download"
+                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide rounded-md shadow-md text-white dark:text-gray-900 bg-green-500 hover:bg-green-400 focus:outline-none focus:border-green-700 focus:shadow-outline-green transition duration-150 ease-in-out"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                  />
+                </svg>
+                {translate('links.download')}
+              </LocalizedLink>
               <a
                 href="https://chat.rockylinux.org/"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide rounded-md shadow-md text-white dark:text-gray-900 bg-green-500 hover:bg-green-400 focus:outline-none focus:border-green-700 focus:shadow-outline-green transition duration-150 ease-in-out"
+                className="ml-0 sm:ml-4 mt-4 sm:mt-0 inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide rounded-md shadow-md text-green-500 hover:bg-green-500 hover:text-gray-50 dark:hover:text-gray-900 focus:outline-none border border-green-500 hover:border-green-500 focus:border-green-700 focus:shadow-outline-green transition duration-150 ease-in-out"
               >
                 <svg
                   className="h-6 w-6 mr-2"
