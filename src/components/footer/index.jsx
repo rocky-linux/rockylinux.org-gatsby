@@ -224,7 +224,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/community-charter/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              {translate('links.community-harter')}
+              {translate('links.community-charter')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
