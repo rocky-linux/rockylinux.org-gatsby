@@ -24,9 +24,12 @@
     "posts": "News",
     "show-your-interest": "Show Your Interest",
     "sponsors": "Sponsors",
+    "partners": "Partners",
+    "status": "Service Status",
     "donate": "Donate",
     "store": "Store",
-    "press": "Press"
+    "press": "Press",
+    "download": "Download"
   },
   "socials": {
     "forums": "Forums",

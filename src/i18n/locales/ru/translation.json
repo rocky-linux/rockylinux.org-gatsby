@@ -25,9 +25,12 @@
     "posts": "Новости",
     "show-your-interest": "Продемонстрировать интерес",
     "sponsors": "Спонсоры",
+    "partners": "Partners",
+    "status": "Service Status",
     "donate": "Поддержать рублём",
     "store": "Магазин",
-    "press": "СМИ"
+    "press": "СМИ",
+    "download": "Download"
   },
   "socials": {
     "forums": "Форум",

@@ -1,6 +1,6 @@
 {
     "title": "Downloads",
-    "content": "Download the official release of Rocky Linux from one of our trusted mirrors.",
+    "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
     "notInProduction": "The release you can download here is a <0>Release Candidate</0> and should not be used in production. Please check our <1>FAQ</1> for more information.",
     "table": {
         "heading": [
