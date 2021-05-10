@@ -9,8 +9,13 @@ import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import FossHostLogo from '../images/fosshost.png';
 import FastlyLogo from '../images/fastly.png';
+import {Translate} from "../i18n/utils/translate";
+import dompurify from "dompurify";
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
+  const translate = Translate();
+  const sanitizer = dompurify.sanitize;
+
   return (
     <Layout>
       <SEO title="Partners" />
@@ -37,14 +42,10 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </div>
               </div>
               <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl sm:leading-none">
-                Partners
+                {translate('partners.title')}
               </h2>
               <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-                Partners of the RESF represent ongoing relationships of
-                strategic importance to the Rocky Linux project. Through
-                dedication of engineering expertise, infrastructure resources,
-                or other means, their support is critical to our continued
-                success and long term stability.
+                {translate('partners.description')}
               </p>
               <hr className="mx-auto" />
             </div>
@@ -64,18 +65,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://ctrliq.com" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                    Ctrl IQ
+                    {translate('partners.list.ciq.name')}
                     <span className="ml-2 bg-green-200 text-green-600 py-1 px-2 text-xs rounded-full self-center">
-                      Founding Partner
+                      {translate('partners.tag.fpartner')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  Unified, secured, platform agnostic computing starting with
-                  the provisioning, management, and support of the base OS
-                  (Rocky Linux) and going through the deployment stack of
-                  containers with cloud native, multi-prem, multi-cloud
-                  meta-orchestration of performance critical workflows and data.
+                  {translate('partners.list.ciq.description')}
                 </p>
               </div>
             </div>
@@ -93,19 +90,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://ncloud.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                    NAVER Cloud
+                    {translate('partners.list.navercloud.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      Principal Partner
+                      {translate('partners.tag.ppartner')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  NAVER Cloud Platform is a South Korean cloud service that
-                  started in 2017 under NAVER Cloud, a subsidiary of NAVER. It
-                  provides over 170 individual services in 2021 and holds
-                  various security certifications including CSA STAR GOLD, GDPR,
-                  and more. It also currently provides cloud services in 10
-                  locations around the world.
+                  {translate('partners.list.navercloud.description')}
                 </p>
               </div>
             </div>
@@ -126,18 +118,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
-                    Mattermost
+                    {translate('partners.list.mattermost.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      Principal Partner
+                      {translate('partners.tag.ppartner')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  Mattermost is an open source messaging solution made for
-                  organizations with the highest security requirements. As big
-                  believers in the power of open source, Mattermost is thrilled
-                  to partner with RESF to help bring an enterprise-grade
-                  distribution of Linux to the tech community.
+                  {translate('partners.list.mattermost.description')}
                 </p>
               </div>
             </div>

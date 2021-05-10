@@ -4,8 +4,13 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import {Translate} from "../i18n/utils/translate";
+import dompurify from 'dompurify';
 
 const DownloadPage = ({ pageContext }) => {
+  const translate = Translate();
+  const sanitizer = dompurify.sanitize;
+
   return (
     <Layout>
       <SEO />
@@ -32,24 +37,16 @@ const DownloadPage = ({ pageContext }) => {
               </div>
             </div>
             <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl sm:leading-none">
-              Downloads
+              {translate('download.p1.heading')}
             </h2>
             <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-              Download the official release of Rocky Linux from one of our
-              trusted mirrors.
+              {translate('download.p1.content')}
             </p>
             <hr className="mx-auto" />
           </div>
           <div className="max-w-screen-md px-8 mx-auto mt-4 flex flex-col">
             <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4 text-center">
-              <span>
-                The release you can download here is a <i>Release Candidate</i>{' '}
-                and should not be used in production. Please check our{' '}
-                <Link className="underline font-medium" to="/faq/">
-                  FAQ
-                </Link>{' '}
-                for more information.
-              </span>
+              <span dangerouslySetInnerHTML={{__html: sanitizer(translate('download.warning'), {ALLOWED_TAGS: ['i', 'a']})}}></span>
             </div>
           </div>
           <div className="shadow overflow-x-auto overflow-y-hidden rounded-md shadow max-w-screen-md mx-auto">
@@ -60,19 +57,19 @@ const DownloadPage = ({ pageContext }) => {
                     scope="col"
                     className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
                   >
-                    Architecture
+                    {translate('download.table.architecture')}
                   </th>
                   <th
                     scope="col"
                     className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
                   >
-                    ISOs
+                    {translate('download.table.iso')}
                   </th>
                   <th
                     scope="col"
                     className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
                   >
-                    Packages
+                    {translate('download.table.packages')}
                   </th>
                 </tr>
               </thead>
@@ -85,7 +82,7 @@ const DownloadPage = ({ pageContext }) => {
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Minimal', 1]);"
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-minimal.iso"
                     >
-                      Minimal
+                      {translate('download.table.isos.minimal')}
                     </a>{' '}
                     |&nbsp;
                     <a
@@ -93,7 +90,7 @@ const DownloadPage = ({ pageContext }) => {
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 DVD', 1]);"
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-dvd1.iso"
                     >
-                      DVD
+                      {translate('download.table.isos.dvd')}
                     </a>{' '}
                     |&nbsp;
                     <a
@@ -101,14 +98,14 @@ const DownloadPage = ({ pageContext }) => {
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Boot', 1]);"
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/Rocky-8.3-x86_64-boot.iso"
                     >
-                      Boot
+                      {translate('download.table.isos.boot')}
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/x86_64/CHECKSUM"
                     >
-                      Checksum
+                      {translate('download.table.isos.checksum')}
                     </a>
                   </td>
                   <td className="px-6 py-3 whitespace-nowrap">
@@ -130,7 +127,7 @@ const DownloadPage = ({ pageContext }) => {
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 Minimal', 1]);"
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/Rocky-8.3-aarch64-minimal.iso"
                     >
-                      Minimal
+                      {translate('download.table.isos.minimal')}
                     </a>{' '}
                     |&nbsp;
                     <a
@@ -138,7 +135,7 @@ const DownloadPage = ({ pageContext }) => {
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 DVD', 1]);"
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/Rocky-8.3-aarch64-dvd1.iso"
                     >
-                      DVD
+                      {translate('download.table.isos.dvd')}
                     </a>{' '}
                     |&nbsp;
                     <a
@@ -146,14 +143,14 @@ const DownloadPage = ({ pageContext }) => {
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 Boot', 1]);"
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/Rocky-8.3-aarch64-boot.iso"
                     >
-                      Boot
+                      {translate('download.table.isos.boot')}
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       href="https://download.rockylinux.org/pub/rocky/8.3/isos/aarch64/CHECKSUM"
                     >
-                      Checksum
+                      {translate('download.table.isos.checksum')}
                     </a>
                   </td>
                   <td className="px-6 py-3 whitespace-nowrap">
@@ -174,27 +171,16 @@ const DownloadPage = ({ pageContext }) => {
                 className="text-green-600 dark:text-green-500 font-medium"
                 href="https://docs.rockylinux.org/site-index"
               >
-                Documentation
+                {translate('global.links.documentation')}
               </a>
               <a
                 className="text-green-600 dark:text-green-500 font-medium"
                 href="https://bugs.rockylinux.org"
               >
-                Report a bug
+                {translate('global.links.bug-report')}
               </a>
             </div>
-            <p className="text-gray-700 dark:text-gray-300">
-              As you download and use Rocky Linux, the Rocky Enterprise Software
-              Foundation invites you to{' '}
-              <a
-                className="text-green-600 dark:text-green-500 font-medium"
-                href="https://chat.rockylinux.org"
-              >
-                be a part of the community as a contributor
-              </a>
-              . There are many ways to contribute to the project, from
-              documentation, QA, and testing to coding changes for SIGs,
-              providing mirroring or hosting, and helping other users.
+            <p dangerouslySetInnerHTML={{__html: sanitizer(translate('download.p2.content'), {ALLOWED_TAGS: ['a']})}} className="text-gray-700 dark:text-gray-300">
             </p>
           </div>
         </div>

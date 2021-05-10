@@ -20,7 +20,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               href="https://wiki.rockylinux.org/contributing"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
-              {translate('links.get-involved')}
+              {translate('global.links.get-involved')}
             </a>
           </div>
           <div className="px-5 py-2">
@@ -28,7 +28,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/sponsors/"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
-              {translate('links.sponsors')}
+              {translate('global.links.sponsors')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
@@ -36,7 +36,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               href="https://status.rockylinux.org/"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
-              {translate('links.status')}
+              {translate('global.links.status')}
             </a>
           </div>
           <div className="px-5 py-2">
@@ -44,7 +44,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/partners/"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
-              {translate('links.partners')}
+              {translate('global.links.partners')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
@@ -52,7 +52,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/press/1/"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
-              {translate('links.press')}
+              {translate('global.links.press')}
             </LocalizedLink>
           </div>
         </nav>
@@ -61,7 +61,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://twitter.com/rocky_linux"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('socials.twitter')}</span>
+            <span className="sr-only">{translate('global.socials.twitter')}</span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -75,7 +75,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://reddit.com/r/rockylinux"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('socials.reddit')}</span>
+            <span className="sr-only">{translate('global.socials.reddit')}</span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -89,7 +89,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://forums.rockylinux.org/"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('socials.forums')}</span>
+            <span className="sr-only">{translate('global.socials.forums')}</span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -104,7 +104,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://chat.rockylinux.org/"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('socials.mattermost')}</span>
+            <span className="sr-only">{translate('global.socials.mattermost')}</span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -118,7 +118,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://github.com/rocky-linux"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('socials.github')}</span>
+            <span className="sr-only">{translate('global.socials.github')}</span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -224,7 +224,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/community-charter/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              {translate('links.com_charter')}
+              {translate('global.links.com_charter')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
@@ -232,7 +232,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/organizational-structure/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              {translate('links.org_structure')}
+              {translate('global.links.org_structure')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
@@ -240,15 +240,15 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/privacy-policy/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              {translate('links.privacy')}
+              {translate('global.links.privacy')}
             </LocalizedLink>
           </div>
         </nav>
         <p className="text-center text-base text-gray-500" dir="auto">
-          {translate('copyright.line1')}
+          {translate('global.copyright.line1')}
         </p>
         <p className="mt-2 text-center text-sm text-gray-500" dir="auto">
-          {translate('copyright.line2')}
+          {translate('global.copyright.line2')}
         </p>
       </div>
     </footer>

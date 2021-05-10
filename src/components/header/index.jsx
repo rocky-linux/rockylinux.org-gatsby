@@ -42,31 +42,31 @@ const Header = ({ pageContext: { locale: language } }) => {
             to="/news/1/"
             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
-            {translate('links.posts')}
+            {translate('global.links.posts')}
           </LocalizedLink>
           <a
             href="https://wiki.rockylinux.org/"
             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
-            {translate('links.documentation')}
+            {translate('global.links.wiki')}
           </a>
           <a
             href="https://forums.rockylinux.org/"
             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
-            {translate('socials.forums')}
+            {translate('global.socials.forums')}
           </a>
           <a
             href="https://www.mucklesu.com/collections/rocky-linux"
             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
-            {translate('links.store')}
+            {translate('global.links.store')}
           </a>
           <a
             href="https://rockylinux.z2systems.com/np/clients/rockylinux/donation.jsp"
             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
-            {translate('links.donate')}
+            {translate('global.links.donate')}
           </a>
         </ul>
         <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -92,7 +92,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                   d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                 />{' '}
               </svg>
-              {translate('links.download')}
+              {translate('global.links.download')}
             </LocalizedLink>
           </li>
         </ul>
@@ -186,7 +186,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="News"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        News
+                        {translate('global.links.posts')}
                       </LocalizedLink>
                     </li>
                     <li>
@@ -196,7 +196,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Wiki"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Wiki
+                        {translate('global.links.wiki')}
                       </a>
                     </li>
                     <li>
@@ -206,7 +206,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Forums"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Forums
+                        {translate('global.socials.forums')}
                       </a>
                     </li>
                     <li>
@@ -216,7 +216,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Store"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Store
+                        {translate('global.links.store')}
                       </a>
                     </li>
                     <li>
@@ -226,7 +226,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Donate"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Donate
+                        {translate('global.links.donate')}
                       </a>
                     </li>
                     <li>
@@ -251,7 +251,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                             d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                           />{' '}
                         </svg>
-                        {translate('links.download')}
+                        {translate('global.links.download')}
                       </LocalizedLink>
                     </li>
                   </ul>
