@@ -44,8 +44,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 {translate('title')}
               </h2>
               <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-               {translate('description')}
-                
+                {translate('description')}
               </p>
               <hr className="mx-auto" />
             </div>
