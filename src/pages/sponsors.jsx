@@ -44,8 +44,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 {translate('title')}
               </h2>
               <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-               {translate('content')}
-                
+                {translate('content')}
               </p>
               <hr className="mx-auto" />
             </div>
@@ -65,7 +64,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://ctrliq.com" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                      {translate('sponsors.0.name')}                      
+                    {translate('sponsors.0.name')}
                     <span className="ml-2 bg-green-200 text-green-600 py-1 px-2 text-xs rounded-full self-center">
                       {translate('sponsors.0.grade')}
                     </span>
@@ -93,14 +92,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
-                      {translate('sponsors.1.name')}   
+                    {translate('sponsors.1.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      {translate('sponsors.1.grade')}   
+                      {translate('sponsors.1.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  {translate('sponsors.1.description')}   
+                  {translate('sponsors.1.description')}
                 </p>
               </div>
             </div>
@@ -121,14 +120,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
-                      {translate('sponsors.2.name')}  
+                    {translate('sponsors.2.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      {translate('sponsors.2.grade')}  
+                      {translate('sponsors.2.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  {translate('sponsors.2.description')}  
+                  {translate('sponsors.2.description')}
                 </p>
               </div>
             </div>
@@ -146,14 +145,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://mvista.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                      {translate('sponsors.3.name')}  
+                    {translate('sponsors.3.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      {translate('sponsors.3.grade')}  
+                      {translate('sponsors.3.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  {translate('sponsors.3.description')}  
+                  {translate('sponsors.3.description')}
                 </p>
               </div>
             </div>
@@ -174,14 +173,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
-                      {translate('sponsors.4.name')}  
+                    {translate('sponsors.4.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      {translate('sponsors.4.grade')}  
+                      {translate('sponsors.4.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  {translate('sponsors.4.description')}  
+                  {translate('sponsors.4.description')}
                 </p>
               </div>
             </div>

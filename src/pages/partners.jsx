@@ -64,7 +64,7 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
                 <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://ctrliq.com" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                      {translate('partners.0.name')}
+                    {translate('partners.0.name')}
                     <span className="ml-2 bg-green-200 text-green-600 py-1 px-2 text-xs rounded-full self-center">
                       {translate('partners.0.grade')}
                     </span>
@@ -89,7 +89,7 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
                 <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://ncloud.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                      {translate('partners.1.name')}
+                    {translate('partners.1.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
                       {translate('partners.1.grade')}
                     </span>
@@ -117,7 +117,7 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
                     className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
-                      {translate('partners.2.name')}
+                    {translate('partners.2.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
                       {translate('partners.2.grade')}
                     </span>
