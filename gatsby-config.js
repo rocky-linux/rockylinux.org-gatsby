@@ -119,7 +119,7 @@ module.exports = {
           fallbackLng: 'en',
           lowerCaseLng: 'true',
           load: 'currentOnly',
-          ns: ['translation', 'index', 'faq', 'download'],
+          ns: ['translation', 'index', 'faq', 'download', 'partners'],
           returnObjects: true,
           interpolation: {
             escapeValue: false,
