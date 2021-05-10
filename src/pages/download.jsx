@@ -47,7 +47,8 @@ const DownloadPage = ({ pageContext }) => {
             <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4 text-center">
               <span>
                 <Trans t={translate} i18nKey="notInProduction">
-                  <i></i><Link className="underline font-medium" to="/faq/"></Link>
+                  <i></i>
+                  <Link className="underline font-medium" to="/faq/"></Link>
                 </Trans>
               </span>
             </div>
@@ -178,11 +179,12 @@ const DownloadPage = ({ pageContext }) => {
               </a>
             </div>
             <p className="text-gray-700 dark:text-gray-300">
-                <Trans t={translate} i18nKey="invitation">
-                  <a
-                    className="text-green-600 dark:text-green-500 font-medium"
-                    href="https://chat.rockylinux.org" />
-                </Trans>
+              <Trans t={translate} i18nKey="invitation">
+                <a
+                  className="text-green-600 dark:text-green-500 font-medium"
+                  href="https://chat.rockylinux.org"
+                />
+              </Trans>
             </p>
           </div>
         </div>

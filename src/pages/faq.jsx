@@ -25,12 +25,10 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
           </div>
           <div className="max-w-screen-xl sm:mx-auto">
             <div className="prose mx-auto dark-mode:prose-dark dark:text-gray-300">
-
-
               <h5 className="font-bold">{translate('questions.0.q')}</h5>
               <p>
                 <Trans t={translate} i18nKey="questions.0.a">
-                  <a href="https://rockylinux.org/download" >faq</a>
+                  <a href="https://rockylinux.org/download">faq</a>
                 </Trans>
               </p>
               <hr />
@@ -43,22 +41,30 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
               <h5 className="font-bold">{translate('questions.3.q')}</h5>
               <p>
                 <Trans t={translate} i18nKey="questions.3.a">
-                  <a href="mailto:mirrors@rockylinux.org" >mirrors@rockylinux.org</a>
+                  <a href="mailto:mirrors@rockylinux.org">
+                    mirrors@rockylinux.org
+                  </a>
                 </Trans>
               </p>
               <hr />
               <h5 className="font-bold">{translate('questions.4.q')}</h5>
               <p>
                 <Trans t={translate} i18nKey="questions.4.a">
-                  <a href="https://accounts.rockylinux.org/" >https://accounts.rockylinux.org/</a>
-                  <a href="https://bugs.rockylinux.org/" >https://bugs.rockylinux.org/</a>
+                  <a href="https://accounts.rockylinux.org/">
+                    https://accounts.rockylinux.org/
+                  </a>
+                  <a href="https://bugs.rockylinux.org/">
+                    https://bugs.rockylinux.org/
+                  </a>
                 </Trans>
               </p>
               <hr />
               <h5 className="font-bold">{translate('questions.5.q')}</h5>
               <p>
                 <Trans t={translate} i18nKey="questions.5.a">
-                  <a href="https://chat.rockylinux.org/rocky-linux/channels/testing" >~Testing</a>
+                  <a href="https://chat.rockylinux.org/rocky-linux/channels/testing">
+                    ~Testing
+                  </a>
                 </Trans>
               </p>
               <hr />
@@ -76,7 +82,8 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
               <h5 className="font-bold">{translate('questions.8.q')}</h5>
               <p>
                 <Trans t={translate} i18nKey="questions.8.a">
-                  <i /><i />
+                  <i />
+                  <i />
                 </Trans>
               </p>
               <hr />
@@ -112,7 +119,7 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
               <h5 className="font-bold">{translate('questions.13.q')}</h5>
               <p>
                 <Trans t={translate} i18nKey="questions.13.a">
-                  <a href="mailto:hello@rockylinux.org" >hello@rockylinux.org</a>
+                  <a href="mailto:hello@rockylinux.org">hello@rockylinux.org</a>
                 </Trans>
               </p>
             </div>
