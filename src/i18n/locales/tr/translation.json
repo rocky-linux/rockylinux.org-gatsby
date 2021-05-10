@@ -1,1 +1,239 @@
-{"language":"tr","copyright":{"line1":"© 2021 Rocky Linux Projesi. Tüm hakları saklıdır.","line2":"Red Hat ve CentOS, Red Hat, Inc.'in veya yan kuruluşlarının ticari veya tescilli ticari markalarıdır. Rocky Linux Projesi, CentOS ve Red Hat, Inc.'e bağlı değildir ve Red Hat, Inc. tarafından desteklenmemektedir ve sponsorluğu altında değildir."},"errors":{"404":{"explanation":"İstenilen kaynağa erişilemedi. Lütfen tekrar deneyin.","title":"Sayfa bulunamadı."}},"faq":{"a":{"come-in":"Rocky Linux, CentOS'un geçmişte yaptığı gibi downstream bir versiyon olmayı hedefliyor. Sürümler upstream karşılığına yenilikler eklendikten sonra çıkacak, önce değil.","downstream-partner-direction":"CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Geçmişte CentOS, Enterprise Linux'in bir downstream (çıkan güncellemeleri ve güvenlik yamalarını upstream versiyonu aldıktan sonra alan) versiyonu olarak kullanılıyordu fakat Enterprise Linux'un upstream (çıkan güncellemeleri ve güvenlik yamalarının denendiği) versiyonu olma yönünde bir değişiklik yaşadı. Ek olarak, CentOS Linux 8'e verilecek desteğin son tarihi 31 Mayıs 2029'dan 31 Aralık 2021'e çekildi."},"q":{"come-in":"Peki Rocky Linux nereden geliyor?","downstream-partner-direction":"\"Downstream partneri yön değiştirdi.\" ne anlama geliyor?"},"title":"Sıkça Sorulan Sorular"},"landing":{"p1":{"content":"Topluluk odaklı, Kurumsal kullanıma hazır işletim sistemi.","heading":"Rocky Linux"},"p2":{"content":"Rocky Linux, topluluk tarafından oluşturulan ve karşılığı downstream olmayı bıraktıktan sonra Enterprise Linux ile 100% bug-for-bug şekilde uyumlu olması için dizayn edilmiş bir işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir.","heading":"Rocky Linux Projesi Nedir?"}},"lang":{"footer":{"choose-language":"Dilinizi Seçiniz..."}},"links":{"close-menu":"Menüyü Kapat","documentation":"Dokümantasyon","get-in-touch":"İletişime Geçin","get-involved":"Bize Katılın","go-home":"Ana Sayfa","join-the-discussion":"Tartışmaya Katılın","posts":"Haberler","show-your-interest":"İlginizi Gösterin","sponsors":"Sponsorlar","donate":"Bağış","store":"Mağaza","press":"Basın"},"socials":{"forums":"Forumlar","github":"Github","reddit":"Reddit","mattermost":"Mattermost","twitter":"Twitter"},"news":{"title":"Haberler","description":"Rocky Linux Projesi ile ilgili en son gelişmelerden haberdar olun."},"press":{"title":"Basın","description":"Basında Rocky hakkındaki son haberlere ulaşın."},"sponsors":{"title":"Sponsorlar","description":"Sponsorlarımıza şu ana kadar projeye verdikleri destek için teşekkür ederiz."}}
+{
+  "language": "tr",
+
+  "global": {
+
+    "copyright": {
+      "line1": "© 2021 Rocky Linux Projesi. Tüm hakları saklıdır.",
+      "line2": "Red Hat ve CentOS, Red Hat, Inc.'in veya yan kuruluşlarının ticari veya tescilli ticari markalarıdır. Rocky Linux Projesi, CentOS ve Red Hat, Inc.'e bağlı değildir ve Red Hat, Inc. tarafından desteklenmemektedir ve sponsorluğu altında değildir."
+    },
+
+    "links": {
+      "close-menu": "Menüyü Kapat",
+      "wiki": "Wiki",
+      "get-in-touch": "İletişime Geçin",
+      "get-involved": "Bize Katılın",
+      "go-home": "Ana Sayfa",
+      "join-the-discussion": "Tartışmaya Katılın",
+      "posts": "Haberler",
+      "show-your-interest": "İlginizi Gösterin",
+      "sponsors": "Sponsorlar",
+      "donate": "Bağış",
+      "store": "Mağaza",
+      "press": "Basın",
+      "download": "Download",
+      "com_charter": "Community Charter",
+      "org_structure": "Organization Structure",
+      "privacy": "Privacy Policy",
+      "see-more": "See More",
+      "see-all": "See All",
+      "documentation": "Dokümantasyon",
+      "bug-report": "Report a bug"
+    },
+    "socials": {
+      "forums": "Forumlar",
+      "github": "Github",
+      "reddit": "Reddit",
+      "mattermost": "Mattermost",
+      "twitter": "Twitter"
+    }
+  },
+
+  "homepage": {
+    "landing": {
+      "p1": {
+        "heading": "Rocky Linux",
+        "content": "Topluluk odaklı, Kurumsal kullanıma hazır işletim sistemi."
+      },
+      "p2": {
+        "heading": "Rocky Linux Projesi Nedir?",
+        "content": "Rocky Linux, topluluk tarafından oluşturulan ve karşılığı downstream olmayı bıraktıktan sonra Enterprise Linux ile 100% bug-for-bug şekilde uyumlu olması için dizayn edilmiş bir işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir."
+      }
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "a": {
+        "come-in": "Rocky Linux, CentOS'un geçmişte yaptığı gibi downstream bir versiyon olmayı hedefliyor. Sürümler upstream karşılığına yenilikler eklendikten sonra çıkacak, önce değil.",
+        "downstream-partner-direction": "CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Geçmişte CentOS, Enterprise Linux'in bir downstream (çıkan güncellemeleri ve güvenlik yamalarını upstream versiyonu aldıktan sonra alan) versiyonu olarak kullanılıyordu fakat Enterprise Linux'un upstream (çıkan güncellemeleri ve güvenlik yamalarının denendiği) versiyonu olma yönünde bir değişiklik yaşadı. Ek olarak, CentOS Linux 8'e verilecek desteğin son tarihi 31 Mayıs 2029'dan 31 Aralık 2021'e çekildi."
+      },
+      "q": {
+        "come-in": "Peki Rocky Linux nereden geliyor?",
+        "downstream-partner-direction": "\"Downstream partneri yön değiştirdi.\" ne anlama geliyor?"
+      }
+    }
+  },
+
+  "download": {
+    "p1": {
+      "heading": "Downloads",
+      "content": "Download the official release of Rocky Linux from one of our trusted mirrors."
+    },
+    "warning": "The release you can download here is a <i>Release Candidate</i> and should not be used in production. Please check our <a class=\"underline font-medium\" href=\"/faq/\">FAQ</a> for more information.",
+    "table": {
+      "architecture": "Architecture",
+      "iso": "ISOS",
+      "isos": {
+        "minimal": "Minimal",
+        "dvd": "DVD",
+        "boot": "Boot",
+        "checksum": "Checksum"
+      },
+      "packages": "Packages"
+    },
+    "p2": {
+      "content": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <a class=\"text-green-600 dark:text-green-500 font-medium\" href=\"https://chat.rockylinux.org/\">be a part of the community as a contributor</a>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    }
+  },
+
+  "lang": {
+    "footer": {
+      "choose-language": "Dilinizi Seçiniz..."
+    }
+  },
+
+  "errors": {
+    "404": {
+      "title": "Sayfa bulunamadı.",
+      "explanation": "İstenilen kaynağa erişilemedi. Lütfen tekrar deneyin."
+    }
+  },
+
+  "news": {
+    "title": "Haberler",
+    "description": "Rocky Linux Projesi ile ilgili en son gelişmelerden haberdar olun."
+  },
+
+  "press": {
+    "title": "Basın",
+    "description": "Basında Rocky hakkındaki son haberlere ulaşın."
+  },
+
+  "sponsors": {
+    "title": "Sponsorlar",
+    "description": "Sponsorlarımıza şu ana kadar projeye verdikleri destek için teşekkür ederiz.",
+    "tag": {
+      "fsponsor": "Founding Sponsor",
+      "psponsor": "Principal Sponsor"
+    },
+    "list": {
+      "ciq": {
+        "name": "Ctrl IQ",
+        "description": "Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data."
+      },
+      "45drives": {
+        "name": "45Drives",
+        "description": "45Drives offers enterprise storage solutions built on powerful & robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!"
+      },
+      "opendrives": {
+        "name": "OpenDrives",
+        "description": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
+      },
+      "montavista": {
+        "name": "MontaVista",
+        "description": "MontaVista Software is the leader in embedded commercial Linux, supporting MontaVista CGX, Yocto Project®, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
+      },
+      "aws": {
+        "name": "Amazon Web Services",
+        "description": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+      }
+    }
+  },
+
+  "partners": {
+    "title": "Partners",
+    "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+    "tag": {
+      "fpartner": "Founding Partner",
+      "ppartner": "Principal Partner"
+    },
+    "list": {
+      "ciq": {
+        "name": "Ctrl IQ",
+        "description": "Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data."
+      },
+      "navercloud": {
+        "name": "NAVER Cloud",
+        "description": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+      },
+      "mattermost": {
+        "name": "Mattermost",
+        "description": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      }
+    }
+  },
+
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "q1": {
+      "q": "Where can I download the release candidate?",
+      "a": "https://rockylinux.org/download"
+    },
+    "q2": {
+      "q": "What is a release candidate?",
+      "a": "A release candidate is a beta version of a product that has the potential to be stable.The intent of a release candidate is for the community to test and validate expected functionality of Rocky Linux and report any bugs if present."
+    },
+    "q3": {
+      "q": "Can I use the release candidate in production?",
+      "a": "Under no circumstance should you use a release candidate in a production environment. A release candidate is provided for testing and validation purposes only."
+    },
+    "q4": {
+      "q": "How can I help mirror the release candidate and future Rocky Linux releases?",
+      "a": "Please email <a href=\"mailto:mirrors@rockylinux.org\">mirrors@rockylinux.org</a> to express your interest."
+    },
+    "q5": {
+      "q": "I encountered a bug while testing the release candidate, what can I do?",
+      "a": "First, create an account using <a href=\"https://accounts.rockylinux.org/\"> Rocky Linux Account Services </a> , then head over to our <a href=\"https://bugs.rockylinux.org/\">Bugzilla server</a> to report any bugs."
+    },
+    "q6": {
+      "q": "How can I get involved with the Testing team?",
+      "a": "Please join the <a href=\"https://chat.rockylinux.org/rocky-linux/channels/testing\"> ~Testing </a> channel on our Mattermost server to get started. There’s also a testing topic on the forums for more durable conversation."
+    },
+    "q7": {
+      "q": "Where can I find the latest news about Rocky Linux?",
+      "a": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
+    },
+    "q8": {
+      "q": "If Rocky Linux is just a respin of RHEL, what took so long for a release candidate?",
+      "a1": "If our only goal for Rocky Linux was to debrand and repackage RHEL, we would have been done much sooner. However, what we had to do differently is figure out how we could keep Rocky Linux in the hands of the community. Carefully devising this strategy ensures that Rocky Linux will never meet the same fate of CentOS.",
+      "a2": "The goal was not just to create a community managed RPM based distribution of Linux, but to ensure that it will remain freely available and always in the control of the community, much like Linux itself has. To do that required more than a build infrastructure; it required that we put in place the foundational structures that enable the community, ensuring that Rocky Linux is forever inclusive, free, and open. The infrastructure is built from the ground up by many collaborators and sponsoring organizations around composability and security compliance, providing the substrate for not only the base operating system but also an entire community of diverse interests to take part in the project."
+    },
+    "q9": {
+      "q": "If you’re not just repackaging RHEL, then what exactly are you doing?",
+      "a": "Our goal is to maintain Rocky Linux as a community-oriented distribution <i>by</i> the community, <i>for</i> the community. To do this, we are establishing the necessary organizational structures to ensure that Rocky Linux remains in the hands of the community. We want to make sure that it’s not possible for what happened to CentOS to happen to Rocky Linux."
+    },
+    "q10": {
+      "q": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
+      "a": "First, we’ve taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We’ve achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we’re drafting a community charter that will define the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <strong> Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization. </strong> Finally, we’re architecting and deploying the necessary infrastructure to further enable the community to contribute to Rocky Linux."
+    },
+    "q11": {
+      "q": "What infrastructure is necessary to enable the community?",
+      "a1": "We’ve established a number of teams to support the various efforts associated with developing Rocky Linux:",
+      "a2": "You can read more about this structure when it’s soon published. In order to enable collaboration across and within those teams, we needed to deploy our own chat infrastructure, forums, and website. Additionally, we’re also creating our build infrastructure, which will facilitate the development of the core operating system.",
+      "list": {
+        "community": "Community",
+        "core-inf": "Core Infrastructure",
+        "design": "Design",
+        "documentation": "Documentation",
+        "installer": "Installer",
+        "leadership": "Leadership",
+        "pkg-autob": "Package Auto-Builders",
+        "packaging": "Packaging",
+        "security": "Security",
+        "sigs": "Special Interest Groups (SIGs)",
+        "web": "Web"
+      }
+    },
+    "q12": {
+      "q": "Why does it take so much time to stand up a community and build infrastructure?",
+      "a": "It’s not terribly difficult to deploy a website, forums, or a build infrastructure in a reliable fashion. Our chat program for instance, which uses Mattermost, is distributed on a number of application servers behind a load balancer and was ready in just a couple of weeks. But it does require careful thought and planning to do it in a scalable and secure manner when you need to ensure vendor and platform agnosticity and long-term community involvement."
+    },
+    "q13": {
+      "q": "So what’s the short answer to all of this? What are some things you’re thinking about as you put Rocky Linux together?",
+      "a": "How do we carefully shepherd community trust? How do we ensure that anyone who wants to participate can not only do so immediately, but forever in the future as well? How do we engage and enable the community members who might not be as technical but want to contribute anyway? Solving for all of these challenges will take time, and we would love your help in doing so."
+    },
+    "q14": {
+      "q": "What if I have feedback or my question wasn’t answered here?",
+      "a": "Please email us: <a href=\"mailto:hello@rockylinux.org\">hello@rockylinux.org</a> and we’ll get back to you as soon as we can."
+    }
+  }
+}
