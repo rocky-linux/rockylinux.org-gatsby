@@ -9,8 +9,8 @@ import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import FossHostLogo from '../images/fosshost.png';
 import FastlyLogo from '../images/fastly.png';
-import {Translate} from "../i18n/utils/translate";
-import dompurify from "dompurify";
+import { Translate } from '../i18n/utils/translate';
+import dompurify from 'dompurify';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate();

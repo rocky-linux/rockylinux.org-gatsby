@@ -9,8 +9,8 @@ import CIQLogo from '../images/ciq-alt.png';
 import AwsLogo from '../images/aws-alt.png';
 import FortyFiveDrivesLogo from '../images/45drives.jpg';
 import MontaVistaLogo from '../images/montavista.png';
-import {Translate} from "../i18n/utils/translate";
-import dompurify from "dompurify";
+import { Translate } from '../i18n/utils/translate';
+import dompurify from 'dompurify';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate();

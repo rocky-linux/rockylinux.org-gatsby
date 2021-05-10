@@ -61,7 +61,9 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://twitter.com/rocky_linux"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('global.socials.twitter')}</span>
+            <span className="sr-only">
+              {translate('global.socials.twitter')}
+            </span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -75,7 +77,9 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://reddit.com/r/rockylinux"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('global.socials.reddit')}</span>
+            <span className="sr-only">
+              {translate('global.socials.reddit')}
+            </span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -89,7 +93,9 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://forums.rockylinux.org/"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('global.socials.forums')}</span>
+            <span className="sr-only">
+              {translate('global.socials.forums')}
+            </span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -104,7 +110,9 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://chat.rockylinux.org/"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('global.socials.mattermost')}</span>
+            <span className="sr-only">
+              {translate('global.socials.mattermost')}
+            </span>
             <svg
               className="h-6 w-6"
               fill="currentColor"
@@ -118,7 +126,9 @@ const Footer = ({ pageContext: { locale: language } }) => {
             href="https://github.com/rocky-linux"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
           >
-            <span className="sr-only">{translate('global.socials.github')}</span>
+            <span className="sr-only">
+              {translate('global.socials.github')}
+            </span>
             <svg
               className="h-6 w-6"
               fill="currentColor"

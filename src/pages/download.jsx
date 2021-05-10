@@ -4,7 +4,7 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import {Translate} from "../i18n/utils/translate";
+import { Translate } from '../i18n/utils/translate';
 import dompurify from 'dompurify';
 
 const DownloadPage = ({ pageContext }) => {
@@ -46,7 +46,13 @@ const DownloadPage = ({ pageContext }) => {
           </div>
           <div className="max-w-screen-md px-8 mx-auto mt-4 flex flex-col">
             <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4 text-center">
-              <span dangerouslySetInnerHTML={{__html: sanitizer(translate('download.warning'), {ALLOWED_TAGS: ['i', 'a']})}}></span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: sanitizer(translate('download.warning'), {
+                    ALLOWED_TAGS: ['i', 'a'],
+                  }),
+                }}
+              ></span>
             </div>
           </div>
           <div className="shadow overflow-x-auto overflow-y-hidden rounded-md shadow max-w-screen-md mx-auto">
@@ -180,8 +186,14 @@ const DownloadPage = ({ pageContext }) => {
                 {translate('global.links.bug-report')}
               </a>
             </div>
-            <p dangerouslySetInnerHTML={{__html: sanitizer(translate('download.p2.content'), {ALLOWED_TAGS: ['a']})}} className="text-gray-700 dark:text-gray-300">
-            </p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: sanitizer(translate('download.p2.content'), {
+                  ALLOWED_TAGS: ['a'],
+                }),
+              }}
+              className="text-gray-700 dark:text-gray-300"
+            ></p>
           </div>
         </div>
       </main>
