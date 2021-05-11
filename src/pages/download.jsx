@@ -189,7 +189,7 @@ const DownloadPage = ({ pageContext }) => {
                 <a
                   className="text-green-600 dark:text-green-500 font-medium"
                   href="https://chat.rockylinux.org"
-                />
+                >be a part of the community as a contributor.</a>
               </Trans>
             </p>
           </div>

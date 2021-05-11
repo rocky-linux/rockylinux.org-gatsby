@@ -1,7 +1,7 @@
 import React from 'react';
 import { Translate } from '../../i18n/utils/translate';
 import { LocalizedLink, useLocalization } from 'gatsby-theme-i18n';
-import { navigate, Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 const Footer = ({ pageContext: { locale: language } }) => {
   const translate = Translate();

@@ -9,7 +9,6 @@ import SEO from '../components/seo';
 
 import CtrlIqLogo from '../images/ciq.png';
 import OpenDrivesLogo from '../images/opendrives-transparent.png';
-import MattermostLogo from '../images/mattermost.png';
 import MontaVistaLogo from '../images/montavista-alt.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives-transparent.png';
