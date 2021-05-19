@@ -33,7 +33,7 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
               <h5 className="font-bold">What is a release candidate?</h5>
               <p>
                 A release candidate is a beta version of a product that has the
-                potential to be stable.The intent of a release candidate is for
+                potential to be stable. The intent of a release candidate is for
                 the community to test and validate expected functionality of
                 Rocky Linux and report any bugs if present.
               </p>
