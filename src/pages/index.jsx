@@ -9,14 +9,13 @@ import SEO from '../components/seo';
 
 import CtrlIqLogo from '../images/ciq.png';
 import OpenDrivesLogo from '../images/opendrives-transparent.png';
-import MattermostLogo from '../images/mattermost.png';
 import MontaVistaLogo from '../images/montavista-alt.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives-transparent.png';
 import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const Index = ({ pageContext: { locale: language } }) => {
-  const translate = Translate();
+  const translate = Translate('index');
 
   return (
     <Layout>
@@ -52,7 +51,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                     d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                   />
                 </svg>
-                {translate('links.download')}
+                {translate('translation:links.download')}
               </LocalizedLink>
               <a
                 href="https://chat.rockylinux.org/"
@@ -105,7 +104,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                   to="/faq/"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
                 >
-                  See More
+                  {translate('translation:links.see-more')}
                 </LocalizedLink>
               </div>
             </div>
@@ -145,7 +144,7 @@ const Index = ({ pageContext: { locale: language } }) => {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-md md:px-4 lg:px-4 lg:py-4">
           <div className="max-w-xl mb-6 md:mx-auto text-center lg:max-w-2xl md:mb-6">
             <h2 className="max-w-lg font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl md:mx-auto">
-              {translate('links.sponsors')}
+              {translate('translation:links.sponsors')}
             </h2>
           </div>
           <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md mb-6">
@@ -219,7 +218,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                   />
                 </svg>
               </span>
-              See All
+              {translate('translation:links.see-all')}
             </LocalizedLink>
           </div>
         </div>

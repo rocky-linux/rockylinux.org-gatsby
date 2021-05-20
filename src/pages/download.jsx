@@ -1,4 +1,6 @@
 import { Link } from 'gatsby';
+import { Translate, Trans } from '../i18n/utils/translate';
+
 import React from 'react';
 import Footer from '../components/footer';
 import Header from '../components/header';
@@ -6,9 +8,11 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const DownloadPage = ({ pageContext }) => {
+  const translate = Translate('download');
+
   return (
     <Layout>
-      <SEO />
+      <SEO title={translate('title')} />
       <Header pageContext="{locale: language}" />
       <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white z-0">
         <div className="px-4 pb-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -32,23 +36,20 @@ const DownloadPage = ({ pageContext }) => {
               </div>
             </div>
             <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl sm:leading-none">
-              Downloads
+              {translate('title')}
             </h2>
             <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-              Download the official release of Rocky Linux from one of our
-              trusted mirrors.
+              {translate('description')}
             </p>
             <hr className="mx-auto" />
           </div>
           <div className="max-w-screen-md px-8 mx-auto mt-4 flex flex-col">
             <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4 text-center">
               <span>
-                The release you can download here is a <i>Release Candidate</i>{' '}
-                and should not be used in production. Please check our{' '}
-                <Link className="underline font-medium" to="/faq/">
-                  FAQ
-                </Link>{' '}
-                for more information.
+                <Trans t={translate} i18nKey="notInProduction">
+                  <i></i>
+                  <Link className="underline font-medium" to="/faq/"></Link>
+                </Trans>
               </span>
             </div>
           </div>
@@ -60,19 +61,19 @@ const DownloadPage = ({ pageContext }) => {
                     scope="col"
                     className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
                   >
-                    Architecture
+                    {translate('table.heading.0')}
                   </th>
                   <th
                     scope="col"
                     className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
                   >
-                    ISOs
+                    {translate('table.heading.1')}
                   </th>
                   <th
                     scope="col"
                     className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
                   >
-                    Packages
+                    {translate('table.heading.2')}
                   </th>
                 </tr>
               </thead>
@@ -174,27 +175,24 @@ const DownloadPage = ({ pageContext }) => {
                 className="text-green-600 dark:text-green-500 font-medium"
                 href="https://docs.rockylinux.org/site-index"
               >
-                Documentation
+                {translate('docs')}
               </a>
               <a
                 className="text-green-600 dark:text-green-500 font-medium"
                 href="https://bugs.rockylinux.org"
               >
-                Report a bug
+                {translate('report')}
               </a>
             </div>
             <p className="text-gray-700 dark:text-gray-300">
-              As you download and use Rocky Linux, the Rocky Enterprise Software
-              Foundation invites you to{' '}
-              <a
-                className="text-green-600 dark:text-green-500 font-medium"
-                href="https://chat.rockylinux.org"
-              >
-                be a part of the community as a contributor
-              </a>
-              . There are many ways to contribute to the project, from
-              documentation, QA, and testing to coding changes for SIGs,
-              providing mirroring or hosting, and helping other users.
+              <Trans t={translate} i18nKey="invitation">
+                <a
+                  className="text-green-600 dark:text-green-500 font-medium"
+                  href="https://chat.rockylinux.org"
+                >
+                  be a part of the community as a contributor.
+                </a>
+              </Trans>
             </p>
           </div>
         </div>
