@@ -211,6 +211,26 @@ const DownloadPage = ({ pageContext }) => {
               </Trans>
             </p>
           </div>
+          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div className="max-w-3xl mb-5 md:mx-auto lg:max-w-4xl">
+              <div className="mb-4">
+                <a href="/" aria-label="Article"
+                   className="inline-block max-w-lg font-sans text-xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-2xl">
+                  Export Compliance/Customs Information
+                </a>
+              </div>
+              <p className="text-gray-900 dark:text-gray-50">
+                By downloading Rocky Linux software, you acknowledge that you understand all of the following:
+              </p>
+              <p className="text-gray-900 dark:text-gray-50 mt-2">
+                Rocky Linux software and technical information may be subject to the U.S. Export Administration Regulations (the “EAR”) and other U.S. and foreign laws and may not be exported, re-exported or transferred (a) to a prohibited destination country under the EAR or U.S. sanctions regulations (currently Cuba, Iran, North Korea, Sudan, Syria, and the Crimea Region of Ukraine, subject to change as posted by the United States government); (b) to any prohibited destination or to any end user who has been prohibited from participating in U.S. export transactions by any federal agency of the U.S. government; or (c) for use in connection with the design, development or production of nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, or sounding rockets, or unmanned air vehicle systems.
+              </p>
+              <p className="text-gray-900 dark:text-gray-50 mt-2">
+                You may not download Rocky Linux software or technical information if you are located in one of these countries or otherwise subject to these restrictions. You may not provide Rocky Linux software or technical information to individuals or entities located in one of these countries or otherwise subject to these restrictions. You are also responsible for compliance with foreign law requirements applicable to the import, export and use of Rocky Linux software and technical information.
+                Rocky Linux software in source code and binary code form are publicly available and are not subject to the EAR in accordance with §742.15(b).
+              </p>
+            </div>
+          </div>
         </div>
       </main>
       <Footer pageContext="{locale: language}" />
