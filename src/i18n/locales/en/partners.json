@@ -16,6 +16,11 @@
             "name": "Mattermost",
             "grade": "Principal Partner",
             "description": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+        },
+        {
+            "name": "Fosshost",
+            "grade": "Principal Partner",
+            "description": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
         }
     ]
 }
