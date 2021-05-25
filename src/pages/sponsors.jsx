@@ -1,4 +1,6 @@
 import React from 'react';
+import { Translate } from '../i18n/utils/translate';
+
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Header from '../components/header';
@@ -11,9 +13,11 @@ import FortyFiveDrivesLogo from '../images/45drives.jpg';
 import MontaVistaLogo from '../images/montavista.png';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
+  const translate = Translate('sponsors');
+
   return (
     <Layout>
-      <SEO title="Sponsors" />
+      <SEO title={translate('title')} />
       <Header pageContext="{locale: language}" />
       <main className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white z-0">
         <div className="max-w-4xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:px-8">
@@ -37,11 +41,10 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </div>
               </div>
               <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl sm:leading-none">
-                Sponsors
+                {translate('title')}
               </h2>
               <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-                We would like to thank our sponsors for their support thus far
-                on the project.
+                {translate('description')}
               </p>
               <hr className="mx-auto" />
             </div>
@@ -61,18 +64,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://ctrliq.com" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                    Ctrl IQ
+                    {translate('sponsors.0.name')}
                     <span className="ml-2 bg-green-200 text-green-600 py-1 px-2 text-xs rounded-full self-center">
-                      Founding Sponsor
+                      {translate('sponsors.0.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  Unified, secured, platform agnostic computing starting with
-                  the provisioning, management, and support of the base OS
-                  (Rocky Linux) and going through the deployment stack of
-                  containers with cloud native, multi-prem, multi-cloud
-                  meta-orchestration of performance critical workflows and data.
+                  {translate('sponsors.0.description')}
                 </p>
               </div>
             </div>
@@ -93,18 +92,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
-                    45Drives
+                    {translate('sponsors.1.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      Principal Sponsor
+                      {translate('sponsors.1.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  45Drives offers enterprise storage solutions built on powerful
-                  & robust open-source software that allows customers to benefit
-                  from the cost savings & flexibility of off-the-shelf hardware.
-                  Check them out for a fully supported data storage solution at
-                  the best cost per terabyte!
+                  {translate('sponsors.1.description')}
                 </p>
               </div>
             </div>
@@ -125,19 +120,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
-                    OpenDrives
+                    {translate('sponsors.2.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      Principal Sponsor
+                      {translate('sponsors.2.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  OpenDrives is a global provider of enterprise-grade,
-                  hyper-scalable, network-attached-storage (NAS) solutions. We
-                  deliver the highest performing solutions for our customers -
-                  to match individual performance needs - for the most robust,
-                  complex and mission-critical projects and workflows,
-                  on-premises and into the cloud.
+                  {translate('sponsors.2.description')}
                 </p>
               </div>
             </div>
@@ -155,18 +145,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <h3 className="text-lg font-medium text-gray-50">
                   <a href="https://mvista.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                    MontaVista
+                    {translate('sponsors.3.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      Principal Sponsor
+                      {translate('sponsors.3.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  MontaVista Software is the leader in embedded commercial
-                  Linux, supporting MontaVista CGX, Yocto Project®, CentOS and
-                  Rocky Linux. MontaVista offers Open Source Software expertise,
-                  commercial-quality Linux distros, cost-effective maintenance
-                  and support for 10+ year life-cycles.
+                  {translate('sponsors.3.description')}
                 </p>
               </div>
             </div>
@@ -187,18 +173,14 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
-                    Amazon Web Services
+                    {translate('sponsors.4.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      Principal Sponsor
+                      {translate('sponsors.4.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  The RESF utilizes AWS to run much of the underlying
-                  infrastructure critical to the development and deployment of
-                  the services supporting Rocky Linux. From Koji builders for
-                  x86_64 and aarch64 running in EC2 to SRPM blob storage in S3,
-                  AWS is foundational to much of what we do.
+                  {translate('sponsors.4.description')}
                 </p>
               </div>
             </div>
