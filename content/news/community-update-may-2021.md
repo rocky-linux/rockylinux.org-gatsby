@@ -29,16 +29,14 @@ Please reach out via the [~Community channel](https://chat.rockylinux.org/rocky-
 
 All of our channels have been migrated from Freenode to [Libera.Chat](https://libera.chat/), and are now bridged to [our Mattermost server](https://chat.rockylinux.org). You can find the bridge's channel mappings [on the wiki](https://wiki.rockylinux.org/en/irc-mattermost-bridge).
 
-  
-
 ## Documentation
 
 Some new developments and initiatives are brewing within the Rocky documentation group.
 
--   We hosted this month’s team meeting/get-together on May 14, 2021.
--   Individuals within the documentation group have been exploring and working with the Rocky web development team to test other platforms for serving and managing the docs.rockylinux.org platform. Thanks to @FromOZ and @antoine for spearheading this effort.
--   We’ve had an uptick in the number of folks doing actual translations of existing Rocky Linux guides and as well as authoring brand new content in various languages.
-  
+- We hosted this month’s team meeting/get-together on May 14, 2021.
+- Individuals within the documentation group have been exploring and working with the Rocky web development team to test other platforms for serving and managing the docs.rockylinux.org platform. Thanks to @FromOZ and @antoine for spearheading this effort.
+- We’ve had an uptick in the number of folks doing actual translations of existing Rocky Linux guides and as well as authoring brand new content in various languages.
+
 ## Release Engineering
 
 Now that RHEL 8.4 has landed, we’re working to build a release candidate. Rocky Linux 8.4 will be our first GA release. As a reminder we will not officially support an upgrade path from 8.3 RC to 8.4 GA, or from 8.4 RC to 8.4 GA.
@@ -50,6 +48,7 @@ If you’re interested in helping us test the Rocky Linux 8.4 RC, please join ou
 ---
 
 # Media
+
 We welcome media inquiries and involvement! Please reach out to [media@resf.org](mailto:media@resf.org) for interviews, quotes, information, inclusion on press releases, etc.
 
 ---
