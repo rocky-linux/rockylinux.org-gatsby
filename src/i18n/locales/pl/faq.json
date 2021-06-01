@@ -22,7 +22,7 @@
             "a": "Najpierw należy utworzyć konto za pomocą <0>Rocky Linux Account Services</0>, następnie udaj się do naszego <1>serwera Bugzilla</1> aby zgłosić wszelkie błędy."
         },
         {
-            "q": "HJak mogę zaangażować się w pracę zespołu testującego?",
+            "q": "Jak mogę zaangażować się w pracę zespołu testującego?",
             "a": "Prosimy o przyłączenie się do kanału <0>~Testing</0> na naszym serwerze Mattermost, aby zacząć. Na forum jest też temat o testach, w którym można prowadzić bardziej szczegółowe rozmowy."
         },
         {
@@ -35,7 +35,7 @@
         },
         {
             "q": "Jeśli nie tylko przepakowujecie RHEL, to co dokładnie robicie?",
-            "a": "ONaszym celem jest utrzymanie Rocky Linux jako dystrybucji zorientowanej na społeczność <0>przez</0> społeczność, <1>dla</1> społeczności. Aby tego dokonać, tworzymy niezbędne struktury organizacyjne, które zapewnią, że Rocky Linux pozostanie w rękach społeczności. Chcemy się upewnić, że nie jest możliwe, aby to, co stało się z CentOS-em, stało się z Rocky Linux."
+            "a": "Naszym celem jest utrzymanie Rocky Linux jako dystrybucji zorientowanej na społeczność <0>przez</0> społeczność, <1>dla</1> społeczności. Aby tego dokonać, tworzymy niezbędne struktury organizacyjne, które zapewnią, że Rocky Linux pozostanie w rękach społeczności. Chcemy się upewnić, że nie jest możliwe, aby to, co stało się z CentOS-em, stało się z Rocky Linux."
         },
         {
             "q": "Jak zamierzacie zapewnić, że Rocky Linux rzeczywiście pozostanie społecznościowym systemem operacyjnym dla biznesu?",
