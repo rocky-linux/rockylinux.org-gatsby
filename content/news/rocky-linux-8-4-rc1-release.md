@@ -8,7 +8,7 @@ posttype: 'news'
 The Rocky Enterprise Software Foundation (RESF) is pleased to announce the availability of the Rocky Linux 8.4 Release Candidate for:
 
 | Architecture    | Boot | Minimal | Full/Everything |
-|-----------------|------|---------|-----------------|
+| --------------- | ---- | ------- | --------------- |
 | x86_64          | X    | X       | X               |
 | ARM64 (aarch64) | X    | X       | X               |
 
@@ -19,6 +19,7 @@ To download the release, visit [https://rockylinux.org/download](https://rockyli
 Once this release candidate has been validated, we will transition Rocky Linux 8.4 to General Availability. If our 8.4 RC goes as smoothly as our 8.3 RC did, you won’t have long to wait.
 
 ## FAQ:
+
 > What upgrade paths are supported?
 
 Upgrading between release candidates, or from a release candidate to a stable release will not be supported. Release candidates are not suitable for production use, and are to be used for testing purposes only.
@@ -49,7 +50,6 @@ We’d like to extend a special thanks to our sponsors and our partners, whose c
 - MontaVista
 - NAVER Cloud
 - OpenDrives
-
 
 This is just the beginning. Our commitment to you is the long-lasting development and support of an open enterprise operating system by the community, and for the community.
 
