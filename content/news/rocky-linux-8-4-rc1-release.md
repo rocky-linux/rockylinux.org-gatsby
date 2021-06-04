@@ -16,6 +16,8 @@ Please note that a release candidate is not suitable for production use. You can
 
 To download the release, visit [https://rockylinux.org/download](https://rockylinux.org/download).
 
+Release notes are available [here](https://docs.rockylinux.org/en/rocky/8/release_notes/rocky_linux_8-4_release).
+
 Once this release candidate has been validated, we will transition Rocky Linux 8.4 to General Availability. If our 8.4 RC goes as smoothly as our 8.3 RC did, you won’t have long to wait.
 
 ## FAQ:
