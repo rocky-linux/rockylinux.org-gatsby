@@ -10,27 +10,6 @@
       "title": "Trang không tìm thấy."
     }
   },
-  "faq": {
-    "a": {
-      "come-in": "Rocky Linux nhằm mục đích hoạt động như một bản downstream build như CentOS đã làm trước đây, xây dựng các bản phát hành sau khi chúng được  upstream vendor thêm vào, chứ không phải trước đó.",
-      "downstream-partner-direction": "Dự án CentOS gần đây đã thông báo về sự thay đổi chiến lược cho CentOS. Trong khi trước đây CentOS tồn tại như một bản downstream build của upstream vendor (nó nhận được các bản vá và cập nhật sau khi upstream vendor thực hiện), nó sẽ chuyển sang bản upstream build (thử nghiệm các bản vá và cập nhật trước khi đưa vào upstream vendor). Ngoài ra, hỗ trợ cho CentOS Linux 8 đã bị cắt ngắn, từ ngày 31 tháng 5 năm 2029 đến ngày 31 tháng 12 năm 2021."
-    },
-    "q": {
-      "come-in": "Vậy Rocky Linux tới từ đâu?",
-      "downstream-partner-direction": "Câu này nghĩa là gì, \"Downstream partner của nó đã chuyển hướng?\""
-    },
-    "title": "Câu hỏi thường gặp"
-  },
-  "landing": {
-    "p1": {
-      "content": "Một nỗ lực vì cộng đổng nhằm mang tới cho bạn Linux phiên bản doạnh nghiệp, sản phẩm hoàn thiện.",
-      "heading": "Rocky Linux"
-    },
-    "p2": {
-      "content": "Rocky Linux là một hệ điều hành cộng đồng dành cho doanh nghiệp được thiết kế để tương thích 100% với lỗi tương thích với bản phân phối Linux dành cho doanh nghiệp hàng đầu của Mỹ hiện nay khi downstream partner của nó đã chuyển hướng. Nó đang được cộng đồng phát triển mạnh thêm. Rocky Linux được dẫn dắt bởi Gregory Kurtzer, người sáng lập dự án CentOS. Không có ETA cho một bản phát hành. Các cộng tác viên được yêu cầu liên hệ bằng cách sử dụng các tùy chọn liên lạc được cung cấp trên trang web này.",
-      "heading": "Dự án Rocky Linux là gì?"
-    }
-  },
   "lang": {
     "footer": {
       "choose-language": "Chọn một ngôn ngữ..."
@@ -42,13 +21,23 @@
     "get-in-touch": "Giữ liên lạc",
     "get-involved": "Tham gia",
     "go-home": "Trang chủ",
-    "join-the-discussion": "Tham gia thảo luận",
     "posts": "News",
     "show-your-interest": "Show Your Interest",
     "sponsors": "Sponsors",
+    "partners": "Partners",
+    "status": "Service Status",
     "donate": "Donate",
     "store": "Store",
-    "press": "Press"
+    "press": "Press",
+    "download": "Download",
+    "com_charter": "Community Charter",
+    "org_structure": "Organizational Structure",
+    "privacy": "Privacy Policy",
+    "news": "News",
+    "wiki": "Wiki",
+    "forums": "Forums",
+    "see-all": "See All",
+    "see-more": "See More"
   },
   "socials": {
     "forums": "Diễn đàn",

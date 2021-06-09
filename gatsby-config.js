@@ -120,7 +120,14 @@ module.exports = {
           fallbackLng: 'en',
           lowerCaseLng: 'true',
           load: 'currentOnly',
-          ns: ['translation'],
+          ns: [
+            'translation',
+            'index',
+            'faq',
+            'download',
+            'partners',
+            'sponsors',
+          ],
           returnObjects: true,
           interpolation: {
             escapeValue: false,
@@ -129,6 +136,15 @@ module.exports = {
             useSuspense: true,
           },
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '1',
+        matomoUrl: 'https://analytics.rockylinux.org',
+        siteUrl: 'https://rockylinux.org',
+        trackLoad: false,
       },
     },
   ],
