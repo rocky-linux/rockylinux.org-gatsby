@@ -84,7 +84,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Minimal', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-minimal.iso"
                     >
                       Minimal
                     </a>{' '}
@@ -92,7 +92,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 DVD', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso"
                     >
                       DVD
                     </a>{' '}
@@ -100,7 +100,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Boot', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-boot.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-boot.iso"
                     >
                       Boot
                     </a>{' '}
@@ -108,14 +108,14 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Boot', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.torrent"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-dvd1.torrent"
                     >
                       Torrent
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/CHECKSUM"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/CHECKSUM"
                     >
                       Checksum
                     </a>
@@ -123,7 +123,7 @@ const DownloadPage = ({ pageContext }) => {
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/BaseOS/x86_64/"
+                      href="https://download.rockylinux.org/pub/rocky/8/BaseOS/x86_64/"
                     >
                       BaseOS
                     </a>
@@ -137,7 +137,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 Minimal', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-minimal.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-minimal.iso"
                     >
                       Minimal
                     </a>{' '}
@@ -145,7 +145,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 DVD', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-dvd1.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-dvd1.iso"
                     >
                       DVD
                     </a>{' '}
@@ -153,7 +153,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 Boot', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-boot.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-boot.iso"
                     >
                       Boot
                     </a>{' '}
@@ -161,14 +161,14 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Boot', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-dvd1.torrent"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-dvd1.torrent"
                     >
                       Torrent
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/CHECKSUM"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/CHECKSUM"
                     >
                       Checksum
                     </a>
@@ -176,7 +176,7 @@ const DownloadPage = ({ pageContext }) => {
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/BaseOS/aarch64/"
+                      href="https://download.rockylinux.org/pub/rocky/8/BaseOS/aarch64/"
                     >
                       BaseOS
                     </a>
