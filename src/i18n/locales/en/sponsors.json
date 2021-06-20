@@ -26,6 +26,11 @@
             "name": "Amazon Web Services",
             "grade": "Principal Sponsor",
             "description": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+        },
+        {
+            "name": "Google Cloud",
+            "grade": "Principal Sponsor",
+            "description": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we’ve partnered with the RESF to ensure Rocky’s status as a first-class citizen on the Google Cloud Platform from day one."
         }
     ]
 }

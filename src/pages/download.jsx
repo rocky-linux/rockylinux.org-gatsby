@@ -222,11 +222,11 @@ const DownloadPage = ({ pageContext }) => {
                   Export Compliance/Customs Information
                 </a>
               </div>
-              <p className="text-gray-900 dark:text-gray-50">
+              <p className="text-gray-700 dark:text-gray-300">
                 By downloading Rocky Linux software, you acknowledge that you
                 understand all of the following:
               </p>
-              <p className="text-gray-900 dark:text-gray-50 mt-2">
+              <p className="text-gray-700 dark:text-gray-300 mt-2">
                 Rocky Linux software and technical information may be subject to
                 the U.S. Export Administration Regulations (the “EAR”) and other
                 U.S. and foreign laws and may not be exported, re-exported or
@@ -242,7 +242,7 @@ const DownloadPage = ({ pageContext }) => {
                 space launch vehicles, or sounding rockets, or unmanned air
                 vehicle systems.
               </p>
-              <p className="text-gray-900 dark:text-gray-50 mt-2">
+              <p className="text-gray-700 dark:text-gray-300 mt-2">
                 You may not download Rocky Linux software or technical
                 information if you are located in one of these countries or
                 otherwise subject to these restrictions. You may not provide

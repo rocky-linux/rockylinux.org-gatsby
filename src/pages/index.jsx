@@ -12,6 +12,7 @@ import OpenDrivesLogo from '../images/opendrives-transparent.png';
 import MontaVistaLogo from '../images/montavista-alt.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives-transparent.png';
+import GoogleCloudLogo from '../images/google-cloud.png';
 import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const Index = ({ pageContext: { locale: language } }) => {
@@ -141,15 +142,15 @@ const Index = ({ pageContext: { locale: language } }) => {
         className="relative bg-gray-50 dark:bg-gray-900 overflow-hidden"
         dir="auto"
       >
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-md md:px-4 lg:px-4 lg:py-4">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-4 lg:px-4 lg:py-4">
           <div className="max-w-xl mb-6 md:mx-auto text-center lg:max-w-2xl md:mb-6">
             <h2 className="max-w-lg font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl md:mx-auto">
               {translate('translation:links.sponsors')}
             </h2>
           </div>
           <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md mb-6">
-            <div className="max-w-3xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-5">
+            <div className="max-w-5xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-6 lg:grid-cols-6">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ctrliq.com/" aria-label="Ctrl IQ">
                     <img
@@ -177,7 +178,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                     />
                   </a>
                 </div>
-                <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://aws.amazon.com/" aria-label="AWS">
                     <img
                       src={AwsLogo}
@@ -186,12 +187,21 @@ const Index = ({ pageContext: { locale: language } }) => {
                     />
                   </a>
                 </div>
-                <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://www.mvista.com/" aria-label="MontaVista">
                     <img
                       src={MontaVistaLogo}
                       className="h-16 grayscale transition duration-200"
                       alt="MontaVista"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 items-center">
+                  <a href="https://cloud.google.com/" aria-label="MontaVista">
+                    <img
+                      src={GoogleCloudLogo}
+                      className="grayscale transition duration-200"
+                      alt="Google Cloud"
                     />
                   </a>
                 </div>
