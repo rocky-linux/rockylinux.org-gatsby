@@ -11,7 +11,7 @@ import CIQLogo from '../images/ciq-alt.png';
 import AwsLogo from '../images/aws-alt.png';
 import FortyFiveDrivesLogo from '../images/45drives.jpg';
 import MontaVistaLogo from '../images/montavista.png';
-import GoogleCloudLogo from '../images/google-cloud.png';
+import GoogleCloudLogo from '../images/google-cloud-alt.png';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('sponsors');
@@ -51,7 +51,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
             </div>
           </div>
           <div className="rounded-lg bg-gray-200 dark:bg-gray-900 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-800 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
-            <div className="col-span-2 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+            <div className="rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
               <div>
                 <span className="rounded-lg inline-flex p-3">
                   <img
