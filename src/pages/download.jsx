@@ -179,7 +179,7 @@ const DownloadPage = ({ pageContext }) => {
             <div className="flex flex-col md:flex-row items-center justify-evenly mb-6">
               <a
                 className="text-green-600 dark:text-green-500 font-medium"
-                href="https://docs.rockylinux.org/site-index"
+                href="https://docs.rockylinux.org/"
               >
                 {translate('docs')}
               </a>
