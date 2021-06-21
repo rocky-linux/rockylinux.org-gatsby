@@ -43,16 +43,6 @@ const DownloadPage = ({ pageContext }) => {
             </p>
             <hr className="mx-auto" />
           </div>
-          <div className="max-w-screen-md px-8 mx-auto mt-4 flex flex-col">
-            <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4 text-center">
-              <span>
-                <Trans t={translate} i18nKey="notInProduction">
-                  <i></i>
-                  <Link className="underline font-medium" to="/faq/"></Link>
-                </Trans>
-              </span>
-            </div>
-          </div>
           <div className="shadow overflow-x-auto overflow-y-hidden rounded-md shadow max-w-screen-md mx-auto">
             <table className="min-w-full divide-y divide-gray-400">
               <thead className="bg-gray-200 dark:bg-gray-600">
