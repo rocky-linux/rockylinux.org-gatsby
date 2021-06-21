@@ -8,11 +8,10 @@ posttype: 'news'
 The Rocky Enterprise Software Foundation (RESF) is pleased to announce the General Availability of Rocky Linux 8.4 for the following architectures:
 
 | Architecture    | Minimal | DVD | Boot | Packages |
-|-----------------|---------|-----|------|----------|
+| --------------- | ------- | --- | ---- | -------- |
 | x86_64          | X       | X   | X    | X        |
-| ARM64 (aarch64) | X       | X   | X    | X        | 
- 
-  
+| ARM64 (aarch64) | X       | X   | X    | X        |
+
 Sufficient testing has been performed such that we have confidence in its stability for production systems. Free community support is available through the Rocky Linux [Mattermost](https://chat.rockylinux.org), [IRC](https://libera.chat/), and [forums](https://forums.rockylinux.org). Paid commercial support is currently available through CIQ.
 
 ---
@@ -21,12 +20,13 @@ Sufficient testing has been performed such that we have confidence in its stabil
 [Release Notes](https://docs.rockylinux.org/release_notes/8.4)
 
 The following are also available:
-* Container Images
-  * [Docker Hub](https://hub.docker.com/r/rockylinux/rockylinux/tags)
-  * [Quay.io](https://quay.io/repository/rockylinux/rockylinux?tab=tags)
-* Cloud Offerings
-  * Amazon Web Services
-  * Google Cloud Platform
+
+- Container Images
+  - [Docker Hub](https://hub.docker.com/r/rockylinux/rockylinux/tags)
+  - [Quay.io](https://quay.io/repository/rockylinux/rockylinux?tab=tags)
+- Cloud Offerings
+  - Amazon Web Services
+  - Google Cloud Platform
 
 Stay tuned for announcements as we expand our offerings.
 
@@ -60,8 +60,9 @@ This is just the beginning, and the RESF is more than just Rocky Linux--it’s a
 
 When we announced our release candidate, we asked you to come build the next free, open, community enterprise operating system with us. Now we’re asking you for more: join us as we build our community.
 
-> “We set out to develop a free, open, community enterprise operating system that is bug-for-bug compatible with the upstream Enterprise Linux standard. What we built is so much more: a community." 
->-   Gregory Kurtzer, Executive Director, Rocky Enterprise Software Foundation
+> “We set out to develop a free, open, community enterprise operating system that is bug-for-bug compatible with the upstream Enterprise Linux standard. What we built is so much more: a community."
+>
+> - Gregory Kurtzer, Executive Director, Rocky Enterprise Software Foundation
 
 Sincerely,
 The Rocky Enterprise Software Foundation
