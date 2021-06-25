@@ -50,8 +50,9 @@ const Header = ({ pageContext: { locale: language } }) => {
           >
             {translate('links.wiki')}
           </a>
-          <a href="https://docs.rockylinux.org/"
-             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
+          <a
+            href="https://docs.rockylinux.org/"
+            className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
             {translate('links.documentation')}
           </a>
