@@ -114,3 +114,10 @@ The Web team maintains and develops all of the websites under the RESF purview.
 
 - Team Lead: Hayden Young
 - Team Deputy: Michael Kinder
+
+#### Testing
+
+The Web team maintains and develops all of the websites under the RESF purview.
+
+- Team Lead: Trevor Cooper
+- Team Co-lead: Chris Stackpole (Stack)
