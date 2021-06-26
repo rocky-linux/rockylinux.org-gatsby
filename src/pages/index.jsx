@@ -13,6 +13,7 @@ import MontaVistaLogo from '../images/montavista-alt.png';
 import AwsLogo from '../images/aws.png';
 import FortyFiveDrivesLogo from '../images/45drives-transparent.png';
 import GoogleCloudLogo from '../images/google-cloud.png';
+import MicrosoftAzureLogo from '../images/microsoft-azure.png';
 import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const Index = ({ pageContext: { locale: language } }) => {
@@ -197,11 +198,23 @@ const Index = ({ pageContext: { locale: language } }) => {
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 items-center">
-                  <a href="https://cloud.google.com/" aria-label="MontaVista">
+                  <a href="https://cloud.google.com/" aria-label="GoogleCloud">
                     <img
                       src={GoogleCloudLogo}
                       className="grayscale transition duration-200"
                       alt="Google Cloud"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 items-center">
+                  <a
+                    href="https://azure.microsoft.com/"
+                    aria-label="MicrosoftAzure"
+                  >
+                    <img
+                      src={MicrosoftAzureLogo}
+                      className="grayscale transition duration-200"
+                      alt="Microsoft Azure"
                     />
                   </a>
                 </div>

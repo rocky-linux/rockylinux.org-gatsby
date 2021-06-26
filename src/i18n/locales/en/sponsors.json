@@ -31,6 +31,11 @@
             "name": "Google Cloud",
             "grade": "Principal Sponsor",
             "description": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we’ve partnered with the RESF to ensure Rocky’s status as a first-class citizen on the Google Cloud Platform from day one."
+        },
+        {
+            "name": "Microsoft Azure",
+            "grade": "Principal Sponsor",
+            "description": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft’s open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
         }
     ]
 }
