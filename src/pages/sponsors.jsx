@@ -12,6 +12,7 @@ import AwsLogo from '../images/aws-alt.png';
 import FortyFiveDrivesLogo from '../images/45drives.jpg';
 import MontaVistaLogo from '../images/montavista.png';
 import GoogleCloudLogo from '../images/google-cloud-alt.png';
+import MicrosoftAzureLogo from '../images/microsoft-azure.png';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('sponsors');
@@ -210,6 +211,34 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
                   {translate('sponsors.5.description')}
+                </p>
+              </div>
+            </div>
+            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+              <div>
+                <span className="rounded-lg inline-flex p-3">
+                  <img
+                    className="object-cover w-full rounded-lg"
+                    src={MicrosoftAzureLogo}
+                    alt="Microsoft Azure"
+                  />
+                </span>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-lg font-medium text-gray-50">
+                  <a
+                    href="https://azure.microsoft.com/"
+                    className="focus:outline-none"
+                  >
+                    <span className="absolute inset-0" aria-hidden="true" />
+                    {translate('sponsors.6.name')}
+                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
+                      {translate('sponsors.6.grade')}
+                    </span>
+                  </a>
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  {translate('sponsors.6.description')}
                 </p>
               </div>
             </div>
