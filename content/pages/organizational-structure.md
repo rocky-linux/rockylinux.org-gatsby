@@ -10,6 +10,16 @@ The purpose of this document is to articulate the motivation behind the organiza
 
 In order to ensure that all perspectives are heard, the organization is structured into teams, where each of the team lead(s) sits on the leadership team and serves as the RESF Board of Advisors. This provides a clear and transparent structure to ensure that discussions and decisions can be raised within the appropriate context of the organization by empowering each team to make decisions relevant to that specific team and also facilitates the bi-directional communication between all of the teams and leadership.
 
+### About the RESF
+
+The Rocky Enterprise Software Foundation (RESF) is a Public Benefit Corporation (PBC) formed in Delaware (file number 4429978). The RESF was founded and is owned by Gregory Kurtzer and is backed by an advisory board of trusted individuals and team leads from the Rocky Linux community.
+
+The decision to bootstrap the RESF as a PBC and create the current organizational structure was made collectively by the board of advisors after significant deliberation. History has shown that there are always loopholes for bad actors no matter what the entity type is. This is why we feel that the integrity, accountability, and transparency of the people involved in the project is the most critical aspect for determining the long term sustainability and viability of any project.
+
+Furthermore the RESF mitigates the risk of takeover by any one individual or external entity by implementing a series of checks and balances. These exist in terms of access control policies utilizing the principle of least privilege and separation of duty. This means that no one person or team has the ability to enact major decisions, or implement any forced changes without input from the other groups, ensuring that everyone has a voice and the project as a whole can not be controlled or co-opted by a bad actor.
+
+We believe we have an organizational structure that ensures the long term viability of the RESF and all hosted projects (e.g. Rocky Linux) for the public benefit of the open community of individuals and enterprises.
+
 ### Structure
 
 The general structure of the organization consists of a flat hierarchy of teams with a leadership team. Each team will have one or more of the following roles:
@@ -104,3 +114,10 @@ The Web team maintains and develops all of the websites under the RESF purview.
 
 - Team Lead: Hayden Young
 - Team Deputy: Michael Kinder
+
+#### Testing
+
+The Web team maintains and develops all of the websites under the RESF purview.
+
+- Team Lead: Trevor Cooper
+- Team Co-lead: Chris Stackpole (Stack)

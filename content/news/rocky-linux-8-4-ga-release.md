@@ -26,11 +26,15 @@ The following are also available:
   - [Quay.io](https://quay.io/repository/rockylinux/rockylinux?tab=tags)
 - Cloud Offerings
   - Amazon Web Services
-  - Google Cloud Platform
+  - [Google Cloud Platform](https://cloud.google.com/compute/docs/images/os-details#rocky_linux)
 
 Stay tuned for announcements as we expand our offerings.
 
 Bugs or issues can be reported via [Bugzilla](https://bugs.rockylinux.org).
+
+## Release Party
+
+Be sure to tune into our live release party Saturday, June 26 00:00 UTC [on YouTube](https://youtu.be/zI1pi533pug). More details available on the forums [here](https://forums.rockylinux.org/t/rocky-linux-8-4-release-party).
 
 ---
 
