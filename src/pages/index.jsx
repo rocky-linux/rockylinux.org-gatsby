@@ -207,7 +207,10 @@ const Index = ({ pageContext: { locale: language } }) => {
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 items-center">
-                  <a href="https://azure.microsoft.com/" aria-label="MicrosoftAzure">
+                  <a
+                    href="https://azure.microsoft.com/"
+                    aria-label="MicrosoftAzure"
+                  >
                     <img
                       src={MicrosoftAzureLogo}
                       className="grayscale transition duration-200"
