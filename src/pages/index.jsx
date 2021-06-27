@@ -151,7 +151,7 @@ const Index = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md mb-6">
             <div className="max-w-5xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-6 lg:grid-cols-6">
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-6 lg:grid-cols-7">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ctrliq.com/" aria-label="Ctrl IQ">
                     <img
@@ -213,7 +213,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                   >
                     <img
                       src={MicrosoftAzureLogo}
-                      className="grayscale transition duration-200"
+                      className="h-16 grayscale transition duration-200"
                       alt="Microsoft Azure"
                     />
                   </a>
