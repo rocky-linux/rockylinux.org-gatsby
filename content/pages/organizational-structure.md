@@ -45,13 +45,6 @@ The Leadership team is responsible for the overall direction and coordination of
 - Team Members (board of advisors):
   - [all Team Leads]
 
-#### Design
-
-Design produces and guides the visual styling and branding of the RESF.
-
-- Team Lead: Hayden Young
-- Team Deputy: TBD
-
 #### Community
 
 The Community team moderates, engages, and supports users across all social media and discussion platforms. This team is also responsible for organizing community events, creating programs, celebrating community successes, and working with other teams to support community initiatives.
@@ -64,6 +57,13 @@ The Community team moderates, engages, and supports users across all social medi
 The Infrastructure team is responsible for the architecture, configuration, and maintenance of the Rocky Enterprise Software Foundation’s infrastructure. This team works to ensure the availability and reliability of the build infrastructure supporting development and other reliant properties.
 
 - Team Leads: Neil Hanlon and Taylor Goodwill
+- Team Deputy: TBD
+
+#### Design
+
+Design produces and guides the visual styling and branding of the RESF.
+
+- Team Lead: Hayden Young
 - Team Deputy: TBD
 
 #### Documentation
