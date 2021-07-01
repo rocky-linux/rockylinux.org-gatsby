@@ -117,7 +117,7 @@ The Web team maintains and develops all of the websites under the RESF purview.
 
 #### Testing
 
-The Web team maintains and develops all of the websites under the RESF purview.
+The Testing team maintains and develops all of the continuous integration efforts of the RESF.
 
 - Team Lead: Trevor Cooper
 - Team Co-lead: Chris Stackpole (Stack)
