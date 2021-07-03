@@ -6,10 +6,10 @@ import SEO from '../components/seo';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import CtrlIqLogo from '../images/ciq-alt.png';
+import CIQLogo from '../images/ciq-alt.png';
+import FossHostLogo from '../images/fosshost.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
-import FossHostLogo from '../images/fosshost.png';
 import FastlyLogo from '../images/fastly.png';
 
 const Partners = ({ data, pageContext: { locale: language } }) => {
@@ -55,7 +55,7 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
                 <span className="rounded-lg inline-flex p-3">
                   <img
                     className="object-cover w-full"
-                    src={CtrlIqLogo}
+                    src={CIQLogo}
                     alt="CIQ"
                   />
                 </span>
@@ -80,23 +80,26 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
                 <span className="rounded-lg inline-flex p-3">
                   <img
                     className="object-cover w-full"
-                    src={NaverLogo}
-                    alt="NAVER Cloud"
+                    src={FossHostLogo}
+                    alt="Fosshost"
                   />
                 </span>
               </div>
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-50">
-                  <a href="https://ncloud.com/" className="focus:outline-none">
+                  <a
+                    href="https://fosshost.org/"
+                    className="focus:outline-none"
+                  >
                     <span className="absolute inset-0" aria-hidden="true" />
-                    {translate('partners.1.name')}
+                    {translate('partners.3.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      {translate('partners.1.grade')}
+                      {translate('partners.3.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  {translate('partners.1.description')}
+                  {translate('partners.3.description')}
                 </p>
               </div>
             </div>
@@ -133,26 +136,23 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
                 <span className="rounded-lg inline-flex p-3">
                   <img
                     className="object-cover w-full"
-                    src={FossHostLogo}
-                    alt="Fosshost"
+                    src={NaverLogo}
+                    alt="NAVER Cloud"
                   />
                 </span>
               </div>
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-50">
-                  <a
-                    href="https://fosshost.org/"
-                    className="focus:outline-none"
-                  >
+                  <a href="https://ncloud.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                    {translate('partners.3.name')}
+                    {translate('partners.1.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      {translate('partners.3.grade')}
+                      {translate('partners.1.grade')}
                     </span>
                   </a>
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  {translate('partners.3.description')}
+                  {translate('partners.1.description')}
                 </p>
               </div>
             </div>
