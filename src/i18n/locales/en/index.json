@@ -2,7 +2,7 @@
   "faq": {
     "a": {
       "come-in": "Rocky Linux aims to function as a downstream build as CentOS had done previously, building releases after they have been added by the upstream vendor, not before.",
-      "downstream-partner-direction": "The CentOS project recently announced a shift in strategy for CentOS. Whereas previously CentOS existed as a downstream build of its upstream vendor (it receives patches and updates after the upstream vendor does), it will be shifting to an upstream build (testing patches and updates before inclusion in the upstream vendor). Additionally, support for CentOS Linux 8 has been cut short, from May 31, 2029 to December 31, 2021."
+      "downstream-partner-direction": "The CentOS project recently announced a shift in strategy for CentOS. Whereas previously CentOS existed as a downstream build of its upstream vendor (it receives patches and updates after the upstream vendor does), it will be shifting to an upstream build (testing patches and updates before inclusion in the upstream vendor). Additionally, support for CentOS Linux 8 has been cut short, from December 31, 2029 to December 31, 2021."
     },
     "q": {
       "come-in": "So where does Rocky Linux come in?",
