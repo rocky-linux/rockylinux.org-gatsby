@@ -1,4 +1,3 @@
-import { Link } from 'gatsby';
 import { Translate, Trans } from '../i18n/utils/translate';
 
 import React from 'react';

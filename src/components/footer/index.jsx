@@ -179,7 +179,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             </h5>
             <select
               id="languagePicker"
-              onChange={(e) => {
+              onBlur={(e) => {
                 window.location.href = `${
                   e.target.value === 'en' ? `/` : `/${e.target.value}`
                 }`;
