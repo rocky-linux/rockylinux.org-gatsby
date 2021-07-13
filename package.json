@@ -37,6 +37,7 @@
     "react-i18next": "^11.8.5"
   },
   "devDependencies": {
+    "@heroicons/react": "^1.0.1",
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/typography": "^0.4.0",
     "prettier": "2.1.2",
