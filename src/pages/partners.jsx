@@ -88,10 +88,7 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
               </div>
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-50">
-                  <a
-                    href="https://www.arm.com/"
-                    className="focus:outline-none"
-                  >
+                  <a href="https://www.arm.com/" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
                     {translate('partners.4.name')}
                     <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
@@ -108,17 +105,17 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
               <div>
                 <span className="rounded-lg inline-flex p-3">
                   <img
-                      className="object-cover w-full"
-                      src={FossHostLogo}
-                      alt="Fosshost"
+                    className="object-cover w-full"
+                    src={FossHostLogo}
+                    alt="Fosshost"
                   />
                 </span>
               </div>
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-50">
                   <a
-                      href="https://fosshost.org/"
-                      className="focus:outline-none"
+                    href="https://fosshost.org/"
+                    className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
                     {translate('partners.3.name')}
