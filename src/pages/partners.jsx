@@ -11,6 +11,7 @@ import FossHostLogo from '../images/fosshost.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import FastlyLogo from '../images/fastly.png';
+import ArmLogo from '../images/arm.png';
 
 const Partners = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('partners');
@@ -49,8 +50,8 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
               <hr className="mx-auto" />
             </div>
           </div>
-          <div className="rounded-lg bg-gray-200 dark:bg-gray-900 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-800 sm:divide-y-0 sm:grid sm:grid-cols-3 sm:gap-px">
-            <div className="col-span-3 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+          <div className="rounded-lg bg-gray-200 dark:bg-gray-900 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-800 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
+            <div className="col-span-2 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
               <div>
                 <span className="rounded-lg inline-flex p-3">
                   <img
@@ -80,16 +81,44 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
                 <span className="rounded-lg inline-flex p-3">
                   <img
                     className="object-cover w-full"
-                    src={FossHostLogo}
-                    alt="Fosshost"
+                    src={ArmLogo}
+                    alt="Arm"
                   />
                 </span>
               </div>
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-50">
                   <a
-                    href="https://fosshost.org/"
+                    href="https://www.arm.com/"
                     className="focus:outline-none"
+                  >
+                    <span className="absolute inset-0" aria-hidden="true" />
+                    {translate('partners.4.name')}
+                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
+                      {translate('partners.4.grade')}
+                    </span>
+                  </a>
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  {translate('partners.4.description')}
+                </p>
+              </div>
+            </div>
+            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+              <div>
+                <span className="rounded-lg inline-flex p-3">
+                  <img
+                      className="object-cover w-full"
+                      src={FossHostLogo}
+                      alt="Fosshost"
+                  />
+                </span>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-lg font-medium text-gray-50">
+                  <a
+                      href="https://fosshost.org/"
+                      className="focus:outline-none"
                   >
                     <span className="absolute inset-0" aria-hidden="true" />
                     {translate('partners.3.name')}
