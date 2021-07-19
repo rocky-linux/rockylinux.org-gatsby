@@ -176,7 +176,7 @@ const DownloadPage = ({ pageContext }) => {
             </table>
           </div>
           <div className="max-w-screen-sm mx-auto mt-8 text-center">
-            <b>{translate('eol')}:</b> 31st May 2021
+            <b>{translate('eol')}:</b> 31st May 2029
           </div>
           <div className="max-w-screen-sm px-8 mx-auto mt-8 flex flex-col">
             <div className="flex flex-col md:flex-row items-center justify-evenly mb-6">
