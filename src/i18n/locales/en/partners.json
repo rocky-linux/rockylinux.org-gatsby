@@ -3,9 +3,9 @@
     "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
     "partners": [
         {
-            "name": "Ctrl IQ",
+            "name": "CIQ",
             "grade": "Founding Partner",
-            "description": "Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data."
+            "description": "We believe in helping people to do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
         },
         {
             "name": "NAVER Cloud",
@@ -21,6 +21,11 @@
             "name": "Fosshost",
             "grade": "Principal Partner",
             "description": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+        },
+        {
+            "name": "Arm",
+            "grade": "Principal Partner",
+            "description": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
         }
     ]
 }

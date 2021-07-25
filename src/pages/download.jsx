@@ -43,16 +43,6 @@ const DownloadPage = ({ pageContext }) => {
             </p>
             <hr className="mx-auto" />
           </div>
-          <div className="max-w-screen-md px-8 mx-auto mt-4 flex flex-col">
-            <div className="w-full px-3 py-2 rounded-lg shadow bg-red-600 text-white mb-4 text-center">
-              <span>
-                <Trans t={translate} i18nKey="notInProduction">
-                  <i></i>
-                  <Link className="underline font-medium" to="/faq/"></Link>
-                </Trans>
-              </span>
-            </div>
-          </div>
           <div className="shadow overflow-x-auto overflow-y-hidden rounded-md shadow max-w-screen-md mx-auto">
             <table className="min-w-full divide-y divide-gray-400">
               <thead className="bg-gray-200 dark:bg-gray-600">
@@ -84,7 +74,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Minimal', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-minimal.iso"
                     >
                       Minimal
                     </a>{' '}
@@ -92,7 +82,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 DVD', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso"
                     >
                       DVD
                     </a>{' '}
@@ -100,7 +90,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Boot', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-boot.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-boot.iso"
                     >
                       Boot
                     </a>{' '}
@@ -108,14 +98,14 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Boot', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.torrent"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-dvd1.torrent"
                     >
                       Torrent
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/CHECKSUM"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/CHECKSUM"
                     >
                       Checksum
                     </a>
@@ -123,7 +113,7 @@ const DownloadPage = ({ pageContext }) => {
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/BaseOS/x86_64/"
+                      href="https://download.rockylinux.org/pub/rocky/8/BaseOS/x86_64/"
                     >
                       BaseOS
                     </a>
@@ -137,7 +127,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 Minimal', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-minimal.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-minimal.iso"
                     >
                       Minimal
                     </a>{' '}
@@ -145,7 +135,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 DVD', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-dvd1.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-dvd1.iso"
                     >
                       DVD
                     </a>{' '}
@@ -153,7 +143,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'aarch64 Boot', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-boot.iso"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-boot.iso"
                     >
                       Boot
                     </a>{' '}
@@ -161,14 +151,14 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       onClick="_paq.push(['trackEvent', 'Download', 'Download', 'x86_64 Boot', 1]);"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-dvd1.torrent"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-dvd1.torrent"
                     >
                       Torrent
                     </a>{' '}
                     |&nbsp;
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/CHECKSUM"
+                      href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/CHECKSUM"
                     >
                       Checksum
                     </a>
@@ -176,7 +166,7 @@ const DownloadPage = ({ pageContext }) => {
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
-                      href="https://download.rockylinux.org/pub/rocky/8.4/BaseOS/aarch64/"
+                      href="https://download.rockylinux.org/pub/rocky/8/BaseOS/aarch64/"
                     >
                       BaseOS
                     </a>
@@ -185,11 +175,14 @@ const DownloadPage = ({ pageContext }) => {
               </tbody>
             </table>
           </div>
+          <div className="max-w-screen-sm mx-auto mt-8 text-center">
+            <b>{translate('eol')}:</b> 31st May 2029
+          </div>
           <div className="max-w-screen-sm px-8 mx-auto mt-8 flex flex-col">
             <div className="flex flex-col md:flex-row items-center justify-evenly mb-6">
               <a
                 className="text-green-600 dark:text-green-500 font-medium"
-                href="https://docs.rockylinux.org/site-index"
+                href="https://docs.rockylinux.org/"
               >
                 {translate('docs')}
               </a>
@@ -222,11 +215,11 @@ const DownloadPage = ({ pageContext }) => {
                   Export Compliance/Customs Information
                 </a>
               </div>
-              <p className="text-gray-900 dark:text-gray-50">
+              <p className="text-gray-700 dark:text-gray-300">
                 By downloading Rocky Linux software, you acknowledge that you
                 understand all of the following:
               </p>
-              <p className="text-gray-900 dark:text-gray-50 mt-2">
+              <p className="text-gray-700 dark:text-gray-300 mt-2">
                 Rocky Linux software and technical information may be subject to
                 the U.S. Export Administration Regulations (the “EAR”) and other
                 U.S. and foreign laws and may not be exported, re-exported or
@@ -242,7 +235,7 @@ const DownloadPage = ({ pageContext }) => {
                 space launch vehicles, or sounding rockets, or unmanned air
                 vehicle systems.
               </p>
-              <p className="text-gray-900 dark:text-gray-50 mt-2">
+              <p className="text-gray-700 dark:text-gray-300 mt-2">
                 You may not download Rocky Linux software or technical
                 information if you are located in one of these countries or
                 otherwise subject to these restrictions. You may not provide
