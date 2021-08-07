@@ -249,7 +249,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
               <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
                 <a href="https://www.seagategov.com" aria-label="Seagate Federal">
                   <img
-                    className="object-cover w-full py-8"
+                    className="object-cover w-full"
                     src={SeagateFederalLogo}
                     alt="Seagate Federal"
                   />
