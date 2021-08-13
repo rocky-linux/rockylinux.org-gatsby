@@ -16,10 +16,10 @@ import MicrosoftAzureLogo from '../images/microsoft-azure.png';
 import MontaVistaLogo from '../images/montavista-alt.png';
 import OpenDrivesLogo from '../images/opendrives-transparent.png';
 import ArmLogo from '../images/arm.png';
+import FastlyLogo from '../images/fastly.png';
 import FossHostLogo from '../images/fosshost.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
-import DotSlashStudioLogo from '../images/dotslash.png';
 
 const Index = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
@@ -194,11 +194,11 @@ const Index = ({ pageContext: { locale: language } }) => {
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <a href="https://www.dotslash.studio/" aria-label="DotSlash Studio">
+                  <a href="https://www.fastly.com/" aria-label="Fastly">
                     <img
-                        src={DotSlashStudioLogo}
+                        src={FastlyLogo}
                         className="h-16 grayscale transition duration-200"
-                        alt="DotSlash Studio"
+                        alt="Fastly"
                     />
                   </a>
                 </div>
