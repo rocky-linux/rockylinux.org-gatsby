@@ -2,23 +2,15 @@
     "title": "Frequently Asked Questions",
     "questions": [
         {
-            "q": "Where can I download the release candidate?",
+            "q": "Where can I download the release?",
             "a": "<0>https://rockylinux.org/download<0>"
         },
         {
-            "q": "What is a release candidate?",
-            "a": "A release candidate is a beta version of a product that has the potential to be stable. The intent of a release candidate is for the community to test and validate expected functionality of Rocky Linux and report any bugs if present."
-        },
-        {
-            "q": "Can I use the release candidate in production?",
-            "a": "Under no circumstance should you use a release candidate in a production environment. A release candidate is provided for testing and validation purposes only."
-        },
-        {
-            "q": "How can I help mirror the release candidate and future Rocky Linux releases?",
+            "q": "How can I help mirror this and future Rocky Linux releases?",
             "a": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
         },
         {
-            "q": "I encountered a bug while testing the release candidate, what can I do?",
+            "q": "I encountered a bug while using the release, what can I do?",
             "a": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
         },
         {
@@ -30,7 +22,7 @@
             "a": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
         },
         {
-            "q": "If Rocky Linux is just a respin of RHEL, what took so long for a release candidate?",
+            "q": "If Rocky Linux is just a respin of RHEL, what took so long for a release?",
             "a": "<0>If our only goal for Rocky Linux was to debrand and repackage RHEL, we would have been done much sooner. However, what we had to do differently is figure out how we could keep Rocky Linux in the hands of the community. Carefully devising this strategy ensures that Rocky Linux will never meet the same fate of CentOS.</0><1>The goal was not just to create a community managed RPM based distribution of Linux, but to ensure that it will remain freely available and always in the control of the community, much like Linux itself has. To do that required more than a build infrastructure; it required that we put in place the foundational structures that enable the community, ensuring that Rocky Linux is forever inclusive, free, and open. The infrastructure is built from the ground up by many collaborators and sponsoring organizations around composability and security compliance, providing the substrate for not only the base operating system but also an entire community of diverse interests to take part in the project.</1>"
         },
         {
