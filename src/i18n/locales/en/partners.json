@@ -26,11 +26,6 @@
             "name": "Arm",
             "grade": "Principal Partner",
             "description": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
-        },
-        {
-            "name": "DotSlash Studio",
-            "grade": "Principal Partner",
-            "description": "DotSlash Studio realizes the importance of open source, which is why we partnered with the RESF to contribute our design skills in the form of website design, graphic design, and general web help. We work closely with the Rocky Linux team to ensure that you only have the simplest experience possible while browsing the website."
         }
     ]
 }
