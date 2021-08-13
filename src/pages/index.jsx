@@ -39,7 +39,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                 {translate('landing.p1.content')}
               </p>
             </div>
-            <div>
+            <div className="flex flex-nowrap flex-col place-items-center md:place-content-center md:flex-wrap md:flex-row">
               <LocalizedLink
                 to="/download"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide rounded-md shadow-md text-white dark:text-gray-900 bg-green-500 hover:bg-green-400 focus:outline-none focus:border-green-700 focus:shadow-outline-green transition duration-150 ease-in-out"
