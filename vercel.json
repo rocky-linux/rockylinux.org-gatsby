@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/migrate2rocky.sh", "destination": "https://raw.githubusercontent.com/rocky-linux/rocky-tools/main/migrate2rocky/migrate2rocky.sh" }
+  ]
+}
