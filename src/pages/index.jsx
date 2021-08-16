@@ -178,36 +178,36 @@ const Index = ({ pageContext: { locale: language } }) => {
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://arm.com/" aria-label="ARM">
                     <img
-                        src={ArmLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="ARM"
+                      src={ArmLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="ARM"
                     />
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://aws.amazon.com/" aria-label="AWS">
                     <img
-                        src={AwsLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="AWS"
+                      src={AwsLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="AWS"
                     />
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://www.fastly.com/" aria-label="Fastly">
                     <img
-                        src={FastlyLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="Fastly"
+                      src={FastlyLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Fastly"
                     />
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://fosshost.org/" aria-label="FOSSHOST">
                     <img
-                        src={FossHostLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="FOSSHOST"
+                      src={FossHostLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="FOSSHOST"
                     />
                   </a>
                 </div>
@@ -223,9 +223,9 @@ const Index = ({ pageContext: { locale: language } }) => {
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://mattermost.com/" aria-label="Mattermost">
                     <img
-                        src={MattermostLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="Mattermost"
+                      src={MattermostLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Mattermost"
                     />
                   </a>
                 </div>
@@ -253,9 +253,9 @@ const Index = ({ pageContext: { locale: language } }) => {
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ncloud.com/" aria-label="Naver Cloud">
                     <img
-                        src={NaverLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="Naver Cloud"
+                      src={NaverLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Naver Cloud"
                     />
                   </a>
                 </div>
@@ -294,21 +294,21 @@ const Index = ({ pageContext: { locale: language } }) => {
               {translate('sponsors:title')}
             </LocalizedLink>
             <LocalizedLink
-                to="/partners/"
-                className="ml-4 mb-2 inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
+              to="/partners/"
+              className="ml-4 mb-2 inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
             >
               <span className="-ml-2 mr-1">
                 <svg
-                    className="w-8 h-8"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
+                  className="w-8 h-8"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
                 >
                   <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
                   />
                 </svg>
               </span>
