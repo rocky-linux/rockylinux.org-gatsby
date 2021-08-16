@@ -2,23 +2,15 @@
     "title": "Frequently Asked Questions",
     "questions": [
         {
-            "q": "Where can I download the release candidate?",
+            "q": "Where can I download the release?",
             "a": "<0>https://rockylinux.org/download<0>"
         },
         {
-            "q": "What is a release candidate?",
-            "a": "A release candidate is a beta version of a product that has the potential to be stable. The intent of a release candidate is for the community to test and validate expected functionality of Rocky Linux and report any bugs if present."
-        },
-        {
-            "q": "Can I use the release candidate in production?",
-            "a": "Under no circumstance should you use a release candidate in a production environment. A release candidate is provided for testing and validation purposes only."
-        },
-        {
-            "q": "How can I help mirror the release candidate and future Rocky Linux releases?",
+            "q": "How can I help mirror this and future Rocky Linux releases?",
             "a": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
         },
         {
-            "q": "I encountered a bug while testing the release candidate, what can I do?",
+            "q": "I encountered a bug while testing the release, what can I do?",
             "a": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
         },
         {
