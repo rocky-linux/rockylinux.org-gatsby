@@ -41,8 +41,8 @@ const Footer = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="px-5 py-2">
             <a
-                href="https://errata.rockylinux.org/"
-                className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
+              href="https://errata.rockylinux.org/"
+              className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
               {translate('links.errata')}
             </a>
