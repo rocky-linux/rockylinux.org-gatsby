@@ -20,6 +20,7 @@ import FastlyLogo from '../images/fastly.png';
 import FossHostLogo from '../images/fosshost.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
+import OSLLogo from '../images/osl.png';
 
 const Index = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
@@ -156,7 +157,7 @@ const Index = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md mb-6">
             <div className="max-w-screen-xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-6 lg:grid-cols-6">
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-7">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ctrliq.com/" aria-label="CIQ">
                     <img
@@ -265,6 +266,15 @@ const Index = ({ pageContext: { locale: language } }) => {
                       src={OpenDrivesLogo}
                       className="h-16 grayscale transition duration-200"
                       alt="OpenDrives"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <a href="https://osuosl.org/" aria-label="OSU Open Source Labs">
+                    <img
+                        src={OSLLogo}
+                        className="h-16 grayscale transition duration-200"
+                        alt="OSU Open Source Labs"
                     />
                   </a>
                 </div>
