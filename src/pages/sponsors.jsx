@@ -247,7 +247,10 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
           <div className="px-4 mx-auto my-5 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-6">
             <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
               <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
-                <a href="https://www.seagategov.com" aria-label="Seagate Federal">
+                <a
+                  href="https://www.seagategov.com"
+                  aria-label="Seagate Federal"
+                >
                   <img
                     className="object-cover w-full"
                     src={SeagateFederalLogo}

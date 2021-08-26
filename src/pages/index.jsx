@@ -20,6 +20,7 @@ import FastlyLogo from '../images/fastly.png';
 import FossHostLogo from '../images/fosshost.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
+import OSLLogo from '../images/osl.png';
 
 const Index = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
@@ -156,7 +157,7 @@ const Index = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md mb-6">
             <div className="max-w-screen-xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-6 lg:grid-cols-6">
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-7 lg:grid-cols-7">
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ctrliq.com/" aria-label="CIQ">
                     <img
@@ -178,36 +179,36 @@ const Index = ({ pageContext: { locale: language } }) => {
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://arm.com/" aria-label="ARM">
                     <img
-                        src={ArmLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="ARM"
+                      src={ArmLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="ARM"
                     />
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://aws.amazon.com/" aria-label="AWS">
                     <img
-                        src={AwsLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="AWS"
+                      src={AwsLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="AWS"
                     />
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://www.fastly.com/" aria-label="Fastly">
                     <img
-                        src={FastlyLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="Fastly"
+                      src={FastlyLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Fastly"
                     />
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://fosshost.org/" aria-label="FOSSHOST">
                     <img
-                        src={FossHostLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="FOSSHOST"
+                      src={FossHostLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="FOSSHOST"
                     />
                   </a>
                 </div>
@@ -223,9 +224,9 @@ const Index = ({ pageContext: { locale: language } }) => {
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://mattermost.com/" aria-label="Mattermost">
                     <img
-                        src={MattermostLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="Mattermost"
+                      src={MattermostLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Mattermost"
                     />
                   </a>
                 </div>
@@ -253,9 +254,9 @@ const Index = ({ pageContext: { locale: language } }) => {
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://ncloud.com/" aria-label="Naver Cloud">
                     <img
-                        src={NaverLogo}
-                        className="h-16 grayscale transition duration-200"
-                        alt="Naver Cloud"
+                      src={NaverLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Naver Cloud"
                     />
                   </a>
                 </div>
@@ -265,6 +266,18 @@ const Index = ({ pageContext: { locale: language } }) => {
                       src={OpenDrivesLogo}
                       className="h-16 grayscale transition duration-200"
                       alt="OpenDrives"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <a
+                    href="https://osuosl.org/"
+                    aria-label="OSU Open Source Labs"
+                  >
+                    <img
+                      src={OSLLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="OSU Open Source Labs"
                     />
                   </a>
                 </div>
@@ -294,21 +307,21 @@ const Index = ({ pageContext: { locale: language } }) => {
               {translate('sponsors:title')}
             </LocalizedLink>
             <LocalizedLink
-                to="/partners/"
-                className="ml-4 mb-2 inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
+              to="/partners/"
+              className="ml-4 mb-2 inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
             >
               <span className="-ml-2 mr-1">
                 <svg
-                    className="w-8 h-8"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
+                  className="w-8 h-8"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
                 >
                   <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
                   />
                 </svg>
               </span>

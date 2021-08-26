@@ -25,31 +25,31 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
           </div>
           <div className="max-w-screen-xl sm:mx-auto">
             <div className="prose mx-auto dark-mode:prose-dark dark:text-gray-300">
-              <h5 className="font-bold">{translate('questions.0.q')}</h5>
+              <h5 id="faq-1" className="font-bold">
+                {translate('questions.0.q')}
+              </h5>
               <p>
                 <Trans t={translate} i18nKey="questions.0.a">
-                  <a href="https://rockylinux.org/download">faq</a>
+                  <a href="https://rockylinux.org/download" />
                 </Trans>
               </p>
               <hr />
-              <h5 className="font-bold">{translate('questions.1.q')}</h5>
-              <p>{translate('questions.1.a')}</p>
-              <hr />
-              <h5 className="font-bold">{translate('questions.2.q')}</h5>
-              <p>{translate('questions.2.a')}</p>
-              <hr />
-              <h5 className="font-bold">{translate('questions.3.q')}</h5>
+              <h5 id="faq-2" className="font-bold">
+                {translate('questions.1.q')}
+              </h5>
               <p>
-                <Trans t={translate} i18nKey="questions.3.a">
+                <Trans t={translate} i18nKey="questions.1.a">
                   <a href="mailto:mirrors@rockylinux.org">
                     mirrors@rockylinux.org
                   </a>
                 </Trans>
               </p>
               <hr />
-              <h5 className="font-bold">{translate('questions.4.q')}</h5>
+              <h5 id="faq-3" className="font-bold">
+                {translate('questions.2.q')}
+              </h5>
               <p>
-                <Trans t={translate} i18nKey="questions.4.a">
+                <Trans t={translate} i18nKey="questions.2.a">
                   <a href="https://accounts.rockylinux.org/">
                     https://accounts.rockylinux.org/
                   </a>
@@ -59,66 +59,41 @@ const Faq = ({ data, pageContext: { locale: language } }) => {
                 </Trans>
               </p>
               <hr />
-              <h5 className="font-bold">{translate('questions.5.q')}</h5>
+              <h5 id="faq-4" className="font-bold">
+                {translate('questions.3.q')}
+              </h5>
               <p>
-                <Trans t={translate} i18nKey="questions.5.a">
+                <Trans t={translate} i18nKey="questions.3.a">
                   <a href="https://chat.rockylinux.org/rocky-linux/channels/testing">
                     ~Testing
                   </a>
                 </Trans>
               </p>
               <hr />
-              <h5 className="font-bold">{translate('questions.6.q')}</h5>
-              <p>{translate('questions.6.a')}</p>
+              <h5 id="faq-5" className="font-bold">
+                {translate('questions.4.q')}
+              </h5>
+              <p>{translate('questions.4.a')}</p>
               <hr />
-              <h5 className="font-bold">{translate('questions.7.q')}</h5>
+              <h5 id="faq-6" className="font-bold">
+                {translate('questions.5.q')}
+              </h5>
               <p>
-                <Trans t={translate} i18nKey="questions.7.a">
-                  <p />
-                  <p />
-                </Trans>
-              </p>
-              <hr />
-              <h5 className="font-bold">{translate('questions.8.q')}</h5>
-              <p>
-                <Trans t={translate} i18nKey="questions.8.a">
-                  <i />
-                  <i />
-                </Trans>
-              </p>
-              <hr />
-              <h5 className="font-bold">{translate('questions.9.q')}</h5>
-              <p>
-                <Trans t={translate} i18nKey="questions.9.a">
+                <Trans t={translate} i18nKey="questions.5.a">
                   <strong />
                 </Trans>
               </p>
               <hr />
-              <h5 className="font-bold">{translate('questions.10.q')}</h5>
-              <p>{translate('questions.10.a.p.0')}</p>
-              <ul>
-                <li>{translate('questions.10.a.list.0')}</li>
-                <li>{translate('questions.10.a.list.1')}</li>
-                <li>{translate('questions.10.a.list.2')}</li>
-                <li>{translate('questions.10.a.list.3')}</li>
-                <li>{translate('questions.10.a.list.4')}</li>
-                <li>{translate('questions.10.a.list.5')}</li>
-                <li>{translate('questions.10.a.list.6')}</li>
-                <li>{translate('questions.10.a.list.7')}</li>
-                <li>{translate('questions.10.a.list.8')}</li>
-                <li>{translate('questions.10.a.list.9')}</li>
-              </ul>
-              <p>{translate('questions.10.a.p.1')}</p>
+              <h5 id="faq-7" className="font-bold">
+                {translate('questions.6.q')}
+              </h5>
+              <p>{translate('questions.6.a')}</p>
               <hr />
-              <h5 className="font-bold">{translate('questions.11.q')}</h5>
-              <p>{translate('questions.11.a')}</p>
-              <hr />
-              <h5 className="font-bold">{translate('questions.12.q')}</h5>
-              <p>{translate('questions.12.a')}</p>
-              <hr />
-              <h5 className="font-bold">{translate('questions.13.q')}</h5>
+              <h5 id="faq-8" className="font-bold">
+                {translate('questions.7.q')}
+              </h5>
               <p>
-                <Trans t={translate} i18nKey="questions.13.a">
+                <Trans t={translate} i18nKey="questions.7.a">
                   <a href="mailto:hello@rockylinux.org">hello@rockylinux.org</a>
                 </Trans>
               </p>

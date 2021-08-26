@@ -31,6 +31,11 @@
             "name": "Fastly",
             "grade": "Principal Partner",
             "description": "Fastly’s edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers’ applications as close to their end-users as possible — at the edge of the internet."
+        },
+        {
+            "name": "OSU Open Source Labs",
+            "grade": "Principal Partner",
+            "description": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
         }
     ]
 }
