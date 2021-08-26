@@ -123,10 +123,6 @@ pre {
     opacity: 0.6;
     filter: alpha(opacity=60);
   }
-  .grayscale[alt='FOSSHOST'] {
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-  }
   .grayscale:hover {
     -webkit-filter: none;
     filter: none;
