@@ -123,6 +123,10 @@ pre {
     opacity: 0.6;
     filter: alpha(opacity=60);
   }
+  .grayscale[alt='FOSSHOST'] {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+  }
   .grayscale:hover {
     -webkit-filter: none;
     filter: none;
@@ -141,12 +145,15 @@ pre {
     filter: alpha(opacity=60);
     filter: brightness(10%);
   }
-
   .grayscale:hover {
     -webkit-filter: none;
     opacity: unset;
     filter: contrast(20%);
     filter: brightness(0%);
+  }
+  .grayscale[alt='FOSSHOST'] {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
   }
   th {
     color: black;
