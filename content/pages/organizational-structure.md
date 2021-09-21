@@ -85,7 +85,7 @@ The Infrastructure team is responsible for the architecture, configuration, and 
 The Documentation team is responsible for ensuring that public facing documentation is accurate, accessible, and engaging, curating engaging and dynamic content that promotes learning within the community. They are also responsible for hosting brown bags and Principal Engineering Talks, where subject matter experts present technical deep dives.
 
 - Team Lead: Wale Soyinka
-- Team Deputy: TBD
+- Team Deputy: Steven Spencer
 
 #### Installer
 
