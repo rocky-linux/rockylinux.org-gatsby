@@ -34,93 +34,65 @@ For any team that does not have a deputy, or where someone is the lead for multi
 
 If there are any concerns with this structure, we have an open door perspective and wish to encourage feedback, both to the individual team leads, as well as directly to the RESF leadership team.
 
-| Team                        | Lead                             |
-| --------------------------- | -------------------------------- |
-| **Leadership**              | Gregory Kurtzer, R. Leigh Hennig |
-| **Autobuilder**             | Louis Abel                       |
-| **Community**               | Jordan Pisanello                 |
-| **Design**                  | Hayden Young                     |
-| **Documentation**           | Wale Soyinka                     |
-| **Infrastructure**          | Neil Hanlon, Taylor Goodwill     |
-| **Installer**               | Louis Abel                       |
-| **Packaging**               | Louis Abel                       |
-| **Project Management**      | Brian Clemens                    |
-| **Security**                | Rob Felsberg, Benjamin Agner     |
-| **Special Interest Groups** | R. Leigh Hennig                  |
-| **Testing**                 | Trevor Cooper, Chris Stackpole   |
-| **Web**                     | Hayden Young                     |
-
 #### Leadership
 
 The Leadership team is responsible for the overall direction and coordination of the various teams within the RESF including organization requirements, legals, finances, partnerships, sponsorships, etc.
 
-- Team Lead: Gregory Kurtzer
-- Team Deputy: R. Leigh Hennig
-- Team Members (board of advisors):
-  - [all Team Leads]
-
-#### Design
-
-Design produces and guides the visual styling and branding of the RESF.
-
-- Team Lead: Hayden Young
-- Team Deputy: TBD
+- Executive Director: Gregory Kurtzer
+- Director of Operations: R. Leigh Hennig
+- Project Manager: Brian Clemens
 
 #### Community
 
 The Community team moderates, engages, and supports users across all social media and discussion platforms. This team is also responsible for organizing community events, creating programs, celebrating community successes, and working with other teams to support community initiatives.
 
 - Team Lead: Jordan Pisaniello
-- Team Deputy: TBD
 
-#### Infrastructure
+#### Design
 
-The Infrastructure team is responsible for the architecture, configuration, and maintenance of the Rocky Enterprise Software Foundation’s infrastructure. This team works to ensure the availability and reliability of the build infrastructure supporting development and other reliant properties.
+Design produces and guides the visual styling and branding of the RESF.
 
-- Team Leads: Neil Hanlon and Taylor Goodwill
-- Team Deputy: TBD
+- Team Lead: Hayden Young
 
 #### Documentation
 
 The Documentation team is responsible for ensuring that public facing documentation is accurate, accessible, and engaging, curating engaging and dynamic content that promotes learning within the community. They are also responsible for hosting brown bags and Principal Engineering Talks, where subject matter experts present technical deep dives.
 
 - Team Lead: Wale Soyinka
-- Team Deputy: TBD
+- Team Deputy: Steven Spencer
 
-#### Installer
+#### Infrastructure
 
-The Installer team handles and oversees the composition of the Anaconda installer for Rocky Linux.
+The Infrastructure team is responsible for the architecture, configuration, and maintenance of the Rocky Enterprise Software Foundation’s infrastructure. This team works to ensure the availability and reliability of the build infrastructure supporting development and other reliant properties.
 
-- Team Lead: Louis Abel
-- Team Deputy: Mustafa Gezen
+- Team Leads: Neil Hanlon, Taylor Goodwill
 
-#### Package Auto-Builders (Infra)
+#### Release Engineering
 
-The package auto-builders team is responsible for the overall build infrastructure, such as the tools to automate and maintain the lifecycle of an operating system release and the components and requirements that go with them.
+The Release Engineering team handles and oversees the overall package building from the base operating system to SIGs. The package team also presents themselves as sponsors and mentors for those who are submitting packages or learning how to package an RPM to have their packages in extra repositories, such as supported SIGs.
 
-- Team Lead: Louis Abel
-- Team Deputy: Mustafa Gezen
-
-#### Packaging
-
-The Packaging team handles and oversees the overall package building from the base operating system to SIGs. The package team also presents themselves as sponsors and mentors for those who are submitting packages or learning how to package an RPM to have their packages in extra repositories, such as supported SIGs.
-
-- Team Lead: Louis Abel
-- Team Deputy: Mustafa Gezen
+- Team Lead: Louis Abel, Mustafa Gezen
+- Team Deputy: Sherif Nagy, Skip Grube
 
 #### Security
 
 The Security team works with each team to ensure the integrity, confidentiality, assurance, and compliance of data and services.
 
-- Team Leads: Rob Felsburg and Benjamin Agner
-- Team Deputy: TBD
+- Team Leads: Benjamin Agner, Rob Felsburg
+- Team Deputy: Scott Shinn
 
 #### Special Interest Groups
 
 SIGs enable extensions to the core of Rocky Linux to facilitate special use cases including everything from security, embedded applications, high performance computing, scientific research, home desktop environments, and more.
 
-- Team Leads: R. Leigh Hennig
+- Team Lead: R. Leigh Hennig
 - Team Deputy: Gregory Kurtzer
+
+#### Testing
+
+The Testing team maintains and develops all of the continuous integration efforts of the RESF.
+
+- Team Leads: Chris Stackpole, Trevor Cooper
 
 #### Web
 
@@ -128,10 +100,3 @@ The Web team maintains and develops all of the websites under the RESF purview.
 
 - Team Lead: Hayden Young
 - Team Deputy: Michael Kinder
-
-#### Testing
-
-The Testing team maintains and develops all of the continuous integration efforts of the RESF.
-
-- Team Lead: Trevor Cooper
-- Team Co-lead: Chris Stackpole (Stack)
