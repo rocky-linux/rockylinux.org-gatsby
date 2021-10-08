@@ -36,6 +36,11 @@
             "name": "OSU Open Source Labs",
             "grade": "Principal Partner",
             "description": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+        },
+        {
+            "name": "Supermicro",
+            "grade": "Principal Partner",
+            "description": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
         }
     ]
 }
