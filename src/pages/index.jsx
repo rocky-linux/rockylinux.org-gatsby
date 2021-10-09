@@ -21,6 +21,7 @@ import FossHostLogo from '../images/fosshost.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import OSLLogo from '../images/osl.png';
+import SupermicroLogo from '../images/supermicro.png';
 
 const Index = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
@@ -278,6 +279,18 @@ const Index = ({ pageContext: { locale: language } }) => {
                       src={OSLLogo}
                       className="h-16 grayscale transition duration-200"
                       alt="OSU Open Source Labs"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <a
+                    href="https://www.supermicro.com/en/"
+                    aria-label="Supermicro"
+                  >
+                    <img
+                      src={SupermicroLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Supermicro"
                     />
                   </a>
                 </div>
