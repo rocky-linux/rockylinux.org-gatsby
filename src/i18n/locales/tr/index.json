@@ -1,0 +1,26 @@
+{
+  "faq": {
+    "a": {
+      "come-in": "Rocky Linux, CentOS'un geçmişte yaptığı gibi downstream bir versiyon olmayı hedefliyor. Sürümler upstream karşılığına yenilikler eklendikten sonra çıkacak, önce değil.",
+      "downstream-partner-direction": "CentOS projesi geçtiğimiz günlerde CentOS için stratejide bir değişiklik duyurdu. Geçmişte CentOS, Enterprise Linux'in bir downstream (çıkan güncellemeleri ve güvenlik yamalarını upstream versiyonu aldıktan sonra alan) versiyonu olarak kullanılıyordu fakat Enterprise Linux'un upstream (çıkan güncellemeleri ve güvenlik yamalarının denendiği) versiyonu olma yönünde bir değişiklik yaşadı. Ek olarak, CentOS Linux 8'e verilecek desteğin son tarihi 31 Mayıs 2029'dan 31 Aralık 2021'e çekildi."
+    },
+    "q": {
+      "come-in": "Peki Rocky Linux nereden geliyor?",
+      "downstream-partner-direction": "\"Downstream partneri yön değiştirdi.\" ne anlama geliyor?"
+    },
+    "title": "Sıkça Sorulan Sorular"
+  },
+  "landing": {
+    "p1": {
+      "content": "Topluluk odaklı, Kurumsal kullanıma hazır işletim sistemi.",
+      "heading": "Rocky Linux"
+    },
+    "p2": {
+      "content": "Rocky Linux, topluluk tarafından oluşturulan ve karşılığı downstream olmayı bıraktıktan sonra Enterprise Linux ile 100% bug-for-bug şekilde uyumlu olması için dizayn edilmiş bir işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir. Rocky Linux, CentOS projesinin kurucusu Gregory Kurtzer tarafından yönetiliyor. Sürüm için tahmini çıkış zamanı yoktur. Katkıda bulunanlardan, bu sitede sunulan iletişim seçeneklerini kullanarak ulaşmaları istenir.",
+      "heading": "Rocky Linux Projesi Nedir?"
+    }
+  },
+  "links": {
+    "join-the-discussion": "Tartışmaya Katılın"
+  }
+}

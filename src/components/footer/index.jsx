@@ -1,7 +1,7 @@
 import React from 'react';
 import { Translate } from '../../i18n/utils/translate';
 import { LocalizedLink, useLocalization } from 'gatsby-theme-i18n';
-import { navigate, Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 const Footer = ({ pageContext: { locale: language } }) => {
   const translate = Translate();
@@ -37,6 +37,14 @@ const Footer = ({ pageContext: { locale: language } }) => {
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
               {translate('links.status')}
+            </a>
+          </div>
+          <div className="px-5 py-2">
+            <a
+              href="https://errata.rockylinux.org/"
+              className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
+            >
+              {translate('links.errata')}
             </a>
           </div>
           <div className="px-5 py-2">
@@ -224,7 +232,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/community-charter/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              Community Charter
+              {translate('links.com_charter')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
@@ -232,7 +240,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/organizational-structure/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              Organizational Structure
+              {translate('links.org_structure')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">
@@ -240,7 +248,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               to="/privacy-policy/"
               className="text-sm text-gray-500 hover:text-gray-400"
             >
-              Privacy Policy
+              {translate('links.privacy')}
             </LocalizedLink>
           </div>
         </nav>

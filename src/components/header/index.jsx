@@ -48,6 +48,12 @@ const Header = ({ pageContext: { locale: language } }) => {
             href="https://wiki.rockylinux.org/"
             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
+            {translate('links.wiki')}
+          </a>
+          <a
+            href="https://docs.rockylinux.org/"
+            className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
+          >
             {translate('links.documentation')}
           </a>
           <a
@@ -186,7 +192,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="News"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        News
+                        {translate('links.news')}
                       </LocalizedLink>
                     </li>
                     <li>
@@ -196,7 +202,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Wiki"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Wiki
+                        {translate('links.wiki')}
                       </a>
                     </li>
                     <li>
@@ -206,7 +212,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Forums"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Forums
+                        {translate('links.forums')}
                       </a>
                     </li>
                     <li>
@@ -216,7 +222,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Store"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Store
+                        {translate('links.store')}
                       </a>
                     </li>
                     <li>
@@ -226,7 +232,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Donate"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Donate
+                        {translate('links.donate')}
                       </a>
                     </li>
                     <li>

@@ -1,0 +1,31 @@
+{
+    "title": "Sponsors",
+    "description": "We would like to thank our sponsors for their support thus far on the project.",
+    "sponsors": [
+        {
+            "name": "Ctrl IQ",
+            "grade": "Founding Sponsor",
+            "description": "Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data."
+        },
+        {
+            "name": "45Drives",
+            "grade": "Principal Sponsor",
+            "description": "45Drives offers enterprise storage solutions built on powerful & robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!"
+        },
+        {
+            "name": "OpenDrives",
+            "grade": "Principal Sponsor",
+            "description": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
+        },
+        {
+            "name": "MontaVista",
+            "grade": "Principal Sponsor",
+            "description": "MontaVista Software is the leader in embedded commercial Linux, supporting MontaVista CGX, Yocto Project®, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
+        },
+        {
+            "name": "Amazon Web Services",
+            "grade": "Principal Sponsor",
+            "description": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+        }
+    ]
+}

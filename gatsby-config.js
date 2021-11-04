@@ -119,7 +119,14 @@ module.exports = {
           fallbackLng: 'en',
           lowerCaseLng: 'true',
           load: 'currentOnly',
-          ns: ['translation'],
+          ns: [
+            'translation',
+            'index',
+            'faq',
+            'download',
+            'partners',
+            'sponsors',
+          ],
           returnObjects: true,
           interpolation: {
             escapeValue: false,
@@ -136,6 +143,7 @@ module.exports = {
         siteId: '1',
         matomoUrl: 'https://analytics.rockylinux.org',
         siteUrl: 'https://rockylinux.org',
+        trackLoad: false,
       },
     },
   ],
