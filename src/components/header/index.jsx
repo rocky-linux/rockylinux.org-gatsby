@@ -48,6 +48,12 @@ const Header = ({ pageContext: { locale: language } }) => {
             href="https://wiki.rockylinux.org/"
             className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
           >
+            {translate('links.wiki')}
+          </a>
+          <a
+            href="https://docs.rockylinux.org/"
+            className="font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50"
+          >
             {translate('links.documentation')}
           </a>
           <a
@@ -71,14 +77,29 @@ const Header = ({ pageContext: { locale: language } }) => {
         </ul>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
-            <a
-              href="mailto:hello@rockylinux.org"
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 active:text-gray-700 transition duration-150 ease-in-out"
-              aria-label="Get In Touch"
-              title="Get In Touch"
+            <LocalizedLink
+              to="/download"
+              className="inline-flex items-center justify-center w-full h-10 px-5 font-medium tracking-wide text-white dark:text-black transition duration-200 rounded-md shadow-md bg-green-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              aria-label="Download"
+              title="Download"
             >
-              {translate('links.get-in-touch')}
-            </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                {' '}
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />{' '}
+              </svg>
+              {translate('links.download')}
+            </LocalizedLink>
           </li>
         </ul>
         <div className="lg:hidden">
@@ -171,7 +192,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="News"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        News
+                        {translate('links.news')}
                       </LocalizedLink>
                     </li>
                     <li>
@@ -181,7 +202,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Wiki"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Wiki
+                        {translate('links.wiki')}
                       </a>
                     </li>
                     <li>
@@ -191,7 +212,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Forums"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Forums
+                        {translate('links.forums')}
                       </a>
                     </li>
                     <li>
@@ -201,7 +222,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Store"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Store
+                        {translate('links.store')}
                       </a>
                     </li>
                     <li>
@@ -211,18 +232,33 @@ const Header = ({ pageContext: { locale: language } }) => {
                         title="Donate"
                         className="font-medium tracking-wide text-gray-700 dark:text-white transition-colors duration-200 hover:text-green-500"
                       >
-                        Donate
+                        {translate('links.donate')}
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="mailto:hello@rockylinux.org"
+                      <LocalizedLink
+                        to="/download"
                         className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white dark:text-black transition duration-200 rounded shadow-md bg-green-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                        aria-label="Get In Touch"
-                        title="Get In Touch"
+                        aria-label="Download"
+                        title="Download"
                       >
-                        {translate('links.get-in-touch')}
-                      </a>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          {' '}
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                          />{' '}
+                        </svg>
+                        {translate('links.download')}
+                      </LocalizedLink>
                     </li>
                   </ul>
                 </nav>
