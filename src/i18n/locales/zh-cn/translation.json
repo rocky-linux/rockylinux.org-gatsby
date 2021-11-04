@@ -20,43 +20,43 @@
     "close-menu": "关闭菜单",
     "documentation": "文档",
     "get-in-touch": "联系我们",
-    "get-involved": "参与我们",
+    "get-involved": "加入我们",
     "go-home": "前往主页",
-    "posts": "News",
-    "show-your-interest": "Show Your Interest",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "status": "Service Status",
-    "donate": "Donate",
-    "store": "Store",
-    "press": "Press",
-    "download": "Download",
-    "com_charter": "Community Charter",
-    "org_structure": "Organizational Structure",
-    "privacy": "Privacy Policy",
-    "news": "News",
-    "wiki": "Wiki",
-    "forums": "Forums",
-    "see-all": "See All",
-    "see-more": "See More"
+    "posts": "新闻",
+    "show-your-interest": "展示你的兴趣",
+    "sponsors": "赞助商",
+    "partners": "合作伙伴",
+    "status": "服务状态",
+    "donate": "赞助",
+    "store": "商店",
+    "press": "书籍",
+    "download": "下载",
+    "com_charter": "社区章程",
+    "org_structure": "组织结构",
+    "privacy": "隐私政策",
+    "news": "新闻",
+    "wiki": "百科",
+    "forums": "论坛",
+    "see-all": "查看全部",
+    "see-more": "查看更多"
   },
   "socials": {
     "forums": "论坛",
     "github": "Github",
     "reddit": "Reddit",
     "mattermost": "Mattermost",
-    "twitter": "Twitter"
+    "twitter": "推特"
   },
   "news": {
-    "title": "News",
-    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
+    "title": "新闻",
+    "description": "获取Rocky Linux项目的最新消息和状态更新."
   },
   "press": {
-    "title": "Press",
-    "description": "See the latest about Rocky in the press."
+    "title": "书籍",
+    "description": "查看与Rocky Linux有关的最新书籍."
   },
   "sponsors": {
-    "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project."
+    "title": "赞助商",
+    "description": "非常感谢我们的赞助商支持我们，以让该项目能走的更远."
   }
 }
