@@ -190,5 +190,13 @@
     "localName": "Català",
     "langDir": "ltr",
     "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "ka",
+    "hrefLang": "ka",
+    "name": "Georgian",
+    "localName": "ქართული",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
   }
 ]
