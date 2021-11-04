@@ -1,46 +1,46 @@
 {
     "title": "Partners",
-    "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+    "description": "RESF-ის პარტნიორები წარმოადგენენ მიმდინარე დამოკიდებულებას Rocky Linux პროექტის სტრატეგიულ მნიშვნელობაზე. გვაწვდიან საინჟინრო გამოცდილებას, ინფრასტრუქტურულ რესურსებს ან სხვა მხარდაჭერას, მათი მხარდაჭერა კრიტიკულია ჩვენი წარმატებისთვისა და გრძელვადიანი სტაბილურობისთვის",
     "partners": [
         {
             "name": "CIQ",
-            "grade": "Founding Partner",
-            "description": "We believe in helping people to do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+            "grade": "დამფუძნებელი პარტნიორი",
+            "description": "ჩვენ გვჯერა, რომ ვეხმარებით ადამიანებს დიდი საქმეების გაკეთებაში. ამიტომაც CIQ, არის RESF-ის დამფუძნებელი პარტნიორი. ჩვენ ვაწვდით კომერციულ მხარდაჭერას Rocky Linux-ს მისი მომხმარებლებისთივს შემდეგ სფეროებში: კვლევა, აკადემია, მთავრობა, საწარმოო, პარტნიორები და ყველა მათ შორის."
         },
         {
             "name": "NAVER Cloud",
-            "grade": "Principal Partner",
-            "description": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+            "grade": "მთავარი პარტნიორი",
+            "description": "NAVER Cloud Platform არის სამხრეთ კორეული ღრუბლოვანი სერვისი, რომელიც 2017 წელს შეიქმნა NAVER Cloud-ის ქვეშ, როგორც NAVER-ის სუბსიდირებული. ის აწვდის 170 ინდივიდუალურ სერვისს 2021 წელს და აქვს მთელი რიგი უსაფრთხოების სერტიფიკატები, მათ შორის CSA STAR GOLD, GDPR და სხვები. ღრუბლოვანი სერვისები წარმოდგენილია 10 ლოკაციაში მსოფლიო მასშტაბით."
         },
         {
             "name": "Mattermost",
-            "grade": "Principal Partner",
-            "description": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+            "grade": "მთავარი პარტნიორი",
+            "description": "Mattermost აროს ღია კოდის მესიჯინგის გადაწყვეტილება ორგანიზაციებისთვის, რომლებსაც აქვთ მაღალი უსაფრთხოების მოთხოვნები. რადგანაც გვჯერა ღია კოდის ძლიერების, Mattermost მოხარულია იყოს RESF-ის პარტნიორი და დაეხმაროს შექმნას საწარმოო კლასის ლინუქს დისტრიბუტივი ტექნოლოგიური საზოგადოებისთვის."
         },
         {
             "name": "Fosshost",
-            "grade": "Principal Partner",
-            "description": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+            "grade": "მთავარი პარტნიორი",
+            "description": "Fosshost (UK CIC #13356530) გთავაზობთ უფასო საწარმოო კლასის ინტერნეტ ჰოსტინგს და მართულ სერვისებს ექსკლუზიურად FOSS საზოგადოებისთვის. ჩვენი მისიაა გავაძლიეროთ და მხარი დავუჭიროთ ნებისმიერ თავისუფალ და ღია კოდით პროგრამულ პროექტს. იმისათვის, რომ წინ ერთად ვიაროთ. ჩვენი სამუშაო უწყვეტია. შემოიტანე განაცხადი დღესვე!"
         },
         {
             "name": "Arm",
-            "grade": "Principal Partner",
-            "description": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+            "grade": "მთავარი პარტნიორი",
+            "description": "Arm-ის ინტერესია, რომ მისი არქიტექტურა პრიველი კლასის წარმომადგენელი იყოს Rocky Linux-თან ერთად. ჩვენ RESF-ის პარტნიორები ვართ და ვეხმარებით მათ ინჟინერიაში, რომ შევავსოთ Rocky Linux-ის შემუშავების და ტესტირების გუნდები, ვმუშაობთ მჭიდროდ, რომ დავატესტიროთ, დავამოწმოთ და მხარი დავუჭიროთ ARM-ს ახლა და მომავალში."
         },
         {
             "name": "Fastly",
-            "grade": "Principal Partner",
-            "description": "Fastly’s edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers’ applications as close to their end-users as possible — at the edge of the internet."
+            "grade": "მთავარი პარტნიორი",
+            "description": "Fastly-ს ღრუბლოვანი პლატფორმა საშუალებას აძლევს მომხმარებლებს შექმნან კარგი ციფრული გამოცდილება სწრაფად, უსაფრთხოდ და საიმედოდ მათი აპლიკაციების დამუშავებით, მიწოდებით და დაცვით. ვათავსებთ მათ საბოლოო მომხმარებლებთან ყველაზე ახლოს - ინტერნეტის განაპირად."
         },
         {
             "name": "OSU Open Source Labs",
-            "grade": "Principal Partner",
-            "description": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+            "grade": "მთავარი პარტნიორი",
+            "description": "ორეგონის სახელმწიფო უნივერსიტეტის ღია კოდის ლაბორატორია არის არასამთავრობო ორგანიზაცია, რომელიც მუშაობს ღია კოდის ტექნოლოგიების განვითარებისთვის. OSL აწვდის მსოფლიო კლასის ჰოსტინგ სერვისებს, პროგრამული უზრუნველყოფის პროფესიონალურ შემუშავებას და ტრენინგებს ადგილზე პერსპექტიული სტუდენტებისთვის, რომლებიც დაინტერესებული არიან ღია კოდით მართვასა და პროგრამირებაში."
         },
         {
             "name": "Supermicro",
-            "grade": "Principal Partner",
-            "description": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+            "grade": "მთავარი პარტნიორი",
+            "description": "როგორც გლობალური ლიდერი მაღალი წარმადობის, მაღალი ეფექტურობის სერვერულ ტექნოლოგიებში და ინოვაციებში Supermicro მოხარულია იმუშაოს RESF-თან და მიაწოდოს მას მონაცემთა დამუშავების ცენტრებში სერვერებიდა მონაცემთა საცავი სისტემები, რომლებიც ოპტიმიზებულია Rocky Linux-ისთვის."
         }
     ]
 }

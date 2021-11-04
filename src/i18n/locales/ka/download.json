@@ -11,6 +11,6 @@
     },
     "docs": "დოკუმენტაცია",
     "report": "ბაგ რეპორტი",
-    "invitation": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0> . There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users.",
-    "eol": "Current planned end-of-life"
+    "invitation": "Rocky Linux-ის ჩამოტვირთვასა და გამოყენებასთან ერთად, Rocky Enterprise Software Foundation გიწვევთ <0>გახდეთ საზოგადოების წევრი და კონტრიბუტორი</0>. თქვენ გაქვთ საშუალება სხვა და სხვა ფორმით შეიტანოთ წვლილი პროექტში, შექმნათ დოკუმენტაცია, ხარისხის კონტროლი და ტესტირება კოდში ცვლიებებისას SIG-ებისთვის, მოგვაწოდოთ სარკეები ან ჰოსტინგი და დაეხმაროთ სხვა მომხმარებლებს.",
+    "eol": "მიმდინარე დაგეგმილი სიცოცხლის ხანგრძლივობა"
 }
