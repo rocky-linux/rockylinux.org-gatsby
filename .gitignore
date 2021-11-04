@@ -176,5 +176,6 @@ fabric.properties
 .idea/codeStyles/Project.xml
 
 package-lock.json
+yarn.lock
 
 .idea/inspectionProfiles/Project_Default.xml
