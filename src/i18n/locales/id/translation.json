@@ -21,23 +21,23 @@
     "get-in-touch": "Hubungi Kami",
     "get-involved": "Terlibat",
     "go-home": "Ke Beranda",
-    "posts": "News",
-    "show-your-interest": "Show Your Interest",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "status": "Service Status",
-    "donate": "Donate",
-    "store": "Store",
-    "press": "Press",
-    "download": "Download",
-    "com_charter": "Community Charter",
-    "org_structure": "Organizational Structure",
-    "privacy": "Privacy Policy",
-    "news": "News",
+    "posts": "Berita",
+    "show-your-interest": "Tunjukkan Ketertarikan Anda",
+    "sponsors": "Sponsor",
+    "partners": "Mitra",
+    "status": "Status Layanan",
+    "donate": "Donasi",
+    "store": "Toko",
+    "press": "Siaran Pers",
+    "download": "Unduh",
+    "com_charter": "Piagam Komunitas",
+    "org_structure": "Struktur Organisasi",
+    "privacy": "Kebijakan Privasi",
+    "news": "Berita",
     "wiki": "Wiki",
-    "forums": "Forums",
-    "see-all": "See All",
-    "see-more": "See More"
+    "forums": "Forum",
+    "see-all": "Lihat Semua",
+    "see-more": "Selengkapnya"
   },
   "socials": {
     "forums": "Forum",
@@ -47,15 +47,15 @@
     "twitter": "Twitter"
   },
   "news": {
-    "title": "News",
-    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
+    "title": "Berita",
+    "description": "Tetap terkini pada berita terbaru dari Proyek Rocky Linux."
   },
   "press": {
-    "title": "Press",
-    "description": "See the latest about Rocky in the press."
+    "title": "Siaran Pers",
+    "description": "Lihat yang terbaru tentang Rocky di media."
   },
   "sponsors": {
-    "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project."
+    "title": "Sponsor",
+    "description": "Kami ingin mengucapkan terima kasih kepada sponsor kami atas dukungan mereka sejauh ini pada proyek ini."
   }
 }
