@@ -1,63 +1,63 @@
 {
-  "language": "ka",
+  "language": "en",
   "copyright": {
-    "line1": "© 2021 Rocky Enterprise Software Foundation. ყველა უფლება დაცულია.",
-    "line2": "Red Hat და CentOS არის რეგისტრირებული სავაჭრო ნიშნები რომლებიც ეკუთვნის Red Hat, Inc-ს. ან მისი დაფუძნებული კომპანიების ამერიკის შეერთებულ შტატებში და სხვა ქვეყნებში. ჩვენ არ ვასოცირდებით, არ ვართ მოწონებული ან დასპონსორებული Red Hat-ის ან CentOS Project-ის მიერ."
+    "line1": "© 2021 Rocky Enterprise Software Foundation. All rights reserved.",
+    "line2": "Red Hat and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat or the CentOS Project."
   },
   "errors": {
     "404": {
-      "explanation": "მოთხოვნილი რესურსი ვერ მოიძებნა. გთხოვთ სცადოთ ხელახლა.",
-      "title": "გვერდი არ არის ნაპოვნი."
+      "explanation": "The requested resource couldn't be located. Please try again.",
+      "title": "Page not found."
     }
   },
   "lang": {
     "footer": {
-      "choose-language": "აირჩიეთ ენა..."
+      "choose-language": "Choose a language..."
     }
   },
   "links": {
-    "close-menu": "მენიუს დახურვა",
-    "documentation": "დოკუმენტაცია",
-    "get-in-touch": "შეხმიანება",
-    "get-involved": "მონაწილეობა",
-    "go-home": "მთავარზე გადასვლა",
-    "posts": "სიახლეები",
-    "show-your-interest": "გამოხატე ინტერესი",
-    "sponsors": "სპონსორები",
-    "partners": "პარტნიორები",
-    "status": "სერვისის სტატუსი",
-    "errata": "უსაფრთხოების შეცდომები",
-    "donate": "დონაცია",
-    "store": "მაღაზია",
-    "press": "პრესა",
-    "download": "ჩამოტვირთვა",
-    "com_charter": "საზოგადოების წესდება",
-    "org_structure": "ორგანიზაციული სტრუქტურა",
-    "privacy": "კონფიდენციალურობის პოლიტიკა",
-    "news": "სიახლეები",
-    "wiki": "ვიკი",
-    "forums": "ფორუმები",
-    "see-all": "ყველაფრის ნახვა",
-    "see-more": "მეტის ნახვა",
-    "backed": "მხარდამჭერი"
+    "close-menu": "Close menu",
+    "documentation": "Documentation",
+    "get-in-touch": "Get In Touch",
+    "get-involved": "Get Involved",
+    "go-home": "Go Home",
+    "posts": "News",
+    "show-your-interest": "Show Your Interest",
+    "sponsors": "Sponsors",
+    "partners": "Partners",
+    "status": "Service Status",
+    "errata": "Security Errata",
+    "donate": "Donate",
+    "store": "Store",
+    "press": "Press",
+    "download": "Download",
+    "com_charter": "Community Charter",
+    "org_structure": "Organizational Structure",
+    "privacy": "Privacy Policy",
+    "news": "News",
+    "wiki": "Wiki",
+    "forums": "Forums",
+    "see-all": "See All",
+    "see-more": "See More",
+    "backed": "Backed By"
   },
   "socials": {
-    "forums": "ფორუმები",
+    "forums": "Forums",
     "github": "Github",
     "reddit": "Reddit",
     "mattermost": "Mattermost",
     "twitter": "Twitter"
   },
   "news": {
-    "title": "სიახლეები",
-    "description": "გაიგეთ უახლესი ინფორმაცია Rocky Linux Project-ის შესახებ."
+    "title": "News",
+    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
   },
   "press": {
-    "title": "პრესა",
-    "description": "გაიგეთ რას ამბობს პრესა Rocky-ს შესახებ."
+    "title": "Press",
+    "description": "See the latest about Rocky in the press."
   },
   "sponsors": {
-    "title": "სპონსორები",
-    "description": "ჩვენ მადლობას ვუხდით ჩვენს სპონსორებს პროექტის მხარდაჭერისთვის."
+    "title": "Sponsors",
+    "description": "We would like to thank our sponsors for their support thus far on the project."
   }
 }
