@@ -46,13 +46,14 @@ The Leadership team is responsible for the overall direction and coordination of
 
 The Community team moderates, engages, and supports users across all social media and discussion platforms. This team is also responsible for organizing community events, creating programs, celebrating community successes, and working with other teams to support community initiatives.
 
-- Team Lead: Jordan Pisaniello
+- Team Lead: TBD
 
 #### Design
 
 Design produces and guides the visual styling and branding of the RESF.
 
-- Team Lead: Hayden Young
+- Team Lead: Michael Kinder
+- Team Deputy: TBD
 
 #### Documentation
 
@@ -98,5 +99,5 @@ The Testing team maintains and develops all of the continuous integration effort
 
 The Web team maintains and develops all of the websites under the RESF purview.
 
-- Team Lead: Hayden Young
-- Team Deputy: Michael Kinder
+- Team Lead: Michael Kinder
+- Team Deputy: TBD
