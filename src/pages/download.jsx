@@ -192,28 +192,70 @@ const DownloadPage = ({ pageContext }) => {
               >
                 {translate('report')}
               </a>
+              <Link
+                className="text-green-600 dark:text-green-500 font-medium"
+                to="/ami"
+              >
+                AMI List
+              </Link>
             </div>
-            <p className="text-gray-700 dark:text-gray-300">
-              <Trans t={translate} i18nKey="invitation">
-                <a
-                  className="text-green-600 dark:text-green-500 font-medium"
-                  href="https://chat.rockylinux.org"
-                >
-                  be a part of the community as a contributor.
-                </a>
-              </Trans>
-            </p>
           </div>
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="max-w-3xl mb-5 md:mx-auto lg:max-w-4xl">
-              <div className="mb-4">
-                <a
-                  href="/"
-                  aria-label="Article"
-                  className="inline-block max-w-lg font-sans text-xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-50 transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-2xl"
-                >
+              <p className="text-gray-700 dark:text-gray-300 mb-7">
+                <Trans t={translate} i18nKey="invitation">
+                  <a
+                    className="text-green-600 dark:text-green-500 font-medium"
+                    href="https://chat.rockylinux.org"
+                  >
+                    be a part of the community as a contributor.
+                  </a>
+                </Trans>
+              </p>
+              <div className="mb-3">
+                <h1 className="inline-block max-w-lg font-sans text-xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-50 sm:text-2xl">
+                  What's the difference between the ISOs?
+                </h1>
+              </div>
+              <p className="text-gray-700 dark:text-gray-300 mb-2">
+                Various installation images are available for installing Rocky
+                Linux. Which image you need to download depends on your
+                installation environment and use-case.
+              </p>
+              <h2 className="inline-block max-w-lg font-sans text-lg font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-50 sm:text-xl">
+                Boot
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300 mb-2">
+                Used to install the operating system from another source (such
+                as a HTTP repository of the binary files). Can also be used to
+                enter Rescue Mode.
+              </p>
+              <h2 className="inline-block max-w-lg font-sans text-lg font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-50 sm:text-xl">
+                Minimal
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300 mb-2">
+                The aim of the minimal image is to install a very basic Rocky
+                Linux system, with the minimum of packages needed to have a
+                functional system. A preselected set of packages will be
+                installed on your system. Everything else needs to be installed
+                using yum. The set of packages installed by this image is
+                identical to the one installed when choosing the group named
+                "Minimal" in the full DVD image.
+              </p>
+              <h2 className="inline-block max-w-lg font-sans text-lg font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-50 sm:text-xl">
+                DVD
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300 mb-2">
+                A full installation that contains the BaseOS and AppStream
+                repositories and allows you to complete the installation without
+                additional repositories. Installing Rocky Linux from the DVD ISO
+                is the easiest and most common method of performing a standard
+                Rocky Linux 8 installation.
+              </p>
+              <div className="mb-3 mt-7">
+                <h1 className="inline-block max-w-lg font-sans text-xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-50 sm:text-2xl">
                   Export Compliance/Customs Information
-                </a>
+                </h1>
               </div>
               <p className="text-gray-700 dark:text-gray-300">
                 By downloading Rocky Linux software, you acknowledge that you
