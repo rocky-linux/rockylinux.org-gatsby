@@ -192,6 +192,12 @@ const DownloadPage = ({ pageContext }) => {
               >
                 {translate('report')}
               </a>
+              <Link
+                className="text-green-600 dark:text-green-500 font-medium"
+                to="/ami"
+              >
+                AMI List
+              </Link>
             </div>
             <p className="text-gray-700 dark:text-gray-300">
               <Trans t={translate} i18nKey="invitation">
