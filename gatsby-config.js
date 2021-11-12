@@ -126,6 +126,7 @@ module.exports = {
             'download',
             'partners',
             'sponsors',
+            'providers',
           ],
           returnObjects: true,
           interpolation: {

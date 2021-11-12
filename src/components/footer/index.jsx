@@ -24,14 +24,6 @@ const Footer = ({ pageContext: { locale: language } }) => {
             </a>
           </div>
           <div className="px-5 py-2">
-            <LocalizedLink
-              to="/sponsors/"
-              className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
-            >
-              {translate('links.sponsors')}
-            </LocalizedLink>
-          </div>
-          <div className="px-5 py-2">
             <a
               href="https://status.rockylinux.org/"
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
@@ -53,6 +45,22 @@ const Footer = ({ pageContext: { locale: language } }) => {
               className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
             >
               {translate('links.partners')}
+            </LocalizedLink>
+          </div>
+          <div className="px-5 py-2">
+            <LocalizedLink
+              to="/sponsors/"
+              className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
+            >
+              {translate('links.sponsors')}
+            </LocalizedLink>
+          </div>
+          <div className="px-5 py-2">
+            <LocalizedLink
+              to="/providers/"
+              className="text-base text-gray-600 dark:text-gray-400 hover:text-gray-500 dark:hover:text-white"
+            >
+              {translate('links.providers')}
             </LocalizedLink>
           </div>
           <div className="px-5 py-2">

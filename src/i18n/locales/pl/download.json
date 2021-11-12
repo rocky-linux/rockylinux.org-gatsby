@@ -1,15 +1,15 @@
 {
-    "title": "Downloads",
-    "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
-    "notInProduction": "The release you can download here is a <0>Release Candidate</0> and should not be used in production. Please check our <1>FAQ</1> for more information.",
+    "title": "Pobieranie",
+    "description": "Pobieranie oficjalnych wydań Rocky Linux z jednego z naszych zaufanych źródeł lustrzanych.",
+    "notInProduction": "Wydanie, które można tu pobrać to <0>Kandydat do wydania</0> i nie powinno być one wykorzystywane produkcyjnie. Prosze zapoznać się z <1>FAQ</1> by uzyskać więcej informacji.",
     "table": {
         "heading": [
-            "Architecture",
-            "ISOs",
-            "Packages"
+            "Architektura",
+            "Obrazy ISO",
+            "Pakiety"
         ]
     },
-    "docs": "Documentation",
-    "report": "Report a bug",
-    "invitation": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0> . There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "docs": "Dokumentacja",
+    "report": "Zgłoś błąd",
+    "invitation": "Pobierając i używając Rocky Linux, Fundacja Rocky Enterprise Software zaprasza Cię do stania się <0>częścią społeczności i współtwórcą</0>. Istnieje wiele sposobów aby wesprzeć projekt, od dokumentacji, QA, i testów zmian w kodzie dla SIG-ów, udostępniając kopie lustrzane lub hostingowe, po pomoc innym użytkownikom."
 }
