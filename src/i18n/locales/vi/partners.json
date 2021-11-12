@@ -3,9 +3,9 @@
     "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
     "partners": [
         {
-            "name": "Ctrl IQ",
+            "name": "CIQ",
             "grade": "Founding Partner",
-            "description": "Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data."
+            "description": "We believe in helping people to do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
         },
         {
             "name": "NAVER Cloud",
@@ -16,6 +16,36 @@
             "name": "Mattermost",
             "grade": "Principal Partner",
             "description": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+        },
+        {
+            "name": "Fosshost",
+            "grade": "Principal Partner",
+            "description": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+        },
+        {
+            "name": "Arm",
+            "grade": "Principal Partner",
+            "description": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+        },
+        {
+            "name": "Fastly",
+            "grade": "Principal Partner",
+            "description": "Fastly’s edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers’ applications as close to their end-users as possible — at the edge of the internet."
+        },
+        {
+            "name": "OSU Open Source Labs",
+            "grade": "Principal Partner",
+            "description": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+        },
+        {
+            "name": "Supermicro",
+            "grade": "Principal Partner",
+            "description": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+        },
+        {
+            "name": "Equinix",
+            "grade": "Principal Partner",
+            "description": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
         }
     ]
 }
