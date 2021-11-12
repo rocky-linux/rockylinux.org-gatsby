@@ -254,11 +254,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                     href="https://www.procomputers.com/"
                     className="focus:outline-none"
                   >
-                  <img
-                    className="object-cover w-full"
-                    src={ProComputersLogo}
-                    alt="ProComputers.com"
-                  />
+                    <img
+                      className="object-cover w-full"
+                      src={ProComputersLogo}
+                      alt="ProComputers.com"
+                    />
                   </a>
                 </span>
               </div>
@@ -267,11 +267,11 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
               <div>
                 <span className="rounded-lg inline-flex p-3">
                   <a href="https://www.seagategov.com/">
-                  <img
-                    className="object-cover w-full rounded-lg"
-                    src={SeagateFederalLogo}
-                    alt="Seagate Federal"
-                  />
+                    <img
+                      className="object-cover w-full rounded-lg"
+                      src={SeagateFederalLogo}
+                      alt="Seagate Federal"
+                    />
                   </a>
                 </span>
               </div>
