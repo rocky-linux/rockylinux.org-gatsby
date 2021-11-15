@@ -61,7 +61,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                   />
                 </svg>
                 {translate('translation:links.download')}
-                <span className="ml-2 font-normal">8.4</span>
+                <span className="ml-2 font-normal">8.5</span>
               </LocalizedLink>
               <a
                 href="https://chat.rockylinux.org/"
