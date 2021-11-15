@@ -99,7 +99,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                 />{' '}
               </svg>
               {translate('links.download')}
-              <span className="ml-2 font-normal">8.4</span>
+              <span className="ml-2 font-normal">8.5</span>
             </LocalizedLink>
           </li>
         </ul>
@@ -259,7 +259,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                           />{' '}
                         </svg>
                         {translate('links.download')}
-                        <span className="ml-2 font-normal">8.4</span>
+                        <span className="ml-2 font-normal">8.5</span>
                       </LocalizedLink>
                     </li>
                   </ul>
