@@ -125,6 +125,7 @@ module.exports = {
             'faq',
             'download',
             'partners',
+            'keys',
             'sponsors',
           ],
           returnObjects: true,
