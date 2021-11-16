@@ -1,79 +1,37 @@
 {
-    "title": "Frequently Asked Questions",
+    "title": "よくあるご質問",
     "questions": [
         {
-            "q": "Where can I download the release candidate?",
+            "q": "ISOはどこからダウンロードできますか？",
             "a": "<0>https://rockylinux.org/download<0>"
         },
         {
-            "q": "What is a release candidate?",
-            "a": "A release candidate is a beta version of a product that has the potential to be stable.The intent of a release candidate is for the community to test and validate expected functionality of Rocky Linux and report any bugs if present."
+            "q": "現在および将来のRocky Linuxのリリースをミラーリングするにはどうしたらいいですか？",
+            "a": "興味のある方は、<0> mirrors@rockylinux.org </0>までご連絡ください。"
         },
         {
-            "q": "Can I use the release candidate in production?",
-            "a": "Under no circumstance should you use a release candidate in a production environment. A release candidate is provided for testing and validation purposes only."
+            "q": "Rocky Linux テスト中にバグを見つけた場合、どうすればよいでしょうか？",
+            "a": "まず、<0>Rocky Linux Account Services</0>を使ってアカウントを作成してください。次に、私たちの <1>Bugzilla サーバ</1> にアクセスしてバグを報告してください。"
         },
         {
-            "q": "How can I help mirror the release candidate and future Rocky Linux releases?",
-            "a": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
+            "q": "テストチームに参加するにはどうすればいいですか？",
+            "a": "まずは、Mattermostサーバーの<0>～Testing</0>チャンネルに参加してください。また、フォーラムではテストに関するトピックを設けています。"
         },
         {
-            "q": "I encountered a bug while testing the release candidate, what can I do?",
-            "a": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
+            "q": "Rocky Linuxに関する最新情報はどこで見ることができますか？",
+            "a": "我々のウェブサイト、Twitter、LinkedIn、フォーラム、およびリンクディレクトリに記載されているその他のプラットフォームにて最新のアナウンスを楽しみにいていてください。"
         },
         {
-            "q": "How can I get involved with the Testing team?",
-            "a": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There’s also a testing topic on the forums for more durable conversation."
+            "q": "Rocky Linuxが真のコミュニティ・エンタープライズ・オペレーティング・システムであり続けるために、どのような方法でそれを保証しますか？",
+            "a": "まず、Rocky Linuxの名称を法的に保護するための措置を講じました。これは、Rocky Linuxの商標および関連するさまざまな財産を登録することで、それらを他の企業にコントロールされないようにすることです。これを実現するために、Rocky Enterprise Software Foundation (RESF)を設立しました。次に、Rocky Linuxを代表する法人の組織構造、目的、価値、ミッションを定義するコミュニティ憲章を作成しています。この憲章で重要なのは、透明性、コミュニティの参加、オープンな開発、独立性など、コミュニティを機能するようにし、保護するための原則を確立することです。<0> Rocky Linux は、単一の団体や組織によって、コントロールされたり、購入されたり、その他の影響を受けたりすることはありません。</0> 最後に、コミュニティが Rocky Linux に貢献できるように、必要なインフラを構築し展開します。"
         },
         {
-            "q": "Where can I find the latest news about Rocky Linux?",
-            "a": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
+            "q": "では、これらのことを簡潔に言うとどうなるでしょうか？ Rocky Linuxを上手くまとめる際に考えていることは何ですか？",
+            "a": "どうやってコミュニティの信頼を慎重に守っていくのか？参加したい人がすぐに参加できるだけでなく、将来にわたっても参加できるようにするにはどうしたらいいか？技術的には劣っていても、とにかく貢献したいと思っているコミュニティメンバーをどのように巻き込み、可能にするのか。これらの課題を解決するには時間がかかりますが、皆様のご協力をお願いいたします。"
         },
         {
-            "q": "If Rocky Linux is just a respin of RHEL, what took so long for a release candidate?",
-            "a": "<0>If our only goal for Rocky Linux was to debrand and repackage RHEL, we would have been done much sooner. However, what we had to do differently is figure out how we could keep Rocky Linux in the hands of the community. Carefully devising this strategy ensures that Rocky Linux will never meet the same fate of CentOS.</0><1>The goal was not just to create a community managed RPM based distribution of Linux, but to ensure that it will remain freely available and always in the control of the community, much like Linux itself has. To do that required more than a build infrastructure; it required that we put in place the foundational structures that enable the community, ensuring that Rocky Linux is forever inclusive, free, and open. The infrastructure is built from the ground up by many collaborators and sponsoring organizations around composability and security compliance, providing the substrate for not only the base operating system but also an entire community of diverse interests to take part in the project.</1>"
-        },
-        {
-            "q": "If you’re not just repackaging RHEL, then what exactly are you doing?",
-            "a": "Our goal is to maintain Rocky Linux as a community-oriented distribution <0>by</0> the community, <1>for</1> the community. To do this, we are establishing the necessary organizational structures to ensure that Rocky Linux remains in the hands of the community. We want to make sure that it’s not possible for what happened to CentOS to happen to Rocky Linux."
-        },
-        {
-            "q": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
-            "a": "First, we’ve taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We’ve achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we’re drafting a community charter that will define the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0> Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization. </0> Finally, we’re architecting and deploying the necessary infrastructure to further enable the community to contribute to Rocky Linux."
-        },
-        {
-            "q": "What infrastructure is necessary to enable the community?",
-            "a": {
-                "p": [
-                "We’ve established a number of teams to support the various efforts associated with developing Rocky Linux:",
-                "You can read more about this structure when it’s soon published. In order to enable collaboration across and within those teams, we needed to deploy our own chat infrastructure, forums, and website. Additionally, we’re also creating our build infrastructure, which will facilitate the development of the core operating system."
-                ],
-                "list": [
-                    "Community",
-                    "Core Infrastructure",
-                    "Design",
-                    "Documentation",
-                    "Installer",
-                    "Leadership",
-                    "Package Auto-Builders",
-                    "Packaging",
-                    "Security",
-                    "Special Interest Groups (SIGs)",
-                    "Web"
-                ]
-            }
-        },
-        {
-            "q": "Why does it take so much time to stand up a community and build infrastructure?",
-            "a": "It’s not terribly difficult to deploy a website, forums, or a build infrastructure in a reliable fashion. Our chat program for instance, which uses Mattermost, is distributed on a number of application servers behind a load balancer and was ready in just a couple of weeks. But it does require careful thought and planning to do it in a scalable and secure manner when you need to ensure vendor and platform agnosticity and long-term community involvement."
-        },
-        {
-            "q": "So what’s the short answer to all of this? What are some things you’re thinking about as you put Rocky Linux together?",
-            "a": "How do we carefully shepherd community trust? How do we ensure that anyone who wants to participate can not only do so immediately, but forever in the future as well? How do we engage and enable the community members who might not be as technical but want to contribute anyway? Solving for all of these challenges will take time, and we would love your help in doing so."
-        },
-        {
-            "q": "What if I have feedback or my question wasn’t answered here?",
-            "a": "Please email us: <0>hello@rockylinux.org</0> and we’ll get back to you as soon as we can."
+            "q": "回答されていない質問がある場合や、フィードバックがある場合はどうすればいいですか？",
+            "a": "電子メールでお問い合わせください：<0>hello@rockylinux.org</0>。 できるだけ早くご連絡させていただきます。"
         }
     ]
 }
