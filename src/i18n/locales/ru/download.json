@@ -1,15 +1,16 @@
 {
-    "title": "Downloads",
-    "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
-    "notInProduction": "The release you can download here is a <0>Release Candidate</0> and should not be used in production. Please check our <1>FAQ</1> for more information.",
+    "title": "Загрузки",
+    "description": "Скачать официальный релиз Rocky Linux с одного из наших проверенных зеркал.",
+    "notInProduction": "Предложенный здесь релиз является <0>Release Candidate</0> и не должен использоваться в производственных целях. Для получения дополнительной информации ознакомьтесь с нашим <1>FAQ</1>.",
     "table": {
         "heading": [
-            "Architecture",
-            "ISOs",
-            "Packages"
+            "Архитектура",
+            "Образы ISO",
+            "Пакеты"
         ]
     },
-    "docs": "Documentation",
-    "report": "Report a bug",
-    "invitation": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0> . There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "docs": "Документация",
+    "report": "Сообщить об ошибке",
+    "invitation": "Поскольку вы загружаете и используете Rocky Linux, Rocky Enterprise Software Foundation приглашает вас <0>стать частью сообщества</0> . Существует множество способов внести свой вклад в проект, от документации, QA и тестирования до разработки изменений для SIGs, предоставления зеркал или хостинга, а также помощи другим пользователям.",
+    "eol": "Прекращение поддержки для RL8 заплпнировано на"
 }
