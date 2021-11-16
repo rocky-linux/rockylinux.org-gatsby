@@ -238,7 +238,7 @@ const DownloadPage = ({ pageContext }) => {
                 Linux system, with the minimum of packages needed to have a
                 functional system. A preselected set of packages will be
                 installed on your system. Everything else needs to be installed
-                using yum. The set of packages installed by this image is
+                using dnf. The set of packages installed by this image is
                 identical to the one installed when choosing the group named
                 "Minimal" in the full DVD image.
               </p>
