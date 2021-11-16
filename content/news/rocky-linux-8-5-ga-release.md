@@ -1,7 +1,7 @@
 ---
 title: Rocky Linux 8.5 Available Now
 date: '2021-11-15'
-description: 'We're pleased to announce the general availability of Rocky Linux 8.5. Read to learn more!'
+description: 'We are pleased to announce the general availability of Rocky Linux 8.5. Read to learn more!'
 posttype: 'news'
 ---
 
