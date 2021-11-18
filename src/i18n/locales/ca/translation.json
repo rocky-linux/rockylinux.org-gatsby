@@ -1,61 +1,82 @@
 {
-  "language": "ca",
-  "copyright": {
-    "line1": "© 2021 The Rocky Linux Project. Tots els drets reservats.",
-    "line2": "CentOS és una marca registrada de Red Hat, Inc. El Projecte Rocky Linux no està afiliat ni té cap mena de suport per part de Red Hat, Inc."
-  },
-  "errors": {
-    "404": {
-      "explanation": "No es trova el recurs sol·licitat. Prova de nou",
-      "title": "Pàgina no trovada."
-    }
-  },
-  "lang": {
-    "footer": {
-      "choose-language": "Escull l'idioma..."
-    }
-  },
-  "links": {
-    "close-menu": "Tanca el menú",
-    "documentation": "Documentació",
-    "get-in-touch": "Estigues en contacte",
-    "get-involved": "Participa",
-    "go-home": "Inici",
-    "posts": "News",
-    "show-your-interest": "Show Your Interest",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "status": "Service Status",
-    "donate": "Donate",
-    "store": "Store",
-    "press": "Press",
-    "download": "Download",
-    "com_charter": "Community Charter",
-    "org_structure": "Organizational Structure",
-    "privacy": "Privacy Policy",
-    "news": "News",
-    "wiki": "Wiki",
-    "forums": "Forums",
-    "see-all": "See All",
-    "see-more": "See More"
-  },
-  "socials": {
-    "forums": "Forums",
-    "github": "Github",
-    "reddit": "Reddit",
-    "mattermost": "Mattermost",
-    "twitter": "Twitter"
-  },
-  "news": {
-    "title": "News",
-    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
-  },
-  "press": {
-    "title": "Press",
-    "description": "See the latest about Rocky in the press."
-  },
-  "sponsors": {
-    "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project."
-  }
+	"language": "ca",
+	"copyright": {
+		"line1": "© 2021 The Rocky Linux Project. Tots els drets reservats.",
+		"line2": "CentOS és una marca registrada de Red Hat, Inc. El Projecte Rocky Linux no està afiliat ni té cap mena de suport per part de Red Hat, Inc."
+	},
+	"errors": {
+		"404": {
+			"explanation": "No es troba el recurs sol·licitat. Proveu-ho de nou",
+			"title": "Pàgina no trobada."
+		}
+	},
+	"faq": {
+		"a": {
+			"come-in": "L'objectiu de Rocky Linux és funcionar com una compilació descendent com havia estat CentOS anteriorment, construint versions després d'haver-les agregat pel seu proveïdor ascendent, no abans.",
+			"downstream-partner-direction": "El projecte CentOS va anunciar recentment un canvi en l'estratègia de CentOS. Anteriorment CentOS existia com una compilació descendent del seu proveïdor ascendent, això és, rebia pedaços i actualitzacions després que ho fes el seu proveïdor ascendent. Ara passarà a ser una compilació ascendent, és a dir, provarà pedaços i actualitzacions abans d'afegir-los al seu proveïdor ascendent. A més a més, el suport per la CentOS Linux 8 ha estat interromput, canviant el final del suport del 31 de maig del 2029 al 31 de desembre del 2021."
+		},
+		"q": {
+			"come-in": "Llavors, quin és el paper de Rocky Linux?",
+			"downstream-partner-direction": "Què vol dir «El seu soci anterior ha canviat de direcció»?"
+		},
+		"title": "Preguntes més freqüents"
+	},
+	"landing": {
+		"p1": {
+			"content": "Un esforç de la comunitat per obtenir un sistema de classe empresarial llest per producció",
+			"heading": "Rocky Linux"
+		},
+		"p2": {
+			"content": "Rocky Linux és un sistema operatiu empresarial comunitari dissenyat per ser 100% compatible amb la distribució de Linux empresarial més important dels Estats Units ara que el seu soci intermedi ha canviat de direcció. Està en desenvolupament intensiu per part de la comunitat. Rocky Linux està sota el comandament d'en Gregory Kutzer, fundador del projecte CentOS. La data prevista per a la publicació d'un llançament beta és el 30 d'abril. Se sol·licita als col·laboradors que es comuniquin amb les opcions que s'ofereixen en aquest lloc web.",
+			"heading": "Què és el projecte Rocky Linux?"
+		}
+	},
+	"lang": {
+		"footer": {
+			"choose-language": "Escull l'idioma..."
+		}
+	},
+	"links": {
+		"close-menu": "Tanca el menú",
+		"documentation": "Documentació",
+		"get-in-touch": "Estigues en contacte",
+		"get-involved": "Participa",
+		"go-home": "Inici",
+		"posts": "News",
+		"show-your-interest": "Fes-nos saber el teu interès",
+		"sponsors": "Patrocinadors",
+		"partners": "Col·laboradors",
+		"donate": "Donacions",
+		"store": "Botiga",
+		"press": "Premsa",
+		"status": "Service Status",
+		"download": "Download",
+		"com_charter": "Community Charter",
+		"org_structure": "Organizational Structure",
+		"privacy": "Privacy Policy",
+		"news": "News",
+		"wiki": "Wiki",
+		"forums": "Forums",
+		"see-all": "See All",
+		"see-more": "See More"
+	},
+	"socials": {
+		"forums": "Forums",
+		"github": "Github",
+		"reddit": "Reddit",
+		"mattermost": "Mattermost",
+		"twitter": "Twitter"
+	},
+	"news": {
+		"title": "Notícies",
+		"description": "Estigues informat de les darreres notícies sobre el Projecte Rocky Linux."
+	},
+	"press": {
+		"title": "Premsa",
+		"description": "Darreres aparicions a la premsa de Rocky Linux."
+	},
+	"sponsors": {
+		"title": "Patrocinadors",
+		"description": "Voldríem donar les gràcies als nostres patrocinadors pel seu suport en el projecte."
+	}
 }

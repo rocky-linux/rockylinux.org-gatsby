@@ -21,6 +21,13 @@
     "get-in-touch": "Kontakta oss",
     "get-involved": "Bli involverad",
     "go-home": "Hem",
+    "join-the-discussion": "Gå med i diskussionen",
+    "posts": "Nyheter",
+    "show-your-interest": "Visa ditt intresse",
+    "sponsors": "Sponsorer",
+    "donate": "Donera",
+    "store": "Butik",
+    "press": "Press",
     "posts": "News",
     "show-your-interest": "Show Your Interest",
     "sponsors": "Sponsors",
@@ -47,15 +54,15 @@
     "twitter": "Twitter"
   },
   "news": {
-    "title": "News",
-    "description": "Stay up-to-date on the latest from The Rocky Linux Project."
+    "title": "Nyheter",
+    "description": "Håll dig uppdaterad om det senaste från Rocky Linux projektet."
   },
   "press": {
     "title": "Press",
-    "description": "See the latest about Rocky in the press."
+    "description": "Läs det senaste om Rocky i pressen."
   },
   "sponsors": {
-    "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project."
+    "title": "Sponsorer",
+    "description": "Vi vill tacka våra sponsorer för deras stöd hittills till projektet."
   }
 }

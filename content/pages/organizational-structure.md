@@ -46,13 +46,15 @@ The Leadership team is responsible for the overall direction and coordination of
 
 The Community team moderates, engages, and supports users across all social media and discussion platforms. This team is also responsible for organizing community events, creating programs, celebrating community successes, and working with other teams to support community initiatives.
 
-- Team Lead: Jordan Pisaniello
+- Team Lead: TBD
+- Team Deputy: TBD
 
 #### Design
 
 Design produces and guides the visual styling and branding of the RESF.
 
-- Team Lead: Hayden Young
+- Team Lead: Michael Kinder
+- Team Deputy: TBD
 
 #### Documentation
 
@@ -66,6 +68,7 @@ The Documentation team is responsible for ensuring that public facing documentat
 The Infrastructure team is responsible for the architecture, configuration, and maintenance of the Rocky Enterprise Software Foundation’s infrastructure. This team works to ensure the availability and reliability of the build infrastructure supporting development and other reliant properties.
 
 - Team Leads: Neil Hanlon, Taylor Goodwill
+- Team Deputy: TBD
 
 #### Release Engineering
 
@@ -85,18 +88,19 @@ The Security team works with each team to ensure the integrity, confidentiality,
 
 SIGs enable extensions to the core of Rocky Linux to facilitate special use cases including everything from security, embedded applications, high performance computing, scientific research, home desktop environments, and more.
 
-- Team Lead: R. Leigh Hennig
-- Team Deputy: Gregory Kurtzer
+- Team Lead: Gregory Kurtzer
+- Team Deputy: TBD
 
 #### Testing
 
 The Testing team maintains and develops all of the continuous integration efforts of the RESF.
 
 - Team Leads: Chris Stackpole, Trevor Cooper
+- Team Deputy: TBD
 
 #### Web
 
 The Web team maintains and develops all of the websites under the RESF purview.
 
-- Team Lead: Hayden Young
-- Team Deputy: Michael Kinder
+- Team Lead: Michael Kinder
+- Team Deputy: TBD
