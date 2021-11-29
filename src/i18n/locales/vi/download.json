@@ -11,5 +11,6 @@
     },
     "docs": "Documentation",
     "report": "Report a bug",
+    "keys": "Keys",
     "invitation": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0> . There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
 }
