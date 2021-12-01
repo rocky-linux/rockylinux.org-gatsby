@@ -20,6 +20,7 @@ Secure boot is now officially supported starting with Rocky Linux 8.5.
 If you are updating from an 8.4 machine running on UEFI and you enable secure boot, the rescue kernel will no longer work. You will need to regenerate the necessary components.
 
 If you updated to 8.5 and rebooted into the latest kernel, run the following:
+
 ```
 % rm /boot/vmlinuz-0-rescue-* /boot/initramfs-0-rescue-*.img
 % /usr/lib/kernel/install.d/51-dracut-rescue.install add $(uname -r) \
@@ -29,6 +30,7 @@ If you updated to 8.5 and rebooted into the latest kernel, run the following:
 
   "" /lib/modules/$(uname -r)/vmlinuz
 ```
+
 It may be possible to remove the rescue files like above and run a dnf update to regenerate the kernel and initramfs in a single step.
 
 ### EFI MOKvar
@@ -39,7 +41,6 @@ You may also see a mokvar message in dmesg: EFI MOKvar config table is not in EF
 
 At this time we do not have a signing system for this architecture. More information will be available soon.
 
-
 # Known Issues
 
 ## .NET
@@ -48,7 +49,7 @@ During 8.3 and 8.4, our dotnet packages had stated the RID as rocky. For now, mo
 
 # Updates
 
-Updates released since upstream are posted across our current architectures. We strongly recommend that all users apply *all* updates, including the content released today on your existing Rocky Linux machines. This can be done by running `dnf update`.
+Updates released since upstream are posted across our current architectures. We strongly recommend that all users apply _all_ updates, including the content released today on your existing Rocky Linux machines. This can be done by running `dnf update`.
 
 All Rocky Linux components are built from the sources hosted at git.rockylinux.org. In addition, SRPMs are being published alongside the repositories in a corresponding "source" directory. You can find these on any of our mirrors. These source packages match every binary RPM we release.
 
@@ -60,18 +61,17 @@ Rocky Linux can be downloaded in different ways. There are ISO images as well as
 
 ### Standard Downloads
 
-| Architecture | ISOs | Torrents | Verification |
-|--------------|------|----------|----------|
-| x86_64 | [Boot](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-boot.iso)<br> [Minimal](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-minimal.iso) <br> [DVD](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-dvd1.iso)| [Boot](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-boot.torrent)<br> [Minimal](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-minimal.torrent) <br> [DVD](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-dvd1.torrent) | [CHECKSUM](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/CHECKSUM) <br> [CHECKSUM.sig](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/CHECKSUM.sig) |
-| aarch64 | [Boot](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-boot.iso)<br> [Minimal](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-minimal.iso) <br> [DVD](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-dvd1.iso)| [Boot](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-boot.torrent)<br> [Minimal](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-minimal.torrent) <br> [DVD](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-dvd1.torrent) | [CHECKSUM](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/CHECKSUM) <br> [CHECKSUM.sig](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/CHECKSUM.sig) |
-
+| Architecture | ISOs                                                                                                                                                                                                                                                                                                    | Torrents                                                                                                                                                                                                                                                                                                            | Verification                                                                                                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| x86_64       | [Boot](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-boot.iso)<br> [Minimal](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-minimal.iso) <br> [DVD](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-dvd1.iso)       | [Boot](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-boot.torrent)<br> [Minimal](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-minimal.torrent) <br> [DVD](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/Rocky-8.5-x86_64-dvd1.torrent)       | [CHECKSUM](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/CHECKSUM) <br> [CHECKSUM.sig](https://download.rockylinux.org/pub/rocky/8.5/isos/x86_64/CHECKSUM.sig)   |
+| aarch64      | [Boot](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-boot.iso)<br> [Minimal](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-minimal.iso) <br> [DVD](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-dvd1.iso) | [Boot](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-boot.torrent)<br> [Minimal](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-minimal.torrent) <br> [DVD](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/Rocky-8.5-aarch64-dvd1.torrent) | [CHECKSUM](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/CHECKSUM) <br> [CHECKSUM.sig](https://download.rockylinux.org/pub/rocky/8.5/isos/aarch64/CHECKSUM.sig) |
 
 ### Live Images (x86_64 only)
 
-| Architecture | Variant | ISOs | Verification |
-|--------------|---------|------|--------------|
-|x86_64 | Gnome Workstation | [Rocky-8.5-Workstation-20211114.iso](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/Rocky-8.5-Workstation-20211114.iso) | [CHECKSUM](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM) <br> [CHECKSUM.sig](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM.sig)
-|x86_64 | XFCE | [Rocky-8.5-Workstation-20211114.iso](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/Rocky-8.5-XFCE-20211115.iso) | [CHECKSUM](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM) <br> [CHECKSUM.sig](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM.sig)
+| Architecture | Variant           | ISOs                                                                                                                               | Verification                                                                                                                                                               |
+| ------------ | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| x86_64       | Gnome Workstation | [Rocky-8.5-Workstation-20211114.iso](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/Rocky-8.5-Workstation-20211114.iso) | [CHECKSUM](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM) <br> [CHECKSUM.sig](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM.sig) |
+| x86_64       | XFCE              | [Rocky-8.5-Workstation-20211114.iso](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/Rocky-8.5-XFCE-20211115.iso)        | [CHECKSUM](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM) <br> [CHECKSUM.sig](https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM.sig) |
 
 KDE live image is not available. The KDE packages in EPEL rely on an older
 version of Qt5. 8.5 rebased the base Qt5 packages to 5.15. A KDE live image will
@@ -79,10 +79,10 @@ be released upon a KDE rebuild in EPEL.
 
 ### Additional Images
 
-| Architecture | Variant | Download | Verification |
-|--------------|---------|------|--------------|
-| x86_64       | Generic Cloud | [Rocky-8-GenericCloud-8.5-20211114.2.x86_64.qcow2](http://download.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud-8.5-20211114.2.x86_64.qcow2) | [CHECKSUM](http://download.rockylinux.org/pub/rocky/8/images/CHECKSUM) <br> [CHECKSUM.sig](http://download.rockylinux.org/pub/rocky/8/images/CHECKSUM.sig)
-| aarch64       | Generic Cloud | [Rocky-8-GenericCloud-8.5-20211114.1.aarch64.qcow2](http://download.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud-8.5-20211114.1.aarch64.qcow2) | [CHECKSUM](http://download.rockylinux.org/pub/rocky/8/images/CHECKSUM) <br> [CHECKSUM.sig](http://download.rockylinux.org/pub/rocky/8/images/CHECKSUM.sig)
+| Architecture | Variant       | Download                                                                                                                                                 | Verification                                                                                                                                               |
+| ------------ | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| x86_64       | Generic Cloud | [Rocky-8-GenericCloud-8.5-20211114.2.x86_64.qcow2](http://download.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud-8.5-20211114.2.x86_64.qcow2)   | [CHECKSUM](http://download.rockylinux.org/pub/rocky/8/images/CHECKSUM) <br> [CHECKSUM.sig](http://download.rockylinux.org/pub/rocky/8/images/CHECKSUM.sig) |
+| aarch64      | Generic Cloud | [Rocky-8-GenericCloud-8.5-20211114.1.aarch64.qcow2](http://download.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud-8.5-20211114.1.aarch64.qcow2) | [CHECKSUM](http://download.rockylinux.org/pub/rocky/8/images/CHECKSUM) <br> [CHECKSUM.sig](http://download.rockylinux.org/pub/rocky/8/images/CHECKSUM.sig) |
 
 # Getting Help / Engaging with the Community
 
