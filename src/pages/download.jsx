@@ -6,6 +6,7 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const DownloadPage = ({ pageContext }) => {
   const translate = Translate('download');
@@ -198,6 +199,12 @@ const DownloadPage = ({ pageContext }) => {
               >
                 AMI List
               </Link>
+              <LocalizedLink
+                to="/keys"
+                className="text-green-600 dark:text-green-500 font-medium"
+              >
+                {translate('keys')}
+              </LocalizedLink>
             </div>
           </div>
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
