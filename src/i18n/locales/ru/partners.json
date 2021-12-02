@@ -1,51 +1,51 @@
 {
-    "title": "Partners",
-    "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+    "title": "Партнеры",
+    "description": "Партнеры RESF представляют собой постоянные отношения, имеющие стратегическое значение для проекта Rocky Linux. Их поддержка, выражающаяся в предоставлении инженерного опыта, инфраструктурных ресурсов или других средств, имеет решающее значение для нашего успеха и долгосрочной стабильности.",
     "partners": [
         {
             "name": "CIQ",
-            "grade": "Founding Partner",
-            "description": "We believe in helping people to do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+            "grade": "Партнер-основатель",
+            "description": "Мы верим в то, что помогаем людям совершать великие дела. Именно поэтому CIQ является партнером-основателем RESF. Мы предоставляем коммерческую поддержку и услуги для Rocky Linux клиентам из научно-исследовательской, академической, правительственной, корпоративной, партнерской и всех других сфер."
         },
         {
             "name": "NAVER Cloud",
-            "grade": "Principal Partner",
-            "description": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+            "grade": "Основной партнер",
+            "description": "NAVER Cloud Platform - это южнокорейский облачный сервис, который начал свою работу в 2017 году под эгидой NAVER Cloud, дочерней компании NAVER. В 2021 году она предоставляет более 170 отдельных услуг и имеет различные сертификаты безопасности, включая CSA STAR GOLD, GDPR и другие. В настоящее время он также предоставляет облачные услуги в 10 точках по всему миру."
         },
         {
             "name": "Mattermost",
-            "grade": "Principal Partner",
-            "description": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+            "grade": "Основной партнер",
+            "description": "Mattermost - это решение для обмена сообщениями с открытым исходным кодом, созданное для организаций с самыми высокими требованиями к безопасности. Будучи убежденными сторонниками использования открытого исходного кода, компания Mattermost рада сотрудничать с RESF, чтобы помочь технологическому сообществу представить дистрибутив Linux корпоративного уровня."
         },
         {
             "name": "Fosshost",
-            "grade": "Principal Partner",
-            "description": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+            "grade": "Основной партнер",
+            "description": "Fosshost (UK CIC #13356530) предлагает бесплатный хостинг корпоративного уровня и управляемые услуги исключительно для сообщества FOSS. Наша миссия заключается в расширении возможностей и поддержке каждого проекта свободного программного обеспечения с открытым исходным кодом. Вместе мы идем дальше. Наша работа никогда не останавливается. Подайте заявку сегодня!"
         },
         {
             "name": "Arm",
-            "grade": "Principal Partner",
-            "description": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+            "grade": "Основной партнер",
+            "description": "Компания Arm стремится к тому, чтобы ее архитектура была первоклассным решением для Rocky Linux с первого дня работы. Мы сотрудничаем с RESF, предоставляя специализированные инженерные усилия в дополнение к командам разработчиков и тестировщиков Rocky Linux, тесно сотрудничая для тестирования, проверки и поддержки ARM сейчас и в будущем."
         },
         {
             "name": "Fastly",
-            "grade": "Principal Partner",
-            "description": "Fastly’s edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers’ applications as close to their end-users as possible — at the edge of the internet."
+            "grade": "Основной партнер",
+            "description": "Облачная платформа Fastly позволяет клиентам быстро, безопасно и надежно создавать превосходные цифровые услуги, обрабатывая, обслуживая и защищая приложения наших клиентов как можно ближе к конечным пользователям - непосредственно на границе сети Интернет."
         },
         {
             "name": "OSU Open Source Labs",
-            "grade": "Principal Partner",
-            "description": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+            "grade": "Основной партнер",
+            "description": "Лаборатория открытого кода Университета штата Орегон - это некоммерческая организация, работающая на благо развития технологий с открытым исходным кодом. OSL предлагает услуги хостинга мирового класса, профессиональную разработку программного обеспечения и обучение на месте для перспективных студентов, заинтересованных в управлении и программировании с открытым исходным кодом."
         },
         {
             "name": "Supermicro",
-            "grade": "Principal Partner",
-            "description": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+            "grade": "Основной партнер",
+            "description": "Будучи мировым лидером в области высокопроизводительных, высокоэффективных серверных технологий и инноваций, компания Supermicro рада сотрудничать с RESF и поставлять серверы и системы хранения данных для центров обработки данных, оптимизированные для Rocky Linux."
         },
         {
             "name": "Equinix",
-            "grade": "Principal Partner",
-            "description": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+            "grade": "Основной партнер",
+            "description": "Equinix - всемирная компания в области цифровой инфраструктуры. Лидеры цифровых технологий используют нашу надежную платформу для объединения и взаимосвязи основополагающей инфраструктуры, которая обеспечивает их успех."
         }
     ]
 }
