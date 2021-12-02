@@ -12,7 +12,7 @@ So far we build/update/maintain the following Rocky Linux variants and architect
 Please note that you can directly use the "Deploy Link" function to deploy in specific regions.
 
 | Version       | Region         | Architecture | AMI ID                | Deploy Link                                                                                                          |
-|---------------|----------------|--------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| ------------- | -------------- | ------------ | --------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Rocky Linux 8 | us-west-1      | x86_64       | ami-0335e1660e1197d63 | [Deploy](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0335e1660e1197d63) |
 | Rocky Linux 8 | us-west-1      | aarch64      | ami-0b5ea38a0532d8a30 | [Deploy](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0b5ea38a0532d8a30) |
 | Rocky Linux 8 | us-west-2      | x86_64       | ami-09ca837d91f083d04 | [Deploy](https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-09ca837d91f083d04) |

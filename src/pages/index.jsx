@@ -307,10 +307,7 @@ const Index = ({ pageContext: { locale: language } }) => {
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <a
-                    href="https://vmware.com"
-                    aria-label="VMware"
-                  >
+                  <a href="https://vmware.com" aria-label="VMware">
                     <img
                       src={VmwareLogo}
                       className="h-16 grayscale transition duration-200"
