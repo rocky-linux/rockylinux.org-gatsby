@@ -22,7 +22,7 @@ import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import OSLLogo from '../images/osl.png';
 import SupermicroLogo from '../images/supermicro.png';
-import EquinixLogo from '../images/equinix-alt.png'
+import EquinixLogo from '../images/equinix-alt.png';
 
 const Index = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
