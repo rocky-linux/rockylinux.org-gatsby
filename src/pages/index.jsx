@@ -22,6 +22,7 @@ import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import OSLLogo from '../images/osl.png';
 import SupermicroLogo from '../images/supermicro.png';
+import EquinixLogo from '../images/equinix-alt.png'
 
 const Index = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
@@ -193,6 +194,15 @@ const Index = ({ pageContext: { locale: language } }) => {
                       src={AwsLogo}
                       className="h-16 grayscale transition duration-200"
                       alt="AWS"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <a href="https://equinix.com" aria-label="Equinix">
+                    <img
+                      src={EquinixLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Equinix"
                     />
                   </a>
                 </div>
