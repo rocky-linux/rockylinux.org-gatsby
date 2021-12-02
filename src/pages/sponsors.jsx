@@ -66,7 +66,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
               </div>
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-gray-50">
-                  <a href="https://ctrliq.com" className="focus:outline-none">
+                  <a href="https://ciq.co" className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
                     {translate('sponsors.0.name')}
                     <span className="ml-2 bg-green-200 text-green-600 py-1 px-2 text-xs rounded-full self-center">
