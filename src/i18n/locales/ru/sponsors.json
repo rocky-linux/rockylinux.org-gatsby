@@ -1,31 +1,41 @@
 {
-    "title": "Sponsors",
-    "description": "We would like to thank our sponsors for their support thus far on the project.",
+    "title": "Спонсоры",
+    "description": "Мы хотели бы поблагодарить наших спонсоров за их поддержку в реализации проекта.",
     "sponsors": [
         {
             "name": "Ctrl IQ",
-            "grade": "Founding Sponsor",
-            "description": "Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data."
+            "grade": "Спонсор-основатель",
+            "description": "Унифицированные, защищенные, независимые от платформы вычисления, начиная с предоставления, управления и поддержки базовой ОС (Rocky Linux) и заканчивая стеком развертывания контейнеров с облачной, многоместной, многооблачной мета-оркестровкой критически важных рабочих процессов и данных."
         },
         {
             "name": "45Drives",
-            "grade": "Principal Sponsor",
-            "description": "45Drives offers enterprise storage solutions built on powerful & robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!"
+            "grade": "Основной спонсор",
+            "description": "45Drives предлагает корпоративные решения для хранения данных, построенные на мощном и надежном программном обеспечении с открытым исходным кодом, которое позволяет клиентам воспользоваться преимуществами экономии и гибкости готового оборудования. Вы можете приобрести у нас полностью поддерживаемое решение для хранения данных по лучшей цене за терабайт!"
         },
         {
             "name": "OpenDrives",
-            "grade": "Principal Sponsor",
-            "description": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
+            "grade": "Основной спонсор",
+            "description": "OpenDrives - глобальный поставщик гипермасштабируемых сетевых хранилищ данных (NAS) корпоративного класса. Мы предоставляем нашим клиентам самые высокопроизводительные решения - в соответствии с индивидуальными потребностями в производительности - для самых надежных, сложных и критически важных проектов и рабочих процессов, локальных и облачных."
         },
         {
             "name": "MontaVista",
-            "grade": "Principal Sponsor",
-            "description": "MontaVista Software is the leader in embedded commercial Linux, supporting MontaVista CGX, Yocto Project®, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
+            "grade": "Основной спонсор",
+            "description": "MontaVista Software - лидер в области коммерческого Linux для встраиваемых систем, поддерживающий MontaVista CGX, Yocto Project®, CentOS и Rocky Linux. MontaVista предлагает опыт в области программного обеспечения с открытым исходным кодом, дистрибутивы Linux коммерческого качества, экономически эффективное обслуживание и поддержку в течение 10+ лет."
         },
         {
             "name": "Amazon Web Services",
-            "grade": "Principal Sponsor",
-            "description": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+            "grade": "Основной спонсор",
+            "description": "RESF использует AWS для запуска большей части базовой инфраструктуры, критически важной для разработки и развертывания сервисов, поддерживающих Rocky Linux. От сборщиков Koji для x86_64 и aarch64, работающих в EC2, до хранилища блобов SRPM в S3 - AWS является основой для многого из того, что мы делаем."
+        },
+                {
+            "name": "Google Cloud",
+            "grade": "Основной спонсор",
+            "description": "Будучи главным спонсором RESF, компания Google понимает важность Rocky Linux как свободной, открытой, общественной операционной системы для предприятий. Предоставляя ресурсы для тестирования и проверки, мы сотрудничаем с RESF, чтобы обеспечить статус Rocky как первоклассного гражданина на Google Cloud Platform с первого дня."
+        },
+        {
+            "name": "Microsoft Azure",
+            "grade": "Основной спонсор",
+            "description": "Linux - самая быстрорастущая платформа в Azure, на которой работает более половины ядер виртуальных машин. Уже более десяти лет Microsoft инвестирует в Linux, а поскольку партнерские отношения являются центральным элементом стратегии Microsoft в области открытого исходного кода, мы сотрудничаем с RESF и более широкой экосистемой Rocky Linux, чтобы обеспечить клиентам все больший набор возможностей для развертывания рабочих нагрузок Linux в Azure с поддержкой, управлением и безопасностью."
         }
     ]
 }
