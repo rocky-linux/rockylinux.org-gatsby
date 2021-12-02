@@ -82,15 +82,15 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.nodes.map(node => {
+              return allMarkdownRemark.nodes.map((node) => {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
-                  custom_elements: [{ "content:encoded": node.html }],
-                })
-              })
+                  custom_elements: [{ 'content:encoded': node.html }],
+                });
+              });
             },
             query: `
               {
@@ -100,8 +100,8 @@ module.exports = {
                   nodes {
                     excerpt
                     html
-                    fields { 
-                      slug 
+                    fields {
+                      slug
                     }
                     frontmatter {
                       title
@@ -111,9 +111,9 @@ module.exports = {
                 }
               }
             `,
-            output: "/rss.xml",
+            output: '/rss.xml',
             title: "Rocky Linux's RSS Feed",
-            match: "^/news/",
+            match: '^/news/',
           },
         ],
       },
@@ -178,8 +178,10 @@ module.exports = {
             'faq',
             'download',
             'partners',
+            'keys',
             'sponsors',
             'providers',
+            'alternative',
           ],
           returnObjects: true,
           interpolation: {

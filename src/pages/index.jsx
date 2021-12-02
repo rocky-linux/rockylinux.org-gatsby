@@ -22,6 +22,8 @@ import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import OSLLogo from '../images/osl.png';
 import SupermicroLogo from '../images/supermicro.png';
+import EquinixLogo from '../images/equinix-alt.png';
+import VmwareLogo from '../images/vmware.png';
 
 const Index = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
@@ -197,6 +199,15 @@ const Index = ({ pageContext: { locale: language } }) => {
                   </a>
                 </div>
                 <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <a href="https://equinix.com" aria-label="Equinix">
+                    <img
+                      src={EquinixLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="Equinix"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                   <a href="https://www.fastly.com/" aria-label="Fastly">
                     <img
                       src={FastlyLogo}
@@ -292,6 +303,15 @@ const Index = ({ pageContext: { locale: language } }) => {
                       src={SupermicroLogo}
                       className="h-16 grayscale transition duration-200"
                       alt="Supermicro"
+                    />
+                  </a>
+                </div>
+                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <a href="https://vmware.com" aria-label="VMware">
+                    <img
+                      src={VmwareLogo}
+                      className="h-16 grayscale transition duration-200"
+                      alt="VMware"
                     />
                   </a>
                 </div>

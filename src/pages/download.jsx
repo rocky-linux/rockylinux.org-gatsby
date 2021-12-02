@@ -6,6 +6,7 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const DownloadPage = ({ pageContext }) => {
   const translate = Translate('download');
@@ -194,10 +195,22 @@ const DownloadPage = ({ pageContext }) => {
               </a>
               <Link
                 className="text-green-600 dark:text-green-500 font-medium"
+                to="/alternative-images"
+              >
+                {translate('alternative')}
+              </Link>
+              <Link
+                className="text-green-600 dark:text-green-500 font-medium"
                 to="/ami"
               >
-                AMI List
+                {translate('ami')}
               </Link>
+              <LocalizedLink
+                to="/keys"
+                className="text-green-600 dark:text-green-500 font-medium"
+              >
+                {translate('keys')}
+              </LocalizedLink>
             </div>
           </div>
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -238,7 +251,7 @@ const DownloadPage = ({ pageContext }) => {
                 Linux system, with the minimum of packages needed to have a
                 functional system. A preselected set of packages will be
                 installed on your system. Everything else needs to be installed
-                using yum. The set of packages installed by this image is
+                using dnf. The set of packages installed by this image is
                 identical to the one installed when choosing the group named
                 "Minimal" in the full DVD image.
               </p>

@@ -1,79 +1,79 @@
 {
-    "title": "Frequently Asked Questions",
+    "title": "Preguntes més freqüents",
     "questions": [
         {
-            "q": "Where can I download the release candidate?",
-            "a": "<0>https://rockylinux.org/download<0>"
+            "q": "D'on puc descarregar la versió candidata a llançament?",
+            "a": "<0>https://rockylinux.org/ca/download<0>"
         },
         {
-            "q": "What is a release candidate?",
-            "a": "A release candidate is a beta version of a product that has the potential to be stable.The intent of a release candidate is for the community to test and validate expected functionality of Rocky Linux and report any bugs if present."
+            "q": "Què és una versió candidata?",
+            "a": "Una versió candidata és una versió beta que pot esdevenir estable. El propòsit d'una versió candidata és que pugui ser provada per la comunitat i eventualment validar-ne les funcionalitats esperades i/o informar d'errors."
         },
         {
-            "q": "Can I use the release candidate in production?",
-            "a": "Under no circumstance should you use a release candidate in a production environment. A release candidate is provided for testing and validation purposes only."
+            "q": "Puc usar la versió candidata en producció?",
+            "a": "No, en cap circumstància. Una versió d'aquest tipus es distribueix per a proves i validació."
         },
         {
-            "q": "How can I help mirror the release candidate and future Rocky Linux releases?",
-            "a": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
+            "q": "Com puc col·laborar en crear un mirall del repositori de Rocky Linux?",
+            "a": "Podeu enviar un correu-e a <0>mirrors@rockylinux.org</0>."
         },
         {
-            "q": "I encountered a bug while testing the release candidate, what can I do?",
-            "a": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
+            "q": "He trobat un error mentre provava la versió candidata. Què puc fer?",
+            "a": "Creeu-vos un compte emprant <0>Rocky Linux Account Services</0> i dirigiu-vos al nostre <1>servidor Bugzilla</1> per a informar-ne."
         },
         {
-            "q": "How can I get involved with the Testing team?",
-            "a": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There’s also a testing topic on the forums for more durable conversation."
+            "q": "Com em puc involucrar amb l'equip de proves (testing)?",
+            "a": "Podeu entrar al canal <0>~Testing</0> del servidor Mattermost per començar. També hi ha un fil al fòrum per una conversa més durable."
         },
         {
-            "q": "Where can I find the latest news about Rocky Linux?",
-            "a": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
+            "q": "On puc trobar les darreres notícies sobre Rocky Linux?",
+            "a": "Estigueu al dia del nostre web, Twitter, LinkedIn, fòrums i altres plataformes llistades al nostre directori d'enllaços pels darrers anuncis."
         },
         {
-            "q": "If Rocky Linux is just a respin of RHEL, what took so long for a release candidate?",
-            "a": "<0>If our only goal for Rocky Linux was to debrand and repackage RHEL, we would have been done much sooner. However, what we had to do differently is figure out how we could keep Rocky Linux in the hands of the community. Carefully devising this strategy ensures that Rocky Linux will never meet the same fate of CentOS.</0><1>The goal was not just to create a community managed RPM based distribution of Linux, but to ensure that it will remain freely available and always in the control of the community, much like Linux itself has. To do that required more than a build infrastructure; it required that we put in place the foundational structures that enable the community, ensuring that Rocky Linux is forever inclusive, free, and open. The infrastructure is built from the ground up by many collaborators and sponsoring organizations around composability and security compliance, providing the substrate for not only the base operating system but also an entire community of diverse interests to take part in the project.</1>"
+            "q": "Si Rocky Linux és simplement un refregit de RHEL, per que va trigar tant en tenir una versió apta per a llançament?",
+            "a": "<0>Si el nostre únic objectiu hagués estat esborrar la marca i re-empaquetar RHEL, hauriem acabat molt abans. Dit això, el principal obstacle va ser aconseguir mantenir Rocky Linux a les mans de la comunitat. Concebre aquesta estratègia assegura que Rocky Linux no acabarà com CentOS.</0><1>L'objectiu no només era crear una distribució basada en RPM conduïda per la comunitat, sinó assegurar-se que romangui lliure i sota el control d'aquesta, com GNU/Linux ha fet sempre. Aquesta tasca ha requerit quelcom més que la posada en marxa d'infraestructura: ha necessitat la creació d'estructures fonamentals que serveixen a la comunitat, amb la condició de ser sempre inclusiu, lliure i obert. La infraestructura s'ha construït de zero per molts col·laboradors i patrocinadors al voltant d'orquestració i conformitat amb la seguretat, donant el substrat per no només el sistema operatiu base sinó també una comunitat amb interessos diversos que col·labora juntament en el projecte.</1>"
         },
         {
-            "q": "If you’re not just repackaging RHEL, then what exactly are you doing?",
-            "a": "Our goal is to maintain Rocky Linux as a community-oriented distribution <0>by</0> the community, <1>for</1> the community. To do this, we are establishing the necessary organizational structures to ensure that Rocky Linux remains in the hands of the community. We want to make sure that it’s not possible for what happened to CentOS to happen to Rocky Linux."
+            "q": "Si no només re-empaqueteu RHEL, aleshores, què feu?",
+            "a": "El nostre objectiu és mantenir Rocky Linux com a distribució orientada <1>a</1> la comunitat i <0>per</0> la comuntat. Per a fer això, establim les estructures organitzatives necessàries per assegurar que Rocky Linux roman a mans de la comunitat. Volem assegurar-nos que no sigui possible que a Rocky Linux li passi el mateix que a CentOS."
         },
         {
-            "q": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
-            "a": "First, we’ve taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We’ve achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we’re drafting a community charter that will define the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0> Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization. </0> Finally, we’re architecting and deploying the necessary infrastructure to further enable the community to contribute to Rocky Linux."
+            "q": "Com us assegurareu que Rocky Linux no deixa de ser un <em>sistema operatiu comunitari empresarial</em>?",
+            "a": "En primer lloc, hem protegit legalment el nom Rocky Linux. Això vol dir registrar les marques i diverses característiques associades per evitar que siguin controlades per altres entitats. Ho hem fet establint-les sota la <em>Rocky Enterprise Software Foundation</em> (RESF). Seguidament, escrivint una declaració de principis que definirà l'estructura organitzacional, objectius, valors i missió darrera l'entitat legal que representa Rocky Linux. En aquesta declaració hi són molt importants els principis que empoderen i protegeixen la comunitat: transparència, compromís de la comunitat, desenvolupament obert i independència. <0>Rocky Linux mai serà controlat, comprat o altrament influenciat per una sola entitat o organització.</0> Finalment, estem construïnt i desplegant la infraestructura necessària per permetre contribuïr més a la comunitat."
         },
         {
-            "q": "What infrastructure is necessary to enable the community?",
+            "q": "Quina infraestructura es necessita de cara a la comunitat?",
             "a": {
                 "p": [
-                "We’ve established a number of teams to support the various efforts associated with developing Rocky Linux:",
-                "You can read more about this structure when it’s soon published. In order to enable collaboration across and within those teams, we needed to deploy our own chat infrastructure, forums, and website. Additionally, we’re also creating our build infrastructure, which will facilitate the development of the core operating system."
+                "Hem creat una sèries d'equips dedicats a les diverses tasques de desenvolupament de Rocky Linux:",
+                "Podreu saber-ne més detalls quan aviat es publiqui. Per tal de permetre la col·laboració entre aquests equips hem hagut de desplegar el nostre propi sistema de xat, fòrum i plana web. A més a més, estem creant la nostra infraestructura de compilació/empaquetat, la qual facilitarà el desenvolupament del sistema operatiu base."
                 ],
                 "list": [
-                    "Community",
-                    "Core Infrastructure",
-                    "Design",
-                    "Documentation",
-                    "Installer",
-                    "Leadership",
-                    "Package Auto-Builders",
-                    "Packaging",
-                    "Security",
-                    "Special Interest Groups (SIGs)",
+                    "Comunitat",
+                    "Infraestructura base",
+                    "Disseny",
+                    "Documentació",
+                    "Instal·lador",
+                    "Lideratge",
+                    "Auto-compiladors de paquets",
+                    "Empaquetament",
+                    "Seguretat",
+                    "Grups d'Interès Específic (SIGs)",
                     "Web"
                 ]
             }
         },
         {
-            "q": "Why does it take so much time to stand up a community and build infrastructure?",
-            "a": "It’s not terribly difficult to deploy a website, forums, or a build infrastructure in a reliable fashion. Our chat program for instance, which uses Mattermost, is distributed on a number of application servers behind a load balancer and was ready in just a couple of weeks. But it does require careful thought and planning to do it in a scalable and secure manner when you need to ensure vendor and platform agnosticity and long-term community involvement."
+            "q": "Per que es tarda tant en aixecar una comunitat i fer la infraestructura?",
+            "a": "No és gaire difícil llançar un lloc web, o construïr una infraestructura prou segura. El nostre programa de xat, per exemple, usa Mattermost, el qual funciona de manera distribuïda darrera d'un distribuïdor de càrrega, es va crear en dues setmanes. Però requerí una planificació acurada per tal que fos escalable i segur i, al mateix temps, agnòstic pel que fa a plataforma i garant de l'involucració de la comunitat."
         },
         {
-            "q": "So what’s the short answer to all of this? What are some things you’re thinking about as you put Rocky Linux together?",
-            "a": "How do we carefully shepherd community trust? How do we ensure that anyone who wants to participate can not only do so immediately, but forever in the future as well? How do we engage and enable the community members who might not be as technical but want to contribute anyway? Solving for all of these challenges will take time, and we would love your help in doing so."
+            "q": "Així, quina és la resposta curta a tot això? Què penseu mentre prepareu Rocky Linux?",
+            "a": "Com ens guanyem la confiança de la comunitat? Com ens assegurem que algú que vulga participar-hi pot no només fer-ho immediatament, sinó sempre d'ara endavant? Com involucrem els membres de la comunitat que poden no tenir un nivell tècnic determinat però igualment hi volen contribuïr? Respondre a tots aquests reptes necessita temps i voldríem comptar amb la vostra ajuda per fer-ho."
         },
         {
-            "q": "What if I have feedback or my question wasn’t answered here?",
-            "a": "Please email us: <0>hello@rockylinux.org</0> and we’ll get back to you as soon as we can."
+            "q": "Tinc una proposta o bé la meva pregunta no és aquí.",
+            "a": "Si us plau, envia'ns un correu: <0>hello@rockylinux.org</0> i respondrem així que puguem."
         }
     ]
 }

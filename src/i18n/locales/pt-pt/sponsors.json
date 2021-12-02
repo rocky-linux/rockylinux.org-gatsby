@@ -3,9 +3,9 @@
     "description": "We would like to thank our sponsors for their support thus far on the project.",
     "sponsors": [
         {
-            "name": "Ctrl IQ",
+            "name": "CIQ",
             "grade": "Founding Sponsor",
-            "description": "Unified, secured, platform agnostic computing starting with the provisioning, management, and support of the base OS (Rocky Linux) and going through the deployment stack of containers with cloud native, multi-prem, multi-cloud meta-orchestration of performance critical workflows and data."
+            "description": "We believe in helping people to do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
         },
         {
             "name": "45Drives",
@@ -26,6 +26,21 @@
             "name": "Amazon Web Services",
             "grade": "Principal Sponsor",
             "description": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+        },
+        {
+            "name": "Google Cloud",
+            "grade": "Principal Sponsor",
+            "description": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we’ve partnered with the RESF to ensure Rocky’s status as a first-class citizen on the Google Cloud Platform from day one."
+        },
+        {
+            "name": "Microsoft Azure",
+            "grade": "Principal Sponsor",
+            "description": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft’s open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
+        },
+        {
+            "name": "VMware",
+            "grade": "Principal Sponsor",
+            "description": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control."
         }
     ]
 }

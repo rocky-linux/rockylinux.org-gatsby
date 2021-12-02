@@ -37,6 +37,18 @@ module.exports = {
         display: ['RockyDisplay', 'sans-serif'],
         sans: ['RockyText', 'sans-serif'],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            'code::before': {
+              content: '""',
+            },
+            'code::after': {
+              content: '""',
+            },
+          },
+        },
+      },
     },
   },
   variants: {},

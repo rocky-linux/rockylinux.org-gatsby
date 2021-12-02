@@ -15,6 +15,7 @@ import MontaVistaLogo from '../images/montavista.png';
 import OpenDrivesLogo from '../images/opendrives.png';
 import SeagateFederalLogo from '../images/seagate-federal.png';
 import ProComputersLogo from '../images/procomputers.png';
+import VmwareLogo from '../images/vmware-alt.png';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('sponsors');
@@ -54,7 +55,7 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
             </div>
           </div>
           <div className="rounded-lg bg-gray-200 dark:bg-gray-900 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-800 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
-            <div className="col-span-2 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+            <div className="rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
               <div>
                 <span className="rounded-lg inline-flex p-3">
                   <img
@@ -241,6 +242,31 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 </h3>
                 <p className="mt-2 text-sm text-gray-200">
                   {translate('sponsors.2.description')}
+                </p>
+              </div>
+            </div>
+            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+              <div>
+                <span className="rounded-lg inline-flex p-3">
+                  <img
+                    className="object-cover w-full rounded-lg"
+                    src={VmwareLogo}
+                    alt="vmware"
+                  />
+                </span>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-lg font-medium text-gray-50">
+                  <a href="https://vmware.com" className="focus:outline-none">
+                    <span className="absolute inset-0" aria-hidden="true" />
+                    {translate('sponsors.7.name')}
+                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
+                      {translate('sponsors.7.grade')}
+                    </span>
+                  </a>
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  {translate('sponsors.7.description')}
                 </p>
               </div>
             </div>
