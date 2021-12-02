@@ -1,16 +1,16 @@
 {
-    "title": "Downloads",
-    "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
-    "notInProduction": "The release you can download here is a <0>Release Candidate</0> and should not be used in production. Please check our <1>FAQ</1> for more information.",
+    "title": "Descàrregues",
+    "description": "Descarrega Rocky Linux d'un dels nostres miralls.",
+    "notInProduction": "El llançament publicat aquí és un <0>candidat a publicació</0> i no s'hauria d'emprar en producció. Si us plau, llegiu les nostres <1>FAQ</1> per a més informació.",
     "table": {
         "heading": [
-            "Architecture",
-            "ISOs",
-            "Packages"
+            "Arquitectura",
+            "Imatges",
+            "Paquets"
         ]
     },
-    "docs": "Documentation",
-    "report": "Report a bug",
+    "docs": "Documentació",
+    "report": "Informa d'un error",
+    "invitation": "<em>Rocky Enterprise Software Foundation</em> vos invita a <0>esdevenir part de la comunitat com a contribuïdor</0>. S'hi pot contribuïr de moltes maneres, com a ara escrivint documentació, fent proves de nous llançaments, escrivint canvis per a Grups d'Interès Específic (SIG), oferint miralls/allotjament o ajudant altres usuaris."
     "keys": "Keys",
-    "invitation": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0> . There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
 }
