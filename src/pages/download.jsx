@@ -195,9 +195,15 @@ const DownloadPage = ({ pageContext }) => {
               </a>
               <Link
                 className="text-green-600 dark:text-green-500 font-medium"
+                to="/alternative-images"
+              >
+                {translate('alternative')}
+              </Link>
+              <Link
+                className="text-green-600 dark:text-green-500 font-medium"
                 to="/ami"
               >
-                AMI List
+                {translate('ami')}
               </Link>
               <LocalizedLink
                 to="/keys"
