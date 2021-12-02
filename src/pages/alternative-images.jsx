@@ -128,7 +128,9 @@ const AlternativeImagesPage = ({ pageContext }) => {
               </thead>
               <tbody className="bg-gray-100 dark:bg-gray-800">
                 <tr>
-                  <td className="px-6 py-3 whitespace-nowrap">GNOME (Workstation)</td>
+                  <td className="px-6 py-3 whitespace-nowrap">
+                    GNOME (Workstation)
+                  </td>
                   <td className="px-6 py-3 whitespace-nowrap">
                     <a
                       className="font-medium text-green-600 dark:text-green-500"

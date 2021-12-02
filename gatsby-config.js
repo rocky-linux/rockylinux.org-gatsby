@@ -181,7 +181,7 @@ module.exports = {
             'keys',
             'sponsors',
             'providers',
-            'alternative'
+            'alternative',
           ],
           returnObjects: true,
           interpolation: {
