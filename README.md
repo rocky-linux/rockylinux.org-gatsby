@@ -1,7 +1,7 @@
 # rockylinux.org
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
@@ -50,6 +50,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/iyorozuya"><img src="https://avatars.githubusercontent.com/u/26306108?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shiroyasha</b></sub></a><br /><a href="https://github.com/rocky-linux/rockylinux.org/commits?author=iyorozuya" title="Code">💻</a> <a href="#a11y-iyorozuya" title="Accessibility">️️️️♿️</a></td>
     <td align="center"><a href="https://github.com/jordibalcellss"><img src="https://avatars.githubusercontent.com/u/57876246?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jordibalcellss</b></sub></a><br /><a href="#translation-jordibalcellss" title="Translation">🌍</a></td>
     <td align="center"><a href="http://www.zhanglei.name"><img src="https://avatars.githubusercontent.com/u/438092?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ray Cheung</b></sub></a><br /><a href="#translation-zhanglei0310" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/mstg"><img src="https://avatars.githubusercontent.com/u/7355091?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mustafa Gezen</b></sub></a><br /><a href="https://github.com/rocky-linux/rockylinux.org/commits?author=mstg" title="Code">💻</a> <a href="#content-mstg" title="Content">🖋</a></td>
   </tr>
 </table>
 
