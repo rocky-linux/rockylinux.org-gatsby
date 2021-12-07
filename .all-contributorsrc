@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ressonix",
+      "name": "Michael Kinder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60057409?v=4",
+      "profile": "https://dotslash.studio",
+      "contributions": [
+        "design",
+        "content",
+        "maintenance",
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "rockylinux.org",
+  "projectOwner": "rocky-linux",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
