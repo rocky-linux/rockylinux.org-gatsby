@@ -1,7 +1,11 @@
 # rockylinux.org
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/rocky-linux/rockylinux.org/main.svg)](https://results.pre-commit.ci/latest/github/rocky-linux/rockylinux.org/main)
 
