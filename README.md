@@ -1,7 +1,7 @@
 # rockylinux.org
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
@@ -39,6 +39,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://dotslash.studio"><img src="https://avatars.githubusercontent.com/u/60057409?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael Kinder</b></sub></a><br /><a href="#design-ressonix" title="Design">🎨</a> <a href="#content-ressonix" title="Content">🖋</a> <a href="#maintenance-ressonix" title="Maintenance">🚧</a> <a href="#projectManagement-ressonix" title="Project Management">📆</a></td>
     <td align="center"><a href="https://hbjy.dev"><img src="https://avatars.githubusercontent.com/u/22327045?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hayden</b></sub></a><br /><a href="#design-hbjydev" title="Design">🎨</a> <a href="#content-hbjydev" title="Content">🖋</a> <a href="#maintenance-hbjydev" title="Maintenance">🚧</a> <a href="https://github.com/rocky-linux/rockylinux.org/commits?author=hbjydev" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/utkusaridede"><img src="https://avatars.githubusercontent.com/u/6840267?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Utku</b></sub></a><br /><a href="https://github.com/rocky-linux/rockylinux.org/commits?author=utkusaridede" title="Code">💻</a></td>
+    <td align="center"><a href="https://jorp.xyz"><img src="https://avatars.githubusercontent.com/u/18096435?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jordan Pisaniello</b></sub></a><br /><a href="#content-jorp" title="Content">🖋</a></td>
   </tr>
 </table>
 
