@@ -65,6 +65,15 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "nicrame",
+      "name": "Marcin Wilk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5872054?v=4",
+      "profile": "http://www.marcinwilk.eu",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
