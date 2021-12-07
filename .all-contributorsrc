@@ -28,6 +28,15 @@
         "maintenance",
         "code"
       ]
+    },
+    {
+      "login": "utkusaridede",
+      "name": "Utku",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6840267?v=4",
+      "profile": "https://github.com/utkusaridede",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
