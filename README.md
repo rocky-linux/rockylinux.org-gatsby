@@ -1,7 +1,7 @@
 # rockylinux.org
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
@@ -47,6 +47,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://shrug.pw/"><img src="https://avatars.githubusercontent.com/u/680198?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neil Hanlon</b></sub></a><br /><a href="#content-NeilHanlon" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/tcooper"><img src="https://avatars.githubusercontent.com/u/542846?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Trevor Cooper</b></sub></a><br /><a href="#content-tcooper" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/iyorozuya"><img src="https://avatars.githubusercontent.com/u/26306108?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shiroyasha</b></sub></a><br /><a href="https://github.com/rocky-linux/rockylinux.org/commits?author=iyorozuya" title="Code">💻</a> <a href="#a11y-iyorozuya" title="Accessibility">️️️️♿️</a></td>
   </tr>
 </table>
 
