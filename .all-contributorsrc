@@ -55,6 +55,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "NebraskaCoder",
+      "name": "Gabriel Graves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64073162?v=4",
+      "profile": "https://github.com/NebraskaCoder",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
