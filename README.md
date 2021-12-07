@@ -1,7 +1,7 @@
 # rockylinux.org
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
@@ -68,6 +68,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.volted.net"><img src="https://avatars.githubusercontent.com/u/40760290?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sébastien Pascal-Poher</b></sub></a><br /><a href="#translation-sjpp" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/mds-lord"><img src="https://avatars.githubusercontent.com/u/47741367?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dmitriy Markov</b></sub></a><br /><a href="#translation-mds-lord" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/Norio4"><img src="https://avatars.githubusercontent.com/u/25744143?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Norio4</b></sub></a><br /><a href="#translation-Norio4" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/sspencerwire"><img src="https://avatars.githubusercontent.com/u/4265212?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sspencerwire</b></sub></a><br /><a href="#content-sspencerwire" title="Content">🖋</a></td>
   </tr>
 </table>
 
