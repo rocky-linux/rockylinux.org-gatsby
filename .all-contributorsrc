@@ -46,6 +46,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "brianclemens",
+      "name": "Brian Clemens",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13581364?v=4",
+      "profile": "https://resf.org",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
