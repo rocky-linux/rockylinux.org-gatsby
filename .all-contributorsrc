@@ -229,6 +229,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "mds-lord",
+      "name": "Dmitriy Markov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47741367?v=4",
+      "profile": "https://github.com/mds-lord",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
