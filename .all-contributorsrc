@@ -37,6 +37,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jorp",
+      "name": "Jordan Pisaniello",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18096435?v=4",
+      "profile": "https://jorp.xyz",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
