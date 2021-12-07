@@ -220,6 +220,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "sjpp",
+      "name": "Sébastien Pascal-Poher",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40760290?v=4",
+      "profile": "https://www.volted.net",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
