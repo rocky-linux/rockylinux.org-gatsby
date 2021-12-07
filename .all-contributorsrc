@@ -139,6 +139,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "smstong",
+      "name": "Jonathan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10545530?v=4",
+      "profile": "https://linuxexam.net",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
