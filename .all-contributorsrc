@@ -16,6 +16,18 @@
         "maintenance",
         "projectManagement"
       ]
+    },
+    {
+      "login": "hbjydev",
+      "name": "Hayden",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22327045?v=4",
+      "profile": "https://hbjy.dev",
+      "contributions": [
+        "design",
+        "content",
+        "maintenance",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
