@@ -202,6 +202,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "ckykenken",
+      "name": "Ken Chan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26035978?v=4",
+      "profile": "https://github.com/ckykenken",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
