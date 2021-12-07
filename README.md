@@ -1,7 +1,7 @@
 # rockylinux.org
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
@@ -65,6 +65,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/ckykenken"><img src="https://avatars.githubusercontent.com/u/26035978?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ken Chan</b></sub></a><br /><a href="#translation-ckykenken" title="Translation">🌍</a></td>
     <td align="center"><a href="https://blog.kukuh.syafaat.id/"><img src="https://avatars.githubusercontent.com/u/6271071?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kukuh Syafaat</b></sub></a><br /><a href="#translation-cho2" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://www.volted.net"><img src="https://avatars.githubusercontent.com/u/40760290?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sébastien Pascal-Poher</b></sub></a><br /><a href="#translation-sjpp" title="Translation">🌍</a></td>
   </tr>
 </table>
 
