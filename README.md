@@ -1,7 +1,7 @@
 # rockylinux.org
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
@@ -60,6 +60,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/bittin"><img src="https://avatars.githubusercontent.com/u/43197?v=4?s=100" width="100px;" alt=""/><br /><sub><b>bittin</b></sub></a><br /><a href="#translation-bittin" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/payagej"><img src="https://avatars.githubusercontent.com/u/20729061?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jules</b></sub></a><br /><a href="#translation-payagej" title="Translation">🌍</a></td>
     <td align="center"><a href="http://sysdamins.ws"><img src="https://avatars.githubusercontent.com/u/3071468?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Raven</b></sub></a><br /><a href="#translation-raven-kg" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://provider.com.tr"><img src="https://avatars.githubusercontent.com/u/80541213?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yasin YILMAZ</b></sub></a><br /><a href="#translation-ysnyilmaz" title="Translation">🌍</a></td>
   </tr>
 </table>
 
