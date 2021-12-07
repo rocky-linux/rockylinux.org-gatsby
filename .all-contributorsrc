@@ -102,6 +102,15 @@
         "code",
         "a11y"
       ]
+    },
+    {
+      "login": "jordibalcellss",
+      "name": "jordibalcellss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57876246?v=4",
+      "profile": "https://github.com/jordibalcellss",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
