@@ -120,6 +120,16 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "mstg",
+      "name": "Mustafa Gezen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7355091?v=4",
+      "profile": "https://github.com/mstg",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
