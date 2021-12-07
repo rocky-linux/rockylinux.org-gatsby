@@ -184,6 +184,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "raven-kg",
+      "name": "Raven",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3071468?v=4",
+      "profile": "http://sysdamins.ws",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
