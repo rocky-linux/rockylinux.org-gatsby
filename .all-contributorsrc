@@ -148,6 +148,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "arevaldez",
+      "name": "Alex Valdez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43709788?v=4",
+      "profile": "https://github.com/arevaldez",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
