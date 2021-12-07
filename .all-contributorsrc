@@ -92,6 +92,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "iyorozuya",
+      "name": "Shiroyasha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26306108?v=4",
+      "profile": "https://github.com/iyorozuya",
+      "contributions": [
+        "code",
+        "a11y"
+      ]
     }
   ],
   "contributorsPerLine": 7,
