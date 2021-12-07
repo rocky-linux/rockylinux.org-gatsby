@@ -1,7 +1,7 @@
 # rockylinux.org
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
@@ -42,6 +42,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://jorp.xyz"><img src="https://avatars.githubusercontent.com/u/18096435?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jordan Pisaniello</b></sub></a><br /><a href="#content-jorp" title="Content">🖋</a></td>
     <td align="center"><a href="https://resf.org"><img src="https://avatars.githubusercontent.com/u/13581364?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brian Clemens</b></sub></a><br /><a href="#content-brianclemens" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/NebraskaCoder"><img src="https://avatars.githubusercontent.com/u/64073162?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gabriel Graves</b></sub></a><br /><a href="https://github.com/rocky-linux/rockylinux.org/commits?author=NebraskaCoder" title="Code">💻</a> <a href="#content-NebraskaCoder" title="Content">🖋</a></td>
+    <td align="center"><a href="http://www.marcinwilk.eu"><img src="https://avatars.githubusercontent.com/u/5872054?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marcin Wilk</b></sub></a><br /><a href="#translation-nicrame" title="Translation">🌍</a></td>
   </tr>
 </table>
 
