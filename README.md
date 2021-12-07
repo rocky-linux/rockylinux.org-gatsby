@@ -1,7 +1,7 @@
 # rockylinux.org
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
@@ -52,6 +52,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.zhanglei.name"><img src="https://avatars.githubusercontent.com/u/438092?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ray Cheung</b></sub></a><br /><a href="#translation-zhanglei0310" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/mstg"><img src="https://avatars.githubusercontent.com/u/7355091?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mustafa Gezen</b></sub></a><br /><a href="https://github.com/rocky-linux/rockylinux.org/commits?author=mstg" title="Code">💻</a> <a href="#content-mstg" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/theAdmin10"><img src="https://avatars.githubusercontent.com/u/4050697?v=4?s=100" width="100px;" alt=""/><br /><sub><b>theAdmin10</b></sub></a><br /><a href="#content-theAdmin10" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://linuxexam.net"><img src="https://avatars.githubusercontent.com/u/10545530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jonathan</b></sub></a><br /><a href="#content-smstong" title="Content">🖋</a></td>
   </tr>
 </table>
 
