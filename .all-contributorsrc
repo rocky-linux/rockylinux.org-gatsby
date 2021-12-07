@@ -130,6 +130,15 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "theAdmin10",
+      "name": "theAdmin10",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4050697?v=4",
+      "profile": "https://github.com/theAdmin10",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
