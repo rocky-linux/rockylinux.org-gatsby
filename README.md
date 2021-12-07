@@ -1,4 +1,7 @@
 # rockylinux.org
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
 [![Translation status](http://translate.rockylinux.org/widgets/rockylinux-org/-/rocky-linux-website/svg-badge.svg)](http://translate.rockylinux.org/engage/rockylinux-org/)
@@ -23,3 +26,23 @@ gatsby develop
 ## Contributing
 
 We welcome your contributions! Please refer to our [contributing policies](https://github.com/rocky-linux/rockylinux.org/blob/main/CONTRIBUTING.md) prior to submitting pull requests.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://dotslash.studio"><img src="https://avatars.githubusercontent.com/u/60057409?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael Kinder</b></sub></a><br /><a href="#design-ressonix" title="Design">🎨</a> <a href="#content-ressonix" title="Content">🖋</a> <a href="#maintenance-ressonix" title="Maintenance">🚧</a> <a href="#projectManagement-ressonix" title="Project Management">📆</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
