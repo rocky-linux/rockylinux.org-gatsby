@@ -157,6 +157,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "trel",
+      "name": "Terrell Russell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55238?v=4",
+      "profile": "http://weblog.terrellrussell.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
