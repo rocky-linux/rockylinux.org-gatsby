@@ -2,23 +2,15 @@
     "title": "Najczęściej Zadawane Pytania",
     "questions": [
         {
-            "q": "Gdzie mogę pobrać kandydata do wydania?",
+            "q": "Gdzie mogę pobrać obraz ISO?",
             "a": "<0>https://rockylinux.org/download<0>"
         },
         {
-            "q": "Co to jest kandydat do wydania?",
-            "a": "Kandydat do wydania to wersja beta produktu, która ma potencjał, aby stać się stabilną. Intencją wydania kandydackiego jest umożliwienie społeczności przetestowania i sprawdzenia oczekiwanej funkcjonalności Rocky Linux i zgłoszenia błędów, jeśli takie występują."
+            "q": "Jak mogę pomóc w tworzeniu kopii lustrzanych obecnych i przyszłych wydań Rocky Linux?",
+            "a": "Prosze wysłać email na adres <0>mirrors@rockylinux.org</0> w celu wyrażenia swojego zainteresowania."
         },
         {
-            "q": "Czy mogę używać wersji testowej na produkcji?",
-            "a": "W żadnym wypadku nie należy używać wersji kandydackiej w środowisku produkcyjnym. Wersja testowa jest udostępniana wyłącznie do celów testowania i sprawdzania poprawności."
-        },
-        {
-            "q": "Jak mogę pomóc w stworzeniu kopii lustrzanej wersji kandydackiej i przyszłych wydań Rocky Linux?",
-            "a": "Proszę wysłać emaul na adres <0>mirrors@rockylinux.org</0> i wyrazić swoje zainteresowanie."
-        },
-        {
-            "q": "Napotkałem błąd podczas testowania kandydata na wydanie, co mogę zrobić?",
+            "q": "Napotkałem błąd podczas testowania Rocky Linux, co mogę zrobić?",
             "a": "Najpierw należy utworzyć konto za pomocą <0>Rocky Linux Account Services</0>, następnie udaj się do naszego <1>serwera Bugzilla</1> aby zgłosić wszelkie błędy."
         },
         {
@@ -30,49 +22,19 @@
             "a": "Bądź na bieżąco z naszą stroną internetową, Twitterem, LinkedIn, forami i innymi platformami wymienionymi w naszym katalogu linków, aby uzyskać najnowsze komunikaty.."
         },
         {
-            "q": "Jeśli Rocky Linux jest tylko powieleniem RHEL, to co tak długo trwało zanim pojawił się wydanie kandydackie?",
-            "a": "<0>Gdyby naszym jedynym celem dla Rocky Linux było odbrandowanie i przepakowanie RHEL-a, skończylibyśmy dużo wcześniej. Jednak to, co musieliśmy zrobić inaczej, to zastanowić się, jak utrzymać Rocky Linux w rękach społeczności. Starannie opracowana strategia gwarantuje, że Rocky Linux nigdy nie spotka ten sam los co CentOS.</0><1>Celem nie było tylko stworzenie zarządzanej przez społeczność dystrybucji Linuksa opartej na RPM, ale zapewnienie, że pozostanie ona swobodnie dostępna i zawsze będzie pod kontrolą społeczności, podobnie jak sam Linux. Wymagało to czegoś więcej niż tylko zbudowania infrastruktury; wymagało to od nas stworzenia podstawowych struktur, które umożliwią działanie społeczności, zapewniając, że Rocky Linux będzie zawsze otwarty integracyjnie, wolny i otwarty. Infrastruktura jest budowana od podstaw przez wielu współpracowników i organizacje sponsorujące w oparciu o złożoność i zgodność z normami bezpieczeństwa, zapewniając podłoże nie tylko dla podstawowego systemu operacyjnego, ale także dla całej społeczności o zróżnicowanych zainteresowaniach, która może wziąć udział w projekcie.</1>"
-        },
-        {
-            "q": "Jeśli nie tylko przepakowujecie RHEL, to co dokładnie robicie?",
-            "a": "Naszym celem jest utrzymanie Rocky Linux jako dystrybucji zorientowanej na społeczność <0>przez</0> społeczność, <1>dla</1> społeczności. Aby tego dokonać, tworzymy niezbędne struktury organizacyjne, które zapewnią, że Rocky Linux pozostanie w rękach społeczności. Chcemy się upewnić, że nie jest możliwe, aby to, co stało się z CentOS-em, stało się z Rocky Linux."
-        },
-        {
-            "q": "Jak zamierzacie zapewnić, że Rocky Linux rzeczywiście pozostanie społecznościowym systemem operacyjnym dla biznesu?",
+            "q": "Jak zamierzacie zadbać, aby Rocky Linux rzeczywiście pozostał społecznościowym systemem operacyjnym dla biznesu?",
             "a": "Po pierwsze, podjęliśmy kroki w celu prawnej ochrony nazwy Rocky Linux. Oznacza to rejestrację znaków towarowych i różnych powiązanych z nimi właściwości w celu zabezpieczenia ich przed przejęciem kontroli przez inny podmiot. Osiągnęliśmy to poprzez zarejestrowanie ich dla Fundacji Rocky Enterprise Software Foundation (RESF). Następnie przygotowujemy statut społeczności, który określi strukturę organizacyjną, cele, wartości i misję podmiotu prawnego, który reprezentuje Rocky Linux. Kluczowe w tym statucie jest ustanowienie zasad, które umożliwiają i chronią społeczność: przejrzystość, zaangażowanie społeczności, otwarty rozwój i niezależność. <0> Rocky Linux nigdy nie będzie kontrolowany, wykupiony ani w żaden inny sposób uzależniony od jednego podmiotu lub organizacji. </0> Wreszcie, tworzymy i wdrażamy niezbędną infrastrukturę, aby umożliwić społeczności dalszy wkład w rozwój Rocky Linux."
         },
         {
-            "q": "Jaka infrastruktura jest niezbędna, aby umożliwić funkcjonowanie społeczności?",
-            "a": {
-                "p": [
-                "Utworzyliśmy kilka zespołów, które wspierają różne działania związane z rozwojem Rocky Linux:",
-                "Więcej o tej strukturze będzie można przeczytać, gdy zostanie ona wkrótce opublikowana. Aby umożliwić współpracę pomiędzy tymi zespołami, musieliśmy wdrożyć naszą własną infrastrukturę czatu, fora i stronę internetową. Dodatkowo, tworzymy również naszą infrastrukturę budowania, która ułatwi rozwój głównego systemu operacyjnego."
-                ],
-                "list": [
-                    "Społeczność",
-                    "Infrastruktura podstawowa",
-                    "Design",
-                    "Dokumentacja",
-                    "Instalator",
-                    "Przywództwo",
-                    "Auto-Budowa Pakietów",
-                    "Pakiety",
-                    "Bezpieczeństwo",
-                    "Grupy Specjalnego Zainteresowania (SIG)",
-                    "Strona internetowa"
-                ]
-            }
+            "q": "Czy mogę używać wersji testowych na produkcji?",
+            "a": "W żadnym wypadku nie należy używać wersji testowych (kandydatów do wydań) w środowisku produkcyjnym. Wersja testowa jest udostępniana wyłącznie do celów testowania i sprawdzania poprawności działania."
         },
         {
-            "q": "Dlaczego tworzenie społeczności i budowanie infrastruktury zajmuje tak wiele czasu?",
-            "a": "Nie jest strasznie trudno wdrożyć stronę internetową, fora, czy zbudować infrastrukturę w niezawodny sposób. Na przykład nasz program czatu, który używa Mattermost, jest rozproszony na kilku serwerach aplikacji za load balancerem i był gotowy w ciągu zaledwie kilku tygodni. Ale wymaga to starannego przemyślenia i zaplanowania, aby zrobić to w sposób skalowalny i bezpieczny, gdy trzeba zapewnić agnostyczność dostawców i platform oraz długoterminowe zaangażowanie społeczności."
-        },
-        {
-            "q": "Więc jaka jest krótka odpowiedź na to wszystko? O jakich rzeczach myślisz, gdy kompletujecie Rocky Linuxa?",
+            "q": "Jak można to wszystko podsumować? O jakich rzeczach myślisz, gdy kompletujecie Rocky Linuxa?",
             "a": "Jak ostrożnie zarządzać zaufaniem społeczności? Jak sprawić, by każdy, kto chce uczestniczyć w projekcie, mógł to zrobić nie tylko natychmiast, ale także na zawsze w przyszłości? W jaki sposób zaangażujemy i umożliwimy działanie tym członkom społeczności, którzy mogą nie być tak zaawansowani technicznie, ale i tak chcą wnieść swój wkład? Rozwiązanie wszystkich tych problemów wymaga czasu i będziemy wdzięczni za pomoc w ich rozwiązaniu."
         },
         {
-            "q": "Co zrobić, jeśli mam uwagi lub na moje pytanie nie ma tutaj odpowiedzi?",
+            "q": "Co zrobić, jeżeli mam uwagi lub na moje pytanie nie ma tutaj odpowiedzi?",
             "a": "Proszę napisać do nas e-mail: <0>hello@rockylinux.org</0> a my odezwiemy się do Ciebie tak szybko, jak tylko będziemy mogli."
         }
     ]
