@@ -1,8 +1,8 @@
 {
   "language": "pl",
   "copyright": {
-    "line1": "© 2021 Projekt Rocky Linux. Wszelkie prawa zastrzeżone.",
-    "line2": "CentOS jest zastrzeżonym znakiem towarowym Red Hat, Inc. Projekt Rocky Linux nie jest powiązany, ani wsparty przez Red Hat, Inc."
+    "line1": "© 2021 Rocky Enterprise Software Foundation. Wszelkie prawa zastrzeżone.",
+    "line2": "Red Hat oraz CentOS są zastrzeżonymi znakami towarowymi należącymi do Red Hat, Inc. lub jej spółek zależnych w Stanach Zjednoczonych i innych krajach. Nie jesteśmy powiązani, popierani ani sponsorowani przez Red Hat ani CentOS Project."
   },
   "errors": {
     "404": {
@@ -26,18 +26,21 @@
     "sponsors": "Sponsorzy",
     "partners": "Partnerzy",
     "status": "Status usług",
+    "errata": "Komunikaty Bezpieczeństwa",
     "donate": "Darowizna",
     "store": "Sklep",
     "press": "Prasa",
     "download": "Pobieranie",
     "com_charter": "Statut Społeczności",
-    "org_structure": "Struktura organizacji",
+    "org_structure": "Struktura Organizacji",
     "privacy": "Polityka Prywatności",
     "news": "Nowości",
     "wiki": "Wiki",
     "forums": "Forum",
     "see-all": "Zobacz Wszystko",
     "see-more": "Zobacz Więcej"
+    "backed": "Wspierani Przez",
+    "providers": "Zapewniający Wsparcie"
   },
   "socials": {
     "forums": "Forum",
