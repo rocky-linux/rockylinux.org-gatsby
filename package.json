@@ -8,6 +8,7 @@
     "@headlessui/react": "^1.4.0",
     "gatsby": "^3.11.1",
     "gatsby-image": "^3.11.0",
+    "gatsby-plugin-fathom": "^2.1.1",
     "gatsby-plugin-feed": "^3.11.0",
     "gatsby-plugin-manifest": "^3.11.0",
     "gatsby-plugin-offline": "^4.11.0",
