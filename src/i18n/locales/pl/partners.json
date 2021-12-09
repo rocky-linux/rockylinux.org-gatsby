@@ -1,51 +1,51 @@
 {
-    "title": "Partners",
-    "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+    "title": "Partnerzy",
+    "description": "Partnerzy RESF reprezentują trwałe relacje o strategicznym znaczeniu dla projektu Rocky Linux. Poprzez poświęcenie wiedzy inżynierskiej, zasobów infrastrukturalnych lub innych środków, ich wsparcie jest kluczowe dla naszego ciągłego sukcesu i długoterminowej stabilności.",
     "partners": [
         {
             "name": "CIQ",
-            "grade": "Founding Partner",
-            "description": "We believe in helping people to do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+            "grade": "Partner założycielski",
+            "description": "Wierzymy w to, że pomagamy ludziom robić wspaniałe rzeczy. Dlatego CIQ jest partnerem-założycielem RESF. Zapewniamy komercyjne wsparcie i usługi dla systemu Rocky Linux klientom z ośrodków badawczych, akademickich, rządowych, przedsiębiorstw, partnerom i wszystkim innym."
         },
         {
             "name": "NAVER Cloud",
-            "grade": "Principal Partner",
-            "description": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+            "grade": "Główny Partner",
+            "description": "NAVER Cloud Platform to południowokoreańska usługa w chmurze, która rozpoczęła działalność w 2017 roku w ramach NAVER Cloud, spółki zależnej firmy NAVER. Zapewnia ponad 170 indywidualnych usług w 2021 roku i posiada różne certyfikaty bezpieczeństwa, w tym CSA STAR GOLD, GDPR i inne. Obecnie świadczy również usługi w chmurze w 10 lokalizacjach na całym świecie."
         },
         {
             "name": "Mattermost",
-            "grade": "Principal Partner",
-            "description": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+            "grade": "Główny Partner",
+            "description": "Mattermost to rozwiązanie open source do obsługi wiadomości, stworzone dla organizacji o najwyższych wymaganiach w zakresie bezpieczeństwa. Jako wielcy zwolennicy otwartego oprogramowania, Mattermost jest zachwycony współpracą z RESF w celu udostępnienia społeczności technicznej dystrybucji systemu Linux klasy korporacyjnej."
         },
         {
             "name": "Fosshost",
-            "grade": "Principal Partner",
-            "description": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+            "grade": "Główny Partner",
+            "description": "Fosshost (UK CIC #13356530) oferuje darmowy hosting internetowy klasy enterprise oraz usługi zarządzane wyłącznie dla społeczności FOSS. Naszą misją jest wzmocnienie i wsparcie każdego projektu wolnego oprogramowania i oprogramowania open-source. Aby razem iść dalej. Nasza praca nigdy się nie kończy. Zapraszamy do wzięcia udziału już dziś!"
         },
         {
             "name": "Arm",
-            "grade": "Principal Partner",
-            "description": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+            "grade": "Główny Partner",
+            "description": "Firma Arm jest zobowiązana do zapewnienia, że jej architektura będzie doskonałym przykładem dla systemu Rocky Linux już od pierwszego dnia pracy. Nawiązaliśmy współpracę z RESF, zapewniając dedykowane wysiłki inżynierskie, które uzupełnią zespoły opracowujące i testujące Rocky Linux, ściśle współpracując w celu testowania, walidacji i wspierania ARM teraz i w przyszłości."
         },
         {
             "name": "Fastly",
-            "grade": "Principal Partner",
-            "description": "Fastly’s edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers’ applications as close to their end-users as possible — at the edge of the internet."
+            "grade": "Główny Partner",
+            "description": "Platforma chmury brzegowej Fastly umożliwia klientom tworzenie wspaniałych doświadczeń cyfrowych szybko, bezpiecznie i niezawodnie poprzez przetwarzanie, obsługę i zabezpieczanie aplikacji naszych klientów tak blisko ich użytkowników końcowych, jak to możliwe - na brzegu Internetu."
         },
         {
             "name": "OSU Open Source Labs",
-            "grade": "Principal Partner",
-            "description": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+            "grade": "Główny Partner",
+            "description": "Oregon State University Open Source Lab jest organizacją non-profit działającą na rzecz rozwoju technologii open source. OSL oferuje światowej klasy usługi hostingowe, profesjonalny rozwój oprogramowania i szkolenia w terenie dla obiecujących studentów zainteresowanych zarządzaniem i programowaniem open source."
         },
         {
             "name": "Supermicro",
-            "grade": "Principal Partner",
-            "description": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+            "grade": "Główny Partner",
+            "description": "Jako światowy lider w dziedzinie wysokowydajnych, wysoce efektywnych technologii serwerowych i innowacji, Supermicro jest podekscytowane możliwością współpracy z RESF i dostarczenia serwerów centrów danych oraz systemów pamięci masowej zoptymalizowanych dla Rocky Linux."
         },
         {
             "name": "Equinix",
-            "grade": "Principal Partner",
-            "description": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+            "grade": "Główny Partner",
+            "description": "Equinix jest światową firmą zajmującą się infrastrukturą cyfrową. Liderzy cyfrowi wykorzystują naszą zaufaną platformę do łączenia i integracji infrastruktury fundacyjnej, która napędza ich sukces."
         }
     ]
 }
