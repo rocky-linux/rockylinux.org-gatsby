@@ -1,12 +1,12 @@
 {
-    "title": "Support Providers",
-    "description": "Rocky Linux is commercially supported by CIQ, our founding partner and sponsor, as well as other non-affiliated companies.",
+    "title": "Podmioty Udzielające Wsparcia",
+    "description": "Rocky Linux jest wspierany komercyjnie przez CIQ, naszego partnera-założyciela i sponsora, jak również przez inne firmy, które nie są z nami związane.",
     "providers": [
         {
             "name": "CIQ",
-            "grade": "Founding Sponsor",
-            "description": "We believe in helping people to do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+            "grade": "Sponsor Założyciel",
+            "description": "Wierzymy w to, że pomagamy ludziom robić wspaniałe rzeczy. Właśnie dlatego CIQ jest sponsorem założycielem RESF. Zapewniamy komercyjne wsparcie i usługi dla systemu Rocky Linux klientom z ośrodków badawczych, akademickich, rządowych, przedsiębiorstw, partnerom i wszystkim innym."
         }
     ],
-    "get-onboard": "Interested in getting listed on this page? Send an email to hello@rockylinux.org."
+    "get-onboard": "Chcesz, aby Twoja firma znalazła się na tej stronie? Wyślij wiadomość e-mail na adres hello@rockylinux.org."
 }
