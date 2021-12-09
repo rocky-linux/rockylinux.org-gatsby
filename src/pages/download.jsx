@@ -11,7 +11,7 @@ import { LocalizedLink } from 'gatsby-theme-i18n';
 
 const DownloadPage = ({ pageContext }) => {
   const translate = Translate('download');
-  const handleDownload = useGoal('ZKSYYLWD')
+  const handleDownload = useGoal('ZKSYYLWD');
 
   return (
     <Layout>
