@@ -75,7 +75,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.5-x86_64-minimal.iso"
-                      onclick="fathom.trackGoal('ZKSYYLWD', 0);"
+                      onClick="fathom.trackGoal('ZKSYYLWD', 0);"
                     >
                       Minimal
                     </a>{' '}
@@ -83,7 +83,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.5-x86_64-dvd1.iso"
-                      onclick="fathom.trackGoal('ZKSYYLWD', 0);"
+                      onClick="fathom.trackGoal('ZKSYYLWD', 0);"
                     >
                       DVD
                     </a>{' '}
@@ -91,7 +91,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.5-x86_64-boot.iso"
-                      onclick="fathom.trackGoal('ZKSYYLWD', 0);"
+                      onClick="fathom.trackGoal('ZKSYYLWD', 0);"
                     >
                       Boot
                     </a>{' '}
@@ -127,7 +127,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.5-aarch64-minimal.iso"
-                      onclick="fathom.trackGoal('ZKSYYLWD', 0);"
+                      onClick="fathom.trackGoal('ZKSYYLWD', 0);"
                     >
                       Minimal
                     </a>{' '}
@@ -135,7 +135,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.5-aarch64-dvd1.iso"
-                      onclick="fathom.trackGoal('ZKSYYLWD', 0);"
+                      onClick="fathom.trackGoal('ZKSYYLWD', 0);"
                     >
                       DVD
                     </a>{' '}
@@ -143,7 +143,7 @@ const DownloadPage = ({ pageContext }) => {
                     <a
                       className="font-medium text-green-600 dark:text-green-500"
                       href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.5-aarch64-boot.iso"
-                      onclick="fathom.trackGoal('ZKSYYLWD', 0);"
+                      onClick="fathom.trackGoal('ZKSYYLWD', 0);"
                     >
                       Boot
                     </a>{' '}
