@@ -1,5 +1,5 @@
 import React from 'react';
-import { Translate } from '../i18n/utils/translate';
+import { Translate, Trans } from '../i18n/utils/translate';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -309,6 +309,18 @@ const Partners = ({ data, pageContext: { locale: language } }) => {
                 </a>
               </div>
             </div>
+          </div>
+          <div className="flex items-center justify-center mt-10 mb-4">
+              <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
+                <Trans t={translate} i18nKey="invitation">
+                    <a
+                      className="text-green-600 dark:text-green-500 font-medium"
+                      href="mailto:partners@resf.org"
+                    >
+                      partners@resf.org
+                    </a>
+                </Trans>
+              </p>
           </div>
         </div>
       </main>

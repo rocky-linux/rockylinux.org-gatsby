@@ -1,6 +1,7 @@
 {
     "title": "Partners",
     "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+    "invitation": "Interested in getting list on this page? Reach out to <0>partners@resf.org</o>.",
     "partners": [
         {
             "name": "CIQ",
