@@ -73,11 +73,6 @@ const Providers = ({ data, pageContext: { locale: language } }) => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center mt-2 mb-4">
-          <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-            {translate('get-onboard')}
-          </p>
-        </div>
       </main>
       <Footer pageContext="{locale: language}" />
     </Layout>
