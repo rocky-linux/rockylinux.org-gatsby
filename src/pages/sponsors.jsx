@@ -304,16 +304,16 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
             </div>
           </div>
           <div className="flex items-center justify-center mt-10 mb-4">
-              <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
-                <Trans t={translate} i18nKey="invitation">
-                    <a
-                      className="text-green-600 dark:text-green-500 font-medium"
-                      href="mailto:sponsors@resf.org"
-                    >
-                      sponsors@resf.org
-                    </a>
-                </Trans>
-              </p>
+            <p className="text-base text-gray-700 dark:text-gray-300 md:text-lg sm:px-4">
+              <Trans t={translate} i18nKey="invitation">
+                <a
+                  className="text-green-600 dark:text-green-500 font-medium"
+                  href="mailto:sponsors@resf.org"
+                >
+                  sponsors@resf.org
+                </a>
+              </Trans>
+            </p>
           </div>
         </div>
       </main>
