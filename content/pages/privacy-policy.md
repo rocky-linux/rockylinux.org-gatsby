@@ -4,7 +4,7 @@ description: 'Last Updated: April 27th, 2021'
 posttype: 'page'
 ---
 
-Last Updated: April 27th, 2021
+Last Updated: December 9th, 2021
 
 This Privacy Policy describes the information we collect from you, how we use that information and our legal basis for doing so. This Privacy Policy applies to the information that we obtain through your use of Rocky Enterprise Software Foundation websites, and services, including its subdomains chat.rockylinux.org, wiki.rockylinux.org, git.rockylinux.org, pm.rockylinux.org, etc. (collectively, the "Services"), and about our volunteers, sponsors, partners, and users.
 
@@ -20,7 +20,7 @@ Unless explicitly noted, this Privacy Policy does not cover 3rd party services o
 
 ## What Data Do We Collect and Receive?
 
-In order for us to both provide and maintain our Services, we collect certain information, including through [Matomo](https://matomo.org) for analytics on our websites. Depending on your use of the Services, we may collect the following information:
+In order for us to both provide and maintain our Services, we collect certain information, including through [Fathom](https://usefathom.com) for analytics on our websites. You may view the analytics we collect for this website [here](https://app.usefathom.com/share/qdepahys/website), as well as our documentation website [here](https://app.usefathom.com/share/ktsptdwy/documentation). Depending on your use of the Services, we may collect the following information:
 
 - **Information you provide when you contact us** – for example, when you ask for support, send us questions or comments, or report a problem, we will collect any information you provide to us, at a minimum including your email address, and message. We use this data in connection with answering the queries we receive.
 
