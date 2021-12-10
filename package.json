@@ -26,6 +26,7 @@
     "gatsby-transformer-remark": "^4.8.0",
     "gatsby-transformer-sharp": "^3.11.0",
     "i18next": "^20.4.0",
+    "jetbrains-mono": "^1.0.6",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "postcss": "^8.3.6",
