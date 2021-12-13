@@ -8,6 +8,14 @@
     "dateFormat": "MM/DD/YYYY"
   },
   {
+    "code": "fi",
+    "hrefLang": "fi-FI",
+    "name": "Finnish",
+    "localName": "Suomi",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
+  },
+  {
     "code": "tr",
     "hrefLang": "tr",
     "name": "Turkish",
