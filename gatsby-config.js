@@ -145,6 +145,7 @@ module.exports = {
           debug: process.env.NODE_ENV === 'development',
           supportedLngs: [
             'en',
+            'fi',
             'tr',
             'es',
             'nl',
