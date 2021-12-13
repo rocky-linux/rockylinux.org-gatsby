@@ -1,0 +1,37 @@
+{
+    "title": "Usein kysytyt kysymykset",
+    "questions": [
+        {
+            "q": "Mistä voin ladata ISO-kuvan?",
+            "a": "<0>https://rockylinux.org/download<0>"
+        },
+        {
+            "q": "Kuinka voin auttaa jakamaan nykyisiä ja tulevia Rocky Linux -julkaisuja toisiopalvelimella?",
+            "a": "Ilmoita kiinnostuksestasi sähköpostitse <0>mirrors@rockylinux.org</0>."
+        },
+        {
+            "q": "Törmäsin virheeseen Rocky Linuxia testatessa, mitä voin tehdä?",
+            "a": "Luo ensin tili käyttämällä <0>Rocky Linux Account Services</0>-palvelua ja siirry sitten <1>Bugzilla-palveluun</1> raportoimaan virheestä."
+        },
+        {
+            "q": "Kuinka voin osallistua Testing-tiimiin?",
+            "a": "Liity <0>~Testing</0>-kanavalle Mattermost-palvelussamme aloittaaksesi. Foorumilla on myös Testing-aihe pitkäkestoisempaan keskusteluun."
+        },
+        {
+            "q": "Mistä löydän viimeisimmät uutiset Rocky Linuxista?",
+            "a": "Pysy kuulolla verkkosivuillamme, foorumillamme, Twitterissä, LinkedInissä ja muilla linkkihakemistossamme luetelluilla alustoilla saadaksesi uusimmat tiedotteet ja uutiset."
+        },
+        {
+            "q": "Kuinka aiotte varmistaa, että Rocky Linux pysyy yhteisön käyttöjärjestelmänä?",
+            "a": "Ensinnäkin olemme ryhtyneet toimiin suojellaksemme Rocky Linux nimeä laillisesti. Tämä tarkoittaa sen tavaramerkkien ja erilaisten niihin liittyvien tarpeistojen rekisteröintiä suojataksemme niitä toisen tahon hallinnalta. Olemme saavuttaneet tämän sijoittamalla niiden oikeudet Rocky Enterprise Software Foundationille(RESF). Seuraavaksi laadimme yhteisön peruskirjan, jossa määritellään organisaatiorakenne, tavoitteet, arvot ja tehtävä Rocky Linuxia edustavan oikeushenkilön takana. Kriittinen tässä peruskirjassa on sellaisten periaatteiden vahvistaminen, jotka mahdollistavat ja suojelevat yhteisöä: läpinäkyvyys, yhteisön osallistuminen, avoin kehitys ja riippumattomuus. <0> Rocky Linuxia ei koskaan hallita, osteta tai muutoin vaikuteta yhden tahon tai organisaation toimesta. </0> Lopuksi suunnittelemme ja otamme käyttöön tarvittavan infrastruktuurin mahdollistaaksemme yhteisön osallistua Rocky Linuxiin."
+        },
+        {
+            "q": "Joten mikä on lyhyt vastaus tähän kaikkeen? Mitä asioita ajattelette kun teette Rocky Linuxia yhdesssä?",
+            "a": "Kuinka ohjaamme ja pidämme yllä yhteisön luottamusta? Miten varmistamme, että jokainen, joka haluaa osallistua, voi tehdä sitä paitsi nyt myös tulevaisuudessa? Kuinka saamme osallistumaan ja mahdollistamme yhteisön jäsenten, jotka eivät ehkä ole niin teknisiä, myös osallistua? Kaikien näiden haasteiden ratkaiseminen vie aikaa, ja toivoisimme apuasi tässä."
+        },
+        {
+            "q": "Entä jos haluan antaa palautetta tai kysymykseeni ei vastattu tässä?",
+            "a": "Lähetä meille sähköpostia osoitteeseen: <0>hello@rockylinux.org</0>, niin otamme sinuun yhteyttä mahdollisimman pian."
+        }
+    ]
+}

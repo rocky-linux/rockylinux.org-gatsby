@@ -1,0 +1,26 @@
+{
+  "faq": {
+    "a": {
+      "come-in": "Rocky Linux pyrkii toimimaan loppupään koontiversiona, kuten CentOS oli aiemmin, rakentaen julkaisuja sen jälkeen, kun alkupään toimittaja on lisännyt ne, ei ennnen.",
+      "downstream-partner-direction": "CentOS-projekti ilmoitti äskettäin muutoksesta CentOS:n strategiassa. Aiemmin CentOS oli olemassa alkupään toimittajansa loppupään koontiversiona (se vastaanottaa korjauksia ja päivityksiä alkupään toimijan jälkeen). Nyt se kuitenkin siirtyy loppupään koontiversiosta alkupään koontiversioksi (eli siinä testataan korjaukset ja päivitykset ennen niiden sisällyttämistä, entisen alkupään nykyisen, loppupään jakeluun). Lisäksi CentOS Linux 8:n tuki on katkaistu 31. joulukuuta 2021 eteenpäin, kun alunperin tukiajan piti jatkua 31. joulukuuta 2029 asti."
+    },
+    "q": {
+      "come-in": "Joten mihin Rocky Linux pyrkii?",
+      "downstream-partner-direction": "Mitä tarkoitat, \"sen alavirran kumppani on muuttanut suuntaa\"?"
+    },
+    "title": "Usein kysytyt kysymykset"
+  },
+  "landing": {
+    "p1": {
+      "content": "Yhteisövetoinen pyrkimys tuoda sinulle yritystason, tuontantovalmis Linux.",
+      "heading": "Rocky Linux"
+    },
+    "p2": {
+      "content": "Rocky Linux on yhteisön yritystasoinen käyttöjärjestelmä, joka on suunniteltu 100% yksi yhteen -yhteensopivaksi Amerikan kärki yritystason Linux-jakelun kanssa, nyt kun sen alavirran kumppani on muuttanut suuntaa. Yhteisö kehittää sitä intensiivisesti. Rocky Linuxia tehdään Gregory Kurtzerin, CentOS-projektin perustajan, johdolla. Projektin edistämisestä kiinnostuneita pyydetään ottamaan yhteyttä käyttämällä tällä sivustolla olevia viestintäkanavia.",
+      "heading": "Mikä on Rocky Linux -projekti?"
+    }
+  },
+  "links": {
+    "join-the-discussion": "Liity keskusteluun"
+  }
+}

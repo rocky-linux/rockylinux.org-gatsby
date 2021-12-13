@@ -1,0 +1,19 @@
+{
+    "title": "Ladattavat",
+    "description": "Lataa Rocky Linuxin virallinen julkaisu yhdeltä luotetuista toisiopalvelimistamme.",
+    "notInProduction": "Tästä ladattava julkaisu on <0>Julkaisuehdokas</0>, eikä sitä tule käyttää tuotannossa. Katso lisätietoja <1>UKK:sta</1>.",
+    "table": {
+        "heading": [
+            "Arrkkitehtuuri",
+            "ISOt",
+            "Paketit"
+        ]
+    },
+    "docs": "Dokumentaatio",
+    "report": "Raportoi virheestä",
+    "keys": "Avaimet",
+    "invitation": "Kun lataat ja käytät Rocky Linuxia, Rocky Enterprise Software Foundation kutsuu sinut <0>jäseneksi yhteisöön avustajana</0> . On monia tapoja avustaa projektia dokumentoinnista, laadunvarmistuksesta ja testauksesta, ohjelmoinnista SIG-ryhmissä, toisiopalvelimen tai isännöin tarjoamiseen ja muiden käyttäjien auttamiseen.",
+    "eol": "RL8 tuen päättymispäivä",
+    "ami": "AMI-lista",
+    "alternative": "Vaihtoehtoiset levykuvat"
+}

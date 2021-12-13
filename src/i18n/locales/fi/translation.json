@@ -1,0 +1,64 @@
+{
+  "language": "fi",
+  "copyright": {
+    "line1": "© 2021 Rocky Enterprise Software Foundation. Kaikki oikeudet pidätetään.",
+    "line2": "Red Hat ja CentOS ovat Red Hat, Inc.:n tai sen tytäryhtiöiden tavaramerkkejä tai rekisteröityjä tavaramerkkejä Yhdysvalloissa ja muissa maissa.  Emme ole sidoksissa Red Hatiin tai CentOS-projektiin, emmekä niiden tukemia tai sponsoroimia."
+  },
+  "errors": {
+    "404": {
+      "explanation": "Pyydettyä resurssia ei löytynyt. Yritä uudelleen.",
+      "title": "Sivua ei löytynyt."
+    }
+  },
+  "lang": {
+    "footer": {
+      "choose-language": "Valitse kieli..."
+    }
+  },
+  "links": {
+    "close-menu": "Sulje valikko",
+    "documentation": "Dokumentaatio",
+    "get-in-touch": "Ota yhteyttä",
+    "get-involved": "Osallistu",
+    "go-home": "Mene kotisivulle",
+    "posts": "Uutiset",
+    "show-your-interest": "Näytä kiinnostuksesi",
+    "sponsors": "Sponsorit",
+    "partners": "Kumppanit",
+    "status": "Palvelujen tila",
+    "errata": "Virheenkorjaukset",
+    "donate": "Lahjoita",
+    "store": "Kauppa",
+    "press": "Mediassa",
+    "download": "Lataa",
+    "com_charter": "Yhteisön peruskirja",
+    "org_structure": "Organisaatiorakenne",
+    "privacy": "Tietosuojakäytäntö",
+    "news": "Uutiset",
+    "wiki": "Wiki",
+    "forums": "Foorumi",
+    "see-all": "Katso kaikki",
+    "see-more": "Katso lisää",
+    "backed": "Tukijat",
+    "providers": "Tuen tarjoajat"
+  },
+  "socials": {
+    "forums": "Foorumi",
+    "github": "GitHub",
+    "reddit": "Reddit",
+    "mattermost": "Mattermost",
+    "twitter": "Twitter"
+  },
+  "news": {
+    "title": "Uutiset",
+    "description": "Pysy ajan tasalla Rocky Linux -projektin asioista."
+  },
+  "press": {
+    "title": "Mediassa",
+    "description": "Katso viimeisimmät Rockysta mediassa."
+  },
+  "sponsors": {
+    "title": "Sponsorit",
+    "description": "Haluamme kiittää sponsoreitamme heidän tuestaan projektille."
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Vaihtoehtoiset levykuvat",
+    "description": "Tällä sivulla olevat levykuvat ovat virallisesti saatavilla yhdeltä luotetuista toisiopalvelimistamme, mutta niitä ei tueta virallisesti.",
+    "table": {
+        "heading": [
+            "Arkkitehtuuri",
+            "Lataa",
+            "Tarkistussumma",
+            "Työpöytäympäristö"
+        ]
+    },
+    "alt-archs": "Vaihtoehtoiset arkkitehtuurit",
+    "live-images": "Livelevykuvat",
+    "docs": "Dokumentaatio",
+    "report": "Raportoi virheestä",
+    "keys": "Avaimet",
+    "eol": "RL8 tuen päättymispäivä"
+}
