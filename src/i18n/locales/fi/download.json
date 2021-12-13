@@ -4,8 +4,8 @@
     "notInProduction": "Tästä ladattava julkaisu on <0>Julkaisuehdokas</0>, eikä sitä tule käyttää tuotannossa. Katso lisätietoja <1>UKK:sta</1>.",
     "table": {
         "heading": [
-            "Arrkkitehtuuri",
-            "ISOt",
+            "Arkkitehtuuri",
+            "Levykuvat",
             "Paketit"
         ]
     },

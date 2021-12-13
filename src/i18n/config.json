@@ -13,7 +13,7 @@
     "name": "Finnish",
     "localName": "Suomi",
     "langDir": "ltr",
-    "dateFormat": "DD/MM/YYYY"
+    "dateFormat": "DD.MM.YYYY"
   },
   {
     "code": "tr",
