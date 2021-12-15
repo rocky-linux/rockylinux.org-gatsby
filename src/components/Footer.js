@@ -272,7 +272,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
               </fieldset>
             </form>
             <a
-              href="https://crowdin.com/project/rockylinuxorg"
+              href="https://crwd.in/rockylinuxorg"
               className="mt-2 flex items-center"
             >
               <ExternalLinkIcon className="h-5 w-5 text-green-500" />
