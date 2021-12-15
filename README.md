@@ -6,6 +6,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+[![Crowdin](https://badges.crowdin.net/rockylinuxorg/localized.svg)](https://crowdin.com/project/rockylinuxorg)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/rocky-linux/rockylinux.org/main.svg)](https://results.pre-commit.ci/latest/github/rocky-linux/rockylinux.org/main)
 
