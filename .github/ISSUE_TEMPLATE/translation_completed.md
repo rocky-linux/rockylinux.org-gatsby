@@ -1,7 +1,7 @@
 ---
 name: Translation Completed
 about: You've translated 100% of the strings for your language and would like to add the language to the live site.
-title: ''
+title: 'Translation Completed: <INSERT LANGUAGE HERE>'
 labels: 'enhancement'
 assignees: ''
 ---
