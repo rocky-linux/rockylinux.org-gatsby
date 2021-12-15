@@ -45,4 +45,4 @@ Finally, you must understand & acknowledge that any changes you submit into our 
 
 ## Translations
 
-Translations should be submitted through [Crowdin](https://crowdin.com/project/rockylinuxorg), not through this repository. For documentation on Crowdin and how to contribute, please check out [their documentation](https://support.crowdin.com/crowdin-intro/). Any contributions not made with Crowdin will be rejected and this section will be referenced as the reason for such rejection.
+Translations should be submitted through [Crowdin](https://crwd.in/rockylinuxorg), not through this repository. For documentation on Crowdin and how to contribute, please check out [their documentation](https://support.crowdin.com/crowdin-intro/). Any contributions not made with Crowdin will be rejected and this section will be referenced as the reason for such rejection.
