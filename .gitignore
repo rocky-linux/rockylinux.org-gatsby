@@ -1,9 +1,18 @@
+# Created by https://www.toptal.com/developers/gitignore/api/react,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,node
+
+### Node ###
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
 pids
@@ -16,11 +25,12 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+*.lcov
 
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -29,15 +39,18 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
+# Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
 node_modules/
 jspm_packages/
 
-# Typescript v1 declaration files
-typings/
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
 
 # Optional npm cache directory
 .npm
@@ -45,137 +58,90 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
 # Optional REPL history
 .node_repl_history
-
-package-lock.json
 
 # Output of 'npm pack'
 *.tgz
 
-# dotenv environment variable files
-.env*
-
-# gatsby files
-.cache/
-public
-
-# Mac files
-.DS_Store
-
-# Yarn
-yarn-error.log
-.pnp/
-.pnp.js
 # Yarn Integrity file
 .yarn-integrity
 
-### WebStorm ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# dotenv environment variables file
+.env
+.env.test
+.env.production
 
-# User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
 
-# Generated files
-.idea/**/contentModel.xml
+# Next.js build output
+.next
+out
 
-# Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+# Nuxt.js build / generate output
+.nuxt
+dist
 
-# Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+public
 
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-# .idea/artifacts
-# .idea/compiler.xml
-# .idea/jarRepositories.xml
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-# *.iml
-# *.ipr
+# vuepress build output
+.vuepress/dist
 
-# CMake
-cmake-build-*/
+# Serverless directories
+.serverless/
 
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
+# FuseBox cache
+.fusebox/
 
-# File-based project format
-*.iws
+# DynamoDB Local files
+.dynamodb/
 
-# IntelliJ
-out/
+# TernJS port file
+.tern-port
 
-# mpeltonen/sbt-idea plugin
-.idea_modules/
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
 
-# JIRA plugin
-atlassian-ide-plugin.xml
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
 
-# Cursive Clojure plugin
-.idea/replstate.xml
+### Node Patch ###
+# Serverless Webpack directories
+.webpack/
 
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
+# Optional stylelint cache
+.stylelintcache
 
-# Editor-based Rest Client
-.idea/httpRequests
+# SvelteKit build / generate output
+.svelte-kit
 
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
 
-### WebStorm Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+node_modules
 
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
+*.sublime*
 
-# Sonarlint plugin
-# https://plugins.jetbrains.com/plugin/7973-sonarlint
-.idea/**/sonarlint/
+psd
+thumb
+sketch
 
-# SonarQube Plugin
-# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
-.idea/**/sonarIssues.xml
-
-# Markdown Navigator plugin
-# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
-.idea/**/markdown-navigator.xml
-.idea/**/markdown-navigator-enh.xml
-.idea/**/markdown-navigator/
-
-# Cache file creation bug
-# See https://youtrack.jetbrains.com/issue/JBR-2257
-.idea/$CACHE_FILE$
-
-# CodeStream plugin
-# https://plugins.jetbrains.com/plugin/12206-codestream
-.idea/codestream.xml
-
-.idea/codeStyles/Project.xml
-
-package-lock.json
-yarn.lock
-
-.idea/inspectionProfiles/Project_Default.xml
+# End of https://www.toptal.com/developers/gitignore/api/react,node
