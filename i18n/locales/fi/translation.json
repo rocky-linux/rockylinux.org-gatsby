@@ -1,13 +1,13 @@
 {
   "language": "fi",
-  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
+  "js-warning": "Vaikuttaa siltä, että JavaScript on poistettu käytöstä selaimessasi. Vaikka useimmat verkkosivuston osat toimivat ilman JavaScriptiä, saatat kokea ei-toivottuja kokemuksia selatessa sivustoamme. Harkitse poikkeuksen tekemistä sivustollemme selaimesi asetuksissa.",
   "categories": {
     "news": "Uutiset",
     "about": "Tietoa",
     "community": "Yhteisö",
     "documentation": "Dokumentaatio",
-    "get-involved": "Get Involved",
-    "legal": "Legal",
+    "get-involved": "Osallistu",
+    "legal": "Lainopillinen",
     "language": "Kieli"
   },
   "about": {
@@ -21,7 +21,7 @@
     "support": "Tuen tarjoajat"
   },
   "community": {
-    "contribute": "Contribute",
+    "contribute": "Avustaminen",
     "forums": "Foorumi",
     "mailing": "Postituslista",
     "mattermost": "Mattermost",
@@ -34,7 +34,7 @@
   "documentation": {
     "wiki": "Wiki",
     "guides": "Oppaat",
-    "keys": "GPG Key Info"
+    "keys": "Tietoa GPG-avaimista"
   },
   "legal": {
     "licensing": "Lisensointi",
