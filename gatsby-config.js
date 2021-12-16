@@ -135,6 +135,7 @@ module.exports = {
       resolve: `gatsby-theme-i18n`,
       options: {
         defaultLang: `en`,
+        prefixDefault: false,
         configPath: require.resolve(`./i18n/config.json`),
       },
     },

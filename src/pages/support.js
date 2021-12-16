@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import { Translate } from '../../i18n/utils/translate';
 import CiqLogo from '../images/ciq.png';
 
-const SupportPage = () => {
+const SupportPage = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('support');
   const partners = [
     {
