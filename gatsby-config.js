@@ -127,7 +127,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-fathom',
       options: {
-	trackingUrl: 'img.rockylinux.org',
+        trackingUrl: 'img.rockylinux.org',
         siteId: 'QDEPAHYS',
       },
     },

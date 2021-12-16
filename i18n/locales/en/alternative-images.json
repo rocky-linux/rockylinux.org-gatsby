@@ -9,7 +9,8 @@
     "de": "Desktop Environment",
     "checksum": "Checksum",
     "arch": "Architecture",
-    "download": "Download"
+    "download": "Download",
+    "readme": "Readme"
   },
   "body": {
     "gnome": "GNOME (Workstation)",
@@ -18,7 +19,8 @@
     "x86_64": "x86_64",
     "arm": "aarch64",
     "checksum": "Checksum",
-    "download": "Download"
+    "download": "Download",
+    "readme": "Readme"
   },
   "links": {
     "cloud": "Cloud Images",

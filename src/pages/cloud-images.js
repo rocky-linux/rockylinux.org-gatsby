@@ -695,8 +695,8 @@ function CloudImagesPage() {
         title="Cloud Images"
         description="Find our official images from your favorite cloud provider."
       >
-        <div className="min-h-screen text-gray-900">
-          <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+        <div className="min-h-screen text-gray-900 overflow-auto">
+          <main className="max-w-4xl lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
             <div className="mt-4">
               <Table columns={columns} data={data} />
             </div>
