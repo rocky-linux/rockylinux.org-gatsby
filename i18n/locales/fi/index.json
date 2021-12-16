@@ -7,12 +7,12 @@
     "cta2": "Siirry"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
-    "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
+    "title": "Vankka, käyttötavasta riippumatta.",
+    "subtitle": "Vakaa, tuotantoon valmis Linux",
+    "description": "Rocky Linux uudelleen käännetään RHEL<0>&#174;</0>:n lähdekoodeista, joten voit olla varma, että sinulla on erittäin vakaa kokemus käyttötavasta riippumatta.",
     "1": {
-      "title": "Valmis tuotantoon",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "title": "Tuotantovalmis",
+      "description": "Rocky Linux on valmiina tuotantoon tarjoten vakautta säännöllisillä päivityksillä ja 10 vuoden tuella, maksutta."
     },
     "2": {
       "title": "Yhteisön tukema",
