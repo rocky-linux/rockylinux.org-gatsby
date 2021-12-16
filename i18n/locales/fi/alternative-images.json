@@ -9,7 +9,8 @@
     "de": "Työpöytäympäristö",
     "checksum": "Tarkistussumma",
     "arch": "Arkkitehtuuri",
-    "download": "Lataa"
+    "download": "Lataa",
+    "readme": "Readme"
   },
   "body": {
     "gnome": "GNOME (Workstation)",
@@ -18,7 +19,8 @@
     "x86_64": "x86_64",
     "arm": "aarch64",
     "checksum": "Tarkistussumma",
-    "download": "Lataa"
+    "download": "Lataa",
+    "readme": "Readme"
   },
   "links": {
     "cloud": "Pilvilevykuvat",
