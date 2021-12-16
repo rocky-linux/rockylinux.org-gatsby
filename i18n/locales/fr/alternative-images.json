@@ -9,7 +9,8 @@
     "de": "Environnement de bureau",
     "checksum": "Somme de contrôle",
     "arch": "Architecture",
-    "download": "Téléchargement"
+    "download": "Téléchargement",
+    "readme": "Readme"
   },
   "body": {
     "gnome": "GNOME (station de travail)",
@@ -18,7 +19,8 @@
     "x86_64": "x86_64",
     "arm": "aarch64",
     "checksum": "Somme de contrôle",
-    "download": "Téléchargement"
+    "download": "Téléchargement",
+    "readme": "Readme"
   },
   "links": {
     "cloud": "Images Cloud",
