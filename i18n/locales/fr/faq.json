@@ -1,9 +1,9 @@
 {
-  "title": "Frequently Asked Questions",
-  "description": "Below is a list of our most frequently asked questions.",
+  "title": "Questions fréquemments posés",
+  "description": "Vous trouverez ci-dessous une liste de nos questions les plus fréquemment posées.",
   "faq": {
     "1": {
-      "question": "How can I help mirror current and future Rocky Linux releases?",
+      "question": "Comment puis-je aider en hébergeant un miroir pour les versions actuelles et futures de Rocky Linux ?",
       "answer": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
     },
     "2": {
