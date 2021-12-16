@@ -1,6 +1,6 @@
 {
-  "title": "Support Providers",
-  "description": "Rocky Linux is commercially supported by CIQ, our founding partner and sponsor, as well as other non-affiliated companies.",
+  "title": "Tuen tarjoajat",
+  "description": "Rocky Linuxille kaupallista tukea antavat CIQ, taloudellinen kumppanimme ja sponsorimme, sekä muut ulkopuoliset yritykset.",
   "support": {
     "ciq": {
       "name": "CIQ",
