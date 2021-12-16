@@ -14,12 +14,13 @@ import {
   ExclamationCircleIcon,
 } from '@heroicons/react/outline';
 import { Link } from 'gatsby';
+import { LocalizedLink } from 'gatsby-theme-i18n';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-const DownloadPage = () => {
+const DownloadPage = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('download');
   const handleDownload = useGoal('ZKSYYLWD');
   const actions = [
@@ -233,11 +234,15 @@ const DownloadPage = () => {
                 </div>
                 <div className="mt-2">
                   <h3 className="text-lg font-medium">
-                    <Link to={action.href} className="focus:outline-none">
+                    <LocalizedLink
+                      to={action.href}
+                      language={language}
+                      className="focus:outline-none"
+                    >
                       {/* Extend touch target to entire panel */}
                       <span className="absolute inset-0" aria-hidden="true" />
                       {action.title}
-                    </Link>
+                    </LocalizedLink>
                   </h3>
                 </div>
                 <span

@@ -1,32 +1,34 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
-  "rl8": "Rocky Linux 8 (Current)",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
+  "title": "Obrazy Alternatywne",
+  "description": "Obrazy dostarczone na tej stronie są dostępne z jednego z naszych zaufanych serwerów lustrzanych, ale nie są oficjalnie wspierane.",
+  "rl8": "Rocky Linux 8 (Bieżący)",
+  "rl8-eol": "<0>Planowana data zakończenia wsparcia:</0> 31 maja 2029 r.",
   "desktop": "Desktop (SIG)",
-  "alt-arch": "Alternative Architectures (SIG)",
+  "alt-arch": "Architektury Alternatywne (SIG)",
   "headings": {
-    "de": "Desktop Environment",
-    "checksum": "Checksum",
-    "arch": "Architecture",
-    "download": "Download"
+    "de": "Środowisko Graficzne",
+    "checksum": "Suma kontrolna",
+    "arch": "Architektura",
+    "download": "Pobieranie",
+    "readme": "Readme"
   },
   "body": {
-    "gnome": "GNOME (Workstation)",
+    "gnome": "GNOME (Stacja robocza)",
     "xfce": "XFCE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
-    "checksum": "Checksum",
-    "download": "Download"
+    "checksum": "Suma kontrolna",
+    "download": "Pobieranie",
+    "readme": "Readme"
   },
   "links": {
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "cloud": "Obrazy w Chmurze",
+    "docs": "Dokumentacja",
+    "bug": "Zgłoś Błąd"
   },
   "get-involved": {
-    "heading": "Get Involved",
+    "heading": "Zaangażuj Się",
     "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {

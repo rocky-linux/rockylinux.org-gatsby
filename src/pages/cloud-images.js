@@ -7,7 +7,7 @@ import Table, { SelectColumnFilter } from '../components/Table';
 import Footer from '../components/Footer';
 import { Translate } from '../../i18n/utils/translate';
 
-function CloudImagesPage() {
+function CloudImagesPage({ pageContext: { locale: language } }) {
   const translate = Translate('cloud-images');
   const getData = () => [
     {
@@ -692,8 +692,8 @@ function CloudImagesPage() {
       <SEO title={translate('title')} />
       <Header pageContext="{locale: language}" />
       <PageHeader
-        title="Cloud Images"
-        description="Find our official images from your favorite cloud provider."
+        title={translate('title')}
+        description={translate('description')}
       >
         <div className="min-h-screen text-gray-900 overflow-auto">
           <main className="max-w-4xl lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">

@@ -166,6 +166,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                     <li key={item.name}>
                       <LocalizedLink
                         to={item.href}
+                        language={language}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
@@ -202,6 +203,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                     <li key={item.name}>
                       <LocalizedLink
                         to={item.href}
+                        language={language}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
@@ -219,6 +221,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                     <li key={item.name}>
                       <LocalizedLink
                         to={item.href}
+                        language={language}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}

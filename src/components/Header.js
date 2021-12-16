@@ -263,6 +263,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                               <LocalizedLink
                                 key={item.name}
                                 to={item.href}
+                                language={language}
                                 className="-m-3 p-3 block rounded-md hover:bg-gray-50"
                               >
                                 <p className="text-base font-medium text-gray-900">
@@ -283,7 +284,8 @@ const Header = ({ pageContext: { locale: language } }) => {
             </Popover.Group>
             <div className="flex items-center md:ml-12">
               <LocalizedLink
-                href="/download"
+                to="/download"
+                language={language}
                 className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
               >
                 {translate('download')}
@@ -341,6 +343,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <LocalizedLink
                       key={item.name}
                       to={item.href}
+                      language={language}
                       className="text-base font-medium text-gray-900 hover:text-gray-700"
                     >
                       {item.name}
@@ -359,6 +362,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                 <div className="mt-6">
                   <LocalizedLink
                     to="/download"
+                    language={language}
                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
                   >
                     {translate('download')}
