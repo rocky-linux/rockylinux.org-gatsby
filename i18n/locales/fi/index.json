@@ -1,6 +1,6 @@
 {
   "hero": {
-    "new": "What's New",
+    "new": "Mitä uutta",
     "title": "Enterprise Linux, the community way.",
     "description": "Rocky Linux on avoimen lähdekoodin yritystasoinen käyttöjärjestelmä, joka on suunniteltu 100% yksi yhteen -yhteensopivaksi Red Hat Enterprise Linuxin<0>&#174;</0> kanssa. Yhteisö kehittää sitä intensiivisesti.",
     "cta1": "Lataa",
@@ -15,7 +15,7 @@
       "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
     },
     "2": {
-      "title": "Community Supported",
+      "title": "Yhteisön tukema",
       "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
     },
     "3": {
@@ -29,8 +29,8 @@
   },
   "sponsors-partners": {
     "backed": "Tukijat",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "sponsors": "Kaikki sponsorit",
+    "partners": "Kaikki kumppanit",
+    "support": "Tuen tarjoajat"
   }
 }
