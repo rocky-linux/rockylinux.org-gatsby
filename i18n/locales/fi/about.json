@@ -2,12 +2,12 @@
   "title": "Kaikki alkoi blogikommentista.",
   "subtitle": "Historia",
   "content": {
-    "highlight": "8. joulukuuta 2020, Red Hat ilmoitti lopettavansa CentOSn kehittämisen, joka on ollut tuotantovalmis Red Hat Enterprise Linuxin loppupään koontiversio, ja kertoi käyttöjärjestelmän tilalle tulevan uudempi ylävirran kehitysversio nimeltään \"CentOS Stream\". Vastauksena tähän CentOSn alkuperäinen perustaja, Gregory Kurtzer, ilmoitti <0>kommettissaan CentOSn verkkosivustolla</0> aloittavansa uuden projektin saavuttaakseen CentOSn alkuperäiset tavoitteet. Sen nimi valittiin kunnianosoituksena CentOSn varhaiselle perustajajäsenelle Rocky McGaughille. Joulukuun 12. päivään mennessä Rocky Linuxin repositoriosta oli tullut GitHubin trendaavin repositorio.",
+    "highlight": "8. joulukuuta 2020, Red Hat ilmoitti lopettavansa CentOSn kehittämisen, joka on ollut tuotantovalmis Red Hat Enterprise Linuxin loppupään koontiversio, ja kertoi käyttöjärjestelmän tilalle tulevan uudempi ylävirran kehitysversio nimeltään \"CentOS Stream\". Vastauksena tähän CentOSn alkuperäinen perustaja, Gregory Kurtzer, ilmoitti <0>kommettissaan CentOSn verkkosivustolla</0> aloittavansa uuden projektin saavuttaakseen CentOSn alkuperäiset tavoitteet. Sen nimi valittiin kunnianosoituksena CentOSn varhaiselle perustajajäsenelle Rocky McGaughille. Joulukuun 12. päivään mennessä Rocky Linuxin koodivarastosta oli tullut GitHubin trendaavin koodivarasto.",
     "paragraph": "20. joulukuuta 2020, Rocky Linux ilmoitti, että tavoite ensimmäiselle julkaisulle oli maalis-toukokuussa 2021. 20. tammikuuta 2021, ilmoitettiin, että testipakettivarasto asetetaan yleisön saataville helmikuun loppuun mennessä ja että julkaisuehdokas oli tavoite julkaista maalikuun lopussa. Aikataulua kuitenkin lykättiin hieman ja 30. huhtikuuta 2021 ensimmäinen julkaisuehdokas julkaistiin virallisesti. Toinen julkaisuehdokas, viimeinen ennen version 8.4 vakaata julkaisua, julkaistiin 4. kesäkuuta 2021. 21. keskäkuuta 2021, julkaistiin vakaa julkaisu Rocky Linux 8.4 koodinimellä \"Green Obsidian\"."
   },
   "organization": {
     "heading": "Organisaatio",
-    "paragraph": "Rocky Linux -projektia isännöi Rocky Enterprise Foundation (RESF). Lisätietoja organisaatiorakenteesta saat aihetta käsittelevältä <0>sivuilta</0>."
+    "paragraph": "Rocky Linux -projektia isännöi Rocky Enterprise Foundation (RESF). Lisätietoja organisaatiorakenteesta saat aihetta käsittelevältä <0>sivulta</0>."
   },
   "quote": {
     "content": "Thinking back to early CentOS days... My cofounder was Rocky McGaugh. He is no longer with us, so as a H/T to him, who never got to see the success that CentOS came to be, I introduce to you...Rocky Linux.",
