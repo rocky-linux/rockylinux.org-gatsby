@@ -1,8 +1,8 @@
 {
-  "title": "It all started with a blog comment.",
-  "subtitle": "History",
+  "title": "这一切都始于一条博客评论。",
+  "subtitle": "历史",
   "content": {
-    "highlight": "On December 8, 2020, Red Hat announced that they would discontinue development of CentOS, which has been a production-ready downstream version of Red Hat Enterprise Linux, in favor of a newer upstream development variant of that operating system known as \"CentOS Stream\". In response, original founder of CentOS, Gregory Kurtzer, announced <0>via a comment on the CentOS website</0> that he would again start a project to achieve the original goals of CentOS. It's name was chosen as a tribute to early CentOS co-founder Rocky McGaugh. By December 12, the code repository of Rocky Linux had become the top-trending repository on GitHub.",
+    "highlight": "2020年12月8日，Red Hat公司宣布将停止开发CentOS，一个可用于生产环境的Red Hat Enterprise Linux下游版本。作为替代，Red Hat采用该操作系统较新的上游开发版本，称为 \"CentOS Stream\"。作为回应，CentOS的最初创始人Gregory Kurtzer通过</0>CentOS网站的评论</0>宣布，他将再次启动一个项目来实现CentOS的最初目标。而之所以命名为Eocky Linux，是为了向早期CentOS的联合创始人Rocky McGaugh致敬。截止到12月12日，Rocky Linux的代码库已经成为GitHub上最热门的代码库之一。",
     "paragraph": "On December 22, 2020, Rocky Linux announced that the target for an initial release was anywhere between March and May of 2021. On January 20, 2021, it was announced that a test repository would be made available to the public by the end of February, and a release candidate was on target for the end of March 2021. However, that date was slightly pushed back, and on April 30, 2021, the first release candidate was officially released. The second release candidate, of version 8.4, the last before the stable release, was released on June 4, 2021. On June 21, 2021, the stable release of Rocky Linux 8.4 was released, with the code name \"Green Obsidian\"."
   },
   "organization": {
