@@ -1,11 +1,11 @@
 {
-  "title": "Cloud Images",
+  "title": "Obrazy w Chmurze",
   "description": "Find our official images from your favorite cloud provider.",
   "headings": {
     "version": "OS Version",
     "provider": "Provider",
     "region": "Region",
-    "arch": "Architecture",
+    "arch": "Architektura",
     "id": "Image ID",
     "deploy": "Deploy Link"
   },

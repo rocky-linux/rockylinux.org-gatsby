@@ -1,36 +1,36 @@
 {
   "hero": {
-    "new": "What's New",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
-    "cta1": "Download",
-    "cta2": "Migrate"
+    "new": "Mitä uutta",
+    "title": "Enterprise Linux, yhteisön tavalla.",
+    "description": "Rocky Linux on avoimen lähdekoodin yritystasoinen käyttöjärjestelmä, joka on suunniteltu 100% yksi yhteen -yhteensopivaksi Red Hat Enterprise Linuxin<0>&#174;</0> kanssa. Yhteisö kehittää sitä intensiivisesti.",
+    "cta1": "Lataa",
+    "cta2": "Siirry"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
-    "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
+    "title": "Vankka, käyttötavasta riippumatta.",
+    "subtitle": "Vakaa, tuotantoon valmis Linux",
+    "description": "Rocky Linux uudelleen käännetään RHEL<0>&#174;</0>:n lähdekoodeista, joten voit olla varma, että sinulla on erittäin vakaa kokemus käyttötavasta riippumatta.",
     "1": {
-      "title": "Production Ready",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "title": "Tuotantovalmis",
+      "description": "Rocky Linux on valmiina tuotantoon tarjoten vakautta säännöllisillä päivityksillä ja 10 vuoden tuella, maksutta."
     },
     "2": {
-      "title": "Community Supported",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "title": "Yhteisön tukema",
+      "description": "Yhteisö, sponsorit ja kumppanit ovat investoineet pitkäaikaisilla sitoimuksilla varmistaakseen projektin jatkuvuus."
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "Helppo siirtyminen",
+      "description": "Siirry Rockyyn muista enteprise Linux-jakeluista vaivattomasti. Tarjoamme siirtoon helppokäyttöisen siirtoskriptin."
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "Uusimmat uutiset",
+    "description": "Jaamme yhteisön kanssa säännöllisesti päivityksiä tapahtumista. Tässä viimeisimmät."
   },
   "sponsors-partners": {
-    "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "backed": "Tukijat",
+    "sponsors": "Kaikki sponsorit",
+    "partners": "Kaikki kumppanit",
+    "support": "Tuen tarjoajat"
   }
 }
