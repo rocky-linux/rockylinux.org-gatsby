@@ -1,8 +1,8 @@
 {
   "title": "Pilvilevykuvat",
-  "description": "Find our official images from your favorite cloud provider.",
+  "description": "Löydä viralliset levykuvamme suosikkipilvipalveluntarjoajaltasi.",
   "headings": {
-    "version": "OS Version",
+    "version": "OS versio",
     "provider": "Tarjoaja",
     "region": "Alue",
     "arch": "Arkkitehtuuri",
