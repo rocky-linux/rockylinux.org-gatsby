@@ -18,7 +18,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-const AlternativeImagesPage = () => {
+const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('alternative-images');
   const actions = [
     {

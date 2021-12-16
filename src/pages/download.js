@@ -20,7 +20,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-const DownloadPage = () => {
+const DownloadPage = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('download');
   const handleDownload = useGoal('ZKSYYLWD');
   const actions = [
