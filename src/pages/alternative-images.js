@@ -98,7 +98,7 @@ const AlternativeImagesPage = () => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM"
+                            href="https://download.rockylinux.org/pub/rocky/8.5/Live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -106,7 +106,7 @@ const AlternativeImagesPage = () => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/Rocky-8.5-Workstation-20211114.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8.5/Live/x86_64/Rocky-8.5-Workstation-20211114.iso"
                           >
                             {translate('body.x86_64')}
                           </a>{' '}
@@ -126,7 +126,7 @@ const AlternativeImagesPage = () => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/CHECKSUM"
+                            href="https://download.rockylinux.org/pub/rocky/8.5/Live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -134,7 +134,7 @@ const AlternativeImagesPage = () => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8.5/live/x86_64/Rocky-8.5-XFCE-20211115.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8.5/Live/x86_64/Rocky-8.5-XFCE-20211115.iso"
                           >
                             {translate('body.x86_64')}
                           </a>{' '}
