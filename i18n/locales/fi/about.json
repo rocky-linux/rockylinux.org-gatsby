@@ -7,7 +7,7 @@
   },
   "organization": {
     "heading": "Organisaatio",
-    "paragraph": "The Rocky Linux project is hosted by the Rocky Enterprise Software Foundation (RESF). To learn more about the organizational structure, please check out the <0>page</0> on the topic."
+    "paragraph": "Rocky Linux -projektia isännöi Rocky Enterprise Foundation (RESF). Lisätietoja organisaatiorakenteesta saat aihetta käsittelevältä <0>sivuilta</0>."
   },
   "quote": {
     "content": "Thinking back to early CentOS days... My cofounder was Rocky McGaugh. He is no longer with us, so as a H/T to him, who never got to see the success that CentOS came to be, I introduce to you...Rocky Linux.",
