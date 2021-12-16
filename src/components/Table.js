@@ -65,7 +65,7 @@ function GlobalFilter({
       <span className="text-gray-700">Search: </span>
       <input
         type="text"
-        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
+        class="mt-1 block min-w-xl rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
         value={value || ''}
         onChange={(e) => {
           setValue(e.target.value);
@@ -109,7 +109,7 @@ function Table({ columns, data }) {
 
   return (
     <>
-      <div className="flex gap-x-2">
+      <div className="flex gap-x-2 overflow-auto">
         <GlobalFilter
           preGlobalFilteredRows={preGlobalFilteredRows}
           globalFilter={state.globalFilter}
