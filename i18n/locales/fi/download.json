@@ -33,11 +33,11 @@
     "body": "Rocky Linuxin asentamista varten on saatavilla useita erilaisia asennuslevykuvia. Käytettävä levykuva riippuu asennusympäristöstäsi ja käyttötapauksestasi. Jos et tiedä minkä valitset, käytä yllä olevista DVD asennuslevykuvaa.",
     "boot": {
       "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Käytetään käyttöjärjestelmän asentamiseen toisesta lähteestä (kuten binaaritiedostoja HTTP-pakettivarastosta). Voidaan käyttää myös pelastustilaan siirtymiseen."
     },
     "minimal": {
       "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Käytetään käyttöjärjestelmän asentamiseen toisesta lähteestä (kuten binaaritiedostoja HTTP-pakettivarastosta). Voidaan käyttää myös pelastustilaan siirtymiseen."
     },
     "dvd": {
       "heading": "DVD",
