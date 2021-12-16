@@ -1,7 +1,7 @@
 {
   "title": "Downloads",
   "description": "Lataa Rocky Linuxin virallinen julkaisu yhdeltä luotetuista toisiopalvelimistamme.",
-  "rl8": "Rocky Linux 8 (Current)",
+  "rl8": "Rocky Linux 8 (nykyinen)",
   "rl8-eol": "<0>Tuen päättymispäivä:</0> 31. toukokuuta 2029",
   "headings": {
     "arch": "Arkkitehtuuri",
@@ -15,12 +15,12 @@
     "dvd": "DVD",
     "boot": "Boot",
     "torrent": "Torrent",
-    "checksum": "Checksum",
+    "checksum": "Tarkistussumma",
     "baseos": "BaseOS"
   },
   "links": {
     "alt": "Vaihtoehtoiset levykuvat",
-    "cloud": "Cloud Images",
+    "cloud": "Pilvilevykuvat",
     "docs": "Dokumentaatio",
     "bug": "Raportoi virheestä"
   },
@@ -29,8 +29,8 @@
     "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Mitä eroa levykuvilla on?",
+    "body": "Rocky Linuxin asentamista varten on saatavilla useita erilaisia asennuslevykuvia. Käytettävä levykuva riippuu asennusympäristöstäsi ja käyttötapauksestasi.",
     "boot": {
       "heading": "Boot",
       "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
@@ -41,7 +41,7 @@
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "Täysi asennuslevykuva, joka sisältää BaseOS- ja AppStream-pakettivarastot ja jonka avulla asennus voidaan suorittaa loppuun ilman etäpakettivarastoja. Rocky Linuxin asentaminen DVD levykuvalta on helpoin ja yleisin tapa asentaa tavallinen Rocky Linux 8 -asennus."
     }
   }
 }
