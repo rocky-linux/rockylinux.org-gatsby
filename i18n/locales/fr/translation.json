@@ -2,11 +2,11 @@
   "language": "en",
   "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
   "categories": {
-    "news": "News",
+    "news": "Actualités",
     "about": "About",
     "community": "Community",
     "documentation": "Documentation",
-    "get-involved": "Get Involved",
+    "get-involved": "Contribuez",
     "legal": "Legal",
     "language": "Language"
   },
@@ -44,7 +44,7 @@
     "choose": "Choose Language",
     "translate": "Translate this site"
   },
-  "download": "Download",
+  "download": "Téléchargement",
   "copyright": {
     "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
     "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
