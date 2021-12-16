@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
+  "title": "Pilvilevykuvat",
   "description": "Find our official images from your favorite cloud provider.",
   "headings": {
     "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
-    "arch": "Architecture",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "provider": "Tarjoaja",
+    "region": "Alue",
+    "arch": "Arkkitehtuuri",
+    "id": "Levykuvan ID",
+    "deploy": "Käyttöönottolinkki"
   },
-  "deploy": "Deploy"
+  "deploy": "Käytä"
 }
