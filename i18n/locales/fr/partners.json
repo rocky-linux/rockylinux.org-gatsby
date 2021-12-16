@@ -40,12 +40,12 @@
     "osl": {
       "name": "OSU Open Source Labs",
       "tier": "Partenaire Principal",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "blurb": "Le  Oregon State University Open Source Lab est une organisation à but non lucratif qui travaille pour l'avancement des technologies open source. L'OSL offre des services d'hébergement de classe mondiale, le développement de logiciels professionnels et la formation sur le terrain pour les étudiants prometteurs intéressés par la gestion et la programmation open source."
     },
     "supermicro": {
       "name": "Supermicro",
       "tier": "Partenaire Principal",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "blurb": "En tant que leader mondial de la technologie des serveurs hautement performants et efficients et de l'innovation, Supermicro est heureux de travailler avec la RESF et de fournir des serveurs de centres de données et des systèmes de stockage optimisés pour Rocky Linux."
     },
     "crowdin": {
       "name": "Crowdin",
