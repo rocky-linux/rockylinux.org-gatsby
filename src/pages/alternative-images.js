@@ -173,6 +173,12 @@ const AlternativeImagesPage = () => {
                           scope="col"
                           className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                         >
+                          {translate('headings.readme')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
                           {translate('headings.download')}
                         </th>
                       </tr>
@@ -188,6 +194,14 @@ const AlternativeImagesPage = () => {
                             href="http://download.rockylinux.org/pub/rocky/8.5/rockyrpi/aarch64/images/RockyRpi_8.5_20211116.sha256sum"
                           >
                             {translate('body.checksum')}
+                          </a>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/8.5/rockyrpi/aarch64/images/README.txt"
+                          >
+                            {translate('body.readme')}
                           </a>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
