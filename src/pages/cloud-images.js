@@ -7,7 +7,7 @@ import Table, { SelectColumnFilter } from '../components/Table';
 import Footer from '../components/Footer';
 import { Translate } from '../../i18n/utils/translate';
 
-function CloudImagesPage({ data, pageContext: { locale: language } }) {
+function CloudImagesPage({ pageContext: { locale: language } }) {
   const translate = Translate('cloud-images');
   const getData = () => [
     {
