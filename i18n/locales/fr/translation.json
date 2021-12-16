@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
+  "js-warning": "Il semble que JavaScript soit désactivé dans votre navigateur. Alors que la plupart des zones de ce site fonctionnent sans utiliser JavaScript, vous pouvez rencontrer des expériences non voulues lors de votre navigation sur notre site. Veuillez envisager de faire une exception pour notre site dans les paramètres de votre navigateur.",
   "categories": {
     "news": "Actualités",
     "about": "À propos",
@@ -17,8 +17,8 @@
     "org-structure": "Structure organisationnelle",
     "status": "État du service",
     "sponsors": "Sponsors",
-    "partners": "Partners",
-    "support": "Support Providers"
+    "partners": "Partenaires",
+    "support": "Fournisseurs de Support"
   },
   "community": {
     "contribute": "Contribuer",
@@ -46,7 +46,7 @@
   },
   "download": "Téléchargement",
   "copyright": {
-    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. Tous droits réservés.",
+    "line2": "Red Hat Enterprise Linux, RHEL et CentOS sont des marques ou des marques déposées de Red Hat, Inc. ou de ses filiales aux États-Unis et dans d'autres pays. Nous ne sommes pas affiliés, approuvés ou sponsorisés par Red Hat, Inc."
   }
 }

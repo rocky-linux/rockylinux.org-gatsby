@@ -10,7 +10,7 @@
     "checksum": "Somme de contrôle",
     "arch": "Architecture",
     "download": "Téléchargement",
-    "readme": "Readme"
+    "readme": "Lisez-moi"
   },
   "body": {
     "gnome": "GNOME (station de travail)",
@@ -20,7 +20,7 @@
     "arm": "aarch64",
     "checksum": "Somme de contrôle",
     "download": "Téléchargement",
-    "readme": "Readme"
+    "readme": "Lisez-moi"
   },
   "links": {
     "cloud": "Images Cloud",
