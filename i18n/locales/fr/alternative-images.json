@@ -1,12 +1,12 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
-  "rl8": "Rocky Linux 8 (Current)",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "desktop": "Desktop (SIG)",
-  "alt-arch": "Alternative Architectures (SIG)",
+  "title": "Images alternatives",
+  "description": "Les images fournies sur cette page sont disponibles dans l'un de nos miroirs de confiance, mais ne sont pas supportées officiellement.",
+  "rl8": "Rocky Linux 8 (courant)",
+  "rl8-eol": "<0>EOL planifié :</0> 31 mai 2029",
+  "desktop": "Bureau (SIG)",
+  "alt-arch": "Architectures alternatives (SIG)",
   "headings": {
-    "de": "Desktop Environment",
+    "de": "Environnement de bureau",
     "checksum": "Checksum",
     "arch": "Architecture",
     "download": "Download"
