@@ -3,7 +3,7 @@
   "description": "Alla luettelo useimmin kysytyistä kysymyksistä.",
   "faq": {
     "1": {
-      "question": "Kuinka voin auttaa jakamaan nykyisiä ja tulevia Rocky Linux -julkaisuja toisiopalvelimella?",
+      "question": "Kuinka voin auttaa nykyisten ja tulevien Rocky Linux -julkaisujen jakelussa toisiopalvelimella?",
       "answer": "Ilmoita kiinnostuksestasi sähköpostitse <0>mirrors@rockylinux.org</0>."
     },
     "2": {
@@ -19,7 +19,7 @@
       "answer": "Pysy kuulolla verkkosivuillamme, foorumillamme, Twitterissä, LinkedInissä ja muilla linkkihakemistossamme luetelluilla alustoilla saadaksesi viimeisimmät uutiset ja tiedotteet?"
     },
     "5": {
-      "question": "\"Kuinka aiotte varmistaa, että Rocky Linux pysyy yhteisön käyttöjärjestelmänä?",
+      "question": "Kuinka aiotte varmistaa, että Rocky Linux pysyy yhteisön käyttöjärjestelmänä?",
       "answer": "Ensinnäkin olemme ryhtyneet toimiin suojellaksemme Rocky Linux nimeä laillisesti. Tämä tarkoittaa sen tavaramerkkien ja erilaisten niihin liittyvien tarpeistojen rekisteröintiä suojataksemme niitä toisen tahon hallinnalta. Olemme saavuttaneet tämän sijoittamalla niiden oikeudet Rocky Enterprise Software Foundationille(RESF). Seuraavaksi laadimme yhteisön peruskirjan, jossa määritellään organisaatiorakenne, tavoitteet, arvot ja tehtävä Rocky Linuxia edustavan oikeushenkilön takana. Kriittinen tässä peruskirjassa on sellaisten periaatteiden vahvistaminen, jotka mahdollistavat ja suojelevat yhteisöä: läpinäkyvyys, yhteisön osallistuminen, avoin kehitys ja riippumattomuus. <0> Rocky Linuxia ei koskaan hallita, osteta tai muutoin vaikuteta yhden tahon tai organisaation toimesta. </0> Lopuksi suunnittelemme ja otamme käyttöön tarvittavan infrastruktuurin mahdollistaaksemme yhteisön osallistua Rocky Linuxiin."
     },
     "6": {
