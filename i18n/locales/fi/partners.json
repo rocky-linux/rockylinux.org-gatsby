@@ -1,6 +1,6 @@
 {
   "title": "Kumppanit",
-  "description": "RESF:n(Rocky Enterprise Software Foundation) kumppanit edustavat jatkuvia strategisesti tärkeitä suhteita Rocky Linux -projektille. Teknisen asiantuntemuksen, infrastruktuuriresurssien tai muiden tapojen kautta, heidän tuki on ratkaisevan tärkeää jatkuvan menestyksemme ja pitkän aikavälin vakauden kannalta.",
+  "description": "RESF:n (Rocky Enterprise Software Foundation) kumppanit edustavat jatkuvia strategisesti tärkeitä suhteita Rocky Linux -projektille. Teknisen asiantuntemuksen, infrastruktuuriresurssien tai muiden tapojen kautta, heidän tuki on ratkaisevan tärkeää jatkuvan menestyksemme ja pitkän aikavälin vakauden kannalta.",
   "partners": {
     "ciq": {
       "name": "CIQ",
