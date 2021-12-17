@@ -3,7 +3,7 @@
   "description": "Alla luettelo useimmin kysytyistä kysymyksistä.",
   "faq": {
     "1": {
-      "question": "Kuinka voin auttaa nykyisten ja tulevien Rocky Linux -julkaisujen jakelussa toisiopalvelimella?",
+      "question": "Kuinka voin auttaa nykyisten ja tulevien Rocky Linux -julkaisujen jakelussa?",
       "answer": "Ilmoita kiinnostuksestasi sähköpostitse <0>mirrors@rockylinux.org</0>."
     },
     "2": {
@@ -16,7 +16,7 @@
     },
     "4": {
       "question": "Mistä löydän viimeisimmät uutiset Rocky Linuxista?",
-      "answer": "Pysy kuulolla verkkosivuillamme, foorumillamme, Twitterissä, LinkedInissä ja muilla linkkihakemistossamme luetelluilla alustoilla saadaksesi viimeisimmät uutiset ja tiedotteet?"
+      "answer": "Pysy kuulolla verkkosivuillamme, foorumillamme, Twitterissä, LinkedInissä ja muilla linkkihakemistossamme luetelluilla alustoilla saadaksesi viimeisimmät uutiset ja tiedotteet."
     },
     "5": {
       "question": "Kuinka aiotte varmistaa, että Rocky Linux pysyy yhteisön käyttöjärjestelmänä?",
