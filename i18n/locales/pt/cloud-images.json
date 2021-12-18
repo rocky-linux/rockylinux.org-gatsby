@@ -1,13 +1,13 @@
 {
   "title": "Imagens em Nuvem",
-  "description": "Find our official images from your favorite cloud provider.",
+  "description": "Encontre nossas imagens oficiais do seu provedor de nuvem favorito.",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
+    "version": "Versão do SO",
+    "provider": "Provedor",
+    "region": "Região",
     "arch": "Arquitetura",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "id": "ID da Imagem",
+    "deploy": "Link de Deploy"
   },
   "deploy": "Deploy"
 }
