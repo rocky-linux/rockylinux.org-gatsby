@@ -16,7 +16,7 @@
     },
     "2": {
       "title": "Apoiado pela Comunidade",
-      "description": "A comunidade, patrocinadores e parceiros investiram com um compromisso de longo prazo para garantir que o projeto permaneça com a comunidade."
+      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
     },
     "3": {
       "title": "Migração Fácil",
@@ -30,7 +30,7 @@
   "sponsors-partners": {
     "backed": "Apoiado por",
     "sponsors": "Todos os Patrocinadores",
-    "partners": "Todos os Parceiros",
-    "support": "Parceiros Apoiadores"
+    "partners": "All Partners",
+    "support": "Support Partners"
   }
 }
