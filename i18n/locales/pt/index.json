@@ -1,36 +1,36 @@
 {
   "hero": {
     "new": "Novidades",
-    "title": "Enterprise Linux, the community way.",
+    "title": "Enterprise Linux, a maneira comunitária.",
     "description": "O Rocky Linux é um sistema operacional empresarial de código aberto projetado para ser 100% bug-a-bug compatível com o Red Hat Enterprise Linux<0>&#174;</0>. Está em intenso desenvolvimento pela comunidade.",
     "cta1": "Download",
     "cta2": "Migrar"
   },
   "features": {
     "title": "Sólido como uma rocha, não importa o uso.",
-    "subtitle": "Stable, production ready Linux",
+    "subtitle": "Estável, Linux pronto para produção",
     "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
     "1": {
-      "title": "Production Ready",
+      "title": "Pronto para Produção",
       "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
     },
     "2": {
-      "title": "Community Supported",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "title": "Apoiado pela Comunidade",
+      "description": "A comunidade, patrocinadores e parceiros investiram com um compromisso de longo prazo para garantir que o projeto permaneça com a comunidade."
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "Migração Fácil",
+      "description": "Migre de outras distribuições Enterprise Linux sem suar. Nós fornecemos um script de migração fácil de usar, gratuitamente."
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "Últimas notícias",
+    "description": "Nós regularmente compartilhamos atualizações com a comunidade sobre o que está acontecendo. Aqui estão as últimas."
   },
   "sponsors-partners": {
-    "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "backed": "Apoiado por",
+    "sponsors": "Todos os Patrocinadores",
+    "partners": "Todos os Parceiros",
+    "support": "Parceiros Apoiadores"
   }
 }
