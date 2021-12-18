@@ -2,11 +2,11 @@
   "language": "en",
   "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
   "categories": {
-    "news": "News",
+    "news": "Notícias",
     "about": "About",
     "community": "Community",
-    "documentation": "Documentation",
-    "get-involved": "Get Involved",
+    "documentation": "Documentação ",
+    "get-involved": "Participe",
     "legal": "Legal",
     "language": "Language"
   },
