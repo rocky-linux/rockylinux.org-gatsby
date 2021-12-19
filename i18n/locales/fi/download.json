@@ -30,7 +30,7 @@
   },
   "isos": {
     "heading": "Mitä eroa levykuvilla on?",
-    "body": "Rocky Linuxin asentamista varten on saatavilla useita erilaisia asennuslevykuvia. Käytettävä levykuva riippuu asennusympäristöstäsi ja käyttötapauksestasi. Jos et tiedä minkä valitset, käytä yllä olevista DVD asennuslevykuvaa.",
+    "body": "Rocky Linuxin asentamista varten on saatavilla useita erilaisia asennuslevykuvia. Käytettävä levykuva riippuu asennusympäristöstäsi ja käyttötapauksestasi.",
     "boot": {
       "heading": "Boot",
       "body": "Käytetään käyttöjärjestelmän asentamiseen toisesta lähteestä (kuten binaaritiedostoja HTTP-pakettivarastosta). Voidaan käyttää myös pelastustilaan siirtymiseen."
