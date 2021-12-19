@@ -2,21 +2,21 @@
   "hero": {
     "new": "Mitä uutta",
     "title": "Enterprise Linux, yhteisön tavalla.",
-    "description": "Rocky Linux on avoimen lähdekoodin yritystasoinen käyttöjärjestelmä, joka on suunniteltu 100% yksi yhteen -yhteensopivaksi Red Hat Enterprise Linuxin<0>&#174;</0> kanssa. Yhteisö kehittää sitä intensiivisesti.",
+    "description": "Rocky Linux on avoimen lähdekoodin yritystasoinen käyttöjärjestelmä, joka on suunniteltu 100% yhteensopivaksi Red Hat Enterprise Linuxin<0>&#174;</0> kanssa. Yhteisö kehittää sitä intensiivisesti.",
     "cta1": "Lataa",
-    "cta2": "Siirry"
+    "cta2": "Siirtyminen"
   },
   "features": {
     "title": "Vankka, käyttötavasta riippumatta.",
-    "subtitle": "Vakaa, tuotantoon valmis Linux",
-    "description": "Rocky Linux uudelleen käännetään RHEL<0>&#174;</0>:n lähdekoodeista, joten voit olla varma, että sinulla on erittäin vakaa kokemus käyttötavasta riippumatta.",
+    "subtitle": "Vakaa, tuotantovalmis Linux",
+    "description": "Rocky Linux uudelleen käännetään RHEL<0>&#174;</0>:n lähdekoodeista, joten voit olla varma, että saat erittäin vakaan kokemuksen käyttötavasta riippumatta.",
     "1": {
       "title": "Tuotantovalmis",
       "description": "Rocky Linux on valmiina tuotantoon tarjoten vakautta säännöllisillä päivityksillä ja 10 vuoden tuella, maksutta."
     },
     "2": {
       "title": "Yhteisön tukema",
-      "description": "Yhteisö, sponsorit ja kumppanit ovat investoineet pitkäaikaisilla sitoimuksilla varmistaakseen projektin jatkuvuus."
+      "description": "Yhteisö, sponsorit ja kumppanit ovat investoineet pitkäaikaisilla sitoimuksilla varmistaakseen projektin jatkuvuuden."
     },
     "3": {
       "title": "Helppo siirtyminen",

@@ -27,7 +27,7 @@
     "mattermost": "Mattermost",
     "irc": "IRC",
     "calendar": "Kalenteri",
-    "bug": "Lähetä virheraportti",
+    "bug": "Raportoi virheestä",
     "donate": "Lahjoita",
     "store": "Kauppa"
   },
