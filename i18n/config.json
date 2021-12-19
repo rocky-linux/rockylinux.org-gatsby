@@ -1,7 +1,7 @@
 [
   {
     "code": "en",
-    "hrefLang": "en-US",
+    "hrefLang": "en",
     "name": "English",
     "localName": "English",
     "langDir": "ltr",
@@ -9,10 +9,18 @@
   },
   {
     "code": "fr",
-    "hrefLang": "fr-FR",
+    "hrefLang": "fr",
     "name": "French",
     "localName": "Français",
     "langDir": "ltr",
     "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "fi",
+    "hrefLang": "fi",
+    "name": "Finnish",
+    "localName": "Suomi",
+    "langDir": "ltr",
+    "dateFormat": "DD.MM.YYYY"
   }
 ]
