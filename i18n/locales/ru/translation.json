@@ -3,12 +3,12 @@
   "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
   "categories": {
     "news": "News",
-    "about": "About",
-    "community": "Community",
+    "about": "О проекте",
+    "community": "Сообщество",
     "documentation": "Documentation",
     "get-involved": "Get Involved",
     "legal": "Legal",
-    "language": "Language"
+    "language": "Язык"
   },
   "about": {
     "about": "About Rocky Linux",
@@ -22,17 +22,17 @@
   },
   "community": {
     "contribute": "Contribute",
-    "forums": "Forums",
-    "mailing": "Mailing Lists",
+    "forums": "Форумы",
+    "mailing": "Списки рассылки",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "Calendar",
+    "calendar": "Календарь",
     "bug": "Submit Bug",
     "donate": "Donate",
     "store": "Store"
   },
   "documentation": {
-    "wiki": "Wiki",
+    "wiki": "База знаний",
     "guides": "Guides and Manuals",
     "keys": "GPG Key Info"
   },
@@ -41,8 +41,8 @@
     "privacy": "Privacy Policy"
   },
   "lang": {
-    "choose": "Choose Language",
-    "translate": "Translate this site"
+    "choose": "Выберите язык",
+    "translate": "Перевести этот сайт"
   },
   "download": "Download",
   "copyright": {
