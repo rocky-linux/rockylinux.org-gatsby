@@ -16,7 +16,7 @@ import OpenSourceLabs from '../images/osl.svg';
 import SupermicroLogo from '../images/supermicro.svg';
 import VmwareLogo from '../images/vmware.svg';
 import { Translate } from '../../i18n/utils/translate';
-import { LocalizedLink } from 'gatsby-theme-i18n';
+import LocalizedLink from '../components/LocalizedLink';
 import { ArrowRightIcon } from '@heroicons/react/solid';
 
 const LogoCloud = ({ pageContext: { locale: language } }) => {
