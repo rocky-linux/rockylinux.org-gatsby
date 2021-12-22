@@ -1,5 +1,5 @@
 import React from 'react';
-import { LocalizedLink } from 'gatsby-theme-i18n';
+import LocalizedLink from '../components/LocalizedLink';
 
 const SummaryItem = ({
   name,

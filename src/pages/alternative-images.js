@@ -12,7 +12,7 @@ import {
   ExclamationCircleIcon,
 } from '@heroicons/react/outline';
 import { Link } from 'gatsby';
-import { LocalizedLink } from 'gatsby-theme-i18n';
+import LocalizedLink from '../components/LocalizedLink';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');

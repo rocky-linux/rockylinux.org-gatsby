@@ -5,7 +5,8 @@ import {
   TranslateIcon,
 } from '@heroicons/react/solid';
 import { Translate } from '../../i18n/utils/translate';
-import { LocalizedLink, useLocalization } from 'gatsby-theme-i18n';
+import { useLocalization } from 'gatsby-theme-i18n';
+import LocalizedLink from '../components/LocalizedLink';
 
 const Footer = ({ pageContext: { locale: language } }) => {
   const translate = Translate();

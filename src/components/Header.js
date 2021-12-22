@@ -5,7 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
 import Logo from '../images/logo.svg';
 import { Translate } from '../../i18n/utils/translate';
-import { LocalizedLink } from 'gatsby-theme-i18n';
+import LocalizedLink from '../components/LocalizedLink';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');

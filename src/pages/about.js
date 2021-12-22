@@ -6,7 +6,7 @@ import LogoCloud from '../components/LogoCloud';
 import Footer from '../components/Footer';
 import GMK from '../images/gmk.png';
 import { Translate, Trans } from '../../i18n/utils/translate';
-import { LocalizedLink } from 'gatsby-theme-i18n';
+import LocalizedLink from '../components/LocalizedLink';
 
 const AboutPage = () => {
   const translate = Translate('about');

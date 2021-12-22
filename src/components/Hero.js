@@ -2,7 +2,7 @@ import React from 'react';
 import HeroImage from '../images/hero-image.png';
 import { ChevronRightIcon } from '@heroicons/react/solid';
 import { Translate, Trans } from '../../i18n/utils/translate';
-import { LocalizedLink } from 'gatsby-theme-i18n';
+import LocalizedLink from '../components/LocalizedLink';
 
 const Hero = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
