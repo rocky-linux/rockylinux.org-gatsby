@@ -3,7 +3,7 @@
   "subtitle": "History",
   "content": {
     "highlight": "2020年12月8日、レッドハットは、Red Hat Enterprise Linuxのダウンストリーム版として製品化されてきたCentOSの開発を中止し、そのOSのアップストリーム版である「CentOS Stream」と呼ばれる新型の開発に移行すると発表しました。これを受けて、CentOSの初代創設者であるGregory Kurtzer氏は、CentOSのウェブサイト</0>のコメントを通じて、CentOSの本来の目的を達成するためのプロジェクトを再び立ち上げると発表しました。このプロジェクト名は、初期のCentOSの共同創設者であるRocky McGaugh氏へのオマージュとして選ばれました。12月12日までに、Rocky Linuxのコードリポジトリは、GitHubのトップトレンドリポジトリとなりました。\n",
-    "paragraph": "On December 22, 2020, Rocky Linux announced that the target for an initial release was anywhere between March and May of 2021. On January 20, 2021, it was announced that a test repository would be made available to the public by the end of February, and a release candidate was on target for the end of March 2021. However, that date was slightly pushed back, and on April 30, 2021, the first release candidate was officially released. The second release candidate, of version 8.4, the last before the stable release, was released on June 4, 2021. On June 21, 2021, the stable release of Rocky Linux 8.4 was released, with the code name \"Green Obsidian\"."
+    "paragraph": "2020年12月22日、Rocky Linuxは、初期リリースのターゲットが3月から5月の2021であると発表した。 2021年1月20日には、テストリポジトリが2月末までに公開されると発表された。 そして2021年3月末の目標を達成しました しかし、その日はわずかに後押しされ、2021年4月30日に最初のリリース候補が正式にリリースされた。 バージョン8の第2リリース候補。 安定版リリース前の最後のものは、2021年6月4日にリリースされた。 2021年6月21日、Rocky Linux 8.4の安定版がリリースされ、コード名は「Green Obsidian」となった。"
   },
   "organization": {
     "heading": "Organization",
