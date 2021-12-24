@@ -11,7 +11,7 @@
     "language": "Язык"
   },
   "about": {
-    "about": "About Rocky Linux",
+    "about": "О Rocky Linux",
     "faq": "Frequently Asked Questions",
     "charter": "Community Charter",
     "org-structure": "Organizational Structure",
@@ -27,7 +27,7 @@
     "mattermost": "Mattermost",
     "irc": "IRC",
     "calendar": "Календарь",
-    "bug": "Submit Bug",
+    "bug": "Сообщить об ошибке",
     "donate": "Donate",
     "store": "Store"
   },
