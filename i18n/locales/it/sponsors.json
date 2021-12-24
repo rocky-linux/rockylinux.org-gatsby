@@ -35,12 +35,12 @@
     "opendrives": {
       "name": "OpenDrives",
       "tier": "Sponsor Principale",
-      "blurb": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
+      "blurb": "OpenDrives è un provider globale di soluzioni enterprise-grade, iperscalabili, e network-attached-storage (NAS). Forniamo le soluzioni più performanti per i nostri clienti - per soddisfare le esigenze di prestazioni di ogni individuo - per i progetti e i workflow più robusti, complessi e critici, on-premise e nel cloud."
     },
     "vmware": {
       "name": "VMware",
       "tier": "Sponsor Principale",
-      "blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control."
+      "blurb": "VMware è un fornitore leader di servizi multi-cloud per tutte le applicazioni, che consente l'innovazione digitale tramite il controllo aziendale."
     },
     "procomputers": {
       "name": "ProComputers.com",
