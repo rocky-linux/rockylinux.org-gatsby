@@ -4,7 +4,7 @@
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner",
+      "tier": "Parceiro Fundador",
       "blurb": "Acreditamos em ajudar as pessoas a fazer coisas incríveis. É por isso que o CIQ é um parceiro fundador do RESF. Oferecemos suporte comercial e serviços para o Linux Rocky para clientes em pesquisa, academia, governo, empresas, parceiros e todos no meio de trabalho."
     },
     "arm": {
@@ -38,26 +38,26 @@
       "blurb": "NAVER Cloud Platform é um serviço de nuvem sul-coreano que começou em 2017 na NAVER Cloud, uma subsidiária da NAVER. Fornece mais de 170 serviços individuais em 2021 e possui várias certificações de segurança, incluindo CSA STAR GOLD, GDPR e muito mais. Atualmente, também fornece serviços em nuvem em 10 locais ao redor do mundo."
     },
     "osl": {
-      "name": "OSU Open Source Labs",
+      "name": "Laboratório de código aberto OSU (OSU Open Source Labs)",
       "tier": "Parceiro Principal",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "blurb": "O Laboratório de Código Aberto da Universidade do Estado do Oregon é uma organização sem fins lucrativos que trabalha para o avanço de tecnologias de código aberto. O OSL oferece serviços de hospedagem de nível mundial, desenvolvimento profissional de softwares e treinamento local para promissores estudantes interessados em gestão e programação de código aberto."
     },
     "supermicro": {
       "name": "Supermicro",
       "tier": "Parceiro Principal",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "blurb": "Como líder global em alta performance, tecnologia de servidor com alta eficiência e a inovação, a Supermicro está animado para trabalhar com o RESF e entregar servidores e sistemas de armazenamento de dados otimizados para o Linux Rocky."
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "Tier 4 Partner"
+      "tier": "Apoiador Rank 4"
     },
     "dsstudio": {
-      "name": "DotSlash Studio",
-      "tier": "Tier 4 Partner"
+      "name": "DotSlash Studio\n",
+      "tier": "Apoiador Rank 4"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "Tier 4 Partner"
+      "tier": "Apoiador Rank 4"
     }
   }
 }
