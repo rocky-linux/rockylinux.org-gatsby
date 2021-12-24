@@ -1,7 +1,7 @@
 {
   "hero": {
-    "new": "What's New",
-    "title": "Enterprise Linux, the community way.",
+    "new": "Novità",
+    "title": "Enterprise Linux, alla maniera della community.",
     "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
     "cta1": "Scarica",
     "cta2": "Migrate"
