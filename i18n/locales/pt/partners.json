@@ -20,22 +20,22 @@
     "fastly": {
       "name": "Fastly",
       "tier": "Parceiro Principal",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "blurb": "A plataforma de nuvem de ponta da Fastly permite que os clientes criem ótimas experiências digitais com rapidez, segurança e confiabilidade, processando, atendendo e protegendo os aplicativos de nossos clientes o mais próximo possível de seus usuários finais - na borda da Internet."
     },
     "fosshost": {
       "name": "Fosshost",
       "tier": "Parceiro Principal",
-      "blurb": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+      "blurb": "A Fosshost (UK CIC # 13356530) oferece hospedagem gratuita na Internet de nível empresarial e serviços gerenciados exclusivamente para a comunidade FOSS. Nossa missão é capacitar e apoiar todos os projetos de software livre e de código aberto. Para ir mais longe, juntos. Nosso trabalho nunca para. Aplicar hoje!"
     },
     "mattermost": {
       "name": "Mattermost",
       "tier": "Parceiro Principal",
-      "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      "blurb": "Mattermost é uma solução de mensagens de código aberto feita para organizações com os mais altos requisitos de segurança. Como grandes crentes no poder do código aberto, a Mattermost está entusiasmada com a parceria com a RESF para ajudar a trazer uma distribuição de Linux de nível empresarial para a comunidade de tecnologia."
     },
     "naver": {
-      "name": "NAVER Cloud",
+      "name": "NAVER Cloud\n",
       "tier": "Parceiro Principal",
-      "blurb": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+      "blurb": "NAVER Cloud Platform é um serviço de nuvem sul-coreano que começou em 2017 na NAVER Cloud, uma subsidiária da NAVER. Fornece mais de 170 serviços individuais em 2021 e possui várias certificações de segurança, incluindo CSA STAR GOLD, GDPR e muito mais. Atualmente, também fornece serviços em nuvem em 10 locais ao redor do mundo."
     },
     "osl": {
       "name": "OSU Open Source Labs",
