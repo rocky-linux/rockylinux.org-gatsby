@@ -15,22 +15,22 @@
     "aws": {
       "name": "Amazon Web Services",
       "tier": "Sponsor Principale",
-      "blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+      "blurb": "La RESF utilizza AWS per gestire gran parte delle sottostanti infrastrutture critiche per lo sviluppo e la distribuzione dei servizi a supporto di Rocky Linux. Dai Koji builders per x86_64 e aaerc64 che vengono eseguiti in EC2 ai blob storage SRPM in S3, AWS è fondamentale per molto di quello che facciamo."
     },
     "gcp": {
       "name": "Google Cloud",
       "tier": "Sponsor Principale",
-      "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one."
+      "blurb": "Come sponsor principale del RESF, Google comprende l'importanza di Rocky Linux come un sistema operativo aziendale libero, aperto e comunitario. Nel fornire risorse per la verifica e la convalida, abbiamo collaborato con il RESF per garantire uno status di prima classe a Rocky sulla piattaforma Google Cloud, fin dal primo giorno."
     },
     "azure": {
       "name": "Microsoft Azure",
       "tier": "Sponsor Principale",
-      "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
+      "blurb": "Linux è la piattaforma in più rapida crescita su Azure, in esecuzione su oltre la metà dei core VM. Da oltre un decennio, Microsoft investe su Linux, e con le partnership che costituiscono un pilastro centrale della strategia open source di Microsoft, collaboriamo con RESF e con il più ampio ecosistema Rocky Linux per garantire ai clienti una serie crescente di opzioni per distribuire workloads Linux su Azure in maniera supportata, gestita e sicura."
     },
     "montavista": {
       "name": "MontaVista",
       "tier": "Sponsor Principale",
-      "blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
+      "blurb": "MontaVista Software è leader nei sistemi embedded Linux commerciali, e supporta MontaVista CGX, Yocto Project®️, CentOS e Rocky Linux. MontaVista offre competenze in ambito software Open Source, distribuzioni Linux di qualità commerciale, manutenzione e supporto convenienti per cicli di vita di oltre 10 anni."
     },
     "opendrives": {
       "name": "OpenDrives",
