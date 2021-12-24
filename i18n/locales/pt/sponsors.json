@@ -35,20 +35,20 @@
     "opendrives": {
       "name": "OpenDrives",
       "tier": "Patrocinador principal",
-      "blurb": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
+      "blurb": "OpenDrives é um provedor global de soluções empreendedoras, hiper-escalável, provedor de solução em armazenamento em rede(NAS). Oferecemos as soluções de maior desempenho para nossos clientes - para atender às necessidades de desempenho individuais -, para os projetos mais sólidos, complexos e críticos, bem como fluxos de trabalho locais e na nuvem."
     },
     "vmware": {
       "name": "VMware",
       "tier": "Patrocinador principal",
-      "blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control."
+      "blurb": "A VMware é uma fornecedora líder de serviços multi-nuvem para todos os aplicativos, permitindo inovação digital com controle corporativo."
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "tier": "Tier 4 Sponsor"
+      "tier": "Patrocinador Rank 4"
     },
     "seagate": {
       "name": "Seagate Federal",
-      "tier": "Tier 4 Sponsor"
+      "tier": "Patrocinador Rank 4"
     }
   }
 }
