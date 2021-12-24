@@ -20,11 +20,11 @@
     },
     "5": {
       "question": "Come garantirete che Rocky Linux rimanga veramente un sistema operativo enterprise gestito dalla comunità?",
-      "answer": "First, we've taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We've achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we've drafted a community charter that defines the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0>Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization.</0> Finally, we're architecting and deploying the necessary infrastructure to further enable to the community to contribute to Rocky Linux."
+      "answer": "Per prima cosa, abbiamo preso provvedimenti per proteggere legalmente il nome Rocky Linux. Questo ha significato registrare i marchi e le varie proprietà associate per proteggerli dal controllo di altre entità. Abbiamo realizzato tutto questo istituendoli sotto la Rocky Enterprise Software Foundation (RESF). Successivamente, abbiamo redatto una carta comunitaria che definisce la struttura organizzativa, gli obiettivi, i valori e la missione che stanno dietro l'entità legale che rappresenta Rocky Linux. Fondamentale in questa carta è l'istituzione di principi che abilitano e proteggono la comunità: trasparenza, coinvolgimento della comunità, sviluppo aperto e indipendenza. <0>Rocky Linux non sarà mai controllato, acquistato o influenzato da una singola entità o organizzazione.</0>. Infine, abbiamo architettato e messo in piedi l'infrastruttura necessaria per consentire alla comunità di contribuire a Rocky Linux."
     },
     "6": {
-      "question": "What if I have feedback or my question wasn't answered here?",
-      "answer": "Please email us: <0>hello@rockylinux.org</0> and we'll get back to you as soon as we can."
+      "question": "Cosa succede se ho una proposta, un feedback o se non ho trovato risposte alle mie domande qui?",
+      "answer": "Per favore inviaci un'email: <0>hello@rockylinux.org</0> e ti risponderemo il prima possibile."
     }
   }
 }
