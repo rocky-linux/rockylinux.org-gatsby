@@ -6,7 +6,7 @@
   "headings": {
     "arch": "アーキテクチャ",
     "isos": "ISO",
-    "packages": "Packages"
+    "packages": "パッケージ"
   },
   "body": {
     "x86_64": "x86_64",
