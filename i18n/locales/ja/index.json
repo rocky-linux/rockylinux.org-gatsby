@@ -1,10 +1,10 @@
 {
   "hero": {
-    "new": "What's New",
+    "new": "新着情報",
     "title": "Enterprise Linux, the community way.",
     "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
     "cta1": "ダウンロード",
-    "cta2": "Migrate"
+    "cta2": "移行"
   },
   "features": {
     "title": "Rock solid, no matter the use-case.",
@@ -12,25 +12,25 @@
     "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
     "1": {
       "title": "Production Ready",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "description": "Rocky Linuxは、定期的なアップデートと10年間のサポートライフサイクルによる確かな安定性を提供し、すべて無償で提供されるエンタープライズ対応製品です。"
     },
     "2": {
-      "title": "Community Supported",
+      "title": "コミュニティー サポート",
       "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "簡単な移行",
+      "description": "他のEnterprise Linuxディストリビューションから苦労せず移行できます。使いやすい移行スクリプトを無料で提供しています。"
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "最新ニュース",
+    "description": "私たちは定期的に最新情報をコミュニティで共有しています。ここでは、その最新情報をご紹介します。"
   },
   "sponsors-partners": {
     "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "sponsors": "すべてのスポンサー",
+    "partners": "すべてのパートナー",
+    "support": "サポートパートナー"
   }
 }
