@@ -1,13 +1,13 @@
 {
   "title": "Alternative Images",
   "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
-  "rl8": "Rocky Linux 8 (Current)",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
+  "rl8": "Rocky Linux 8 (目前版本)",
+  "rl8-eol": "<0>停止維護期限:</0> 2029年5月31日",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Alternative Architectures (SIG)",
   "headings": {
-    "de": "Desktop Environment",
-    "checksum": "Checksum",
+    "de": "桌面環境",
+    "checksum": "校驗碼",
     "arch": "Architecture",
     "download": "Download",
     "readme": "Readme"
@@ -18,14 +18,14 @@
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
-    "checksum": "Checksum",
+    "checksum": "校驗碼",
     "download": "Download",
     "readme": "Readme"
   },
   "links": {
     "cloud": "Cloud Images",
     "docs": "Documentation",
-    "bug": "Report Bug"
+    "bug": "回報程式錯誤"
   },
   "get-involved": {
     "heading": "Get Involved",
