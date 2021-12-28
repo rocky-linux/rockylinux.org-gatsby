@@ -16,10 +16,10 @@
     },
     "4": {
       "question": "Rocky Linuxに関する最新のニュースはどこで確認できますか?",
-      "answer": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
+      "answer": "最新の情報は、私たちのウェブサイト、Twitter、LinkedIn、フォーラム、およびリンクディレクトリに記載されているその他のプラットフォームでご確認ください。"
     },
     "5": {
-      "question": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
+      "question": "Rocky Linuxが本当にコミュニティエンタープライズオペレーティングシステムであり続けることをどのように保証しますか？ ",
       "answer": "First, we've taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We've achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we've drafted a community charter that defines the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0>Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization.</0> Finally, we're architecting and deploying the necessary infrastructure to further enable to the community to contribute to Rocky Linux."
     },
     "6": {
