@@ -20,44 +20,44 @@
     "fastly": {
       "name": "Fastly",
       "tier": "主要パートナー",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "blurb": "Fastly のエッジクラウドプラットフォームは、お客様のアプリケーションを可能な限りエンドユーザーの近く、つまりインターネットのエッジで処理、提供、保護することにより、お客様が素晴らしいデジタル体験を迅速、安全、かつ確実に実現することを可能にします。"
     },
     "fosshost": {
       "name": "Fosshost",
       "tier": "主要パートナー",
-      "blurb": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+      "blurb": "Fossost(UK CIC #13356530)は、FOSSコミュニティ向けの無料エンタープライズグレードのインターネットホスティングおよびマネージドサービスを提供しています。 私たちは、すべてのフリーでオープンソースのソフトウェアプロジェクトに力を与え、サポートすることを使命としています。一緒にさらに進むために、私たちの仕事は終わりはありません。今すぐ応募してください！"
     },
     "mattermost": {
       "name": "Mattermost",
       "tier": "主要パートナー",
-      "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      "blurb": "Mattermostは、最も高いセキュリティ要件が求められる組織向けに作られたオープンソースのメッセージング・ソリューションです。オープンソースの力を信じている Mattermost は、RESF と提携し、エンタープライズグレードの Linux ディストリビューションに技術コミュニティを提供できることに興奮しています。"
     },
     "naver": {
       "name": "NAVER Cloud",
       "tier": "主要パートナー",
-      "blurb": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+      "blurb": "NAVER Cloud Platformは、NAVERの子会社であるNAVER Cloudのもと、2017年にスタートした韓国のクラウドサービスです。2021年に170以上の個別サービスを提供し、CSA STAR GOLD、GDPRなど様々なセキュリティ認証を取得しています。また、現在世界10拠点でクラウドサービスを提供しています。"
     },
     "osl": {
       "name": "OSU Open Source Labs",
       "tier": "主要パートナー",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "blurb": "オレゴン州立大学オープンソース・ラボは、オープンソース技術の発展を目指す非営利団体です。OSL は、オープンソースの管理とプログラミングに興味を持つ有望な学生を対象に、世界クラスのホスティングサービス、専門的なソフトウェア開発、現場でのトレーニングを提供しています。"
     },
     "supermicro": {
       "name": "Supermicro",
       "tier": "主要パートナー",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "blurb": "Supermicro は、高性能、高効率のサーバー技術およびイノベーションのグローバルリーダーとして、RESF と協力し、Rocky Linux に最適化したデータセンターサーバーとストレージシステムを提供できることを喜ばしく思っています。"
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "Tier 4 Partner"
+      "tier": "Tier 4 パートナー"
     },
     "dsstudio": {
       "name": "DotSlash Studio",
-      "tier": "Tier 4 Partner"
+      "tier": "Tier 4 パートナー"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "Tier 4 Partner"
+      "tier": "Tier 4 パートナー"
     }
   }
 }
