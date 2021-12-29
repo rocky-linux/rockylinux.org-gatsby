@@ -1,12 +1,12 @@
 {
   "title": "下載",
-  "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
+  "description": "從我們信任的鏡像伺服器的其中一個下載官方版本的 Rocky Linux。",
   "rl8": "Rocky Linux 8 (目前版本)",
   "rl8-eol": "<0>停止維護期限:</0> 2029年5月31日",
   "headings": {
     "arch": "Architecture",
-    "isos": "ISOs",
-    "packages": "Packages"
+    "isos": "ISO",
+    "packages": "軟體包"
   },
   "body": {
     "x86_64": "x86_64",
