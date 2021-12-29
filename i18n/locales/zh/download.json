@@ -19,13 +19,13 @@
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "Alternative Images",
+    "alt": "其他映像檔",
     "cloud": "Cloud Images",
-    "docs": "Documentation",
+    "docs": "文件 ",
     "bug": "回報程式錯誤"
   },
   "get-involved": {
-    "heading": "Get Involved",
+    "heading": "參與貢獻",
     "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
