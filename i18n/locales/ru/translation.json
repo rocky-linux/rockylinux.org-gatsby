@@ -5,8 +5,8 @@
     "news": "News",
     "about": "О проекте",
     "community": "Сообщество",
-    "documentation": "Documentation",
-    "get-involved": "Get Involved",
+    "documentation": "Документация",
+    "get-involved": "Присоединиться",
     "legal": "Legal",
     "language": "Язык"
   },
@@ -44,7 +44,7 @@
     "choose": "Выберите язык",
     "translate": "Перевести этот сайт"
   },
-  "download": "Download",
+  "download": "Скачать",
   "copyright": {
     "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
     "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
