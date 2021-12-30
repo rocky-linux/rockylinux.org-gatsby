@@ -6,7 +6,7 @@
   "headings": {
     "arch": "Architecture",
     "isos": "ISOs",
-    "packages": "Packages"
+    "packages": "Пакеты"
   },
   "body": {
     "x86_64": "x86_64",
@@ -14,7 +14,7 @@
     "minimal": "Minimal",
     "dvd": "DVD",
     "boot": "Boot",
-    "torrent": "Torrent",
+    "torrent": "Торрент",
     "checksum": "Checksum",
     "baseos": "BaseOS"
   },
