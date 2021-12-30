@@ -1,30 +1,30 @@
 {
-  "title": "Frequently Asked Questions",
-  "description": "Below is a list of our most frequently asked questions.",
+  "title": "Часто задаваемые вопросы",
+  "description": "Ниже приведен список наиболее часто задаваемых вопросов .",
   "faq": {
     "1": {
-      "question": "How can I help mirror current and future Rocky Linux releases?",
-      "answer": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
+      "question": "Как я могу помочь зеркалировать текущие и будущие релизы Rocky Linux?",
+      "answer": "Пожалуйста, отправьте письмо на <0>mirrors@rockylinux.org</0>, чтобы выразить свою заинтересованность."
     },
     "2": {
-      "question": "I encountered a bug while testing Rocky Linux, what can I do?",
-      "answer": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
+      "question": "Я столкнулся с ошибкой при тестировании Rocky Linux, что мне делать?",
+      "answer": "Создайте аккаунт в <0>Службе Учетных Записей Rocky Linux</0>, затем перейдите в нашу <1>Bugzilla</1> и сообщите о найденной вами ошибке."
     },
     "3": {
-      "question": "How can I get involved with the Testing Team?",
-      "answer": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There's also a testing topic on the forums for more durable conversation."
+      "question": "Как я могу принять участие в работе команды тестирования?",
+      "answer": "Вы можете присоединиться к каналу <0>~Testing</0> на нашем сервере Mattermost. Кроме того, на форуме есть тема, посвященная тестированию."
     },
     "4": {
-      "question": "Where can I find the latest news about Rocky Linux?",
-      "answer": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
+      "question": "Где я могу найти последние новости о Rocky Linux?",
+      "answer": "Следите за объявлениями на нашем сайте, в Twitter, LinkedIn, на форуме и других платформах, перечисленных в нашем каталоге ссылок."
     },
     "5": {
-      "question": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
-      "answer": "First, we've taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We've achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we've drafted a community charter that defines the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0>Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization.</0> Finally, we're architecting and deploying the necessary infrastructure to further enable to the community to contribute to Rocky Linux."
+      "question": "Как вы сможете гарантировать то, что Rocky Linux действительно останется операционной системой для предприятий, управляемой сообществом?",
+      "answer": "Во-первых, мы предприняли шаги по юридической защите названия Rocky Linux. Это означает регистрацию торговых марок и различных связанных с ними свойств, чтобы защитить их от контроля со стороны другой организации. Мы добились этого, создав их под эгидой Rocky Enterprise Software Foundation (RESF). Также, мы разрабатываем устав сообщества, который определит организационную структуру, цели, ценности и миссию юридического лица, представляющего Rocky Linux. Критически важным в этом уставе является установление принципов, которые позволяют и защищают сообщество: прозрачность, вовлеченность сообщества, открытая разработка и независимость. <0> Rocky Linux никогда не будет контролироваться, покупаться или иным образом подвергаться влиянию со стороны одного лица или организации. </0> Наконец, мы создаем и развертываем всю необходимую инфраструктуру, чтобы сообщество могло вносить свой вклад в Rocky Linux."
     },
     "6": {
-      "question": "What if I have feedback or my question wasn't answered here?",
-      "answer": "Please email us: <0>hello@rockylinux.org</0> and we'll get back to you as soon as we can."
+      "question": "Что делать, если у меня есть отзыв или FAQ не содержит ответов на мой вопрос?",
+      "answer": "Пожалуйста, напишите нам: <0>hello@rockylinux.org</0> и мы свяжемся с вами в ближайшее время."
     }
   }
 }
