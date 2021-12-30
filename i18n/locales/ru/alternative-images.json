@@ -1,50 +1,50 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
-  "rl8": "Rocky Linux 8 (Current)",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "desktop": "Desktop (SIG)",
-  "alt-arch": "Alternative Architectures (SIG)",
+  "title": "Альтернативные сборки",
+  "description": "Сборки, представленные на этой странице, доступны с одного из наших доверенных зеркал, но не являются официально поддерживаемыми.",
+  "rl8": "Rocky Linux 8 (Текущая)",
+  "rl8-eol": "Окончание поддержки: 31 мая 2029 г.",
+  "desktop": "Рабочий стол (SIG)",
+  "alt-arch": "Альтернативные архитектуры (SIG)",
   "headings": {
-    "de": "Desktop Environment",
-    "checksum": "Checksum",
-    "arch": "Architecture",
-    "download": "Download",
+    "de": "Окружение рабочего стола",
+    "checksum": "Контрольная сумма",
+    "arch": "Архитектура",
+    "download": "Скачать",
     "readme": "Readme"
   },
   "body": {
-    "gnome": "GNOME (Workstation)",
+    "gnome": "GNOME (Раб. станция)",
     "xfce": "XFCE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
-    "checksum": "Checksum",
-    "download": "Download",
+    "checksum": "Контрольная сумма",
+    "download": "Скачать",
     "readme": "Readme"
   },
   "links": {
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "cloud": "Образы для облачных окружений",
+    "docs": "Документация",
+    "bug": "Сообщить об ошибке"
   },
   "get-involved": {
-    "heading": "Get Involved",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "heading": "Присоединиться",
+    "body": "Поскольку вы скачиваете и используете Rocky Linux, Rocky Enterprise Software Foundation приглашает вас <0>стать частью сообщества</0>. Существует множество способов внести свой вклад в проект, от документации, QA и тестирования до разработки изменений для SIG, предоставления зеркала или хостинга, а также помощи другим пользователям."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Каковы различия между ISO?",
+    "body": "Существуют различные установочные образы Rocky Linux. Выбор образа зависит от среды установки и условий использования.",
     "boot": {
       "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Используется для установки операционной системы из другого источника (например, из HTTP-репозитория). Также может использоваться для входа в Режим восстановления."
     },
     "minimal": {
       "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Используется для установки операционной системы из другого источника (например, из HTTP-репозитория). Также может использоваться для входа в Режим восстановления."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "Полный вариант установки, содержащий репозитории BaseOS и AppStream и позволяющий завершить установку без дополнительных репозиториев. Установка Rocky Linux с DVD ISO - это самый простой и распространенный метод выполнения стандартной установки Rocky Linux 8."
     }
   }
 }
