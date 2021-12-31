@@ -1,12 +1,12 @@
 {
-  "title": "下載",
-  "description": "從我們信任的鏡像伺服器的其中一個下載官方版本的 Rocky Linux。",
-  "rl8": "Rocky Linux 8 (目前版本)",
-  "rl8-eol": "<0>停止維護期限:</0> 2029年5月31日",
+  "title": "Downloads",
+  "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
+  "rl8": "Rocky Linux 8 (Current)",
+  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
   "headings": {
     "arch": "Architecture",
-    "isos": "ISO",
-    "packages": "軟體包"
+    "isos": "ISOs",
+    "packages": "Packages"
   },
   "body": {
     "x86_64": "x86_64",
@@ -14,18 +14,18 @@
     "minimal": "Minimal",
     "dvd": "DVD",
     "boot": "Boot",
-    "torrent": "Torrent 檔",
-    "checksum": "校驗碼",
+    "torrent": "Torrent",
+    "checksum": "校验",
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "其他映像檔",
+    "alt": "Alternative Images",
     "cloud": "Cloud Images",
-    "docs": "文件 ",
-    "bug": "回報程式錯誤"
+    "docs": "文档",
+    "bug": "报告 Bug"
   },
   "get-involved": {
-    "heading": "參與貢獻",
+    "heading": "Get Involved",
     "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
