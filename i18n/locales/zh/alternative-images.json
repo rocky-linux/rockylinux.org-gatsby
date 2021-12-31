@@ -1,16 +1,16 @@
 {
-  "title": "其他映像檔",
+  "title": "Alternative Images",
   "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
-  "rl8": "Rocky Linux 8 (目前版本)",
-  "rl8-eol": "<0>停止維護期限:</0> 2029年5月31日",
+  "rl8": "Rocky Linux 8 (Current)",
+  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Alternative Architectures (SIG)",
   "headings": {
-    "de": "桌面環境",
-    "checksum": "校驗碼",
+    "de": "Desktop Environment",
+    "checksum": "校验",
     "arch": "Architecture",
-    "download": "下載",
-    "readme": "說明檔"
+    "download": "下载",
+    "readme": "自述文件"
   },
   "body": {
     "gnome": "GNOME (Workstation)",
@@ -18,17 +18,17 @@
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
-    "checksum": "校驗碼",
-    "download": "下載",
-    "readme": "說明檔"
+    "checksum": "校验",
+    "download": "下载",
+    "readme": "自述文件"
   },
   "links": {
     "cloud": "Cloud Images",
-    "docs": "文件 ",
-    "bug": "回報程式錯誤"
+    "docs": "文档",
+    "bug": "报告 Bug"
   },
   "get-involved": {
-    "heading": "參與貢獻",
+    "heading": "Get Involved",
     "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
