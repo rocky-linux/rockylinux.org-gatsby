@@ -1,52 +1,52 @@
 {
-  "language": "zh-tw",
-  "js-warning": "您的瀏覽器似乎停用了 JavaScript。雖然本網站大部分的區域在不使用 JavaScript 的情況下都可以運作，但您在瀏覽我們的網站時可能會遇到意料之外的體驗。請考慮在您的瀏覽器設定中為我們的網站設定例外。",
+  "language": "en",
+  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
   "categories": {
-    "news": "新聞",
-    "about": "關於",
-    "community": "社群",
-    "documentation": "文件 ",
-    "get-involved": "參與貢獻",
-    "legal": "法律聲明",
-    "language": "語言"
+    "news": "News",
+    "about": "About",
+    "community": "Community",
+    "documentation": "文档",
+    "get-involved": "Get Involved",
+    "legal": "Legal",
+    "language": "Language"
   },
   "about": {
-    "about": "關於 Rocky Linux",
-    "faq": "常見問題",
-    "charter": "社群憲章",
-    "org-structure": "組織架構",
-    "status": "服務狀態",
+    "about": "About Rocky Linux",
+    "faq": "Frequently Asked Questions",
+    "charter": "Community Charter",
+    "org-structure": "Organizational Structure",
+    "status": "Service Status",
     "sponsors": "Sponsors",
     "partners": "Partners",
-    "support": "支援服務提供商"
+    "support": "Support Providers"
   },
   "community": {
-    "contribute": "貢獻",
-    "forums": "論壇",
-    "mailing": "郵件清單",
+    "contribute": "Contribute",
+    "forums": "Forums",
+    "mailing": "Mailing Lists",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "行事曆",
-    "bug": "遞交臭蟲",
-    "donate": "捐款",
-    "store": "商店"
+    "calendar": "Calendar",
+    "bug": "Submit Bug",
+    "donate": "Donate",
+    "store": "Store"
   },
   "documentation": {
     "wiki": "Wiki",
-    "guides": "指南與手冊",
-    "keys": "GPG 金鑰資訊"
+    "guides": "Guides and Manuals",
+    "keys": "GPG Key Info"
   },
   "legal": {
-    "licensing": "授權條款",
-    "privacy": "隱私權政策"
+    "licensing": "Licensing",
+    "privacy": "Privacy Policy"
   },
   "lang": {
-    "choose": "選擇語言",
-    "translate": "翻譯此網站"
+    "choose": "Choose Language",
+    "translate": "Translate this site"
   },
-  "download": "下載",
+  "download": "下载",
   "copyright": {
-    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. 版權所有。",
-    "line2": "Red Hat Enterprise Linux, RHEL 與 CentOS 是 Red Hat, Inc. 或其子公司在美國與其他國家／地區的註冊商標。我們不隸屬於 Red Hat, Inc.，也不受其支持或贊助。"
+    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
+    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
   }
 }
