@@ -22,5 +22,21 @@
     "localName": "Suomi",
     "langDir": "ltr",
     "dateFormat": "DD.MM.YYYY"
+  },
+  {
+    "code": "it",
+    "hrefLang": "it",
+    "name": "Italian",
+    "localName": "Italiano",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "ru",
+    "hrefLang": "ru",
+    "name": "Russian",
+    "localName": "Русский",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
   }
 ]

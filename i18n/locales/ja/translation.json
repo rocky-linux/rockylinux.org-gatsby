@@ -1,52 +1,52 @@
 {
-  "language": "en",
-  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
+  "language": "ja",
+  "js-warning": "お使いのブラウザでは、JavaScriptが無効になっているようです。本サイトのほとんどの部分はJavaScriptを使用しなくても動作しますが、本サイトを閲覧する際に意図しない体験をする可能性があります。お使いのブラウザの設定で、当サイトの利用を例外として設定することをご検討ください。",
   "categories": {
-    "news": "News",
-    "about": "About",
-    "community": "Community",
-    "documentation": "Documentation",
-    "get-involved": "Get Involved",
-    "legal": "Legal",
-    "language": "Language"
+    "news": "ニュース",
+    "about": "概要",
+    "community": "コミュニティ",
+    "documentation": "ドキュメント",
+    "get-involved": "活動に参加する",
+    "legal": "リーガル",
+    "language": "言語"
   },
   "about": {
-    "about": "About Rocky Linux",
-    "faq": "Frequently Asked Questions",
-    "charter": "Community Charter",
-    "org-structure": "Organizational Structure",
-    "status": "Service Status",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "support": "Support Providers"
+    "about": "Rocky Linuxについて",
+    "faq": "よくある質問",
+    "charter": "コミュニティ憲章",
+    "org-structure": "組織体制",
+    "status": "サービスの状態",
+    "sponsors": "スポンサー",
+    "partners": "パートナー",
+    "support": "サポート プロバイダ"
   },
   "community": {
-    "contribute": "Contribute",
-    "forums": "Forums",
-    "mailing": "Mailing Lists",
+    "contribute": "貢献",
+    "forums": "フォーラム",
+    "mailing": "メーリング リスト",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "Calendar",
-    "bug": "Submit Bug",
-    "donate": "Donate",
-    "store": "Store"
+    "calendar": "カレンダー",
+    "bug": "不具合報告",
+    "donate": "寄付",
+    "store": "ストア"
   },
   "documentation": {
     "wiki": "Wiki",
-    "guides": "Guides and Manuals",
-    "keys": "GPG Key Info"
+    "guides": "ガイドとマニュアル",
+    "keys": "GPG鍵情報"
   },
   "legal": {
-    "licensing": "Licensing",
-    "privacy": "Privacy Policy"
+    "licensing": "ライセンス",
+    "privacy": "プライバシーポリシー"
   },
   "lang": {
-    "choose": "Choose Language",
-    "translate": "Translate this site"
+    "choose": "言語の選択",
+    "translate": "このサイトを翻訳する"
   },
-  "download": "Download",
+  "download": "ダウンロード",
   "copyright": {
     "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+    "line2": "Red Hat Enterprise Linux、RHEL、CentOSは、米国およびその他の国におけるRed Hat, Inc.またはその子会社の商標または登録商標です。私たちは、Red Hat, Inc.と提携、保証、スポンサー関係はありません。"
   }
 }

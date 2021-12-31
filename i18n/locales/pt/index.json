@@ -12,11 +12,11 @@
     "description": "O Rocky Linux reconstrói fontes diretamente do RHEL<0>&#174;</0>, então pode apostar que você terá uma experiência super estável, não importa o uso.",
     "1": {
       "title": "Pronto para Produção",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "description": "O Rocky Linux está pronto para empresas, proporcionando uma estabilidade sólida com atualizações regulares e um ciclo de vida de suporte de 10 anos, tudo a um custo zero."
     },
     "2": {
       "title": "Apoiado pela Comunidade",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "description": "A comunidade, os patrocinadores e os parceiros investiram com compromissos de longo prazo para garantir que o projeto permaneça com a comunidade."
     },
     "3": {
       "title": "Migração Fácil",
@@ -30,7 +30,7 @@
   "sponsors-partners": {
     "backed": "Apoiado por",
     "sponsors": "Todos os Patrocinadores",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "partners": "Todos os Parceiros",
+    "support": "Apoiadores"
   }
 }

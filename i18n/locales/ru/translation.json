@@ -1,52 +1,52 @@
 {
-  "language": "en",
-  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
+  "language": "ru",
+  "js-warning": "Похоже, в вашем браузере отключен JavaScript. Хотя большинство разделов сайта работают без использования JavaScript, при просмотре нашего сайта могут возникнуть некоторые неудобства. Рассмотрите, пожалуйста, возможность сделать исключение для нашего сайта в настройках вашего браузера.",
   "categories": {
-    "news": "News",
-    "about": "About",
-    "community": "Community",
-    "documentation": "Documentation",
-    "get-involved": "Get Involved",
-    "legal": "Legal",
-    "language": "Language"
+    "news": "Новости",
+    "about": "О проекте",
+    "community": "Сообщество",
+    "documentation": "Документация",
+    "get-involved": "Присоединиться",
+    "legal": "Правовая информация",
+    "language": "Язык"
   },
   "about": {
-    "about": "About Rocky Linux",
-    "faq": "Frequently Asked Questions",
-    "charter": "Community Charter",
-    "org-structure": "Organizational Structure",
-    "status": "Service Status",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "support": "Support Providers"
+    "about": "О Rocky Linux",
+    "faq": "Часто задаваемые вопросы",
+    "charter": "Устав сообщества",
+    "org-structure": "Структура организации",
+    "status": "Состояние сервисов",
+    "sponsors": "Спонсоры",
+    "partners": "Партнёры",
+    "support": "Коммерческая поддержка"
   },
   "community": {
-    "contribute": "Contribute",
-    "forums": "Forums",
-    "mailing": "Mailing Lists",
+    "contribute": "Внести свой вклад",
+    "forums": "Форум",
+    "mailing": "Списки рассылки",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "Calendar",
-    "bug": "Submit Bug",
-    "donate": "Donate",
-    "store": "Store"
+    "calendar": "Календарь",
+    "bug": "Сообщить об ошибке",
+    "donate": "Пожертвовать",
+    "store": "Магазин"
   },
   "documentation": {
     "wiki": "Wiki",
-    "guides": "Guides and Manuals",
-    "keys": "GPG Key Info"
+    "guides": "Руководства",
+    "keys": "Ключи GPG"
   },
   "legal": {
-    "licensing": "Licensing",
-    "privacy": "Privacy Policy"
+    "licensing": "Лицензии",
+    "privacy": "Политика конфиденциальности"
   },
   "lang": {
-    "choose": "Choose Language",
-    "translate": "Translate this site"
+    "choose": "Выберите язык",
+    "translate": "Перевести этот сайт"
   },
-  "download": "Download",
+  "download": "Скачать",
   "copyright": {
-    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. Все права защищены.",
+    "line2": "Red Hat Enterprise Linux, RHEL и CentOS являются торговыми марками или зарегистрированными торговыми марками компании Red Hat, Inc. или ее дочерних компаний в США и других странах. Мы никак не связаны с Red Hat, Inc., не поддерживамся и не спонсированы ей."
   }
 }
