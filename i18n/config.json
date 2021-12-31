@@ -30,5 +30,13 @@
     "localName": "Italiano",
     "langDir": "ltr",
     "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "ru",
+    "hrefLang": "ru",
+    "name": "Russian",
+    "localName": "Русский",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
   }
 ]
