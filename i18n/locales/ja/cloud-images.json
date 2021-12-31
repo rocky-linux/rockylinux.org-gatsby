@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
-  "description": "Find our official images from your favorite cloud provider.",
+  "title": "クラウドイメージ",
+  "description": "お好きなクラウドプロバイダーから公式画像をお探しください。",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
-    "arch": "Architecture",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "version": "OS のバージョン",
+    "provider": "プロバイダー",
+    "region": "地域",
+    "arch": "アーキテクチャ",
+    "id": "イメージ ID",
+    "deploy": "デプロイリンク"
   },
-  "deploy": "Deploy"
+  "deploy": "デプロイ"
 }

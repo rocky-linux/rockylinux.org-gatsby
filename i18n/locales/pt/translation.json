@@ -13,12 +13,12 @@
   "about": {
     "about": "Sobre o Rocky Linux",
     "faq": "Preguntas Frequentes",
-    "charter": "Community Charter",
+    "charter": "Carta da Comunidade",
     "org-structure": "Estrutura Organizacional",
     "status": "Status de Serviço",
     "sponsors": "Patrocinadores",
-    "partners": "Partners",
-    "support": "Support Providers"
+    "partners": "Parceiros",
+    "support": "Apoiadores"
   },
   "community": {
     "contribute": "Contribuir",
@@ -47,6 +47,6 @@
   "download": "Download",
   "copyright": {
     "line1": "© 2020-2021 Rocky Enterprise Software Foundation. Todos os direitos reservados.",
-    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+    "line2": "Red Hat Enterprise Linux, RHEL e CentOS são marcas comerciais ou marcas registradas da Red Hat Inc. ou de suas subsidiárias nos Estados Unidos e em outros países. Não somos afiliados, endossados ou patrocinados pela Red Hat Inc."
   }
 }

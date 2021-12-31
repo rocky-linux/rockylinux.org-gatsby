@@ -1,12 +1,12 @@
 {
   "title": "Downloads",
-  "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
-  "rl8": "Rocky Linux 8 (Current)",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
+  "description": "Scarica il rilascio ufficiale di Rocky Linux da uno dei nostri mirror di fiducia.",
+  "rl8": "Rocky Linux 8 (corrente)",
+  "rl8-eol": "<0>EOL pianificata</0>: 31 maggio 2029",
   "headings": {
-    "arch": "Architecture",
-    "isos": "ISOs",
-    "packages": "Packages"
+    "arch": "Architettura",
+    "isos": "ISO",
+    "packages": "Pacchetti"
   },
   "body": {
     "x86_64": "x86_64",
@@ -19,29 +19,29 @@
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "Alternative Images",
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "alt": "Immagini Alternative",
+    "cloud": "Immagini Cloud",
+    "docs": "Documentazione",
+    "bug": "Segnala un Bug"
   },
   "get-involved": {
-    "heading": "Get Involved",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "heading": "Partecipa",
+    "body": "Mentre scarichi e usi Rocky Linux, la Rocky Enterprise Software Foundation ti invita a <0>essere parte della community come contributore</0>. Ci sono molte maniere per contribuire al progetto, dalla documentazione, QA, e testing, al proporre cambiamenti al codice per i SIG, fornire mirror o hosting, e aiutare gli altri utenti. "
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Qual è la differenza tra le ISO?",
+    "body": "Sono disponibili varie immagini per l'installazione di Rocky Linux. L'immagine che hai bisogno di scaricare dipende dal tuo ambiente di installazione e dallo use-case.",
     "boot": {
       "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Utilizzata per installare il sistema operativo da un'altra fonte (come un repository HTTP di file binary). Può anche essere adoperata per entrare nella Rescue Mode."
     },
     "minimal": {
       "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Utilizzata per installare il sistema operativo da un'altra fonte (come un repository HTTP di file binary). Può anche essere adoperata per entrare nella Rescue Mode."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "Un'installazione completa che contiene i repository BaseOS e AppStream e che ti consente di completare l'installazione senza repository aggiuntivi. Installare Rocky Linux dalla ISO DVD è il metodo più facile e comune per effettuare un'installazione standard di Rocky Linux 8."
     }
   }
 }

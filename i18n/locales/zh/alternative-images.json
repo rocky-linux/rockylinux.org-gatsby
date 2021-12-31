@@ -7,10 +7,10 @@
   "alt-arch": "Alternative Architectures (SIG)",
   "headings": {
     "de": "Desktop Environment",
-    "checksum": "Checksum",
+    "checksum": "校验",
     "arch": "Architecture",
-    "download": "Download",
-    "readme": "Readme"
+    "download": "下载",
+    "readme": "自述文件"
   },
   "body": {
     "gnome": "GNOME (Workstation)",
@@ -18,14 +18,14 @@
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
-    "checksum": "Checksum",
-    "download": "Download",
-    "readme": "Readme"
+    "checksum": "校验",
+    "download": "下载",
+    "readme": "自述文件"
   },
   "links": {
     "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "docs": "文档",
+    "bug": "报告 Bug"
   },
   "get-involved": {
     "heading": "Get Involved",

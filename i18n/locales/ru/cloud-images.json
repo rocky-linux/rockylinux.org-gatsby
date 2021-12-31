@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
-  "description": "Find our official images from your favorite cloud provider.",
+  "title": "Образы для облачных окружений",
+  "description": "Ищите наши официальные образы у вашего любимого облачного провайдера.",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
-    "arch": "Architecture",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "version": "Версия ОС",
+    "provider": "Провайдер",
+    "region": "Регион",
+    "arch": "Архитектура",
+    "id": "Идентификатор образа",
+    "deploy": "Ссылка для развертывания"
   },
-  "deploy": "Deploy"
+  "deploy": "Развернуть"
 }

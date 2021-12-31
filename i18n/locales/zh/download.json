@@ -15,14 +15,14 @@
     "dvd": "DVD",
     "boot": "Boot",
     "torrent": "Torrent",
-    "checksum": "Checksum",
+    "checksum": "校验",
     "baseos": "BaseOS"
   },
   "links": {
     "alt": "Alternative Images",
     "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "docs": "文档",
+    "bug": "报告 Bug"
   },
   "get-involved": {
     "heading": "Get Involved",
