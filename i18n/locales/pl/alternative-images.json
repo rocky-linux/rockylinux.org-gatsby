@@ -10,7 +10,7 @@
     "checksum": "Suma kontrolna",
     "arch": "Architektura",
     "download": "Pobieranie",
-    "readme": "Readme"
+    "readme": "Czytaj"
   },
   "body": {
     "gnome": "GNOME (Stacja robocza)",
@@ -20,7 +20,7 @@
     "arm": "aarch64",
     "checksum": "Suma kontrolna",
     "download": "Pobieranie",
-    "readme": "Readme"
+    "readme": "Czytaj"
   },
   "links": {
     "cloud": "Obrazy w Chmurze",
