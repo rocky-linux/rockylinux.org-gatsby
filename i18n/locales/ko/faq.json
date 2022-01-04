@@ -1,29 +1,29 @@
 {
-  "title": "Frequently Asked Questions",
-  "description": "Below is a list of our most frequently asked questions.",
+  "title": "자주 묻는 질문",
+  "description": "다음은 가장 자주 묻는 질문 목록입니다.",
   "faq": {
     "1": {
-      "question": "How can I help mirror current and future Rocky Linux releases?",
-      "answer": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
+      "question": "현재 및 미래의 Rocky Linux 릴리스를 미러링 하려면 어떻게 해야 합니까?",
+      "answer": "관심이 있으시면 <0>mirrors@rockylinux.org</0>로 이메일을 보내주시길 바랍니다."
     },
     "2": {
-      "question": "I encountered a bug while testing Rocky Linux, what can I do?",
-      "answer": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
+      "question": "Rocky Linux를 테스트하는 동안 버그가 발생했습니다. 어떻게 해야 합니까?",
+      "answer": "먼저 <0>Rocky Linux Account Services</0>에서 계정을 만든 다음 <1>Bugzilla 서버</1>로 이동하여 버그를 보고하세요."
     },
     "3": {
-      "question": "How can I get involved with the Testing Team?",
-      "answer": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There's also a testing topic on the forums for more durable conversation."
+      "question": "테스트 팀에 가입하려면 어떻게 해야 합니까?",
+      "answer": "시작하려면 Mattermost 서버의 <0>~Testing</0> 채널에 가입하세요. 보다 지속적인 대화를 위해 포럼에 테스트 주제도 있습니다."
     },
     "4": {
-      "question": "Where can I find the latest news about Rocky Linux?",
-      "answer": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
+      "question": "Rocky Linux에 대한 최신 소식은 어디에서 찾을 수 있습니까?",
+      "answer": "당사 웹사이트,  트위터, 링크드인, 포럼 및 링크 디렉토리에 나열된 기타 플랫폼에서 최신 발표를 확인해주시길 바랍니다."
     },
     "5": {
-      "question": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
-      "answer": "First, we've taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We've achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we've drafted a community charter that defines the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0>Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization.</0> Finally, we're architecting and deploying the necessary infrastructure to further enable to the community to contribute to Rocky Linux."
+      "question": "Rocky Linux가 진정으로 커뮤니티 엔터프라이즈 운영 체제로 유지되도록 하려면 어떻게 해야 할까요?",
+      "answer": "우선, 우리는 Rocky Linux라는 이름을 법적으로 보호하기 위한 조처를 했습니다. 이는 상표 및 기타 관련 자산을 등록하여 다른 기업의 통제를 받지 않도록 하는 것을 의미합니다. 이를 위해 우리는 Rocky Enterprise Software Foundation(RESF)를 설립하여 이들을 확립함으로써 이를 달성했습니다. 다음, Rocky Linux를 대표하는 법인 뒤에 있는 조직 구조, 목표, 가치 및 사명을 정의하는 커뮤니티 헌장을 작성했습니다. 이 헌장에서 중요한 것은 커뮤니티를 가능하게 하고 보호하는 원칙(투명성, 커뮤니티 참여, 열린 개발 및 독립)의 수립입니다. <0> Rocky Linux 는 단일 법인이나 조직에 의해 관리, 구매 또는 기타 영향을 받지 않습니다.<0> 마지막으로 커뮤니티가 Rocky Linux에 기여할 수 있도록 하기 위해 필요한 기반을 설계하고 전개하고 있습니다."
     },
     "6": {
-      "question": "What if I have feedback or my question wasn't answered here?",
+      "question": "피드백이 있거나 내 질문에 대한 답변이 여기에 없으면 어떻게 합니까?",
       "answer": "Please email us: <0>hello@rockylinux.org</0> and we'll get back to you as soon as we can."
     }
   }
