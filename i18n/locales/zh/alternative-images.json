@@ -1,6 +1,6 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
+  "title": "备选镜像",
+  "description": "本页面提供的镜像可从我们信任的镜像网站中获得，但并不被官方支持。",
   "rl8": "Rocky Linux 8(当前的)",
   "rl8-eol": "<0>计划的EOL(end of life，生命周期结束):</0> 2029 12 31",
   "desktop": "桌面 (SIG)",
