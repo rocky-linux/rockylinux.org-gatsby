@@ -1,14 +1,14 @@
 {
   "hero": {
     "new": "새로운 소식",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
+    "title": "엔터프라이즈 리눅스, 커뮤니티와 같이.",
+    "description": "Rocky Linux는 Red Hat Enterprise Linux<0>&#174;</0>와 100% 버그 간 호환이 가능하도록 설계된 오픈 소스 엔터프라이즈 운영 체제입니다. 커뮤니티에서 집중적으로 개발 중입니다.",
     "cta1": "Download",
-    "cta2": "Migrate"
+    "cta2": "마이그레이션"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
+    "title": "바위처럼 단단한,  어떤 경우에 사용하든 상관없어.",
+    "subtitle": "안정적이고 바로 사용 가능한 Linux",
     "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
     "1": {
       "title": "Production Ready",
