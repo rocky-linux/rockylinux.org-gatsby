@@ -1,63 +1,63 @@
 {
-  "title": "Partners",
-  "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+  "title": "파트너",
+  "description": "RSFS의 파트너는 Rocky Linux 프로젝트에 전략적으로 중요한 지속적인 관계를 나타냅니다. 엔지니어링 전문 지식, 인프라 지원 또는 기타 수단에 대한 헌신을 통해 이들의 지원은 당사의 지속적인 성공과 장기적인 안정성에 매우 중요합니다.",
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "tier": "창립 파트너",
+      "blurb": "우리는 사람들이 위대한 일을 할 수 있도록 도와야 한다고 믿습니다. 이것이 CIQ가 RESF의 창립 파트너인 이유입니다. 우리는 연구, 학계, 정부, 기업, 파트너 및 그 사이의 모든 고객에게 Rocky Linux에 대한 상업적 지원 및 서비스를 제공합니다."
     },
     "arm": {
       "name": "Arm",
-      "tier": "Principal Partner",
-      "blurb": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+      "tier": "주요 파트너",
+      "blurb": "Arm은 Rocky Linux를 사용하는 첫날부터 해당 아키텍처가 최고의 아키텍처임을 보증하기 위해 노력하고 있습니다. 우리는 RESF와 파트너 관계를 맺어 Rocky Linux 개발 및 테스트 팀을 보완하기 위한 헌신적인 엔지니어링 노력을 제공하고 긴밀하게 협력하여 현재와 미래에 ARM을 테스트, 검증 및 지원합니다."
     },
     "equinix": {
       "name": "Equinix",
-      "tier": "Principal Partner",
-      "blurb": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+      "tier": "주요 파트너",
+      "blurb": "Equinix는 세계 최고의 디지털 인프라 회사입니다. 디지털 리더는 신뢰할 수 있는 플랫폼을 활용하여 성공을 뒷받침하는 기반 인프라를 만들고 상호 연계하고 있습니다."
     },
     "fastly": {
       "name": "Fastly",
-      "tier": "Principal Partner",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "tier": "주요 파트너",
+      "blurb": "Fastly의 에지 클라우드 플랫폼을 사용하면 고객의 애플리케이션을 인터넷 에지에서 최대한 최종 사용자와 가깝게 처리, 제공 및 보호하여 뛰어난 디지털 경험을 빠르고 안전하며 안정적으로 생성할 수 있습니다."
     },
     "fosshost": {
       "name": "Fosshost",
-      "tier": "Principal Partner",
-      "blurb": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+      "tier": "주요 파트너",
+      "blurb": "Fosshost(UK CIC #13356530)는 FOSS 커뮤니티 전용으로 무료 엔터프라이즈급 인터넷 호스팅 및 관리 서비스를 제공합니다. 우리는 모든 무료 및 오픈 소스 소프트웨어 프로젝트에 권한을 부여하고 지원하는 사명을 띠고 있습니다. 더 멀리, 함께. 우리의 일은 결코 멈추지 않습니다. 오늘 신청하세요!"
     },
     "mattermost": {
       "name": "Mattermost",
-      "tier": "Principal Partner",
-      "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      "tier": "주요 파트너",
+      "blurb": "Mattermost는 보안 요구사항이 가장 높은 조직을 위해 만들어진 오픈 소스 메시징 솔루션입니다. 오픈 소스의 강력한 힘을 믿는 Mattermost는 RESF와 협력하여 기술 커뮤니티에 엔터프라이즈급 Linux 배포를 제공하는 것을 매우 기쁘게 생각합니다."
     },
     "naver": {
-      "name": "NAVER Cloud",
-      "tier": "Principal Partner",
-      "blurb": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+      "name": "네이버 클라우드",
+      "tier": "주요 파트너",
+      "blurb": "네이버 클라우드 플랫폼은 2017년 네이버의 자회사인 네이버 클라우드에서 시작한 대한민국의 클라우드 서비스입니다. 2021년에는 170개 이상의 개별 서비스를 제공하며 CSA STAR GOLD, GDPR 등 다양한 보안 인증을 보유하고 있습니다. 또한 현재 전세계 10개 지역에서 클라우드 서비스를 제공하고 있습니다."
     },
     "osl": {
-      "name": "OSU Open Source Labs",
-      "tier": "Principal Partner",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "name": "OSU 오픈소스 연구소",
+      "tier": "주요 파트너",
+      "blurb": "오리건 주립대학교 오픈소스 연구소(Oregon State University Open Source Lab)은 오픈 소스 기술의 발전을 위해 일하는 비영리 단체입니다. OSL은 오픈 소스 관리 및 프로그래밍에 관심이 있는 유망한 학생들을 위해 세계적 수준의 호스팅 서비스, 전문 소프트웨어 개발 및 현장 교육을 제공합니다."
     },
     "supermicro": {
       "name": "Supermicro",
-      "tier": "Principal Partner",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "tier": "주요 파트너",
+      "blurb": "고성능, 고효율 서버 기술 및 혁신의 글로벌 리더인 Supermicro는 RESF와 협력하여 Rocky Linux에 최적화된 데이터센터 서버 및 스토리지 시스템을 제공하게 된 것을 기쁘게 생각합니다."
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "Tier 4 Partner"
+      "tier": "Tier 4 파트너"
     },
     "dsstudio": {
       "name": "DotSlash Studio",
-      "tier": "Tier 4 Partner"
+      "tier": "Tier 4 파트너"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "Tier 4 Partner"
+      "tier": "Tier 4 파트너"
     }
   }
 }
