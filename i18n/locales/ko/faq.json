@@ -24,7 +24,7 @@
     },
     "6": {
       "question": "피드백이 있거나 내 질문에 대한 답변이 여기에 없으면 어떻게 합니까?",
-      "answer": "Please email us: <0>hello@rockylinux.org</0> and we'll get back to you as soon as we can."
+      "answer": "<0>hello@rockylinux.org</0>로 이메일을 보내주시면 최대한 빨리 연락드리겠습니다."
     }
   }
 }
