@@ -10,7 +10,7 @@
     "paragraph": "Rocky Linux 프로젝트는 Rocky Enterprise Software Foundation(RESF)에서 관리합니다. 조직 구조에 대해 자세히 알아보려면 해당 주제에 대한 <0>페이지</0>를 확인하세요."
   },
   "quote": {
-    "content": "Thinking back to early CentOS days... My cofounder was Rocky McGaugh. He is no longer with us, so as a H/T to him, who never got to see the success that CentOS came to be, I introduce to you...Rocky Linux.",
+    "content": "CentOS 초기에 돌이켜보면... 저의 공동 창설자는 Rocky McGaugh였습니다. 그는 이제 없으며, CentOS의 성공을 지켜보지 못한 그에게 경의를 표하며, 저는 여러분에게 소개합니다...Rocky Linux를.",
     "gmk": "Gregory Kurtzer",
     "occupation": "공동창립자 @ CentOS  /  창립자 @ Rocky Linux"
   }
