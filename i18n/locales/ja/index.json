@@ -1,17 +1,17 @@
 {
   "hero": {
     "new": "新着情報",
-    "title": "Enterprise Linux, the community way.",
+    "title": "Enterprise Linux、コミュニティの取り組み方。",
     "description": "Rocky Linux は、Red Hat Enterprise Linux® とバグまで含めた100%の互換性を持つように設計されたオープンソースのエンタープライズオペレーティングシステムです。コミュニティによって集中的に開発されています。",
     "cta1": "ダウンロード",
     "cta2": "移行"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
+    "title": "どんな用途にも対応できる、堅牢さ",
+    "subtitle": "安定した、本番運用できる Linux",
     "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
     "1": {
-      "title": "Production Ready",
+      "title": "本番対応",
       "description": "Rocky Linuxは、定期的なアップデートと10年間のサポートライフサイクルによる確かな安定性を提供し、すべて無償で提供されるエンタープライズ対応製品です。"
     },
     "2": {
