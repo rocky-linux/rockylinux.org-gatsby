@@ -15,12 +15,12 @@
     "aws": {
       "name": "亚马逊网络服务",
       "tier": "首席赞助商",
-      "blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+      "blurb": "RESF利用AWS运行着至关重要的大部分底层基础设施(例如支持Rocky Linux服务的开发环境和部署环境)。不管EC2是运行在x86_64架构还是aach64架构，都能实现从Koji builder到S3(Simple Storage Service)中的的SRPM对象存储，AWS是我们大部分工作的基础。"
     },
     "gcp": {
       "name": "谷歌云",
       "tier": "首席赞助商",
-      "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one."
+      "blurb": "作为RESF的首席赞助商，谷歌深知Rocky Linux作为一个免费、开放、社区企业操作系统的重要性。我们与RESF合作，且提供测试和验证资源，以确保Rocky从第一天起就成为Google Cloud平台上的一等公民。"
     },
     "azure": {
       "name": "微软 Azure",
@@ -35,7 +35,7 @@
     "opendrives": {
       "name": "OpenDrives",
       "tier": "首席赞助商",
-      "blurb": "OpenDrives 是一家企业级、超可拓展、网络附加存储(NAS)解决方案的全球供应商。我们为客户提供最高性能的解决方案，以满足个人性能需求，以满足最强大、最复杂和最关键任务的项目和工作流，无论是内部部署还是云端部署。"
+      "blurb": "OpenDrives 是一家企业级、超可拓展、网络附加存储(NAS)解决方案的全球提供商。我们为客户提供最高性能的解决方案，以满足个人性能需求，以满足最强大、最复杂和最关键任务的项目和工作流，无论是内部部署还是云端部署。"
     },
     "vmware": {
       "name": "VMware",
