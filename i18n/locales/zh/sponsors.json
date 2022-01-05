@@ -25,7 +25,7 @@
     "azure": {
       "name": "微软 Azure",
       "tier": "首席赞助商",
-      "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
+      "blurb": "Linux是Azure上增长最快的平台，运行在超过一半的虚拟机内核上。十多年来，微软一直在对Linux进行投资，且合作伙伴关系是微软开源战略的中流砥柱，因此我们选择与RESF和更广泛的Rocky Linux生态系统合作，以确保客户有越来越多的选择，以支持、管理和安全的方式在Azure上部署Linux工作负载。"
     },
     "montavista": {
       "name": "MontaVista",
