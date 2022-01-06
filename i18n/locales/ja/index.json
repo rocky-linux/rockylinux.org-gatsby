@@ -9,14 +9,14 @@
   "features": {
     "title": "どんな用途にも対応できる、堅牢さ",
     "subtitle": "安定した、本番運用できる Linux",
-    "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
+    "description": "Rocky Linux は RHEL<0>&#174;<0> から直接ソースを再構築しているため、どのような場面でも、非常に安定した動作を体験すると確信しています。",
     "1": {
       "title": "本番対応",
       "description": "Rocky Linuxは、定期的なアップデートと10年間のサポートライフサイクルによる確かな安定性を提供し、すべて無償で提供されるエンタープライズ対応製品です。"
     },
     "2": {
       "title": "コミュニティー サポート",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "description": "コミュニティ、スポンサー、パートナーは、プロジェクトがコミュニティとともにあることを保証するために、長期的な取り組みに投資しています。"
     },
     "3": {
       "title": "簡単な移行",
@@ -28,7 +28,7 @@
     "description": "私たちは定期的に最新情報をコミュニティで共有しています。ここでは、その最新情報をご紹介します。"
   },
   "sponsors-partners": {
-    "backed": "Backed By",
+    "backed": "後援",
     "sponsors": "すべてのスポンサー",
     "partners": "すべてのパートナー",
     "support": "サポートパートナー"
