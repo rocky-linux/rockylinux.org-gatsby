@@ -20,17 +20,17 @@
     "gcp": {
       "name": "Google Cloud",
       "tier": "主要スポンサー",
-      "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one."
+      "blurb": "RESF の主要スポンサーである Google は、Rocky Linux がフリーでオープンなコミュニティ向けエンタープライズオペレーティングシステムであることの重要性を理解しています。テストと検証のためのリソースを提供し、RESF と提携して、Rocky が初日から Google Cloud Platform 上の最上級メンバーであることを保証しています。"
     },
     "azure": {
       "name": "Microsoft Azure",
       "tier": "主要スポンサー",
-      "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
+      "blurb": "Linuxは、Azure上で最も急速に成長しているプラットフォームであり、VMコアの半数以上で稼働しています。Microsoft は 10 年以上にわたって Linux に投資しており、パートナーシップは Microsoft のオープンソース戦略の中心的な柱であるため、RESF および広範な Rocky Linux エコシステムと連携して、お客様がサポート、管理、および安全な方法で Azure に Linux ワークロードを展開するオプションを増やせるように努めています。"
     },
     "montavista": {
       "name": "MontaVista",
       "tier": "主要スポンサー",
-      "blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
+      "blurb": "MontaVista Softwareは、MontaVista CGX、Yocto Project®️、CentOS、Rocky Linux をサポートする組込み商用LInuxのリーダーです。 MontaVistaは、オープンソースソフトウェアの専門知識、商用品質のLinuxディストリビューション、費用対効果の高いメンテナンスと10年以上のライフサイクルのサポートを提供しています。"
     },
     "opendrives": {
       "name": "OpenDrive",
