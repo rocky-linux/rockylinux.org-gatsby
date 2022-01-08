@@ -11,6 +11,7 @@ import LocalizedLink from '../components/LocalizedLink';
 const Footer = ({ pageContext: { locale: language } }) => {
   const translate = Translate();
   const { config } = useLocalization();
+  const year = new Date();
   const navigation = {
     about: [
       { name: `${translate('about.about')}`, href: '/about' },
@@ -300,7 +301,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             ))}
           </div>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            {translate('copyright.line1')}
+          © 2020-{year.getFullYear()} {translate('copyright.line1')}
           </p>
         </div>
         <div className="pt-8 md:flex md:items-center md:justify-between">
@@ -314,3 +315,4 @@ const Footer = ({ pageContext: { locale: language } }) => {
 };
 
 export default Footer;
+
