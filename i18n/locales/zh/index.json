@@ -12,25 +12,25 @@
     "description": "Rocky Linux繼承RHEL<0>&#174;</0>的血統，不論用於何處都能讓你無後顧之憂、充滿信心地享有超高穩定性的使用體驗。",
     "1": {
       "title": "適用於生產力環境",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "description": "Rocky Linux適用於企業及環境，提供您優異的穩定性、定時更新及10年維護週期，而且不花分文。"
     },
     "2": {
-      "title": "Community Supported",
+      "title": "廣大社群為你撐腰",
       "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "簡單遷移無需煩惱",
+      "description": "從其他企業級Linux轉移也無需煩惱，我們有簡單好用的轉移腳本，而且完全免費提供。"
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "最新消息",
+    "description": "我們經常與社群分享近期發生的大小事，以下是最新內容。"
   },
   "sponsors-partners": {
-    "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
+    "backed": "強力後盾",
+    "sponsors": "所有贊助商",
+    "partners": "所有合作夥伴",
     "support": "Support Partners"
   }
 }
