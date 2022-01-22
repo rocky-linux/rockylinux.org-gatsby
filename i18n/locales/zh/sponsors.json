@@ -1,54 +1,54 @@
 {
-  "title": "Sponsors",
-  "description": "We would like to thank our sponsors for their support thus far on the project.",
+  "title": "赞助商",
+  "description": "我们要感谢我们的赞助商迄今为止对该项目的支持。",
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Sponsor",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "tier": "创始赞助商",
+      "blurb": "我们相信能帮助人们做伟大的事情，这就是为什么CIQ是RESF的创始赞助商。我们为研究领域、学术界、政府、企业、合作伙伴和所有介于两者之间的客户提供Rocky Linux的商业支持和服务。"
     },
     "45drives": {
       "name": "45Drives",
-      "tier": "Principal Sponsor",
-      "blurb": "45Drives offers enterprise storage solutions built on powerful and robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!"
+      "tier": "首席赞助商",
+      "blurb": "45Drives 提供了基于强大和健壮的开源软件的企业存储解决方案，让客户能够从现成硬件的成本节约和灵活性中获益。查看它们，以最低的每TB成本获得完全支持的数据存储解决方案!"
     },
     "aws": {
-      "name": "Amazon Web Services",
-      "tier": "Principal Sponsor",
-      "blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+      "name": "亚马逊网络服务",
+      "tier": "首席赞助商",
+      "blurb": "RESF利用AWS运行着至关重要的大部分底层基础设施(例如支持Rocky Linux服务的开发环境和部署环境)。不管EC2是运行在x86_64架构还是aach64架构，都能实现从Koji builder到S3(Simple Storage Service)中的的SRPM对象存储，AWS是我们大部分工作的基础。"
     },
     "gcp": {
-      "name": "Google Cloud",
-      "tier": "Principal Sponsor",
-      "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one."
+      "name": "谷歌云",
+      "tier": "首席赞助商",
+      "blurb": "作为RESF的首席赞助商，谷歌深知Rocky Linux作为一个免费、开放、社区企业操作系统的重要性。我们与RESF合作，且提供测试和验证资源，以确保Rocky从第一天起就成为Google Cloud平台上的一等公民。"
     },
     "azure": {
-      "name": "Microsoft Azure",
-      "tier": "Principal Sponsor",
-      "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
+      "name": "微软 Azure",
+      "tier": "首席赞助商",
+      "blurb": "Linux是Azure上增长最快的平台，运行在超过一半的虚拟机内核上。十多年来，微软一直在对Linux进行投资，且合作伙伴关系是微软开源战略的中流砥柱，因此我们选择与RESF和更广泛的Rocky Linux生态系统合作，以确保客户有越来越多的选择，以支持、管理和安全的方式在Azure上部署Linux工作负载。"
     },
     "montavista": {
       "name": "MontaVista",
-      "tier": "Principal Sponsor",
-      "blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
+      "tier": "首席赞助商",
+      "blurb": "MontaVista Software 是嵌入式商用LInux的领导者，支持MontaVista CGX、Yocto Project®️、 CentOS和Rocky Linux。MontaVista提供开源软件专业知识、商业质量的Linux发行版、性价比高的维护和10年以上生命周期的支持。"
     },
     "opendrives": {
       "name": "OpenDrives",
-      "tier": "Principal Sponsor",
-      "blurb": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
+      "tier": "首席赞助商",
+      "blurb": "OpenDrives 是一家企业级、超可拓展、网络附加存储(NAS)解决方案的全球提供商。我们为客户提供最高性能的解决方案，以满足个人性能需求，以满足最强大、最复杂和最关键任务的项目和工作流，无论是内部部署还是云端部署。"
     },
     "vmware": {
       "name": "VMware",
-      "tier": "Principal Sponsor",
-      "blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control."
+      "tier": "首席赞助商",
+      "blurb": "VMware是为所有应用提供多云服务的领先提供商，通过企业控制实现计算机技术的创新。"
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "tier": "Tier 4 Sponsor"
+      "tier": "第4级赞助商"
     },
     "seagate": {
-      "name": "Seagate Federal",
-      "tier": "Tier 4 Sponsor"
+      "name": "希捷联邦",
+      "tier": "第4级赞助商"
     }
   }
 }

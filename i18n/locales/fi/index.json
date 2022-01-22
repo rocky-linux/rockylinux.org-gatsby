@@ -4,7 +4,7 @@
     "title": "Enterprise Linux, yhteisön tavalla.",
     "description": "Rocky Linux on avoimen lähdekoodin yritystasoinen käyttöjärjestelmä, joka on suunniteltu 100% yhteensopivaksi Red Hat Enterprise Linuxin<0>&#174;</0> kanssa. Yhteisö kehittää sitä intensiivisesti.",
     "cta1": "Lataa",
-    "cta2": "Siirtyminen"
+    "cta2": "Migraatio"
   },
   "features": {
     "title": "Vankka, käyttötavasta riippumatta.",
@@ -19,8 +19,8 @@
       "description": "Yhteisö, sponsorit ja kumppanit ovat investoineet pitkäaikaisilla sitoimuksilla varmistaakseen projektin jatkuvuuden."
     },
     "3": {
-      "title": "Helppo siirtyminen",
-      "description": "Siirry Rockyyn muista enteprise Linux-jakeluista vaivattomasti. Tarjoamme siirtoon helppokäyttöisen siirtoskriptin."
+      "title": "Helppo migraatio",
+      "description": "Siirry Rockyyn muista enteprise Linux-jakeluista vaivattomasti. Tarjoamme migraatioon helppokäyttöisen skriptin."
     }
   },
   "latest-news": {

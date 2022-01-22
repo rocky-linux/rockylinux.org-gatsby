@@ -1,13 +1,13 @@
 {
   "title": "Obrazy w Chmurze",
-  "description": "Find our official images from your favorite cloud provider.",
+  "description": "Znajdź nasze oficjalne obrazy u swojego ulubionego dostawcy usług w chmurze.",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
+    "version": "Wersja Systemu",
+    "provider": "Dostawca",
     "region": "Region",
     "arch": "Architektura",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "id": "ID Obrazu",
+    "deploy": "Link do Wdrożenia"
   },
-  "deploy": "Deploy"
+  "deploy": "Wdróż"
 }

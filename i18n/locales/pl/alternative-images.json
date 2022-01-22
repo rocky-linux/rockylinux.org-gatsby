@@ -10,7 +10,7 @@
     "checksum": "Suma kontrolna",
     "arch": "Architektura",
     "download": "Pobieranie",
-    "readme": "Readme"
+    "readme": "Czytaj"
   },
   "body": {
     "gnome": "GNOME (Stacja robocza)",
@@ -20,7 +20,7 @@
     "arm": "aarch64",
     "checksum": "Suma kontrolna",
     "download": "Pobieranie",
-    "readme": "Readme"
+    "readme": "Czytaj"
   },
   "links": {
     "cloud": "Obrazy w Chmurze",
@@ -29,22 +29,22 @@
   },
   "get-involved": {
     "heading": "Zaangażuj Się",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "body": "Podczas pobierania i użytkowania Rocky Linux, Fundacja Rocky Enterprise Software Foundation zaprasza do <0>bycia częścią społeczności jako współtwórca</0>. Istnieje wiele sposobów, aby przyczynić się do rozwoju projektu, od dokumentacji, zapewnienia jakości i testowania do kodowania zmian dla SIG (grup specjalistycznych zainteresowań), zapewnienia obrazu lustrzanego (mirror) lub hostingu i pomocy innym użytkownikom."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Jakie są różnice pomiędzy obrazami ISO?",
+    "body": "Do instalacji Rocky Linux dostępne są różne obrazy instalacyjne. To, który obraz należy pobrać, zależy od środowiska instalacji i sposobu użycia.",
     "boot": {
       "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Służy do instalowania systemu operacyjnego z innego źródła (np. z repozytorium plików binarnych HTTP). Może być również użyty do uruchomienia trybu ratunkowego."
     },
     "minimal": {
-      "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Minimalny",
+      "body": "Służy do instalowania systemu operacyjnego z innego źródła (np. z repozytorium plików binarnych HTTP). Może być również użyty do uruchomienia trybu ratunkowego."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "Pełna instalacja, która zawiera repozytoria BaseOS i AppStream i pozwala na dokończenie instalacji bez dodatkowych repozytoriów. Instalacja Rocky Linux z obrazu ISO płyty DVD jest najprostszą i najczęściej stosowaną metodą wykonania standardowej instalacji Rocky Linux 8."
     }
   }
 }
