@@ -8,6 +8,14 @@
     "dateFormat": "MM/DD/YYYY"
   },
   {
+    "code": "zh",
+    "hrefLang": "zh-cn",
+    "name": "Chinese Simplified",
+    "localName": "简体中文",
+    "langDir": "ltr",
+    "dateFormat": "YYYY/MM/DD"
+  },
+  {
     "code": "fr",
     "hrefLang": "fr",
     "name": "French",
@@ -32,19 +40,27 @@
     "dateFormat": "DD/MM/YYYY"
   },
   {
-    "code": "ru",
-    "hrefLang": "ru",
-    "name": "Russian",
-    "localName": "Русский",
-    "langDir": "ltr",
-    "dateFormat": "DD/MM/YYYY"
-  },
-  {
     "code": "ja",
     "hrefLang": "ja",
     "name": "Japanese",
     "localName": "日本語",
     "langDir": "ltr",
     "dateFormat": "YYYY/MM/DD"
+  },
+  {
+    "code": "pt",
+    "hrefLang": "pt",
+    "name": "Portuguese",
+    "localName": "Português",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "ru",
+    "hrefLang": "ru",
+    "name": "Russian",
+    "localName": "Русский",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
   }
 ]
