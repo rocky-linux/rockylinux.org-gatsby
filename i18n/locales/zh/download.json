@@ -1,47 +1,47 @@
 {
-  "title": "Downloads",
-  "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
-  "rl8": "Rocky Linux 8 (Current)",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
+  "title": "下载",
+  "description": "从我们信任的镜像中下载Rocky Linux的官方版本。",
+  "rl8": "Rocky Linux 8(当前的)",
+  "rl8-eol": "<0>计划的EOL(end of life，生命周期结束):</0> 2029 12 31",
   "headings": {
-    "arch": "Architecture",
-    "isos": "ISOs",
-    "packages": "Packages"
+    "arch": "架构",
+    "isos": "镜像",
+    "packages": "软件包"
   },
   "body": {
     "x86_64": "x86_64",
     "arm": "ARM64 (aarch64)",
-    "minimal": "Minimal",
+    "minimal": "最小化",
     "dvd": "DVD",
-    "boot": "Boot",
+    "boot": "引导",
     "torrent": "Torrent",
     "checksum": "校验",
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "Alternative Images",
-    "cloud": "Cloud Images",
+    "alt": "备选镜像",
+    "cloud": "云镜像",
     "docs": "文档",
     "bug": "报告 Bug"
   },
   "get-involved": {
-    "heading": "Get Involved",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "heading": "参与进来",
+    "body": "当您下载和使用 Rocky Linux时，RESF(Rocky Enterprise Software Foundation，Rocky 企业软件基金会)邀请您<0>成为社区的一名贡献者</0>。有许多形式可以为项目做出贡献，从文档、QA、测试SIG(Special interest group，特别兴趣小组)做的代码更改、提供镜像或托管以及帮助其他用户。"
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "ISO镜像文件之间有什么区别？",
+    "body": "可以使用各种各样的安装镜像来安装Rocky Linux，您需要下载哪个镜像文件，取决于您的安装环境和使用场景需求(use-case，用例)。",
     "boot": {
-      "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "引导",
+      "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
     },
     "minimal": {
-      "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "最小化",
+      "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "含有 BaseOS 和 AppStream 存储库的完整安装，可允许您在没有额外存储库的情况下完成安装。从 DVD 镜像文件中安装 Rocky Linux 是执行标准 Rocky Linux 8 安装的最简单与最常见的方法。"
     }
   }
 }

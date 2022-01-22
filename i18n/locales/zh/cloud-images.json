@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
-  "description": "從您最喜愛的雲端服務提供者尋找我們的官方映像檔。",
+  "title": "云镜像",
+  "description": "从您最喜欢的云提供商找到我们的官方镜像。",
   "headings": {
-    "version": "作業系統版本",
-    "provider": "提供者",
-    "region": "區域",
-    "arch": "Architecture",
-    "id": "映像檔 ID",
-    "deploy": "部署連結"
+    "version": "操作系统版本",
+    "provider": "提供商",
+    "region": "地区",
+    "arch": "架构",
+    "id": "镜像 ID",
+    "deploy": "部署链接"
   },
   "deploy": "部署"
 }

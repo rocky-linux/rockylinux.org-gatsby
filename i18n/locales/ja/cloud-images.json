@@ -1,13 +1,13 @@
 {
   "title": "クラウドイメージ",
-  "description": "お好きなクラウドプロバイダーから公式画像をお探しください。",
+  "description": "お好きなクラウドプロバイダーから公式イメージをお探しください。",
   "headings": {
     "version": "OS のバージョン",
-    "provider": "プロバイダー",
+    "provider": "プロバイダ",
     "region": "地域",
     "arch": "アーキテクチャ",
     "id": "イメージ ID",
-    "deploy": "デプロイリンク"
+    "deploy": "デプロイ先"
   },
   "deploy": "デプロイ"
 }
