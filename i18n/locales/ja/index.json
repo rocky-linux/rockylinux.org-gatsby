@@ -1,26 +1,26 @@
 {
   "hero": {
     "new": "新着情報",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
+    "title": "Enterprise Linux、コミュニティの取り組み方。",
+    "description": "Rocky Linux は、Red Hat Enterprise Linux® とバグまで含めた100%の互換性を持つように設計されたオープンソースのエンタープライズオペレーティングシステムです。コミュニティによって集中的に開発されています。",
     "cta1": "ダウンロード",
     "cta2": "移行"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
-    "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
+    "title": "堅牢で、あらゆる用途にも対応",
+    "subtitle": "安定し、本番運用できる Linux",
+    "description": "Rocky Linux は RHEL<0>&#174;<0> から直接ソースを再構築しているため、どのような場面でも、非常に安定した動作を体験すると確信しています。",
     "1": {
-      "title": "Production Ready",
+      "title": "本番対応",
       "description": "Rocky Linuxは、定期的なアップデートと10年間のサポートライフサイクルによる確かな安定性を提供し、すべて無償で提供されるエンタープライズ対応製品です。"
     },
     "2": {
-      "title": "コミュニティー サポート",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "title": "コミュニティ サポート",
+      "description": "コミュニティ、スポンサー、パートナーは、プロジェクトがコミュニティとともにあることを保証するために、長期的な取り組みに投資しています。"
     },
     "3": {
-      "title": "簡単な移行",
-      "description": "他のEnterprise Linuxディストリビューションから苦労せず移行できます。使いやすい移行スクリプトを無料で提供しています。"
+      "title": "簡単に移行",
+      "description": "他のEnterprise Linuxディストリビューションから簡単に移行できます。使いやすい移行スクリプトを無料で提供しています。"
     }
   },
   "latest-news": {
@@ -28,7 +28,7 @@
     "description": "私たちは定期的に最新情報をコミュニティで共有しています。ここでは、その最新情報をご紹介します。"
   },
   "sponsors-partners": {
-    "backed": "Backed By",
+    "backed": "パートナー",
     "sponsors": "すべてのスポンサー",
     "partners": "すべてのパートナー",
     "support": "サポートパートナー"

@@ -1,7 +1,7 @@
 {
   "title": "Downloads",
   "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
-  "rl8": "Rocky Linux 8 (Current)",
+  "rl8": "Rocky Linux 8 (actual)",
   "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
   "headings": {
     "arch": "Architecture",
@@ -19,7 +19,7 @@
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "Alternative Images",
+    "alt": "Imágenes alternativas",
     "cloud": "Cloud Images",
     "docs": "Documentation",
     "bug": "Report Bug"

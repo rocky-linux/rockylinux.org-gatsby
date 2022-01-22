@@ -1,7 +1,7 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
-  "rl8": "Rocky Linux 8 (Current)",
+  "title": "Imágenes alternativas",
+  "description": "Las imágenes proporcionadas en esta página están disponibles en uno de nuestros espejos de confianza, pero no son oficialmente compatibles.",
+  "rl8": "Rocky Linux 8 (actual)",
   "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Alternative Architectures (SIG)",
