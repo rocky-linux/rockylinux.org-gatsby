@@ -1,36 +1,36 @@
 {
   "hero": {
-    "new": "What's New",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
-    "cta1": "Download",
-    "cta2": "Migrate"
+    "new": "새로운 소식",
+    "title": "엔터프라이즈 리눅스, 커뮤니티와 같이.",
+    "description": "Rocky Linux는 Red Hat Enterprise Linux<0>&#174;</0>와 100% 버그 간 호환이 가능하도록 설계된 오픈 소스 엔터프라이즈 운영 체제입니다. 커뮤니티에서 집중적으로 개발 중입니다.",
+    "cta1": "다운로드",
+    "cta2": "마이그레이션"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
-    "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
+    "title": "바위처럼 단단한,  어떤 경우에 사용하든 상관없어.",
+    "subtitle": "안정적이고 바로 사용 가능한 Linux",
+    "description": "Rocky Linux는 RHEL<0>&#174;</0>에서 직접 소스를 재구축하므로 어떤 경우에 사용하든 상관없어 매우 안정적인 환경을 제공할 수 있습니다.",
     "1": {
-      "title": "Production Ready",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "title": "운영 준비",
+      "description": "Rocky Linux는 엔터프라이즈급으로 정기적인 업데이트와 10년 지원 수명 주기를 통해 견고한 안정성을 모두 무료로 제공합니다."
     },
     "2": {
-      "title": "Community Supported",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "title": "커뮤니티 지원",
+      "description": "커뮤니티, 후원자 및 파트너는 프로젝트가 커뮤니티와 함께 유지될 수 있도록 장기적인 약속에 투자했습니다."
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "쉬운 마이그레이션",
+      "description": "다른 엔터프라이즈 리눅스 배포판에서 무리하지 않고 마이그레이션할 수 있습니다. 우리는 사용하기 쉬운 마이그레이션 스크립트를 무료로 제공합니다."
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "최근 소식",
+    "description": "우리는 정기적으로 무슨 일이 일어나고 있는지에 대한 업데이트를 커뮤니티에 공유합니다. 여기 최신 소식이 있습니다."
   },
   "sponsors-partners": {
-    "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "backed": "후원",
+    "sponsors": "모든 후원자",
+    "partners": "모든 파트너",
+    "support": "지원 파트너"
   }
 }

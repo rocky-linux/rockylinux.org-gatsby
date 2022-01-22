@@ -1,17 +1,17 @@
 {
-  "title": "It all started with a blog comment.",
-  "subtitle": "History",
+  "title": "Todo comenzó con un comentario en el blog.",
+  "subtitle": "Historia",
   "content": {
-    "highlight": "On December 8, 2020, Red Hat announced that they would discontinue development of CentOS, which has been a production-ready downstream version of Red Hat Enterprise Linux, in favor of a newer upstream development variant of that operating system known as \"CentOS Stream\". In response, original founder of CentOS, Gregory Kurtzer, announced <0>via a comment on the CentOS website</0> that he would again start a project to achieve the original goals of CentOS. It's name was chosen as a tribute to early CentOS co-founder Rocky McGaugh. By December 12, the code repository of Rocky Linux had become the top-trending repository on GitHub.",
-    "paragraph": "On December 22, 2020, Rocky Linux announced that the target for an initial release was anywhere between March and May of 2021. On January 20, 2021, it was announced that a test repository would be made available to the public by the end of February, and a release candidate was on target for the end of March 2021. However, that date was slightly pushed back, and on April 30, 2021, the first release candidate was officially released. The second release candidate, of version 8.4, the last before the stable release, was released on June 4, 2021. On June 21, 2021, the stable release of Rocky Linux 8.4 was released, with the code name \"Green Obsidian\"."
+    "highlight": "El 8 de diciembre de 2020, Red Hat anunció que suspendería el desarrollo de CentOS, que ha sido una versión descendente lista para producción de Red Hat Enterprise Linux, a favor de una variante de desarrollo ascendente más nueva de ese sistema operativo conocida como \"CentOS Stream\". . En respuesta, el fundador original de CentOS, Gregory Kurtzer, anunció <0>a través de un comentario en el sitio web de CentOS</0> que volvería a iniciar un proyecto para lograr los objetivos originales de CentOS. Su nombre fue elegido como tributo al cofundador de CentOS, Rocky McGaugh. Para el 12 de diciembre, el repositorio de código de Rocky Linux se había convertido en el repositorio de mayor tendencia en GitHub.",
+    "paragraph": "El 22 de diciembre de 2020, Rocky Linux anunció que el objetivo para un lanzamiento inicial era entre marzo y mayo de 2021. El 20 de enero de 2021, se anunció que un repositorio de prueba estaría disponible para el público a fines de febrero. , y una versión candidata estaba prevista para fines de marzo de 2021. Sin embargo, esa fecha se retrasó un poco y el 30 de abril de 2021, se lanzó oficialmente la primera versión candidata. La segunda versión candidata, de la versión 8.4, la última antes de la versión estable, se lanzó el 4 de junio de 2021. El 21 de junio de 2021, se lanzó la versión estable de Rocky Linux 8.4, con el nombre en clave \"Green Obsidian\"."
   },
   "organization": {
-    "heading": "Organization",
-    "paragraph": "The Rocky Linux project is hosted by the Rocky Enterprise Software Foundation (RESF). To learn more about the organizational structure, please check out the <0>page</0> on the topic."
+    "heading": "Organización",
+    "paragraph": "El proyecto Rocky Linux está alojado en Rocky Enterprise Software Foundation (RESF). Para obtener más información sobre la estructura organizativa, consulte la <0>página</0> sobre el tema."
   },
   "quote": {
-    "content": "Thinking back to early CentOS days... My cofounder was Rocky McGaugh. He is no longer with us, so as a H/T to him, who never got to see the success that CentOS came to be, I introduce to you...Rocky Linux.",
-    "gmk": "Gregory Kurtzer",
-    "occupation": "Co-Founder @ CentOS / Founder @ Rocky Linux"
+    "content": "Pensando en los primeros días de CentOS... Mi cofundador fue Rocky McGaugh. Ya no está con nosotros, así que como H/T para él, que nunca llegó a ver el éxito que llegó a ser CentOS, les presento... Rocky Linux",
+    "gmk": "Gregorio Kurtzer",
+    "occupation": "Cofundador @ CentOS / Fundador @ Rocky Linux"
   }
 }
