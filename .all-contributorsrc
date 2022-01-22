@@ -265,6 +265,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "Lajck",
+      "name": "Lajack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9508518?v=4",
+      "profile": "https://github.com/Lajck",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
