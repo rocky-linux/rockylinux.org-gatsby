@@ -69,6 +69,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/sspencerwire"><img src="https://avatars.githubusercontent.com/u/4265212?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sspencerwire</b></sub></a><br /><a href="#content-sspencerwire" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/sgob1"><img src="https://avatars.githubusercontent.com/u/72509528?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marco Sgobino</b></sub></a><br /><a href="#translation-sgob1" title="Translation">🌍</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Lajck"><img src="https://avatars.githubusercontent.com/u/9508518?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lajack</b></sub></a><br /><a href="#translation-Lajck" title="Translation">🌍</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
