@@ -48,6 +48,14 @@
     "dateFormat": "YYYY/MM/DD"
   },
   {
+    "code": "pl",
+    "hrefLang": "pl",
+    "name": "Polish",
+    "localName": "Polski",
+    "langDir": "ltr",
+    "dateFormat": "DD.MM.YYYY"
+  },
+  {
     "code": "pt",
     "hrefLang": "pt",
     "name": "Portuguese",
