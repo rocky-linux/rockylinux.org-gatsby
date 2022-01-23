@@ -1,0 +1,50 @@
+{
+  "title": "Vaihtoehtoiset levykuvat",
+  "description": "Tällä sivulla olevat levykuvat ovat saatavilla yhdeltä luotetuista toisiopalvelimistamme, mutta niitä ei tueta virallisesti.",
+  "rl8": "Rocky Linux 8",
+  "rl8-eol": "<0>Tuen päättymispäivä:</0> 31. toukokuuta 2029",
+  "desktop": "Workstation",
+  "alt-arch": "Vaihtoehtoiset arkkitehtuurit",
+  "headings": {
+    "de": "Työpöytäympäristö",
+    "checksum": "Tarkistussumma",
+    "arch": "Arkkitehtuuri",
+    "download": "Lataa",
+    "readme": "Readme"
+  },
+  "body": {
+    "gnome": "GNOME (Workstation)",
+    "xfce": "XFCE",
+    "rpi": "Raspberry Pi (aarch64)",
+    "x86_64": "x86_64",
+    "arm": "aarch64",
+    "checksum": "Tarkistussumma",
+    "download": "Lataa",
+    "readme": "Readme"
+  },
+  "links": {
+    "cloud": "Pilvilevykuvat",
+    "docs": "Dokumentaatio",
+    "bug": "Raportoi virheestä"
+  },
+  "get-involved": {
+    "heading": "Osallistu",
+    "body": "Kun lataat ja käytät Rocky Linuxia, Rocky Enterprise Software Foundation kutsuu sinut <0>jäseneksi yhteisöön avustajana</0> . On monia tapoja avustaa projektia dokumentoinnista, laadunvarmistuksesta ja testauksesta, ohjelmoinnista SIG-ryhmissä, toisiopalvelimen tai isännöin tarjoamiseen ja muiden käyttäjien auttamiseen."
+  },
+  "isos": {
+    "heading": "Mitä eroa levykuvilla on?",
+    "body": "Rocky Linuxin asentamista varten on saatavilla useita erilaisia asennuslevykuvia. Käytettävä levykuva riippuu asennusympäristöstäsi ja käyttötapauksestasi.",
+    "boot": {
+      "heading": "Boot",
+      "body": "Käytetään käyttöjärjestelmän asentamiseen toisesta lähteestä (kuten binaaritiedostoja HTTP-pakettivarastosta). Voidaan käyttää myös pelastustilaan siirtymiseen."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "Käytetään käyttöjärjestelmän asentamiseen toisesta lähteestä (kuten binaaritiedostoja HTTP-pakettivarastosta). Voidaan käyttää myös pelastustilaan siirtymiseen."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "Täysi asennuslevykuva, joka sisältää BaseOS- ja AppStream-pakettivarastot ja jonka avulla asennus voidaan suorittaa loppuun ilman etäpakettivarastoja. Rocky Linuxin asentaminen DVD levykuvalta on helpoin ja yleisin tapa asentaa tavallinen Rocky Linux 8 -asennus."
+    }
+  }
+}
