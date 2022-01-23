@@ -1,0 +1,47 @@
+{
+  "title": "Downloads",
+  "description": "Laden Sie die offizielle Version von Rocky Linux von einem unserer vertrauenswürdigen Mirrors herunter.",
+  "rl8": "Rocky Linux 8 (Aktuell)",
+  "rl8-eol": "<0>Geplante EOL:</0> 31. Mai 2029",
+  "headings": {
+    "arch": "Architektur",
+    "isos": "ISOs",
+    "packages": "Pakete"
+  },
+  "body": {
+    "x86_64": "x86_64",
+    "arm": "ARM64 (aarch64)",
+    "minimal": "Minimal",
+    "dvd": "DVD",
+    "boot": "Start",
+    "torrent": "Torrent",
+    "checksum": "Prüfsumme",
+    "baseos": "BaseOS"
+  },
+  "links": {
+    "alt": "Alternative Abbilder",
+    "cloud": "Cloudabbilder",
+    "docs": "Dokumentation",
+    "bug": "Fehler melden"
+  },
+  "get-involved": {
+    "heading": "Mach mit!",
+    "body": "Während Sie Rocky Linux herunterladen und nutzen, lädt Sie die Rocky Enterprise Software Foundation zu <0>als Mitwirkender in der Community ein</0> ein. Es gibt viele Möglichkeiten, zum Projekt beizutragen, von der Dokumentation, der QA, und das Testen von Änderungen für SIGs, das Spiegeln oder Hosting bereitstellt und anderen Benutzern hilft."
+  },
+  "isos": {
+    "heading": "Was ist der Unterschied zwischen den ISOs?",
+    "body": "Für die Installation von Rocky Linux stehen verschiedene Installations-Images zur Verfügung, die Sie herunterladen müssen, hängt von Ihrer Installationsumgebung und von Ihrem Anwendungsfall ab.",
+    "boot": {
+      "heading": "Start",
+      "body": "Wird verwendet, um das Betriebssystem von einer anderen Quelle zu installieren (z.B. ein HTTP-Repository der Binärdateien). Kann auch verwendet werden, um in den Rettungsmodus zu gelangen."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "Wird verwendet, um das Betriebssystem von einer anderen Quelle zu installieren (z.B. ein HTTP-Repository der Binärdateien). Kann auch verwendet werden, um in den Rettungsmodus zu gelangen."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "Eine vollständige Installation, die die BaseOS- und AppStream-Repositories enthält und Ihnen erlaubt, die Installation ohne zusätzliche Repositories abzuschließen. Die Installation von Rocky Linux von der DVD ISO ist die einfachste und gängigste Methode, eine Standard-Rocky Linux 8 Installation durchzuführen."
+    }
+  }
+}
