@@ -1,0 +1,30 @@
+{
+  "title": "Domande Frequenti",
+  "description": "Di seguito è riportato un elenco delle nostre domande più frequenti.",
+  "faq": {
+    "1": {
+      "question": "Come posso aiutare a distribuire le versioni correnti e future di Rocky Linux?",
+      "answer": "Per favore invia un'email a <0>mirrors@rockylinux.org</0> per esprimere il tuo interesse."
+    },
+    "2": {
+      "question": "Ho incontrato un bug mentre provavo Rocky Linux, che cosa posso fare?",
+      "answer": "Per prima cosa, crea un account usando <0>Rocky Linux Account Services</0>, poi vai al nostro <1>Bugzilla server</1> per segnalare eventuali bug."
+    },
+    "3": {
+      "question": "Come posso partecipare nella squadra di test?",
+      "answer": "Entra nel canale <0>~Testing</0> sul nostro server Mattermost per iniziare. C'è anche l'argomento 'testing' sul forum, per una conversazione più duratura."
+    },
+    "4": {
+      "question": "Dove posso trovare le ultime notizie su Rocky Linux?",
+      "answer": "Resta sintonizzato sul nostro sito web, Twitter, LinkedIn, forum e altre piattaforme elencate nella nostra sezione dei link per gli ultimi annunci."
+    },
+    "5": {
+      "question": "Come garantirete che Rocky Linux rimanga veramente un sistema operativo enterprise gestito dalla comunità?",
+      "answer": "Per prima cosa, abbiamo preso provvedimenti per proteggere legalmente il nome Rocky Linux. Questo ha significato registrare i marchi e le varie proprietà associate per proteggerli dal controllo di altre entità. Abbiamo realizzato tutto questo istituendoli sotto la Rocky Enterprise Software Foundation (RESF). Successivamente, abbiamo redatto una carta comunitaria che definisce la struttura organizzativa, gli obiettivi, i valori e la missione che stanno dietro l'entità legale che rappresenta Rocky Linux. Fondamentale in questa carta è l'istituzione di principi che abilitano e proteggono la comunità: trasparenza, coinvolgimento della comunità, sviluppo aperto e indipendenza. <0>Rocky Linux non sarà mai controllato, acquistato o influenzato da una singola entità o organizzazione.</0>. Infine, abbiamo architettato e messo in piedi l'infrastruttura necessaria per consentire alla comunità di contribuire a Rocky Linux."
+    },
+    "6": {
+      "question": "Cosa succede se ho una proposta, un feedback o se non ho trovato risposte alle mie domande qui?",
+      "answer": "Per favore inviaci un'email: <0>hello@rockylinux.org</0> e ti risponderemo il prima possibile."
+    }
+  }
+}
