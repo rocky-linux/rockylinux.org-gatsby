@@ -1,54 +1,54 @@
 {
-  "title": "Patrocinadores",
-  "description": "Gostaríamos de agradecer aos nossos patrocinadores o apoio que deram até agora ao projeto.",
+  "title": "Sponsors",
+  "description": "We would like to thank our sponsors for their support thus far on the project.",
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Patrocinador Fundador",
-      "blurb": "Acreditamos em ajudar as pessoas a fazer coisas incríveis. É por isso que o CIQ é um parceiro fundador do RESF. Oferecemos suporte comercial e serviços para o Linux Rocky para clientes em pesquisa, academia, governo, empresas, parceiros e todos no meio de trabalho."
+      "tier": "Founding Sponsor",
+      "blurb": "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
     },
     "45drives": {
       "name": "45Drives",
-      "tier": "Patrocinador principal",
-      "blurb": "45Drives oferecem soluções de armazenamento corporativo construídas sobre software de código aberto poderoso e robusto que permite que os clientes se beneficiem da economia de custos e flexibilidade de hardware disponível. Confira para encontrar uma solução de armazenamento de dados totalmente suportada com o melhor custo por terabyte!"
+      "tier": "Principal Sponsor",
+      "blurb": "45Drives offers enterprise storage solutions built on powerful and robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!"
     },
     "aws": {
       "name": "Amazon Web Services",
-      "tier": "Patrocinador principal",
-      "blurb": "O RESF utiliza AWS para rodar grande parte da infraestrutura subjacente crítica para o desenvolvimento e implantação dos serviços que suportam o Rocky Linux. De construtores de Koji para x86_64 e aarch64 rodando no EC2 ao armazenamento de blocos SRPM no S3, AWS é fundamental para muito do que fazemos."
+      "tier": "Principal Sponsor",
+      "blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
     },
     "gcp": {
       "name": "Google Cloud",
-      "tier": "Patrocinador principal",
-      "blurb": "Como principal patrocinador do RESF, o Google entende a importância do Rocky Linux como um sistema operacional empresarial comunitário gratuito e aberto. Fornecer recursos para teste e validação fizemos parcerias com o RESF para garantir o status de Rocker como um cidadão de primeira classe na Plataforma de Cloud do Google desde o primeiro dia."
+      "tier": "Principal Sponsor",
+      "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one."
     },
     "azure": {
       "name": "Microsoft Azure",
-      "tier": "Patrocinador principal",
-      "blurb": "Linux é a plataforma de crescimento mais rápido do Azure, sendo executada em mais de metade dos núcleos de VM. Há mais de uma década, a Microsoft tem investido no Linux, e com as parcerias sendo um pilar central da estratégia de código aberto da Microsoft, colaboramos com o RESF e com o ecossistema Rocky mais amplo para garantir que os clientes tenham um conjunto crescente de opções para implantar cargas de trabalho Linux no Azure com um suporte, gerido e de forma segura."
+      "tier": "Principal Sponsor",
+      "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
     },
     "montavista": {
       "name": "MontaVista",
-      "tier": "Patrocinador principal",
-      "blurb": "MontaVista Software é líder em comercial em Linux embarcado, suportando MontaVista CGX, Yocto Project®️, CentOS e Rocky Linux. A MontaVista oferece experiência em Software de Código Aberto, distros Linux de qualidade comercial, manutenção econômica e suporte para mais de 10 anos de ciclos de vida."
+      "tier": "Principal Sponsor",
+      "blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
     },
     "opendrives": {
       "name": "OpenDrives",
-      "tier": "Patrocinador principal",
-      "blurb": "OpenDrives é um provedor global de soluções empreendedoras, hiper-escalável, provedor de solução em armazenamento em rede(NAS). Oferecemos as soluções de maior desempenho para nossos clientes - para atender às necessidades de desempenho individuais -, para os projetos mais sólidos, complexos e críticos, bem como fluxos de trabalho locais e na nuvem."
+      "tier": "Principal Sponsor",
+      "blurb": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
     },
     "vmware": {
       "name": "VMware",
-      "tier": "Patrocinador principal",
-      "blurb": "A VMware é uma fornecedora líder de serviços multi-nuvem para todos os aplicativos, permitindo inovação digital com controle corporativo."
+      "tier": "Principal Sponsor",
+      "blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control."
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "tier": "Patrocinador Rank 4"
+      "tier": "Tier 4 Sponsor"
     },
     "seagate": {
       "name": "Seagate Federal",
-      "tier": "Patrocinador Rank 4"
+      "tier": "Tier 4 Sponsor"
     }
   }
 }
