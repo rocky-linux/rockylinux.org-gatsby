@@ -1,0 +1,13 @@
+{
+  "title": "Cloud Images",
+  "description": "Find our official images from your favorite cloud provider.",
+  "headings": {
+    "version": "OS Version",
+    "provider": "Provider",
+    "region": "Region",
+    "arch": "Architecture",
+    "id": "Image ID",
+    "deploy": "Deploy Link"
+  },
+  "deploy": "Deploy"
+}
