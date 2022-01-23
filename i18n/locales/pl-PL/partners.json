@@ -1,0 +1,63 @@
+{
+  "title": "Partnerzy",
+  "description": "Partnerzy RESF reprezentują trwałe relacje o strategicznym znaczeniu dla projektu Rocky Linux. Poprzez poświęcenie wiedzy inżynierskiej, zasobów infrastrukturalnych lub innych środków, ich wsparcie jest kluczowe dla naszego ciągłego sukcesu i długoterminowej stabilności.",
+  "partners": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Partner Założycielski",
+      "blurb": "Wierzymy w to, że pomagamy ludziom robić wspaniałe rzeczy. Dlatego CIQ jest partnerem-założycielem RESF. Zapewniamy komercyjne wsparcie i usługi dla systemu Rocky Linux klientom z ośrodków badawczych, akademickich, rządowych, przedsiębiorstw, partnerom i wszystkim innym."
+    },
+    "arm": {
+      "name": "Arm",
+      "tier": "Główny Partner",
+      "blurb": "Firma Arm jest zobowiązana do zapewnienia, że jej architektura będzie doskonałym przykładem dla systemu Rocky Linux już od pierwszego dnia pracy. Nawiązaliśmy współpracę z RESF, zapewniając dedykowane wysiłki inżynierskie, które uzupełnią zespoły opracowujące i testujące Rocky Linux, ściśle współpracując w celu testowania, walidacji i wspierania ARM teraz i w przyszłości."
+    },
+    "equinix": {
+      "name": "Equinix",
+      "tier": "Główny Partner",
+      "blurb": "Equinix jest światową firmą zajmującą się infrastrukturą cyfrową. Liderzy cyfrowi wykorzystują naszą zaufaną platformę do łączenia i integracji infrastruktury fundacyjnej, która napędza ich sukces."
+    },
+    "fastly": {
+      "name": "Fastly",
+      "tier": "Główny Partner",
+      "blurb": "Platforma chmury brzegowej Fastly umożliwia klientom tworzenie wspaniałych doświadczeń cyfrowych szybko, bezpiecznie i niezawodnie poprzez przetwarzanie, obsługę i zabezpieczanie aplikacji naszych klientów tak blisko ich użytkowników końcowych, jak to możliwe - na brzegu Internetu."
+    },
+    "fosshost": {
+      "name": "Fosshost",
+      "tier": "Główny Partner",
+      "blurb": "Fosshost (UK CIC #13356530) oferuje darmowy hosting internetowy klasy enterprise oraz usługi zarządzane wyłącznie dla społeczności FOSS. Naszą misją jest wzmocnienie i wsparcie każdego projektu wolnego oprogramowania i oprogramowania open-source. Aby razem iść dalej. Nasza praca nigdy się nie kończy. Zapraszamy do wzięcia udziału już dziś!"
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "tier": "Główny Partner",
+      "blurb": "Mattermost to rozwiązanie open source do obsługi wiadomości, stworzone dla organizacji o najwyższych wymaganiach w zakresie bezpieczeństwa. Jako wielcy zwolennicy otwartego oprogramowania, Mattermost jest zachwycony współpracą z RESF w celu udostępnienia społeczności technicznej dystrybucji systemu Linux klasy korporacyjnej."
+    },
+    "naver": {
+      "name": "NAVER Cloud",
+      "tier": "Główny Partner",
+      "blurb": "NAVER Cloud Platform to południowokoreańska usługa w chmurze, która rozpoczęła działalność w 2017 roku w ramach NAVER Cloud, spółki zależnej firmy NAVER. Zapewnia ponad 170 indywidualnych usług w 2021 roku i posiada różne certyfikaty bezpieczeństwa, w tym CSA STAR GOLD, GDPR i inne. Obecnie świadczy również usługi w chmurze w 10 lokalizacjach na całym świecie."
+    },
+    "osl": {
+      "name": "OSU Open Source Labs",
+      "tier": "Główny Partner",
+      "blurb": "Oregon State University Open Source Lab jest organizacją non-profit działającą na rzecz rozwoju technologii open source. OSL oferuje światowej klasy usługi hostingowe, profesjonalny rozwój oprogramowania i szkolenia w terenie dla obiecujących studentów zainteresowanych zarządzaniem i programowaniem open source."
+    },
+    "supermicro": {
+      "name": "Supermicro",
+      "tier": "Główny Partner",
+      "blurb": "Jako światowy lider w dziedzinie wysokowydajnych, wysoce efektywnych technologii serwerowych i innowacji, Supermicro jest podekscytowane możliwością współpracy z RESF i dostarczenia serwerów centrów danych oraz systemów pamięci masowej zoptymalizowanych dla Rocky Linux."
+    },
+    "crowdin": {
+      "name": "Crowdin",
+      "tier": "Partner Poziomu 4"
+    },
+    "dsstudio": {
+      "name": "Studio DotSlash",
+      "tier": "Partner Poziomu 4"
+    },
+    "fathom": {
+      "name": "Fathom",
+      "tier": "Partner Poziomu 4"
+    }
+  }
+}
