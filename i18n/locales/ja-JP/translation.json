@@ -1,0 +1,52 @@
+{
+  "language": "ja",
+  "js-warning": "お使いのブラウザでは、JavaScriptが無効になっているようです。本サイトのほとんどの部分はJavaScriptを使用しなくても動作しますが、本サイトを閲覧する際に意図しない体験をする可能性があります。お使いのブラウザの設定で、当サイトの利用を例外として設定することをご検討ください。",
+  "categories": {
+    "news": "ニュース",
+    "about": "概要",
+    "community": "コミュニティ",
+    "documentation": "ドキュメント",
+    "get-involved": "活動に参加する",
+    "legal": "リーガル",
+    "language": "言語"
+  },
+  "about": {
+    "about": "Rocky Linuxについて",
+    "faq": "よくある質問",
+    "charter": "コミュニティ憲章",
+    "org-structure": "組織体制",
+    "status": "サービス状況",
+    "sponsors": "スポンサー",
+    "partners": "パートナー",
+    "support": "サポート プロバイダ"
+  },
+  "community": {
+    "contribute": "貢献",
+    "forums": "フォーラム",
+    "mailing": "メーリング リスト",
+    "mattermost": "Mattermost",
+    "irc": "IRC",
+    "calendar": "カレンダー",
+    "bug": "不具合報告",
+    "donate": "寄付",
+    "store": "ストア"
+  },
+  "documentation": {
+    "wiki": "Wiki",
+    "guides": "ガイドとマニュアル",
+    "keys": "GPG鍵情報"
+  },
+  "legal": {
+    "licensing": "ライセンス",
+    "privacy": "プライバシーポリシー"
+  },
+  "lang": {
+    "choose": "言語の選択",
+    "translate": "このサイトを翻訳する"
+  },
+  "download": "ダウンロード",
+  "copyright": {
+    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
+    "line2": "Red Hat Enterprise Linux、RHEL、CentOSは、米国およびその他の国におけるRed Hat, Inc.またはその子会社の商標または登録商標です。私たちは、Red Hat, Inc.と提携、保証、スポンサー関係はありません。"
+  }
+}
