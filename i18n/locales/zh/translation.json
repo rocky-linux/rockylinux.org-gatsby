@@ -1,52 +1,52 @@
 {
-  "language": "英语",
-  "js-warning": "您的浏览器似乎禁用了JavaScript，虽然本网站的大部分区域无需使用JavaScript即可正常工作，但您在浏览我们的网站时可能会遇到非预期的体验，请考虑在您的浏览器设置中为我们的网站设置一个例外。",
+  "language": "zh-tw",
+  "js-warning": "您的瀏覽器似乎停用了 JavaScript。雖然本網站大部分的區域在不使用 JavaScript 的情況下都可以運作，但您在瀏覽我們的網站時可能會遇到意料之外的體驗。請考慮在您的瀏覽器設定中為我們的網站設定例外。",
   "categories": {
-    "news": "消息",
-    "about": "关于",
-    "community": "社区",
-    "documentation": "文档",
-    "get-involved": "参与进来",
-    "legal": "法律声明",
-    "language": "语言"
+    "news": "新聞",
+    "about": "關於",
+    "community": "社群",
+    "documentation": "文件 ",
+    "get-involved": "參與貢獻",
+    "legal": "法律聲明",
+    "language": "語言"
   },
   "about": {
-    "about": "关于 Rocky Linux",
-    "faq": "常见问题解答",
-    "charter": "社区宪章",
-    "org-structure": "组织架构",
-    "status": "服务状态",
-    "sponsors": "赞助商",
-    "partners": "合作伙伴",
-    "support": "支持提供商"
+    "about": "關於 Rocky Linux",
+    "faq": "常見問題",
+    "charter": "社群憲章",
+    "org-structure": "組織架構",
+    "status": "服務狀態",
+    "sponsors": "Sponsors",
+    "partners": "Partners",
+    "support": "支援服務提供商"
   },
   "community": {
-    "contribute": "贡献",
-    "forums": "论坛",
-    "mailing": "邮件列表",
+    "contribute": "貢獻",
+    "forums": "論壇",
+    "mailing": "郵件清單",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "日程表",
-    "bug": "提交Bug",
-    "donate": "捐助",
+    "calendar": "行事曆",
+    "bug": "遞交臭蟲",
+    "donate": "捐款",
     "store": "商店"
   },
   "documentation": {
-    "wiki": "维基",
-    "guides": "指南和手册",
-    "keys": "GPG 密钥信息"
+    "wiki": "Wiki",
+    "guides": "指南與手冊",
+    "keys": "GPG 金鑰資訊"
   },
   "legal": {
-    "licensing": "开源许可协议",
-    "privacy": "隐私政策"
+    "licensing": "授權條款",
+    "privacy": "隱私權政策"
   },
   "lang": {
-    "choose": "选择语言",
-    "translate": "翻译此网站"
+    "choose": "選擇語言",
+    "translate": "翻譯此網站"
   },
-  "download": "下载",
+  "download": "下載",
   "copyright": {
-    "line1": "© 2020-2021 Rocky企业软件基金会(RESF)，版权所有。",
-    "line2": "Red Hat Enterprise Linux、RHEL和CentOS是红帽公司或其子公司在美国和其他国家/地区的商标或注册商标。我们不隶属于红帽公司，也没有得到红帽公司的认可或赞助。"
+    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. 版權所有。",
+    "line2": "Red Hat Enterprise Linux, RHEL 與 CentOS 是 Red Hat, Inc. 或其子公司在美國與其他國家／地區的註冊商標。我們不隸屬於 Red Hat, Inc.，也不受其支持或贊助。"
   }
 }
