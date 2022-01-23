@@ -1,0 +1,30 @@
+{
+  "title": "Preguntas Frequentes",
+  "description": "Abaixo está uma lista das perguntas mais frequentes.",
+  "faq": {
+    "1": {
+      "question": "Como posso ajudar a espelhar versões atuais e futuras do Rocky Linux?",
+      "answer": "Por favor, envie um e-mail para <0>mirrors@rockylinux.org</0> para expressar seu interesse."
+    },
+    "2": {
+      "question": "Encontrei um bug enquanto testava o Rocky Linux, o que posso fazer?",
+      "answer": "Primeiro, crie uma conta usando <0>Serviços de Conta do Rocky Linux</0> e, em seguida, vá até nosso <1>Servidor Bugzila</1> para relatar quaisquer bugs."
+    },
+    "3": {
+      "question": "Como posso me envolver com a equipe de teste?",
+      "answer": "Por favor, junte-se ao canal <0>~Testing</0> no nosso servidor Mattermost para começar. Também há um tópico de teste nos fóruns para uma conversa mais extensa."
+    },
+    "4": {
+      "question": "Onde posso encontrar as últimas notícias sobre o Rocky Linux?",
+      "answer": "Fique atento ao nosso site, Twitter, LinkedIn, fóruns e outras plataformas listadas em nosso diretório de links para os anúncios mais recentes."
+    },
+    "5": {
+      "question": "Como você vai garantir que o Rocky Linux realmente permaneça um sistema operacional da comunidade?",
+      "answer": "Primeiro, tomamos medidas para proteger legalmente o nome Rocky Linux. Isso significa registrar suas marcas comerciais e várias propriedades associadas para protegê-las de serem controlados por outra entidade. Conseguimos isso estabelecendo-os sob a Rocky Enterprise Software Foundation (RESF). Em seguida, elaboramos um estatuto da comunidade que define a estrutura organizacional, os objetivos, os valores e a missão por trás da entidade legal que representa o Rocky Linux. Fundamental nesta carta é o estabelecimento de princípios que capacitam e protegem a comunidade: transparência, envolvimento da comunidade, desenvolvimento aberto e independência. <0>Rocky Linux nunca será controlado, comprado ou influenciado por uma única entidade ou organização.</0> Por fim, estamos arquitetando e implantando a infraestrutura necessária para permitir que a comunidade contribua com o Rocky Linux."
+    },
+    "6": {
+      "question": "E se eu tiver algum feedback ou se minha pergunta não for respondida aqui?",
+      "answer": "Por favor, envie-nos um e-mail: <0>hello@rockylinux.org</0> e entraremos em contato assim que possível."
+    }
+  }
+}
