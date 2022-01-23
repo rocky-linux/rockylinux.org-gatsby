@@ -1,0 +1,13 @@
+{
+  "title": "Cloudabbilder",
+  "description": "Finden Sie unsere offiziellen Abbilder von Ihrem bevorzugten Cloud-Anbieter.",
+  "headings": {
+    "version": "Betriebssystem Version",
+    "provider": "Anbieter",
+    "region": "Region",
+    "arch": "Architektur",
+    "id": "Abbild ID",
+    "deploy": "Deploy Link"
+  },
+  "deploy": "Deploy"
+}
