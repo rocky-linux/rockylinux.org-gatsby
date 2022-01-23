@@ -1,0 +1,17 @@
+{
+  "title": "这一切都始于一条博客评论。",
+  "subtitle": "历史",
+  "content": {
+    "highlight": "2020年12月8日，Red Hat公司宣布将停止开发CentOS，一个可用于生产环境的Red Hat Enterprise Linux下游版本。作为替代，Red Hat采用该操作系统较新的上游开发版本，称为 \"CentOS Stream\"。作为回应，CentOS的最初创始人格雷戈里·库尔泽(Gregory Kurtzer) 通过</0>CentOS网站的评论</0>宣布，他将再次启动一个项目来实现CentOS的最初目标。而之所以命名为Eocky Linux，是为了向早期CentOS的联合创始人洛基·麦高(Rocky McGaugh) 致敬。截止到12月12日，Rocky Linux的代码库已经成为GitHub上最热门的代码库之一。",
+    "paragraph": "2020年12月22日，Rocky Linux宣布，首次发布的目标是在2021年3月至5月之间的任何时间。2021年1月20日，宣布将会在2月底向公众提供一个测试的存储库(repository)，并在2021年3月底发布一个候选版本(RC版本)，然而，这一日期被短暂的推迟。2021年4月30日，第一个候选版本正式发布。2021年6月4日发布第二个候选版本，也就是8.4 版本，这是稳定版(Stable版本，也叫GA版本)之前的最后一个版本。2021年6月21日，Rocky Linux 8.4 稳定版发布，代号为\"Green Obsidian\"(绿色黑曜石)。"
+  },
+  "organization": {
+    "heading": "组织",
+    "paragraph": "Rocky Linux 项目由 Rocky 企业软件基金会 (RESF) 组织。要了解该组织架构的更新消息，请参阅<0>此页面</0>。"
+  },
+  "quote": {
+    "content": "追忆起在早期 CentOS 的日子，我的联合创始人洛基·麦高(Rocky McGaugh)，已经不在我们身边。他从未见到过 CentOS 取得的成功， 所以为了致敬这位联合创始人以及完成他的心愿，我向您介绍 Rocky Linux。",
+    "gmk": "格雷戈里·库尔泽(Gregory Kurtzer)",
+    "occupation": "联合创始人 @ CentOS / 创始人 @ Rocky Linux"
+  }
+}

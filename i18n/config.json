@@ -8,7 +8,7 @@
     "dateFormat": "MM/DD/YYYY"
   },
   {
-    "code": "zh",
+    "code": "zh_CN",
     "hrefLang": "zh-cn",
     "name": "Chinese Simplified",
     "localName": "简体中文",
@@ -56,8 +56,8 @@
     "dateFormat": "DD.MM.YYYY"
   },
   {
-    "code": "pt",
-    "hrefLang": "pt",
+    "code": "pt_BR",
+    "hrefLang": "pt-br",
     "name": "Portuguese",
     "localName": "Português",
     "langDir": "ltr",
