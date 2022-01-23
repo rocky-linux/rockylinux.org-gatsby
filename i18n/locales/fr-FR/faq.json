@@ -1,0 +1,30 @@
+{
+  "title": "Questions fréquemment posées",
+  "description": "Vous trouverez ci-dessous une liste de nos questions les plus fréquemment posées.",
+  "faq": {
+    "1": {
+      "question": "Comment puis-je aider en hébergeant un miroir pour les versions actuelles et futures de Rocky Linux ?",
+      "answer": "Veuillez envoyer un e-mail à <0>mirrors@rockylinux.org</0> pour exprimer votre intérêt."
+    },
+    "2": {
+      "question": "J'ai rencontré un bogue en testant Rocky Linux, que puis-je faire ?",
+      "answer": "Tout d'abord, créez un compte en utilisant <0>Rocky Linux Account Services</0>, puis rendez-vous sur notre <1>serveur Bugzilla</1> pour rapporter des bogues."
+    },
+    "3": {
+      "question": "Comment puis-je m'impliquer dans l'équipe de test ?",
+      "answer": "Veuillez rejoindre le canal <0>~Testing</0> sur notre serveur Mattermost pour commencer. Il y a également un sujet test sur les forums pour une conversation plus durable."
+    },
+    "4": {
+      "question": "Où puis-je trouver les dernières informations à propos de Rocky Linux ?",
+      "answer": "Restez à l'écoute de notre site Web, Twitter, LinkedIn, forums et autres plateformes répertoriées dans notre annuaire de liens pour les dernières annonces."
+    },
+    "5": {
+      "question": "Comment allez-vous vous assurer que Rocky Linux reste vraiment un système d'exploitation d'entreprise communautaire ?",
+      "answer": "Tout d'abord, nous avons pris des mesures pour protéger légalement le nom Rocky Linux. Cela signifie enregistrer ses marques déposées et les diverses propriétés associées pour éviter qu'elles ne soient contrôlées par une autre entité. Nous y sommes parvenus en les établissant sous la fondation Rocky Enterprise Software Foundation (RESF). Ensuite, nous avons rédigé une charte communautaire qui définit la structure organisationnelle, les objectifs, les valeurs et la mission de l'entité juridique qui représente Rocky Linux. Un élément crucial de cette charte est l'établissement de principes qui permettent et protègent la communauté : transparence, participation de la communauté, développement ouvert et indépendance. <0>Rocky Linux ne sera jamais contrôlé, acheté, ou autrement influencé par une seule entité ou organisation.</0> Enfin, nous sommes en train d'architecturer et de déployer l'infrastructure nécessaire pour permettre à la communauté de contribuer à Rocky Linux."
+    },
+    "6": {
+      "question": "Que se passe-t-il si j'ai des commentaires ou si ma question n'a pas reçu de réponse ici ?",
+      "answer": "Veuillez nous envoyer un email à <0>hello@rockylinux.org</0> et nous vous répondrons dès que possible."
+    }
+  }
+}
