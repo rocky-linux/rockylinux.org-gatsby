@@ -1,0 +1,17 @@
+{
+  "title": "Wszystko zaczęło się od komentarza na blogu.",
+  "subtitle": "Historia",
+  "content": {
+    "highlight": "8 grudnia 2020 r. firma Red Hat ogłosiła, że zaprzestanie rozwoju systemu CentOS, który był gotową do wykorzystania w produkcji wersją systemu Red Hat Enterprise Linux, na rzecz nowszego wariantu rozwojowego tego systemu operacyjnego, znanego jako \"CentOS Stream\". W ramach odpowiedzi, pierwotny założyciel CentOS, Gregory Kurtzer, ogłosił <0>poprzez komentarz na stronie CentOS</0>, że ponownie rozpocznie projekt mający na celu osiągnięcie pierwotnych celów CentOS. Jego nazwa jest hołdem dla wczesnego współzałożyciela CentOS-a, Rocky'ego McGaugha. Do 12 grudnia, repozytorium kodu Rocky Linux stało się najczęściej odwiedzanym repozytorium na GitHubie.",
+    "paragraph": "22 grudnia 2020 roku, Rocky Linux ogłosił, że docelowo pierwsze wydanie będzie miało miejsce pomiędzy marcem a majem 2021 roku. 20 stycznia 2021 r. ogłoszono, że repozytorium testowe zostanie udostępnione publicznie do końca lutego, a wersja kandydująca do wydania będzie gotowa pod koniec marca 2021 r. Data ta została jednak nieco przesunięta i 30 kwietnia 2021 roku oficjalnie wydano pierwszego kandydata do wydania. Drugi kandydat do wydania, w wersji 8.4, ostatni przed wydaniem stabilnym, został wydany 4 czerwca 2021 roku. 21 czerwca 2021 roku ukazało się stabilne wydanie Rocky Linux 8.4, o nazwie kodowej \"Green Obsidian\"."
+  },
+  "organization": {
+    "heading": "Organizacja",
+    "paragraph": "Projekt Rocky Linux jest prowadzony przez Fundację Rocky Enterprise Software Foundation (RESF). Aby dowiedzieć się więcej o strukturze organizacyjnej, proszę sprawdzić <0>stronę</0> na ten temat."
+  },
+  "quote": {
+    "content": "Wracając myślami do wczesnych dni CentOS... Moim współzałożycielem był Rocky McGaugh, który nigdy nie doczekał się sukcesu, jakim stał się CentOS. Nie ma go już z nami, więc jako osoba, która zainteresowała go tym projektem przedstawiam wam... Rocky Linux.",
+    "gmk": "Gregory Kurtzer",
+    "occupation": "Współzałożyciel @ CentOS / Założyciel @ Rocky Linux"
+  }
+}
