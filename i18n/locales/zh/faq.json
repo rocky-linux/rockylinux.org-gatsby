@@ -1,30 +1,30 @@
 {
-  "title": "常见问题解答",
-  "description": "以下是我们最常被问到的问题。",
+  "title": "常見問題",
+  "description": "Below is a list of our most frequently asked questions.",
   "faq": {
     "1": {
-      "question": "我如何帮助镜像目前和未来的 Rocky Linux版本？",
-      "answer": "请发送电子邮件<0>mirrors@rockylinux.org</0>以表达您的兴趣。"
+      "question": "How can I help mirror current and future Rocky Linux releases?",
+      "answer": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
     },
     "2": {
-      "question": "我在测试Rocky Linux时遇到了bug，我该怎么办？",
-      "answer": "首先，使用<0>Rocky Linux Account Services</0>创建一个帐户，然后前往我们的<1>Bugzilla server</1>报告任何bug。"
+      "question": "I encountered a bug while testing Rocky Linux, what can I do?",
+      "answer": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
     },
     "3": {
-      "question": "我怎样才能参与到测试团队中来？",
-      "answer": "请从加入我们 Mattermost 服务器上的<0>~Testing</0> 频道开始，论坛上还有一个测试话题，可以让你进行更持续长久的对话。"
+      "question": "How can I get involved with the Testing Team?",
+      "answer": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There's also a testing topic on the forums for more durable conversation."
     },
     "4": {
-      "question": "我在哪里可以找到有关Rocky Linux的最新消息？",
-      "answer": "请持续关注我们的网站、Twitter、LinkedIn、论坛和我们链接目录中列出的其他平台，以获取最新公告。"
+      "question": "Where can I find the latest news about Rocky Linux?",
+      "answer": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
     },
     "5": {
-      "question": "你们如何确保Rocky Linux仍然是一个真正意义上的社区企业操作系统?",
-      "answer": "首先，我们已采取措施从法律意义上保护 Rocky Linux的名称。这意味着已经注册其商标和各种各样的相关属性，以保护其免受其他实体的控制，我们通过将它们建立在Rocky企业软件基金会(RESF)之下来实现这一目标。接下来，我们起草了一份社区宪章，其中定义了代表Rocky Linux的法律实体背后的组织结构、目标、价值观和使命。该宪章的关键是确立了能够促进和保护社区的原则：透明度、社区参与、开放发展和独立性。<0>Rocky Linux永远不会被单个实体或组织控制、收购或以其他方式影响。</0>最后，我们正在构建和部署必要的基础设施，以进一步使社区能够为Rocky Linux做出贡献。"
+      "question": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
+      "answer": "First, we've taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We've achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we've drafted a community charter that defines the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0>Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization.</0> Finally, we're architecting and deploying the necessary infrastructure to further enable to the community to contribute to Rocky Linux."
     },
     "6": {
-      "question": "如果我有反馈意见或者我的问题在这里没有得到回答怎么办？",
-      "answer": "请给我们发送电子邮件: <0>hello@rockylinux.org</0>，我们将尽快回复您。"
+      "question": "What if I have feedback or my question wasn't answered here?",
+      "answer": "Please email us: <0>hello@rockylinux.org</0> and we'll get back to you as soon as we can."
     }
   }
 }
