@@ -1,0 +1,50 @@
+{
+  "title": "Imagens Alternativas",
+  "description": "As imagens fornecidas nesta página estão disponíveis em um de nossos espelhos confiáveis, mas não são oficialmente suportadas.",
+  "rl8": "Rocky Linux 8 (Versão Atual)",
+  "rl8-eol": "<0>EOL planejado:</0> 31 maio 2029",
+  "desktop": "Desktop (SIG)",
+  "alt-arch": "Arquiteturas Alternativas (SIG)",
+  "headings": {
+    "de": "Ambiente Desktop",
+    "checksum": "Checksum",
+    "arch": "Arquitetura",
+    "download": "Download",
+    "readme": "Leia-me"
+  },
+  "body": {
+    "gnome": "GNOME (Workstation)",
+    "xfce": "XFCE",
+    "rpi": "Raspberry Pi (aarch64)",
+    "x86_64": "x86_64",
+    "arm": "aarch64",
+    "checksum": "Checksum",
+    "download": "Download",
+    "readme": "Leia-me"
+  },
+  "links": {
+    "cloud": "Imagens em Nuvem",
+    "docs": "Documentação ",
+    "bug": "Reportar Bug"
+  },
+  "get-involved": {
+    "heading": "Participe",
+    "body": "Conforme você baixa e usa o Rocky Linux, a Rocky Enterprise Software Foundation convida você para <0>fazer parte da comunidade como colaborador</0>. Há muitas maneiras de contribuir com o projeto, da documentação, QA, e testes até alterações de codificação para SIGs, fornecendo espelhamento ou hospedagem, e ajudando outros usuários."
+  },
+  "isos": {
+    "heading": "Qual é a diferença entre as ISOs?",
+    "body": "Várias imagens de instalação estão disponíveis para instalar o Rocky Linux. Qual imagem você precisa baixar depende do seu ambiente de instalação e caso de uso.",
+    "boot": {
+      "heading": "Boot",
+      "body": "Usado para instalar o sistema operacional de outra fonte (como um repositório HTTP dos arquivos binários). Também pode ser usado para entrar no Modo de Recuperação."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "Usado para instalar o sistema operacional de outra fonte (como um repositório HTTP dos arquivos binários). Também pode ser usado para entrar no Modo de Recuperação."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "Uma instalação completa que contém os repositórios BaseOS e AppStream e permite que você conclua a instalação sem repositórios adicionais. Instalar o Rocky Linux pela ISO do DVD é o método mais fácil e comum de executar uma instalação padrão do Rocky Linux 8."
+    }
+  }
+}
