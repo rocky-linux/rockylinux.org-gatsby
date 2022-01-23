@@ -1,0 +1,52 @@
+{
+  "language": "fi",
+  "js-warning": "Vaikuttaa siltä, että JavaScript on poistettu käytöstä selaimessasi. Vaikka useimmat verkkosivuston osat toimivat ilman JavaScriptiä, saatat kokea ei-toivottuja kokemuksia selatessa sivustoamme. Harkitse poikkeuksen tekemistä sivustollemme selaimesi asetuksissa.",
+  "categories": {
+    "news": "Uutiset",
+    "about": "Tietoa",
+    "community": "Yhteisö",
+    "documentation": "Dokumentaatio",
+    "get-involved": "Osallistu",
+    "legal": "Lainopillinen",
+    "language": "Kieli"
+  },
+  "about": {
+    "about": "Tietoa Rocky Linuxista",
+    "faq": "Usein kysytyt kysymykset",
+    "charter": "Yhteisön peruskirja",
+    "org-structure": "Organisaatiorakenne",
+    "status": "Palveluiden tila",
+    "sponsors": "Sponsorit",
+    "partners": "Kumppanit",
+    "support": "Tuen tarjoajat"
+  },
+  "community": {
+    "contribute": "Avustaminen",
+    "forums": "Foorumi",
+    "mailing": "Postituslista",
+    "mattermost": "Mattermost",
+    "irc": "IRC",
+    "calendar": "Kalenteri",
+    "bug": "Raportoi virheestä",
+    "donate": "Lahjoita",
+    "store": "Kauppa"
+  },
+  "documentation": {
+    "wiki": "Wiki",
+    "guides": "Oppaat",
+    "keys": "Tietoa GPG-avaimista"
+  },
+  "legal": {
+    "licensing": "Lisensointi",
+    "privacy": "Tietosuojakäytäntö"
+  },
+  "lang": {
+    "choose": "Valitse kieli",
+    "translate": "Käännä tämä sivusto"
+  },
+  "download": "Lataa",
+  "copyright": {
+    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. Kaikki oikeudet pidätetään.",
+    "line2": "Red Hat Enterprise Linux, RHEL ja CentOS ovat Red Hat, Inc.:n tai sen tytäryhtiöiden tavaramerkkejä tai rekisteröityjä tavaramerkkejä USA:ssa ja muissa maissa. Emme ole sidoksissa Red Hatiin, emmekä niiden tukemia tai sponsoroimia."
+  }
+}
