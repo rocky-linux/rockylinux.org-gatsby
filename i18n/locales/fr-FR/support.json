@@ -1,0 +1,12 @@
+{
+  "title": "Fournisseurs de Support",
+  "description": "Rocky Linux est commercialement supportée par CIQ, notre partenaire fondateur et sponsor, ainsi que d'autres sociétés non affiliées.",
+  "support": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Partenaire Fondateur/Sponsor",
+      "blurb": "Nous croyons qu'il faut aider les gens à faire de grandes choses. C'est pourquoi CIQ est un sponsor fondateur de la RESF. Nous fournissons un support commercial et des services pour Rocky Linux à des clients issus du monde de la recherche, de l'université, du gouvernement, des entreprises, des partenaires et de tous les secteurs intermédiaires."
+    }
+  },
+  "get": "Obtenir de l'Assistance"
+}
