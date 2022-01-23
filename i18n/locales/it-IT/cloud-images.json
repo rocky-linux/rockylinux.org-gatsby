@@ -1,0 +1,13 @@
+{
+  "title": "Immagini Cloud",
+  "description": "Trova le nostre immagini ufficiali dal tuo provider cloud preferito.",
+  "headings": {
+    "version": "Versione OS",
+    "provider": "Provider",
+    "region": "Regione",
+    "arch": "Architettura",
+    "id": "ID Immagine",
+    "deploy": "Deploy Link"
+  },
+  "deploy": "Deploy"
+}
