@@ -1,0 +1,17 @@
+{
+  "title": "Alles begann mit einem Blog Kommentar.",
+  "subtitle": "Geschichte",
+  "content": {
+    "highlight": "Am 8. Dezember 2020, kündigte Red Hat an, dass sie die Entwicklung von CentOS einstellen würden, die eine produktionsfähige Downstream-Version von Red Hat Enterprise Linux war, zu Gunsten einer neuen Upstream Entwicklungsvariante von diesem System gennant \"CentOS Stream\". Als Reaktion darauf gründete der ursprüngliche Entwickler von CentOS, Gregory Kurtzler, <0>durch einen Kommentar auf der CentOS Webseite<0> angekündigt hat, dass er erneut ein Projekt starten werde, um die ursprünglichen Ziele von CentOS zu  erreichen. Der Name wurde als Tribute an den frühen CentOS-Mitgründer Rocky McGaugh gewält. Bis zum 12. Dezember war das Repository von Rocky Linux zum Top-Trend-Repository auf GitHub geworden.",
+    "paragraph": "Am 22. Dezember 2020 gab Rocky Linux bekannt, dass das Ziel für eine erste Veröffentlichung zwischen März und Mai 2021 war. Am 20. Januar 2021 wurde angekündigt, dass bis Ende Februar ein Testarchiv veröffentlicht werden soll. und ein Veröffentlichungskandidat war für Ende März 2021 auf dem Ziel. Dieses Datum wurde jedoch leicht zurückgeschoben, und am 30. April 2021 wurde der erste Veröffentlichungskandidat offiziell freigegeben. Der zweite Release Kandidat, der Version 8. , das letzte vor dem stabilen Release, wurde am 4. Juni 2021 veröffentlicht. Am 21. Juni 2021 wurde die stabile Version von Rocky Linux 8.4 mit dem Namen \"Green Obsidian\" veröffentlicht."
+  },
+  "organization": {
+    "heading": "Organisation",
+    "paragraph": "Das Rocky Linux Projekt wird von der Rocky Enterprise Software Foundation (RESF) gehostet. Um mehr über die Organisationsstruktur zu erfahren, schauen Sie sich bitte die <0>Seite</0> zu diesem Thema an."
+  },
+  "quote": {
+    "content": "Denken Sie an die frühen CentOS-Tage... Mein Mitbegründer war Rocky McGaugh. Er ist nicht mehr bei uns, also als H/T an ihn, wer noch nie den Erfolg von CentOS sehen konnte, stelle ich Ihnen vor. .Rocky Linux.",
+    "gmk": "Gregory Kurtzer",
+    "occupation": "Co-Gründer @ CentOS / Gründer @ Rocky Linux"
+  }
+}
