@@ -1,0 +1,47 @@
+{
+  "title": "Downloads",
+  "description": "Baixe a versão oficial do Rocky Linux de um dos nossos espelhos confiáveis.",
+  "rl8": "Rocky Linux 8 (Versão Atual)",
+  "rl8-eol": "<0>EOL planejado:</0> 31 maio 2029",
+  "headings": {
+    "arch": "Arquitetura",
+    "isos": "ISOs",
+    "packages": "Pacotes"
+  },
+  "body": {
+    "x86_64": "x86_64",
+    "arm": "ARM64 (aarch64)",
+    "minimal": "Minimal",
+    "dvd": "DVD",
+    "boot": "Boot",
+    "torrent": "Torrent",
+    "checksum": "Checksum",
+    "baseos": "BaseOS"
+  },
+  "links": {
+    "alt": "Imagens Alternativas",
+    "cloud": "Imagens em Nuvem",
+    "docs": "Documentação ",
+    "bug": "Reportar Bug"
+  },
+  "get-involved": {
+    "heading": "Participe",
+    "body": "Conforme você baixa e usa o Rocky Linux, a Rocky Enterprise Software Foundation convida você para <0>fazer parte da comunidade como colaborador</0>. Há muitas maneiras de contribuir com o projeto, da documentação, QA, e testes até alterações de codificação para SIGs, fornecendo espelhamento ou hospedagem, e ajudando outros usuários."
+  },
+  "isos": {
+    "heading": "Qual é a diferença entre as ISOs?",
+    "body": "Várias imagens de instalação estão disponíveis para instalar o Rocky Linux. Qual imagem você precisa baixar depende do seu ambiente de instalação e caso de uso.",
+    "boot": {
+      "heading": "Boot",
+      "body": "Usado para instalar o sistema operacional de outra fonte (como um repositório HTTP dos arquivos binários). Também pode ser usado para entrar no Modo de Recuperação."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "Usado para instalar o sistema operacional de outra fonte (como um repositório HTTP dos arquivos binários). Também pode ser usado para entrar no Modo de Recuperação."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "Uma instalação completa que contém os repositórios BaseOS e AppStream e permite que você conclua a instalação sem repositórios adicionais. Instalar o Rocky Linux pela ISO do DVD é o método mais fácil e comum de executar uma instalação padrão do Rocky Linux 8."
+    }
+  }
+}
