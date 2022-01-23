@@ -2,8 +2,8 @@
   "title": "云镜像",
   "description": "从您最喜欢的云提供商找到我们的官方镜像。",
   "headings": {
-    "version": "操作系统版本",
-    "provider": "提供商",
+    "version": "作業系統版本",
+    "provider": "提供者",
     "region": "地区",
     "arch": "架构",
     "id": "镜像 ID",
