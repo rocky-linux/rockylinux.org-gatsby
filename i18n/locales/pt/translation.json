@@ -1,52 +1,52 @@
 {
   "language": "en",
-  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
+  "js-warning": "Parece que o JavaScript está desabilitado no seu navegador. Enquanto a maioria das áreas deste site funcionam sem o uso de JavaScript, você pode ter experiências inesperadas enquanto navega em nosso site. Por favor, considere fazer uma exceção para o nosso site nas configurações do navegador.",
   "categories": {
-    "news": "News",
-    "about": "About",
-    "community": "Community",
-    "documentation": "Documentation",
-    "get-involved": "Get Involved",
+    "news": "Notícias",
+    "about": "Sobre",
+    "community": "Comunidade",
+    "documentation": "Documentação ",
+    "get-involved": "Participe",
     "legal": "Legal",
-    "language": "Language"
+    "language": "Idioma"
   },
   "about": {
-    "about": "About Rocky Linux",
-    "faq": "Frequently Asked Questions",
-    "charter": "Community Charter",
-    "org-structure": "Organizational Structure",
-    "status": "Service Status",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "support": "Support Providers"
+    "about": "Sobre o Rocky Linux",
+    "faq": "Preguntas Frequentes",
+    "charter": "Carta da Comunidade",
+    "org-structure": "Estrutura Organizacional",
+    "status": "Status de Serviço",
+    "sponsors": "Patrocinadores",
+    "partners": "Parceiros",
+    "support": "Apoiadores"
   },
   "community": {
-    "contribute": "Contribute",
-    "forums": "Forums",
-    "mailing": "Mailing Lists",
+    "contribute": "Contribuir",
+    "forums": "Fóruns",
+    "mailing": "Listas de E-mail",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "Calendar",
-    "bug": "Submit Bug",
-    "donate": "Donate",
-    "store": "Store"
+    "calendar": "Calendário",
+    "bug": "Enviar Bug",
+    "donate": "Doar",
+    "store": "Loja"
   },
   "documentation": {
     "wiki": "Wiki",
-    "guides": "Guides and Manuals",
-    "keys": "GPG Key Info"
+    "guides": "Guias e Manuais",
+    "keys": "Informação da chave GPG"
   },
   "legal": {
-    "licensing": "Licensing",
-    "privacy": "Privacy Policy"
+    "licensing": "Licenciamento",
+    "privacy": "Política de Privacidade"
   },
   "lang": {
-    "choose": "Choose Language",
-    "translate": "Translate this site"
+    "choose": "Escolha o Idioma",
+    "translate": "Traduza este site"
   },
   "download": "Download",
   "copyright": {
-    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. Todos os direitos reservados.",
+    "line2": "Red Hat Enterprise Linux, RHEL e CentOS são marcas comerciais ou marcas registradas da Red Hat Inc. ou de suas subsidiárias nos Estados Unidos e em outros países. Não somos afiliados, endossados ou patrocinados pela Red Hat Inc."
   }
 }
