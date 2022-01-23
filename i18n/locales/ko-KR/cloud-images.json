@@ -1,0 +1,13 @@
+{
+  "title": "클라우드 이미지",
+  "description": "좋아하는 클라우드 제공업체의 공식 이미지를 찾아보세요.",
+  "headings": {
+    "version": "OS 버전",
+    "provider": "공급자",
+    "region": "지역",
+    "arch": "아키텍처",
+    "id": "이미지 ID",
+    "deploy": "배포 링크"
+  },
+  "deploy": "배포"
+}
