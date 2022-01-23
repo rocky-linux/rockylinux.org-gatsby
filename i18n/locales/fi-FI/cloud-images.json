@@ -1,0 +1,13 @@
+{
+  "title": "Pilvilevykuvat",
+  "description": "Löydä viralliset levykuvamme suosikkipilvipalveluntarjoajaltasi.",
+  "headings": {
+    "version": "OS versio",
+    "provider": "Tarjoaja",
+    "region": "Alue",
+    "arch": "Arkkitehtuuri",
+    "id": "Levykuvan ID",
+    "deploy": "Käyttöönottolinkki"
+  },
+  "deploy": "Käytä"
+}
