@@ -1,0 +1,30 @@
+{
+  "title": "Häufig gestellte Fragen",
+  "description": "Unten finden Sie eine Liste unserer am häufigsten gestellten Fragen.",
+  "faq": {
+    "1": {
+      "question": "Wie kann ich beim Mirroring aktueller und zukünftiger Rocky Linux Versionen helfen?",
+      "answer": "Bitte senden Sie eine E-Mail an <0>mirrors@rockylinux.org</0>, um Ihr Interesse zu äußern."
+    },
+    "2": {
+      "question": "Ich habe einen Fehler beim Testen von Rocky Linux festgestellt, was kann ich tun?",
+      "answer": "Erstellen Sie zuerst ein Konto mit <0>Rocky Linux Account Services</0>, dann gehen Sie zu unserem <1>Bugzilla Server</1> um Fehler zu melden."
+    },
+    "3": {
+      "question": "Wie kann ich in das Testing Team einsteigen?",
+      "answer": "Bitte betreten Sie den <0>~Testing</0> Kanal auf unserem Mattermost Server, um loszulegen. Es gibt auch ein Testthema in den Foren für dauerhaftere Gespräche."
+    },
+    "4": {
+      "question": "Wo finde ich die neuesten Neuigkeiten über Rocky Linux?",
+      "answer": "Bleiben Sie auf dem Laufenden auf unserer Website, Twitter, LinkedIn, Foren und anderen Plattformen, die in unserem Linkverzeichnis aufgeführt sind, für die neuesten Ankündigungen."
+    },
+    "5": {
+      "question": "Wie werden Sie sicherstellen, dass Rocky Linux wirklich ein gemeinschaftliches Betriebssystem bleibt?",
+      "answer": "Zuerst haben wir Schritte unternommen, um den Rocky Linux-Namen rechtlich zu schützen. Dies bedeutet, dass seine Marken und verschiedene assoziierte Eigenschaften registriert werden müssen, um sie vor der Kontrolle durch eine andere Einheit zu schützen. Das haben wir erreicht, indem wir sie unter der Rocky Enterprise Software Foundation (RESF) gegründet haben. Als nächstes haben wir eine Gemeinschaftscharta entworfen, die die Organisationsstruktur, Ziele, Werte und Mission hinter der juristischen Person, die Rocky Linux repräsentiert, definiert. Entscheidend in dieser Charta ist die Festlegung von Grundsätzen, die die Gemeinschaft ermöglichen und schützen: Transparenz, Beteiligung der Gemeinschaft, offene Entwicklung und Unabhängigkeit. <0>Rocky Linux wird niemals von einer einzelnen Einheit oder Organisation kontrolliert, gekauft oder anderweitig beeinflusst. /0> Schließlich sind wir Architektieren und Deploying der notwendigen Infrastruktur, um die Community weiter zu ermöglichen, um zu Rocky Linux beitragen."
+    },
+    "6": {
+      "question": "Was ist, wenn ich Feedback habe oder meine Frage hier nicht beantwortet wurde?",
+      "answer": "Bitte mailen Sie uns: <0>hello@rockylinux.org</0> und wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen."
+    }
+  }
+}
