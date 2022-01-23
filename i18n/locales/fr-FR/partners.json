@@ -1,0 +1,63 @@
+{
+  "title": "Partenaires",
+  "description": "Les partenaires de la RESF représentent des relations permanentes d'importance stratégique pour le projet Rocky Linux. Grâce au dévouement de l'expertise en ingénierie, des ressources en infrastructure ou d'autres moyens, leur soutien est essentiel à notre réussite continue et à notre stabilité à long terme.",
+  "partners": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Partenaire Fondateur",
+      "blurb": "Nous croyons qu'il faut aider les gens à faire de grandes choses. C'est pourquoi CIQ est un sponsor fondateur de la RESF. Nous fournissons un support commercial et des services pour Rocky Linux à des clients issus du monde de la recherche, de l'université, du gouvernement, des entreprises, des partenaires et de tous les secteurs intermédiaires."
+    },
+    "arm": {
+      "name": "Arm",
+      "tier": "Partenaire Principal",
+      "blurb": "Arm s'engage à s'assurer que son architecture est un citoyen de première classe dès le premier jour avec Rocky Linux. Nous avons établi un partenariat avec la RESF, fournissant des efforts d'ingénierie dédiés pour compléter les équipes de développement et de test de Rocky Linux, travaillant en étroite collaboration pour tester, valider et soutenir ARM, maintenant et longtemps dans le futur."
+    },
+    "equinix": {
+      "name": "Equinix",
+      "tier": "Partenaire Principal",
+      "blurb": "Equinix est la société mondiale d'infrastructure numérique. Les leaders numériques exploitent notre plateforme de confiance pour rassembler et interconnecter l'infrastructure de base qui alimente leur succès."
+    },
+    "fastly": {
+      "name": "Fastly",
+      "tier": "Partenaire Principal",
+      "blurb": "La plateforme cloud de pointe Fastly permet aux clients de créer de grandes expériences numériques rapidement, en toute sécurité et de manière fiable en traitant, hébergeant et sécurisant les applications de nos clients au plus près e leurs utilisateurs finaux, aux limites de l'Internet."
+    },
+    "fosshost": {
+      "name": "Fosshost",
+      "tier": "Partenaire Principal",
+      "blurb": "Fosshost (UK CIC #13356530) offre gratuitement un hébergement internet de qualité entreprise et des services gérés exclusivement pour la communauté FOSS. Nous avons pour mission de donner les moyens et de soutenir chaque projet de logiciel libre et open-source. Pour aller plus loin, ensemble. Notre travail ne s'arrête jamais. Postulez dès aujourd'hui!"
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "tier": "Partenaire Principal",
+      "blurb": "Mattermost est une solution de messagerie open source conçue pour les entreprises avec les exigences les plus élevées en matière de sécurité. En tant que grand croyant dans la puissance de l'open source, Mattermost est ravi de s'associer avec la RESF pour aider à apporter une distribution Linux de qualité entreprise à la communauté technique."
+    },
+    "naver": {
+      "name": "NAVER Cloud",
+      "tier": "Partenaire Principal",
+      "blurb": "NAVER Cloud Platform est un service cloud sud-coréen qui a débuté en 2017 sous NAVER Cloud, une filiale de NAVER. Il fournit plus de 170 services individuels en 2021 et possède diverses certifications de sécurité, dont CSA STAR GOLD, le RGPD et bien plus encore. Il fournit également des services de cloud dans 10 endroits à travers le monde."
+    },
+    "osl": {
+      "name": "OSU Open Source Labs",
+      "tier": "Partenaire Principal",
+      "blurb": "Le  Oregon State University Open Source Lab est une organisation à but non lucratif qui travaille pour l'avancement des technologies open source. L'OSL offre des services d'hébergement de classe mondiale, le développement de logiciels professionnels et la formation sur le terrain pour les étudiants prometteurs intéressés par la gestion et la programmation open source."
+    },
+    "supermicro": {
+      "name": "Supermicro",
+      "tier": "Partenaire Principal",
+      "blurb": "En tant que leader mondial de la technologie des serveurs hautement performants et efficients et de l'innovation, Supermicro est heureux de travailler avec la RESF et de fournir des serveurs de centres de données et des systèmes de stockage optimisés pour Rocky Linux."
+    },
+    "crowdin": {
+      "name": "Crowdin",
+      "tier": "Partenaire de niveau 4"
+    },
+    "dsstudio": {
+      "name": "DotSlash Studio",
+      "tier": "Partenaire de niveau 4"
+    },
+    "fathom": {
+      "name": "Fathom",
+      "tier": "Partenaire de niveau 4"
+    }
+  }
+}
