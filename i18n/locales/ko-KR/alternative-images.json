@@ -1,0 +1,50 @@
+{
+  "title": "대체 이미지",
+  "description": "이 페이지에 제공된 이미지는 신뢰할 수 있는 미러 중 하나에서 사용할 수 있지만 공식적으로 지원되지는 않습니다.",
+  "rl8": "Rocky Linux 8 (현재)",
+  "rl8-eol": "<0>지원 중단일:</0> 2029년 5월 31일",
+  "desktop": "데스크탑 (SIG)",
+  "alt-arch": "대체 아키텍쳐 (SIG)",
+  "headings": {
+    "de": "데스크탑 환경\n",
+    "checksum": "체크섬",
+    "arch": "아키텍처",
+    "download": "다운로드",
+    "readme": "Readme"
+  },
+  "body": {
+    "gnome": "GNOME (워크스테이션)",
+    "xfce": "XFCE",
+    "rpi": "라즈베리 파이 (aarch64)",
+    "x86_64": "x86_64",
+    "arm": "aarch64",
+    "checksum": "체크섬",
+    "download": "다운로드",
+    "readme": "Readme"
+  },
+  "links": {
+    "cloud": "클라우드 이미지",
+    "docs": "문서",
+    "bug": "버그 신고"
+  },
+  "get-involved": {
+    "heading": "참여하기",
+    "body": "Rocky Linux를 다운로드하여 사용할 때 Rocky Enterprise Software Foundation은 귀하를 <0>커뮤니티의 기여자</0>로 초대합니다. 문서화, QA 및 테스트에서 SIG에 대한 코딩 변경, 미러링 또는 호스팅 제공, 다른 사용자 지원에 이르기까지 프로젝트에 기여할 수 있는 방법은 많습니다."
+  },
+  "isos": {
+    "heading": "각 ISO의 차이는 무엇입니까?",
+    "body": "Rocky Linux를 설치하기 위해 다양한 설치 이미지가 제공됩니다. 어떤 이미지를 다운로드해야 하는지는 설치 환경과 사용 환경에 따라 다릅니다.",
+    "boot": {
+      "heading": "Boot",
+      "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "BaseOS 및 AppStream 리포지토리를 포함하고 추가 리포지토리 없이 설치를 완료할 수 있는 전체 설치입니다. DVD ISO에서 RockyLinux를 설치하는 것은 표준 Rocky Linux8 설치를 수행하는 가장 쉽고 일반적인 방법입니다."
+    }
+  }
+}
