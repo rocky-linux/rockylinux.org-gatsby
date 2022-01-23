@@ -1,0 +1,50 @@
+{
+  "title": "その他のイメージ",
+  "description": "このページで提供される画像は、信頼できるミラーのいずれかから入手できますが、公式にはサポートされていません。",
+  "rl8": "Rocky Linux 8 (現在)",
+  "rl8-eol": "<0>サポート終了予定日:</0>2029年5月31日",
+  "desktop": "Desktop (SIG)",
+  "alt-arch": "Alternative Architectures (SIG)",
+  "headings": {
+    "de": "デスクトップ環境",
+    "checksum": "チェックサム",
+    "arch": "アーキテクチャ",
+    "download": "ダウンロード",
+    "readme": "Readme"
+  },
+  "body": {
+    "gnome": "GNOME (Workstation)",
+    "xfce": "XFCE",
+    "rpi": "Raspberry Pi (aarch64)",
+    "x86_64": "x86_64",
+    "arm": "aarch64",
+    "checksum": "チェックサム",
+    "download": "ダウンロード",
+    "readme": "Readme"
+  },
+  "links": {
+    "cloud": "クラウドイメージ",
+    "docs": "ドキュメント",
+    "bug": "バグの報告"
+  },
+  "get-involved": {
+    "heading": "活動に参加する",
+    "body": "Rocky Linux をダウンロードし、使用するにあたり、Rocky Enterprise Software Foundation は、<0>貢献者としてコミュニティの一員となること</0>を推奨しています。ドキュメント、QA、テストから、SIG のためのコーディング変更、ミラーリングやホスティングの提供、他のユーザの支援など、プロジェクトに貢献する方法はたくさんあります。"
+  },
+  "isos": {
+    "heading": "各ISOは何が違うのですか？",
+    "body": "Rocky Linuxをインストールするために、様々なインストールイメージが用意されています。どのイメージをダウンロードする必要があるかは、インストール環境や利用シーンによって異なります。",
+    "boot": {
+      "heading": "Boot",
+      "body": "別のソース（バイナリファイルのHTTPリポジトリなど）からオペレーティングシステムをインストールするために使用します。また、レスキューモードに移行する際にも使用できます。"
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "別のソース（バイナリファイルのHTTPリポジトリなど）からオペレーティングシステムをインストールするために使用します。また、レスキューモードに移行する際にも使用できます。"
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "BaseOSとAppStreamリポジトリを含まれており、追加リポジトリなしでインストールを完了することができるフルインストールです。 DVD ISOからRockyLinuxをインストールすることは、標準のRocky Linux8インストールを実行する最も簡単で一般的な方法です。 "
+    }
+  }
+}
