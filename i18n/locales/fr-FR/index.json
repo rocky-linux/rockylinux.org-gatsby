@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "new": "Quoi de neuf",
+    "title": "Enterprise Linux, la méthode communautaire.",
+    "description": "Rocky Linux est un système d'exploitation d'entreprise open-source conçu pour être 100% bogue pour bogue compatible avec Red Hat Enterprise Linux<0>&#174;</0>. Elle est en cours de développement intensif par la communauté.",
+    "cta1": "Téléchargement",
+    "cta2": "Migrer"
+  },
+  "features": {
+    "title": "Solide comme un roc, quel que soit le cas d'usage.",
+    "subtitle": "Stable, Linux prêt pour la production",
+    "description": "Rocky Linux reconstruit les sources directement à partir de RHEL<0>&#174;</0>, pour que vous puissiez parier votre meilleur euro que vous aurez une expérience super stable, peu importe le cas d'usage.",
+    "1": {
+      "title": "Prêt pour la Production",
+      "description": "Rocky Linux est prêt pour l'entreprise, fournissant une stabilité solide avec des mises à jour régulières et un cycle de vie du support de 10 ans, le tout sans frais."
+    },
+    "2": {
+      "title": "Supporté par la communauté",
+      "description": "La communauté, les sponsors et les partenaires se sont engagés sur le long terme pour s'assurer que le projet reste dans la communauté."
+    },
+    "3": {
+      "title": "Migration Facile",
+      "description": "Migrer depuis d'autres distributions Enterprise Linux sans transpirer. Nous fournissons gratuitement un script de migration facile à utiliser."
+    }
+  },
+  "latest-news": {
+    "title": "Dernières nouvelles",
+    "description": "Nous partageons régulièrement des mises à jour avec la communauté sur ce qui se passe. Voici la dernière version."
+  },
+  "sponsors-partners": {
+    "backed": "Soutenu Par",
+    "sponsors": "Tous Les Sponsors",
+    "partners": "Tous Les Partenaires",
+    "support": "Fournisseurs de Support"
+  }
+}
