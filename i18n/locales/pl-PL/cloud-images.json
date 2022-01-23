@@ -1,0 +1,13 @@
+{
+  "title": "Obrazy w Chmurze",
+  "description": "Znajdź nasze oficjalne obrazy u swojego ulubionego dostawcy usług w chmurze.",
+  "headings": {
+    "version": "Wersja Systemu",
+    "provider": "Dostawca",
+    "region": "Region",
+    "arch": "Architektura",
+    "id": "ID Obrazu",
+    "deploy": "Link do Wdrożenia"
+  },
+  "deploy": "Wdróż"
+}
