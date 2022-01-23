@@ -1,0 +1,30 @@
+{
+  "title": "Najczęściej Zadawane Pytania",
+  "description": "Poniżej znajduje się lista najczęściej zadawanych pytań.",
+  "faq": {
+    "1": {
+      "question": "Jak mogę pomóc w tworzeniu kopii lustrzanych obecnych i przyszłych wydań Rocky Linux?",
+      "answer": "Prosze wysłać email na adres <0>mirrors@rockylinux.org</0> w celu wyrażenia swojego zainteresowania."
+    },
+    "2": {
+      "question": "Napotkałem błąd podczas testowania Rocky Linux, co mogę zrobić?",
+      "answer": "Najpierw należy utworzyć konto za pomocą <0>Rocky Linux Account Services</0>, następnie udaj się do naszego <1>serwera Bugzilla</1> aby zgłosić wszelkie błędy."
+    },
+    "3": {
+      "question": "Jak mogę zaangażować się w pracę zespołu testującego?",
+      "answer": "Prosimy o przyłączenie się do kanału <0>~Testing</0> na naszym serwerze Mattermost, aby zacząć. Na forum jest też temat o testach, w którym można prowadzić bardziej szczegółowe rozmowy."
+    },
+    "4": {
+      "question": "Gdzie mogę znaleźć najnowsze wiadomości na temat Rocky Linux?",
+      "answer": "Bądź na bieżąco z naszą stroną internetową, Twitterem, LinkedIn, forami i innymi platformami wymienionymi w naszym katalogu linków, aby uzyskać najnowsze komunikaty."
+    },
+    "5": {
+      "question": "Jak zamierzacie zadbać, aby Rocky Linux rzeczywiście pozostał społecznościowym systemem operacyjnym dla przedsiębiorstw?",
+      "answer": "Po pierwsze, podjęliśmy kroki w celu prawnej ochrony nazwy Rocky Linux. Oznacza to rejestrację znaków towarowych i różnych powiązanych z nimi właściwości w celu zabezpieczenia ich przed przejęciem kontroli przez inny podmiot. Osiągnęliśmy to poprzez zarejestrowanie ich dla Fundacji Rocky Enterprise Software Foundation (RESF). Następnie przygotowujemy statut społeczności, który określi strukturę organizacyjną, cele, wartości i misję podmiotu prawnego, który reprezentuje Rocky Linux. Kluczowe w tym statucie jest ustanowienie zasad, które umożliwiają i chronią społeczność: przejrzystość, zaangażowanie społeczności, otwarty rozwój i niezależność. <0> Rocky Linux nigdy nie będzie kontrolowany, wykupiony ani w żaden inny sposób uzależniony od jednego podmiotu lub organizacji. </0> Wreszcie, tworzymy i wdrażamy niezbędną infrastrukturę, aby umożliwić społeczności dalszy wkład w rozwój Rocky Linux."
+    },
+    "6": {
+      "question": "Co zrobić, jeżeli mam uwagi lub na moje pytanie nie ma tutaj odpowiedzi?",
+      "answer": "Proszę napisać wiadomość na nasz adres e-mail: <0>hello@rockylinux.org</0> a my odezwiemy się do Ciebie tak szybko, jak to tylko możliwe."
+    }
+  }
+}
