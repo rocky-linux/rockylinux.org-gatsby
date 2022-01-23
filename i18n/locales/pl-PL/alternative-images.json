@@ -1,0 +1,50 @@
+{
+  "title": "Obrazy Alternatywne",
+  "description": "Obrazy dostarczone na tej stronie są dostępne z jednego z naszych zaufanych serwerów lustrzanych, ale nie są oficjalnie wspierane.",
+  "rl8": "Rocky Linux 8 (Bieżący)",
+  "rl8-eol": "<0>Planowana data zakończenia wsparcia:</0> 31 maja 2029 r.",
+  "desktop": "Desktop (SIG)",
+  "alt-arch": "Architektury Alternatywne (SIG)",
+  "headings": {
+    "de": "Środowisko Graficzne",
+    "checksum": "Suma kontrolna",
+    "arch": "Architektura",
+    "download": "Pobieranie",
+    "readme": "Czytaj"
+  },
+  "body": {
+    "gnome": "GNOME (Stacja robocza)",
+    "xfce": "XFCE",
+    "rpi": "Raspberry Pi (aarch64)",
+    "x86_64": "x86_64",
+    "arm": "aarch64",
+    "checksum": "Suma kontrolna",
+    "download": "Pobieranie",
+    "readme": "Czytaj"
+  },
+  "links": {
+    "cloud": "Obrazy w Chmurze",
+    "docs": "Dokumentacja",
+    "bug": "Zgłoś Błąd"
+  },
+  "get-involved": {
+    "heading": "Zaangażuj Się",
+    "body": "Podczas pobierania i użytkowania Rocky Linux, Fundacja Rocky Enterprise Software Foundation zaprasza do <0>bycia częścią społeczności jako współtwórca</0>. Istnieje wiele sposobów, aby przyczynić się do rozwoju projektu, od dokumentacji, zapewnienia jakości i testowania do kodowania zmian dla SIG (grup specjalistycznych zainteresowań), zapewnienia obrazu lustrzanego (mirror) lub hostingu i pomocy innym użytkownikom."
+  },
+  "isos": {
+    "heading": "Jakie są różnice pomiędzy obrazami ISO?",
+    "body": "Do instalacji Rocky Linux dostępne są różne obrazy instalacyjne. To, który obraz należy pobrać, zależy od środowiska instalacji i sposobu użycia.",
+    "boot": {
+      "heading": "Boot",
+      "body": "Służy do instalowania systemu operacyjnego z innego źródła (np. z repozytorium plików binarnych HTTP). Może być również użyty do uruchomienia trybu ratunkowego."
+    },
+    "minimal": {
+      "heading": "Minimalny",
+      "body": "Służy do instalowania systemu operacyjnego z innego źródła (np. z repozytorium plików binarnych HTTP). Może być również użyty do uruchomienia trybu ratunkowego."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "Pełna instalacja, która zawiera repozytoria BaseOS i AppStream i pozwala na dokończenie instalacji bez dodatkowych repozytoriów. Instalacja Rocky Linux z obrazu ISO płyty DVD jest najprostszą i najczęściej stosowaną metodą wykonania standardowej instalacji Rocky Linux 8."
+    }
+  }
+}
