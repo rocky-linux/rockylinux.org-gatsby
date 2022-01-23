@@ -1,0 +1,63 @@
+{
+  "title": "Partner",
+  "description": "I Partner di RESF rappresentano relazioni continue di importanza strategica per il progetto Rocky Linux. Tramite il contributo di esperienza ingegneristica, risorse infrastrutturali o altri mezzi, il loro supporto è decisivo per il proseguimento del nostro successo e la stabilità a lungo termine. ",
+  "partners": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Partner Fondatore",
+      "blurb": "Crediamo che aiutare le persone faccia grandi cose. Questo è il motivo per cui CIQ è un partner fondatore di RESF. Forniamo supporto commerciale e servizi per Rocky Linux a clienti nella ricerca, accademia, governo, aziende, partner, e chiunque ne sia coinvolto."
+    },
+    "arm": {
+      "name": "Arm",
+      "tier": "Partner Principale",
+      "blurb": "Arm si impegna ad assicurare che la sua architettura sia di prima classe dal primo giorno su Rocky Linux. Siamo partner con RESF, fornendo forzi ingegneristici dedicati a complemento dei team di sviluppo e testing di Rocky Linux, lavorando a stretto contatto con loro per testare, validare e supportare ARM ora e a lungo in futuro."
+    },
+    "equinix": {
+      "name": "Equinix",
+      "tier": "Partner Principale",
+      "blurb": "Equinix è la compagnia di infrastruttura digitale del mondo. I leader digitali sfruttano la nostra piattaforma fidata per raccogliere assieme e interconnettere l'infrastruttura fondamentale che è alla base del loro successo."
+    },
+    "fastly": {
+      "name": "Fastly",
+      "tier": "Partner Principale",
+      "blurb": "La piattaforma di edge cloud di Fastly permette ai clienti di creare esperienze digitali grandiose velocemente, in sicurezza, e con affidabilità processando, servendo e mettendo in sicurezza le applicazioni dei nostri clienti il più vicino possibile ai loro utenti finali - ai margini di internet. "
+    },
+    "fosshost": {
+      "name": "Fosshost",
+      "tier": "Partner Principale",
+      "blurb": "Fosshost (UK CIC #13356530) offre internet hosting gratuito di livello enterprise e ha gestito servizi esclusivamente per la comunità FOSS. La nostra missione è di sostenere e supportare ogni progetto software libero e open source. Andare oltre, assieme. Il nostro lavoro non si ferma mai. Applica oggi!"
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "tier": "Partner Principale",
+      "blurb": "Mattermost è una soluzione di messaggistica open source realizzata per organizzazioni con i più alti requisiti di sicurezza. Da fervidi credenti nel potere dell'open source, Mattermost è entusiasta di essere partner di RESF per aiutare a portare una distribuzione Linux di livello enterprise alla comunità tech. "
+    },
+    "naver": {
+      "name": "NAVER Cloud",
+      "tier": "Partner Principale",
+      "blurb": "NAVER Cloud Platform è un servizio cloud Sud Coreano che iniziò nel 2017 sotto il nome di NAVER Cloud, una sussidiaria di NAVER. Fornisce oltre 170 servizi individuali nel 2021 e detiene varie certificazioni di sicurezza incluse CSA STAR GOLD, GDPR, e altre. Inoltre fornisce al momento servizi cloud in 10 località nel mondo."
+    },
+    "osl": {
+      "name": "OSU Open Source Labs",
+      "tier": "Partner Principale",
+      "blurb": "L'Oregon State University Open Source Lab è un'organizzazione nonprofit che lavora per l'avanzamento delle tecnologie open source. L'OSL offre servizi hosting di livello mondiale, sviluppo software professionale e addestramento sul campo per studenti promettenti interessati nella gestione e nella programmazione open source."
+    },
+    "supermicro": {
+      "name": "Supermicro",
+      "tier": "Partner Principale",
+      "blurb": "In qualità di leader globali nella tecnologia server ad alte performance, ad alta efficienza e nell'innovazione, Supermicro è entusiasta di lavorare con RESF e di fornire server per data center e sistemi di archiviazione dati ottimizzati per Rocky Linux."
+    },
+    "crowdin": {
+      "name": "Crowdin",
+      "tier": "Tier 4 Partner"
+    },
+    "dsstudio": {
+      "name": "DotSlash Studio",
+      "tier": "Tier 4 Partner"
+    },
+    "fathom": {
+      "name": "Fathom",
+      "tier": "Tier 4 Partner"
+    }
+  }
+}
