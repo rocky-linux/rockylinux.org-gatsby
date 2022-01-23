@@ -1,0 +1,52 @@
+{
+  "language": "it",
+  "js-warning": "Sembra che JavaScript sia disabilitato nel tuo browser. Mentre la maggior parte delle aree di questo sito web funziona senza l'uso di JavaScript, potresti avere effetti indesiderati durante la navigazione del nostro sito. Considera di creare un'eccezione alla regola per il nostro sito, nelle impostazioni del browser.",
+  "categories": {
+    "news": "Notizie",
+    "about": "Informazioni",
+    "community": "Comunità",
+    "documentation": "Documentazione",
+    "get-involved": "Partecipa",
+    "legal": "Informazioni legali",
+    "language": "Lingua"
+  },
+  "about": {
+    "about": "Informazioni Su Rocky Linux",
+    "faq": "Domande Frequenti",
+    "charter": "Carta della Comunità",
+    "org-structure": "Struttura organizzativa",
+    "status": "Stato dei Servizi",
+    "sponsors": "Sponsor",
+    "partners": "Partner",
+    "support": "Partner Sostenitori"
+  },
+  "community": {
+    "contribute": "Contribuisci",
+    "forums": "Forum",
+    "mailing": "Mailing Lists",
+    "mattermost": "Mattermost",
+    "irc": "IRC",
+    "calendar": "Calendario",
+    "bug": "Inviaci un Bug",
+    "donate": "Dona",
+    "store": "Negozio"
+  },
+  "documentation": {
+    "wiki": "Wiki",
+    "guides": "Guide e Manuali",
+    "keys": "Informazioni Chiave GPG"
+  },
+  "legal": {
+    "licensing": "Licenza",
+    "privacy": "Informativa sulla Privacy"
+  },
+  "lang": {
+    "choose": "Scegli la Lingua",
+    "translate": "Traduci questo sito"
+  },
+  "download": "Scarica",
+  "copyright": {
+    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. Tutti i diritti riservati.",
+    "line2": "Red Hat Enterprise Linux, RHEL e CentOS sono marchi o marchi registrati di Red Hat, Inc. o le sue sussidiarie negli Stati Uniti e in altri paesi. Non siamo affiliati, avallati o sponsorizzati da Red Hat, Inc."
+  }
+}
