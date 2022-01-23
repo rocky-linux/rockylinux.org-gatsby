@@ -1,0 +1,30 @@
+{
+  "title": "Usein kysytyt kysymykset",
+  "description": "Alla luettelo useimmin kysytyistä kysymyksistä.",
+  "faq": {
+    "1": {
+      "question": "Kuinka voin auttaa nykyisten ja tulevien Rocky Linux -julkaisujen jakelussa?",
+      "answer": "Ilmoita kiinnostuksestasi sähköpostitse <0>mirrors@rockylinux.org</0>."
+    },
+    "2": {
+      "question": "Törmäsin virheeseen Rocky Linuxia testatessa, mitä voin tehdä?",
+      "answer": "Luo ensin tili käyttämällä <0>Rocky Linux Account Services</0>-palvelua ja siirry sitten <1>Bugzilla-palveluun</1> raportoimaan virheestä."
+    },
+    "3": {
+      "question": "Kuinka voin osallistua Testing-tiimiin?",
+      "answer": "Liity <0>~Testing</0>-kanavalle Mattermost-palvelussamme aloittaaksesi. Foorumilla on myös Testing-aihe pitkäkestoisempaan keskusteluun."
+    },
+    "4": {
+      "question": "Mistä löydän viimeisimmät uutiset Rocky Linuxista?",
+      "answer": "Pysy kuulolla verkkosivuillamme, foorumillamme, Twitterissä, LinkedInissä ja muilla linkkihakemistossamme luetelluilla alustoilla saadaksesi viimeisimmät uutiset ja tiedotteet."
+    },
+    "5": {
+      "question": "Kuinka aiotte varmistaa, että Rocky Linux pysyy yhteisön käyttöjärjestelmänä?",
+      "answer": "Ensinnäkin olemme ryhtyneet toimiin suojellaksemme Rocky Linux nimeä laillisesti. Tämä tarkoittaa sen tavaramerkkien ja erilaisten niihin liittyvien tarpeistojen rekisteröintiä suojataksemme niitä toisen tahon hallinnalta. Olemme saavuttaneet tämän sijoittamalla niiden oikeudet Rocky Enterprise Software Foundationille(RESF). Seuraavaksi laadimme yhteisön peruskirjan, jossa määritellään organisaatiorakenne, tavoitteet, arvot ja tehtävä Rocky Linuxia edustavan oikeushenkilön takana. Kriittinen tässä peruskirjassa on sellaisten periaatteiden vahvistaminen, jotka mahdollistavat ja suojelevat yhteisöä: läpinäkyvyys, yhteisön osallistuminen, avoin kehitys ja riippumattomuus. <0> Rocky Linuxia ei koskaan hallita, osteta tai muutoin vaikuteta yhden tahon tai organisaation toimesta. </0> Lopuksi suunnittelemme ja otamme käyttöön tarvittavan infrastruktuurin mahdollistaaksemme yhteisön osallistua Rocky Linuxiin."
+    },
+    "6": {
+      "question": "Entä jos haluan antaa palautetta tai kysymykseeni ei vastattu tässä?",
+      "answer": "Lähetä meille sähköpostia osoitteeseen: <0>hello@rockylinux.org</0>, niin otamme sinuun yhteyttä mahdollisimman pian."
+    }
+  }
+}
