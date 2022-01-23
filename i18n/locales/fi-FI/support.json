@@ -1,0 +1,12 @@
+{
+  "title": "Tuen tarjoajat",
+  "description": "Rocky Linuxille kaupallista tukea antavat CIQ, taloudellinen kumppanimme ja sponsorimme, sekä muut ulkopuoliset yritykset.",
+  "support": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Rahoittava kumppani/sponsori",
+      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+    }
+  },
+  "get": "Hanki tukea"
+}
