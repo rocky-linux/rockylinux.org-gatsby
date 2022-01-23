@@ -1,0 +1,17 @@
+{
+  "title": "すべてはブログのコメントから始まりました。",
+  "subtitle": "沿革",
+  "content": {
+    "highlight": "2020年12月8日、レッドハットは、Red Hat Enterprise Linuxのダウンストリーム版として製品化されてきたCentOSの開発を中止し、そのOSのアップストリーム版である「CentOS Stream」と呼ばれる新型の開発に移行すると発表しました。これを受けて、CentOSの初代創設者であるGregory Kurtzer氏は、CentOSのウェブサイト</0>のコメントを通じて、CentOSの本来の目的を達成するためのプロジェクトを再び立ち上げると発表しました。このプロジェクト名は、初期のCentOSの共同創設者であるRocky McGaugh氏へのオマージュとして選ばれました。12月12日までに、Rocky Linuxのコードリポジトリは、GitHubのトップトレンドリポジトリとなりました。\n",
+    "paragraph": "2020年12月22日、Rocky Linuxは、初期リリースの目標が2021年の3月から5月の間であることを発表しました。2021年1月20日には、2月末までにテストリポジトリを公開し、2021年3月末のリリース候補を目指すと発表されました。しかし、その時期は若干延期され、2021年4月30日に最初のリリース候補が正式にリリースされました。安定版リリース前の最後となるバージョン8.4の第2リリース候補は、2021年6月4日にリリースされました。2021年6月21日には、Rocky Linux 8.4の安定版リリースが、コードネーム「Green Obsidian」としてリリースされました。"
+  },
+  "organization": {
+    "heading": "組織",
+    "paragraph": "Rocky Linux プロジェクトは、RESF (Rocky Enterprise Software Foundation) が主催しています。組織構成については、<0>ページ</0>をご覧ください。"
+  },
+  "quote": {
+    "content": "CentOSの初期に振り返ると... 私の共同創設者はRocky McGaughでした。彼はもういません。だから、CentOSの成功を見届けることができなかった彼に敬意を表して紹介します... Rocky Linux です。",
+    "gmk": "グレゴリー・クルツァー (Gregory Kurtzer)",
+    "occupation": "共同設立者 @ CentOS / 設立者 @ Rocky Linux"
+  }
+}
