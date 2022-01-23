@@ -1,0 +1,54 @@
+{
+  "title": "Sponsorzy",
+  "description": "Chcielibyśmy podziękować naszym sponsorom za ich dotychczasowe wsparcie przy realizacji projektu.",
+  "sponsors": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Sponsor Założycielski",
+      "blurb": "Wierzymy w to, że pomagamy ludziom robić wspaniałe rzeczy. Właśnie dlatego CIQ jest sponsorem założycielem RESF. Zapewniamy komercyjne wsparcie i usługi dla systemu Rocky Linux klientom z ośrodków badawczych, akademickich, rządowych, przedsiębiorstw, partnerom i wszystkim innym."
+    },
+    "45drives": {
+      "name": "45Drives",
+      "tier": "Sponsor Główny",
+      "blurb": "45Drives oferuje rozwiązania pamięci masowej dla przedsiębiorstw oparte na wydajnym i solidnym oprogramowaniu open-source, które pozwala klientom korzystać z oszczędności kosztów i elastyczności sprzętu dostępnego od ręki. Sprawdź je, aby uzyskać w pełni obsługiwane rozwiązanie do przechowywania danych w najlepszej cenie za terabajt!"
+    },
+    "aws": {
+      "name": "Amazon Web Services",
+      "tier": "Sponsor Główny",
+      "blurb": "RESF korzysta z AWS, aby uruchomić większość podstawowej infrastruktury krytycznej dla rozwoju i wdrażania usług wspierających Rocky Linux. Od programów budujących Koji dla x86_64 i aarch64 działających w EC2 do magazynu SRPM w S3, AWS jest podstawą wielu naszych działań."
+    },
+    "gcp": {
+      "name": "Google Cloud",
+      "tier": "Sponsor Główny",
+      "blurb": "Jako główny sponsor RESF, Google rozumie znaczenie Rocky Linux jako wolnego, otwartego, społecznościowego systemu operacyjnego dla przedsiębiorstw. Zapewniając zasoby do testowania i walidacji, współpracujemy z RESF, aby zapewnić Rocky status pierwszorzędnego obywatela platformy Google Cloud od pierwszego dnia."
+    },
+    "azure": {
+      "name": "Microsoft Azure",
+      "tier": "Sponsor Główny",
+      "blurb": "Linux jest najszybciej rozwijającą się platformą na platformie Azure, działającą w ponad połowie rdzeni maszyn wirtualnych. Od ponad dekady Microsoft inwestuje w system Linux, a dzięki partnerstwu, które jest głównym filarem strategii Microsoftu w zakresie otwartego oprogramowania, współpracujemy z RESF i szerszym ekosystemem Rocky Linux, aby zapewnić klientom rosnący zestaw opcji wdrażania obciążeń linuksowych na platformie Azure w sposób obsługiwany, zarządzany i bezpieczny."
+    },
+    "montavista": {
+      "name": "MontaVista",
+      "tier": "Sponsor Główny",
+      "blurb": "MontaVista Software jest liderem w dziedzinie wbudowanego komercyjnego systemu Linux, wspierając MontaVista CGX, Yocto Project®, CentOS i Rocky Linux. MontaVista oferuje wiedzę z zakresu oprogramowania Open Source, komercyjne dystrybucje Linuksa, efektywne kosztowo utrzymanie i wsparcie techniczne dla ponad 10-letnich cykli życia."
+    },
+    "opendrives": {
+      "name": "OpenDrives",
+      "tier": "Sponsor Główny",
+      "blurb": "OpenDrives jest globalnym dostawcą hiperskalowalnych rozwiązań NAS (Network Attached Storage) klasy korporacyjnej. Dostarczamy naszym klientom rozwiązania o najwyższej wydajności - dopasowane do indywidualnych potrzeb w zakresie wydajności - dla najbardziej solidnych, złożonych i krytycznych dla misji firmy projektów i przepływów pracy, zarówno w siedzibie firmy, jak i w chmurze."
+    },
+    "vmware": {
+      "name": "VMware",
+      "tier": "Sponsor Główny",
+      "blurb": "Firma VMware jest wiodącym dostawcą usług chmury obliczeniowej dla wszystkich aplikacji, umożliwiając innowacje cyfrowe przy zachowaniu kontroli nad przedsiębiorstwem."
+    },
+    "procomputers": {
+      "name": "ProComputers.com",
+      "tier": "Sponsor 4 Poziomu"
+    },
+    "seagate": {
+      "name": "Seagate Federal",
+      "tier": "Sponsor 4 Poziomu"
+    }
+  }
+}
