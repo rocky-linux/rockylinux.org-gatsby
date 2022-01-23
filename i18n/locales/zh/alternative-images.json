@@ -1,50 +1,50 @@
 {
-  "title": "备选镜像",
-  "description": "本页面提供的镜像可从我们信任的镜像网站中获得，但并不被官方支持。",
-  "rl8": "Rocky Linux 8(当前的)",
-  "rl8-eol": "<0>计划的EOL(end of life，生命周期结束):</0> 2029 12 31",
-  "desktop": "桌面 (SIG)",
-  "alt-arch": "替代架构(SIG)",
+  "title": "其他映像檔",
+  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
+  "rl8": "Rocky Linux 8 (目前版本)",
+  "rl8-eol": "<0>停止維護期限:</0> 2029年5月31日",
+  "desktop": "Desktop (SIG)",
+  "alt-arch": "Alternative Architectures (SIG)",
   "headings": {
-    "de": "桌面环境",
-    "checksum": "校验",
-    "arch": "架构",
-    "download": "下载",
-    "readme": "自述文件"
+    "de": "桌面環境",
+    "checksum": "校驗碼",
+    "arch": "Architecture",
+    "download": "下載",
+    "readme": "說明檔"
   },
   "body": {
-    "gnome": "GNOME (工作站)",
+    "gnome": "GNOME (Workstation)",
     "xfce": "XFCE",
-    "rpi": "树莓派(aarch64)",
+    "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
-    "checksum": "校验",
-    "download": "下载",
-    "readme": "自述文件"
+    "checksum": "校驗碼",
+    "download": "下載",
+    "readme": "說明檔"
   },
   "links": {
-    "cloud": "云镜像",
-    "docs": "文档",
-    "bug": "报告 Bug"
+    "cloud": "Cloud Images",
+    "docs": "文件 ",
+    "bug": "回報程式錯誤"
   },
   "get-involved": {
-    "heading": "参与进来",
-    "body": "当您下载和使用 Rocky Linux时，RESF(Rocky Enterprise Software Foundation，Rocky 企业软件基金会)邀请您<0>成为社区的一名贡献者</0>。有许多形式可以为项目做出贡献，从文档、QA、测试SIG(Special interest group，特别兴趣小组)做的代码更改、提供镜像或托管以及帮助其他用户。"
+    "heading": "參與貢獻",
+    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
-    "heading": "ISO镜像文件之间有什么区别？",
-    "body": "可以使用各种各样的安装镜像来安装Rocky Linux，您需要下载哪个镜像文件，取决于您的安装环境和使用场景需求(use-case，用例)。",
+    "heading": "What's the difference between the ISOs?",
+    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
     "boot": {
-      "heading": "引导",
-      "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
+      "heading": "Boot",
+      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
     },
     "minimal": {
-      "heading": "最小化",
-      "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
+      "heading": "Minimal",
+      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "含有 BaseOS 和 AppStream 存储库的完整安装，可允许您在没有额外存储库的情况下完成安装。从 DVD 镜像文件中安装 Rocky Linux 是执行标准 Rocky Linux 8 安装的最简单与最常见的方法。"
+      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
     }
   }
 }
