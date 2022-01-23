@@ -1,0 +1,63 @@
+{
+  "title": "Partner",
+  "description": "Partner des RESF stellen laufende Beziehungen von strategischer Bedeutung für das Rocky Linux Projekt dar. Durch Einsatz von Engineering-Expertise, Infrastrukturressourcen oder anderen Mitteln ist deren Unterstützung entscheidend für unseren anhaltenden Erfolg und unsere langfristige Stabilität.",
+  "partners": {
+    "ciq": {
+      "name": "CIQ",
+      "tier": "Gründungspartner",
+      "blurb": "CIQ ist Gründungssponsor des RESF. Rocky Linux bietet kommerzielle Unterstützung und Dienstleistungen für Kunden in Forschung, Wissenschaft, Regierung, Unternehmen, Partner und allen dazwischen."
+    },
+    "arm": {
+      "name": "Arm",
+      "tier": "Hauptpartner",
+      "blurb": "Arm setzt sich dafür ein, dass seine Architektur ab dem ersten Tag mit Rocky Linux ein erstklassiger Bürger ist. Wir haben eine Partnerschaft mit dem RESF aufgebaut und bieten dedizierte Engineering-Bemühungen an, die Rocky Linux Entwicklungsteams und Testteams ergänzen, Wir arbeiten eng zusammen, um ARM jetzt und bis in die Zukunft zu testen, zu validieren und zu unterstützen."
+    },
+    "equinix": {
+      "name": "Equinix",
+      "tier": "Hauptpartner",
+      "blurb": "Equinix ist das weltweit führende Unternehmen für digitale Infrastruktur."
+    },
+    "fastly": {
+      "name": "Fastly",
+      "tier": "Hauptpartner",
+      "blurb": "Schnelle Cloud-Plattform ermöglicht Kunden die schnelle, sichere und zuverlässige Erstellung großer digitaler Erfahrungen durch Verarbeitung Bedienung und Sicherung der Anwendungen unserer Kunden so nah wie möglich an den Endkunden — am Rande des Internets."
+    },
+    "fosshost": {
+      "name": "Fosshost",
+      "tier": "Hauptpartner",
+      "blurb": "Fosshost (UK CIC #13356530) bietet kostenlose Enterprise grade Internet Hosting und Managed Services exklusiv für die FOSS Community. Wir sind auf einer Mission, jedes freie und Open-Source-Software-Projekt zu unterstützen und zu unterstützen. Um weiter zu gehen, zusammen zu gehen. Unsere Arbeit hört nie auf. Heute anwenden!"
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "tier": "Hauptpartner",
+      "blurb": "Mattermost ist eine Open-Source-Messaging-Lösung für Organisationen mit höchsten Sicherheitsanforderungen. Als große Anhänger an die Macht von Open Source Mattermost freut sich über einen Partner mit RESF, der dazu beiträgt, eine unternehmensweite Linux-Distribution in die Technologie-Community zu bringen."
+    },
+    "naver": {
+      "name": "NAVER Cloud",
+      "tier": "Hauptpartner",
+      "blurb": "NAVER Cloud Platform ist ein südkoreanischer Cloud-Dienst, der 2017 unter NAVER Cloud, einer Tochtergesellschaft von NAVER, startete. Es bietet mehr als 170 individuelle Dienstleistungen im Jahr 2021 und verfügt über verschiedene Sicherheitszertifikate, darunter CSA STAR GOLD, GDPR und vieles mehr. Es bietet derzeit auch Cloud-Dienste an 10 Orten auf der ganzen Welt."
+    },
+    "osl": {
+      "name": "OSU Open Source Labs",
+      "tier": "Hauptpartner",
+      "blurb": "Das Oregon State University Open Source Lab ist eine gemeinnützige Organisation, die sich für die Weiterentwicklung von Open Source Technologien einsetzt. Das OSL bietet erstklassige Hosting-Services, professionelle Softwareentwicklung und Schulungen vor Ort für vielversprechende Studenten, die sich für Open Source Management und Programmierung interessieren."
+    },
+    "supermicro": {
+      "name": "Supermicro",
+      "tier": "Hauptpartner",
+      "blurb": "Als Weltmarktführer in der Hochleistungs-Server-Technologie mit hoher Effizienz und Innovation Supermicro freut sich darauf, mit dem RESF zu arbeiten und Data Center Server und Speichersysteme für Rocky Linux zu liefern."
+    },
+    "crowdin": {
+      "name": "Crowdin",
+      "tier": "Stufe 4 Partner"
+    },
+    "dsstudio": {
+      "name": "DotSlash Studio",
+      "tier": "Stufe 4 Partner"
+    },
+    "fathom": {
+      "name": "Fathom",
+      "tier": "Stufe 4 Partner"
+    }
+  }
+}
