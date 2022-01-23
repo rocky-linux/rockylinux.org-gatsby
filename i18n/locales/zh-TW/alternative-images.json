@@ -1,0 +1,50 @@
+{
+  "title": "其他映像檔",
+  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
+  "rl8": "Rocky Linux 8 (目前版本)",
+  "rl8-eol": "<0>停止維護期限:</0> 2029年5月31日",
+  "desktop": "Desktop (SIG)",
+  "alt-arch": "Alternative Architectures (SIG)",
+  "headings": {
+    "de": "桌面環境",
+    "checksum": "校驗碼",
+    "arch": "Architecture",
+    "download": "下載",
+    "readme": "說明檔"
+  },
+  "body": {
+    "gnome": "GNOME (Workstation)",
+    "xfce": "XFCE",
+    "rpi": "Raspberry Pi (aarch64)",
+    "x86_64": "x86_64",
+    "arm": "aarch64",
+    "checksum": "校驗碼",
+    "download": "下載",
+    "readme": "說明檔"
+  },
+  "links": {
+    "cloud": "Cloud Images",
+    "docs": "文件 ",
+    "bug": "回報程式錯誤"
+  },
+  "get-involved": {
+    "heading": "參與貢獻",
+    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+  },
+  "isos": {
+    "heading": "What's the difference between the ISOs?",
+    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "boot": {
+      "heading": "Boot",
+      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+    },
+    "minimal": {
+      "heading": "Minimal",
+      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+    },
+    "dvd": {
+      "heading": "DVD",
+      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+    }
+  }
+}
