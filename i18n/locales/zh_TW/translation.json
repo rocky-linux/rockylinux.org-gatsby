@@ -5,14 +5,14 @@
     "news": "消息",
     "about": "关于",
     "community": "社区",
-    "documentation": "文档",
-    "get-involved": "参与进来",
+    "documentation": "檔案",
+    "get-involved": "參與貢獻",
     "legal": "法律声明",
     "language": "语言"
   },
   "about": {
     "about": "关于 Rocky Linux",
-    "faq": "常见问题解答",
+    "faq": "常見問題",
     "charter": "社区宪章",
     "org-structure": "组织架构",
     "status": "服务状态",
@@ -44,7 +44,7 @@
     "choose": "选择语言",
     "translate": "翻译此网站"
   },
-  "download": "下载",
+  "download": "下載",
   "copyright": {
     "line1": "© 2020-2021 Rocky企业软件基金会(RESF)，版权所有。",
     "line2": "Red Hat Enterprise Linux、RHEL和CentOS是红帽公司或其子公司在美国和其他国家/地区的商标或注册商标。我们不隶属于红帽公司，也没有得到红帽公司的认可或赞助。"
