@@ -1,8 +1,8 @@
 {
   "hero": {
     "new": "最新動態",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux是一個和Red Hat Enterprise Linux<0>&#174;</0>錯誤對錯誤相容的開放原始碼企業級作業系統，且正由社群頻繁開發中。",
+    "title": "以社區管道驅動的企業Linux",
+    "description": "Rocky Linux是一個開源的企業級作業系統，旨在與Red Hat Enterprise Linux<0>&amp;#174；</ 0>100% 1:1相容。 它正處於社區的密集開發中。",
     "cta1": "下載",
     "cta2": "遷移"
   },
@@ -16,7 +16,7 @@
     },
     "2": {
       "title": "社區支持",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "description": "社區、贊助商和合作夥伴已做出長期的投入承諾，確保該項目留在社區中。"
     },
     "3": {
       "title": "輕鬆遷移",
@@ -31,6 +31,6 @@
     "backed": "強力後盾",
     "sponsors": "所有贊助商",
     "partners": "所有合作夥伴",
-    "support": "Support Partners"
+    "support": "支持合作夥伴"
   }
 }
