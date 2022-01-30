@@ -1,19 +1,19 @@
 {
   "title": "下载",
-  "description": "从我们信任的镜像中下载Rocky Linux的官方版本。",
+  "description": "从我们信任的镜像服务器中下载Rocky Linux的官方版本。",
   "rl8": "Rocky Linux 8(当前的)",
   "rl8-eol": "<0>计划的EOL(end of life，生命周期结束):</0> 2029 12 31",
   "headings": {
     "arch": "架构",
-    "isos": "镜像",
+    "isos": "ISO",
     "packages": "软件包"
   },
   "body": {
     "x86_64": "x86_64",
     "arm": "ARM64 (aarch64)",
-    "minimal": "最小化",
+    "minimal": "Minimal",
     "dvd": "DVD",
-    "boot": "引导",
+    "boot": "Boot",
     "torrent": "Torrent",
     "checksum": "校验",
     "baseos": "BaseOS"
@@ -30,13 +30,13 @@
   },
   "isos": {
     "heading": "ISO镜像文件之间有什么区别？",
-    "body": "可以使用各种各样的安装镜像来安装Rocky Linux，您需要下载哪个镜像文件，取决于您的安装环境和使用场景需求(use-case，用例)。",
+    "body": "可以使用各种各样的安装镜像来安装Rocky Linux，您需要下载哪个镜像文件，取决于您的安装环境和使用场景需求。",
     "boot": {
-      "heading": "引导",
+      "heading": "Boot",
       "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
     },
     "minimal": {
-      "heading": "最小化",
+      "heading": "Minimal",
       "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
     },
     "dvd": {
