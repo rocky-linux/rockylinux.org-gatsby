@@ -1,7 +1,7 @@
 {
   "title": "下载",
   "description": "从我们信任的镜像中下载Rocky Linux的官方版本。",
-  "rl8": "Rocky Linux 8(当前的)",
+  "rl8": "Rocky Linux 8 (目前版本)",
   "rl8-eol": "<0>计划的EOL(end of life，生命周期结束):</0> 2029 12 31",
   "headings": {
     "arch": "架构",
@@ -19,7 +19,7 @@
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "备选镜像",
+    "alt": "備選鏡像",
     "cloud": "云镜像",
     "docs": "文档",
     "bug": "报告 Bug"
