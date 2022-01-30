@@ -2,7 +2,7 @@
   "title": "备选镜像",
   "description": "本页面提供的镜像可从我们信任的镜像网站中获得，但并不被官方支持。",
   "rl8": "Rocky Linux 8(当前的)",
-  "rl8-eol": "<0>计划的EOL(end of life，生命周期结束):</0> 2029 12 31",
+  "rl8-eol": "<0>计划的停止维护时间:</0> 2029年05月31日",
   "desktop": "桌面 (SIG)",
   "alt-arch": "替代架构(SIG)",
   "headings": {
