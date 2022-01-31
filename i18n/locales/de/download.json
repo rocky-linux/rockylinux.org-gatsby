@@ -20,9 +20,10 @@
   },
   "links": {
     "alt": "Alternative Abbilder",
+    "bug": "Fehler melden",
     "cloud": "Cloudabbilder",
     "docs": "Dokumentation",
-    "bug": "Fehler melden"
+    "vault": "Archived Releases"
   },
   "get-involved": {
     "heading": "Mach mit!",
