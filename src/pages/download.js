@@ -8,6 +8,7 @@ import { Translate, Trans } from '../../i18n/utils/translate';
 import { useGoal } from 'gatsby-plugin-fathom';
 
 import {
+  ArchiveIcon,
   BeakerIcon,
   BookOpenIcon,
   CloudIcon,
@@ -34,6 +35,13 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
       title: `${translate('links.cloud')}`,
       href: '/cloud-images',
       icon: CloudIcon,
+      iconForeground: 'text-white',
+      iconBackground: 'bg-green-500',
+    },
+    {
+      title: `${translate('links.vault')}`,
+      href: 'https://dl.rockylinux.org/vault/rocky',
+      icon: ArchiveIcon,
       iconForeground: 'text-white',
       iconBackground: 'bg-green-500',
     },
@@ -212,12 +220,12 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
           </div>
         </div>
         <div className="relative max-w-max lg:max-w-5xl mx-auto">
-          <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-4 sm:gap-px">
+          <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-5 sm:gap-px">
             {actions.map((action, actionIdx) => (
               <div
                 key={action.title}
                 className={classNames(
-                  'relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
+                  'relative group bg-white p-4 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
                 )}
               >
                 <div>
@@ -228,7 +236,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                       'rounded-lg inline-flex p-3 ring-4 ring-white'
                     )}
                   >
-                    <action.icon className="h-6 w-6" aria-hidden="true" />
+                    <action.icon className="h-4 w-4" aria-hidden="true" />
                   </span>
                 </div>
                 <div className="mt-2">
@@ -245,11 +253,11 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                   </h3>
                 </div>
                 <span
-                  className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400"
+                  className="pointer-events-none absolute top-4 right-4 text-gray-300 group-hover:text-gray-400"
                   aria-hidden="true"
                 >
                   <svg
-                    className="h-6 w-6"
+                    className="h-4 w-4"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
                     viewBox="0 0 24 24"
