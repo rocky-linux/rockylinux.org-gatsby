@@ -20,9 +20,10 @@
   },
   "links": {
     "alt": "Obrazy Alternatywne",
+    "bug": "Zgłoś Błąd",
     "cloud": "Obrazy w Chmurze",
     "docs": "Dokumentacja",
-    "bug": "Zgłoś Błąd"
+    "vault": "Archived Releases"
   },
   "get-involved": {
     "heading": "Zaangażuj Się",
