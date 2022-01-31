@@ -20,10 +20,9 @@
   },
   "links": {
     "alt": "Alternative Images",
-    "bug": "Report Bug",
     "cloud": "Cloud Images",
     "docs": "Documentation",
-    "vault": "Archived Releases"
+    "bug": "Report Bug"
   },
   "get-involved": {
     "heading": "Get Involved",
