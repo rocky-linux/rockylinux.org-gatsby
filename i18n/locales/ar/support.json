@@ -1,12 +1,12 @@
 {
-  "title": "Support Providers",
-  "description": "Rocky Linux is commercially supported by CIQ, our founding partner and sponsor, as well as other non-affiliated companies.",
+  "title": "مزودي خدمات الدعم",
+  "description": "روكي لينكس مدعوم تجارياً من قبل شركة CIQ، الشريك المؤسس والراعي، فضلاً عن شركات أخرى غير تابعة.",
   "support": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner/Sponsor",
+      "tier": "شريك مؤسس/راعي",
       "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
     }
   },
-  "get": "Get Support"
+  "get": "الحصول على الدعم"
 }
