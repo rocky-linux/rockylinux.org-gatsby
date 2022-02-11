@@ -1,21 +1,21 @@
 {
-  "title": "Frequently Asked Questions",
-  "description": "Below is a list of our most frequently asked questions.",
+  "title": "الأسئلة الشائعة",
+  "description": "فيما يلي قائمة بالأسئلة الأكثر شيوعاً.",
   "faq": {
     "1": {
-      "question": "How can I help mirror current and future Rocky Linux releases?",
-      "answer": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
+      "question": "كيف يمكنني المساعدة في نشر نسخ للتحميل من إصدارات Rocky Linux الحالية والمستقبلية؟",
+      "answer": "الرجاء أرسل بريد إلكتروني إلى العنوان <0>mirrors@rockylinux.org</0> لإبلاغنا برغبتك في المشاركة."
     },
     "2": {
-      "question": "I encountered a bug while testing Rocky Linux, what can I do?",
+      "question": "واجهت خطأ أثناء اختبار Rocky Linux، ماذا يمكنني أن أفعل؟",
       "answer": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
     },
     "3": {
-      "question": "How can I get involved with the Testing Team?",
-      "answer": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There's also a testing topic on the forums for more durable conversation."
+      "question": "كيف يمكنني المشاركة مع فريق الاختبار؟",
+      "answer": "يرجى الانضمام إلى قناة <0>~Testing</0> على خادم Mattermost للبدء. هناك أيضًا موضوع تجريبي في المنتديات من أجل نقاش أكثر استمرارية."
     },
     "4": {
-      "question": "Where can I find the latest news about Rocky Linux?",
+      "question": "أين يمكنني العثور على آخر الأخبار عن روكي لينوكس؟",
       "answer": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
     },
     "5": {
