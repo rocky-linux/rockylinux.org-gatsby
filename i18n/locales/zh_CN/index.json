@@ -11,7 +11,7 @@
     "subtitle": "稳定的、可用于生产环境的Linux",
     "description": "Rocky Linux直接从 RHEL <0>&#174;</0>重新构建源代码，因此不管是什么用途，您都可以拥有超级稳定的体验。",
     "1": {
-      "title": "用于生产环境",
+      "title": "可用于生产环境",
       "description": "Rocky Linux是企业级的，通过定期更新和长达10年的生命周期支持提供稳定的稳定性，所有的这些都是免费的。"
     },
     "2": {
@@ -28,7 +28,7 @@
     "description": "我们定期与社区分享最新动态，这是最新动态。"
   },
   "sponsors-partners": {
-    "backed": "受支持于",
+    "backed": "强力后盾",
     "sponsors": "所有赞助商",
     "partners": "所有合作伙伴",
     "support": "支持合作伙伴"
