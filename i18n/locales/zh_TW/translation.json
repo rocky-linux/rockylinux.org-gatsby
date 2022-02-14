@@ -4,7 +4,7 @@
   "categories": {
     "news": "消息",
     "about": "關於",
-    "community": "社區",
+    "community": "社群",
     "documentation": "檔案",
     "get-involved": "參與貢獻",
     "legal": "法律聲明",
@@ -13,7 +13,7 @@
   "about": {
     "about": "關於 Rocky Linux",
     "faq": "常見問題",
-    "charter": "社區憲章",
+    "charter": "社群憲章",
     "org-structure": "組織架構",
     "status": "服務狀態",
     "sponsors": "贊助商",
