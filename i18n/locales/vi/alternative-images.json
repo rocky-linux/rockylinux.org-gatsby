@@ -29,7 +29,7 @@
   },
   "get-involved": {
     "heading": "Tham gia",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "body": "Khi bạn tải và sử dụng Rocky Linux, Rocky Enterprise Software Foundaction mong muốn bạn <0>gia nhập là với tư cánh là một thành viên đóng góp cho cộng đồng</0>. Có nhiều cách để đóng góp, từ việc viết lài liệu, trả lời Q/A, hoặc là tham gia thử nghiệm/xây dựng/cải tiến, cung cấp hosting/mirror, giúp đỡ các người dùng khác."
   },
   "isos": {
     "heading": "Có gì khác giữa các bản ISO?",
@@ -44,7 +44,7 @@
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "Bản cài đặt đầy đủ bao gồm cả BaseOS và AppStream Repository cho phép bạn thực hiện cài đặt mà không cần sử dụng các repository mở rộng nào khác. Cài đặt Rocky Linux từ DVD ISO là cách dễ nhất và phổ biến nhất được sử dụng."
     }
   }
 }
