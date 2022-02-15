@@ -45,7 +45,7 @@
     "supermicro": {
       "name": "Supermicro",
       "tier": "Nhà tài trợ chính",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "blurb": "Doanh nghiệp dẫn đầu thế giới về công nghệ máy chú tốc độ nhanh, hiệu năng cao Supermicro rất vui khi được hợp tác cùng RESF để mang lại các dịch vụ máy chủ và hệ thống lưu trữ dữ liệu được tối ưu dành cho Rocky Linux"
     },
     "crowdin": {
       "name": "Crowdin",
