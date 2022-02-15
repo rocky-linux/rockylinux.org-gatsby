@@ -1,6 +1,6 @@
 {
   "title": "Đối tác",
-  "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+  "description": "Các đối tác của RESF mô tả các sự liên kết của các tổ chức có đóng góp quan trọng vào sự phát triển của dự án Rocky Linux. Tất cả các sự hỗ trợ nguồn lực về con người, công nghệ, kiến trúc, tài nguyên,... sự đóng góp của họ là vô cùng quan trọng đối với chúng tôi để đảm bảo sự thành công và ổn định của dự án trong dài hạn.",
   "partners": {
     "ciq": {
       "name": "CIQ",
