@@ -15,22 +15,22 @@
     "equinix": {
       "name": "Equinix",
       "tier": "Nhà tài trợ chính",
-      "blurb": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+      "blurb": "Equinix là một công ty cung cấp hạ tầng dịch vụ số hàng đầu thế giới. Các tập đoàn công nghệ hàng đàu đã sử dụng dịch vụ đáng tin cậy của chúng tôi để tập hợp và kết nối các nền tảng cơ sở hạ tầng của họ và đã tạo nên thành công."
     },
     "fastly": {
       "name": "Fastly",
       "tier": "Nhà tài trợ chính",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "blurb": "Dịch vụ đám mây của Fastly cho phép khách hàng của chúng tôi tạo ra các trải nghiệm số nhanh tróng, an toàn, thuận tiện bằng cách xử lý, cung cấp và đảm bảo an toàn cho các ứng dụng của khách hàng chúng tôi đến với người dùng cuối một cách nhanh nhất và gần gũi nhất"
     },
     "fosshost": {
       "name": "Fosshost",
       "tier": "Nhà tài trợ chính",
-      "blurb": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+      "blurb": "Fosshost (UK CIC #13356530) cung cấp dịch vụ hosting đạt chuẩn doanh nghiệp và các dịch vụ quản trị dành riên cho cộng đồng mã nguồn mở (FOSS). Chúng tôi có một sứ mệnh là vun đắp và giúp đỡ cho tất cả các dự án mã nguồn mở để cùng nhau tiến xa hơn. Và công việc đó không bao giờ dùng lại. Hãy tham gia ngay hôm nay!"
     },
     "mattermost": {
       "name": "Mattermost",
       "tier": "Nhà tài trợ chính",
-      "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      "blurb": "Mattermost là một giải pháp liên lạc bằng tin nhắn (Messaging) mã nguồn mở được tạo ra dành cho những tổ chức yêu cầu về độ bảo mật  rất cao. Với niềm tin mãnh liệt vào mã nguồn mở, Mattermost rất vui khi được cộng tác với RESF để giúp đưa những bản phân phối Linux đạt chuẩn doanh nghiệp đến với cộng đồng công nghệ."
     },
     "naver": {
       "name": "NAVER Cloud",
@@ -40,7 +40,7 @@
     "osl": {
       "name": "OSU Open Source Labs",
       "tier": "Nhà tài trợ chính",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "blurb": "Viện nghiên cứu mã nguồn mở của Đại học Oregon State (Oregon State University Open Source Lab - OSL) là một tổ chức phi lợi nhuận nghiên cứu chuyên sâu về các công nghệ mã nguồn mở. OSL cung cấp dịch vụ hosting tuyệt vời,  dịch vụ phát triển phần mềm chuyên nghiệp, và đào tạo các sinh viên tài năng có hứng thú nghiên cứu về lĩnh vục lập trình và quản lý phần mềm mã nguồn mở."
     },
     "supermicro": {
       "name": "Supermicro",
