@@ -1,15 +1,15 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
-  "rl8": "Rocky Linux 8 (Current)",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
+  "title": "Các bản thay thế",
+  "description": "Các bản cài đặt ở trang này được lấy từ các nguồn tin cậy của chúng tôi, tuy nhiên chúng không được hỗ trợ chính thức",
+  "rl8": "Rocky Linux 8 (Phiên bản hiện tại)",
+  "rl8-eol": "<0>Hạn cuối hỗ trợ (EOL):</0> 31 tháng 5 năm 2029",
   "desktop": "Desktop (SIG)",
-  "alt-arch": "Alternative Architectures (SIG)",
+  "alt-arch": "Các kiến trúc khác (SIG)",
   "headings": {
-    "de": "Desktop Environment",
-    "checksum": "Checksum",
-    "arch": "Architecture",
-    "download": "Download",
+    "de": "Giao diện đồ hoạ (Desktop Environment)",
+    "checksum": "Giá trị checksum",
+    "arch": "Kiến trúc",
+    "download": "Tải về",
     "readme": "Readme"
   },
   "body": {
@@ -18,29 +18,29 @@
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
-    "checksum": "Checksum",
-    "download": "Download",
+    "checksum": "Giá trị checksum",
+    "download": "Tải về",
     "readme": "Readme"
   },
   "links": {
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "cloud": "Bản dành cho Cloud",
+    "docs": "Tài liệu",
+    "bug": "Báo lỗi"
   },
   "get-involved": {
-    "heading": "Get Involved",
+    "heading": "Tham gia",
     "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Có gì khác giữa các bản ISO?",
+    "body": "Rất nhiều các bản cài đặt được cung cấp để bản có thể sử dụng Rocky Linux. Việc lựa chọn phiên bản phụ thuộc vào môi trường cài đặt và mục đích sử dụng của bạn",
     "boot": {
-      "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Khởi động",
+      "body": "Được sử dụng để cài đặt hệ điều hành từ một nguồn khác (Như một HTTP Repository hoặc một file cài đặt). Cũng có thể được sử dụng để truy cập vào Rescue Mode."
     },
     "minimal": {
-      "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Tối Giản",
+      "body": "Được sử dụng để cài đặt hệ điều hành từ một nguồn khác (Như một HTTP Repository hoặc một file cài đặt). Cũng có thể được sử dụng để truy cập vào Rescue Mode."
     },
     "dvd": {
       "heading": "DVD",
