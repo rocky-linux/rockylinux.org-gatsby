@@ -1,6 +1,6 @@
 {
-  "title": "Frequently Asked Questions",
-  "description": "Below is a list of our most frequently asked questions.",
+  "title": "Các câu hỏi thường gặp",
+  "description": "Dưới đây là danh sách các câu hỏi thường gặp",
   "faq": {
     "1": {
       "question": "How can I help mirror current and future Rocky Linux releases?",
