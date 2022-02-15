@@ -1,10 +1,10 @@
 {
-  "title": "Partners",
+  "title": "Đối tác",
   "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner",
+      "tier": "Đối tác đồng sáng lập",
       "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
     },
     "arm": {
