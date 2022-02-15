@@ -1,52 +1,52 @@
 {
-  "language": "en",
-  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
+  "language": "vi",
+  "js-warning": "Có vẻ như Javascript đã bị tắt trên trình duyệt của bạn. Tuy rằng phần lớn nội dung website này không sử dụng Javascript, nhưng bạn vẫn có thể gặp một số lỗi nhỏ khi truy cập website của chúng tôi. Vì vậy hãy thiết lập trình duyệt của bạn cho phép sử dụng Javascript khi truy cập website của chúng tôi.",
   "categories": {
-    "news": "News",
-    "about": "About",
-    "community": "Community",
-    "documentation": "Documentation",
-    "get-involved": "Get Involved",
-    "legal": "Legal",
-    "language": "Language"
+    "news": "Tin tức",
+    "about": "Về chúng tôi",
+    "community": "Cộng đồng",
+    "documentation": "Tài liệu",
+    "get-involved": "Tham gia",
+    "legal": "Mô tả pháp lý",
+    "language": "Ngôn ngữ"
   },
   "about": {
-    "about": "About Rocky Linux",
-    "faq": "Frequently Asked Questions",
-    "charter": "Community Charter",
-    "org-structure": "Organizational Structure",
-    "status": "Service Status",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "support": "Support Providers"
+    "about": "Về Rocky Linux",
+    "faq": "Các câu hỏi thường gặp",
+    "charter": "Về cộng đồng",
+    "org-structure": "Cơ cấu tổ chức",
+    "status": "Tình trạng Dịch vụ",
+    "sponsors": "Các nhà tài trợ",
+    "partners": "Đối tác",
+    "support": "Nhà cung cấp dịch vụ hỗ trợ"
   },
   "community": {
-    "contribute": "Contribute",
-    "forums": "Forums",
-    "mailing": "Mailing Lists",
+    "contribute": "Đóng góp",
+    "forums": "Diễn đàn",
+    "mailing": "Mailling Lists",
     "mattermost": "Mattermost",
-    "irc": "IRC",
-    "calendar": "Calendar",
-    "bug": "Submit Bug",
-    "donate": "Donate",
-    "store": "Store"
+    "irc": "IRC (chat)",
+    "calendar": "Lịch",
+    "bug": "Báo lỗi",
+    "donate": "Ủng hộ",
+    "store": "Gian hàng"
   },
   "documentation": {
     "wiki": "Wiki",
-    "guides": "Guides and Manuals",
-    "keys": "GPG Key Info"
+    "guides": "Hướng dẫn",
+    "keys": "Thông tin khoá GPG"
   },
   "legal": {
-    "licensing": "Licensing",
-    "privacy": "Privacy Policy"
+    "licensing": "Bản quyền",
+    "privacy": "Chính Sách Quyền Riêng Tư"
   },
   "lang": {
-    "choose": "Choose Language",
-    "translate": "Translate this site"
+    "choose": "Chọn ngôn ngữ",
+    "translate": "Dịch trang này "
   },
-  "download": "Download",
+  "download": "Tải về",
   "copyright": {
-    "line1": "© 2020-2021 Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+    "line1": "© 2020-2021 Bản quyền thuộc về Rocky Enterprise Software Foundation.",
+    "line2": "Red Hat Enterprise Linux, RHEL và CentOS là các thương hiệu được đăng ký sở hữu bởi Red Hat, Inc. hoặc các chủ thể hợp pháp thuộc sở hữu của Red Hat ở Mỹ hoặc các quốc gia khác. Chúng tôi không có mối liên kết, không thuộc sở hữu cũng không được tài trợ bởi Red Hat, Inc. "
   }
 }
