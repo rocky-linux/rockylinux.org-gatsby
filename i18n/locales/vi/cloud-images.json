@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
-  "description": "Find our official images from your favorite cloud provider.",
+  "title": "Bản dành cho Cloud",
+  "description": "Tìm bản Image chính thức của chúng tôi từ các nhà cung cấp dịch vụ cloud yêu thích của bạn",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
-    "arch": "Architecture",
+    "version": "Phiên bản hệ điều hành",
+    "provider": "Nhà cung cấp",
+    "region": "Khu vực",
+    "arch": "Kiến trúc",
     "id": "Image ID",
-    "deploy": "Deploy Link"
+    "deploy": "Liên kết triển khai"
   },
-  "deploy": "Deploy"
+  "deploy": "Triển khai"
 }

@@ -44,7 +44,7 @@
     },
     "dvd": {
       "heading": "DVD",
-      "body": "BaseOSとAppStreamリポジトリを含まれており、追加リポジトリなしでインストールを完了することができるフルインストールです。 DVD ISOからRockyLinuxをインストールすることは、標準のRocky Linux8インストールを実行する最も簡単で一般的な方法です。 "
+      "body": "BaseOSとAppStreamリポジトリを含んでおり、追加リポジトリなしでインストールを完了することができるフルインストールです。 DVD ISOからRockyLinuxをインストールすることは、標準のRocky Linux8インストールを実行する最も簡単で一般的な方法です。 "
     }
   }
 }

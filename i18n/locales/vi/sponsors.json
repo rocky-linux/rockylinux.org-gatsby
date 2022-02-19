@@ -1,54 +1,54 @@
 {
-  "title": "Sponsors",
-  "description": "We would like to thank our sponsors for their support thus far on the project.",
+  "title": "Các nhà tài trợ",
+  "description": "Chugns tôi muốn cảm ơn các nhà tài trợ đã giúp đỡ cho sự phát triển của dự án",
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Sponsor",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "tier": "Đối tác đồng sáng lập",
+      "blurb": "Chúng tôi tin rằng việc giúp đỡ lẫn nhau sẽ luôn mang lại kết quả tuyệt vời. Đó là lý do tại sao CIQ là nhà tài trợ kiêm đồng sáng lập của RESF. Chúng tôi cung cấp các dịch vụ hỗ trợ và các dịch vụ liên quan đến Rocky Linux cho các khách hàng thuộc các lĩnh vực nghiên cứu, hàn lâm, chính phủ, doanh nghiệp, các đối tác, và các đối tượng khách hàng khác có nhu cầu."
     },
     "45drives": {
       "name": "45Drives",
-      "tier": "Principal Sponsor",
-      "blurb": "45Drives offers enterprise storage solutions built on powerful and robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!"
+      "tier": "Nhà tài trợ chính",
+      "blurb": "45Drives cung cấp giải pháp lưu trữ doanh nghiệp được xây dựng trên một nền tảng mã nguồn mở mạnh mẽ và đầy đủ nhằm cung cấp cho khách hàng những lợi ích về tiết kiệm chi phí & sự linh hoạt của các phần cứng chuyên dụng. Hãy khám phá ngay một giải pháp lưu trữ giữ liệu toàn diện với chi phí hấp dẫn nhất hiện nay!"
     },
     "aws": {
       "name": "Amazon Web Services",
-      "tier": "Principal Sponsor",
-      "blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+      "tier": "Nhà tài trợ chính",
+      "blurb": "RESF sử dụng AWS để vận hành các hệ thống quan trọng nhất trong quá trình phát triển và xây dựng các dịch vụ hỗ trợ cho Rocky Linux. Từ Koji Builder cho x86_64 và aarch64 chạy trên EC2 đến SRPM lưu trữ trên S3, AWS gắn liền với các hoạt động của chúng tôi."
     },
     "gcp": {
       "name": "Google Cloud",
-      "tier": "Principal Sponsor",
-      "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one."
+      "tier": "Nhà tài trợ chính",
+      "blurb": "Là nhà tài trợ chính cho RESF, Google hiểu được tầm quan trọng của Rocky Linux như là một hệ điều hành miễn phí, mã nguồn mở, thích hợp cho doanh nghiệp. Bằng việc cung cấp các nguồn lực cho việc thử nghiệm và kiểm tra, chúng tôi hợp tác với RESF để đảm bảo rằng Rocky Linux luôn là một thành phần tiêu biểu trên Google Cloud Platform ngay từ những ngày đầu tiên."
     },
     "azure": {
       "name": "Microsoft Azure",
-      "tier": "Principal Sponsor",
-      "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
+      "tier": "Nhà tài trợ chính",
+      "blurb": "Linux là nền tảng phát triển nahnh nhất trên Azure, đang chạy trên quá nửa các máy ảo của chúng tôi. Đã qua gần 1 thập kỷ Microsoft đầu tư nguồn lực cho Linux, và với định hướng trọng tâm về định hướng mã nguồn mở của Microsoft, chúng tôi hợp tác với RESF và rộng hơn nữa là hệ sinh thái Rocky Linux, để đảm bảo rằng khách hàng có nhiều sự lựa chọn hơn trong việc triển khai các hệ thống Linux  trên Azure một cách dễ dàng, thân thiện và an toàn."
     },
     "montavista": {
       "name": "MontaVista",
-      "tier": "Principal Sponsor",
-      "blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
+      "tier": "Nhà tài trợ chính",
+      "blurb": "MontaVista Software là đơn vị đầu ngành trong việc phát triển các bản Linux thương mại dành cho hệ thống nhúng, có đóng góp nhiều cho MontaVista CGX, Yocto Project®️, CentOS và Rocky Linux. MontaVissta cung cấp các dịch vụ mã nguồn mở chuyên nghiệp, các bản phân phối Linux thương mại chất lượng cao, với các dịch vụ bảo trì và hỗ trợ theo vòng đời sản phẩm lên đến hơn 10 năm."
     },
     "opendrives": {
       "name": "OpenDrives",
-      "tier": "Principal Sponsor",
-      "blurb": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
+      "tier": "Nhà tài trợ chính",
+      "blurb": "OpenDrives là nhà cung cấp toàn cầu các giải pháp NAS đạt chuẩn doanh nghiệp với khả năng mở rộng cực lớn. Chúng tôi đưa đến cho khách hàng các giải pháp có hiệu suất tốt nhất - nhằm phục vụ tất cả các yêu cầu của từng khách hàng - dành cho các dự án quy mô lớn, phức tạp, quan trọng, cả on-premise lẫn trên cloud."
     },
     "vmware": {
       "name": "VMware",
-      "tier": "Principal Sponsor",
-      "blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control."
+      "tier": "Nhà tài trợ chính",
+      "blurb": "VMware là doanh nghiệp dầu ngành cung cấp dịch vụ multi-cloud cho tất cả các ứng dụng, giúp giữa sự phát triển của công nghệ gắn liền với công việc vận hành và sự kiểm soát của doanh nghiệp."
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "tier": "Tier 4 Sponsor"
+      "tier": "Nhà tài trợ mức 4"
     },
     "seagate": {
       "name": "Seagate Federal",
-      "tier": "Tier 4 Sponsor"
+      "tier": "Nhà tài trợ mức 4"
     }
   }
 }

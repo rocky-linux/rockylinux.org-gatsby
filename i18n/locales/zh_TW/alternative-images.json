@@ -1,50 +1,50 @@
 {
-  "title": "备选镜像",
-  "description": "本页面提供的镜像可从我们信任的镜像网站中获得，但并不被官方支持。",
-  "rl8": "Rocky Linux 8(当前的)",
-  "rl8-eol": "<0>计划的EOL(end of life，生命周期结束):</0> 2029 12 31",
-  "desktop": "桌面 (SIG)",
-  "alt-arch": "替代架构(SIG)",
+  "title": "備選鏡像",
+  "description": "本頁面提供的鏡像可從我們信任的鏡像網站中獲得，但並不被官方支持。",
+  "rl8": "Rocky Linux 8 (目前版本)",
+  "rl8-eol": "<0>計畫的停止維護期限:</0> 2029年05月31日",
+  "desktop": "案頭（SIG）",
+  "alt-arch": "替代架構（SIG）",
   "headings": {
-    "de": "桌面环境",
-    "checksum": "校验",
-    "arch": "架构",
-    "download": "下载",
-    "readme": "自述文件"
+    "de": "桌面環境",
+    "checksum": "校驗",
+    "arch": "架構",
+    "download": "下載",
+    "readme": "自述檔案"
   },
   "body": {
     "gnome": "GNOME (工作站)",
     "xfce": "XFCE",
-    "rpi": "树莓派(aarch64)",
+    "rpi": "樹莓派(aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
-    "checksum": "校验",
-    "download": "下载",
-    "readme": "自述文件"
+    "checksum": "校驗",
+    "download": "下載",
+    "readme": "自述檔案"
   },
   "links": {
-    "cloud": "云镜像",
-    "docs": "文档",
-    "bug": "报告 Bug"
+    "cloud": "雲鏡像",
+    "docs": "檔案",
+    "bug": "報告Bug"
   },
   "get-involved": {
-    "heading": "参与进来",
-    "body": "当您下载和使用 Rocky Linux时，RESF(Rocky Enterprise Software Foundation，Rocky 企业软件基金会)邀请您<0>成为社区的一名贡献者</0>。有许多形式可以为项目做出贡献，从文档、QA、测试SIG(Special interest group，特别兴趣小组)做的代码更改、提供镜像或托管以及帮助其他用户。"
+    "heading": "參與貢獻",
+    "body": "當您下載和使用Rocky Linux時，RESF（Rocky Enterprise Software Foundation，Rocky企業軟件基金會）邀請您<0>成為社區的一名貢獻者</0>。 有許多形式可以為項目做出貢獻，從檔案、QA、測試SIG（Special interest group，特別興趣小組）做的程式碼更改、提供鏡像或託管以及幫助其他用戶。"
   },
   "isos": {
-    "heading": "ISO镜像文件之间有什么区别？",
-    "body": "可以使用各种各样的安装镜像来安装Rocky Linux，您需要下载哪个镜像文件，取决于您的安装环境和使用场景需求(use-case，用例)。",
+    "heading": "ISO鏡像文件之間有什麼區別？",
+    "body": "可以使用各種各樣的安裝鏡像來安裝Rocky Linux，您需要下載哪個鏡像文件，取決於您的安裝環境和使用場景需求。",
     "boot": {
-      "heading": "引导",
-      "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
+      "heading": "Boot",
+      "body": "用於從另一個源（例如二進位檔案的HTTP存儲庫）安裝作業系統，也可以用來進入救援模式。"
     },
     "minimal": {
-      "heading": "最小化",
-      "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
+      "heading": "Minimal",
+      "body": "用於從另一個源（例如二進位檔案的HTTP存儲庫）安裝作業系統，也可以用來進入救援模式。"
     },
     "dvd": {
       "heading": "DVD",
-      "body": "含有 BaseOS 和 AppStream 存储库的完整安装，可允许您在没有额外存储库的情况下完成安装。从 DVD 镜像文件中安装 Rocky Linux 是执行标准 Rocky Linux 8 安装的最简单与最常见的方法。"
+      "body": "含有BaseOS和AppStream存儲庫的完整安裝，可允許您在沒有額外存儲庫的情况下完成安裝。 從DVD鏡像文件中安裝Rocky Linux是執行標準Rocky Linux 8安裝的最簡單與最常見的方法。"
     }
   }
 }

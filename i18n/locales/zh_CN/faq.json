@@ -3,7 +3,7 @@
   "description": "以下是我们最常被问到的问题。",
   "faq": {
     "1": {
-      "question": "我如何帮助镜像目前和未来的 Rocky Linux版本？",
+      "question": "我如何帮助镜像服务器目前和未来的 Rocky Linux版本？",
       "answer": "请发送电子邮件<0>mirrors@rockylinux.org</0>以表达您的兴趣。"
     },
     "2": {

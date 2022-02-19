@@ -1,6 +1,6 @@
 {
   "title": "合作伙伴",
-  "description": "RES F的合作伙伴代表着对 Rocky Linux 项目具有重要战略意义的持续关系。通过工程专业知识、基础设施资源或其他手段的奉献，他们的支持对我们的持续成功和长期稳定至关重要。",
+  "description": "RESF的合作伙伴代表着对Rocky Linux项目具有重要战略意义的持续关系。通过提供工程专业知识、基础设施资源或其他方式，他们的支持对我们的持续成功和长期稳定至关重要。",
   "partners": {
     "ciq": {
       "name": "CIQ",
@@ -35,7 +35,7 @@
     "naver": {
       "name": "NAVER Cloud",
       "tier": "首席合作伙伴",
-      "blurb": "NAVER Cloud Platform是一项韩国的云服务，成立于2017年，隶属于NAVER的子公司Naver Cloud。它在2021年提供170多项个人服务，并拥有各种安全认证，包括CSA STAR GOLD、GDPR等等，它目前还在全球10个位置提供云服务。"
+      "blurb": "NAVER Cloud Platform是一家韩国的云服务公司，成立于2017年，隶属于NAVER的子公司Naver Cloud。它在2021年提供170多项个人服务，并拥有各种安全认证，包括CSA STAR GOLD、GDPR等等，它目前还在全球10个位置提供云服务。"
     },
     "osl": {
       "name": "OSU 开源实验室",

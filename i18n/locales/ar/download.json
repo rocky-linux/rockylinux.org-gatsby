@@ -1,12 +1,12 @@
 {
-  "title": "Downloads",
-  "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
+  "title": "التحميل",
+  "description": "قم بتحميل الإصدار الرسمي من Rocky Linux من إحدى خوادم التحميل الموثوق بها.",
   "rl8": "Rocky Linux 8 (Current)",
   "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
   "headings": {
     "arch": "Architecture",
-    "isos": "ISOs",
-    "packages": "Packages"
+    "isos": "ملفات ISO",
+    "packages": "حزم التحميل"
   },
   "body": {
     "x86_64": "x86_64",
@@ -14,15 +14,16 @@
     "minimal": "Minimal",
     "dvd": "DVD",
     "boot": "Boot",
-    "torrent": "Torrent",
+    "torrent": "تورنت",
     "checksum": "Checksum",
     "baseos": "BaseOS"
   },
   "links": {
     "alt": "Alternative Images",
+    "bug": "Report Bug",
     "cloud": "Cloud Images",
     "docs": "Documentation",
-    "bug": "Report Bug"
+    "vault": "الإصدارات المؤرشفة"
   },
   "get-involved": {
     "heading": "Get Involved",

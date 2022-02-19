@@ -20,9 +20,10 @@
   },
   "links": {
     "alt": "Immagini Alternative",
+    "bug": "Segnala un Bug",
     "cloud": "Immagini Cloud",
     "docs": "Documentazione",
-    "bug": "Segnala un Bug"
+    "vault": "Release in archivio"
   },
   "get-involved": {
     "heading": "Partecipa",
