@@ -49,6 +49,10 @@
     "seagate": {
       "name": "Seagate Federal",
       "tier": "Nhà tài trợ mức 4"
+    },
+    "stromasys": {
+      "name": "Stromasys",
+      "tier": "Nhà tài trợ mức 4"
     }
   }
 }
