@@ -49,6 +49,10 @@
     "seagate": {
       "name": "Seagate Federal",
       "tier": "Sponsor de niveau 4"
+    },
+    "stromasys": {
+      "name": "Stromasys",
+      "tier": "Sponsor de niveau 4"
     }
   }
 }
