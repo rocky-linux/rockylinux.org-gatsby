@@ -49,6 +49,10 @@
     "seagate": {
       "name": "Seagate Federal",
       "tier": "Tier 4 スポンサー"
+    },
+    "stromasys": {
+      "name": "Stromasys",
+      "tier": "Tier 4 スポンサー"
     }
   }
 }
