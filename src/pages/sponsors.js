@@ -15,6 +15,7 @@ import OpenDrivesLogo from '../images/opendrives.png';
 import VmwareLogo from '../images/vmware.png';
 import ProComputersLogo from '../images/procomputers.png';
 import SeagateLogo from '../images/seagate.png';
+import StromasysLogo from '../images/stromasys.png';
 
 const SponsorsPage = () => {
   const translate = Translate('sponsors');
@@ -87,6 +88,12 @@ const SponsorsPage = () => {
       source: `${SeagateLogo}`,
       link: 'https://www.seagategov.com/',
     },
+    {
+      name: `${translate('sponsors.stromasys.name')}`,
+      tier: `${translate('sponsors.stromasys.tier')}`,
+      source: `${StromasysLogo}`,
+      link: 'https://www.stromasys.com/',
+    }
   ];
 
   return (
