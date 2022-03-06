@@ -1,6 +1,15 @@
 {
   "title": "후원자",
   "description": "지금까지 프로젝트를 지원해 주신 후원자님들께 감사드립니다.",
+  "tierone": "Tier 1 - Principal Sponsors",
+  "tiertwo": "Tier 2",
+  "tierthree": "Tier 3",
+  "tierfour": "Tier 4",
+  "blurb": {
+    "lineone": "Want to be a sponsor?",
+    "linetwo": "Get in touch today.",
+    "emailus": "Email Us"
+  },
   "sponsors": {
     "ciq": {
       "name": "CIQ",
