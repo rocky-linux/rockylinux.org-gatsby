@@ -5,6 +5,7 @@
   "rl8-eol": "<0>计划的停止维护时间:</0> 2029年05月31日",
   "desktop": "桌面 (SIG)",
   "alt-arch": "替代架构(SIG)",
+  "cloud": "Generic Cloud / OpenStack",
   "headings": {
     "de": "桌面环境",
     "checksum": "校验",
