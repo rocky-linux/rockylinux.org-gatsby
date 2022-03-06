@@ -70,5 +70,13 @@
     "localName": "Русский",
     "langDir": "ltr",
     "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "vi",
+    "hrefLang": "vi",
+    "name": "Vietnamese",
+    "localName": "Tiếng Việt",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
   }
 ]

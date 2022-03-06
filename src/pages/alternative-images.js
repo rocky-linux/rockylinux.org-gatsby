@@ -217,6 +217,79 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
+                <h2 className="text-center mb-4 font-bold text-2xl">
+                  {translate('cloud')}
+                </h2>
+                <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.arch')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.checksum')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.download')}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="bg-white">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                          {translate('body.x86_64')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/8.5/images/CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/8.5/images/Rocky-8-GenericCloud-8.5-20211114.2.x86_64.qcow2"
+                          >
+                            {translate('body.download')}
+                          </a>
+                        </td>
+                      </tr>
+                      <tr className="bg-gray-100">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                          {translate('body.arm')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/8.5/images/CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/8.5/images/Rocky-8-GenericCloud-8.5.20211114.1.aarch64.qcow2"
+                          >
+                            {translate('body.download')}
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
@@ -300,23 +373,6 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     <p>
                       By downloading Rocky Linux software, you acknowledge that
                       you understand all of the following:
-                    </p>
-                    <p>
-                      Rocky Linux software and technical information may be
-                      subject to the U.S. Export Administration Regulations (the
-                      “EAR”) and other U.S. and foreign laws and may not be
-                      exported, re-exported or transferred (a) to a prohibited
-                      destination country under the EAR or U.S. sanctions
-                      regulations (currently Cuba, Iran, North Korea, Sudan,
-                      Syria, and the Crimea Region of Ukraine, subject to change
-                      as posted by the United States government); (b) to any
-                      prohibited destination or to any end user who has been
-                      prohibited from participating in U.S. export transactions
-                      by any federal agency of the U.S. government; or (c) for
-                      use in connection with the design, development or
-                      production of nuclear, chemical or biological weapons, or
-                      rocket systems, space launch vehicles, or sounding
-                      rockets, or unmanned air vehicle systems.
                     </p>
                     <p>
                       Rocky Linux software and technical information may be

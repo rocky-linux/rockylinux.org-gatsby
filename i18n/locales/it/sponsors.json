@@ -1,54 +1,78 @@
 {
   "title": "Sponsor",
   "description": "Vogliamo ringraziare i nostri sponsor per il loro supporto fino ad ora nel progetto.",
+  "tierone": "Tier 1 - Principal Sponsors",
+  "tiertwo": "Tier 2",
+  "tierthree": "Tier 3",
+  "tierfour": "Tier 4",
+  "blurb": {
+    "lineone": "Want to be a sponsor?",
+    "linetwo": "Get in touch today.",
+    "emailus": "Email Us"
+  },
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Sponsor Fondatore",
+      "title": "Founding Sponsor",
+      "tier": 1,
       "blurb": "Crediamo che aiutare le persone faccia grandi cose. Questo è il motivo per cui CIQ è uno sponsor fondatore di RESF. Forniamo supporto commerciale e servizi per Rocky Linux a clienti nella ricerca, accademia, governo, aziende, partner, e chiunque ne sia coinvolto."
     },
     "45drives": {
       "name": "45Drives",
-      "tier": "Sponsor Principale",
+      "title": "Principal Sponsor",
+      "tier": 1,
       "blurb": "45Drives offre soluzioni di archiviazione dati di livello enterprise costruite su software open source potente e robusto che consente ai clienti di trarre beneficio dai risparmi e dalla flessibilità di hardware già predisposto. Dacci un'occhiata per una soluzione di archiviazione dati completamente supportata al miglior prezzo per terabyte! "
     },
     "aws": {
       "name": "Amazon Web Services",
-      "tier": "Sponsor Principale",
+      "title": "Principal Sponsor",
+      "tier": 1,
       "blurb": "La RESF utilizza AWS per gestire gran parte delle sottostanti infrastrutture critiche per lo sviluppo e la distribuzione dei servizi a supporto di Rocky Linux. Dai Koji builders per x86_64 e aaerc64 che vengono eseguiti in EC2 ai blob storage SRPM in S3, AWS è fondamentale per molto di quello che facciamo."
     },
     "gcp": {
       "name": "Google Cloud",
-      "tier": "Sponsor Principale",
+      "title": "Principal Sponsor",
+      "tier": 1,
       "blurb": "Come sponsor principale del RESF, Google comprende l'importanza di Rocky Linux come un sistema operativo aziendale libero, aperto e comunitario. Nel fornire risorse per la verifica e la convalida, abbiamo collaborato con il RESF per garantire uno status di prima classe a Rocky sulla piattaforma Google Cloud, fin dal primo giorno."
     },
     "azure": {
       "name": "Microsoft Azure",
-      "tier": "Sponsor Principale",
+      "title": "Principal Sponsor",
+      "tier": 1,
       "blurb": "Linux è la piattaforma in più rapida crescita su Azure, in esecuzione su oltre la metà dei core VM. Da oltre un decennio, Microsoft investe su Linux, e con le partnership che costituiscono un pilastro centrale della strategia open source di Microsoft, collaboriamo con RESF e con il più ampio ecosistema Rocky Linux per garantire ai clienti una serie crescente di opzioni per distribuire workloads Linux su Azure in maniera supportata, gestita e sicura."
     },
     "montavista": {
       "name": "MontaVista",
-      "tier": "Sponsor Principale",
+      "title": "Principal Sponsor",
+      "tier": 1,
       "blurb": "MontaVista Software è leader nei sistemi embedded Linux commerciali, e supporta MontaVista CGX, Yocto Project®️, CentOS e Rocky Linux. MontaVista offre competenze in ambito software Open Source, distribuzioni Linux di qualità commerciale, manutenzione e supporto convenienti per cicli di vita di oltre 10 anni."
     },
     "opendrives": {
       "name": "OpenDrives",
-      "tier": "Sponsor Principale",
+      "title": "Principal Sponsor",
+      "tier": 1,
       "blurb": "OpenDrives è un provider globale di soluzioni enterprise-grade, iperscalabili, e network-attached-storage (NAS). Forniamo le soluzioni più performanti per i nostri clienti - per soddisfare le esigenze di prestazioni di ogni individuo - per i progetti e i workflow più robusti, complessi e critici, on-premise e nel cloud."
     },
     "vmware": {
       "name": "VMware",
-      "tier": "Sponsor Principale",
+      "title": "Principal Sponsor",
+      "tier": 1,
       "blurb": "VMware è un fornitore leader di servizi multi-cloud per tutte le applicazioni, che consente l'innovazione digitale tramite il controllo aziendale."
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "tier": "Tier 4 Sponsor"
+      "title": "Tier 4 Sponsor",
+      "tier": 4
     },
     "seagate": {
       "name": "Seagate Federal",
-      "tier": "Tier 4 Sponsor"
+      "title": "Tier 4 Sponsor",
+      "tier": 4
+    },
+    "stromasys": {
+      "name": "Stromasys",
+      "title": "Tier 4 Sponsor",
+      "tier": 4
     }
   }
 }

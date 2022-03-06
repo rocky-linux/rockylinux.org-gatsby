@@ -1,54 +1,78 @@
 {
-  "title": "赞助商",
-  "description": "我们要感谢我们的赞助商迄今为止对该项目的支持。",
+  "title": "贊助商",
+  "description": "我們要感謝我們的贊助商迄今為止對該項目的支持。",
+  "tierone": "Tier 1 - Principal Sponsors",
+  "tiertwo": "Tier 2",
+  "tierthree": "Tier 3",
+  "tierfour": "Tier 4",
+  "blurb": {
+    "lineone": "Want to be a sponsor?",
+    "linetwo": "Get in touch today.",
+    "emailus": "Email Us"
+  },
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "tier": "创始赞助商",
-      "blurb": "我们相信能帮助人们做伟大的事情，这就是为什么CIQ是RESF的创始赞助商。我们为研究领域、学术界、政府、企业、合作伙伴和所有介于两者之间的客户提供Rocky Linux的商业支持和服务。"
+      "title": "Founding Sponsor",
+      "tier": 1,
+      "blurb": "我們相信能幫助人們做偉大的事情，這就是為什麼CIQ是RESF的創始贊助商。 我們為研究領域、學術界、政府、企業、合作夥伴和所有介於兩者之間的客戶提供Rocky Linux的商業支持和服務。"
     },
     "45drives": {
       "name": "45Drives",
-      "tier": "首席赞助商",
-      "blurb": "45Drives 提供了基于强大和健壮的开源软件的企业存储解决方案，让客户能够从现成硬件的成本节约和灵活性中获益。查看它们，以最低的每TB成本获得完全支持的数据存储解决方案!"
+      "title": "Principal Sponsor",
+      "tier": 1,
+      "blurb": "45Drives提供了基於强大和健壯的開源軟件的企業存儲解決方案，讓客戶能够從現成硬體的成本節約和靈活性中獲益。 查看它們，以最低的每TB成本獲得完全支持的資料存儲解決方案！"
     },
     "aws": {
-      "name": "亚马逊网络服务",
-      "tier": "首席赞助商",
-      "blurb": "RESF利用AWS运行着至关重要的大部分底层基础设施(例如支持Rocky Linux服务的开发环境和部署环境)。不管EC2是运行在x86_64架构还是aach64架构，都能实现从Koji builder到S3(Simple Storage Service)中的的SRPM对象存储，AWS是我们大部分工作的基础。"
+      "name": "亞馬遜網路服務",
+      "title": "Principal Sponsor",
+      "tier": 1,
+      "blurb": "RESF利用AWS運行著至關重要的大部分底層基礎設施（例如支持Rocky Linux服務的開發環境和部署環境）。 不管EC2是運行在x86_ 64架構還是aach64架構，都能實現從Koji builder到S3（Simple Storage Service）中的的SRPM對象存儲，AWS是我們大部分工作的基礎。"
     },
     "gcp": {
-      "name": "谷歌云",
-      "tier": "首席赞助商",
-      "blurb": "作为RESF的首席赞助商，谷歌深知Rocky Linux作为一个免费、开放、社区企业操作系统的重要性。我们与RESF合作，且提供测试和验证资源，以确保Rocky从第一天起就成为Google Cloud平台上的一等公民。"
+      "name": "穀歌雲",
+      "title": "Principal Sponsor",
+      "tier": 1,
+      "blurb": "作為RESF的首席贊助商，穀歌深知Rocky Linux作為一個免費、開放、社區企業作業系統的重要性。 我們與RESF合作，且提供測試和驗證資源，以確保Rocky從第一天起就成為Google Cloud平臺上的一等公民。"
     },
     "azure": {
-      "name": "微软 Azure",
-      "tier": "首席赞助商",
-      "blurb": "Linux是Azure上增长最快的平台，运行在超过一半的虚拟机内核上。十多年来，微软一直在对Linux进行投资，且合作伙伴关系是微软开源战略的中流砥柱，因此我们选择与RESF和更广泛的Rocky Linux生态系统合作，以确保客户有越来越多的选择，以支持、管理和安全的方式在Azure上部署Linux工作负载。"
+      "name": "微軟 Azure",
+      "title": "Principal Sponsor",
+      "tier": 1,
+      "blurb": "Linux是Azure上增長最快的平臺，運行在超過一半的虛擬機器內核上。 十多年來，微軟一直在對Linux進行投資，且合作夥伴關係是微軟開源戰畧的中流砥柱，囙此我們選擇與RESF和更廣泛的Rocky Linux生態系統合作，以確保客戶有越來越多的選擇，以支持、管理和安全的管道在Azure上部署Linux工作負載。"
     },
     "montavista": {
       "name": "MontaVista",
-      "tier": "首席赞助商",
-      "blurb": "MontaVista Software 是嵌入式商用LInux的领导者，支持MontaVista CGX、Yocto Project®️、 CentOS和Rocky Linux。MontaVista提供开源软件专业知识、商业质量的Linux发行版、性价比高的维护和10年以上生命周期的支持。"
+      "title": "Principal Sponsor",
+      "tier": 1,
+      "blurb": "MontaVista Software是嵌入式商用LInux的領導者，支持MontaVista CGX、Yocto Project ®️、  CentOS和Rocky Linux。 MontaVista提供開源軟件專業知識、商業質量的Linux發行版本、性價比高的維護和10年以上生命週期的支持。"
     },
     "opendrives": {
       "name": "OpenDrives",
-      "tier": "首席赞助商",
-      "blurb": "OpenDrives 是一家企业级、超可拓展、网络附加存储(NAS)解决方案的全球提供商。我们为客户提供最高性能的解决方案，以满足个人性能需求，以满足最强大、最复杂和最关键任务的项目和工作流，无论是内部部署还是云端部署。"
+      "title": "Principal Sponsor",
+      "tier": 1,
+      "blurb": "OpenDrives是一家企業級、超可拓展、網絡附加存儲（NAS）解決方案的全球提供商。 我們為客戶提供最高效能的解決方案，以滿足個人效能需求，以滿足最强大、最複雜和最關鍵任務的項目和工作流，無論是內部部署還是雲端部署。"
     },
     "vmware": {
       "name": "VMware",
-      "tier": "首席赞助商",
-      "blurb": "VMware是为所有应用提供多云服务的领先提供商，通过企业控制实现计算机技术的创新。"
+      "title": "Principal Sponsor",
+      "tier": 1,
+      "blurb": "VMware是為所有應用提供多雲服務的領先提供商，通過企業控制實現電腦技術的創新。"
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "tier": "第4级赞助商"
+      "title": "Tier 4 Sponsor",
+      "tier": 4
     },
     "seagate": {
-      "name": "希捷联邦",
-      "tier": "第4级赞助商"
+      "name": "希捷聯邦",
+      "title": "Tier 4 Sponsor",
+      "tier": 4
+    },
+    "stromasys": {
+      "name": "Stromasys",
+      "title": "Tier 4 Sponsor",
+      "tier": 4
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "title": "支持提供商",
-  "description": "Rocky Linux由CIQ提供商业支持。CIQ是我们的创始合作伙伴、赞助商以及其他非隶属公司。",
+  "description": "Rocky Linux得到了我们的创始合作伙伴和赞助商CIQ以及其他非隶属公司的商业支持。",
   "support": {
     "ciq": {
       "name": "CIQ",

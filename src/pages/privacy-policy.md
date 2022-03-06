@@ -45,7 +45,7 @@ We share information collected about you with certain selected third parties ("3
 | Vercel            | Website hosting                                  | [Privacy Policy](https://vercel.com/legal/privacy-policy)                                |
 | Discourse Hosting | To create an account on our forum                | [Privacy Policy](https://www.discoursehosting.com/privacy-policy/)                       |
 | Amazon AWS        | Infrastructure                                   | [Privacy Policy](https://aws.amazon.com/privacy/)                                        |
-| Freenode          | IRC, Chat                                        | [Privacy Policy](https://freenode.net/policies)                                          |
+| Libera.chat       | IRC, Chat                                        | [Privacy Policy](https://libera.chat/privacy/)                                           |
 | GitHub            | Source control, collaboration, registry, actions | [Privacy Policy](https://docs.github.com/en/github/site-policy/github-privacy-statement) |
 | Figma             | Design collaboration                             | [Privacy Policy](https://www.figma.com/privacy)                                          |
 | Google Workspace  | Communication, collaboration                     | [Privacy Policy](https://policies.google.com/privacy?hl=en-US)                           |

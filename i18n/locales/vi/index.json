@@ -1,36 +1,36 @@
 {
   "hero": {
-    "new": "What's New",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
-    "cta1": "Download",
-    "cta2": "Migrate"
+    "new": "Có gì mới?",
+    "title": "Linux dành cho doanh nghiệp, được phát triển bởi cộng đồng",
+    "description": "Rocky Linux là một hệ điều hành mã nguồn mở được thiết kế nhằm đảm bảo tương thích 100% với hệ thống của Red Hat Enterprise Linux<0>&#174;</0>. Dự án hiện tại đang được phát triển rất nhanh bởi cộng đồng.",
+    "cta1": "Tải về",
+    "cta2": "Nâng cấp"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
-    "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
+    "title": "Ổn định, uy tín trong mọi trường hợp.",
+    "subtitle": "Một bản Linux ổn định, thích hợp cho môi trường production",
+    "description": "Rocky Linux được xây dựng dựa trên nguồn được lấy trực tiếp từ RHEL<0>&#174;</0>, vì vậy, bạn có thể yên tâm rằng bạn sẽ có một trải nghiệm siêu ổn định và tin cậy, trong bất kì tình huống nào.",
     "1": {
-      "title": "Production Ready",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "title": "Sẵn sàng cho hệ thống thương mai",
+      "description": "Rocky Linux luôn sẵn sàng cho các hệ thống thương mại lớn, cung cấp một sự ổn định tuyệt vời, với việc cập nhật định kì và hỗ trợ vòng đời sản phẩm lên tới 10 năm, tất cả đều hoàn toàn miễn phí."
     },
     "2": {
-      "title": "Community Supported",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "title": "Được hỗ trợ bởi cộng đồng",
+      "description": "Cộng đồng, các nhà tài trợ và các đối tác đã cam kết các sự đóng góp lâu dài để đảm bảo rằng dự án này tiếp tục được phát triển và thuộc về cộng đồng."
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "Dễ dàng chuyển đổi",
+      "description": "Chuyển đổi từ các bản Enterprise Linux khác mà không phải cài đặt lại. Chúng tôi cung cấp một công cụ chuyển đổi miễn phí để thực hiện việc này."
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "Tin tức mới nhất",
+    "description": "Chúng tôi định kì cập nhật với cộng đồng về những gì đang diễn ra. Đây là các tin tức mới nhất"
   },
   "sponsors-partners": {
-    "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "backed": "Được bảo trợ bởi",
+    "sponsors": "Tất cả các nhà tài trợ",
+    "partners": "Tất cả đối tác",
+    "support": "Nhà cung cấp dịch vụ hỗ trợ"
   }
 }

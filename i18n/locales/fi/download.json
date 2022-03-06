@@ -20,9 +20,10 @@
   },
   "links": {
     "alt": "Vaihtoehtoiset levykuvat",
+    "bug": "Raportoi virheestä",
     "cloud": "Pilvilevykuvat",
     "docs": "Dokumentaatio",
-    "bug": "Raportoi virheestä"
+    "vault": "Arkistoidut Julkaisut"
   },
   "get-involved": {
     "heading": "Osallistu",

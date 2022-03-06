@@ -1,63 +1,63 @@
 {
-  "title": "合作伙伴",
-  "description": "RES F的合作伙伴代表着对 Rocky Linux 项目具有重要战略意义的持续关系。通过工程专业知识、基础设施资源或其他手段的奉献，他们的支持对我们的持续成功和长期稳定至关重要。",
+  "title": "合作夥伴",
+  "description": "RESF的合作夥伴代表著對Rocky Linux項目具有重要戰畧意義的持續關係。通過提供工程專業知識、基礎設施資源或其他管道，他們的支持對我們的持續成功和長期穩定至關重要。",
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "创始合作伙伴",
-      "blurb": "我们相信能帮助人们做伟大的事情，这就是为什么CIQ是RESF的创始合作伙伴。我们为研究领域、学术界、政府、企业、合作伙伴和所有介于两者之间的客户提供Rocky Linux的商业支持和服务。"
+      "tier": "創始合作夥伴",
+      "blurb": "我們相信能幫助人們做偉大的事情，這就是為什麼CIQ是RESF的創始合作夥伴。 我們為研究領域、學術界、政府、企業、合作夥伴和所有介於兩者之間的客戶提供Rocky Linux的商業支持和服務。"
     },
     "arm": {
       "name": "Arm",
-      "tier": "首席合作伙伴",
-      "blurb": "ARM致力于确保其架构从使用Rocky Linux的第一天起就是一等公民。我们已经与RESF合作，提供专门的工程工作来补充Rocky Linux开发与测试团队，密切合作以测试、验证和支持现在以及将来的ARM。"
+      "tier": "首席合作夥伴",
+      "blurb": "ARM致力于确保其架构从使用 Rocky Linux 的第一天起就是一等公民。我们已经与 RESF 合作，提供专门的工程工作来补充 Rocky Linux 开发与测试团队，密切合作以测试、验证和支持现在以及将来的ARM。"
     },
     "equinix": {
       "name": "Equinix",
-      "tier": "首席合作伙伴",
-      "blurb": "Equinix是一家全球数字基础设施公司。使用计算机技术的领导者，利用我们值得信赖的平台，将推动他们成功的基础设施整合在一起然后相互连接。"
+      "tier": "首席合作夥伴",
+      "blurb": "Equinix是一家全球數位基礎設施公司。 使用電腦技術的領導者，利用我們值得信賴的平臺，將推動他們成功的基礎設施綜合在一起然後相互連接。"
     },
     "fastly": {
       "name": "Fastly",
-      "tier": "首席合作伙伴",
-      "blurb": "Fastly的边缘云平台使客户能够快速、安全、可靠地创建卓越的数字体验。通过处理、服务和保护我们客户的应用程序，使其尽可能接近互联网边缘的最终用户。"
+      "tier": "首席合作夥伴",
+      "blurb": "Fastly的邊緣雲平臺使客戶能够快速、安全、可靠地創建卓越的數位體驗。 通過處理、服務和保護我們客戶的應用程序，使其盡可能接近互聯網邊緣的最終用戶。"
     },
     "fosshost": {
       "name": "Fosshost",
-      "tier": "首席合作伙伴",
-      "blurb": "Fosshost (UK CIC #13356530)专门为FOSS(Free and Open Source Software，自由和开放源码软件)社区提供免费的企业级互联网托管和管理服务。我们的使命是授权和支持每一个自由和开源软件项目。要更进一步，我们的工作就永远不会停止，今天就来申请吧！"
+      "tier": "首席合作夥伴",
+      "blurb": "Fosshost（UK CIC #13356530）專門為FOSS（Free and Open Source Software，自由和開放源碼軟件）社區提供免費的企業級互聯網託管和管理服務。 我們的使命是授權和支持每一個自由和開源軟件項目。 要更進一步，我們的工作就永遠不會停止，今天就來申請吧！"
     },
     "mattermost": {
       "name": "Mattermost",
-      "tier": "首席合作伙伴",
-      "blurb": "Mattermost是一个开源消息传递解决方案，专为具有最高安全要求的组织而设计。作为开源力量的坚定信仰者，Mattermost很高兴能与RESF合作，帮助将Linux的企业级发行版带到技术社区。"
+      "tier": "首席合作夥伴",
+      "blurb": "Mattermost是一個開源消息傳遞解決方案，專為具有最高安全要求的組織而設計。 作為開源力量的堅定信仰者，Mattermost很高興能與RESF合作，幫助將Linux的企業級發行版本帶到技術社區。"
     },
     "naver": {
       "name": "NAVER Cloud",
-      "tier": "首席合作伙伴",
-      "blurb": "NAVER Cloud Platform是一项韩国的云服务，成立于2017年，隶属于NAVER的子公司Naver Cloud。它在2021年提供170多项个人服务，并拥有各种安全认证，包括CSA STAR GOLD、GDPR等等，它目前还在全球10个位置提供云服务。"
+      "tier": "首席合作夥伴",
+      "blurb": "NAVER Cloud Platform是一家韓國的雲服務公司，成立於2017年，隸屬於NAVER的子公司Naver Cloud。 它在2021年提供170多項個人服務，並擁有各種安全認證，包括CSA STAR GOLD、GDPR等等，它現時還在全球10個位置提供雲服務。"
     },
     "osl": {
-      "name": "OSU 开源实验室",
-      "tier": "首席合作伙伴",
-      "blurb": "俄勒冈州州立大学开源实验室(Oregon State University Open Source Lab)是一个致力于推动开源技术发展的非营利组织。OSL为对开源管理和编程感兴趣的有前途的学生提供世界一流的托管服务、专业软件开发和现场培训。"
+      "name": "OSU 開源實驗室",
+      "tier": "首席合作夥伴",
+      "blurb": "俄勒岡州州立大學開源實驗室（Oregon State University Open Source Lab）是一個致力於推動開源技術發展的非營利組織。 OSL為對開源管理和程式設計感興趣的有前途的學生提供世界一流的託管服務、專業軟體發展和現場培訓。"
     },
     "supermicro": {
       "name": "超微",
-      "tier": "首席合作伙伴",
-      "blurb": "作为高性能、高效率服务器技术和创新领域的全球领先者，超微很高兴能与RESF合作，提供针对Rocky Linux进行优化的数据中心服务器和存储系统。"
+      "tier": "首席合作夥伴",
+      "blurb": "作為高性能、高效率服務器技術和創新領域的全球領先者，超微很高興能與RESF合作，提供針對Rocky Linux進行優化的資料中心服務器和存儲系統。"
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "第4级合作伙伴"
+      "tier": "第4級合作夥伴"
     },
     "dsstudio": {
       "name": "DotSlash Studio",
-      "tier": "第4级合作伙伴"
+      "tier": "第4級合作夥伴"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "第4级合作伙伴"
+      "tier": "第4級合作夥伴"
     }
   }
 }

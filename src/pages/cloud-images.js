@@ -48,7 +48,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-09ca837d91f083d04',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-09ca837d91f083d04"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-09ca837d91f083d04"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -63,7 +63,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-08eb90c0d94c32ff4',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-08eb90c0d94c32ff4"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-08eb90c0d94c32ff4"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -78,7 +78,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-043ceee68871e0bb5',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-043ceee68871e0bb5"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-043ceee68871e0bb5"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -93,7 +93,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-096e199c58bb0653f',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-096e199c58bb0653f"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-096e199c58bb0653f"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -108,7 +108,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-08882eba49067074f',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-08882eba49067074f"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-08882eba49067074f"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -123,7 +123,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0b6159d240ab78b1a',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0b6159d240ab78b1a"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0b6159d240ab78b1a"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -202,7 +202,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-099589c84ecec2f81',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-099589c84ecec2f81"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-099589c84ecec2f81"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -217,7 +217,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0f9e8f0b3490c929c',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0f9e8f0b3490c929c"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0f9e8f0b3490c929c"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -232,7 +232,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0ddb05e945a674cf5',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0ddb05e945a674cf5"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0ddb05e945a674cf5"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -247,7 +247,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-084d423cf7accd8d9',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-084d423cf7accd8d9"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-084d423cf7accd8d9"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -259,10 +259,10 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       provider: 'AWS',
       region: 'ap-northeast-2',
       architecture: 'x86_64',
-      imageid: 'ami-0280ce8ecafa32cf',
+      imageid: 'ami-0280ce8ecafa32cf7',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0280ce8ecafa32cf"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0280ce8ecafa32cf7"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -277,7 +277,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-08ae751f8a19fb9b5',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-08ae751f8a19fb9b5"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-08ae751f8a19fb9b5"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -292,7 +292,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0ce722d42255297b9',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0ce722d42255297b9"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0ce722d42255297b9"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -307,7 +307,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-052198efa1a75e212',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-052198efa1a75e212"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-052198efa1a75e212"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -322,7 +322,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0514af8e1e699170c',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0514af8e1e699170c"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0514af8e1e699170c"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -337,7 +337,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-064be01ca69cd982d',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-064be01ca69cd982d"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-064be01ca69cd982d"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -352,7 +352,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-01d801fcba2e682d0',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-01d801fcba2e682d0"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-01d801fcba2e682d0"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -367,7 +367,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0171b2fa317eb0d6d',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0171b2fa317eb0d6d"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0171b2fa317eb0d6d"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -382,7 +382,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-09ada793eea1559e6',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-09ada793eea1559e6"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-09ada793eea1559e6"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -397,7 +397,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-033e74798225e42e4',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-033e74798225e42e4"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-033e74798225e42e4"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -412,7 +412,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0090b17f0ffd314ba',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0090b17f0ffd314ba"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0090b17f0ffd314ba"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -427,7 +427,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-09c237aa6f84aa31d',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-09c237aa6f84aa31d"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-09c237aa6f84aa31d"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -474,7 +474,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-079f4c25253b27e9d',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-079f4c25253b27e9d"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-079f4c25253b27e9d"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -489,7 +489,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0a9cd4ee47ff73e1d',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0a9cd4ee47ff73e1d"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0a9cd4ee47ff73e1d"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -504,7 +504,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0a10fe11f3e1bf41e',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0a10fe11f3e1bf41e"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0a10fe11f3e1bf41e"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -519,7 +519,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-05bdfaac44dd4f8be',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-05bdfaac44dd4f8be"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-05bdfaac44dd4f8be"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -534,7 +534,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0768c1f18418e882d',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0768c1f18418e882d"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0768c1f18418e882d"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -549,7 +549,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0f626368bef526180',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0f626368bef526180"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0f626368bef526180"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -564,7 +564,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0abb90b1685f9e9fc',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0abb90b1685f9e9fc"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0abb90b1685f9e9fc"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -579,7 +579,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-0cb170992520649fa',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0cb170992520649fa"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0cb170992520649fa"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -626,7 +626,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-07177719c7d6b0ac4',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-07177719c7d6b0ac4"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-07177719c7d6b0ac4"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}
@@ -641,7 +641,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       imageid: 'ami-06674197fb810dc0c',
       deploylink: (
         <a
-          href="https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-06674197fb810dc0c"
+          href="https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-06674197fb810dc0c"
           className="font-medium text-green-500 underline"
         >
           {translate('deploy')}

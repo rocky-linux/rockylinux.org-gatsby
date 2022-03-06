@@ -1,30 +1,30 @@
 {
-  "title": "常见问题解答",
-  "description": "以下是我们最常被问到的问题。",
+  "title": "常見問題",
+  "description": "以下是我們最常被問到的問題。",
   "faq": {
     "1": {
-      "question": "我如何帮助镜像目前和未来的 Rocky Linux版本？",
-      "answer": "请发送电子邮件<0>mirrors@rockylinux.org</0>以表达您的兴趣。"
+      "question": "我如何幫助鏡像伺服器現時和未來的Rocky Linux版本？",
+      "answer": "請發送電子郵件<0> mirrors@rockylinux.org </0>表達您的興趣。"
     },
     "2": {
-      "question": "我在测试Rocky Linux时遇到了bug，我该怎么办？",
-      "answer": "首先，使用<0>Rocky Linux Account Services</0>创建一个帐户，然后前往我们的<1>Bugzilla server</1>报告任何bug。"
+      "question": "我在測試Rocky Linux時遇到了bug，我該怎麼辦？",
+      "answer": "首先，使用<0>Rocky Linux Account Services</0>創建一個帳戶，然後前往我們的<1>Bugzilla server</1>報告任何bug。"
     },
     "3": {
-      "question": "我怎样才能参与到测试团队中来？",
-      "answer": "请从加入我们 Mattermost 服务器上的<0>~Testing</0> 频道开始，论坛上还有一个测试话题，可以让你进行更持续长久的对话。"
+      "question": "我怎樣才能參與到測試團隊中來？",
+      "answer": "請從加入我們Mattermost服務器上的<0>~Testing</0>頻道開始，論壇上還有一個測試話題，可以讓你進行更持續長久的對話。"
     },
     "4": {
-      "question": "我在哪里可以找到有关Rocky Linux的最新消息？",
-      "answer": "请持续关注我们的网站、Twitter、LinkedIn、论坛和我们链接目录中列出的其他平台，以获取最新公告。"
+      "question": "我在哪裡可以找到有關Rocky Linux的最新消息？",
+      "answer": "請持續關注我們的網站、Twitter、LinkedIn、論壇和我們連結目錄中列出的其他平臺，以獲取最新公告。"
     },
     "5": {
-      "question": "你们如何确保Rocky Linux仍然是一个真正意义上的社区企业操作系统?",
-      "answer": "首先，我们已采取措施从法律意义上保护 Rocky Linux的名称。这意味着已经注册其商标和各种各样的相关属性，以保护其免受其他实体的控制，我们通过将它们建立在Rocky企业软件基金会(RESF)之下来实现这一目标。接下来，我们起草了一份社区宪章，其中定义了代表Rocky Linux的法律实体背后的组织结构、目标、价值观和使命。该宪章的关键是确立了能够促进和保护社区的原则：透明度、社区参与、开放发展和独立性。<0>Rocky Linux永远不会被单个实体或组织控制、收购或以其他方式影响。</0>最后，我们正在构建和部署必要的基础设施，以进一步使社区能够为Rocky Linux做出贡献。"
+      "question": "你們如何確保Rocky Linux仍然是一個真正意義上的社區企業作業系統？",
+      "answer": "首先，我們已採取措施從法律意義上保護Rocky Linux的名稱。 這意味著已經注册其商標和各種各樣的相關内容，以保護其免受其他實體的控制，我們通過將它們建立在Rocky企業軟件基金會（RESF）之下來實現這一目標。 接下來，我們起草了一份社區憲章，其中定義了代表Rocky Linux的法律實體背後的組織結構、目標、價值觀和使命。 該憲章的關鍵是確立了能够促進和保護社區的原則：透明度、社區參與、開放發展和獨立性。< 0>Rocky Linux永遠不會被單個實體或組織控制、收購或以其他管道影響。</ 0>最後，我們正在構建和部署必要的基礎設施，以進一步使社區能够為Rocky Linux做出貢獻。"
     },
     "6": {
-      "question": "如果我有反馈意见或者我的问题在这里没有得到回答怎么办？",
-      "answer": "请给我们发送电子邮件: <0>hello@rockylinux.org</0>，我们将尽快回复您。"
+      "question": "如果我有回饋意見或者我的問題在這裡沒有得到回答怎麼辦？",
+      "answer": "請給我們發送電子郵件：<0>hello@rockylinux.org</0>，我們將儘快回復您。"
     }
   }
 }
