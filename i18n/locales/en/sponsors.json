@@ -1,15 +1,6 @@
 {
   "title": "Sponsors",
   "description": "We would like to thank our sponsors for their support thus far on the project.",
-  "tierone": "Tier 1 - Principal Sponsors",
-  "tiertwo": "Tier 2",
-  "tierthree": "Tier 3",
-  "tierfour": "Tier 4",
-  "blurb": {
-    "lineone": "Want to be a sponsor?",
-    "linetwo": "Get in touch today.",
-    "emailus": "Email Us"
-  },
   "sponsors": {
     "ciq": {
       "name": "CIQ",
