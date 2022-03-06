@@ -5,6 +5,7 @@
   "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Alternative Architectures (SIG)",
+  "cloud": "Generic Cloud / OpenStack",
   "headings": {
     "de": "Desktop Environment",
     "checksum": "Checksum",
