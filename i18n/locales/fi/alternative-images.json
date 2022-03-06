@@ -5,6 +5,7 @@
   "rl8-eol": "<0>Tuen päättymispäivä:</0> 31. toukokuuta 2029",
   "desktop": "Workstation",
   "alt-arch": "Vaihtoehtoiset arkkitehtuurit",
+  "cloud": "Generic Cloud / OpenStack",
   "headings": {
     "de": "Työpöytäympäristö",
     "checksum": "Tarkistussumma",
