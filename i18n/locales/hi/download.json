@@ -1,32 +1,29 @@
 {
-  "title": "Imágenes alternativas",
-  "description": "Las imágenes proporcionadas en esta página están disponibles en uno de nuestros espejos de confianza, pero no son oficialmente compatibles.",
-  "rl8": "Rocky Linux 8 (actual)",
+  "title": "Downloads",
+  "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
+  "rl8": "Rocky Linux 8 (Current)",
   "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "desktop": "Desktop (SIG)",
-  "alt-arch": "Alternative Architectures (SIG)",
-  "cloud": "Generic Cloud / OpenStack",
   "headings": {
-    "de": "Desktop Environment",
-    "checksum": "Checksum",
     "arch": "Architecture",
-    "download": "Download",
-    "readme": "Readme"
+    "isos": "ISOs",
+    "packages": "Packages"
   },
   "body": {
-    "gnome": "GNOME (Workstation)",
-    "xfce": "XFCE",
-    "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
-    "arm": "aarch64",
+    "arm": "ARM64 (aarch64)",
+    "minimal": "Minimal",
+    "dvd": "DVD",
+    "boot": "Boot",
+    "torrent": "Torrent",
     "checksum": "Checksum",
-    "download": "Download",
-    "readme": "Readme"
+    "baseos": "BaseOS"
   },
   "links": {
+    "alt": "Alternative Images",
+    "bug": "Report Bug",
     "cloud": "Cloud Images",
     "docs": "Documentation",
-    "bug": "Report Bug"
+    "vault": "Archived Releases"
   },
   "get-involved": {
     "heading": "Get Involved",

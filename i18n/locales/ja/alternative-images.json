@@ -5,6 +5,7 @@
   "rl8-eol": "<0>サポート終了予定日:</0>2029年5月31日",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Alternative Architectures (SIG)",
+  "cloud": "Generic Cloud / OpenStack",
   "headings": {
     "de": "デスクトップ環境",
     "checksum": "チェックサム",

@@ -5,6 +5,7 @@
   "rl8-eol": "<0>Hạn cuối hỗ trợ (EOL):</0> 31 tháng 5 năm 2029",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Các kiến trúc khác (SIG)",
+  "cloud": "Generic Cloud / OpenStack",
   "headings": {
     "de": "Giao diện đồ hoạ (Desktop Environment)",
     "checksum": "Giá trị checksum",
