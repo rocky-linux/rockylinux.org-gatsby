@@ -104,16 +104,16 @@ const SponsorsPage = () => {
       title: `${translate('sponsors.stromasys.title')}`,
       source: `${StromasysLogo}`,
       link: 'https://www.stromasys.com/',
-    }
+    },
   ];
 
   const principalSponsors = sponsors.filter(function (sponsor) {
-    return sponsor.tier === "1";
-  })
+    return sponsor.tier === '1';
+  });
 
   const tierFourSponsors = sponsors.filter(function (sponsor) {
-    return sponsor.tier === "4"
-  })
+    return sponsor.tier === '4';
+  });
 
   return (
     <Layout>
@@ -129,7 +129,6 @@ const SponsorsPage = () => {
             <ul
               role="list"
               className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-4 sm:gap-x-6 lg:grid-cols- xl:gap-x-8"
-              
             >
               {principalSponsors.map((sponsor) => (
                 <a href={sponsor.link}>
@@ -154,7 +153,9 @@ const SponsorsPage = () => {
                 </a>
               ))}
             </ul>
-            <h1 className="text-3xl font-bold mb-5 mt-10">{translate('tierfour')}</h1>
+            <h1 className="text-3xl font-bold mb-5 mt-10">
+              {translate('tierfour')}
+            </h1>
             <ul
               role="list"
               className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
@@ -185,23 +186,25 @@ const SponsorsPage = () => {
           </div>
         </div>
         <div className="bg-green-50">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
-        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
-          <span className="block">{translate('blurb.lineone')}</span>
-          <span className="block text-green-500">{translate('blurb.linetwo')}</span>
-        </h2>
-        <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-          <div className="inline-flex rounded-md shadow">
-            <a
-              href="mailto:sponsors@resf.org"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600"
-            >
-              {translate('blurb.emailus')}
-            </a>
+          <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
+              <span className="block">{translate('blurb.lineone')}</span>
+              <span className="block text-green-500">
+                {translate('blurb.linetwo')}
+              </span>
+            </h2>
+            <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+              <div className="inline-flex rounded-md shadow">
+                <a
+                  href="mailto:sponsors@resf.org"
+                  className="inline-flex items-center justify-center px-5 py-3 text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600"
+                >
+                  {translate('blurb.emailus')}
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
       </PageHeader>
       <Footer pageContext="{locale: language}" />
     </Layout>
