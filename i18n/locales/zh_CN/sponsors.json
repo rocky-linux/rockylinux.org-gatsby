@@ -49,6 +49,10 @@
     "seagate": {
       "name": "希捷联邦",
       "tier": "第4级赞助商"
+    },
+    "stromasys": {
+      "name": "Stromasys",
+      "tier": "第4级赞助商"
     }
   }
 }

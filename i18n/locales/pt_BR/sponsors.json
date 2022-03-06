@@ -49,6 +49,10 @@
     "seagate": {
       "name": "Seagate Federal",
       "tier": "Patrocinador Rank 4"
+    },
+    "stromasys": {
+      "name": "Stromasys",
+      "tier": "Patrocinador Rank 4"
     }
   }
 }
