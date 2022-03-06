@@ -318,23 +318,6 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       rocket systems, space launch vehicles, or sounding
                       rockets, or unmanned air vehicle systems.
                     </p>
-                    <p>
-                      Rocky Linux software and technical information may be
-                      subject to the U.S. Export Administration Regulations (the
-                      “EAR”) and other U.S. and foreign laws and may not be
-                      exported, re-exported or transferred (a) to a prohibited
-                      destination country under the EAR or U.S. sanctions
-                      regulations (currently Cuba, Iran, North Korea, Sudan,
-                      Syria, and the Crimea Region of Ukraine, subject to change
-                      as posted by the United States government); (b) to any
-                      prohibited destination or to any end user who has been
-                      prohibited from participating in U.S. export transactions
-                      by any federal agency of the U.S. government; or (c) for
-                      use in connection with the design, development or
-                      production of nuclear, chemical or biological weapons, or
-                      rocket systems, space launch vehicles, or sounding
-                      rockets, or unmanned air vehicle systems.
-                    </p>
                   </div>
                 </div>
               </div>
