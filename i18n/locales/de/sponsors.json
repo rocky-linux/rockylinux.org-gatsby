@@ -13,55 +13,66 @@
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Gründungssponsor",
+      "title": "Gründungssponsor",
+      "tier": 1,
       "blurb": "CIQ ist Gründungssponsor des RESF. Rocky Linux bietet kommerzielle Unterstützung und Dienstleistungen für Kunden in Forschung, Wissenschaft, Regierung, Unternehmen, Partner und allen dazwischen."
     },
     "45drives": {
       "name": "45Drives",
-      "tier": "Hauptsponsor",
+      "title": "Hauptsponsor",
+      "tier": 1,
       "blurb": "45Drives bietet Enterprise Storage Lösungen auf Basis leistungsstarker und robuster Open-Source-Software, die es den Kunden ermöglicht, von den Kosteneinsparungen und der Flexibilität der Off-the-Regal-Hardware zu profitieren. Überprüfen Sie diese für eine voll unterstützte Datenspeicherungslösung zum besten Preis pro Terabyte!"
     },
     "aws": {
       "name": "Amazon Web Services",
-      "tier": "Hauptsponsor",
+      "title": "Hauptsponsor",
+      "tier": 1,
       "blurb": "Das RESF verwendet AWS, um einen Großteil der zugrunde liegenden Infrastruktur auszuführen, die entscheidend für die Entwicklung und den Einsatz der Dienste ist, die Rocky Linux unterstützen. Von Koji-Buildern für x86_64 und aarch64, die in EC2 laufen bis SRPM-Speicherplatz in S3, AWS ist grundlegende zu vielem von dem, was wir tun."
     },
     "gcp": {
       "name": "Google Cloud",
-      "tier": "Hauptsponsor",
+      "title": "Hauptsponsor",
+      "tier": 1,
       "blurb": "Als Hauptsponsor des RESF versteht Google die Bedeutung von Rocky Linux als freies, offenes und gemeinschaftliches Betriebssystem. Bereitstellung von Ressourcen für Tests und Validierung, wir haben uns mit dem RESF zusammengetan, um Rockys Status als erstklassiger Bürger auf der Google Cloud Plattform vom ersten Tag an sicherzustellen."
     },
     "azure": {
       "name": "Microsoft Azure",
-      "tier": "Hauptsponsor",
+      "title": "Hauptsponsor",
+      "tier": 1,
       "blurb": "Linux ist die am schnellsten wachsende Plattform auf Azure, die in über der Hälfte der VM-Kerne läuft. Seit mehr als einem Jahrzehnt investiert Microsoft auf Linux, und mit Partnerschaften als zentraler Stützpfeiler der Microsoft-Open-Source-Strategie arbeiten wir mit RESF und dem breiteren Rocky Linux Ökosystem zusammen, um sicherzustellen, dass Kunden immer mehr Optionen haben, um Linux-Workloads auf Azure in einem unterstützten, verwaltete und sichere Weise."
     },
     "montavista": {
       "name": "MontaVista",
-      "tier": "Hauptsponsor",
+      "title": "Hauptsponsor",
+      "tier": 1,
       "blurb": "MontaVista Software ist der führende Anbieter von Embedded-kommerziellen LInux, unterstützt MontaVista CGX, Yocto Project®️, CentOS und Rocky Linux. MontaVista bietet Open Source Software Expertise, kommerziell-qualitative Linux-Distributionen, kostengünstige Wartung und Support für 10 Jahre Lebenszyklen."
     },
     "opendrives": {
       "name": "OpenDrives",
-      "tier": "Hauptsponsor",
+      "title": "Hauptsponsor",
+      "tier": 1,
       "blurb": "OpenDrives ist ein globaler Anbieter von unternehmenskalierten, überskalierbaren, netzwerkbezogenen Speicherlösungen (NAS). Wir bieten unseren Kunden die leistungsfähigsten Lösungen - um den individuellen Leistungsanforderungen gerecht zu werden - für die robuststen, komplexe und missionskritische Projekte und Workflows, vor Ort und in die Wolke."
     },
     "vmware": {
       "name": "VMware",
-      "tier": "Hauptsponsor",
+      "title": "Hauptsponsor",
+      "tier": 1,
       "blurb": "VMware ist ein führender Anbieter von Multi-Cloud-Diensten für alle Anwendungen, die digitale Innovation mit Unternehmenssteuerung ermöglichen."
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "tier": "Sponsor Stufe 4"
+      "title": "Sponsor Stufe 4",
+      "tier": 4
     },
     "seagate": {
       "name": "Seagate Federal",
-      "tier": "Sponsor Stufe 4"
+      "title": "Sponsor Stufe 4",
+      "tier": 4
     },
     "stromasys": {
       "name": "Stromasys",
-      "tier": "Sponsor Stufe 4"
+      "title": "Sponsor Stufe 4",
+      "tier": 4
     }
   }
 }

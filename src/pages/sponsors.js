@@ -23,6 +23,7 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.ciq.name')}`,
       tier: `${translate('sponsors.ciq.tier')}`,
+      title: `${translate('sponsors.ciq.title')}`,
       blurb: `${translate('sponsors.ciq.blurb')}`,
       source: `${CiqLogo}`,
       link: 'https://ciq.co',
@@ -30,6 +31,7 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.45drives.name')}`,
       tier: `${translate('sponsors.45drives.tier')}`,
+      title: `${translate('sponsors.45drives.title')}`,
       blurb: `${translate('sponsors.45drives.blurb')}`,
       source: `${FortyFiveDrivesLogo}`,
       link: 'https://45drives.com',
@@ -37,6 +39,7 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.aws.name')}`,
       tier: `${translate('sponsors.aws.tier')}`,
+      title: `${translate('sponsors.aws.title')}`,
       blurb: `${translate('sponsors.aws.blurb')}`,
       source: `${AwsLogo}`,
       link: 'https://aws.com',
@@ -44,6 +47,7 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.gcp.name')}`,
       tier: `${translate('sponsors.gcp.tier')}`,
+      title: `${translate('sponsors.gcp.title')}`,
       blurb: `${translate('sponsors.gcp.blurb')}`,
       source: `${GcpLogo}`,
       link: 'https://cloud.google.com',
@@ -51,6 +55,7 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.azure.name')}`,
       tier: `${translate('sponsors.azure.tier')}`,
+      title: `${translate('sponsors.azure.title')}`,
       blurb: `${translate('sponsors.azure.blurb')}`,
       source: `${AzureLogo}`,
       link: 'https://azure.com',
@@ -58,6 +63,7 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.montavista.name')}`,
       tier: `${translate('sponsors.montavista.tier')}`,
+      title: `${translate('sponsors.montavista.title')}`,
       blurb: `${translate('sponsors.montavista.blurb')}`,
       source: `${MontaVistaLogo}`,
       link: 'https://mvista.com/',
@@ -65,6 +71,7 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.opendrives.name')}`,
       tier: `${translate('sponsors.opendrives.tier')}`,
+      title: `${translate('sponsors.opendrives.title')}`,
       blurb: `${translate('sponsors.opendrives.blurb')}`,
       source: `${OpenDrivesLogo}`,
       link: 'https://opendrives.com/',
@@ -72,6 +79,7 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.vmware.name')}`,
       tier: `${translate('sponsors.vmware.tier')}`,
+      title: `${translate('sponsors.vmware.title')}`,
       blurb: `${translate('sponsors.vmware.blurb')}`,
       source: `${VmwareLogo}`,
       link: 'https://vmware.com/',
@@ -79,33 +87,33 @@ const SponsorsPage = () => {
     {
       name: `${translate('sponsors.procomputers.name')}`,
       tier: `${translate('sponsors.procomputers.tier')}`,
+      title: `${translate('sponsors.procomputers.title')}`,
       source: `${ProComputersLogo}`,
       link: 'https://www.procomputers.com/',
     },
     {
       name: `${translate('sponsors.seagate.name')}`,
       tier: `${translate('sponsors.seagate.tier')}`,
+      title: `${translate('sponsors.seagate.title')}`,
       source: `${SeagateLogo}`,
       link: 'https://www.seagategov.com/',
     },
     {
       name: `${translate('sponsors.stromasys.name')}`,
       tier: `${translate('sponsors.stromasys.tier')}`,
+      title: `${translate('sponsors.stromasys.title')}`,
       source: `${StromasysLogo}`,
       link: 'https://www.stromasys.com/',
     },
   ];
 
   const principalSponsors = sponsors.filter(function (sponsor) {
-    return (
-      sponsor.tier === 'Founding Sponsor' ||
-      sponsor.tier === 'Principal Sponsor'
-    );
-  });
+    return sponsor.tier === "1";
+  })
 
   const tierFourSponsors = sponsors.filter(function (sponsor) {
-    return sponsor.tier === 'Tier 4 Sponsor';
-  });
+    return sponsor.tier === "4"
+  })
 
   return (
     <Layout>
@@ -136,7 +144,7 @@ const SponsorsPage = () => {
                       {sponsor.name}
                     </p>
                     <p className="block text-sm font-medium text-gray-500 pointer-events-none">
-                      {sponsor.tier}
+                      {sponsor.title}
                     </p>
                     <p className="mt-2 block text-sm font-medium text-gray-900 pointer-events-none">
                       {sponsor.blurb}
@@ -166,7 +174,7 @@ const SponsorsPage = () => {
                       {sponsor.name}
                     </p>
                     <p className="block text-sm font-medium text-gray-500 pointer-events-none">
-                      {sponsor.tier}
+                      {sponsor.title}
                     </p>
                     <p className="mt-2 block text-sm font-medium text-gray-900 pointer-events-none">
                       {sponsor.blurb}
