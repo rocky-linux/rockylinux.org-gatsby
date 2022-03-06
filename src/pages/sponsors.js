@@ -108,12 +108,12 @@ const SponsorsPage = () => {
   ];
 
   const principalSponsors = sponsors.filter(function (sponsor) {
-    return sponsor.tier === "1";
-  })
+    return sponsor.tier === '1';
+  });
 
   const tierFourSponsors = sponsors.filter(function (sponsor) {
-    return sponsor.tier === "4"
-  })
+    return sponsor.tier === '4';
+  });
 
   return (
     <Layout>
