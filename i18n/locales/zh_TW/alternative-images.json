@@ -5,7 +5,7 @@
   "rl8-eol": "<0>計畫的停止維護期限:</0> 2029年05月31日",
   "desktop": "案頭（SIG）",
   "alt-arch": "替代架構（SIG）",
-  "cloud": "Generic Cloud / OpenStack",
+  "cloud": "通用雲端 / OpenStack",
   "headings": {
     "de": "桌面環境",
     "checksum": "校驗",
