@@ -1,14 +1,14 @@
 {
   "title": "赞助商",
   "description": "我们要感谢我们的赞助商迄今为止对该项目的支持。",
-  "tierone": "Tier 1 - Principal Sponsors",
-  "tiertwo": "Tier 2",
-  "tierthree": "Tier 3",
-  "tierfour": "Tier 4",
+  "tierone": "第一级 - 首席赞助商",
+  "tiertwo": "第2级",
+  "tierthree": "第3级",
+  "tierfour": "第4级",
   "blurb": {
     "lineone": "想要成为赞助者吗？",
-    "linetwo": "Get in touch today.",
-    "emailus": "Email Us"
+    "linetwo": "今天就与我们联系。",
+    "emailus": "给我们发电子邮件"
   },
   "sponsors": {
     "ciq": {
@@ -61,17 +61,17 @@
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "title": "Tier 4 Sponsor",
+      "title": "第4级赞助商",
       "tier": 4
     },
     "seagate": {
       "name": "希捷联邦",
-      "title": "Tier 4 Sponsor",
+      "title": "第4级赞助商",
       "tier": 4
     },
     "stromasys": {
       "name": "Stromasys",
-      "title": "Tier 4 Sponsor",
+      "title": "第4级赞助商",
       "tier": 4
     }
   }
