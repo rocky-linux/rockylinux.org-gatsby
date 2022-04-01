@@ -1,0 +1,47 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.222.0/containers/javascript-node
+{
+  "name": "Node.js",
+  "build": {
+    "dockerfile": "Dockerfile",
+    // Update 'VARIANT' to pick a Node version: 16, 14, 12.
+    // Append -bullseye or -buster to pin to an OS version.
+    // Use -bullseye variants on local arm64/Apple Silicon.
+    "args": { "VARIANT": "16-bullseye" }
+  },
+
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ecmel.vscode-html-css",
+    "zignd.html-css-class-completion",
+    "bradlc.vscode-tailwindcss",
+    "austenc.tailwind-docs"
+  ],
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": ["8000:8000"],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "brew install pre-commit && pre-commit install && pre-commit install --hook-type commit-msg && npm install",
+
+  // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "node",
+  "features": {
+    "git": "os-provided",
+    "github-cli": "latest",
+    "homebrew": "latest"
+  }
+}
