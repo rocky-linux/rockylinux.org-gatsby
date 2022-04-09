@@ -305,7 +305,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                       “EAR”) and other U.S. and foreign laws and may not be
                       exported, re-exported or transferred (a) to a prohibited
                       destination country under the EAR or U.S. sanctions
-                      regulations (currently Cuba, Iran, North Korea, Sudan,
+                      regulations (currently Cuba, Iran, North Korea,
                       Syria, and the Crimea Region of Ukraine, subject to change
                       as posted by the United States government); (b) to any
                       prohibited destination or to any end user who has been
