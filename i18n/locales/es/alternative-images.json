@@ -2,7 +2,7 @@
   "title": "Imágenes alternativas",
   "description": "Las imágenes proporcionadas en esta página están disponibles en uno de nuestros espejos de confianza, pero no son oficialmente compatibles.",
   "rl8": "Rocky Linux 8 (actual)",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
+  "rl8-eol": "<0>Fin de vida útil planificado:</0> 31 de mayo de 2029",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Alternative Architectures (SIG)",
   "cloud": "Generic Cloud / OpenStack",
