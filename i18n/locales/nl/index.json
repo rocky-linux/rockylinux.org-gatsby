@@ -19,18 +19,18 @@
       "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
     },
     "3": {
-      "title": "Easy Migration",
+      "title": "Makkelijke Migratie",
       "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
     }
   },
   "latest-news": {
-    "title": "Latest News",
+    "title": "Laatste Nieuws",
     "description": "We regularly share updates with the community about what's happening. Here's the latest."
   },
   "sponsors-partners": {
-    "backed": "Backed By",
+    "backed": "Gesteund Door",
     "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "partners": "Alle Partners",
+    "support": "Ondersteuningspartners"
   }
 }
