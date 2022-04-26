@@ -1,63 +1,63 @@
 {
   "title": "Partners",
-  "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+  "description": "Partners van de RESF vertegenwoordigen doorlopende relaties van strategisch belang voor het Rocky Linux-project. Door de inzet van technische expertise, infrastructuur of andere middelen is hun steun cruciaal voor ons voortdurende succes en langdurige stabiliteit.",
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "tier": "Oprichtingspartner",
+      "blurb": "We geloven in het helpen van mensen om geweldige dingen te doen. Daarom is CIQ een sponsor van de RESF. We bieden commerciële ondersteuning en diensten voor Rocky Linux aan klanten in onderzoek, academici, overheid, ondernemerschap, partners en iedereen daartussen."
     },
     "arm": {
       "name": "ARM",
-      "tier": "Principal Partner",
-      "blurb": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+      "tier": "Hoofdpartner",
+      "blurb": "ARM zet zich in om ervoor te zorgen dat zijn architectuur een eersteklas burger is met Rocky Linux. We hebben samengewerkt met de RESF, en hebben gezorgd voor specifieke technische inspanningen om Rocky Linux ontwikkelings- en testteams aan te vullen, nauw samenwerkend om ARM te testen, te valideren en te steunen, nu en ver tot in de toekomst."
     },
     "equinix": {
       "name": "Equinix",
-      "tier": "Principal Partner",
-      "blurb": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+      "tier": "Hoofdpartner",
+      "blurb": "Equinix is hét digitale infrastructuurbedrijf. Digitale leiders gebruiken ons vertrouwde platform om de fundamentele infrastructuur die hun succes activeert samen te brengen en met elkaar te verbinden."
     },
     "fastly": {
       "name": "Fastly",
-      "tier": "Principal Partner",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "tier": "Hoofdpartner",
+      "blurb": "Fastly's edge cloud platform stelt klanten in staat om snel, veilig en betrouwbaar fantastische digitale ervaringen te creëren door het verwerken en beveiligen van de applicaties van onze klanten, zo dicht mogelijk bij hun eindgebruikers - op de rand van het internet."
     },
     "fosshost": {
       "name": "Fosshost",
-      "tier": "Principal Partner",
-      "blurb": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
+      "tier": "Hoofdpartner",
+      "blurb": "Fosshost (UK CIC #13356530) biedt gratis enterprise-graad internet hosting en beheerde diensten aan voor de FOSS-gemeenschap. We zijn op missie om elk gratis en open source softwareproject uit te breiden en te ondersteunen. Om verder te gaan, samen. Ons werk stopt nooit. Meld u vandaag aan!"
     },
     "mattermost": {
       "name": "Mattermost",
-      "tier": "Principal Partner",
-      "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      "tier": "Hoofdpartner",
+      "blurb": "Patroon is een open source messaging oplossing gemaakt voor organisaties met de hoogste beveiligingseisen. Als grote gelovers in de macht van open source is Mattermost enthousiast om te partneren met de RESF om een enterprise-graad distributie van Linux naar de tech community te brengen."
     },
     "naver": {
       "name": "NAVER Cloud",
-      "tier": "Principal Partner",
-      "blurb": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+      "tier": "Hoofdpartner",
+      "blurb": "NAVER Cloud Platform is een Zuid-Koreaanse cloud dienst die in 2017 begon onder NAVER Cloud, dochter van NAVER. Het levert meer dan 170 individuele diensten in 2021 en heeft verschillende beveiligingscertificeringen, waaronder CSA STAR GOLD, GDPR, en meer. Het levert momenteel ook cloud diensten op 10 locaties over de hele wereld."
     },
     "osl": {
       "name": "OSU Open Source Labs",
-      "tier": "Principal Partner",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "tier": "Hoofdpartner",
+      "blurb": "Het Oregon State University Open Source Lab is een non-profit organisatie die werkt aan de ontwikkeling van open source technologieën. Het OSL biedt hosting diensten van wereldklasse, professionele softwareontwikkeling en ter plaatse training voor veelbelovende studenten die geïnteresseerd zijn in open source management en programmeren."
     },
     "supermicro": {
       "name": "Supermicro",
-      "tier": "Principal Partner",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "tier": "Hoofdpartner",
+      "blurb": "Als wereldleider in hoge prestaties, high-efficiency server technologie en innovatie is Supermicro enthousiast om met de RESF te werken en datacentrum en opslagsystemen te leveren die zijn geoptimaliseerd voor Rocky Linux."
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "Tier 4 Partner"
+      "tier": "Niveau 4 Partner"
     },
     "dsstudio": {
       "name": "DotSlash Studio",
-      "tier": "Tier 4 Partner"
+      "tier": "Niveau 4 Partner"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "Tier 4 Partner"
+      "tier": "Niveau 4 Partner"
     }
   }
 }
