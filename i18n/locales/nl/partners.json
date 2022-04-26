@@ -8,7 +8,7 @@
       "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
     },
     "arm": {
-      "name": "Arm",
+      "name": "ARM",
       "tier": "Principal Partner",
       "blurb": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
     },
