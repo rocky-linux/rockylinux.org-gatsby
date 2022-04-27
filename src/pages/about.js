@@ -15,18 +15,18 @@ const AboutPage = () => {
     <Layout>
       <SEO title={translate('title')} />
       <Header pageContext="{locale: language}" />
-      <div className="py-16 bg-gray-50 overflow-hidden">
+      <div className="py-16 bg-gray-50 dark:bg-gray-900 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
           <div className="text-base max-w-prose mx-auto lg:max-w-none">
             <h2 className="text-base text-green-500 font-semibold tracking-wide uppercase">
               {translate('subtitle')}
             </h2>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">
               {translate('title')}
             </p>
           </div>
           <div className="relative z-10 text-base max-w-prose prose prose-green mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
-            <p className="text-lg text-gray-500">
+            <p className="text-lg text-gray-500 dark:text-gray-50">
               <Trans t={translate} i18nKey="content.highlight">
                 <a
                   className="text-green-600 dark:text-green-500 font-medium"
@@ -39,7 +39,7 @@ const AboutPage = () => {
           </div>
           <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
             <div className="relative z-10">
-              <div className="prose prose-green text-gray-500 mx-auto lg:max-w-none">
+              <div className="prose prose-green text-gray-500 dark:text-gray-50 mx-auto lg:max-w-none">
                 <p>{translate('content.paragraph')}</p>
                 <h3>{translate('organization.heading')}</h3>
                 <p>
