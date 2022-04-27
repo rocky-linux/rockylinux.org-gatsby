@@ -123,7 +123,7 @@ const SponsorsPage = () => {
         title={translate('title')}
         description={translate('description')}
       >
-        <div className="bg-white">
+        <div className="bg-white dark:bg-gray-900">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold mb-5">{translate('tierone')}</h1>
             <ul
@@ -133,20 +133,20 @@ const SponsorsPage = () => {
               {principalSponsors.map((sponsor) => (
                 <a href={sponsor.link}>
                   <li key={sponsor.source} className="relative">
-                    <div className="group block w-full rounded-lg bg-gray-100 py-10 px-10">
+                    <div className="group block w-full rounded-lg bg-gray-100 dark:bg-gray-600 py-10 px-10">
                       <img
                         src={sponsor.source}
                         alt=""
                         className="object-fit pointer-events-none"
                       />
                     </div>
-                    <p className="mt-2 block text-base font-bold text-gray-900 truncate pointer-events-none">
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
                       {sponsor.name}
                     </p>
-                    <p className="block text-sm font-medium text-gray-500 pointer-events-none">
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
                       {sponsor.title}
                     </p>
-                    <p className="mt-2 block text-sm font-medium text-gray-900 pointer-events-none">
+                    <p className="mt-2 block text-sm font-medium text-gray-900 dark:text-gray-300 pointer-events-none">
                       {sponsor.blurb}
                     </p>
                   </li>
@@ -163,20 +163,20 @@ const SponsorsPage = () => {
               {tierFourSponsors.map((sponsor) => (
                 <a href={sponsor.link}>
                   <li key={sponsor.source} className="relative">
-                    <div className="group block w-full rounded-lg bg-gray-100 py-10 px-10">
+                    <div className="group block w-full rounded-lg bg-gray-100 dark:bg-gray-600 py-10 px-10">
                       <img
                         src={sponsor.source}
                         alt=""
                         className="object-fit pointer-events-none"
                       />
                     </div>
-                    <p className="mt-2 block text-base font-bold text-gray-900 truncate pointer-events-none">
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
                       {sponsor.name}
                     </p>
-                    <p className="block text-sm font-medium text-gray-500 pointer-events-none">
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
                       {sponsor.title}
                     </p>
-                    <p className="mt-2 block text-sm font-medium text-gray-900 pointer-events-none">
+                    <p className="mt-2 block text-sm font-medium text-gray-900 dark:text-gray-300 pointer-events-none">
                       {sponsor.blurb}
                     </p>
                   </li>
@@ -185,7 +185,7 @@ const SponsorsPage = () => {
             </ul>
           </div>
         </div>
-        <div className="bg-green-50">
+        <div className="bg-green-50 dark:bg-green-700">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
               <span className="block">{translate('blurb.lineone')}</span>
