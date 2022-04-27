@@ -122,7 +122,7 @@ const Header = ({ pageContext: { locale: language } }) => {
               <LocalizedLink
                 to="/news/1"
                 language={language}
-                className="text-base font-medium text-gray-500 dark:text-gray-50 hover:text-gray-900"
+                className="text-base font-medium text-gray-500 dark:text-gray-50 hover:text-gray-900 dark:hover:text-green-500"
               >
                 {translate('categories.news')}
               </LocalizedLink>
@@ -133,7 +133,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <Popover.Button
                       className={classNames(
                         open ? 'text-gray-900' : 'text-gray-500',
-                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
+                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 dark:hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
                       )}
                     >
                       <span>{translate('categories.about')}</span>
@@ -184,7 +184,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <Popover.Button
                       className={classNames(
                         open ? 'text-gray-900' : 'text-gray-500',
-                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
+                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 dark:hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
                       )}
                     >
                       <span>{translate('categories.community')}</span>
@@ -234,7 +234,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <Popover.Button
                       className={classNames(
                         open ? 'text-gray-900' : 'text-gray-500',
-                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
+                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 dark:hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
                       )}
                     >
                       <span>{translate('categories.documentation')}</span>
