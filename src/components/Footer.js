@@ -159,7 +159,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
           <div className="grid grid-cols-2 gap-8 xl:col-span-4">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
                   {translate('categories.about')}
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -168,7 +168,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                       <LocalizedLink
                         to={item.href}
                         language={language}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-green-500"
                       >
                         {item.name}
                       </LocalizedLink>
@@ -177,7 +177,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
                   {translate('categories.get-involved')}
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -185,7 +185,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-green-500"
                       >
                         {item.name}
                       </a>
@@ -196,7 +196,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
                   {translate('categories.documentation')}
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -205,7 +205,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                       <LocalizedLink
                         to={item.href}
                         language={language}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-green-500"
                       >
                         {item.name}
                       </LocalizedLink>
@@ -214,7 +214,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
                   {translate('categories.legal')}
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -223,7 +223,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                       <LocalizedLink
                         to={item.href}
                         language={language}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-green-500"
                       >
                         {item.name}
                       </LocalizedLink>
@@ -235,8 +235,8 @@ const Footer = ({ pageContext: { locale: language } }) => {
           </div>
           <div className="mt-12 xl:mt-0">
             <div className="flex items-center">
-              <TranslateIcon class="h-5 w-5 text-gray-400" />
-              <h3 className="ml-1 text-sm font-semibold text-gray-400 tracking-wider uppercase">
+              <TranslateIcon class="h-5 w-5 text-gray-400 dark:text-gray-200" />
+              <h3 className="ml-1 text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
                 {translate('categories.language')}
               </h3>
             </div>
@@ -254,7 +254,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                       }`;
                     }}
                     name="language"
-                    className="appearance-none block w-full bg-none bg-white border border-gray-300 rounded-md py-2 pl-3 pr-10 text-base text-gray-900 focus:outline-none focus:ring-green-500 focus:border-green-500"
+                    className="appearance-none block w-full bg-none bg-white dark:bg-gray-500 border border-gray-300 rounded-md py-2 pl-3 pr-10 text-base text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-green-500 focus:border-green-500"
                   >
                     <option value="" selected hidden disabled>
                       {translate('lang.choose')}
@@ -292,19 +292,19 @@ const Footer = ({ pageContext: { locale: language } }) => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-400 hover:text-gray-500"
+                className="text-gray-400 dark:text-gray-50 hover:text-gray-500 dark:hover:text-green-500"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>
             ))}
           </div>
-          <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+          <p className="mt-8 text-base text-gray-400 dark:text-gray-50 md:mt-0 md:order-1">
             {translate('copyright.line1')}
           </p>
         </div>
         <div className="pt-8 md:flex md:items-center md:justify-between">
-          <p className="mt-8 text-xs text-gray-400 md:mt-0 md:order-1">
+          <p className="mt-8 text-xs text-gray-400 dark:text-gray-50 md:mt-0 md:order-1">
             {translate('copyright.line2')}
           </p>
         </div>
