@@ -315,7 +315,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <img className="h-8 w-auto" src={Logo} alt="Rocky Linux" />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white dark:bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 dark:text-gray-50 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
+                    <Popover.Button className="bg-white dark:bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 dark:text-gray-50 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
                       <span className="sr-only">Close menu</span>
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -327,7 +327,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
+                        className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50 dark:hover:bg-gray-600"
                       >
                         <div className="ml-4 text-base font-medium text-gray-900 dark:text-gray-50">
                           {item.name}
