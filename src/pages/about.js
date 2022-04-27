@@ -85,11 +85,11 @@ const AboutPage = () => {
                   fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)"
                 />
               </svg>
-              <blockquote className="relative bg-white rounded-lg shadow-lg">
+              <blockquote className="relative bg-white dark:bg-gray-700 rounded-lg shadow-lg">
                 <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-                  <div className="relative text-lg text-gray-700 font-medium">
+                  <div className="relative text-lg text-gray-700 dark:text-gray-300 font-medium">
                     <svg
-                      className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200"
+                      className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200 dark:text-gray-900"
                       fill="currentColor"
                       viewBox="0 0 32 32"
                       aria-hidden="true"
