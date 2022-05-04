@@ -46,7 +46,7 @@ const Header = ({ pageContext: { locale: language } }) => {
   const community = [
     {
       name: `${translate('community.contribute')}`,
-      href: 'https://wiki.rockylinux.org/en/contributing/getting-started',
+      href: 'https://wiki.rockylinux.org/contributing/',
     },
     {
       name: `${translate('community.forums')}`,
@@ -62,7 +62,7 @@ const Header = ({ pageContext: { locale: language } }) => {
     },
     {
       name: `${translate('community.irc')}`,
-      href: 'https://wiki.rockylinux.org/en/irc-general-information',
+      href: 'https://wiki.rockylinux.org/irc/',
     },
     {
       name: `${translate('community.calendar')}`,
