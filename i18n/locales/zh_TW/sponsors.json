@@ -59,6 +59,11 @@
       "tier": 1,
       "blurb": "VMware是為所有應用提供多雲服務的領先提供商，通過企業控制實現電腦技術的創新。"
     },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "title": "第四級贊助商",
+      "tier": 4
+    },
     "procomputers": {
       "name": "ProComputers.com",
       "title": "第四級贊助商",
