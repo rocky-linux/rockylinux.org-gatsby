@@ -59,6 +59,11 @@
       "tier": 1,
       "blurb": "VMware est l'un des principaux fournisseurs de services multi-cloud pour toutes les applications, permettant ainsi l'innovation numérique avec le contrôle de l'entreprise."
     },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "title": "Tier 4 Sponsor",
+      "tier": 4
+    },
     "procomputers": {
       "name": "ProComputers.com",
       "title": "Tier 4 Sponsor",
