@@ -59,6 +59,11 @@
       "tier": 1,
       "blurb": "Firma VMware jest wiodącym dostawcą usług chmury obliczeniowej dla wszystkich aplikacji, umożliwiając innowacje cyfrowe przy zachowaniu kontroli nad przedsiębiorstwem."
     },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "title": "Sponsor 4 Poziomu",
+      "tier": 4
+    },
     "procomputers": {
       "name": "ProComputers.com",
       "title": "Sponsor 4 Poziomu",

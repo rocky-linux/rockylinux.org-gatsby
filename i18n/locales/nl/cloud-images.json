@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
-  "description": "Find our official images from your favorite cloud provider.",
+  "title": "Cloudafbeeldingen",
+  "description": "Vind onze officiële afbeeldingen van je favoriete cloud provider.",
   "headings": {
-    "version": "OS Version",
+    "version": "OS Versie",
     "provider": "Provider",
-    "region": "Region",
-    "arch": "Architecture",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "region": "Regio",
+    "arch": "Architectuur",
+    "id": "Afbeelding ID",
+    "deploy": "Inzetlink"
   },
-  "deploy": "Deploy"
+  "deploy": "Inzetten"
 }
