@@ -695,7 +695,7 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
         title={translate('title')}
         description={translate('description')}
       >
-        <div className="min-h-screen text-gray-900 overflow-auto">
+        <div className="min-h-screen text-gray-900 dark:text-gray-200 overflow-auto">
           <main className="max-w-4xl lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
             <div className="mt-4">
               <Table columns={columns} data={data} />

@@ -56,20 +56,20 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
           <div className="flex flex-col">
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                <h2 className="text-center mb-2 font-bold text-3xl">
+                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
                   {translate('rl8')}
                 </h2>
-                <p className="text-center text-base mb-6">
+                <p className="text-center text-base mb-6 dark:text-white">
                   <Trans t={translate} i18nKey="rl8-eol">
                     <strong>Planned EOL:</strong>
                   </Trans>
                 </p>
-                <h2 className="text-center mb-4 font-bold text-2xl">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
                   {translate('desktop')}
                 </h2>
-                <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg mb-20">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead className="bg-gray-100">
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
                       <tr>
                         <th
                           scope="col"
@@ -92,8 +92,8 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="bg-white">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
                           {translate('body.gnome')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -120,8 +120,8 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                           </a>
                         </td>
                       </tr>
-                      <tr className="bg-gray-100">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      <tr className="bg-gray-100 dark:bg-gray-800">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
                           {translate('body.xfce')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -151,12 +151,12 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-2xl">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
                   {translate('alt-arch')}
                 </h2>
-                <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg mb-20">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead className="bg-gray-100">
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
                       <tr>
                         <th
                           scope="col"
@@ -185,8 +185,8 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="bg-white">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
                           {translate('body.rpi')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -217,12 +217,12 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-2xl">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
                   {translate('cloud')}
                 </h2>
-                <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg mb-20">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead className="bg-gray-100">
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-800 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-800">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
                       <tr>
                         <th
                           scope="col"
@@ -245,8 +245,8 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="bg-white">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
                           {translate('body.x86_64')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -266,8 +266,8 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                           </a>
                         </td>
                       </tr>
-                      <tr className="bg-gray-100">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      <tr className="bg-gray-100 dark:bg-gray-800">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
                           {translate('body.arm')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -295,12 +295,12 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
           </div>
         </div>
         <div className="relative max-w-max lg:max-w-4xl mx-auto">
-          <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-3 sm:gap-px">
+          <div className="rounded-lg bg-gray-200 dark:bg-gray-800 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-800 sm:divide-y-0 sm:grid sm:grid-cols-3 sm:gap-px">
             {actions.map((action, actionIdx) => (
               <div
                 key={action.title}
                 className={classNames(
-                  'relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
+                  'relative group bg-white dark:bg-gray-700 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
                 )}
               >
                 <div>
@@ -308,14 +308,14 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     className={classNames(
                       action.iconBackground,
                       action.iconForeground,
-                      'rounded-lg inline-flex p-3 ring-4 ring-white'
+                      'rounded-lg inline-flex p-3 ring-4 ring-white dark:ring-gray-700'
                     )}
                   >
                     <action.icon className="h-6 w-6" aria-hidden="true" />
                   </span>
                 </div>
                 <div className="mt-2">
-                  <h3 className="text-lg font-medium">
+                  <h3 className="text-lg font-medium dark:text-white">
                     <LocalizedLink
                       to={action.href}
                       language={language}
@@ -350,7 +350,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
             <div className="relative">
               <div className="relative md:p-6">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-6">
-                  <div className="prose prose-green prose-lg text-gray-500 lg:max-w-none">
+                  <div className="prose prose-green prose-lg dark:prose-invert text-gray-500 lg:max-w-none">
                     <h3>{translate('get-involved.heading')}</h3>
                     <p>
                       <Trans t={translate} i18nKey="get-involved.body">
@@ -368,7 +368,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     <h4>{translate('isos.dvd.heading')}</h4>
                     <p>{translate('isos.dvd.body')}</p>
                   </div>
-                  <div className="mt-6 prose prose-green prose-lg text-gray-500 lg:mt-0">
+                  <div className="mt-6 prose prose-green prose-lg dark:prose-invert text-gray-500 lg:mt-0">
                     <h3>Export Compliance/Customs Information</h3>
                     <p>
                       By downloading Rocky Linux software, you acknowledge that

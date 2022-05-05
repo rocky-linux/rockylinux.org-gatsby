@@ -28,9 +28,9 @@ export function SelectColumnFilter({
 
   return (
     <label className="flex gap-x-2 items-baseline">
-      <span className="text-gray-700">{render('Header')}: </span>
+      <span className="text-gray-700 dark:text-gray-200">{render('Header')}: </span>
       <select
-        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
+        className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-700 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50 dark:bg-gray-700"
         name={id}
         id={id}
         value={filterValue}
@@ -62,10 +62,10 @@ function GlobalFilter({
 
   return (
     <label className="flex gap-x-2 items-baseline">
-      <span className="text-gray-700">Search: </span>
+      <span className="text-gray-700 dark:text-gray-50">Search: </span>
       <input
         type="text"
-        class="mt-1 block min-w-xl rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
+        class="mt-1 block min-w-xl rounded-md border-gray-300 dark:border-gray-700 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50 dark:bg-gray-700"
         value={value || ''}
         onChange={(e) => {
           setValue(e.target.value);
@@ -126,12 +126,12 @@ function Table({ columns, data }) {
       <div className="mt-2 flex flex-col">
         <div className="-my-2 overflow-x-auto -mx-4 sm:-mx-6 lg:-mx-8">
           <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-            <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+            <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-800 sm:rounded-lg">
               <table
                 {...getTableProps()}
-                className="min-w-full divide-y divide-gray-200"
+                className="min-w-full divide-y divide-gray-200 dark:divide-gray-800"
               >
-                <thead className="bg-gray-50">
+                <thead className="bg-gray-50 dark:bg-gray-800">
                   {headerGroups.map((headerGroup) => (
                     <tr {...headerGroup.getHeaderGroupProps()}>
                       {headerGroup.headers.map((column) => (
@@ -160,7 +160,7 @@ function Table({ columns, data }) {
                 </thead>
                 <tbody
                   {...getTableBodyProps()}
-                  className="bg-white divide-y divide-gray-200"
+                  className="bg-white dark:bg-gray-700 divide-y divide-gray-200 dark:divide-gray-800"
                 >
                   {page.map((row, i) => {
                     // new
@@ -197,13 +197,13 @@ function Table({ columns, data }) {
         </div>
         <div className="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
           <div className="flex gap-x-2">
-            <span className="text-sm text-gray-700 self-center">
+            <span className="text-sm text-gray-700 dark:text-gray-50 self-center">
               Page <span className="font-medium">{state.pageIndex + 1}</span> of{' '}
               <span className="font-medium">{pageOptions.length}</span>
             </span>
             <label>
               <select
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
+                className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-700 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50 dark:bg-gray-700"
                 value={state.pageSize}
                 onChange={(e) => {
                   setPageSize(Number(e.target.value));
