@@ -13,6 +13,7 @@ import AzureLogo from '../images/azure.png';
 import MontaVistaLogo from '../images/montavista.png';
 import OpenDrivesLogo from '../images/opendrives.png';
 import VmwareLogo from '../images/vmware.png';
+import OpenLogicLogo from '../images/openlogic.svg';
 import ProComputersLogo from '../images/procomputers.png';
 import SeagateLogo from '../images/seagate.png';
 import StromasysLogo from '../images/stromasys.png';
@@ -83,6 +84,13 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.vmware.blurb')}`,
       source: `${VmwareLogo}`,
       link: 'https://vmware.com/',
+    },
+    {
+      name: `${translate('sponsors.openlogic.name')}`,
+      tier: `${translate('sponsors.openlogic.tier')}`,
+      title: `${translate('sponsors.openlogic.title')}`,
+      source: `${OpenLogicLogo}`,
+      link: 'https://www.openlogic.com/',
     },
     {
       name: `${translate('sponsors.procomputers.name')}`,
