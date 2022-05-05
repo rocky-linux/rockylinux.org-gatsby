@@ -11,3 +11,13 @@
 .prose :where(code):not(:where([class~='not-prose'] *))::after {
   content: '' !important;
 }
+
+.logo-text {
+  fill: black !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo-text {
+    fill: white !important;
+  }
+}

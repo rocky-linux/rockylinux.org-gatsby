@@ -133,7 +133,9 @@ const SponsorsPage = () => {
       >
         <div className="bg-white dark:bg-gray-900">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold mb-5">{translate('tierone')}</h1>
+            <h1 className="text-3xl font-bold mb-5 text-gray-900 dark:text-gray-50">
+              {translate('tierone')}
+            </h1>
             <ul
               role="list"
               className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-4 sm:gap-x-6 lg:grid-cols- xl:gap-x-8"
@@ -161,7 +163,7 @@ const SponsorsPage = () => {
                 </a>
               ))}
             </ul>
-            <h1 className="text-3xl font-bold mb-5 mt-10">
+            <h1 className="text-3xl font-bold mb-5 mt-10 text-gray-900 dark:text-gray-50">
               {translate('tierfour')}
             </h1>
             <ul

@@ -29,7 +29,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                 </LocalizedLink>
               </div>
               <div className="mt-6 sm:max-w-xl">
-                <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
+                <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-50 tracking-tight sm:text-5xl">
                   {translate('hero.title')}
                 </h1>
                 <p className="mt-6 text-xl text-gray-500 dark:text-gray-50">
@@ -65,7 +65,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
         <div className="sm:mx-auto sm:max-w-3xl sm:px-6">
           <div className="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <div className="hidden sm:block">
-              <div className="absolute inset-y-0 left-1/2 w-screen bg-gray-100 rounded-l-3xl lg:left-80 lg:right-0 lg:w-full" />
+              <div className="absolute inset-y-0 left-1/2 w-screen bg-gray-100 dark:bg-gray-800 rounded-l-3xl lg:left-80 lg:right-0 lg:w-full" />
               <svg
                 className="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0"
                 width={404}
@@ -87,7 +87,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                       y={0}
                       width={4}
                       height={4}
-                      className="text-gray-200"
+                      className="text-gray-200 dark:text-gray-700"
                       fill="currentColor"
                     />
                   </pattern>

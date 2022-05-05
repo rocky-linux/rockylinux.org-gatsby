@@ -17,7 +17,7 @@ export default function Pagination({
   const nextPath = `/${type}/${nextPage}`;
 
   return (
-    <div className="text-center pagination-navi text-gray-900 my-10">
+    <div className="text-center pagination-navi text-gray-900 dark:text-gray-50 my-10">
       <Link
         to={prevPath}
         className={`${
