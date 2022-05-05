@@ -1,11 +1,16 @@
 {
   "title": "Support-Anbieter",
-  "description": "Rocky Linux wird von CIQ, unserem Gründer- und Sponsor-Partner, sowie anderen nicht angeschlossenen Unternehmen kommerziell unterstützt.",
+  "description": "Rocky Linux is commercially supported these sponsors and partners, as well as other non-affiliated companies.",
   "support": {
     "ciq": {
       "name": "CIQ",
       "tier": "Partner/Sponsor",
       "blurb": "CIQ ist Gründungssponsor des RESF. Rocky Linux bietet kommerzielle Unterstützung und Dienstleistungen für Kunden in Forschung, Wissenschaft, Regierung, Unternehmen, Partner und allen dazwischen."
+    },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "tier": "Tier 4 Sponsor",
+      "blurb": "OpenLogic delivers comprehensive support services for open source software, so that your teams can enjoy the benefits of using open source — and confidently meet your requirements including compliance with regulations such as GDPR, HIPAA, and PCI."
     }
   },
   "get": "Support erhalten"
