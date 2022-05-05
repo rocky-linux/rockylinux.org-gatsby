@@ -59,6 +59,11 @@
       "tier": 1,
       "blurb": "VMwareは、あらゆるアプリケーションに対応するマルチクラウドサービスを提供するリーディングカンパニーであり、エンタープライズコントロールによるデジタルイノベーションを実現します。"
     },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "title": "Tier 4 スポンサー",
+      "tier": 4
+    },
     "procomputers": {
       "name": "ProComputers.com",
       "title": "Tier 4 スポンサー",
