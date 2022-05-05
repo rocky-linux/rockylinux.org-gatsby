@@ -59,6 +59,11 @@
       "tier": 1,
       "blurb": "VMware - ведущий поставщик мультиоблачных услуг для всех приложений, обеспечивающий цифровые инновации с корпоративным контролем."
     },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "title": "Спонсор уровня 4",
+      "tier": 4
+    },
     "procomputers": {
       "name": "ProComputers.com",
       "title": "Спонсор уровня 4",
