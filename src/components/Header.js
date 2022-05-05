@@ -46,7 +46,7 @@ const Header = ({ pageContext: { locale: language } }) => {
   const community = [
     {
       name: `${translate('community.contribute')}`,
-      href: 'https://wiki.rockylinux.org/en/contributing/getting-started',
+      href: 'https://wiki.rockylinux.org/contributing/',
     },
     {
       name: `${translate('community.forums')}`,
@@ -62,7 +62,7 @@ const Header = ({ pageContext: { locale: language } }) => {
     },
     {
       name: `${translate('community.irc')}`,
-      href: 'https://wiki.rockylinux.org/en/irc-general-information',
+      href: 'https://wiki.rockylinux.org/irc/',
     },
     {
       name: `${translate('community.calendar')}`,
@@ -112,7 +112,7 @@ const Header = ({ pageContext: { locale: language } }) => {
             </LocalizedLink>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
+            <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -122,7 +122,7 @@ const Header = ({ pageContext: { locale: language } }) => {
               <LocalizedLink
                 to="/news/1"
                 language={language}
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
+                className="text-base font-medium text-gray-500 dark:text-gray-50 hover:text-gray-900 dark:hover:text-green-500"
               >
                 {translate('categories.news')}
               </LocalizedLink>
@@ -133,7 +133,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <Popover.Button
                       className={classNames(
                         open ? 'text-gray-900' : 'text-gray-500',
-                        'group bg-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
+                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 dark:hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
                       )}
                     >
                       <span>{translate('categories.about')}</span>
@@ -157,15 +157,15 @@ const Header = ({ pageContext: { locale: language } }) => {
                     >
                       <Popover.Panel className="absolute z-50 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
                         <div className="rounded-md shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                          <div className="relative grid gap-6 bg-gray-50 px-5 py-6 sm:gap-8 sm:p-8">
+                          <div className="relative grid gap-6 bg-gray-50 dark:bg-gray-800 px-5 py-6 sm:gap-8 sm:p-8">
                             {about.map((item) => (
                               <LocalizedLink
                                 key={item.name}
                                 to={item.href}
                                 language={language}
-                                className="-m-3 p-3 block rounded-md hover:bg-gray-50"
+                                className="-m-3 p-3 block rounded-md hover:bg-gray-50 dark:hover:bg-gray-700"
                               >
-                                <p className="text-base font-medium text-gray-900">
+                                <p className="text-base font-medium text-gray-900 dark:text-gray-50">
                                   {item.name}
                                 </p>
                               </LocalizedLink>
@@ -184,7 +184,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <Popover.Button
                       className={classNames(
                         open ? 'text-gray-900' : 'text-gray-500',
-                        'group bg-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
+                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 dark:hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
                       )}
                     >
                       <span>{translate('categories.community')}</span>
@@ -208,14 +208,14 @@ const Header = ({ pageContext: { locale: language } }) => {
                     >
                       <Popover.Panel className="absolute z-50 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
                         <div className="rounded-md shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                          <div className="relative grid gap-6 bg-gray-50 px-5 py-6 sm:gap-8 sm:p-8">
+                          <div className="relative grid gap-6 bg-gray-50 dark:bg-gray-800 px-5 py-6 sm:gap-8 sm:p-8">
                             {community.map((item) => (
                               <a
                                 key={item.name}
                                 href={item.href}
-                                className="-m-3 p-3 block rounded-md hover:bg-gray-50"
+                                className="-m-3 p-3 block rounded-md hover:bg-gray-50 dark:hover:bg-gray-600"
                               >
-                                <p className="text-base font-medium text-gray-900">
+                                <p className="text-base font-medium text-gray-900 dark:text-gray-50">
                                   {item.name}
                                 </p>
                               </a>
@@ -234,7 +234,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <Popover.Button
                       className={classNames(
                         open ? 'text-gray-900' : 'text-gray-500',
-                        'group bg-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
+                        'group bg-gray-50 dark:bg-gray-700 dark:text-gray-50 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 dark:hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
                       )}
                     >
                       <span>{translate('categories.documentation')}</span>
@@ -258,15 +258,15 @@ const Header = ({ pageContext: { locale: language } }) => {
                     >
                       <Popover.Panel className="absolute z-50 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
                         <div className="rounded-md shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                          <div className="relative grid gap-6 bg-gray-50 px-5 py-6 sm:gap-8 sm:p-8">
+                          <div className="relative grid gap-6 bg-gray-50 dark:bg-gray-800 px-5 py-6 sm:gap-8 sm:p-8">
                             {documentation.map((item) => (
                               <LocalizedLink
                                 key={item.name}
                                 to={item.href}
                                 language={language}
-                                className="-m-3 p-3 block rounded-md hover:bg-gray-50"
+                                className="-m-3 p-3 block rounded-md hover:bg-gray-50 dark:hover:bg-gray-600"
                               >
-                                <p className="text-base font-medium text-gray-900">
+                                <p className="text-base font-medium text-gray-900 dark:text-gray-50">
                                   {item.name}
                                 </p>
                                 <p className="mt-1 text-sm text-gray-500">
@@ -286,7 +286,7 @@ const Header = ({ pageContext: { locale: language } }) => {
               <LocalizedLink
                 to="/download"
                 language={language}
-                className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
               >
                 {translate('download')}
                 <span className="ml-2 font-light">8.5</span>
@@ -308,14 +308,14 @@ const Header = ({ pageContext: { locale: language } }) => {
             focus
             className="z-20 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           >
-            <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-              <div className="pt-5 pb-6 px-5">
+            <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50 dark:divide-gray-700">
+              <div className="pt-5 pb-6 px-5 dark:bg-gray-800">
                 <div className="flex items-center justify-between">
                   <div>
                     <img className="h-8 w-auto" src={Logo} alt="Rocky Linux" />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
+                    <Popover.Button className="bg-white dark:bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 dark:text-gray-50 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
                       <span className="sr-only">Close menu</span>
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -327,9 +327,9 @@ const Header = ({ pageContext: { locale: language } }) => {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
+                        className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50 dark:hover:bg-gray-600"
                       >
-                        <div className="ml-4 text-base font-medium text-gray-900">
+                        <div className="ml-4 text-base font-medium text-gray-900 dark:text-gray-50">
                           {item.name}
                         </div>
                       </a>
@@ -337,14 +337,14 @@ const Header = ({ pageContext: { locale: language } }) => {
                   </nav>
                 </div>
               </div>
-              <div className="py-6 px-5">
+              <div className="py-6 px-5 dark:bg-gray-800">
                 <div className="grid grid-cols-2 gap-4">
                   {documentation.map((item) => (
                     <LocalizedLink
                       key={item.name}
                       to={item.href}
                       language={language}
-                      className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      className="text-base font-medium text-gray-900 hover:text-gray-700 dark:text-gray-50"
                     >
                       {item.name}
                     </LocalizedLink>
@@ -353,7 +353,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="text-base font-medium text-gray-900 hover:text-gray-700"
+                      className="text-base font-medium text-gray-900 hover:text-gray-700 dark:text-gray-50"
                     >
                       {item.name}
                     </a>
@@ -363,7 +363,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                   <LocalizedLink
                     to="/download"
                     language={language}
-                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
                   >
                     {translate('download')}
                     <span className="ml-2 font-light">8.5</span>

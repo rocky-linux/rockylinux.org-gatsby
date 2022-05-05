@@ -8,6 +8,10 @@ However, to the ends of keeping everything manageable and reducing stress on eve
 
 We use [Tailwind UI](https://tailwindui.com) as a base for all of the components on the site. If you are going to add components, be sure to reference this UI Kit to make your changes consistent with the design style. We realize that not everyone will have the ability to access Tailwind UI components, so do your best to make new components you contribute fit in with the rest of the site.
 
+## Visual Studio Code Dev Container
+
+This project contains a Visual Studio Code `.devcontainer` configuration folder. This [Dev Container](https://code.visualstudio.com/docs/remote/containers) will install Node.Js, pre-commit (and install the hooks), and run npm install for you, so the image is ready to go after building. It also installs HomeBrew.
+
 ## Linting & Commit Hooks
 
 We use [pre-commit](https://pre-commit.com/) for our linting and quality control tooling, so it is required that you install the pre-commit hooks (normal and commit-msg stages) so that your PR meets our quality control standards. If you fail to do this, we have [pre-commit.ci](https://pre-commit.ci/) configured on all PRs, and it will flag up any errors there may be.

@@ -32,7 +32,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                 <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
                   {translate('hero.title')}
                 </h1>
-                <p className="mt-6 text-xl text-gray-500">
+                <p className="mt-6 text-xl text-gray-500 dark:text-gray-50">
                   <Trans t={translate} i18nKey="hero.description">
                     &#174;
                   </Trans>

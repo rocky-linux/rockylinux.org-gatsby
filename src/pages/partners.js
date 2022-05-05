@@ -112,7 +112,7 @@ const PartnersPage = () => {
         title={translate('title')}
         description={translate('description')}
       >
-        <div className="bg-white">
+        <div className="bg-white dark:bg-gray-900">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
             <ul
               role="list"
@@ -121,20 +121,20 @@ const PartnersPage = () => {
               {partners.map((partner) => (
                 <a href={partner.link}>
                   <li key={partner.source} className="relative">
-                    <div className="group block w-full rounded-lg bg-gray-100 py-10 px-10">
+                    <div className="group block w-full rounded-lg bg-gray-100 dark:bg-gray-600 py-10 px-10">
                       <img
                         src={partner.source}
                         alt=""
                         className="object-fit pointer-events-none"
                       />
                     </div>
-                    <p className="mt-2 block text-base font-bold text-gray-900 truncate pointer-events-none">
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
                       {partner.name}
                     </p>
-                    <p className="block text-sm font-medium text-gray-500 pointer-events-none">
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
                       {partner.tier}
                     </p>
-                    <p className="mt-2 block text-sm font-medium text-gray-900 pointer-events-none">
+                    <p className="mt-2 block text-sm font-medium text-gray-900 dark:text-gray-300 pointer-events-none">
                       {partner.blurb}
                     </p>
                   </li>

@@ -24,14 +24,14 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
 
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <p className="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
+          <p className="text-center text-base font-semibold uppercase text-gray-600 dark:text-gray-50 tracking-wider">
             {translate('sponsors-partners.backed')}
           </p>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
             <a href="https://ciq.co">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   href="https://ciq.co"
@@ -41,7 +41,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://45drives.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={FortyFiveDrivesLogo}
@@ -50,12 +50,12 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://arm.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img className="max-h-12" src={ArmLogo} alt="Arm" />
               </div>
             </a>
             <a href="https://aws.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={AWSLogo}
@@ -64,22 +64,22 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://equinix.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img className="max-h-12" src={EquinixLogo} alt="Equinix" />
               </div>
             </a>
             <a href="https://fastly.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img className="max-h-12" src={FastlyLogo} alt="Fastly" />
               </div>
             </a>
             <a href="https://fosshost.org">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img className="max-h-12" src={FosshostLogo} alt="Fosshost" />
               </div>
             </a>
             <a href="https://cloud.google.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={GoogleCloudLogo}
@@ -88,7 +88,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://mattermost.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={MattermostLogo}
@@ -97,7 +97,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://azure.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={AzureLogo}
@@ -106,7 +106,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://www.mvista.com/">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={MontaVistaLogo}
@@ -115,7 +115,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://ncloud.com/">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={NaverCloudLogo}
@@ -124,7 +124,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://opendrives.com/">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={OpenDrivesLogo}
@@ -133,7 +133,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://osuosl.org/">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={OpenSourceLabs}
@@ -142,7 +142,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://www.supermicro.com/en/">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
                   src={SupermicroLogo}
@@ -151,7 +151,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
               </div>
             </a>
             <a href="https://vmware.com/">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img className="max-h-12" src={VmwareLogo} alt="vmware" />
               </div>
             </a>

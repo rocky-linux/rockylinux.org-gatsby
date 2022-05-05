@@ -6,6 +6,7 @@ import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import { Translate } from '../../i18n/utils/translate';
 import CiqLogo from '../images/ciq.png';
+import OpenLogicLogo from '../images/openlogic.svg';
 
 const SupportPage = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('support');
@@ -17,6 +18,13 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
       source: `${CiqLogo}`,
       link: 'https://ciq.co',
     },
+    {
+      name: `${translate('support.openlogic.name')}`,
+      tier: `${translate('support.openlogic.tier')}`,
+      blurb: `${translate('support.openlogic.blurb')}`,
+      source: `${OpenLogicLogo}`,
+      link: 'https://www.openlogic.com',
+    },
   ];
 
   return (
@@ -27,27 +35,51 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
         title={translate('title')}
         description={translate('description')}
       >
-        <div className="pb-16 bg-white overflow-hidden lg:pb-24">
+        <div className="pb-16 bg-white dark:bg-gray-900 overflow-hidden lg:pb-24">
           <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
             <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-20 lg:items-center">
               <div className="mb-10 -mx-4 relative lg:mb-0" aria-hidden="true">
                 <img
-                  className="relative mx-auto bg-gray-50 rounded-md py-10 px-10"
+                  className="relative mx-auto bg-gray-50 dark:bg-gray-700 rounded-md py-10 px-10"
                   width={400}
                   src={CiqLogo}
                   alt="CIQ"
                 />
               </div>
               <div className="relative">
-                <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+                <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-300 tracking-tight sm:text-3xl">
                   {translate('support.ciq.name')}
                 </h3>
-                <p className="mt-3 text-lg text-gray-500">
+                <p className="mt-3 text-lg text-gray-500 dark:text-gray-50">
                   {translate('support.ciq.blurb')}
                 </p>
                 <a
                   href="https://ciq.co/rocky/"
-                  className="mt-4 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-green-500 bg-gray-100 hover:bg-gray-200"
+                  className="mt-4 inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-700 rounded-md shadow-sm text-base font-medium text-green-500 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-800"
+                >
+                  {translate('get')}
+                </a>
+              </div>
+            </div>
+            <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-20 lg:items-center">
+              <div className="mb-10 -mx-4 relative lg:mb-0" aria-hidden="true">
+                <img
+                  className="relative mx-auto bg-gray-50 dark:bg-gray-700 rounded-md py-10 px-10"
+                  width={400}
+                  src={OpenLogicLogo}
+                  alt="OpenLogic by Perforce"
+                />
+              </div>
+              <div className="relative">
+                <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-300 tracking-tight sm:text-3xl">
+                  {translate('support.openlogic.name')}
+                </h3>
+                <p className="mt-3 text-lg text-gray-500 dark:text-gray-50">
+                  {translate('support.openlogic.blurb')}
+                </p>
+                <a
+                  href="https://www.openlogic.com/"
+                  className="mt-4 inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-700 rounded-md shadow-sm text-base font-medium text-green-500 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-800"
                 >
                   {translate('get')}
                 </a>

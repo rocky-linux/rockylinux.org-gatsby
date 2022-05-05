@@ -23,7 +23,7 @@ const FaqPage = () => {
         title={translate('title')}
         description={translate('description')}
       >
-        <div className="bg-white">
+        <div className="bg-white dark:bg-gray-900">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
               <dl className="mt-6 space-y-6 divide-y divide-gray-200">
@@ -32,7 +32,7 @@ const FaqPage = () => {
                     <>
                       <dt className="text-lg">
                         <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                          <span className="font-medium text-gray-900">
+                          <span className="font-medium text-gray-900 dark:text-gray-300">
                             {translate('faq.1.question')}
                           </span>
                           <span className="ml-6 h-7 flex items-center">
@@ -47,7 +47,7 @@ const FaqPage = () => {
                         </Disclosure.Button>
                       </dt>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                        <p className="text-base text-gray-500">
+                        <p className="text-base text-gray-500 dark:text-gray-50">
                           <Trans t={translate} i18nKey="faq.1.answer">
                             <a
                               href="mailto:mirrors@rockylinux.org"
@@ -66,7 +66,7 @@ const FaqPage = () => {
                     <>
                       <dt className="text-lg">
                         <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                          <span className="font-medium text-gray-900">
+                          <span className="font-medium text-gray-900 dark:text-gray-300">
                             {translate('faq.2.question')}
                           </span>
                           <span className="ml-6 h-7 flex items-center">
@@ -81,7 +81,7 @@ const FaqPage = () => {
                         </Disclosure.Button>
                       </dt>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                        <p className="text-base text-gray-500">
+                        <p className="text-base text-gray-500 dark:text-gray-50">
                           <Trans t={translate} i18nKey="faq.2.answer">
                             <a
                               href="https://accounts.rockylinux.org"
@@ -106,7 +106,7 @@ const FaqPage = () => {
                     <>
                       <dt className="text-lg">
                         <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                          <span className="font-medium text-gray-900">
+                          <span className="font-medium text-gray-900 dark:text-gray-300">
                             {translate('faq.3.question')}
                           </span>
                           <span className="ml-6 h-7 flex items-center">
@@ -121,7 +121,7 @@ const FaqPage = () => {
                         </Disclosure.Button>
                       </dt>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                        <p className="text-base text-gray-500">
+                        <p className="text-base text-gray-500 dark:text-gray-50">
                           <Trans t={translate} i18nKey="faq.3.answer">
                             <a
                               href="https://chat.rockylinux.org/rocky-linux/channels/testing"
@@ -140,7 +140,7 @@ const FaqPage = () => {
                     <>
                       <dt className="text-lg">
                         <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                          <span className="font-medium text-gray-900">
+                          <span className="font-medium text-gray-900 dark:text-gray-300">
                             {translate('faq.4.question')}
                           </span>
                           <span className="ml-6 h-7 flex items-center">
@@ -155,7 +155,7 @@ const FaqPage = () => {
                         </Disclosure.Button>
                       </dt>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                        <p className="text-base text-gray-500">
+                        <p className="text-base text-gray-500 dark:text-gray-50">
                           {translate('faq.4.answer')}
                         </p>
                       </Disclosure.Panel>
@@ -167,7 +167,7 @@ const FaqPage = () => {
                     <>
                       <dt className="text-lg">
                         <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                          <span className="font-medium text-gray-900">
+                          <span className="font-medium text-gray-900 dark:text-gray-300">
                             {translate('faq.5.question')}
                           </span>
                           <span className="ml-6 h-7 flex items-center">
@@ -182,7 +182,7 @@ const FaqPage = () => {
                         </Disclosure.Button>
                       </dt>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                        <p className="text-base text-gray-500">
+                        <p className="text-base text-gray-500 dark:text-gray-50">
                           <Trans t={translate} i18nKey="faq.5.answer">
                             <strong>
                               Rocky Linux will never be controlled, purchased,
@@ -200,7 +200,7 @@ const FaqPage = () => {
                     <>
                       <dt className="text-lg">
                         <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                          <span className="font-medium text-gray-900">
+                          <span className="font-medium text-gray-900 dark:text-gray-300">
                             {translate('faq.6.question')}
                           </span>
                           <span className="ml-6 h-7 flex items-center">
@@ -215,7 +215,7 @@ const FaqPage = () => {
                         </Disclosure.Button>
                       </dt>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                        <p className="text-base text-gray-500">
+                        <p className="text-base text-gray-500 dark:text-gray-50">
                           <Trans t={translate} i18nKey="faq.6.answer">
                             <a
                               href="mailto:hello@rockylinux.org"
