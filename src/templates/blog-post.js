@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 import SEO from '../components/Seo';
 
 const classes = {
-  wrapper: 'mt-16 blog-content',
+  wrapper: 'mt-16 blog-content dark:text-gray-50',
 };
 
 const BlogPost = ({ data }) => {

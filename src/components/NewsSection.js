@@ -40,7 +40,7 @@ const NewsSection = ({ pageContext: { locale: language } }) => {
               <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
                 {translate('latest-news.title')}
               </h2>
-              <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+              <p className="mt-3 text-xl text-gray-500 dark:text-gray-50 sm:mt-4">
                 {translate('latest-news.description')}
               </p>
             </div>
@@ -52,16 +52,16 @@ const NewsSection = ({ pageContext: { locale: language } }) => {
                     language={language}
                     className="block mt-4"
                   >
-                    <p className="text-xl font-semibold text-gray-900">
+                    <p className="text-xl font-semibold text-gray-900 dark:text-gray-400">
                       {post.node.frontmatter.title}
                     </p>
-                    <p className="mt-3 text-base text-gray-500">
+                    <p className="mt-3 text-base text-gray-500 dark:text-gray-50">
                       {post.node.frontmatter.description}
                     </p>
                   </LocalizedLink>
                   <div className="mt-6 flex items-center">
                     <div>
-                      <div className="flex space-x-1 text-sm text-gray-500">
+                      <div className="flex space-x-1 text-sm text-gray-500 dark:text-gray-50">
                         <time dateTime={post.node.fields.date}>
                           {post.node.frontmatter.date}
                         </time>

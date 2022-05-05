@@ -81,9 +81,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                     <strong>Planned EOL:</strong>
                   </Trans>
                 </p>
-                <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg mb-20">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead className="bg-gray-100">
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-800 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-800">
+                    <thead className="bg-gray-100 dark:bg-gray-900">
                       <tr>
                         <th
                           scope="col"
@@ -106,8 +106,8 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="bg-white">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-50">
                           {translate('x86_64')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -159,8 +159,8 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           </a>
                         </td>
                       </tr>
-                      <tr className="bg-gray-100">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      <tr className="bg-gray-100 dark:bg-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-50">
                           {translate('body.arm')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -225,7 +225,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
               <div
                 key={action.title}
                 className={classNames(
-                  'relative group bg-white p-4 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
+                  'relative group bg-white dark:bg-gray-900 p-4 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
                 )}
               >
                 <div>
@@ -233,7 +233,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                     className={classNames(
                       action.iconBackground,
                       action.iconForeground,
-                      'rounded-lg inline-flex p-3 ring-4 ring-white'
+                      'rounded-lg inline-flex p-3 ring-4 ring-white dark:ring-gray-900'
                     )}
                   >
                     <action.icon className="h-4 w-4" aria-hidden="true" />
@@ -244,7 +244,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                     <LocalizedLink
                       to={action.href}
                       language={language}
-                      className="focus:outline-none"
+                      className="focus:outline-none dark:text-gray-50"
                     >
                       {/* Extend touch target to entire panel */}
                       <span className="absolute inset-0" aria-hidden="true" />
@@ -253,7 +253,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                   </h3>
                 </div>
                 <span
-                  className="pointer-events-none absolute top-4 right-4 text-gray-300 group-hover:text-gray-400"
+                  className="pointer-events-none absolute top-4 right-4 text-gray-300 group-hover:text-gray-400 dark:group-hover:text-green-400"
                   aria-hidden="true"
                 >
                   <svg
@@ -275,7 +275,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
             <div className="relative">
               <div className="relative md:p-6">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-6">
-                  <div className="prose prose-green prose-lg text-gray-500 lg:max-w-none">
+                  <div className="prose prose-green prose-lg text-gray-500 dark:text-gray-50 lg:max-w-none">
                     <h3>{translate('get-involved.heading')}</h3>
                     <p>
                       <Trans t={translate} i18nKey="get-involved.body">
@@ -293,7 +293,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                     <h4>{translate('isos.dvd.heading')}</h4>
                     <p>{translate('isos.dvd.body')}</p>
                   </div>
-                  <div className="mt-6 prose prose-green prose-lg text-gray-500 lg:mt-0">
+                  <div className="mt-6 prose prose-green prose-lg text-gray-500 dark:text-gray-50 lg:mt-0">
                     <h3>Export Compliance/Customs Information</h3>
                     <p>
                       By downloading Rocky Linux software, you acknowledge that
@@ -305,16 +305,16 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                       “EAR”) and other U.S. and foreign laws and may not be
                       exported, re-exported or transferred (a) to a prohibited
                       destination country under the EAR or U.S. sanctions
-                      regulations (currently Cuba, Iran, North Korea,
-                      Syria, and the Crimea Region of Ukraine, subject to change
-                      as posted by the United States government); (b) to any
-                      prohibited destination or to any end user who has been
-                      prohibited from participating in U.S. export transactions
-                      by any federal agency of the U.S. government; or (c) for
-                      use in connection with the design, development or
-                      production of nuclear, chemical or biological weapons, or
-                      rocket systems, space launch vehicles, or sounding
-                      rockets, or unmanned air vehicle systems.
+                      regulations (currently Cuba, Iran, North Korea, Syria, and
+                      the Crimea Region of Ukraine, subject to change as posted
+                      by the United States government); (b) to any prohibited
+                      destination or to any end user who has been prohibited
+                      from participating in U.S. export transactions by any
+                      federal agency of the U.S. government; or (c) for use in
+                      connection with the design, development or production of
+                      nuclear, chemical or biological weapons, or rocket
+                      systems, space launch vehicles, or sounding rockets, or
+                      unmanned air vehicle systems.
                     </p>
                   </div>
                 </div>
