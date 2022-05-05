@@ -1,7 +1,7 @@
 import React from 'react';
 const Layout = ({ children }) => {
   return (
-    <div className="relative overflow-hidden bg-gray-50 dark:bg-gray-700">
+    <div className="relative overflow-hidden bg-gray-50 dark:bg-gray-900">
       <noscript>
         <style>
           {`

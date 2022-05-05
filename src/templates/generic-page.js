@@ -47,7 +47,7 @@ const GenericPage = ({ data }) => {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-gray-200"
+                    className="text-gray-200 dark:text-gray-800"
                     fill="currentColor"
                   />
                 </pattern>
@@ -79,7 +79,7 @@ const GenericPage = ({ data }) => {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-gray-200"
+                    className="text-gray-200 dark:text-gray-800"
                     fill="currentColor"
                   />
                 </pattern>
@@ -111,7 +111,7 @@ const GenericPage = ({ data }) => {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-gray-200"
+                    className="text-gray-200 dark:text-gray-800"
                     fill="currentColor"
                   />
                 </pattern>
@@ -130,7 +130,7 @@ const GenericPage = ({ data }) => {
               <span className="block text-base text-center text-green-500 font-semibold tracking-wide uppercase">
                 {post.frontmatter.date}
               </span>
-              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
                 {post.frontmatter.title}
               </span>
             </h1>
