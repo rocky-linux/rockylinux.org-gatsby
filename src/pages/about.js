@@ -41,7 +41,9 @@ const AboutPage = () => {
             <div className="relative z-10">
               <div className="prose prose-green text-gray-500 dark:text-gray-50 mx-auto lg:max-w-none">
                 <p>{translate('content.paragraph')}</p>
-                <h3 className="dark:text-gray-50">{translate('organization.heading')}</h3>
+                <h3 className="dark:text-gray-50">
+                  {translate('organization.heading')}
+                </h3>
                 <p>
                   <Trans t={translate} i18nKey="organization.paragraph">
                     <LocalizedLink to="/organizational-structure">
