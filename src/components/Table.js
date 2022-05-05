@@ -28,7 +28,9 @@ export function SelectColumnFilter({
 
   return (
     <label className="flex gap-x-2 items-baseline">
-      <span className="text-gray-700 dark:text-gray-200">{render('Header')}: </span>
+      <span className="text-gray-700 dark:text-gray-200">
+        {render('Header')}:{' '}
+      </span>
       <select
         className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-700 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50 dark:bg-gray-700"
         name={id}
