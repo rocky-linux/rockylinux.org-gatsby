@@ -59,6 +59,11 @@
       "tier": 1,
       "blurb": "VMware là doanh nghiệp dầu ngành cung cấp dịch vụ multi-cloud cho tất cả các ứng dụng, giúp giữa sự phát triển của công nghệ gắn liền với công việc vận hành và sự kiểm soát của doanh nghiệp."
     },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "title": "Nhà tài trợ hạng 4",
+      "tier": 4
+    },
     "procomputers": {
       "name": "ProComputers.com",
       "title": "Nhà tài trợ hạng 4",
