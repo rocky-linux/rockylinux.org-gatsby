@@ -24,6 +24,10 @@ const Footer = ({ pageContext: { locale: language } }) => {
         name: `${translate('about.status')}`,
         href: 'https://status.rockylinux.org',
       },
+      {
+        name: `${translate('about.errata')}`,
+        href: 'https://errata.rockylinux.org',
+      },
     ],
     getinvolved: [
       {
