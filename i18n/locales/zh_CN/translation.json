@@ -19,7 +19,7 @@
     "sponsors": "赞助商",
     "partners": "合作伙伴",
     "support": "支持提供商",
-    "errata": "Security Errata"
+    "errata": "安全性勘误表"
   },
   "community": {
     "contribute": "贡献",
@@ -47,7 +47,7 @@
   },
   "download": "下载",
   "copyright": {
-    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
+    "line1": "© 2020-<0>2021</0> Rocky企业软件基金会(RESF)，版权所有。",
     "line2": "Red Hat Enterprise Linux、RHEL和CentOS是红帽公司或其子公司在美国和其他国家/地区的商标或注册商标。我们不隶属于红帽公司，也没有得到红帽公司的认可或赞助。"
   }
 }
