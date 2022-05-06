@@ -35,7 +35,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
     getinvolved: [
       {
         name: `${translate('community.contribute')}`,
-        href: 'https://wiki.rockylinux.org/en/contributing/getting-started',
+        href: 'https://wiki.rockylinux.org/contributing/',
       },
       {
         name: `${translate('community.bug')}`,
