@@ -16,6 +16,14 @@
     "dateFormat": "YYYY/MM/DD"
   },
   {
+    "code": "zh_TW",
+    "hrefLang": "zh-tw",
+    "name": "Chinese Traditional",
+    "localName": "中國傳統的",
+    "langDir": "ltr",
+    "dateFormat": "YYYY-MM-DD"
+  },
+  {
     "code": "fr",
     "hrefLang": "fr",
     "name": "French",
@@ -76,6 +84,14 @@
     "hrefLang": "vi",
     "name": "Vietnamese",
     "localName": "Tiếng Việt",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "nl",
+    "hrefLang": "nl",
+    "name": "Dutch",
+    "localName": "Nederlands",
     "langDir": "ltr",
     "dateFormat": "DD/MM/YYYY"
   }
