@@ -1,11 +1,16 @@
 {
   "title": "지원 제공자",
-  "description": "Rocky Linux는 당사의 창립 파트너이자 후원자인 CIQ 및 기타 비 계열 회사에서 상업적으로 지원합니다.",
+  "description": "Rocky Linux is commercially supported these sponsors and partners, as well as other non-affiliated companies.",
   "support": {
     "ciq": {
       "name": "CIQ",
       "tier": "설립 파트너/스폰서",
       "blurb": "우리는 사람들이 위대한 일을 할 수 있도록 도와야 한다고 믿습니다. 이것이 CIQ가 RESF의 창립 파트너인 이유입니다. 우리는 연구, 학계, 정부, 기업, 파트너 및 그 사이의 모든 고객에게 Rocky Linux에 대한 상업적 지원 및 서비스를 제공합니다."
+    },
+    "openlogic": {
+      "name": "OpenLogic by Perforce",
+      "tier": "Tier 4 후원자",
+      "blurb": "OpenLogic delivers comprehensive support services for open source software, so that your teams can enjoy the benefits of using open source — and confidently meet your requirements including compliance with regulations such as GDPR, HIPAA, and PCI."
     }
   },
   "get": "지원 받기"
