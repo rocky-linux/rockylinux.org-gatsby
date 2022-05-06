@@ -18,7 +18,8 @@
     "status": "Palveluiden tila",
     "sponsors": "Sponsorit",
     "partners": "Kumppanit",
-    "support": "Tuen tarjoajat"
+    "support": "Tuen tarjoajat",
+    "errata": "Security Errata"
   },
   "community": {
     "contribute": "Avustaminen",
@@ -46,7 +47,7 @@
   },
   "download": "Lataa",
   "copyright": {
-    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. Kaikki oikeudet pidätetään.",
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
     "line2": "Red Hat Enterprise Linux, RHEL ja CentOS ovat Red Hat, Inc.:n tai sen tytäryhtiöiden tavaramerkkejä tai rekisteröityjä tavaramerkkejä USA:ssa ja muissa maissa. Emme ole sidoksissa Red Hatiin, emmekä niiden tukemia tai sponsoroimia."
   }
 }

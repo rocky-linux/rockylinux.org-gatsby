@@ -18,7 +18,8 @@
     "status": "サービス状況",
     "sponsors": "スポンサー",
     "partners": "パートナー",
-    "support": "サポート プロバイダ"
+    "support": "サポート プロバイダ",
+    "errata": "Security Errata"
   },
   "community": {
     "contribute": "貢献",

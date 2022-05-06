@@ -62,8 +62,8 @@ const Footer = ({ pageContext: { locale: language } }) => {
       { name: `${translate('documentation.keys')}`, href: '/keys' },
     ],
     legal: [
-      { name: 'Licensing', href: '/licensing' },
-      { name: 'Privacy Policy', href: '/privacy-policy' },
+      { name: `${translate('legal.licensing')}`, href: '/licensing' },
+      { name: `${translate('legal.privacy')}`, href: '/privacy-policy' },
     ],
     social: [
       {

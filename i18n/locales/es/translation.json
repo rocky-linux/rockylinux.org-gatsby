@@ -18,7 +18,8 @@
     "status": "Service Status",
     "sponsors": "Sponsors",
     "partners": "Partners",
-    "support": "Support Providers"
+    "support": "Support Providers",
+    "errata": "Security Errata"
   },
   "community": {
     "contribute": "Contribute",

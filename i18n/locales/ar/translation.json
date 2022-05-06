@@ -18,7 +18,8 @@
     "status": "حالة الخدمة",
     "sponsors": "Sponsors",
     "partners": "Partners",
-    "support": "مزودي خدمات الدعم"
+    "support": "مزودي خدمات الدعم",
+    "errata": "Security Errata"
   },
   "community": {
     "contribute": "ساهم",
@@ -46,7 +47,7 @@
   },
   "download": "Download",
   "copyright": {
-    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. جميع الحقوق محفوظة.",
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
     "line2": "Red Hat Enterprise Linux, RHEL and CentOS هي علامات تجارية أو علامات تجارية مسجلة لـ Red Hat, Inc. ونحن لسنا تابعين إلى شركة Red Hat، أو مدعومين من شركة Red Hat, Inc."
   }
 }
