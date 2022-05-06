@@ -18,7 +18,8 @@
     "status": "서비스 상태",
     "sponsors": "후원자",
     "partners": "파트너",
-    "support": "지원 제공자"
+    "support": "지원 제공자",
+    "errata": "Security Errata"
   },
   "community": {
     "contribute": "기여하기",
