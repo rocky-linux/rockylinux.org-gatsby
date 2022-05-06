@@ -86,5 +86,13 @@
     "localName": "Tiếng Việt",
     "langDir": "ltr",
     "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "nl",
+    "hrefLang": "nl",
+    "name": "Dutch",
+    "localName": "Nederlands",
+    "langDir": "ltr",
+    "dateFormat": "DD/MM/YYYY"
   }
 ]
