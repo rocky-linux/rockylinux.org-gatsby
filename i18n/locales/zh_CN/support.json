@@ -10,7 +10,7 @@
     "openlogic": {
       "name": "Perforce 的 OpenLogic",
       "tier": "第4级赞助商",
-      "blurb": "OpenLogic 为开源软件提供全面的支持服务，让您的团队可以享受使用开源的好处，并自信地满足您的要求，包括遵守 GDPR、HIPAA 和 PCI 等条例。"
+      "blurb": "OpenLogic 为开源软件提供全面的支持服务，让您的团队可以享受使用开源带来的优势，并自信地满足您的要求，包括遵守诸如GDPR、HIPAA 和 PCI 等条例。"
     }
   },
   "get": "获取支持"
