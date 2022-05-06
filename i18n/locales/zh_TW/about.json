@@ -2,8 +2,8 @@
   "title": "這一切都始於一則部落格評論",
   "subtitle": "歷史",
   "content": {
-    "highlight": "2020年12月8日，Red Hat公司宣佈將停止開發CentOS，一個可用於生產環境的Red Hat Enterprise Linux下游版本。 作為替代，Red Hat採用該作業系統較新的上游開發版本，稱為“CentOS Stream”。 作為回應，CentOS的最初創始人格雷戈裏·庫爾澤（Gregory Kurtzer）通過<0>CentOS網站的評論</0>宣佈，他將再次啟動一個項目來實現CentOS的最初目標。 而之所以命名為Rocky Linux，是為了向早期CentOS的聯合創始人洛基·麥高（Rocky McGaugh）致敬。 截止到12月12日，Rocky Linux的代碼庫已經成為GitHub上最熱門的代碼庫之一。",
-    "paragraph": "2020年12月8日，Red Hat公司宣佈將停止開發CentOS，一個可用於生產環境的Red Hat Enterprise Linux下游版本。 作為替代，Red Hat採用該作業系統較新的上游開發版本，稱為“CentOS Stream”。 作為回應，CentOS的最初創始人格雷戈裏·庫爾澤（Gregory Kurtzer）通過<0>CentOS網站的評論</0>宣佈，他將再次啟動一個項目來實現CentOS的最初目標。 而之所以命名為Rocky Linux，是為了向早期CentOS的聯合創始人洛基·麥高（Rocky McGaugh）致敬。 截止到12月12日，Rocky Linux的代碼庫已經成為GitHub上最熱門的代碼庫之一。"
+    "highlight": "2020年12月8日，Red Hat公司宣佈將停止開發CentOS（一個可用於生產環境的Red Hat Enterprise Linux下游版本）。 作為替代，Red Hat採用該作業系統較新的上游開發版本——稱為“CentOS Stream”。 作為回應，CentOS的最初創始人格雷戈裏·庫爾澤（Gregory Kurtzer）<0>通過CentOS網站上的評論</0>宣佈，他將再次啟動一個項目以實現CentOS的最初目標。 而之所以命名為Rocky Linux，是為了向早期CentOS的聯合創始人洛基·麥高（Rocky McGaugh）致敬。 截止到12月12日，Rocky Linux的代碼庫已經成為GitHub上最熱門的代碼庫之一。",
+    "paragraph": "2020年12月22日，Rocky Linux宣佈初始版本發佈的目標時間是在2021年3月至5月之間。 2021年1月20日，它宣佈將會在2月底向公眾提供一個測試存儲庫，並計畫將在2021年3月底發佈候選版本（Release Candidate）。 然而，這一日期被略微延后到了2021年4月30日，第一個候選版本才被正式發佈。 2021年6月4日，第二個候選版本也就是8.4版本正式發佈，這是穩定版（Stable版本，也叫GA版本）之前的最後一個版本。 2021年6月21日，Rocky Linux 8.4穩定版發佈，代號為“Green Obsidian”（綠色黑曜石）。"
   },
   "organization": {
     "heading": "組織",
