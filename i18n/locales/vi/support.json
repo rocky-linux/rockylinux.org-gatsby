@@ -1,6 +1,6 @@
 {
   "title": "Nhà cung cấp dịch vụ hỗ trợ",
-  "description": "Commercial support for Rocky Linux is available from these sponsors and partners, as well as other non-affiliated companies.",
+  "description": "Dịch vụ hỗ trợ kĩ thuật cho Rocky Linux được cung cấp bởi các nhà tài trợ & các đối tác dưới đây, cũng như được cung cấp bởi các công ty khác không có liên kết với dự án.",
   "support": {
     "ciq": {
       "name": "CIQ",
@@ -8,9 +8,9 @@
       "blurb": "Chúng tôi tin rằng việc giúp đỡ lẫn nhau sẽ luôn mang lại kết quả tuyệt vời. Đó là lý do tại sao CIQ là nhà tài trợ kiêm đồng sáng lập của RESF. Chúng tôi cung cấp các dịch vụ hỗ trợ và các dịch vụ liên quan đến Rocky Linux cho các khách hàng thuộc các lĩnh vực nghiên cứu, hàn lâm, chính phủ, doanh nghiệp, các đối tác, và các đối tượng khách hàng khác có nhu cầu."
     },
     "openlogic": {
-      "name": "OpenLogic by Perforce",
+      "name": "OpenLogic bởi Perforce",
       "tier": "Nhà tài trợ hạng 4",
-      "blurb": "OpenLogic delivers comprehensive support services for open source software, so that your teams can enjoy the benefits of using open source — and confidently meet your requirements including compliance with regulations such as GDPR, HIPAA, and PCI."
+      "blurb": "OpenLogic cung cấp các dịch vụ hỗ trợ toàn diện cho các dự án mã nguồn mở, vì vậy khách hàng có thể tận hưởng những lợi ích của việc sử dụng mã nguồn mở - và chúng tôi tự tin đáp ứng đầy đủ các yêu cầu của khách hàng bao gồm cả việc tuân thủ các quy định như GDPR, HIPAA và PCI."
     }
   },
   "get": "Nhận hỗ trợ"
