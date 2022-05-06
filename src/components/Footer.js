@@ -4,11 +4,14 @@ import {
   ExternalLinkIcon,
   TranslateIcon,
 } from '@heroicons/react/solid';
-import { Translate } from '../../i18n/utils/translate';
+import { Translate, Trans } from '../../i18n/utils/translate';
 import { useLocalization } from 'gatsby-theme-i18n';
 import LocalizedLink from '../components/LocalizedLink';
 
 const Footer = ({ pageContext: { locale: language } }) => {
+  const getCurrentYear = () => {
+    return new Date().getFullYear().toString();
+  };
   const translate = Translate();
   const { config } = useLocalization();
   const navigation = {
@@ -313,7 +316,9 @@ const Footer = ({ pageContext: { locale: language } }) => {
             ))}
           </div>
           <p className="mt-8 text-base text-gray-400 dark:text-gray-50 md:mt-0 md:order-1">
-            {translate('copyright.line1')}
+            <Trans t={translate} i18nKey="copyright.line1">
+              {getCurrentYear()}
+            </Trans>
           </p>
         </div>
         <div className="pt-8 md:flex md:items-center md:justify-between">
