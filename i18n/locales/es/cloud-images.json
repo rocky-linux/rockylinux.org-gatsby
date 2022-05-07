@@ -1,11 +1,11 @@
 {
-  "title": "Imágenes para la nube",
+  "title": "Cloud Images",
   "description": "Find our official images from your favorite cloud provider.",
   "headings": {
     "version": "OS Version",
     "provider": "Provider",
     "region": "Region",
-    "arch": "Arquitectura",
+    "arch": "Architecture",
     "id": "Image ID",
     "deploy": "Deploy Link"
   },
