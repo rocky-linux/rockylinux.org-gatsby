@@ -1,36 +1,36 @@
 {
   "hero": {
-    "new": "What's New",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
+    "new": "Wat is nieuw",
+    "title": "Enterprise Linux, door de gemeenschap.",
+    "description": "Rocky Linux is een open-source enterprise besturingssysteem ontworpen om 100% bug-for-bug compatibel te zijn met Red Hat Enterprise Linux<0>&#174;</0>. Het is onder intensieve ontwikkeling door de gemeenschap.",
     "cta1": "Download",
-    "cta2": "Migrate"
+    "cta2": "Migreren"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
-    "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
+    "title": "Steenstevig, ongeacht gebruiksdoeleinden.",
+    "subtitle": "Stabiele, productieklare Linux",
+    "description": "Rocky Linux herbouwd broncode rechtstreeks van RHEL<0>&#174;</0>, dus je kan er op rekenen dat je een superstabiele ervaring zult hebben, ongeacht de gebruikssituatie.",
     "1": {
-      "title": "Production Ready",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "title": "Productieklaar",
+      "description": "Rocky Linux is enterprise-klaar, biedt solide stabiliteit met regelmatige updates en een supportduur van tien jaar, zonder kosten."
     },
     "2": {
-      "title": "Community Supported",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "title": "Gemeenschapsondersteuning",
+      "description": "De gemeenschap, sponsoren en partners zijn betrokken met langetermijnverplichtingen om ervoor te zorgen dat het project bij de gemeenschap blijft."
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "Makkelijke Migratie",
+      "description": "Migreren van andere Enterprise Linux distributies zonder peentjeszweten. We bieden een eenvoudig te gebruiken en gratis migratiescript aan."
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "Laatste Nieuws",
+    "description": "We delen regelmatig updates met de gemeenschap over wat er plaatsvind. Hier is het meest recente."
   },
   "sponsors-partners": {
-    "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "backed": "Gesteund Door",
+    "sponsors": "Alle Sponsoren",
+    "partners": "Alle Partners",
+    "support": "Ondersteuningspartners"
   }
 }
