@@ -1,82 +1,82 @@
 {
-  "title": "Sponsoren",
-  "description": "Wij willen onze sponsoren bedanken voor hun steun aan het project.",
-  "tierone": "Niveau 1 - Hoofdsponsors",
-  "tiertwo": "Niveau 2",
-  "tierthree": "Niveau 3",
-  "tierfour": "Niveau 4",
+  "title": "Sponsors",
+  "description": "We would like to thank our sponsors for their support thus far on the project.",
+  "tierone": "Tier 1 - Principal Sponsors",
+  "tiertwo": "Tier 2",
+  "tierthree": "Tier 3",
+  "tierfour": "Tier 4",
   "blurb": {
-    "lineone": "Sponsor worden?",
-    "linetwo": "Neem vandaag contact op.",
-    "emailus": "Email Ons"
+    "lineone": "Want to be a sponsor?",
+    "linetwo": "Get in touch today.",
+    "emailus": "Email Us"
   },
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "title": "Oprichtend Sponsor",
+      "title": "Founding Sponsor",
       "tier": 1,
-      "blurb": "We geloven in het helpen van mensen om geweldige dingen te doen. Daarom is CIQ een sponsor van de RESF. We bieden commerciële ondersteuning en diensten voor Rocky Linux aan klanten in onderzoek, academici, overheid, ondernemerschap, partners en iedereen daartussen."
+      "blurb": "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
     },
     "45drives": {
       "name": "45Drives",
-      "title": "Hoofdsponsor",
+      "title": "Principal Sponsor",
       "tier": 1,
-      "blurb": "45Drives biedt enterprise opslagoplossingen gebouwd op krachtige en robuuste open-source software waarmee klanten kunnen profiteren van de kostenbesparingen en flexibiliteit van off-the-shelf hardware. Bekijk ze voor een volledig ondersteunde oplossing voor de gegevensopslag tegen de beste kosten per terabyte!"
+      "blurb": "45Drives offers enterprise storage solutions built on powerful and robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!"
     },
     "aws": {
       "name": "Amazon Web Services",
-      "title": "Hoofdsponsor",
+      "title": "Principal Sponsor",
       "tier": 1,
-      "blurb": "De RESF maakt gebruik van AWS om een groot deel van de onderliggende infrastructuur te draaien die cruciaal is voor de ontwikkeling en inzet van de diensten die Rocky Linux ondersteunen. Van Koji builders voor x86_64 en aarch64 draaiend in EC2 tot SRPM blob opslag in S3, AWS is fundamenteel voor veel van wat we doen."
+      "blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
     },
     "gcp": {
       "name": "Google Cloud",
-      "title": "Hoofdsponsor",
+      "title": "Principal Sponsor",
       "tier": 1,
-      "blurb": "Als hoofdsponsor van de RESF begrijpt Google het belang van Rocky Linux als een gratisen open gemeenschapsbesturingssysteem. We stellen hulpmiddelen beschikbaar voor testen en validering, daarnaast werken we samen met de RESF om vanaf dag één te zorgen voor Rocky's status als eersteklas burger op het Google Cloud Platform."
+      "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one."
     },
     "azure": {
       "name": "Microsoft Azure",
-      "title": "Hoofdsponsor",
+      "title": "Principal Sponsor",
       "tier": 1,
-      "blurb": "Linux is het snelst groeiende platform op Azure, dat wordt op meer dan de helft van de VM-kerns gedraaid. Al ruim een decennium investeert Microsoft in Linux. Omdat partnerschappen een centrale pijler van de opensourcestrategie van Microsoft zijn, werken we samen met de RESF en het bredere Rocky Linux ecosysteem om ervoor te zorgen dat klanten een steeds grotere set opties hebben om Linux workloads op Azure in te zetten in een ondersteunde, beheerde en veilige manier."
+      "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
     },
     "montavista": {
       "name": "MontaVista",
-      "title": "Hoofdsponsor",
+      "title": "Principal Sponsor",
       "tier": 1,
-      "blurb": "MontaVista Software is de leider in embedded commerciële LInux, die MontaVista CGX, Yocto Project, CentOS en Rocky Linux ondersteunt. MontaVista biedt Open Source Software expertise, commerciële kwaliteit Linux distros, kosteneffectief onderhoud en ondersteuning voor 10+ jarige levenscyclussen."
+      "blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
     },
     "opendrives": {
       "name": "OpenDrives",
-      "title": "Hoofdsponsor",
+      "title": "Principal Sponsor",
       "tier": 1,
-      "blurb": "OpenDrives is een wereldwijde leverancier van enterprise-graad, hyper-schaalbare, network-attached-storage (NAS) oplossingen. We leveren de best presterende oplossingen voor onze klanten - om aan de individuele prestatiebehoeften te voldoen - voor de meest robuste, complexe en kritische projecten en workflows, op locatie en in de cloud."
+      "blurb": "OpenDrives is a global provider of enterprise-grade, hyper-scalable, network-attached-storage (NAS) solutions. We deliver the highest performing solutions for our customers - to match individual performance needs - for the most robust, complex and mission-critical projects and workflows, on-premises and into the cloud."
     },
     "vmware": {
       "name": "VMware",
-      "title": "Hoofdsponsor",
+      "title": "Principal Sponsor",
       "tier": 1,
-      "blurb": "VMware is een leidende leverancier van multi-cloud diensten voor alle apps, waardoor digitale innovatie mogelijk is met enterprise controle."
+      "blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control."
     },
     "openlogic": {
       "name": "OpenLogic by Perforce",
-      "title": "Niveau 4 Sponsor",
+      "title": "Tier 4 Sponsor",
       "tier": 4
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "title": "Niveau 4 Sponsor",
+      "title": "Tier 4 Sponsor",
       "tier": 4
     },
     "seagate": {
       "name": "Seagate Federal",
-      "title": "Niveau 4 Sponsor",
+      "title": "Tier 4 Sponsor",
       "tier": 4
     },
     "stromasys": {
       "name": "Stromasys",
-      "title": "Niveau 4 Sponsor",
+      "title": "Tier 4 Sponsor",
       "tier": 4
     }
   }
