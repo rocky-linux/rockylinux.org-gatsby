@@ -1,53 +1,53 @@
 {
-  "language": "ar",
-  "js-warning": "يبدو أن جافا سكريبت معطل في المتصفح الخاص بك. في حين أن معظم صفحات هذا الموقع تعمل بدون استخدام جافا سكريبت، قد تواجه مشاكل غير متوقعة أثناء تصفح موقعنا. الرجاء النظر في وضع استثناء لموقعنا في إعدادات المتصفح الخاص بك.",
+  "language": "en",
+  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
   "categories": {
-    "news": "الأخبار",
-    "about": "عن النظام",
-    "community": "المجتمع",
+    "news": "News",
+    "about": "About",
+    "community": "Community",
     "documentation": "Documentation",
     "get-involved": "Get Involved",
-    "legal": "المعلومات القانونية",
-    "language": "اللغة"
+    "legal": "Legal",
+    "language": "Language"
   },
   "about": {
-    "about": "عن Rocky Linux",
-    "faq": "الأسئلة الشائعة",
-    "charter": "ميثاق المجتمع",
-    "org-structure": "الهيكل التنظيمي",
-    "status": "حالة الخدمة",
+    "about": "About Rocky Linux",
+    "faq": "Frequently Asked Questions",
+    "charter": "Community Charter",
+    "org-structure": "Organizational Structure",
+    "status": "Service Status",
     "sponsors": "Sponsors",
     "partners": "Partners",
-    "support": "مزودي خدمات الدعم",
+    "support": "Support Providers",
     "errata": "Security Errata"
   },
   "community": {
-    "contribute": "ساهم",
-    "forums": "المنتديات",
-    "mailing": "القوائم البريدية",
+    "contribute": "Contribute",
+    "forums": "Forums",
+    "mailing": "Mailing Lists",
     "mattermost": "Mattermost",
-    "irc": "الدردشة عبر الإنترنت",
-    "calendar": "التقويم",
-    "bug": "أبلغ عن خطأ",
-    "donate": "تبرع",
-    "store": "المتجر"
+    "irc": "IRC",
+    "calendar": "Calendar",
+    "bug": "Submit Bug",
+    "donate": "Donate",
+    "store": "Store"
   },
   "documentation": {
-    "wiki": "الويكي (Wiki)",
-    "guides": "التعليمات ودليل الاستخدام",
-    "keys": "معلومات عن مفتاح GPG"
+    "wiki": "Wiki",
+    "guides": "Guides and Manuals",
+    "keys": "GPG Key Info"
   },
   "legal": {
-    "licensing": "الترخيص",
-    "privacy": "سياسة الخصوصية"
+    "licensing": "Licensing",
+    "privacy": "Privacy Policy"
   },
   "lang": {
-    "choose": "اختر اللغة",
-    "translate": "ترجم هذه الصفحة"
+    "choose": "Choose Language",
+    "translate": "Translate this site"
   },
   "download": "Download",
   "copyright": {
     "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Red Hat Enterprise Linux, RHEL and CentOS هي علامات تجارية أو علامات تجارية مسجلة لـ Red Hat, Inc. ونحن لسنا تابعين إلى شركة Red Hat، أو مدعومين من شركة Red Hat, Inc."
+    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
   }
 }
