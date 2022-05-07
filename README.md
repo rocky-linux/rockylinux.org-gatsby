@@ -73,6 +73,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Lajck"><img src="https://avatars.githubusercontent.com/u/9508518?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lajack</b></sub></a><br /><a href="#translation-Lajck" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/c0np88q"><img src="https://avatars.githubusercontent.com/u/11746146?v=4?s=100" width="100px;" alt=""/><br /><sub><b>c0np88Q</b></sub></a><br /><a href="#translation-c0np88q" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/jimcat8"><img src="https://avatars.githubusercontent.com/u/86754294?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tianci li</b></sub></a><br /><a href="#translation-jimcat8" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/amithbs1"><img src="https://avatars.githubusercontent.com/u/47681946?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Amith Sai</b></sub></a><br /><a href="#content-amithbs1" title="Content">🖋</a></td>
   </tr>
 </table>
 
