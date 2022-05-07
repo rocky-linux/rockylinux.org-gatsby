@@ -1,82 +1,82 @@
 {
   "title": "후원자",
   "description": "지금까지 프로젝트를 지원해 주신 후원자님들께 감사드립니다.",
-  "tierone": "Tier 1 - Principal Sponsors",
+  "tierone": "Tier 1 - 주요 후원자",
   "tiertwo": "Tier 2",
   "tierthree": "Tier 3",
   "tierfour": "Tier 4",
   "blurb": {
-    "lineone": "Want to be a sponsor?",
-    "linetwo": "Get in touch today.",
-    "emailus": "Email Us"
+    "lineone": "후원자가 되지 않겠습니까?",
+    "linetwo": "지금 바로 연락주세요.",
+    "emailus": "이메일 문의"
   },
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "title": "Founding Sponsor",
+      "title": "창립 후원자",
       "tier": 1,
       "blurb": "우리는 사람들이 위대한 일을 할 수 있도록 도와야 한다고 믿습니다. 이것이 CIQ가 RESF의 창립 후원자 이유입니다. 우리는 연구, 학계, 정부, 기업, 파트너 및 그 사이의 모든 고객에게 Rocky Linux에 대한 상업적 지원 및 서비스를 제공합니다."
     },
     "45drives": {
       "name": "45Drives",
-      "title": "Principal Sponsor",
+      "title": "주요 후원자",
       "tier": 1,
       "blurb": "45Drives는 강력하고 강력한 오픈 소스 소프트웨어를 기반으로 구축된 엔터프라이즈 스토리지 솔루션을 제공하여 고객이 기성 하드웨어의 비용 절감과 유연성을 활용할 수 있도록 지원합니다. 최고의 테라바이트당 비용으로 완벽하게 지원되는 데이터 스토리지 솔루션을 확인하십시오!"
     },
     "aws": {
       "name": "Amazon Web Services",
-      "title": "Principal Sponsor",
+      "title": "주요 후원자",
       "tier": 1,
       "blurb": "RESF는 AWS를 활용하여 Rocky Linux를 지원하는 서비스의 개발 및 배포에 중요한 기본 인프라의 대부분을 실행합니다. EC2에서 실행되는 x86_64 및 aarch64용 Koji 빌더부터 S3의 SRPM Blob 스토리지에 이르기까지 AWS는 우리가 하는 많은 일의 기초입니다."
     },
     "gcp": {
       "name": "Google Cloud",
-      "title": "Principal Sponsor",
+      "title": "주요 후원자",
       "tier": 1,
       "blurb": "RESF의 주요 후원자로서 Google은 자유롭고 개방적인 커뮤니티 엔터프라이즈 운영 체제로서 Rocky Linux의 중요성을 이해하고 있습니다. 테스트 및 검증에 필요한 리소스를 제공하기 위해 RESF와 파트너십을 맺고 Rocky Linux가 첫날부터 Google Cloud Platform에서 최고의 운영체제 지위를 확보할 수 있도록 했습니다."
     },
     "azure": {
       "name": "Microsoft Azure",
-      "title": "Principal Sponsor",
+      "title": "주요 후원자",
       "tier": 1,
       "blurb": "Linux는 VM 코어의 절반 이상에서 실행되는 Azure에서 가장 빠르게 성장하는 플랫폼입니다.  Microsoft는 10년 넘게 Linux에 투자해 왔으며, 파트너십을 Microsoft 오픈 소스 전략의 중심 기둥으로 삼아 RESF 및 더 광범위한 Rocky Linux 에코시스템과 협력하여 고객이 지원되고 관리되며 안전한 방식으로 Azure에 리눅스 워크로드를 구현할 수 있는 다양한 옵션을 확보할 수 있도록 지원합니다."
     },
     "montavista": {
       "name": "MontaVista",
-      "title": "Principal Sponsor",
+      "title": "주요 후원자",
       "tier": 1,
       "blurb": "MontaVista Software는 MontaVista CGX, Yocto Project®️, CentOS 및 Rocky Linux를 지원하는 임베디드 상용 Linux의 선두 주자입니다. MontaVista는 오픈 소스 소프트웨어 전문 지식, 상용 품질의 Linux 배포판, 비용 효율적인 유지 관리 및 10년 이상의 수명 주기에 대한 지원을 제공합니다."
     },
     "opendrives": {
       "name": "OpenDrives",
-      "title": "Principal Sponsor",
+      "title": "주요 후원자",
       "tier": 1,
       "blurb": "OpenDrives는 하이퍼 확장 가능한 엔터프라이즈급 NAS(Network-Attached Storage) 솔루션을 제공하는 글로벌 업체입니다. 우리는 가장 강력하고 복잡하며 미션 크리티컬한 프로젝트 및 워크플로우를 사내 및 클라우드에 제공하기 위해 개별 성능 요구사항에 맞는 최고의 성능을 발휘하는 솔루션을 고객에게 제공합니다."
     },
     "vmware": {
       "name": "VMware",
-      "title": "Principal Sponsor",
+      "title": "주요 후원자",
       "tier": 1,
       "blurb": "VMware는 모든 애플리케이션을 위한 멀티 클라우드 서비스를 제공하는 선두 업체로, 엔터프라이즈 제어 기능을 통해 디지털 혁신을 지원합니다."
     },
     "openlogic": {
       "name": "OpenLogic by Perforce",
-      "title": "Tier 4 Sponsor",
+      "title": "Tier 4 후원자",
       "tier": 4
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "title": "Tier 4 Sponsor",
+      "title": "Tier 4 후원자",
       "tier": 4
     },
     "seagate": {
       "name": "Seagate Federal",
-      "title": "Tier 4 Sponsor",
+      "title": "Tier 4 후원자",
       "tier": 4
     },
     "stromasys": {
       "name": "Stromasys",
-      "title": "Tier 4 Sponsor",
+      "title": "Tier 4 후원자",
       "tier": 4
     }
   }
