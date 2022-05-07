@@ -1,14 +1,14 @@
 {
   "title": "Sponsor",
   "description": "Vogliamo ringraziare i nostri sponsor per il loro supporto fino ad ora nel progetto.",
-  "tierone": "Tier 1 - Sponsor Principali",
+  "tierone": "Tier 1 - Principal Sponsors",
   "tiertwo": "Tier 2",
   "tierthree": "Tier 3",
   "tierfour": "Tier 4",
   "blurb": {
-    "lineone": "Vuoi diventare uno sponsor?",
-    "linetwo": "Entra in contatto oggi stesso.",
-    "emailus": "Contattaci"
+    "lineone": "Want to be a sponsor?",
+    "linetwo": "Get in touch today.",
+    "emailus": "Email Us"
   },
   "sponsors": {
     "ciq": {
@@ -60,7 +60,7 @@
       "blurb": "VMware è un fornitore leader di servizi multi-cloud per tutte le applicazioni, che consente l'innovazione digitale tramite il controllo aziendale."
     },
     "openlogic": {
-      "name": "OpenLogic di Perforce",
+      "name": "OpenLogic by Perforce",
       "title": "Tier 4 Sponsor",
       "tier": 4
     },
