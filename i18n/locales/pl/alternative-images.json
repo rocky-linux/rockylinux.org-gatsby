@@ -5,7 +5,7 @@
   "rl8-eol": "<0>Planowana data zakończenia wsparcia:</0> 31 maja 2029 r.",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Architektury Alternatywne (SIG)",
-  "cloud": "Chmura Podstawowa / OpenStack",
+  "cloud": "Generic Cloud / OpenStack",
   "headings": {
     "de": "Środowisko Graficzne",
     "checksum": "Suma kontrolna",
