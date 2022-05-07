@@ -1,10 +1,10 @@
 {
-  "title": "Support Providers",
+  "title": "مزودي خدمات الدعم",
   "description": "Commercial support for Rocky Linux is available from these sponsors and partners, as well as other non-affiliated companies.",
   "support": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner/Sponsor",
+      "tier": "شريك مؤسس/راعي",
       "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
     },
     "openlogic": {
@@ -13,5 +13,5 @@
       "blurb": "OpenLogic delivers comprehensive support services for open source software, so that your teams can enjoy the benefits of using open source — and confidently meet your requirements including compliance with regulations such as GDPR, HIPAA, and PCI."
     }
   },
-  "get": "Get Support"
+  "get": "الحصول على الدعم"
 }
