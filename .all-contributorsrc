@@ -292,6 +292,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "amithbs1",
+      "name": "Amith Sai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47681946?v=4",
+      "profile": "https://github.com/amithbs1",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
