@@ -1,53 +1,53 @@
 {
-  "language": "nl",
-  "js-warning": "Het lijkt erop dat JavaScript uitgeschakeld is in uw browser. Hoewel de meeste delen van deze website werken zonder het gebruik van JavaScript, kunnen onbedoelde ervaringen worden opgedaan tijdens het browsen van onze site. Overweeg een uitzondering te maken voor onze website in de instellingen van uw browser.",
+  "language": "en",
+  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
   "categories": {
-    "news": "Nieuws",
-    "about": "Over",
-    "community": "Gemeenschap",
-    "documentation": "Documentatie",
-    "get-involved": "Meehelpen",
-    "legal": "Juridisch",
-    "language": "Taal"
+    "news": "News",
+    "about": "About",
+    "community": "Community",
+    "documentation": "Documentation",
+    "get-involved": "Get Involved",
+    "legal": "Legal",
+    "language": "Language"
   },
   "about": {
-    "about": "Over Rocky Linux",
-    "faq": "Veelgestelde Vragen",
-    "charter": "Gemeenschapshandvest",
-    "org-structure": "Organisatiestructuur",
+    "about": "About Rocky Linux",
+    "faq": "Frequently Asked Questions",
+    "charter": "Community Charter",
+    "org-structure": "Organizational Structure",
     "status": "Service Status",
-    "sponsors": "Sponsoren",
+    "sponsors": "Sponsors",
     "partners": "Partners",
-    "support": "Ondersteuningspartners",
+    "support": "Support Providers",
     "errata": "Security Errata"
   },
   "community": {
-    "contribute": "Meehelpen",
+    "contribute": "Contribute",
     "forums": "Forums",
-    "mailing": "Mailinglijsten",
+    "mailing": "Mailing Lists",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "Kalender",
-    "bug": "Bug verzenden",
-    "donate": "Doneren",
-    "store": "Winkel"
+    "calendar": "Calendar",
+    "bug": "Submit Bug",
+    "donate": "Donate",
+    "store": "Store"
   },
   "documentation": {
     "wiki": "Wiki",
-    "guides": "Handleidingen en Tutorials",
-    "keys": "GPG-sleutel Info"
+    "guides": "Guides and Manuals",
+    "keys": "GPG Key Info"
   },
   "legal": {
-    "licensing": "Licensering",
-    "privacy": "Privacybeleid"
+    "licensing": "Licensing",
+    "privacy": "Privacy Policy"
   },
   "lang": {
-    "choose": "Taal Kiezen",
-    "translate": "Vertaal deze site"
+    "choose": "Choose Language",
+    "translate": "Translate this site"
   },
   "download": "Download",
   "copyright": {
     "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Red Hat Enterprise Linux, RHEL and CentOS zijn handelsmerken of geregistreerde handelsmerken van Red Hat, Inc. of zijn dochterondernemingen in de VS en andere landen. We zijn niet verbonden, goedgekeurd door of gesponsord door Red Hat, Inc."
+    "line2": "Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
   }
 }
