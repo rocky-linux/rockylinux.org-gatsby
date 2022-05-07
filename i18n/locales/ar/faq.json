@@ -1,30 +1,30 @@
 {
-  "title": "الأسئلة الشائعة",
-  "description": "فيما يلي قائمة بالأسئلة الأكثر شيوعاً.",
+  "title": "Frequently Asked Questions",
+  "description": "Below is a list of our most frequently asked questions.",
   "faq": {
     "1": {
-      "question": "كيف يمكنني المساعدة في نشر نسخ للتحميل من إصدارات Rocky Linux الحالية والمستقبلية؟",
-      "answer": "الرجاء أرسل بريد إلكتروني إلى العنوان <0>mirrors@rockylinux.org</0> لإبلاغنا برغبتك في المشاركة."
+      "question": "How can I help mirror current and future Rocky Linux releases?",
+      "answer": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
     },
     "2": {
-      "question": "واجهت خطأ أثناء اختبار Rocky Linux، ماذا يمكنني أن أفعل؟",
+      "question": "I encountered a bug while testing Rocky Linux, what can I do?",
       "answer": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
     },
     "3": {
-      "question": "كيف يمكنني المشاركة مع فريق الاختبار؟",
-      "answer": "يرجى الانضمام إلى قناة <0>~Testing</0> على خادم Mattermost للبدء. هناك أيضًا موضوع تجريبي في المنتديات من أجل نقاش أكثر استمرارية."
+      "question": "How can I get involved with the Testing Team?",
+      "answer": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There's also a testing topic on the forums for more durable conversation."
     },
     "4": {
-      "question": "أين يمكنني العثور على آخر الأخبار عن روكي لينوكس؟",
+      "question": "Where can I find the latest news about Rocky Linux?",
       "answer": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
     },
     "5": {
-      "question": "كيف يمكنك التأكد من أن روكي لينكس سيبقى فعلاً نظام تشغيل مجتمعي للمؤسسات؟",
+      "question": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
       "answer": "First, we've taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We've achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we've drafted a community charter that defines the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0>Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization.</0> Finally, we're architecting and deploying the necessary infrastructure to further enable to the community to contribute to Rocky Linux."
     },
     "6": {
       "question": "What if I have feedback or my question wasn't answered here?",
-      "answer": "يرجى مراسلتنا عبر البريد الإلكتروني: <0>hello@rockylinux.org</0> وسوف نعود إليك حالما نتمكن من ذلك."
+      "answer": "Please email us: <0>hello@rockylinux.org</0> and we'll get back to you as soon as we can."
     }
   }
 }
