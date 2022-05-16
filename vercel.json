@@ -6,15 +6,15 @@
     },
     {
       "source": "/dl/:type(dvd1|boot|minimal)/:architecture(x86_64|aarch64|ppc64le|s390x)",
-      "destination": "https://dl.rockylinux.org/pub/rocky/8/isos/:architecture/Rocky-8.5-:architecture-:type.iso"
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/isos/:architecture/Rocky-8.6-:architecture-:type.iso"
     },
     {
       "source": "/dl/:type(genericcloud|GenericCloud)/x86_64",
-      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud-8.5-20211114.2.x86_64.qcow2"
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud.latest.x86_64.qcow2"
     },
     {
       "source": "/dl/:type(genericcloud|GenericCloud)/aarch64",
-      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud-8.5.20211114.1.aarch64.qcow2"
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud.latest.aarch64.qcow2"
     }
   ]
 }

@@ -99,7 +99,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8.5/Live/x86_64/CHECKSUM"
+                            href="https://download.rockylinux.org/pub/rocky/8.6/Live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -107,7 +107,35 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8.5/Live/x86_64/Rocky-8.5-Workstation-20211114.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8.6/Live/x86_64/Rocky-Workstation-8-x86_64-20220515.1.iso"
+                          >
+                            {translate('body.x86_64')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-50"
+                            style={{ cursor: 'not-allowed' }}
+                          >
+                            {translate('body.arm')}
+                          </a>
+                        </td>
+                      </tr>
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                          {translate('body.gnome-lite')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/8.6/Live/x86_64/CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/8.6/Live/x86_64/Rocky-Workstation-Lite-8-x86_64-20220515.1.iso"
                           >
                             {translate('body.x86_64')}
                           </a>{' '}
@@ -127,7 +155,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8.5/Live/x86_64/CHECKSUM"
+                            href="https://download.rockylinux.org/pub/rocky/8.6/Live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -135,7 +163,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8.5/Live/x86_64/Rocky-8.5-XFCE-20211115.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8.6/Live/x86_64/Rocky-XFCE-8-x86_64-20220515.4.iso"
                           >
                             {translate('body.x86_64')}
                           </a>{' '}
@@ -252,7 +280,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/rocky/8.5/images/CHECKSUM"
+                            href="https://dl.rockylinux.org/pub/rocky/8.6/images/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -260,7 +288,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/rocky/8.5/images/Rocky-8-GenericCloud-8.5-20211114.2.x86_64.qcow2"
+                            href="https://dl.rockylinux.org/pub/rocky/8.6/images/Rocky-8-GenericCloud.latest.x86_64.qcow2"
                           >
                             {translate('body.download')}
                           </a>
@@ -273,7 +301,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/rocky/8.5/images/CHECKSUM"
+                            href="https://dl.rockylinux.org/pub/rocky/8.6/images/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -281,7 +309,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/rocky/8.5/images/Rocky-8-GenericCloud-8.5.20211114.1.aarch64.qcow2"
+                            href="https://dl.rockylinux.org/pub/rocky/8.6/images/Rocky-8-GenericCloud.latest.aarch64.qcow2"
                           >
                             {translate('body.download')}
                           </a>
