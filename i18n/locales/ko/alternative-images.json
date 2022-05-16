@@ -15,6 +15,7 @@
   },
   "body": {
     "gnome": "GNOME (워크스테이션)",
+    "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
     "rpi": "라즈베리 파이 (aarch64)",
     "x86_64": "x86_64",
