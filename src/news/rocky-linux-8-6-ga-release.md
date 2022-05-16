@@ -39,7 +39,11 @@ in this version.
 
 ## Upgrading to Rocky Linux 8.6
 
-Current users of Rocky Linux 8 can upgrade via `dnf update -y`.
+Current users of Rocky Linux 8 can upgrade to 8.6 by typing:
+
+```
+dnf update
+```
 
 Users of other Enterprise Linux 8 distributions can upgrade to Rocky Linux 8.6
 via the [migrate2rocky](https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky) conversion script.
