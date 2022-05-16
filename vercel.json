@@ -10,11 +10,11 @@
     },
     {
       "source": "/dl/:type(genericcloud|GenericCloud)/x86_64",
-      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud-8.latest.x86_64.qcow2"
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud.latest.x86_64.qcow2"
     },
     {
       "source": "/dl/:type(genericcloud|GenericCloud)/aarch64",
-      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud-8.latest.aarch64.qcow2"
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud.latest.aarch64.qcow2"
     }
   ]
 }

@@ -9,7 +9,7 @@ posttype: 'news'
 
 We are pleased to announce the general availability of Rocky Linux 8.6. This
 release is available for the x86_64 and aarch64 architectures. Release notes
-are available in the Rocky Linux Documentation - These notes contain important
+are available in the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/8_6) - These notes contain important
 information including known bugs and more comprehensive details about changes
 in this version.
 
@@ -17,20 +17,20 @@ in this version.
 
 ### Support for newer versions of language runtimes
 
-* PHP 8.0 provides bug fixes and enhancements, namely to the use of structured
+* **PHP 8.0** provides bug fixes and enhancements, namely to the use of structured
   metadata syntax, newly named arguments that are order-independent, and
   improved performance for Just-In-Time compilation.
-* Perl 5.32 provides a number of bug fixes and enhancements, including support
+* **Perl 5.32** provides a number of bug fixes and enhancements, including support
   for Unicode version 13, a new experimental infix operator, and faster feature
     checks.
 
 ### New system roles
-* High availability (HA) cluster system role: This role helps create and manage
+* **High availability (HA) cluster system role**: This role helps create and manage
   secure, stable HA clusters. It also enables better control when managing
   multiple clusters.
-* Enhanced network system role: This role helps users create secure connections
+* **Enhanced network system role**: This role helps users create secure connections
   (including over Wi-Fi) along with robust firewall rules.
-* WebConsole role: This role automates the installation and configuration of
+* **WebConsole role**: This role automates the installation and configuration of
   the Rocky Linux web console, including installing the web console package,
   starting and enabling the web console, and configuring its settings.
 
@@ -39,10 +39,10 @@ in this version.
 
 ## Upgrading to Rocky Linux 8.6
 
-Current users of Rocky Linux 8 can upgrade via dnf update -y.
+Current users of Rocky Linux 8 can upgrade via `dnf update -y`.
 
 Users of other Enterprise Linux 8 distributions can upgrade to Rocky Linux 8.6
-via the migrate2rocky conversion script.
+via the [migrate2rocky](https://github.com/rocky-linux/rocky-tools/tree/main/migrate2rocky) conversion script.
 
 ## Thanks
 
