@@ -15,6 +15,7 @@
   },
   "body": {
     "gnome": "GNOME (Stacja robocza)",
+    "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
