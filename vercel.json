@@ -9,6 +9,22 @@
       "destination": "https://dl.rockylinux.org/pub/rocky/8/isos/:architecture/Rocky-8.6-:architecture-:type.iso"
     },
     {
+      "source": "/dl/:type(dvd1|boot|minimal)/:architecture(x86_64|aarch64|ppc64le|s390x)/CHECKSUM",
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/isos/:architecture/CHECKSUM"
+    },
+    {
+      "source": "/dl/:type(dvd1|boot|minimal)/:architecture(x86_64|aarch64|ppc64le|s390x)/CHECKSUM.sig",
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/isos/:architecture/CHECKSUM.sig"
+    },
+    {
+      "source": "/dl/:type(genericcloud|GenericCloud)/CHECKSUM",
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/CHECKSUM"
+    },
+    {
+      "source": "/dl/:type(genericcloud|GenericCloud)/CHECKSUM.sig",
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/images/CHECKSUM.sig"
+    },
+    {
       "source": "/dl/:type(genericcloud|GenericCloud)/x86_64",
       "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud.latest.x86_64.qcow2"
     },
