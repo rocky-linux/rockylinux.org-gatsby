@@ -1,8 +1,10 @@
 {
   "title": "التنزيلات",
   "description": "قم بتنزيل الإصدار الرسمي من Rocky Linux من إحدى خوادم التنزيل الموثوق بها.",
-  "rl8": "Rocky Linux 8 (Current)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
     "arch": "Architecture",
     "isos": "ملفات ISO",
