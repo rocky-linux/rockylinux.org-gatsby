@@ -22,7 +22,8 @@ function classNames(...classes) {
 
 const DownloadPage = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('download');
-  const handleDownload = useGoal('ZKSYYLWD');
+  const handleDownload8 = useGoal('ZKSYYLWD');
+  const handleDownload9 = useGoal('OMK0ZIZP');
   const actions = [
     {
       title: `${translate('links.alt')}`,
@@ -72,6 +73,150 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
         <div className="relative max-w-2xl mx-auto">
           <div className="flex flex-col">
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+              <div className="align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
+                  {translate('rl9')}
+                </h2>
+                <p className="text-center text-base mb-4 dark:text-white">
+                  <Trans t={translate} i18nKey="rl9-eol">
+                    <strong>Planned EOL:</strong>
+                  </Trans>
+                </p>
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-800 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-800">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
+                      <tr>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.arch')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.isos')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.packages')}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-50">
+                          {translate('x86_64')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-x86_64-minimal.iso"
+                            onClick={handleDownload9}
+                          >
+                            {translate('body.minimal')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-x86_64-dvd1.iso"
+                            onClick={handleDownload9}
+                          >
+                            {translate('body.dvd')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-x86_64-boot.iso"
+                            onClick={handleDownload9}
+                          >
+                            {translate('body.boot')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-x86_64-dvd1.torrent"
+                            onClick={handleDownload9}
+                          >
+                            {translate('body.torrent')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/BaseOS/x86_64/"
+                          >
+                            {translate('body.baseos')}
+                          </a>
+                        </td>
+                      </tr>
+                      <tr className="bg-gray-100 dark:bg-gray-800">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-50">
+                          {translate('body.arm')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9-aarch64-minimal.iso"
+                            onClick={handleDownload9}
+                          >
+                            {translate('body.minimal')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9-aarch64-dvd1.iso"
+                            onClick={handleDownload9}
+                          >
+                            {translate('body.dvd')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9-aarch64-boot.iso"
+                            onClick={handleDownload9}
+                          >
+                            {translate('body.boot')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9-aarch64-dvd1.torrent"
+                            onClick={handleDownload9}
+                          >
+                            {translate('body.torrent')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/BaseOS/aarch64/"
+                          >
+                            {translate('body.baseos')}
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
               <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                 <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
                   {translate('rl8')}
@@ -114,7 +259,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-minimal.iso"
-                            onClick={handleDownload}
+                            onClick={handleDownload8}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -122,7 +267,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.iso"
-                            onClick={handleDownload}
+                            onClick={handleDownload8}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -130,7 +275,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-boot.iso"
-                            onClick={handleDownload}
+                            onClick={handleDownload8}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -138,7 +283,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.torrent"
-                            onClick={handleDownload}
+                            onClick={handleDownload8}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -167,7 +312,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-minimal.iso"
-                            onClick={handleDownload}
+                            onClick={handleDownload8}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -175,7 +320,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-dvd1.iso"
-                            onClick={handleDownload}
+                            onClick={handleDownload8}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -183,7 +328,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-boot.iso"
-                            onClick={handleDownload}
+                            onClick={handleDownload8}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -191,7 +336,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-dvd1.torrent"
-                            onClick={handleDownload}
+                            onClick={handleDownload8}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -225,7 +370,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
               <div
                 key={action.title}
                 className={classNames(
-                  'relative group bg-white dark:bg-gray-800 p-4 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
+                  'relative group bg-white dark:bg-gray-700 p-4 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
                 )}
               >
                 <div>
@@ -233,7 +378,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                     className={classNames(
                       action.iconBackground,
                       action.iconForeground,
-                      'rounded-lg inline-flex p-3 ring-4 ring-white dark:ring-gray-900'
+                      'rounded-lg inline-flex p-3 ring-4 ring-white dark:ring-gray-700'
                     )}
                   >
                     <action.icon className="h-4 w-4" aria-hidden="true" />
