@@ -1,8 +1,10 @@
 {
   "title": "대체 이미지",
   "description": "이 페이지에 제공된 이미지는 신뢰할 수 있는 미러 중 하나에서 사용할 수 있지만 공식적으로 지원되지는 않습니다.",
-  "rl8": "Rocky Linux 8 (현재)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>지원 중단일:</0> 2029년 5월 31일",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "desktop": "데스크탑 (SIG)",
   "alt-arch": "대체 아키텍쳐 (SIG)",
   "cloud": "Generic Cloud / OpenStack",
