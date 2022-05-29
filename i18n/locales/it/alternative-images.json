@@ -1,8 +1,10 @@
 {
   "title": "Immagini Alternative",
   "description": "Le immagini fornite in questa pagina sono disponibili tramite uno dei nostri mirror di fiducia, ma non sono supportate ufficialmente.",
-  "rl8": "Rocky Linux 8 (corrente)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>EOL pianificata</0>: 31 maggio 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Architetture Alternative (SIG)",
   "cloud": "Cloud Generico / OpenStack",
