@@ -4,3 +4,5 @@ date: '2022-05-29'
 description: 'We are pleased to announce the general availability of Rocky Linux 9. Read to see what's new!'
 posttype: 'news'
 ---
+
+Content goes here.
