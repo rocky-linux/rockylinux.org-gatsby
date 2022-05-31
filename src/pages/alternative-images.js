@@ -54,7 +54,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
         <div className="relative max-w-2xl mx-auto">
           <div className="flex flex-col">
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-            <div className="align-middle inline-block min-w-full sm:px-6 lg:px-8">
+              <div className="align-middle inline-block min-w-full sm:px-6 lg:px-8">
                 <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
                   {translate('rl9')}
                 </h2>
