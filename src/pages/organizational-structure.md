@@ -53,7 +53,7 @@ The Community team moderates, engages, and supports users across all social medi
 Design produces and guides the visual styling and branding of the RESF.
 
 - Team Leads:
-    - Michael Kinder
+  - Michael Kinder
 
 #### Documentation
 
@@ -69,50 +69,50 @@ The Documentation team is responsible for ensuring that public facing documentat
 The Infrastructure team is responsible for the architecture, configuration, and maintenance of the Rocky Enterprise Software Foundation’s infrastructure. This team works to ensure the availability and reliability of the build infrastructure supporting development and other reliant properties.
 
 - Team Leads:
-    - Neil Hanlon
-    - Taylor Goodwill
+  - Neil Hanlon
+  - Taylor Goodwill
 
 #### Release Engineering
 
 The Release Engineering team handles and oversees the overall package building from the base operating system to SIGs. The package team also presents themselves as sponsors and mentors for those who are submitting packages or learning how to package an RPM to have their packages in extra repositories, such as supported SIGs.
 
 - Team Leads:
-    - Louis Abel
-    - Mustafa Gezen
+  - Louis Abel
+  - Mustafa Gezen
 - Team Deputies:
-    - Sherif Nagy
-    - Skip Grube
+  - Sherif Nagy
+  - Skip Grube
 
 #### Security
 
 The Security team works with each team to ensure the integrity, confidentiality, assurance, and compliance of data and services.
 
 - Team Leads:
-    - Benjamin Agner
-    - Rob Felsburg
+  - Benjamin Agner
+  - Rob Felsburg
 - Team Deputies:
-    - Scott Shinn
+  - Scott Shinn
 
 #### Special Interest Groups
 
 SIGs enable extensions to the core of Rocky Linux to facilitate special use cases including everything from security, embedded applications, high performance computing, scientific research, home desktop environments, and more.
 
 - Team Leads:
-    - Gregory Kurtzer
+  - Gregory Kurtzer
 
 #### Testing
 
 The Testing team maintains and develops all of the continuous integration efforts of the RESF.
 
 - Team Leads:
-    - Chris Stackpole
+  - Chris Stackpole
 
 #### Web
 
 The Web team maintains and develops all of the websites under the RESF purview.
 
 - Team Leads:
-    - Michael Kinder
+  - Michael Kinder
 
 ### Previous Leadership
 
@@ -123,4 +123,4 @@ Though we are immensely grateful for all those who have contributed to the Rocky
 - Jordan Pisaniello - Community Team Lead, Dec 2020 - Oct 2021
 - R. Leigh Hennig - Director of Operations, Dec 2020 - Sep 2021
 
- For references, please contact hello@rockylinux.org.
+For references, please contact hello@rockylinux.org.
