@@ -1,6 +1,13 @@
 import React from 'react';
+import Stepper from '../components/Stepper';
 
 const Progress = ({ pageContext: { locale: language } }) => {
+  const stepperItems = [
+    { label: 'Import', status: 'done' },
+    { label: 'Build', status: 'doing' },
+    { label: 'Test', status: null },
+    { label: 'Release', status: null },
+  ];
 
   return (
     <div className="relative bg-white dark:bg-gray-900 py-16 sm:py-24 lg:py-32">
@@ -8,6 +15,7 @@ const Progress = ({ pageContext: { locale: language } }) => {
         <p className="mt-2 text-3xl font-extrabold text-gray-900 dark:text-gray-300 tracking-tight sm:text-4xl">
 	    Current Release Progress
         </p>
+        <Stepper items={stepperItems}/>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
 	  Rocky Linux 9.0 will be ready for general release in the June - July 2022 timeframe after thorough testing and validation.
         </p>
