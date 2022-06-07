@@ -4,6 +4,7 @@ import SEO from '../components/Seo';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
+import Progress from '../components/Progress';
 import NewsSection from '../components/NewsSection';
 import LogoCloud from '../components/LogoCloud';
 import Footer from '../components/Footer';
@@ -16,6 +17,7 @@ const IndexPage = () => {
       <Header pageContext="{locale: language}" />
       <Hero pageContext="{locale: language}" />
       <Features pageContext="{locale: language}" />
+      <Progress pageContext="{locale: language}" />
       <NewsSection pageContext="{locale: language}" />
       <LogoCloud pageContext="{locale: language}" />
       <Footer pageContext="{locale: language}" />
