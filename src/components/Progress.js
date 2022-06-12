@@ -4,8 +4,8 @@ import Stepper from '../components/Stepper';
 const Progress = ({ pageContext: { locale: language } }) => {
   const stepperItems = [
     { label: 'Import', status: 'done' },
-    { label: 'Build', status: 'doing' },
-    { label: 'Test', status: null },
+    { label: 'Build', status: 'done' },
+    { label: 'Test', status: 'doing' },
     { label: 'Release', status: null },
   ];
 
