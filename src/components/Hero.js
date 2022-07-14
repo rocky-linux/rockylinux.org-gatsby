@@ -15,7 +15,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
             <div className="mt-20">
               <div>
                 <LocalizedLink
-                  to="/news/rocky-linux-8-6-ga-release/"
+                  to="/news/rocky-linux-9-release/"
                   language={language}
                   className="inline-flex space-x-4"
                 >
@@ -23,7 +23,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                     {translate('hero.new')}
                   </span>
                   <span className="inline-flex items-center text-sm font-medium text-green-600 space-x-1">
-                    <span>Version 8.6 Released</span>
+                    <span>Version 9 Released</span>
                     <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
                   </span>
                 </LocalizedLink>
@@ -46,7 +46,6 @@ const Hero = ({ pageContext: { locale: language } }) => {
                     className="w-full flex items-center justify-center text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600 py-2 px-4"
                   >
                     {translate('hero.cta1')}
-                    <span className="ml-2 font-light">8.6</span>
                   </LocalizedLink>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
