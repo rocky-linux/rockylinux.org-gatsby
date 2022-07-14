@@ -309,7 +309,6 @@ const Header = ({ pageContext: { locale: language } }) => {
                 className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
               >
                 {translate('download')}
-                <span className="ml-2 font-light">8.6</span>
               </LocalizedLink>
             </div>
           </div>
@@ -406,7 +405,6 @@ const Header = ({ pageContext: { locale: language } }) => {
                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
                   >
                     {translate('download')}
-                    <span className="ml-2 font-light">8.6</span>
                   </LocalizedLink>
                 </div>
               </div>
