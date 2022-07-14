@@ -112,7 +112,7 @@ We are grateful to the many Rocky Linux project volunteers and leaders for produ
 - Alan Marshall
 - Chris Stackpole
 - Lukas Magauer
-- Trevor Goodwill
+- Trevor Cooper
 
 #### Web and Design
 
