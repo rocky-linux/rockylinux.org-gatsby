@@ -5,7 +5,7 @@ description: 'We are pleased to announce the general availability of Rocky Linux
 posttype: 'news'
 ---
 
-We are pleased to announce the general availability of Rocky Linux 9.0. Release notes are available in the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/9.0/) - these notes contain important information including known bugs and comprehensive details about changes in this version.
+We are pleased to announce the general availability of Rocky Linux 9.0. Release notes are available in the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/9_0/) - these notes contain important information including known bugs and comprehensive details about changes in this version.
 
 ### Download
 Rocky Linux 9.0 can be downloaded on the [Downloads](https://rockylinux.org/download) page for the x86_64, aarch64, ppc64le, and s390x architectures.
