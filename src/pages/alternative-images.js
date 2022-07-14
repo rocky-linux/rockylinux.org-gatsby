@@ -148,7 +148,35 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                            </a>
                          </td>
                        </tr>
-                       <tr className="bg-gray-100 dark:bg-gray-700">
+                       <tr className="bg-white dark:bg-gray-700">
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                           {translate('KDE')}
+                         </td>
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
+                           >
+                             {translate('body.checksum')}
+                           </a>
+                         </td>
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-KDE-9.0-x86_64-20220712.0.iso"
+                           >
+                             {translate('body.x86_64')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-50"
+                             style={{ cursor: 'not-allowed' }}
+                           >
+                             {translate('body.arm')}
+                           </a>
+                         </td>
+                       </tr>
+                       <tr className="bg-white dark:bg-gray-800">
                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
                            {translate('body.xfce')}
                          </td>
