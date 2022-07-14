@@ -213,6 +213,112 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                            </a>
                          </td>
                        </tr>
+                       <tr className="bg-white dark:bg-gray-700">
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-50">
+                           {translate('ppc64le')}
+                         </td>
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-ppc64le-minimal.iso"
+                             onClick={handleDownload9}
+                           >
+                             {translate('body.minimal')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-ppc64le-dvd.iso"
+                             onClick={handleDownload9}
+                           >
+                             {translate('body.dvd')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-ppc64le-boot.iso"
+                             onClick={handleDownload9}
+                           >
+                             {translate('body.boot')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-ppc64le-dvd.torrent"
+                             onClick={handleDownload9}
+                           >
+                             {translate('body.torrent')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/CHECKSUM"
+                           >
+                             {translate('body.checksum')}
+                           </a>
+                         </td>
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/BaseOS/ppc64le/"
+                           >
+                             {translate('body.baseos')}
+                           </a>
+                         </td>
+                       </tr>
+                       <tr className="bg-gray-100 dark:bg-gray-800">
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-50">
+                           {translate('s390x')}
+                         </td>
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-s390x-minimal.iso"
+                             onClick={handleDownload9}
+                           >
+                             {translate('body.minimal')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-s390x-dvd.iso"
+                             onClick={handleDownload9}
+                           >
+                             {translate('body.dvd')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-s390x-boot.iso"
+                             onClick={handleDownload9}
+                           >
+                             {translate('body.boot')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-s390x-dvd.torrent"
+                             onClick={handleDownload9}
+                           >
+                             {translate('body.torrent')}
+                           </a>{' '}
+                           |&nbsp;
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/CHECKSUM"
+                           >
+                             {translate('body.checksum')}
+                           </a>
+                         </td>
+                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                           <a
+                             className="font-medium text-green-600 dark:text-green-500"
+                             href="https://download.rockylinux.org/pub/rocky/9/BaseOS/s390x/"
+                           >
+                             {translate('body.baseos')}
+                           </a>
+                         </td>
+                       </tr>
                      </tbody>
                    </table>
                  </div>
