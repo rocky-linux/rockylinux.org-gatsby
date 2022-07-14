@@ -122,7 +122,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                            |&nbsp;
                            <a
                              className="font-medium text-green-600 dark:text-green-500"
-                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-dvd1.iso"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-dvd.iso"
                              onClick={handleDownload9}
                            >
                              {translate('body.dvd')}
@@ -138,7 +138,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                            |&nbsp;
                            <a
                              className="font-medium text-green-600 dark:text-green-500"
-                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-dvd1.torrent"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-dvd.torrent"
                              onClick={handleDownload9}
                            >
                              {translate('body.torrent')}
@@ -175,7 +175,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                            |&nbsp;
                            <a
                              className="font-medium text-green-600 dark:text-green-500"
-                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-dvd1.iso"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-dvd.iso"
                              onClick={handleDownload9}
                            >
                              {translate('body.dvd')}
@@ -191,7 +191,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                            |&nbsp;
                            <a
                              className="font-medium text-green-600 dark:text-green-500"
-                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-dvd1.torrent"
+                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-dvd.torrent"
                              onClick={handleDownload9}
                            >
                              {translate('body.torrent')}
