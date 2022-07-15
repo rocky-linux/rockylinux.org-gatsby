@@ -1,8 +1,10 @@
 {
   "title": "Загрузки",
   "description": "Скачать официальный релиз Rocky Linux с одного из наших проверенных зеркал.",
-  "rl8": "Rocky Linux 8 (Текущая)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "Окончание поддержки: 31 мая 2029 г.",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
     "arch": "Архитектура",
     "isos": "Образы ISO",
