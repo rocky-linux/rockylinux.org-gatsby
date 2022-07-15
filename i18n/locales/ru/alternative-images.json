@@ -1,8 +1,10 @@
 {
   "title": "Альтернативные сборки",
   "description": "Сборки, представленные на этой странице, доступны с одного из наших доверенных зеркал, но не являются официально поддерживаемыми.",
-  "rl8": "Rocky Linux 8 (Текущая)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "Окончание поддержки: 31 мая 2029 г.",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "desktop": "Рабочий стол (SIG)",
   "alt-arch": "Альтернативные архитектуры (SIG)",
   "cloud": "Универсальное облако / OpenStack",
@@ -15,6 +17,7 @@
   },
   "body": {
     "gnome": "GNOME (Раб. станция)",
+    "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
