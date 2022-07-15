@@ -1,8 +1,10 @@
 {
   "title": "备选镜像",
   "description": "本页面提供的镜像可从我们信任的镜像网站中获得，但并不被官方支持。",
-  "rl8": "Rocky Linux 8(当前的)",
-  "rl8-eol": "<0>计划的停止维护时间:</0> 2029年05月31日",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
+  "rl8-eol": "<0>停止维护时间:</0> 2029年05月31日",
+  "rl9-eol": "<0>计划的停止维护时间:</0> 2032年05月31日",
   "desktop": "桌面 (SIG)",
   "alt-arch": "替代架构(SIG)",
   "cloud": "通用性云计算服务 / OpenStack",
@@ -15,6 +17,7 @@
   },
   "body": {
     "gnome": "GNOME (工作站)",
+    "gnome-lite": "GNOME (简化版工作站)",
     "xfce": "XFCE",
     "rpi": "树莓派(aarch64)",
     "x86_64": "x86_64",
