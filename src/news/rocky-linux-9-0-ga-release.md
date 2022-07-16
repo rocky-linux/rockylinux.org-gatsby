@@ -8,11 +8,12 @@ posttype: 'news'
 We are pleased to announce the general availability of Rocky Linux 9.0. Release notes are available in the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/9_0/) - these notes contain important information including known bugs and comprehensive details about changes in this version.
 
 ### Download
+
 Rocky Linux 9.0 can be downloaded on the [Downloads](https://rockylinux.org/download) page for the x86_64, aarch64, ppc64le, and s390x architectures.
 
 Cloud images are listed on the [Cloud Images](https://rockylinux.org/cloud-images) page.
 
-###  Support
+### Support
 
 - Rocky Linux 9 will be supported until May 31st, 2032.
 - Rocky Linux 8 continues to be supported until May 31st, 2029.
@@ -32,7 +33,6 @@ Other notable improvements for desktop usage include:
 - Each screen can use a different refresh rate
 - The Activities program allows you to group application icons into folders using a drag-and-drop method
 - Fractional display scaling
-
 
 ### File system
 
@@ -74,7 +74,7 @@ We are grateful to the many Rocky Linux project volunteers and leaders for produ
 
 - Alejandro Ramallo
 - Alexander
-- Ezequiel Bruni 
+- Ezequiel Bruni
 - Gwendolyn K
 - Natalie Forde
 
