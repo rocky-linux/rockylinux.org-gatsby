@@ -74,7 +74,7 @@ We are grateful to the many Rocky Linux project volunteers and leaders for produ
 
 - Alejandro Ramallo
 - Alexander
-- Ezequiel Brunli
+- Ezequiel Bruni 
 - Gwendolyn K
 - Natalie Forde
 
