@@ -1,8 +1,10 @@
 {
   "title": "Obrazy Alternatywne",
   "description": "Obrazy dostarczone na tej stronie są dostępne z jednego z naszych zaufanych serwerów lustrzanych, ale nie są oficjalnie wspierane.",
-  "rl8": "Rocky Linux 8 (Bieżący)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Planowana data zakończenia wsparcia:</0> 31 maja 2029 r.",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Architektury Alternatywne (SIG)",
   "cloud": "Chmura Podstawowa / OpenStack",
@@ -15,6 +17,7 @@
   },
   "body": {
     "gnome": "GNOME (Stacja robocza)",
+    "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
