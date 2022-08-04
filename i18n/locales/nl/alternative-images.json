@@ -1,8 +1,10 @@
 {
   "title": "Alternatieve Afbeeldingen",
   "description": "De afbeeldingen op deze pagina zijn beschikbaar vanuit een van onze vertrouwde mirrors, maar worden niet officieel ondersteund.",
-  "rl8": "Rocky Linux 8 (Current)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Geplande EOL:</0> 31 mei 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Alternatieve Architecturen (SIG)",
   "cloud": "Algemene Cloud / OpenStack",
@@ -15,6 +17,7 @@
   },
   "body": {
     "gnome": "GNOME (Workstation)",
+    "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
