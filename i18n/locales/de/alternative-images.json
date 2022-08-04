@@ -1,8 +1,10 @@
 {
   "title": "Alternative Abbilder",
   "description": "Die auf dieser Seite bereitgestellten Images sind von einem unserer vertrauenswürdigen Mirrors verfügbar, werden aber offiziell nicht unterstützt.",
-  "rl8": "Rocky Linux 8 (Aktuell)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Geplante EOL:</0> 31. Mai 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "desktop": "Arbeitsfläche (SIG)",
   "alt-arch": "Alternative Architekturen (SIG)",
   "cloud": "Generic Cloud / OpenStack",
@@ -15,6 +17,7 @@
   },
   "body": {
     "gnome": "GNOME (Workstation)\n",
+    "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
     "rpi": "Raspberry Pi (aarch64)\n",
     "x86_64": "x86_64",
