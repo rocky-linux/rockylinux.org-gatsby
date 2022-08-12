@@ -208,6 +208,72 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                   </table>
                 </div>
                 <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
+                  {translate('alt-arch')}
+                </h2>
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
+                      <tr>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.arch')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.checksum')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.readme')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.download')}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                          {translate('body.rpi')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/sig/9/altarch/aarch64/images/RockyLinuxRpi_9.0.img.xz.sha256sum"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/sig/9/altarch/aarch64/images/README.txt"
+                          >
+                            {translate('body.readme')}
+                          </a>
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/sig/9/altarch/aarch64/images/RockyLinuxRpi_9.0.img.xz"
+                          >
+                            {translate('body.download')}
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
                   {translate('cloud')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-800 sm:rounded-lg mb-20">
