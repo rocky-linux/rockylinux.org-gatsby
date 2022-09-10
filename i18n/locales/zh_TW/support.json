@@ -4,12 +4,20 @@
   "support": {
     "ciq": {
       "name": "CIQ",
-      "tier": "創始合作夥伴／贊助商",
+      "tier": 1,
+      "title": "Founding Partner/Sponsor",
       "blurb": "我們相信能幫助人們做偉大的事情，這就是為什麼CIQ是RESF的創始合作夥伴。 我們為研究領域、學術界、政府、企業、合作夥伴和所有介於兩者之間的客戶提供Rocky Linux的商業支持和服務。"
+    },
+    "montavista": {
+      "name": "MontaVista",
+      "tier": 4,
+      "title": "首席贊助商",
+      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
     },
     "openlogic": {
       "name": "Perforce 的 OpenLogic",
-      "tier": "第四級贊助商",
+      "tier": 4,
+      "title": "第四級贊助商",
       "blurb": "OpenLogic 為開放原始碼軟體提供了全面的支援服務，讓您的團隊可以享受使用開放原始碼的好處，並很榮幸可以滿足您的要求，包含遵守 GDPR、HIPAA 與 PCI 等法規。"
     }
   },
