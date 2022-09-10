@@ -114,7 +114,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-20220805.0-x86_64-minimal.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
@@ -122,7 +122,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-20220808.0-x86_64-dvd.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
@@ -167,7 +167,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-20220805.0-aarch64-minimal.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
@@ -175,7 +175,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-20220808.0-aarch64-dvd.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
@@ -220,7 +220,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-ppc64le-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-20220805.0-ppc64le-minimal.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
@@ -228,7 +228,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-ppc64le-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-20220808.0-ppc64le-dvd.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
@@ -273,7 +273,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-s390x-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-20220805.0-s390x-minimal.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
@@ -281,7 +281,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-s390x-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-20220808.0-s390x-dvd.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.dvd')}

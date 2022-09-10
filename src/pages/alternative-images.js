@@ -316,7 +316,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-GenericCloud-9.0-20220706.0.x86_64.qcow2"
+                            href="https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-GenericCloud-9.0-20220830.0.x86_64.qcow2"
                           >
                             {translate('body.download')}
                           </a>
@@ -337,7 +337,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-GenericCloud-9.0-20220706.0.aarch64.qcow2"
+                            href="https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-GenericCloud-9.0-20220830.0.aarch64.qcow2"
                           >
                             {translate('body.download')}
                           </a>

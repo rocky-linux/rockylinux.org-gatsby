@@ -6,6 +6,7 @@ import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import { Translate } from '../../i18n/utils/translate';
 import CiqLogo from '../images/ciq.png';
+import MontaVistaLogo from '../images/montavista.png';
 import OpenLogicLogo from '../images/openlogic.svg';
 
 const SupportPage = ({ data, pageContext: { locale: language } }) => {
@@ -14,18 +15,36 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
     {
       name: `${translate('support.ciq.name')}`,
       tier: `${translate('support.ciq.tier')}`,
+      title: `${translate('support.ciq.title')}`,
       blurb: `${translate('support.ciq.blurb')}`,
       source: `${CiqLogo}`,
       link: 'https://ciq.co',
     },
     {
+      name: `${translate('support.montavista.name')}`,
+      tier: `${translate('support.montavista.tier')}`,
+      title: `${translate('support.montavista.title')}`,
+      blurb: `${translate('support.montavista.blurb')}`,
+      source: `${MontaVistaLogo}`,
+      link: 'https://mvista.com/',
+    },
+    {
       name: `${translate('support.openlogic.name')}`,
       tier: `${translate('support.openlogic.tier')}`,
+      title: `${translate('support.ciq.title')}`,
       blurb: `${translate('support.openlogic.blurb')}`,
       source: `${OpenLogicLogo}`,
       link: 'https://www.openlogic.com',
     },
   ];
+
+  const principalPartners = partners.filter(function (partner) {
+    return partner.tier === '1';
+  });
+
+  const tierFourPartners = partners.filter(function (partner) {
+    return partner.tier === '4';
+  });
 
   return (
     <Layout>
@@ -38,7 +57,7 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
         <div className="pb-16 bg-white dark:bg-gray-900 overflow-hidden lg:pb-24">
           <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
             <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-20 lg:items-center">
-              {partners.map((partner) => (
+              {principalPartners.map((partner) => (
                 <>
                   <div
                     className="mb-10 -mx-4 relative lg:mb-0"
@@ -56,7 +75,7 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
                       {partner.name}
                     </h3>
                     <p className="block text-xl font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
-                      {partner.tier}
+                      {partner.title}
                     </p>
                     <p className="mt-3 text-lg text-gray-500 dark:text-gray-50">
                       {partner.blurb}
@@ -71,6 +90,38 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
                 </>
               ))}
             </div>
+
+            <h1 className="text-3xl font-bold mb-5 mt-10 text-gray-900 dark:text-gray-50">
+              -
+            </h1>
+            <ul
+              role="list"
+              className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
+            >
+              {tierFourPartners.map((partner) => (
+                <a href={partner.link}>
+                  <li key={partner.source} className="relative">
+                    <div className="group block w-full rounded-lg bg-gray-100 dark:bg-gray-600 py-10 px-10">
+                      <img
+                        src={partner.source}
+                        alt=""
+                        className="object-fit pointer-events-none"
+                      />
+                    </div>
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
+                      {partner.name}
+                    </p>
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
+                      {partner.title}
+                    </p>
+                    <p className="mt-2 block text-sm font-medium text-gray-900 dark:text-gray-300 pointer-events-none">
+                      {partner.blurb}
+                    </p>
+                  </li>
+                </a>
+              ))}
+            </ul>
+
           </div>
         </div>
       </PageHeader>
