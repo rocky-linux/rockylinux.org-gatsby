@@ -31,7 +31,7 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
     {
       name: `${translate('support.openlogic.name')}`,
       tier: `${translate('support.openlogic.tier')}`,
-      title: `${translate('support.ciq.title')}`,
+      title: `${translate('support.openlogic.title')}`,
       blurb: `${translate('support.openlogic.blurb')}`,
       source: `${OpenLogicLogo}`,
       link: 'https://www.openlogic.com',
