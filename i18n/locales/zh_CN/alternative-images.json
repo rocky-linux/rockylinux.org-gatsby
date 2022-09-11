@@ -9,6 +9,8 @@
   "alt-arch": "替代架构(SIG)",
   "cloud": "通用性云计算服务 / OpenStack",
   "headings": {
+    "isos": "ISO",
+    "packages": "软件包",
     "de": "桌面环境",
     "checksum": "校验",
     "arch": "架构",
@@ -19,6 +21,7 @@
     "gnome": "GNOME (工作站)",
     "gnome-lite": "GNOME (简化版工作站)",
     "xfce": "XFCE",
+    "kde": "KDE",
     "rpi": "树莓派(aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
