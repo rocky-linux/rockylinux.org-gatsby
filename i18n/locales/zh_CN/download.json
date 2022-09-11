@@ -25,7 +25,8 @@
     "bug": "报告 Bug",
     "cloud": "云镜像",
     "docs": "文档",
-    "vault": "存档版本"
+    "vault": "存档版本",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "参与进来",
