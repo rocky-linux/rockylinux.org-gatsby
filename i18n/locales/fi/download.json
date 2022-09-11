@@ -25,7 +25,8 @@
     "bug": "Raportoi virheestä",
     "cloud": "Pilvilevykuvat",
     "docs": "Dokumentaatio",
-    "vault": "Arkistoidut Julkaisut"
+    "vault": "Arkistoidut Julkaisut",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Osallistu",
