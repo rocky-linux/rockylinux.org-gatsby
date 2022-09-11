@@ -26,7 +26,7 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
     <>
       <div className="bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <p className="text-center text-base font-display font-medium uppercase text-gray-600 dark:text-gray-50 tracking-wider">
+          <p className="text-center text-base font-semibold uppercase text-gray-600 dark:text-gray-50 tracking-wider">
             {translate('sponsors-partners.backed')}
           </p>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">

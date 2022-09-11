@@ -29,10 +29,10 @@ const Features = ({ pageContext: { locale: language } }) => {
   return (
     <div className="relative bg-white dark:bg-gray-900 py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-        <h2 className="text-base font-display font-medium tracking-wider text-green-600 uppercase">
+        <h2 className="text-base font-semibold tracking-wider text-green-600 uppercase">
           {translate('features.subtitle')}
         </h2>
-        <p className="font-display mt-2 text-3xl font-medium text-gray-900 dark:text-gray-300 tracking-tight sm:text-4xl">
+        <p className="mt-2 text-3xl font-extrabold text-gray-900 dark:text-gray-300 tracking-tight sm:text-4xl">
           {translate('features.title')}
         </p>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
@@ -54,7 +54,7 @@ const Features = ({ pageContext: { locale: language } }) => {
                         />
                       </span>
                     </div>
-                    <h3 className="font-display mt-8 text-lg font-medium text-gray-900 dark:text-gray-50 tracking-tight">
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-gray-50 tracking-tight">
                       {feature.name}
                     </h3>
                     <p className="mt-5 text-base text-gray-500 dark:text-gray-300">
