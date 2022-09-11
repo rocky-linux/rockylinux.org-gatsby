@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-import { Translate } from '../../i18n/utils/translate';
-import LocalizedLink from '../components/LocalizedLink';
+import { Translate } from '../../../i18n/utils/translate';
+import LocalizedLink from '../LocalizedLink';
 
 const NewsSection = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
