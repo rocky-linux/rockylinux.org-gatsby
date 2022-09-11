@@ -25,7 +25,8 @@
     "bug": "バグの報告",
     "cloud": "クラウドイメージ",
     "docs": "ドキュメント",
-    "vault": "アーカイブリリース"
+    "vault": "アーカイブリリース",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "活動に参加する",
