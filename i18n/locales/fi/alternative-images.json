@@ -9,6 +9,8 @@
   "alt-arch": "Vaihtoehtoiset arkkitehtuurit",
   "cloud": "Generic Cloud / OpenStack",
   "headings": {
+    "isos": "Levykuvat",
+    "packages": "Paketit",
     "de": "Työpöytäympäristö",
     "checksum": "Tarkistussumma",
     "arch": "Arkkitehtuuri",
@@ -19,6 +21,7 @@
     "gnome": "GNOME (Workstation)",
     "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
+    "kde": "KDE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
