@@ -25,7 +25,8 @@
     "bug": "Bug Melden",
     "cloud": "Cloudafbeeldingen",
     "docs": "Documentatie",
-    "vault": "Gearchiveerde Releases"
+    "vault": "Gearchiveerde Releases",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Meehelpen",
