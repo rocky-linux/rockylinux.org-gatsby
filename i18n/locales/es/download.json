@@ -25,7 +25,8 @@
     "bug": "Reportar un fallo",
     "cloud": "Imágenes para la nube",
     "docs": "Documentación",
-    "vault": "Archived Releases"
+    "vault": "Archived Releases",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Participe",
