@@ -9,6 +9,8 @@
   "alt-arch": "Alternative Architekturen (SIG)",
   "cloud": "Generic Cloud / OpenStack",
   "headings": {
+    "isos": "ISOs",
+    "packages": "Pakete",
     "de": "Desktopumgebung",
     "checksum": "Prüfsumme",
     "arch": "Architektur",
@@ -19,6 +21,7 @@
     "gnome": "GNOME (Workstation)\n",
     "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
+    "kde": "KDE",
     "rpi": "Raspberry Pi (aarch64)\n",
     "x86_64": "x86_64",
     "arm": "aarch64",
