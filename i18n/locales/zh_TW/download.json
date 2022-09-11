@@ -25,7 +25,8 @@
     "bug": "報告Bug",
     "cloud": "雲鏡像",
     "docs": "檔案",
-    "vault": "存檔版本"
+    "vault": "存檔版本",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "參與貢獻",
