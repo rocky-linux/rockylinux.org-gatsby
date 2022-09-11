@@ -99,7 +99,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://raw.githubusercontent.com/rocky-linux/checksums/main/rocky-linux-9/live/9.0-x86_64-live.ISO.checksum"
+                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -127,7 +127,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://raw.githubusercontent.com/rocky-linux/checksums/main/rocky-linux-9/live/9.0-x86_64-live.ISO.checksum"
+                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -155,7 +155,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://raw.githubusercontent.com/rocky-linux/checksums/main/rocky-linux-9/live/9.0-x86_64-live.ISO.checksum"
+                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -183,7 +183,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://raw.githubusercontent.com/rocky-linux/checksums/main/rocky-linux-9/live/9.0-x86_64-live.ISO.checksum"
+                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
