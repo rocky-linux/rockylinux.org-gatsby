@@ -25,7 +25,8 @@
     "bug": "Report Bug",
     "cloud": "Cloud Images",
     "docs": "Documentation",
-    "vault": "Archived Releases"
+    "vault": "Archived Releases",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Get Involved",
