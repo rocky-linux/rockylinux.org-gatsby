@@ -13,6 +13,7 @@ import {
   BookOpenIcon,
   CloudIcon,
   ExclamationCircleIcon,
+  ShieldCheckIcon,
 } from '@heroicons/react/outline';
 import LocalizedLink from '../components/LocalizedLink';
 
@@ -60,6 +61,13 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
       iconForeground: 'text-white',
       iconBackground: 'bg-green-500',
     },
+    {
+      title: `${translate('links.verify')}`,
+      href: 'https://github.com/rocky-linux/checksums',
+      icon: ShieldCheckIcon,
+      iconForeground: 'text-white',
+      iconBackground: 'bg-green-500',
+    }
   ];
 
   return (
@@ -471,7 +479,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
           </div>
         </div>
         <div className="relative max-w-max lg:max-w-5xl mx-auto">
-          <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-5 sm:gap-px">
+          <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-6 sm:gap-px">
             {actions.map((action, actionIdx) => (
               <div
                 key={action.title}
