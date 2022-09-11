@@ -25,7 +25,8 @@
     "bug": "버그 신고",
     "cloud": "클라우드 이미지",
     "docs": "문서",
-    "vault": "아카이브 버전"
+    "vault": "아카이브 버전",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "참여하기",
