@@ -9,6 +9,8 @@
   "alt-arch": "대체 아키텍쳐 (SIG)",
   "cloud": "Generic Cloud / OpenStack",
   "headings": {
+    "isos": "ISO",
+    "packages": "패키지",
     "de": "데스크탑 환경\n",
     "checksum": "체크섬",
     "arch": "아키텍처",
@@ -19,6 +21,7 @@
     "gnome": "GNOME (워크스테이션)",
     "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
+    "kde": "KDE",
     "rpi": "라즈베리 파이 (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
