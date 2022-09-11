@@ -25,7 +25,8 @@
     "bug": "Segnala un Bug",
     "cloud": "Immagini Cloud",
     "docs": "Documentazione",
-    "vault": "Release in archivio"
+    "vault": "Release in archivio",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Partecipa",
