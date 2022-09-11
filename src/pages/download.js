@@ -146,7 +146,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/CHECKSUM"
+                            href="https://raw.githubusercontent.com/rocky-linux/checksums/main/rocky-linux-9/9.0-x86_64.ISO.checksum"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -199,7 +199,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/CHECKSUM"
+                            href="https://raw.githubusercontent.com/rocky-linux/checksums/main/rocky-linux-9/9.0-aarch64.ISO.checksum"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -252,7 +252,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/CHECKSUM"
+                            href="https://raw.githubusercontent.com/rocky-linux/checksums/main/rocky-linux-9/9.0-ppc64le.ISO.checksum"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -305,7 +305,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/CHECKSUM"
+                            href="https://raw.githubusercontent.com/rocky-linux/checksums/main/rocky-linux-9/9.0-s390x.ISO.checksum"
                           >
                             {translate('body.checksum')}
                           </a>

@@ -29,7 +29,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                 </LocalizedLink>
               </div>
               <div className="mt-6 sm:max-w-xl">
-                <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-50 tracking-tight sm:text-5xl">
+                <h1 className="font-display text-4xl font-semibold text-gray-900 dark:text-gray-50 tracking-tight sm:text-5xl">
                   {translate('hero.title')}
                 </h1>
                 <p className="mt-6 text-xl text-gray-500 dark:text-gray-50">
@@ -43,7 +43,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                   <LocalizedLink
                     to="/download"
                     language={language}
-                    className="w-full flex items-center justify-center text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600 py-2 px-4"
+                    className="w-full flex items-center justify-center text-base font-display font-medium rounded-md text-white bg-green-500 hover:bg-green-600 py-2 px-4"
                   >
                     {translate('hero.cta1')}
                     <span className="ml-2 font-light">9.0</span>
@@ -52,7 +52,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="https://docs.rockylinux.org/guides/migrate2rocky/"
-                    className="w-full flex items-center justify-center text-base font-medium rounded-md text-green-600 bg-green-50 hover:bg-green-100 hover:text-green-700 py-2 px-4"
+                    className="w-full flex items-center justify-center text-base font-display font-medium rounded-md text-green-600 bg-green-50 hover:bg-green-100 hover:text-green-700 py-2 px-4"
                   >
                     {translate('hero.cta2')}
                   </a>
