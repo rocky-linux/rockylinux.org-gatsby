@@ -4,7 +4,7 @@ import {
   TruckIcon,
   UserGroupIcon,
 } from '@heroicons/react/solid';
-import { Translate, Trans } from '../../i18n/utils/translate';
+import { Translate, Trans } from '../../../i18n/utils/translate';
 
 const Features = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');

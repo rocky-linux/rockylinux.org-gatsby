@@ -1,8 +1,8 @@
 import React from 'react';
-import HeroImage from '../images/hero-image.png';
+import HeroImage from '../../images/hero-image.png';
 import { ChevronRightIcon } from '@heroicons/react/solid';
-import { Translate, Trans } from '../../i18n/utils/translate';
-import LocalizedLink from '../components/LocalizedLink';
+import { Translate, Trans } from '../../../i18n/utils/translate';
+import LocalizedLink from '../LocalizedLink';
 
 const Hero = ({ pageContext: { locale: language } }) => {
   const translate = Translate('index');
