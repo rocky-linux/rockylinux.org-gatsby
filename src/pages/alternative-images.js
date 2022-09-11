@@ -67,6 +67,9 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                 <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
                   {translate('desktop')}
                 </h2>
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                  {translate('body.gnome')}
+                </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
                   <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
                     <thead className="bg-gray-100 dark:bg-gray-800">
@@ -75,132 +78,257 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                           scope="col"
                           className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                         >
-                          {translate('headings.de')}
+                          {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
                           className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                         >
-                          {translate('headings.checksum')}
-                        </th>
-                        <th
-                          scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                        >
-                          {translate('headings.download')}
+                          {translate('headings.isos')}
                         </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr className="bg-white dark:bg-gray-700">
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
-                          {translate('body.gnome')}
+                          {translate('body.x86_64')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
+                            href="https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-Workstation-9.0-x86_64-20220712.0.iso"
+                          >
+                            {translate('body.download')}
+                          </a>
+                          { ' ' }
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                          <a
-                            className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-Workstation-9.0-x86_64-20220712.0.iso"
-                          >
-                            {translate('body.x86_64')}
-                          </a>{' '}
-                          |&nbsp;
-                          <a
-                            className="font-medium text-green-50"
-                            style={{ cursor: 'not-allowed' }}
-                          >
-                            {translate('body.arm')}
-                          </a>
-                        </td>
                       </tr>
-                      <tr className="bg-white dark:bg-gray-800">
+                      <tr className="bg-gray-100 dark:bg-gray-800">
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
-                          {translate('body.gnome-lite')}
+                          {translate('body.arm')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-Workstation-aarch64-20220822.0.iso"
+                          >
+                            {translate('body.download')}
+                          </a>
+                          { ' ' }
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://download.rockylinux.org/pub/rocky/9/live/aarch64/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                          <a
-                            className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-Workstation-Lite-9.0-x86_64-20220712.1.iso"
-                          >
-                            {translate('body.x86_64')}
-                          </a>{' '}
-                          |&nbsp;
-                          <a
-                            className="font-medium text-green-50"
-                            style={{ cursor: 'not-allowed' }}
-                          >
-                            {translate('body.arm')}
-                          </a>
-                        </td>
                       </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                  {translate('body.gnome-lite')}
+                </h2>
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
+                      <tr>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.arch')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.isos')}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
                       <tr className="bg-white dark:bg-gray-700">
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
-                          {translate('KDE')}
+                          {translate('body.x86_64')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-Workstation-Lite-x86_64-20220806.0.iso"
                           >
-                            {translate('body.checksum')}
+                            {translate('body.download')}
                           </a>
-                        </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                          <a
-                            className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-KDE-9.0-x86_64-20220712.0.iso"
-                          >
-                            {translate('body.x86_64')}
-                          </a>{' '}
+                          { ' ' }
                           |&nbsp;
                           <a
-                            className="font-medium text-green-50"
-                            style={{ cursor: 'not-allowed' }}
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-Workstation-Lite-x86_64-20220806.0.iso"
                           >
-                            {translate('body.arm')}
+                            {translate('body.checksum')}
                           </a>
                         </td>
                       </tr>
-                      <tr className="bg-white dark:bg-gray-800">
+                      <tr className="bg-gray-100 dark:bg-gray-800">
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
-                          {translate('body.xfce')}
+                          {translate('body.arm')}
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/CHECKSUM"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-Workstation-Lite-aarch64-20220823.0.iso"
+                          >
+                            {translate('body.download')}
+                          </a>
+                          { ' ' }
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-Workstation-Lite-aarch64-20220823.0.iso.CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
                         </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                  {translate('body.kde')}
+                </h2>
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
+                      <tr>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.arch')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.isos')}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                          {translate('body.x86_64')}
+                        </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-XFCE-9.0-x86_64-20220712.0.iso"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-KDE-x86_64-20220806.0.iso"
                           >
-                            {translate('body.x86_64')}
-                          </a>{' '}
+                            {translate('body.download')}
+                          </a>
+                          { ' ' }
                           |&nbsp;
                           <a
-                            className="font-medium text-green-50"
-                            style={{ cursor: 'not-allowed' }}
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-KDE-x86_64-20220806.0.iso.CHECKSUM"
                           >
-                            {translate('body.arm')}
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                      </tr>
+                      <tr className="bg-gray-100 dark:bg-gray-800">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                          {translate('body.arm')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-KDE-aarch64-20220823.0.iso"
+                          >
+                            {translate('body.download')}
+                          </a>
+                          { ' ' }
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-KDE-aarch64-20220823.0.iso.CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                  {translate('body.xfce')}
+                </h2>
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
+                      <tr>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.arch')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          {translate('headings.isos')}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                          {translate('body.x86_64')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-XFCE-x86_64-20220806.0.iso"
+                          >
+                            {translate('body.download')}
+                          </a>
+                          { ' ' }
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-XFCE-x86_64-20220806.0.iso.CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                      </tr>
+                      <tr className="bg-gray-100 dark:bg-gray-800">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                          {translate('body.arm')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-XFCE-aarch64-20220823.0.iso"
+                          >
+                            {translate('body.download')}
+                          </a>
+                          { ' ' }
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-XFCE-aarch64-20220823.0.iso.CHECKSUM"
+                          >
+                            {translate('body.checksum')}
                           </a>
                         </td>
                       </tr>
