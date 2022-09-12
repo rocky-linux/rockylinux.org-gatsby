@@ -94,31 +94,31 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
         </div>
         <div className="pb-16 bg-white dark:bg-gray-900 overflow-hidden lg:pb-24">
           <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-              <ul
-                role="list"
-                className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
-              >
-                {tierFourPartners.map((partner) => (
-                  <a href={partner.link}>
-                    <li key={partner.source} className="relative">
-                      <div className="group block w-full rounded-lg bg-gray-100 dark:bg-gray-600 py-10 px-10">
-                        <img
-                          src={partner.source}
-                          alt=""
-                          className="object-fit pointer-events-none"
-                        />
-                      </div>
-                      <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
-                        {partner.name}
-                      </p>
-                      <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
-                        {partner.title}
-                      </p>
-                    </li>
-                  </a>
-                ))}
-              </ul>
-            </div>
+            <ul
+              role="list"
+              className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
+            >
+              {tierFourPartners.map((partner) => (
+                <a href={partner.link}>
+                  <li key={partner.source} className="relative">
+                    <div className="group block w-full rounded-lg bg-gray-100 dark:bg-gray-600 py-10 px-10">
+                      <img
+                        src={partner.source}
+                        alt=""
+                        className="object-fit pointer-events-none"
+                      />
+                    </div>
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
+                      {partner.name}
+                    </p>
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
+                      {partner.title}
+                    </p>
+                  </li>
+                </a>
+              ))}
+            </ul>
+          </div>
         </div>
       </PageHeader>
       <Footer pageContext="{locale: language}" />

@@ -6,7 +6,7 @@ import Hero from '../components/Home/Hero';
 import Features from '../components/Home/Features';
 import NewsSection from '../components/Home/NewsSection';
 import LogoCloud from '../components/LogoCloud';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
 
 // markup
 const IndexPage = () => {
