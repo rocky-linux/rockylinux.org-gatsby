@@ -12,7 +12,7 @@
       "name": "MontaVista",
       "tier": 1,
       "title": "首席赞助商",
-      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
+      "blurb": "MontaVista自1999年以来一直在构建Linux发行版，我们一直是一些早期贡献的幕后贡献者，正是这些贡献造就了今天的Linux。我们的主要目标是确保我们的客户在长期的项目上取得成功，并提供商业级别的服务水平协议，为您的确切产品配置提供现场支持和长期CVE维护。\n"
     },
     "openlogic": {
       "name": "Perforce 的 OpenLogic",
