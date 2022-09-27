@@ -1,8 +1,10 @@
 {
   "title": "다운로드",
   "description": "신뢰할 수 있는 미러 중 하나에서 Rocky Linux의 공식 배포판을 다운로드 받으세요.",
-  "rl8": "Rocky Linux 8 (현재)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>지원 중단일:</0> 2029년 5월 31일",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
     "arch": "아키텍처",
     "isos": "ISO",
@@ -23,7 +25,8 @@
     "bug": "버그 신고",
     "cloud": "클라우드 이미지",
     "docs": "문서",
-    "vault": "아카이브 버전"
+    "vault": "아카이브 버전",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "참여하기",

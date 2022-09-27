@@ -4,12 +4,20 @@
   "support": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Учредитель/спонсор",
+      "tier": 1,
+      "title": "Founding Partner/Sponsor",
       "blurb": "Мы верим в то, что помогаем людям совершать великие дела. Именно поэтому CIQ является партнером-основателем RESF. Мы предоставляем коммерческую поддержку и услуги для Rocky Linux клиентам из научно-исследовательской, академической, правительственной, корпоративной, партнерской и всех других сфер."
+    },
+    "montavista": {
+      "name": "MontaVista",
+      "tier": 1,
+      "title": "Главный спонсор",
+      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
     },
     "openlogic": {
       "name": "OpenLogic от Perforce",
-      "tier": "Спонсор уровня 4",
+      "tier": 4,
+      "title": "Спонсор уровня 4",
       "blurb": "OpenLogic предоставляет комплексные сервисы поддержки программного обеспечения с открытым исходным кодом, чтобы ваши команды могли воспользоваться преимуществами использования открытого исходного кода и уверенно выполнять ваши требования, включая соблюдение таких правил, как GDPR, HIPAA and PCI."
     }
   },

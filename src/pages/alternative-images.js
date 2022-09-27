@@ -99,8 +99,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                             href="https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-Workstation-9.0-x86_64-20220712.0.iso"
                           >
                             {translate('body.download')}
-                          </a>
-                          { ' ' }
+                          </a>{' '}
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
@@ -120,8 +119,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                             href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-Workstation-aarch64-20220822.0.iso"
                           >
                             {translate('body.download')}
-                          </a>
-                          { ' ' }
+                          </a>{' '}
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
@@ -166,8 +164,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                             href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-Workstation-Lite-x86_64-20220806.0.iso"
                           >
                             {translate('body.download')}
-                          </a>
-                          { ' ' }
+                          </a>{' '}
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
@@ -187,8 +184,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                             href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-Workstation-Lite-aarch64-20220823.0.iso"
                           >
                             {translate('body.download')}
-                          </a>
-                          { ' ' }
+                          </a>{' '}
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
@@ -233,8 +229,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                             href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-KDE-x86_64-20220806.0.iso"
                           >
                             {translate('body.download')}
-                          </a>
-                          { ' ' }
+                          </a>{' '}
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
@@ -254,8 +249,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                             href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-KDE-aarch64-20220823.0.iso"
                           >
                             {translate('body.download')}
-                          </a>
-                          { ' ' }
+                          </a>{' '}
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
@@ -300,8 +294,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                             href="https://dl.rockylinux.org/pub/rocky/9.0/live/x86_64/Rocky-9.0-XFCE-x86_64-20220806.0.iso"
                           >
                             {translate('body.download')}
-                          </a>
-                          { ' ' }
+                          </a>{' '}
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
@@ -321,8 +314,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                             href="https://dl.rockylinux.org/pub/rocky/9.0/live/aarch64/Rocky-9.0-XFCE-aarch64-20220823.0.iso"
                           >
                             {translate('body.download')}
-                          </a>
-                          { ' ' }
+                          </a>{' '}
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"

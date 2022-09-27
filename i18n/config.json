@@ -94,5 +94,13 @@
     "localName": "Nederlands",
     "langDir": "ltr",
     "dateFormat": "DD/MM/YYYY"
+  },
+  {
+    "code": "ko",
+    "hrefLang": "ko",
+    "name": "Korean",
+    "localName": "한국어",
+    "langDir": "ltr",
+    "dateFormat": "YYYY/MM/DD"
   }
 ]

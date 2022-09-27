@@ -1,12 +1,16 @@
 {
   "title": "Các bản thay thế",
   "description": "Các bản cài đặt ở trang này được lấy từ các nguồn tin cậy của chúng tôi, tuy nhiên chúng không được hỗ trợ chính thức",
-  "rl8": "Rocky Linux 8 (Phiên bản hiện tại)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Hạn cuối hỗ trợ (EOL):</0> 31 tháng 5 năm 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Các kiến trúc khác (SIG)",
   "cloud": "Generic Cloud / OpenStack",
   "headings": {
+    "isos": "ISO",
+    "packages": "Các gói",
     "de": "Giao diện đồ hoạ (Desktop Environment)",
     "checksum": "Giá trị checksum",
     "arch": "Kiến trúc",
@@ -15,7 +19,9 @@
   },
   "body": {
     "gnome": "GNOME (Workstation)",
+    "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
+    "kde": "KDE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",

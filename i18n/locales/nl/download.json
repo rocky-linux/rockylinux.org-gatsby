@@ -1,8 +1,10 @@
 {
   "title": "Downloads",
   "description": "Download de officiële release van Rocky Linux van een van onze vertrouwde mirrors.",
-  "rl8": "Rocky Linux 8 (Current)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Geplande EOL:</0> 31 mei 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
     "arch": "Architectuur",
     "isos": "ISO's",
@@ -23,7 +25,8 @@
     "bug": "Bug Melden",
     "cloud": "Cloudafbeeldingen",
     "docs": "Documentatie",
-    "vault": "Gearchiveerde Releases"
+    "vault": "Gearchiveerde Releases",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Meehelpen",
