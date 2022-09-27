@@ -1,8 +1,10 @@
 {
   "title": "Téléchargements",
   "description": "Téléchargez la version officielle de Rocky Linux depuis l'un de nos miroirs de confiance.",
-  "rl8": "Rocky Linux 8 (courant)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>EOL planifié :</0> 31 mai 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
     "arch": "Architecture",
     "isos": "ISOs",
@@ -23,7 +25,8 @@
     "bug": "Signaler un bug",
     "cloud": "Images Cloud",
     "docs": "Documentation",
-    "vault": "Versions archivées"
+    "vault": "Versions archivées",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Contribuez",

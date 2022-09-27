@@ -2,9 +2,9 @@
   "hero": {
     "new": "最新動態",
     "title": "以社群力量驅動的企業級 Linux",
-    "description": "Rocky Linux 是一款與 Red Hat Enterprise Linux<0>&#174;</0> 錯誤相容的開放原始碼企業級作業系統，且正由社群頻繁開發中。",
+    "description": "Rocky Linux 是一款與 Red Hat Enterprise Linux<0>&#174;</0> t.臭蟲相容的開放原始碼企業級作業系統，且正由社群頻繁開發中。",
     "cta1": "下載",
-    "cta2": "遷移"
+    "cta2": "開始轉移"
   },
   "features": {
     "title": "無論何時，都堅若磐石",
@@ -12,20 +12,20 @@
     "description": "Rocky Linux繼承RHEL<0>&#174;</0>的血統，不論用於何處都能讓你無後顧之憂、充滿信心地享有超高穩定性的使用體驗。",
     "1": {
       "title": "適用於生產力環境",
-      "description": "Rocky Linux是企業級的，通過定期更新和10年的支持生命週期提供穩定的穩定性，所有這些都是免費的。"
+      "description": "Rocky Linux適合企業級環境使用，提供堅實的穩定性、定期更新及10年維護週期，一切免費。"
     },
     "2": {
-      "title": "社區支援",
-      "description": "社區、贊助商和合作夥伴已做出長期的投入承諾，確保該項目留在社區中。"
+      "title": "社群支援",
+      "description": "社群、贊助者及合作夥伴投入了長期承諾，確保此專案將留在社群中。"
     },
     "3": {
-      "title": "輕鬆遷移",
-      "description": "毋須費心從其他企業 Linux 發行版本遷移，我們免費提供易於使用的遷移指令稿。"
+      "title": "輕鬆轉移",
+      "description": "從其他企業級 Linux 發行版轉移十分輕鬆。我們提供了免費好用的轉移指令稿。"
     }
   },
   "latest-news": {
     "title": "最新消息",
-    "description": "我們定期與社區分享最新動態，這是最新動態。"
+    "description": "我們定期與社群分享最新動態，來看看吧。"
   },
   "sponsors-partners": {
     "backed": "強力後盾",

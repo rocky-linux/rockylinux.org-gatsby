@@ -2,7 +2,9 @@
   "title": "Ladattavat",
   "description": "Lataa Rocky Linuxin virallinen julkaisu yhdeltä luotetuista toisiopalvelimistamme.",
   "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Tuen päättymispäivä:</0> 31. toukokuuta 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
     "arch": "Arkkitehtuuri",
     "isos": "Levykuvat",
@@ -23,7 +25,8 @@
     "bug": "Raportoi virheestä",
     "cloud": "Pilvilevykuvat",
     "docs": "Dokumentaatio",
-    "vault": "Arkistoidut Julkaisut"
+    "vault": "Arkistoidut Julkaisut",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Osallistu",

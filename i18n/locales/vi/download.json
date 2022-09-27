@@ -1,8 +1,10 @@
 {
   "title": "Tải về",
   "description": "Tải về phiên bản chính thức của Rocky Linux từ các nguồn uy tín của chúng tôi",
-  "rl8": "Rocky Linux 8 (Phiên bản hiện tại)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Hạn cuối hỗ trợ (EOL):</0> 31 tháng 5 năm 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
     "arch": "Kiến trúc",
     "isos": "ISO",
@@ -23,7 +25,8 @@
     "bug": "Báo lỗi",
     "cloud": "Bản dành cho Cloud",
     "docs": "Tài liệu",
-    "vault": "Các bản cũ hơn"
+    "vault": "Các bản cũ hơn",
+    "verify": "Verify Download"
   },
   "get-involved": {
     "heading": "Tham gia",

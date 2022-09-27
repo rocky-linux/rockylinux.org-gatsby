@@ -1,12 +1,16 @@
 {
   "title": "Alternative Images",
   "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
-  "rl8": "Rocky Linux 8 (Current)",
+  "rl8": "Rocky Linux 8",
+  "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
+  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Alternative Architectures (SIG)",
   "cloud": "Generic Cloud / OpenStack",
   "headings": {
+    "isos": "ملفات ISO",
+    "packages": "الحزم",
     "de": "Desktop Environment",
     "checksum": "Checksum",
     "arch": "Architecture",
@@ -15,7 +19,9 @@
   },
   "body": {
     "gnome": "GNOME (Workstation)",
+    "gnome-lite": "GNOME (Lite Workstation)",
     "xfce": "XFCE",
+    "kde": "KDE",
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
