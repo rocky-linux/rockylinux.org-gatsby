@@ -67,7 +67,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
       icon: ShieldCheckIcon,
       iconForeground: 'text-white',
       iconBackground: 'bg-green-500',
-    }
+    },
   ];
 
   return (
