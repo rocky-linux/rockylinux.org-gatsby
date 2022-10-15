@@ -1,8 +1,9 @@
 {
   "title": "Download Rocky",
-  "description": "Download the official release of Rocky Linux from one of our trusted mirrors.",
-  "rl8": "Rocky Linux 8",
-  "rl9": "Rocky Linux 9",
+  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "rl8": "Rocky 8",
+  "rl9": "Rocky 9",
+  "elCompat": "Enterprise Linux Compatible",
   "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
   "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
@@ -30,11 +31,11 @@
   },
   "get-involved": {
     "heading": "Get Involved",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
     "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
     "boot": {
       "heading": "Boot",
       "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
@@ -45,7 +46,7 @@
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
     }
   }
 }
