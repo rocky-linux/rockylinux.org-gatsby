@@ -86,7 +86,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                   {translate('rl9')}
                 </h2>
                 <h3 className="text-center mb-2 text-md dark:text-white">
-                  {translate('elCompat')}
+                  {translate('elCompat9')}
                 </h3>
                 <p className="text-center text-base mb-4 dark:text-white">
                   <Trans t={translate} i18nKey="rl9-eol">
@@ -339,7 +339,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                   {translate('rl8')}
                 </h2>
                 <h3 className="text-center mb-2 text-md dark:text-white">
-                  {translate('elCompat')}
+                  {translate('elCompat8')}
                 </h3>
                 <p className="text-center text-base mb-4 dark:text-white">
                   <Trans t={translate} i18nKey="rl8-eol">
