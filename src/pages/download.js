@@ -85,6 +85,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                 <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
                   {translate('rl9')}
                 </h2>
+                <h3 className="text-center mb-2 text-md dark:text-white">
+                  {translate('elCompat9')}
+                </h3>
                 <p className="text-center text-base mb-4 dark:text-white">
                   <Trans t={translate} i18nKey="rl9-eol">
                     <strong>Planned EOL:</strong>
@@ -335,6 +338,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                 <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
                   {translate('rl8')}
                 </h2>
+                <h3 className="text-center mb-2 text-md dark:text-white">
+                  {translate('elCompat8')}
+                </h3>
                 <p className="text-center text-base mb-4 dark:text-white">
                   <Trans t={translate} i18nKey="rl8-eol">
                     <strong>Planned EOL:</strong>
@@ -555,18 +561,18 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                   <div className="mt-6 prose prose-green prose-lg text-gray-500 dark:text-gray-50 dark:prose-invert lg:mt-0">
                     <h3>Export Compliance/Customs Information</h3>
                     <p>
-                      By downloading Rocky Linux software, you acknowledge that
-                      you understand all of the following:
+                      By downloading Rocky software, you acknowledge that you
+                      understand all of the following:
                     </p>
                     <p>
-                      Rocky Linux software and technical information may be
-                      subject to the U.S. Export Administration Regulations (the
-                      “EAR”) and other U.S. and foreign laws and may not be
-                      exported, re-exported or transferred (a) to a prohibited
-                      destination country under the EAR or U.S. sanctions
-                      regulations (currently Cuba, Iran, North Korea, Syria, and
-                      the Crimea Region of Ukraine, subject to change as posted
-                      by the United States government); (b) to any prohibited
+                      Rocky software and technical information may be subject to
+                      the U.S. Export Administration Regulations (the “EAR”) and
+                      other U.S. and foreign laws and may not be exported,
+                      re-exported or transferred (a) to a prohibited destination
+                      country under the EAR or U.S. sanctions regulations
+                      (currently Cuba, Iran, North Korea, Syria, and the Crimea
+                      Region of Ukraine, subject to change as posted by the
+                      United States government); (b) to any prohibited
                       destination or to any end user who has been prohibited
                       from participating in U.S. export transactions by any
                       federal agency of the U.S. government; or (c) for use in
