@@ -90,7 +90,6 @@ The Security team works with each team to ensure the integrity, confidentiality,
 - Team Leads:
   - Benjamin Agner
   - Rob Felsburg
-- Team Deputies:
   - Scott Shinn
 
 #### Special Interest Groups
