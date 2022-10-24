@@ -32,11 +32,11 @@
   },
   "get-involved": {
     "heading": "参与进来",
-    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "body": "当你下载和使用 Rocky 时，Rocky企业软件基金会（RESF）<0>邀请您作为贡献者成为社区的一员</0>。对项目做出贡献的方式有很多，可以是文档、QA和测试为SIG做的代码更改，也可以是提供镜像或托管，帮助其他用户。"
   },
   "isos": {
     "heading": "ISO镜像文件之间有什么区别？",
-    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
+    "body": "可以使用各种各样的安装镜像来安装Rocky Linux，您需要下载哪个镜像文件，取决于您的安装环境和使用场景需求。",
     "boot": {
       "heading": "Boot",
       "body": "用于从另一个源(例如二进制文件的HTTP存储库)安装操作系统，也可以用来进入救援模式。"
@@ -47,7 +47,7 @@
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
+      "body": "含有 BaseOS 和 AppStream 存储库的完整安装，可允许您在没有额外存储库的情况下完成安装。从 DVD 镜像文件中安装 Rocky Linux 是执行标准 Rocky Linux 安装的最简单与最常见的方法。"
     }
   }
 }
