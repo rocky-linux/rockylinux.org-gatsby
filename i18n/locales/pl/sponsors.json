@@ -53,6 +53,12 @@
       "tier": 1,
       "blurb": "OpenDrives jest globalnym dostawcą hiperskalowalnych rozwiązań NAS (Network Attached Storage) klasy korporacyjnej. Dostarczamy naszym klientom rozwiązania o najwyższej wydajności - dopasowane do indywidualnych potrzeb w zakresie wydajności - dla najbardziej solidnych, złożonych i krytycznych dla misji firmy projektów i przepływów pracy, zarówno w siedzibie firmy, jak i w chmurze."
     },
+    "rakutensymphony": {
+      "name": "Rakuten Symphony",
+      "title": "Sponsor Główny",
+      "tier": 1,
+      "blurb": "By reimagining telecom, Rakuten Symphony makes it possible to launch and operate advanced mobile services in a fraction of the time and cost of conventional approaches, with no compromise to network quality or security."
+    },
     "vmware": {
       "name": "VMware",
       "title": "Sponsor Główny",
