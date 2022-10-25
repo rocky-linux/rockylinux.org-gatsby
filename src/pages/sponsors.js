@@ -5,18 +5,19 @@ import Header from '../components/Header';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import { Translate } from '../../i18n/utils/translate';
+import AwsLogo from '../images/aws.png';
+import AzureLogo from '../images/azure.png';
 import CiqLogo from '../images/ciq.png';
 import FortyFiveDrivesLogo from '../images/45drives.png';
-import AwsLogo from '../images/aws.png';
 import GcpLogo from '../images/gcp.png';
-import AzureLogo from '../images/azure.png';
 import MontaVistaLogo from '../images/montavista.png';
 import OpenDrivesLogo from '../images/opendrives.png';
-import VmwareLogo from '../images/vmware.png';
 import OpenLogicLogo from '../images/openlogic.svg';
 import ProComputersLogo from '../images/procomputers.png';
+import RakutenSymphonyLogo from '../images/rakuten-symphony.svg';
 import SeagateLogo from '../images/seagate.png';
 import StromasysLogo from '../images/stromasys.png';
+import VmwareLogo from '../images/vmware.png';
 
 const SponsorsPage = () => {
   const translate = Translate('sponsors');
@@ -76,6 +77,14 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.opendrives.blurb')}`,
       source: `${OpenDrivesLogo}`,
       link: 'https://opendrives.com/',
+    },
+    {
+      name: `${translate('sponsors.rakutensymphony.name')}`,
+      tier: `${translate('sponsors.rakutensymphony.tier')}`,
+      title: `${translate('sponsors.rakutensymphony.title')}`,
+      blurb: `${translate('sponsors.rakutensymphony.blurb')}`,
+      source: `${RakutenSymphonyLogo}`,
+      link: 'https://symphony.rakuten.com/',
     },
     {
       name: `${translate('sponsors.vmware.name')}`,
