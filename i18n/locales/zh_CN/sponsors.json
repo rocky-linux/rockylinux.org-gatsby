@@ -53,6 +53,12 @@
       "tier": 1,
       "blurb": "OpenDrives 是一家企业级、超可拓展、网络附加存储(NAS)解决方案的全球提供商。我们为客户提供最高性能的解决方案，以满足个人性能需求，以满足最强大、最复杂和最关键任务的项目和工作流，无论是内部部署还是云端部署。"
     },
+    "rakutensymphony": {
+      "name": "Rakuten Symphony",
+      "title": "首席赞助商",
+      "tier": 1,
+      "blurb": "By reimagining telecom, Rakuten Symphony makes it possible to launch and operate advanced mobile services in a fraction of the time and cost of conventional approaches, with no compromise to network quality or security."
+    },
     "vmware": {
       "name": "VMware",
       "title": "首席赞助商",
