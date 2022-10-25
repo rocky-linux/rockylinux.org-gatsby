@@ -53,6 +53,12 @@
       "tier": 1,
       "blurb": "OpenDrives - глобальный поставщик гипермасштабируемых сетевых хранилищ данных (NAS) корпоративного класса. Мы предоставляем нашим клиентам самые высокопроизводительные решения - в соответствии с индивидуальными потребностями в производительности - для самых надежных, сложных и критически важных проектов и рабочих процессов, локальных и облачных."
     },
+    "rakutensymphony": {
+      "name": "Rakuten Symphony",
+      "title": "Главный спонсор",
+      "tier": 1,
+      "blurb": "By reimagining telecom, Rakuten Symphony makes it possible to launch and operate advanced mobile services in a fraction of the time and cost of conventional approaches, with no compromise to network quality or security."
+    },
     "vmware": {
       "name": "VMware",
       "title": "Главный спонсор",
