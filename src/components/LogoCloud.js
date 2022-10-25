@@ -1,18 +1,19 @@
 import React from 'react';
-import CIQLogo from '../images/ciq.svg';
-import FortyFiveDrivesLogo from '../images/45drives.svg';
-import ArmLogo from '../images/arm.svg';
 import AWSLogo from '../images/aws.svg';
+import ArmLogo from '../images/arm.svg';
+import AzureLogo from '../images/azure.svg';
+import CIQLogo from '../images/ciq.svg';
 import EquinixLogo from '../images/equinix.svg';
 import FastlyLogo from '../images/fastly.svg';
+import FortyFiveDrivesLogo from '../images/45drives.svg';
 import FosshostLogo from '../images/fosshost.svg';
 import GoogleCloudLogo from '../images/gcp.svg';
 import MattermostLogo from '../images/mattermost.svg';
-import AzureLogo from '../images/azure.svg';
 import MontaVistaLogo from '../images/montavista.svg';
 import NaverCloudLogo from '../images/naver-cloud.svg';
 import OpenDrivesLogo from '../images/opendrives.svg';
 import OpenSourceLabs from '../images/osl.svg';
+import RakutenSymphonyLogo from '../images/rakuten-symphony-logocloud.svg';
 import SupermicroLogo from '../images/supermicro.svg';
 import VmwareLogo from '../images/vmware.svg';
 import { Translate } from '../../i18n/utils/translate';
@@ -138,6 +139,15 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
                   className="max-h-12"
                   src={OpenSourceLabs}
                   alt="OSU Open Source Labs"
+                />
+              </div>
+            </a>
+            <a href="https://symphony.rakuten.com/">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
+                <img
+                  className="max-h-12"
+                  src={RakutenSymphonyLogo}
+                  alt="Rakuten Symphony"
                 />
               </div>
             </a>
