@@ -53,6 +53,12 @@
       "tier": 1,
       "blurb": "OpenDrives là nhà cung cấp toàn cầu các giải pháp NAS đạt chuẩn doanh nghiệp với khả năng mở rộng cực lớn. Chúng tôi đưa đến cho khách hàng các giải pháp có hiệu suất tốt nhất - nhằm phục vụ tất cả các yêu cầu của từng khách hàng - dành cho các dự án quy mô lớn, phức tạp, quan trọng, cả on-premise lẫn trên cloud."
     },
+    "rakutensymphony": {
+      "name": "Rakuten Symphony",
+      "title": "Nhà tài trợ chính",
+      "tier": 1,
+      "blurb": "By reimagining telecom, Rakuten Symphony makes it possible to launch and operate advanced mobile services in a fraction of the time and cost of conventional approaches, with no compromise to network quality or security."
+    },
     "vmware": {
       "name": "VMware",
       "title": "Nhà tài trợ chính",
