@@ -53,6 +53,12 @@
       "tier": 1,
       "blurb": "OpenDriversは、エンタープライズグレードのハイパースケーラブルなネットワーク接続ストレージ（NAS）ソリューションのグローバルプロバイダです。オンプレミスおよびクラウド上で、最も堅牢で複雑なミッションクリティカルなプロジェクトやワークフローに対応し、個々の性能ニーズに合わせた最高性能のソリューションをお客様にお届けします。"
     },
+    "rakutensymphony": {
+      "name": "Rakuten Symphony",
+      "title": "主要スポンサー",
+      "tier": 1,
+      "blurb": "By reimagining telecom, Rakuten Symphony makes it possible to launch and operate advanced mobile services in a fraction of the time and cost of conventional approaches, with no compromise to network quality or security."
+    },
     "vmware": {
       "name": "VMware",
       "title": "主要スポンサー",
