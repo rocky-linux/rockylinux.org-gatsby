@@ -14,7 +14,7 @@ import MontaVistaLogo from '../images/montavista.png';
 import OpenDrivesLogo from '../images/opendrives.png';
 import OpenLogicLogo from '../images/openlogic.svg';
 import ProComputersLogo from '../images/procomputers.png';
-import RakutenSymphonyLogo from '../images/rakuten-symphony.svg';
+import RakutenSymphonyLogo from '../images/rakuten-symphony.png';
 import SeagateLogo from '../images/seagate.png';
 import StromasysLogo from '../images/stromasys.png';
 import VmwareLogo from '../images/vmware.png';
