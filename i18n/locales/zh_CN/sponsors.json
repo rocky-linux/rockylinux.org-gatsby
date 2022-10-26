@@ -57,7 +57,7 @@
       "name": "Rakuten Symphony",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks."
+      "blurb": "Rakuten Symphony坚信，开源社区可通过相互协作促进创新。Rocky Linux的部署，代表着回归真正开源的原则——由开放社区提供支持。Rakuten Symphony正在与电信行业内广泛的第三方供应商和技术合作伙伴密切合作，使Rocky Linux成为运行大型网络的标准操作系统。"
     },
     "vmware": {
       "name": "VMware",
