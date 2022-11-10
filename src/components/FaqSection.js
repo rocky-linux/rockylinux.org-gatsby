@@ -3,7 +3,7 @@ import React from 'react';
 const Section = ({ title, children, category }) => {
   return (
     <>
-      <div className="max-w-4xl mx-auto mb-12">
+      <div className="px-8 sm:px-0 max-w-4xl mx-auto mb-12">
         <h2 className="dark:text-white text-2xl font-bold mb-3">{category}</h2>
         <ul className="list-disc dark: text-white font-semibold">
             {children}
