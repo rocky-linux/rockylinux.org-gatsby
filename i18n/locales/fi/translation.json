@@ -8,7 +8,8 @@
     "documentation": "Dokumentaatio",
     "get-involved": "Osallistu",
     "legal": "Lainopillinen",
-    "language": "Kieli"
+    "language": "Kieli",
+    "foundation": "Foundation"
   },
   "about": {
     "about": "Tietoa Rocky Linuxista",
@@ -40,6 +41,10 @@
   "legal": {
     "licensing": "Lisensointi",
     "privacy": "Tietosuojakäytäntö"
+  },
+  "foundation": {
+    "charter": "RESF Charter & Bylaws",
+    "faq": "RESF FAQ"
   },
   "lang": {
     "choose": "Valitse kieli",
