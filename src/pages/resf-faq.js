@@ -17,9 +17,7 @@ const Faq = ({ data }) => {
   if (!posts || !posts.length) {
     return <NotFound />;
   }
-
-  console.log(posts);
-
+  
   return (
     <Layout>
       <SEO title={translate('title')} />
@@ -27,7 +25,20 @@ const Faq = ({ data }) => {
         metadata={data.site.siteMetadata}
         pageContext="{locale: language}"
       />
-      {!noBlog && <Faqs pageContext="{locale: language}" posts={posts} />}
+      <div>
+        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <p className="mt-1 text-4xl font-extrabold text-gray-900 dark:text-gray-50 sm:text-5xl sm:tracking-tight lg:text-6xl">
+              {translate('title')}
+            </p>
+          </div>
+        </div>
+      </div>
+      {!noBlog && <Faqs pageContext="{locale: language}" category="About the RESF" posts={posts.filter((post) => post.node.frontmatter.category === "About")} />}
+      {!noBlog && <Faqs pageContext="{locale: language}" category="Bylaws/Charter" posts={posts.filter((post) => post.node.frontmatter.category === "BylawsCharter")} />}
+      {!noBlog && <Faqs pageContext="{locale: language}" category="Board of Directors" posts={posts.filter((post) => post.node.frontmatter.category === "BoardOfDirectors")} />}
+      {!noBlog && <Faqs pageContext="{locale: language}" category="Projects" posts={posts.filter((post) => post.node.frontmatter.category === "Projects")} />}
+      {!noBlog && <Faqs pageContext="{locale: language}" category="Members" posts={posts.filter((post) => post.node.frontmatter.category === "Members")} />}
       <Footer pageContext="{locale: language}" />
     </Layout>
   );

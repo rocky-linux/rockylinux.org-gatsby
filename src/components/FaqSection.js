@@ -1,21 +1,13 @@
 import React from 'react';
 
-const Section = ({ title, children, description }) => {
+const Section = ({ title, children, category }) => {
   return (
     <>
-      <div>
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <p className="mt-1 text-4xl font-extrabold text-gray-900 dark:text-gray-50 sm:text-5xl sm:tracking-tight lg:text-6xl">
-              {title}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-4xl mx-auto mb-24">
-        <dl class="text-gray-900 divide-y-2 divide-gray-200 dark:text-white dark:divide-gray-700">
+      <div className="max-w-4xl mx-auto mb-12">
+        <h2 className="dark:text-white text-2xl font-bold mb-3">{category}</h2>
+        <ul className="list-disc dark: text-white font-semibold">
             {children}
-        </dl>
+        </ul>
       </div>
     </>
   );

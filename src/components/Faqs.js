@@ -4,11 +4,11 @@ import Section from './FaqSection';
 import SummaryItem from './FaqSummaryItem';
 import { Translate } from '../../i18n/utils/translate';
 
-const Faqs = ({ posts, pageContext: { locale: language } }) => {
+const Faqs = ({ category, posts, pageContext: { locale: language } }) => {
   const translate = Translate('resf-faq');
 
   return (
-    <Section title={translate('title')} description={translate('description')}>
+    <Section title={translate('title')} category={category} description={translate('description')}>
       {posts.map((post) => (
         <SummaryItem
           key={post.node.fields.slug}
