@@ -11,7 +11,7 @@ const SummaryItem = ({
   return (
     <div class="flex flex-col pb-3">
       <LocalizedLink to={link} className="block mt-2">
-        <li>{name}</li>
+        <li>●&nbsp; {name}</li>
       </LocalizedLink>
     </div>
   );
