@@ -1,6 +1,8 @@
 ---
 title: But if Gregory Kurtzer owns the RESF, doesn't he still have control over it?
 posttype: 'resf-faq'
+id: 6
+category: 'About'
 ---
 
 As a member of the foundation, Greg is subject to the same rules and functions as everyone else, but the question is still valid.

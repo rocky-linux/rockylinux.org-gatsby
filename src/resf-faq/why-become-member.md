@@ -1,6 +1,8 @@
 ---
 title: Why should I become an RESF member?
 posttype: 'resf-faq'
+id: 27
+category: 'Members'
 ---
 
 Members are recognized contributors to the Foundation and/or Projects. Being a Member means that you are an active participant to one or more RESF Projects which provides you the opportunity to take part in leadership decisions and presentations on what is happening, see what is on the horizon, be aware of new things that are coming with other Projects, and have a formal voice with the RESF.

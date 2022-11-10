@@ -1,6 +1,8 @@
 ---
 title: If you don’t sell board seats for membership dues, how will the Projects be funded?
 posttype: 'resf-faq'
+id: 20
+category: 'BoardOfDirectors'
 ---
 
 The RESF believes in merit based control and ensuring that all Projects are led by the best individuals for that role. All Board seats should be held by the individuals who know the needs of the Foundation and Projects best. Selling Board seats not only risks misalignment with the community, but it also alienates the people who contribute to the Project as a labor of love.

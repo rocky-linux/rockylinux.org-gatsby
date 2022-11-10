@@ -39,7 +39,9 @@ async function paginate({ graphql, actions, type, itemPerPage }) {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`);
+  const postPage = path.resolve(`./src/templates/blog-post.js`);
+  const faqPage = path.resolve(`./src/templates/faq-entry.js`);
+  const genericPage = path.resolve(`./src/templates/generic-page.js`);
   const result = await graphql(
     `
       {
@@ -55,6 +57,9 @@ exports.createPages = async ({ graphql, actions }) => {
               frontmatter {
                 title
                 date
+                category
+                id
+                posttype
               }
             }
           }
@@ -76,10 +81,20 @@ exports.createPages = async ({ graphql, actions }) => {
           slug: edge.node.fields.slug,
         },
       });
+    } else if (edge.node.frontmatter.posttype === 'resf-faq') {
+      createPage({
+        path: edge.node.fields.slug,
+        component: faqPage,
+        context: {
+          slug: edge.node.fields.slug,
+          category: edge.node.frontmatter.category,
+          id: edge.node.frontmatter.id,
+        },
+      });
     } else {
       createPage({
         path: edge.node.fields.slug,
-        component: blogPost,
+        component: postPage,
         context: {
           slug: edge.node.fields.slug,
         },

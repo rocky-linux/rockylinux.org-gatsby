@@ -1,6 +1,8 @@
 ---
 title: How will this organizational structure and accompanying bylaws prevent what happened with CentOS from happening again with the RESF and Rocky Linux?
 posttype: 'resf-faq'
+id: 15
+category: 'BylawsCharter'
 ---
 
 First, to mention the obvious, CentOS Linux has been amazing to millions of people and organizations around the world, and we strive to be as purposeful to the world as CentOS has been. Many of our goals are modeled exactly from what made CentOS so amazing, but that doesn’t mean that some things couldn’t be improved, and that is where we really focused…

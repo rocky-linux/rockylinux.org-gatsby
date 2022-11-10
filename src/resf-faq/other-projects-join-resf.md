@@ -1,6 +1,8 @@
 ---
 title: Why would other Projects want to join the RESF?
 posttype: 'resf-faq'
+id: 23
+category: 'Projects'
 ---
 
 There are numerous reasons why open source projects would benefit by being part of the RESF, here are a few for consideration:

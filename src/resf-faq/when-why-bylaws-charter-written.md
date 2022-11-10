@@ -1,6 +1,8 @@
 ---
 title: When and why were the bylaws and charter written?
 posttype: 'resf-faq'
+id: 10
+category: 'BylawsCharter'
 ---
 
 When we first began, our goal was to create a new Enterprise Linux derivative, addressing a critical pain point for the community. Now that we’ve done that, and built the infrastructure to facilitate a larger breadth of features and longevity of the project, we refocused to codify the organizational structure for the benefit of the new community which has formed around the vision of stable, collaborative, community focused open source projects.

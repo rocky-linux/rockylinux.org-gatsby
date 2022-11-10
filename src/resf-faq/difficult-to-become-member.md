@@ -1,6 +1,8 @@
 ---
 title: Why is it more difficult to become a member of the RESF than other open source foundations?
 posttype: 'resf-faq'
+id: 29
+category: 'Members'
 ---
 
 Membership provides a critical role to the Foundation, the right to vote for board members and become Project or Foundation leaders. Because we strive to be a meritocracy, it is most important for everyone voting to understand clearly what is needed for the benefit of the organization, Projects, and teams and thus the community. Also, it is important to ensure that elections are fair and always in the best interest of the general public and community.

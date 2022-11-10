@@ -1,6 +1,8 @@
 ---
 title: What does the RESF board structure look like?
 posttype: 'resf-faq'
+id: 17
+category: 'BoardOfDirectors'
 ---
 
 There is a structure of boards, with a summary as depicted in this image:

@@ -1,6 +1,8 @@
 ---
 title: Why would a company want to put their open source projects into the RESF?
 posttype: 'resf-faq'
+id: 24
+category: 'Projects'
 ---
 
 Open source is not a marketing gimmick or hype generating tool, it is a collaborative and effective development model that inherently builds longevity, stability, transparency, trust, and community behind an idea or development initiative. But when open source projects are controlled behind the locked doors of executive offices and boardrooms, the decisions are always in the fiduciary interest of the company, not the open source Community; at times these decisions align but many times, they do not.

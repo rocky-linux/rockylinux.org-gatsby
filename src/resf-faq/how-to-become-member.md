@@ -1,6 +1,8 @@
 ---
 title: How does someone become a member of the RESF?
 posttype: 'resf-faq'
+id: 28
+category: 'Members'
 ---
 
 Becoming a member to the RESF is equivalent to being a member of any Project or Project Team within the RESF. All members are absolutely equal and everybody is welcome; from core developers to non-techies who want to participate in RESF Projects.

@@ -1,6 +1,8 @@
 ---
 title: Is the RESF and Rocky Linux the same thing?
 posttype: 'resf-faq'
+id: 2
+category: 'About'
 ---
 
 The RESF is a legal entity that hosts open source projects (such as Rocky Linux).

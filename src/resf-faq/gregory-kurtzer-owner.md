@@ -1,6 +1,8 @@
 ---
 title: Is Gregory Kurtzer the owner of the RESF?
 posttype: 'resf-faq'
+id: 5
+category: 'About'
 ---
 
 Yes, Greg owns the legal entity of the RESF (somebody has to!).

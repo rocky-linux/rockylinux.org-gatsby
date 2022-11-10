@@ -1,6 +1,8 @@
 ---
 title: Is the RESF a non-profit?
 posttype: 'resf-faq'
+id: 4
+category: 'About'
 ---
 
 The RESF is a self-imposed not-for-profit organization founded as a Delaware Public Benefits Corporation (PBC). We are not a US IRS tax exempt organization as we believe they are not well equipped to protect open source projects nor are they a magic pill for integrity and doing the right thing for the community at large. 

@@ -1,6 +1,8 @@
 ---
 title: Who elects the board members?
 posttype: 'resf-faq'
+id: 21
+category: 'BoardOfDirectors'
 ---
 
 RESF Members have several responsibilities to the RESF and Projects, one of those is to nominate, second, and vote for the board seats. It is important for the RESF that all elections are done via RESF Members, the people who are working directly on the RESF Projects and Project Teams to ensure that the best candidates are elected to board positions.

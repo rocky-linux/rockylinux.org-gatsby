@@ -18,6 +18,8 @@ const Faq = ({ data }) => {
     return <NotFound />;
   }
 
+  console.log(posts);
+
   return (
     <Layout>
       <SEO title={translate('title')} />
@@ -42,7 +44,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___id], order: ASC }
       filter: { frontmatter: { posttype: { eq: "resf-faq" } } }
       skip: $skip
     ) {
@@ -54,9 +56,9 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
             title
-            description
+            category
+            id
           }
         }
       }

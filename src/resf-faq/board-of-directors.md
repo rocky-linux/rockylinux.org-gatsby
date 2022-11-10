@@ -1,6 +1,8 @@
 ---
 title: Who is on the board of directors?
 posttype: 'resf-faq'
+id: 18
+category: 'BoardOfDirectors'
 ---
 
 Unlike many open source foundations, the RESF does not believe in “selling”  board seats or votes. All Board Members deserve to be there based on merit, elected by their peers within the community, not who can afford the largest donation.

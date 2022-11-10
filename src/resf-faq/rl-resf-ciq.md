@@ -1,6 +1,8 @@
 ---
 title: Does Rocky Linux or the RESF belong to CIQ?
 posttype: 'resf-faq'
+id: 7
+category: 'About'
 ---
 
 No. The RESF nor the Projects are beholden to any single company.
