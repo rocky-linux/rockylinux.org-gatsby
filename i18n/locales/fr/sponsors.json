@@ -1,88 +1,88 @@
 {
   "title": "Sponsors",
   "description": "Nous tenons à remercier nos sponsors pour leur soutien jusqu'à présent sur le projet.",
-  "tierone": "Tier 1 - Principal Sponsors",
-  "tiertwo": "Tier 2",
-  "tierthree": "Tier 3",
-  "tierfour": "Tier 4",
+  "tierone": "Niveau 1 - Sponsors principaux",
+  "tiertwo": "Niveau 2",
+  "tierthree": "Niveau 3",
+  "tierfour": "Niveau 4",
   "blurb": {
-    "lineone": "Want to be a sponsor?",
-    "linetwo": "Get in touch today.",
-    "emailus": "Email Us"
+    "lineone": "Vous voulez être un sponsor ?",
+    "linetwo": "Contactez-nous aujourd'hui.",
+    "emailus": "Envoyez-nous un courriel"
   },
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "title": "Founding Sponsor",
+      "title": "Sponsor fondateur",
       "tier": 1,
       "blurb": "Nous croyons qu'il faut aider les gens à faire de grandes choses. C'est pourquoi CIQ est un sponsor fondateur de la RESF. Nous fournissons un support commercial et des services pour Rocky Linux à des clients issus du monde de la recherche, de l'université, du gouvernement, des entreprises, des partenaires et de tous les secteurs intermédiaires."
     },
     "45drives": {
       "name": "45Drives",
-      "title": "Principal Sponsor",
+      "title": "Sponsor principal",
       "tier": 1,
       "blurb": "45Drives offre des solutions de stockage d'entreprise basées sur des logiciels open-source puissants et robustes qui permettent aux clients de bénéficier des économies et de la flexibilité du matériel standard. Jetez-y un coup d'œil pour une solution de stockage de données entièrement supportée au meilleur prix par téraoctet!"
     },
     "aws": {
       "name": "Amazon Web Services",
-      "title": "Principal Sponsor",
+      "title": "Sponsor principal",
       "tier": 1,
       "blurb": "La RESF utilise AWS pour exécuter une grande partie de l'infrastructure sous-jacente essentielle au développement et au déploiement des services supportant Rocky Linux. Des compilateurs Koji pour x86_64 et aarch64 fonctionnant sur EC2 au stockage de blob SRPM sur S3, AWS est fondamental à une grande partie de ce que nous faisons."
     },
     "gcp": {
       "name": "Google Cloud",
-      "title": "Principal Sponsor",
+      "title": "Sponsor principal",
       "tier": 1,
       "blurb": "En tant que sponsor principal de la RESF, Google comprend l'importance de Rocky Linux en tant que système d'exploitation libre, ouvert et communautaire pour les entreprises. Fournir des ressources pour les tests et la validation, nous avons établi un partenariat avec la RESF pour assurer à Rocky le statut de citoyen de première classe sur la plate-forme Google Cloud dès le premier jour."
     },
     "azure": {
       "name": "Microsoft Azure",
-      "title": "Principal Sponsor",
+      "title": "Sponsor principal",
       "tier": 1,
       "blurb": "Linux est la plate-forme qui connaît la croissance la plus rapide sur Azure, fonctionnant sur plus de la moitié des cœurs de VM. Depuis plus de dix ans, Microsoft investit sur Linux, et les partenariats étant un pilier central de la stratégie open source de Microsoft, nous collaborons avec la RESF et l'écosystème plus large de Rocky Linux pour garantir aux clients un ensemble croissant d'options pour déployer des charges de travail Linux sur Azure dans un environnement supporté, de façon gérée et sécurisée."
     },
     "montavista": {
       "name": "MontaVista",
-      "title": "Principal Sponsor",
+      "title": "Sponsor principal",
       "tier": 1,
       "blurb": "MontaVista Software est le leader du Linux commercial embarqué, prenant en charge MontaVista CGX, Yocto Project®️, CentOS et Rocky Linux. MontaVista offre l'expertise du logiciel Open Source, des distributions Linux de qualité commerciale, une maintenance économique et un support pour une durée de plus de 10 ans."
     },
     "opendrives": {
       "name": "OpenDrives",
-      "title": "Principal Sponsor",
+      "title": "Sponsor principal",
       "tier": 1,
       "blurb": "OpenDrives est un fournisseur mondial de solutions de stockage réseau (NAS) de classe entreprise, hautement évolutives. Nous fournissons les solutions les plus performantes pour nos clients - pour répondre aux besoins de performance individuels - pour les projets et flux de travail les plus robustes, complexes et critiques, on-premise et dans le cloud."
     },
     "rakutensymphony": {
       "name": "Rakuten Symphony",
-      "title": "Principal Sponsor",
+      "title": "Sponsor principal",
       "tier": 1,
-      "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks."
+      "blurb": "Rakuten Symphony est convaincu que les communautés du logiciel libre encouragent l'innovation par la collaboration. Le déploiement de Rocky Linux représente un retour à de véritables principes open-source, alimentés par des communautés ouvertes. Rakuten Symphony travaille en étroite collaboration avec un large éventail de fournisseurs tiers et de partenaires technologiques de l'industrie des télécommunications pour faire de Rocky Linux le système d'exploitation standard pour la gestion de grands réseaux."
     },
     "vmware": {
       "name": "VMware",
-      "title": "Principal Sponsor",
+      "title": "Sponsor principal",
       "tier": 1,
       "blurb": "VMware est l'un des principaux fournisseurs de services multi-cloud pour toutes les applications, permettant ainsi l'innovation numérique avec le contrôle de l'entreprise."
     },
     "openlogic": {
-      "name": "OpenLogic by Perforce",
-      "title": "Tier 4 Sponsor",
+      "name": "OpenLogic par Perforce",
+      "title": "Sponsor Niveau 4",
       "tier": 4
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "title": "Tier 4 Sponsor",
+      "title": "Sponsor Niveau 4",
       "tier": 4
     },
     "seagate": {
       "name": "Seagate Federal",
-      "title": "Tier 4 Sponsor",
+      "title": "Sponsor Niveau 4",
       "tier": 4
     },
     "stromasys": {
       "name": "Stromasys",
-      "title": "Tier 4 Sponsor",
+      "title": "Sponsor Niveau 4",
       "tier": 4
     }
   }
