@@ -8,7 +8,8 @@
     "documentation": "Dokumentacja",
     "get-involved": "Zaangażuj Się",
     "legal": "Informacje Prawne",
-    "language": "Język"
+    "language": "Język",
+    "foundation": "Foundation"
   },
   "about": {
     "about": "O Rocky Linux",
@@ -40,6 +41,10 @@
   "legal": {
     "licensing": "Licencja",
     "privacy": "Polityka Prywatności"
+  },
+  "foundation": {
+    "charter": "RESF Charter & Bylaws",
+    "faq": "RESF FAQ"
   },
   "lang": {
     "choose": "Wybierz Język",
