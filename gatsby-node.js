@@ -89,6 +89,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   await Promise.all([
     paginate({ graphql, actions, type: 'news', itemPerPage: 9 }),
+    paginate({ graphql, actions, type: 'resf-faq', itemPerPage: 9 }),
   ]);
 };
 
@@ -103,6 +104,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         node,
         value: `${value}`,
       });
+    } else if (node.frontmatter.posttype == 'resf-faq') {
+      createNodeField({
+        name: `slug`,
+        node,
+        value: `/resf-faq${value}`,
+      })
     } else {
       createNodeField({
         name: `slug`,
