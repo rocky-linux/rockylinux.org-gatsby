@@ -8,7 +8,8 @@
     "documentation": "Tài liệu",
     "get-involved": "Tham gia",
     "legal": "Mô tả pháp lý",
-    "language": "Ngôn ngữ"
+    "language": "Ngôn ngữ",
+    "foundation": "Foundation"
   },
   "about": {
     "about": "Về Rocky Linux",
@@ -40,6 +41,10 @@
   "legal": {
     "licensing": "Bản quyền",
     "privacy": "Chính Sách Quyền Riêng Tư"
+  },
+  "foundation": {
+    "charter": "RESF Charter & Bylaws",
+    "faq": "RESF FAQ"
   },
   "lang": {
     "choose": "Chọn ngôn ngữ",
