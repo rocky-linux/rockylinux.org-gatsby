@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import React from 'react';
 
 import Header from '../components/Header';
@@ -10,7 +10,7 @@ const classes = {
   wrapper: 'mt-16 blog-content dark:text-gray-50',
 };
 
-const BlogPost = ({ data }) => {
+const FaqEntry = ({ data }) => {
   const post = data.markdownRemark;
 
   return (
@@ -24,13 +24,16 @@ const BlogPost = ({ data }) => {
         <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="text-lg max-w-prose mx-auto">
             <h1>
-              <span className="block text-base text-center text-green-500 font-semibold tracking-wide uppercase">
-                {post.frontmatter.date}
-              </span>
               <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
                 {post.frontmatter.title}
               </span>
             </h1>
+            <Link
+              to="/resf-faq"
+              className="block mt-2 text-green-600 font-semibold underline text-center"
+            >
+              ← Back to RESF FAQs
+            </Link>
           </div>
           <div className="text-lg max-w-prose prose prose-green mx-auto dark:prose-invert">
             <div
@@ -45,10 +48,10 @@ const BlogPost = ({ data }) => {
   );
 };
 
-export default BlogPost;
+export default FaqEntry;
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query FaqPostBySlug($slug: String!) {
     site {
       siteMetadata {
         name
@@ -62,8 +65,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        description
+        category
+        id
       }
     }
   }
