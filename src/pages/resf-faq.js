@@ -17,7 +17,7 @@ const Faq = ({ data }) => {
   if (!posts || !posts.length) {
     return <NotFound />;
   }
-  
+
   return (
     <Layout>
       <SEO title={translate('title')} />
@@ -34,11 +34,51 @@ const Faq = ({ data }) => {
           </div>
         </div>
       </div>
-      {!noBlog && <Faqs pageContext="{locale: language}" category="About the RESF" posts={posts.filter((post) => post.node.frontmatter.category === "About")} />}
-      {!noBlog && <Faqs pageContext="{locale: language}" category="Bylaws/Charter" posts={posts.filter((post) => post.node.frontmatter.category === "BylawsCharter")} />}
-      {!noBlog && <Faqs pageContext="{locale: language}" category="Board of Directors" posts={posts.filter((post) => post.node.frontmatter.category === "BoardOfDirectors")} />}
-      {!noBlog && <Faqs pageContext="{locale: language}" category="Projects" posts={posts.filter((post) => post.node.frontmatter.category === "Projects")} />}
-      {!noBlog && <Faqs pageContext="{locale: language}" category="Members" posts={posts.filter((post) => post.node.frontmatter.category === "Members")} />}
+      {!noBlog && (
+        <Faqs
+          pageContext="{locale: language}"
+          category="About the RESF"
+          posts={posts.filter(
+            (post) => post.node.frontmatter.category === 'About'
+          )}
+        />
+      )}
+      {!noBlog && (
+        <Faqs
+          pageContext="{locale: language}"
+          category="Bylaws/Charter"
+          posts={posts.filter(
+            (post) => post.node.frontmatter.category === 'BylawsCharter'
+          )}
+        />
+      )}
+      {!noBlog && (
+        <Faqs
+          pageContext="{locale: language}"
+          category="Board of Directors"
+          posts={posts.filter(
+            (post) => post.node.frontmatter.category === 'BoardOfDirectors'
+          )}
+        />
+      )}
+      {!noBlog && (
+        <Faqs
+          pageContext="{locale: language}"
+          category="Projects"
+          posts={posts.filter(
+            (post) => post.node.frontmatter.category === 'Projects'
+          )}
+        />
+      )}
+      {!noBlog && (
+        <Faqs
+          pageContext="{locale: language}"
+          category="Members"
+          posts={posts.filter(
+            (post) => post.node.frontmatter.category === 'Members'
+          )}
+        />
+      )}
       <Footer pageContext="{locale: language}" />
     </Layout>
   );

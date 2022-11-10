@@ -8,7 +8,11 @@ const Faqs = ({ category, posts, pageContext: { locale: language } }) => {
   const translate = Translate('resf-faq');
 
   return (
-    <Section title={translate('title')} category={category} description={translate('description')}>
+    <Section
+      title={translate('title')}
+      category={category}
+      description={translate('description')}
+    >
       {posts.map((post) => (
         <SummaryItem
           key={post.node.fields.slug}

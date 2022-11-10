@@ -124,7 +124,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         name: `slug`,
         node,
         value: `/resf-faq${value}`,
-      })
+      });
     } else {
       createNodeField({
         name: `slug`,

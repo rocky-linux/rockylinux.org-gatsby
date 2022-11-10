@@ -28,8 +28,11 @@ const FaqEntry = ({ data }) => {
                 {post.frontmatter.title}
               </span>
             </h1>
-            <Link to="/resf-faq" className="block mt-2 text-green-600 font-semibold underline text-center">
-                ← Back to RESF FAQs
+            <Link
+              to="/resf-faq"
+              className="block mt-2 text-green-600 font-semibold underline text-center"
+            >
+              ← Back to RESF FAQs
             </Link>
           </div>
           <div className="text-lg max-w-prose prose prose-green mx-auto dark:prose-invert">

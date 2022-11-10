@@ -14,25 +14,25 @@ The vision of the Rocky Enterprise Software Foundation (the “**Foundation**”
 
 These principles serve as the fundamental, immutable, truths that guide the decisions and goals of the Foundation. No action(s) may be taken by the Foundation that is contrary to the following principles which is both enforced and made transparent by the Foundation Bylaws:
 
-1. 	**Community Responsibility**. The Foundation is here for the benefit of the public community. We are a self imposed not-for-profit organization[^1] and thus we will never be driven, motivated, or manipulated by profit or monetary gain. The Foundation is structured and governed via systems of checks and balances (as set forth in the Foundation Bylaws) ensuring that no single entity, organization, corporation, association, or individual is permitted to have a single controlling influence over any assets, the Foundation as a whole, or its Projects. Additionally, the community is to be represented, by the community for the community, with no “pay to play” for control; board and leadership seats are never bought, they are earned.
+1.      **Community Responsibility**. The Foundation is here for the benefit of the public community. We are a self imposed not-for-profit organization[^1] and thus we will never be driven, motivated, or manipulated by profit or monetary gain. The Foundation is structured and governed via systems of checks and balances (as set forth in the Foundation Bylaws) ensuring that no single entity, organization, corporation, association, or individual is permitted to have a single controlling influence over any assets, the Foundation as a whole, or its Projects. Additionally, the community is to be represented, by the community for the community, with no “pay to play” for control; board and leadership seats are never bought, they are earned.
 
-2. 	**Free, Open Source, and Reproducible**. Everything we do is intended to be freely available and open source and will leverage only OSI approved permissive, non-copyleft open-source licenses for our Projects. All of our build tools, dependencies, and SBOMs will always be available so others can completely reproduce all release artifacts. Projects will be encouraged to avoid dependencies on copyleft libraries, and to be transparent about possible license conflicts with permissive licenses for Projects. 
+2.      **Free, Open Source, and Reproducible**. Everything we do is intended to be freely available and open source and will leverage only OSI approved permissive, non-copyleft open-source licenses for our Projects. All of our build tools, dependencies, and SBOMs will always be available so others can completely reproduce all release artifacts. Projects will be encouraged to avoid dependencies on copyleft libraries, and to be transparent about possible license conflicts with permissive licenses for Projects.
 
-3. 	**Projects**. The Foundation will build, host, and “adopt” open source Projects which are of value to the enterprise community and/or other Foundation projects. Each project will abide by these principles and strive for longevity, reproducibility, and community collaboration as well as the betterment of the project, community, and ecosystem. Projects will avoid end-of-life for support except with ample advance notice. If a project must cease maintenance or leave the Foundation, the Foundation will endeavor to move the project, including its trademark rights, to a successor.
+3.      **Projects**. The Foundation will build, host, and “adopt” open source Projects which are of value to the enterprise community and/or other Foundation projects. Each project will abide by these principles and strive for longevity, reproducibility, and community collaboration as well as the betterment of the project, community, and ecosystem. Projects will avoid end-of-life for support except with ample advance notice. If a project must cease maintenance or leave the Foundation, the Foundation will endeavor to move the project, including its trademark rights, to a successor.
 
-4. 	**Transparency**. The Foundation will remain transparent to the community as defined by our bylaws and bound by our data security policy. This means all development processes, discussions, and critical communication, to the fullest extent possible, will always be done in the open with nothing held back from the community or sold for fees.
+4.      **Transparency**. The Foundation will remain transparent to the community as defined by our bylaws and bound by our data security policy. This means all development processes, discussions, and critical communication, to the fullest extent possible, will always be done in the open with nothing held back from the community or sold for fees.
 
-5. 	**Growth and Equality of Opportunity**: The Foundation strives to build and maintain a collaborative and respectful environment that provides equal access to opportunities and resources for everyone within the community. This charter defines a merit-based process so that anybody can become a contributor, committer, or leader within the Foundation or any of the Foundation projects. Growth and inclusiveness of all individuals and organizations is imperative for the long-term stability and success of the Foundation’s vision. The Foundation will encourage Projects to develop robust documentation, promote maximum inclusion, and encourage the admission and contributions of non-technical Members. 
+5.      **Growth and Equality of Opportunity**: The Foundation strives to build and maintain a collaborative and respectful environment that provides equal access to opportunities and resources for everyone within the community. This charter defines a merit-based process so that anybody can become a contributor, committer, or leader within the Foundation or any of the Foundation projects. Growth and inclusiveness of all individuals and organizations is imperative for the long-term stability and success of the Foundation’s vision. The Foundation will encourage Projects to develop robust documentation, promote maximum inclusion, and encourage the admission and contributions of non-technical Members.
 
 **ARTICLE III** - **BYLAWS**
 
-In addition to this Charter, the Foundation is governed by the Foundation Board and the Foundation Bylaws. 
+In addition to this Charter, the Foundation is governed by the Foundation Board and the Foundation Bylaws.
 
 ---
 
 ### FOUNDATION BYLAWS
 
-**ARTICLE I** - **MEMBERS** 
+**ARTICLE I** - **MEMBERS**
 
 <ol>
     <li><strong>Members</strong>. Members (“<strong>Members</strong>”) of The Rocky Enterprise Software Foundation (the “<strong>Foundation</strong>”) are persons who are involved and active participants on one or more Project Team(s). A person must be a member of at least one of the Foundation’s projects (each, a “Project”) to be a Member of the Foundation. Members will have the rights as set forth in these Foundation Bylaws (these “<strong>Bylaws</strong>”) and an obligation to act in accordance with the Foundation’s Charter.</li>
@@ -52,9 +52,9 @@ In addition to this Charter, the Foundation is governed by the Foundation Board 
     <li><strong>List of Members</strong>. The Board will maintain a list of Members (the “<strong>Member List</strong>”). Only those Members who are included on the Member List will have the right to vote as Members (provided the Board acts in good faith and promptly fixes any errors in the Member List).</li>
     <li><strong>Emeritus Members</strong>. An “<strong>Emeritus Member</strong>” of the Foundation is a former Member whose membership status has been converted to Emeritus Status. An Emeritus Member forfeits all membership rights, including the right to vote and the right to be counted for the purposes of quorum. An Emeritus Member retains the right to attend any meetings held by the Foundation and may elect to continue to receive communications from the Foundation. Any Member of the Foundation may choose at any time for any reason to elect Emeritus Status conversion with approval of the Foundation Board. An Emeritus Member can be reinstated as a full member only in accordance with Section 1.2 of these Bylaws.</li>
     <li><strong>Termination of Membership</strong>. A Person’s status as a member of a Project Team may be terminated by the affirmative vote of 2/3rds of the applicable Project Team Members. A person’s status as a Member of the Foundation may be terminated by the Board for Cause. To be terminated for Cause, a majority of the Board must (i) determine Cause for termination exists, and (ii) vote to terminate such person’s status as a Member. “<strong>Cause</strong>” means: (a) a Member’s unauthorized misuse or disclosure of the Foundation’s trade secrets or proprietary information, (b) a Member’s conviction of or plea of nolo contendere to a felony or a crime involving moral turpitude, (c) a Member committing an act of fraud against the Foundation; (d) a Member’s gross negligence or willful misconduct in the performance of their duties that has had or will have a material adverse effect on the Foundation’s reputation or business; (e) a Member’s violation of the Foundation’s Charter or the Foundation Bylaws; or (f) a Member’s inactivity with the Project for a consecutive period of 6 months without the Project Board’s approval.</li>
-</ol> 
+</ol>
 
-**ARTICLE II** - **FOUNDATION BOARD** 
+**ARTICLE II** - **FOUNDATION BOARD**
 
 <ol>
     <li><strong>General Powers</strong>. The Foundation Board (the “<strong>Board</strong>” or the “<strong>Foundation Board</strong>”) will be responsible for managing the Foundation’s budget, general oversight of the Foundation and Project Boards, and Foundation project portfolio administration. The Board does not make technical decisions for the Foundation unless specifically requested to do so by the applicable Project Board.</li>
@@ -87,41 +87,41 @@ In addition to this Charter, the Foundation is governed by the Foundation Board 
     <li><strong>Confidentiality</strong>. Members of the Foundation Board and Project Boards will owe a duty of confidentiality to the Foundation with respect to matters addressed at meetings of the Foundation Board and Project Boards and other matters relating to the activities of the Foundation Board and Project Boards. Further, Members of the Foundation Board and Project Board will not disclose information that is designated confidential by the Foundation Board.</li>
 </ol>
 
-**ARTICLE III** - **OFFICERS** 
+**ARTICLE III** - **OFFICERS**
 
-1. **Officers Generally**. The officers of the Foundation (“**Officers**”) will consist of a Board Chair and Vice Board Chair (“**Elected Officers**”), and President, Vice President, Secretary, Assistant Secretary (optional), Treasurer, and Assistant Treasurer (optional) (“**Appointed Officers**”). 
+1. **Officers Generally**. The officers of the Foundation (“**Officers**”) will consist of a Board Chair and Vice Board Chair (“**Elected Officers**”), and President, Vice President, Secretary, Assistant Secretary (optional), Treasurer, and Assistant Treasurer (optional) (“**Appointed Officers**”).
 
-1. **Election, Appointment and Term of Office**. Elected Officers will be elected by a majority vote of the Members at the annual meeting in accordance with Section 1.4. The Appointed Officers will be appointed at the first meeting of the Board following their election. Each Appointed Officer will serve a one year term beginning on January 1st of each year and shall hold office until his or her successor has been duly appointed and qualified. An Officer may be appointed for any number of consecutive or non-consecutive terms. A person may hold only one officer position at a time. In the case of a vacancy in an Appointed Officer position due to resignation or removal, the Board will appoint a new person to the vacant position and such person will hold the office until the end of the current term. 
+1. **Election, Appointment and Term of Office**. Elected Officers will be elected by a majority vote of the Members at the annual meeting in accordance with Section 1.4. The Appointed Officers will be appointed at the first meeting of the Board following their election. Each Appointed Officer will serve a one year term beginning on January 1st of each year and shall hold office until his or her successor has been duly appointed and qualified. An Officer may be appointed for any number of consecutive or non-consecutive terms. A person may hold only one officer position at a time. In the case of a vacancy in an Appointed Officer position due to resignation or removal, the Board will appoint a new person to the vacant position and such person will hold the office until the end of the current term.
 
-1. **Duties**. The Officers will have the following duties: 
+1. **Duties**. The Officers will have the following duties:
 
-1. **Board Chair**. The Board Chair will preside at all meetings of the Board and at all meetings of the Members. The Board Chair will have all the powers of the President in the event of the President’s absence or inability to act, or in the event of a vacancy in the office of the President and will have such other duties as may be conferred upon the Board Chair by the Board. 
+1. **Board Chair**. The Board Chair will preside at all meetings of the Board and at all meetings of the Members. The Board Chair will have all the powers of the President in the event of the President’s absence or inability to act, or in the event of a vacancy in the office of the President and will have such other duties as may be conferred upon the Board Chair by the Board.
 
-1. **Vice Board Chair**. The Vice Board Chair will, in the absence or disability of the Board Chair, perform the duties and exercise the powers of the Board Chair, and will have such other duties as may be conferred upon the Vice Board Chair by the Board. 
+1. **Vice Board Chair**. The Vice Board Chair will, in the absence or disability of the Board Chair, perform the duties and exercise the powers of the Board Chair, and will have such other duties as may be conferred upon the Vice Board Chair by the Board.
 
 1. **President**. The President (also known as Director) will be the Executive Director of the Foundation and will have general and active management of the business and affairs of the Foundation (other than the management of projects managed by a Project Board), subject to the direction of the Board. If a Board Chair is not elected, the President will preside at all meetings of the Board and at all meetings of the Members.
 
-1. **Vice President**. The Vice President will, in the absence or disability of the President, perform the duties and exercise the powers of the President, and will have such other duties as may be conferred upon the Vice President by the Board. 
+1. **Vice President**. The Vice President will, in the absence or disability of the President, perform the duties and exercise the powers of the President, and will have such other duties as may be conferred upon the Vice President by the Board.
 
 1. **Secretary and Assistant Secretary**. The Secretary will keep or cause to be kept a record of all of the proceedings all meetings of the Board and at all meetings of the Members; cause all notices to be duly given in accordance with the provisions of these Bylaws; be the custodian of the books and records of the Foundation and perform in general all duties incident to the office of Secretary and such other duties as are given by these Bylaws or as from time to time may be assigned by the Board or the President. All minutes of the Board must be approved by the Board at the following meeting of the Board to be inserted in the minute book. The Board may appoint an Assistant Secretary, who will, if one is appointed, render assistance to the Secretary in all the responsibilities described above.
 
 1. **Treasurer and Assistant Treasurer**. The Treasurer will have custody of all Foundation funds and financial records, will keep full and accurate accounts of receipts and disbursements and render accounts thereof at the annual meetings of members, and shall perform such other duties as may be prescribed by the Board, the Board Chair, or the President.
 
-1. **Delegation of Authority**. To the extent required to carry out the duties ascribed to the Officers by these Bylaws, the Officers are authorized to bind the Foundation and enter contracts on behalf of the Foundation, provided that the Board may limit the scope of such authority. The Board may, from time to time, delegate the powers or duties of any Officer to any other officer or agent, notwithstanding any provision hereof. 
+1. **Delegation of Authority**. To the extent required to carry out the duties ascribed to the Officers by these Bylaws, the Officers are authorized to bind the Foundation and enter contracts on behalf of the Foundation, provided that the Board may limit the scope of such authority. The Board may, from time to time, delegate the powers or duties of any Officer to any other officer or agent, notwithstanding any provision hereof.
 
-1. **Limitations on Authority.** No Officer or other agent of the Foundation may do any of the following without the prior approval of the Board: (a) enter into any contract or agreement in an amount greater than $5,000; (b) incur indebtedness on behalf of the Foundation in excess of $1,000; (c) waive or discharge any material obligations owed to the Foundation by a third party; (d) license or sell any assets of the Foundation in the ordinary course of the Foundation’s activities and consistent with past practices; (e) such other acts as are determined by the Board from time to time. 
+1. **Limitations on Authority.** No Officer or other agent of the Foundation may do any of the following without the prior approval of the Board: (a) enter into any contract or agreement in an amount greater than $5,000; (b) incur indebtedness on behalf of the Foundation in excess of $1,000; (c) waive or discharge any material obligations owed to the Foundation by a third party; (d) license or sell any assets of the Foundation in the ordinary course of the Foundation’s activities and consistent with past practices; (e) such other acts as are determined by the Board from time to time.
 
 1. **Resignation and Removal**. An Officer may not be removed during his or her term except by the vote of 2/3rds of the Board or by a majority of the Board if the removal is for Cause. An Officer may resign at any time by providing notice to the Board.
 
-1. **Compensation**. Officers may receive compensation for their services as Officer’s in amounts determined by the Board.** 
+1. **Compensation**. Officers may receive compensation for their services as Officer’s in amounts determined by the Board.\*\*
 
-**ARTICLE IV** - **BOARD AND OFFICER EXPECTATIONS** 
+**ARTICLE IV** - **BOARD AND OFFICER EXPECTATIONS**
 
 1. **Attendance at Board Meetings**. Directors and Officers are required to attend at least 75% of the regular meetings of the Board per year. Officers are also responsible for responding to communications of the Board in a timely manner and meeting the appropriate deadlines and responsibilities associated with their Officer position. If an Officer or Director cannot meet the requirements noted above, the person should reach out to the Board Chair to discuss.
 
-1. **Board Duties**. Directors, Officers, and Members each Project Board must act in a manner that they reasonably believe to be in the best interests of the Foundation and to the benefit of the public community supported by the Foundation. 
+1. **Board Duties**. Directors, Officers, and Members each Project Board must act in a manner that they reasonably believe to be in the best interests of the Foundation and to the benefit of the public community supported by the Foundation.
 
-**ARTICLE V** - **PROJECT BOARDS AND PROJECT TEAMS** 
+**ARTICLE V** - **PROJECT BOARDS AND PROJECT TEAMS**
 
 <ol>
     <li><strong>Project Boards Generally</strong>. The Foundation’s initiatives will be carried out by Project Boards (each, a “<strong>Project Board</strong>”) made up of Members. The number and duties of the Project Boards will be determined by the Foundation Board. Subject to oversight by the Foundation Board and the general purposes of the applicable Project Board as determined by the Foundation Board, each Project Board will create and oversee Project Teams that will act on behalf of the Project Board to carry out the specific projects and work of the Foundation. It is anticipated that each Project Board will create and oversee multiple Project Teams that will work on projects related to the applicable Project Board’s areas of responsibility. </li>
@@ -155,21 +155,21 @@ In addition to this Charter, the Foundation is governed by the Foundation Board 
 
 **ARTICLE VII** - **AMENDMENTS TO BYLAWS AND CHARTER**
 
-1. **Amendment to Bylaws**. These Bylaws may be altered, amended, or restated by the vote of 2/3rds of the Directors then serving on the Board or by the Board of Directors of the Company. 
+1. **Amendment to Bylaws**. These Bylaws may be altered, amended, or restated by the vote of 2/3rds of the Directors then serving on the Board or by the Board of Directors of the Company.
 
-1. ` `**Amendment to Charter**. The Foundation Charter may be altered, amended, or restated by the vote of 2/3rds of the Directors then serving on the Board or by the Board of Directors of the Company. 
+1. ` `**Amendment to Charter**. The Foundation Charter may be altered, amended, or restated by the vote of 2/3rds of the Directors then serving on the Board or by the Board of Directors of the Company.
 
-1. **Amendment to Project Board Bylaws**. As part of its role of overseeing the Project Boards, the Foundation Board may alter, amend, or restate any Project Board Bylaws by the vote of 2/3rds of the Directors then serving on the Foundation Board. 
+1. **Amendment to Project Board Bylaws**. As part of its role of overseeing the Project Boards, the Foundation Board may alter, amend, or restate any Project Board Bylaws by the vote of 2/3rds of the Directors then serving on the Foundation Board.
 
-**ARTICLE VIII** - **MISCELLANEOUS** 
+**ARTICLE VIII** - **MISCELLANEOUS**
 
-1. **Accounts Books; Minutes; Etc**. The Foundation Board and each Project Board shall keep correct and complete books and records of account and shall also keep minutes of the proceedings of the Foundation Board and Project Boards. Books shall be kept in accordance with sound accounting principles. All books and records of the Foundation may be inspected by any Director for any proper purpose upon reasonable notice to the Foundation. 
+1. **Accounts Books; Minutes; Etc**. The Foundation Board and each Project Board shall keep correct and complete books and records of account and shall also keep minutes of the proceedings of the Foundation Board and Project Boards. Books shall be kept in accordance with sound accounting principles. All books and records of the Foundation may be inspected by any Director for any proper purpose upon reasonable notice to the Foundation.
 
-1. **Fiscal Year**. The fiscal year of the Foundation shall end on December 31st of each year. 
+1. **Fiscal Year**. The fiscal year of the Foundation shall end on December 31st of each year.
 
 1. **Conflicts of Interest**. If any person who is a Director or a Project Director is aware that the Foundation is about to enter into any business transaction directly or indirectly with himself or herself, any member of his or her immediate family, or any entity in which he or she has any legal, equitable or fiduciary interest or position, including without limitation as a director, officer, shareholder, partner or beneficiary, such person shall (a) immediately inform those charged with approving the transaction on behalf of the Foundation of his or her interest or position, (b) aid the persons charged with making the decision by disclosing any material facts within his or her knowledge that bear on the advisability of such transaction from the standpoint of the Foundation, and (c) not be entitled to vote on the decision to enter into such transaction.
 
-1. **Loans to Directors and Officers Prohibited**. No loans shall be made by the Foundation to any of its Directors, Project Director, or Officers. 
+1. **Loans to Directors and Officers Prohibited**. No loans shall be made by the Foundation to any of its Directors, Project Director, or Officers.
 
 ---
 

@@ -5,7 +5,7 @@ id: 4
 category: 'About'
 ---
 
-The RESF is a self-imposed not-for-profit organization founded as a Delaware Public Benefits Corporation (PBC). We are not a US IRS tax exempt organization as we believe they are not well equipped to protect open source projects nor are they a magic pill for integrity and doing the right thing for the community at large. 
+The RESF is a self-imposed not-for-profit organization founded as a Delaware Public Benefits Corporation (PBC). We are not a US IRS tax exempt organization as we believe they are not well equipped to protect open source projects nor are they a magic pill for integrity and doing the right thing for the community at large.
 
 When most people think of a “non-profit” in the US, they usually consider a 501(c)3. These are typically charitable organizations and they are intended to serve the public interest. But it has been harder and harder for open source projects and foundations to obtain a 501(c)3 designation from the IRS which seems to be “[struggling with figuring out which of these projects are true to the spirit of 501(c)(3) requirements, and which are simply there to help sell products](https://web.archive.org/web/20140416105516/https://www.wired.com/2013/06/irs-open-sourc/)”. For this reason many projects have instead obtained 501(c)6 designations which are designed to [promote common business interests](https://www.irs.gov/pub/irs-tege/eotopick03.pdf) among the corporate sponsors, boards, and members. Couple that with a “pay to play” model of selling of board seats for votes, and you can imagine how it would be possible to pivot control toward a few well funded companies or individuals. We chose not to go that route.
 
