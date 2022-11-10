@@ -9,9 +9,9 @@ const SummaryItem = ({
   internal = false,
 }) => {
   return (
-    <div class="flex flex-col pb-3">
+    <div class="flex flex-col pb-1">
       <LocalizedLink to={link} className="block">
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●&nbsp; {name}</li>
+        <li>●&nbsp; {name}</li>
       </LocalizedLink>
     </div>
   );
