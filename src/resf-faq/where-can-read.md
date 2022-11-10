@@ -5,4 +5,4 @@ id: 16
 category: 'BylawsCharter'
 ---
 
-You can read them [here](https://rockylinux.org/charter-bylaws).
+You can read them [here](https://rockylinux.org/bylaws-charter).
