@@ -14,6 +14,7 @@ import {
   ChevronDoubleRightIcon,
 } from '@heroicons/react/solid';
 import { Button, PageButton } from '../components/shared/Button';
+import 'regenerator-runtime';
 
 export function SelectColumnFilter({
   column: { filterValue, setFilter, preFilteredRows, id, render },
