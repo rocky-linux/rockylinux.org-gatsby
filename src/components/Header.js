@@ -113,6 +113,49 @@ const Header = ({ pageContext: { locale: language } }) => {
           </div>
         </div>
       </noscript>
+
+      <div className="dark:bg-gray-800 bg-gray-200">
+        <div className="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap items-center justify-between">
+            <div className="flex w-0 flex-1 items-center">
+              <a href="https://resf.org">
+                <span className="flex">
+                  <svg className="h-4" viewBox="0 0 168 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0H168V104.009L142.011 78.0197L122.601 97.4302L83.7808 58.6098L64.3712 78.0194L25.5511 39.1993L0 64.7504V0Z" fill="url(#paint0_linear_1010_235)"/>
+                    <path d="M142.011 107.135L81.1463 168H168V133.124L142.011 107.135Z" fill="url(#paint1_linear_1010_235)"/>
+                    <path d="M83.7807 87.7251L108.043 111.988L52.0312 168H3.50575L83.7807 87.7251Z" fill="url(#paint2_linear_1010_235)"/>
+                    <path d="M25.5511 68.3144L0 93.8656V142.391L49.8137 92.577L25.5511 68.3144Z" fill="url(#paint3_linear_1010_235)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_1010_235" x1="0" y1="0" x2="168" y2="168" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#10B981"/>
+                    <stop offset="1" stop-color="#1054B9"/>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_1010_235" x1="0" y1="0" x2="168" y2="168" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#10B981"/>
+                    <stop offset="1" stop-color="#1054B9"/>
+                    </linearGradient>
+                    <linearGradient id="paint2_linear_1010_235" x1="0" y1="0" x2="168" y2="168" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#10B981"/>
+                    <stop offset="1" stop-color="#1054B9"/>
+                    </linearGradient>
+                    <linearGradient id="paint3_linear_1010_235" x1="0" y1="0" x2="168" y2="168" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#10B981"/>
+                    <stop offset="1" stop-color="#1054B9"/>
+                    </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+              </a>
+              <p className="ml-2 truncate font-light text-lg dark:text-white text-black uppercase">
+                <a href="https://resf.org">
+                  An <span className="font-bold text-md">RESF</span> Project
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Popover className="relative">
         <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10 max-w-7xl mx-auto">
           <div>
