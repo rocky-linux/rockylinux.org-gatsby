@@ -6,7 +6,7 @@
   "elCompat8": "Enterprise Linux v8 Compatible",
   "elCompat9": "Enterprise Linux v9 Compatible",
   "rl8-eol": "<0>EOL pianificata</0>: 31 maggio 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "rl9-eol": "<0>EOL pianificata</0>: 31 Maggio 2032",
   "headings": {
     "arch": "Architettura",
     "isos": "ISO",
