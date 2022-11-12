@@ -29,7 +29,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
       },
       {
         name: `${translate('about.errata')}`,
-        href: 'https://errata.rockylinux.org',
+        href: 'https://errata.build.resf.org',
       },
     ],
     getinvolved: [
