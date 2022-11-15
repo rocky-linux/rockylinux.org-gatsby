@@ -54,14 +54,14 @@ new releases, and in particular for the release of Rocky Linux 8.7:
 - Al Bowles
 - Alan Marshall
 - Chris Stackpole
+- David Roth
 - Louis Abel
 - Lukas Magauer
 - Mustafa Gezen
 - Neil Hanlon
-- Scott Shinn
+- Rich Alloway
 - Sherif Nagy
 - Skip Grube
-- Steven Spencer
 - Taylor Goodwill
 - Trevor Cooper
 
