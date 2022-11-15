@@ -378,7 +378,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.minimal')}
@@ -386,7 +386,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.dvd')}
@@ -394,7 +394,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-boot.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.boot')}
@@ -402,7 +402,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.torrent"
                             onClick={handleDownload8}
                           >
                             {translate('body.torrent')}
@@ -431,7 +431,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-minimal.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.minimal')}
@@ -439,7 +439,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-dvd1.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.dvd')}
@@ -447,7 +447,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-boot.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.boot')}
@@ -455,7 +455,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-dvd1.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.torrent"
                             onClick={handleDownload8}
                           >
                             {translate('body.torrent')}
