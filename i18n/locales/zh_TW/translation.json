@@ -9,7 +9,7 @@
     "get-involved": "參與貢獻",
     "legal": "法律聲明",
     "language": "語言",
-    "foundation": "Foundation"
+    "foundation": "基金會"
   },
   "about": {
     "about": "關於 Rocky Linux",
@@ -43,8 +43,8 @@
     "privacy": "隱私權政策"
   },
   "foundation": {
-    "charter": "RESF Charter & Bylaws",
-    "faq": "RESF FAQ"
+    "charter": "RESF 憲章與附則",
+    "faq": "RESF 常見問題"
   },
   "lang": {
     "choose": "選擇語言",
