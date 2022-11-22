@@ -1,10 +1,10 @@
 {
   "title": "赞助商",
   "description": "我们要感谢我们的赞助商迄今为止对该项目的支持。",
-  "tierone": "第一级 - 首席赞助商",
-  "tiertwo": "第2级",
-  "tierthree": "第3级",
-  "tierfour": "第4级",
+  "tierone": "第 1 级 - 首席赞助商",
+  "tiertwo": "第 2 级",
+  "tierthree": "第 3 级",
+  "tierfour": "第 4 级",
   "blurb": {
     "lineone": "想要成为赞助者吗？",
     "linetwo": "今天就与我们联系。",
@@ -15,74 +15,74 @@
       "name": "CIQ",
       "title": "创始赞助商",
       "tier": 1,
-      "blurb": "我们相信能帮助人们做伟大的事情，这就是为什么CIQ是RESF的创始赞助商。我们为研究领域、学术界、政府、企业、合作伙伴和所有介于两者之间的客户提供Rocky Linux的商业支持和服务。"
+      "blurb": "我们相信能帮助人们做伟大的事情，这就是为什么 CIQ 是 RESF 的创始赞助商之一。我们为研究领域、学术界、政府、企业、合作伙伴和所有介于两者之间的客户提供 Rocky Linux 的商业支持和服务。"
     },
     "45drives": {
       "name": "45Drives",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "45Drives 提供了基于强大和健壮的开源软件的企业存储解决方案，让客户能够从现成硬件的成本节约和灵活性中获益。查看它们，以最低的每TB成本获得完全支持的数据存储解决方案!"
+      "blurb": "45Drives 提供的企业存储解决方案建立在强大而稳健的开源软件上，让客户能够从现成硬件的经济成本和灵活性中获益。请查看他们提供的数据存储解决方案，以获得每 TB 最佳成本的完全支持！"
     },
     "aws": {
       "name": "亚马逊网络服务",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "RESF利用AWS运行着至关重要的大部分底层基础设施(例如支持Rocky Linux服务的开发环境和部署环境)。不管EC2是运行在x86_64架构还是aach64架构，都能实现从Koji builder到S3(Simple Storage Service)中的SRPM对象存储，AWS是我们大部分工作的基础。"
+      "blurb": "RESF 利用 AWS 运行着许多底层基础设施，这些基础设施对支持 Rocky Linux 服务的开发环境和部署环境至关重要。AWS是我们大部分工作的基础，不管 EC2 是运行在 x86_64 架构还是 aach64 架构，在 S3(Simple Storage Service) 中都能实现从 Koji Builder 到 SRPM Blob Storage。"
     },
     "gcp": {
       "name": "谷歌云",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "作为RESF的首席赞助商，谷歌深知Rocky Linux作为一个免费、开放、社区企业操作系统的重要性。我们与RESF合作，且提供测试和验证资源，以确保Rocky从第一天起就成为Google Cloud平台上的一等公民。"
+      "blurb": "作为 RESF 的首席赞助商，谷歌深知 Rocky Linux 作为一个自由、开放、社区企业操作系统的重要性。我们与 RESF 合作，且提供测试和验证的资源，以确保 Rocky 从第一天起就成为 Google Cloud 平台上的 \"一等公民（first-class citizen）\"。"
     },
     "azure": {
       "name": "微软 Azure",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "Linux是Azure上增长最快的平台，运行在超过一半的虚拟机内核上。十多年来，微软一直在对Linux进行投资，且合作伙伴关系是微软开源战略的中流砥柱，因此我们选择与RESF和更广泛的Rocky Linux生态系统合作，以确保客户有越来越多的选择，以支持、管理和安全的方式在Azure上部署Linux工作负载。"
+      "blurb": "Linux 是 Azure 上增长最快的平台，运行在超过一半的虚拟机内核上。十多年来，微软一直在对 Linux 进行投资，且合作伙伴关系是微软开源战略的中流砥柱，因此我们选择与 RESF 和更广泛的 Rocky Linux 生态系统进行合作，以确保客户有越来越多的选择，以一种受支持的、管理的和安全的方式在 Azure 上部署 Linux 工作负载。"
     },
     "montavista": {
       "name": "MontaVista",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "MontaVista Software 是嵌入式商用LInux的领导者，支持MontaVista CGX、Yocto Project®️、 CentOS和Rocky Linux。MontaVista提供开源软件专业知识、商业质量的Linux发行版、性价比高的维护和10年以上生命周期的支持。"
+      "blurb": "MontaVista Software 是嵌入式商用 LInux 领域的领导者，支持 MontaVista CGX 、Yocto Project®️、CentOS 和 Rocky Linux 。MontaVista 提供开源软件专业知识、商业级品质的 Linux 发行版、性价比高的维护和10年以上生命周期的支持。"
     },
     "opendrives": {
       "name": "OpenDrives",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "OpenDrives是一家企业级软件定义数据存储解决方案的全球供应商。我们的技术旨在为最苛刻的工作流程提供支持，无论是在本地还是在云中。我们对开放的标准和协议的持续投入，带来了集成的便利性，使客户更容易访问、使用、迁移和保护他们的数据。我们的总部设在加利福尼亚州卡尔弗城。"
+      "blurb": "OpenDrives 是一家企业级软件定义数据存储解决方案的全球供应商。我们的技术旨在为最苛刻的工作流程提供支持，无论是在本地还是在云中。我们对开放的标准和协议的持续投入，带来了集成的便利性，使客户更容易访问、使用、迁移和保护他们的数据。我们的总部设在加利福尼亚州卡尔弗城。"
     },
     "rakutensymphony": {
       "name": "Rakuten Symphony",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "Rakuten Symphony坚信，开源社区可通过相互协作促进创新。Rocky Linux的部署，代表着回归真正开源的原则——由开放社区提供支持。Rakuten Symphony正在与电信行业内广泛的第三方供应商和技术合作伙伴密切合作，使Rocky Linux成为运行大型网络的标准操作系统。"
+      "blurb": "Rakuten Symphony 坚信，开源社区可通过相互协作促进创新。Rocky Linux 的部署，代表着回归真正开源的原则——由开放社区提供支持。Rakuten Symphony 正在与电信行业内广泛的第三方供应商和技术合作伙伴密切合作，使 Rocky Linux 成为运行大型网络的标准操作系统。"
     },
     "vmware": {
       "name": "VMware",
       "title": "首席赞助商",
       "tier": 1,
-      "blurb": "VMware是为所有应用提供多云服务的领先提供商，通过企业控制实现计算机技术的创新。"
+      "blurb": "VMware 是为所有应用程序提供多云服务的领先供应商，实现了企业控制的数字化创新。"
     },
     "openlogic": {
       "name": "Perforce 的 OpenLogic",
-      "title": "第4级赞助商",
+      "title": "第 4 级赞助商",
       "tier": 4
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "title": "第4级赞助商",
+      "title": "第 4 级赞助商",
       "tier": 4
     },
     "seagate": {
       "name": "希捷联邦",
-      "title": "第4级赞助商",
+      "title": "第 4 级赞助商",
       "tier": 4
     },
     "stromasys": {
       "name": "Stromasys",
-      "title": "第4级赞助商",
+      "title": "第 4 级赞助商",
       "tier": 4
     }
   }
