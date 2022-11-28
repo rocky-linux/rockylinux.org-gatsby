@@ -15,7 +15,7 @@ Rocky Linux releases are put through thorough testing to ensure correctness and 
 
 Rocky Linux 8.7 was subjected to over 5 days of testing before receiving the team's approval. Testing logs, discussion, and the release checklist can be viewed [here](https://chat.rockylinux.org/rocky-linux/channels/rocky-release-v87).
 
-We encourage users interested in the process to join the team on [chat.rockylinux.org](https://chat.rockylinux.org/rocky-linux/channels/testing). 
+We encourage users interested in the process to join the team on [chat.rockylinux.org](https://chat.rockylinux.org/rocky-linux/channels/testing).
 
 ### Notable Changes
 
