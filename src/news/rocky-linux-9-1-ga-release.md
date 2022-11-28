@@ -42,8 +42,10 @@ We are forever grateful to the many Rocky Linux project volunteers and leaders f
 
 We would like to thank the following individuals in particular for their contributions to this release:
 
+- Adam Augustine
 - Al Bowles
 - Alan Marshall
+- Boris Reisig
 - Brian Clemens
 - Chris Stackpole
 - David Roth
