@@ -15,11 +15,11 @@ Rocky Linux releases are put through thorough testing to ensure correctness and 
 
 Rocky Linux 9.1 was subjected to over 9 days of testing before receiving the team's approval. Testing logs, discussion, and the release checklist can be viewed [here](https://chat.rockylinux.org/rocky-linux/channels/rocky-release-v91).
 
-We encourage users interested in the process to join the team on [chat.rockylinux.org](https://chat.rockylinux.org/rocky-linux/channels/testing). 
+We encourage users interested in the process to join the team on [chat.rockylinux.org](https://chat.rockylinux.org/rocky-linux/channels/testing).
 
 ### Notable Changes
 
-- [Keylime](https://keylime.dev/), a remote boot attestation and runtime integrity management solution using Trusted Platform Modules (TPMs) is now available. 
+- [Keylime](https://keylime.dev/), a remote boot attestation and runtime integrity management solution using Trusted Platform Modules (TPMs) is now available.
 - New module stream versions include node.js 18, php:8.1, maven:3.8, and ruby:3.1.
 - New compiler toolset versions include GCC 12, LLVM 14.0.6, Rust 1.62, and Go 1.18.
 
