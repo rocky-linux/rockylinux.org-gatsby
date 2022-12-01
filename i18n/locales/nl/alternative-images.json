@@ -25,6 +25,9 @@
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
+    "ppc64le": "ppc64le",
+    "s390x": "s390x",
+    "mate": "MATE",
     "checksum": "Checksum",
     "download": "Download",
     "readme": "Leesmij"
