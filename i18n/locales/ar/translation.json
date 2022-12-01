@@ -8,7 +8,8 @@
     "documentation": "Documentation",
     "get-involved": "Get Involved",
     "legal": "المعلومات القانونية",
-    "language": "اللغة"
+    "language": "اللغة",
+    "foundation": "Foundation"
   },
   "about": {
     "about": "عن Rocky Linux",
@@ -40,6 +41,10 @@
   "legal": {
     "licensing": "الترخيص",
     "privacy": "سياسة الخصوصية"
+  },
+  "foundation": {
+    "charter": "RESF Charter & Bylaws",
+    "faq": "RESF FAQ"
   },
   "lang": {
     "choose": "اختر اللغة",

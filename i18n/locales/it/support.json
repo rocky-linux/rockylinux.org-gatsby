@@ -1,25 +1,25 @@
 {
-  "title": "Partner Sostenitori",
-  "description": "Commercial support for Rocky Linux is available from these sponsors and partners, as well as other non-affiliated companies.",
+  "title": "Fornitori di Supporto",
+  "description": "Il supporto commerciale per Rocky Linux è disponibile presso questi sponsor e partner, oltre che presso altre aziende non affiliate.",
   "support": {
     "ciq": {
       "name": "CIQ",
       "tier": 1,
-      "title": "Founding Partner/Sponsor",
+      "title": "Fondatore Partner/Sponsor",
       "blurb": "Crediamo che aiutare le persone faccia grandi cose. Questo è il motivo per cui CIQ è un partner fondatore di RESF. Forniamo supporto commerciale e servizi per Rocky Linux a clienti nella ricerca, accademia, governo, aziende, partner, e chiunque ne sia coinvolto."
     },
     "montavista": {
       "name": "MontaVista",
       "tier": 1,
       "title": "Principal Sponsor",
-      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
+      "blurb": "MontaVista realizza distribuzioni Linux dal 1999 e ha contribuito ad alcuni dei primi contributi che hanno reso Linux ciò che è oggi. Il nostro obiettivo principale è quello di garantire ai nostri clienti il successo dei loro programmi a lungo termine e di fornire accordi di qualità commerciale per i livelli di servizio per l'assistenza sul campo e la manutenzione CVE a lungo termine sulla vostra esatta configurazione del prodotto."
     },
     "openlogic": {
       "name": "OpenLogic di Perforce",
       "tier": 4,
       "title": "Tier 4 Sponsor",
-      "blurb": "OpenLogic fornisce servizi di supporto comprensivi per software open source, così che i tuoi team possano godere dei benefici dell'open source — e raggiungere fiduciosamente gli obiettivi richiesti inclusa la conformità con normative quali GDPR, HIPAA, e PCI."
+      "blurb": "OpenLogic offre servizi di supporto completi per il software open source, in modo che i vostri team possano godere dei vantaggi dell'utilizzo dell'open source e soddisfare con sicurezza i vostri requisiti, tra cui la conformità a normative quali GDPR, HIPAA e PCI."
     }
   },
-  "get": "Ottieni supporto"
+  "get": "Ottieni Supporto"
 }

@@ -25,6 +25,9 @@
     "rpi": "라즈베리 파이 (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
+    "ppc64le": "ppc64le",
+    "s390x": "s390x",
+    "mate": "MATE",
     "checksum": "체크섬",
     "download": "다운로드",
     "readme": "Readme"

@@ -1,8 +1,10 @@
 {
   "title": "Download Rocky",
-  "description": "Tải về phiên bản chính thức của Rocky Linux từ các nguồn uy tín của chúng tôi",
-  "rl8": "Rocky Linux 8",
-  "rl9": "Rocky Linux 9",
+  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "rl8": "Rocky 8",
+  "rl9": "Rocky 9",
+  "elCompat8": "Enterprise Linux v8 Compatible",
+  "elCompat9": "Enterprise Linux v9 Compatible",
   "rl8-eol": "<0>Hạn cuối hỗ trợ (EOL):</0> 31 tháng 5 năm 2029",
   "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
@@ -30,11 +32,11 @@
   },
   "get-involved": {
     "heading": "Tham gia",
-    "body": "Khi bạn tải và sử dụng Rocky Linux, Rocky Enterprise Software Foundaction mong muốn bạn <0>gia nhập là với tư cánh là một thành viên đóng góp cho cộng đồng</0>. Có nhiều cách để đóng góp, từ việc viết lài liệu, trả lời Q/A, hoặc là tham gia thử nghiệm/xây dựng/cải tiến, cung cấp hosting/mirror, giúp đỡ các người dùng khác."
+    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
     "heading": "Có gì khác giữa các bản ISO?",
-    "body": "Rất nhiều các bản cài đặt được cung cấp để bản có thể sử dụng Rocky Linux. Việc lựa chọn phiên bản phụ thuộc vào môi trường cài đặt và mục đích sử dụng của bạn",
+    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
     "boot": {
       "heading": "Khởi động",
       "body": "Được sử dụng để cài đặt hệ điều hành từ một nguồn khác (Như một HTTP Repository hoặc một file cài đặt). Cũng có thể được sử dụng để truy cập vào Rescue Mode."
@@ -45,7 +47,7 @@
     },
     "dvd": {
       "heading": "DVD",
-      "body": "Bản cài đặt đầy đủ bao gồm cả BaseOS và AppStream Repository cho phép bạn thực hiện cài đặt mà không cần sử dụng các repository mở rộng nào khác. Cài đặt Rocky Linux từ DVD ISO là cách dễ nhất và phổ biến nhất được sử dụng."
+      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
     }
   }
 }
