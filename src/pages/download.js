@@ -85,6 +85,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                 <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
                   {translate('rl9')}
                 </h2>
+                <h3 className="text-center mb-2 text-md dark:text-white">
+                  {translate('elCompat9')}
+                </h3>
                 <p className="text-center text-base mb-4 dark:text-white">
                   <Trans t={translate} i18nKey="rl9-eol">
                     <strong>Planned EOL:</strong>
@@ -122,7 +125,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-20220805.0-x86_64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-minimal.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
@@ -130,7 +133,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-20220808.0-x86_64-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-dvd.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
@@ -138,7 +141,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-boot.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.boot')}
@@ -146,7 +149,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-dvd.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-dvd.torrent"
                             onClick={handleDownload9}
                           >
                             {translate('body.torrent')}
@@ -175,7 +178,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-20220805.0-aarch64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-minimal.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
@@ -183,7 +186,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-20220808.0-aarch64-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
@@ -191,7 +194,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-boot.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.boot')}
@@ -199,7 +202,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-dvd.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.torrent"
                             onClick={handleDownload9}
                           >
                             {translate('body.torrent')}
@@ -228,7 +231,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-20220805.0-ppc64le-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-minimal.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
@@ -236,7 +239,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-20220808.0-ppc64le-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-dvd.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
@@ -244,7 +247,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-ppc64le-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-boot.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.boot')}
@@ -252,7 +255,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.0-ppc64le-dvd.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-dvd.torrent"
                             onClick={handleDownload9}
                           >
                             {translate('body.torrent')}
@@ -281,7 +284,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-20220805.0-s390x-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-minimal.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
@@ -289,7 +292,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-20220808.0-s390x-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-dvd.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
@@ -297,7 +300,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-s390x-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-boot.iso"
                             onClick={handleDownload9}
                           >
                             {translate('body.boot')}
@@ -305,7 +308,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.0-s390x-dvd.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-dvd.torrent"
                             onClick={handleDownload9}
                           >
                             {translate('body.torrent')}
@@ -335,6 +338,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                 <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
                   {translate('rl8')}
                 </h2>
+                <h3 className="text-center mb-2 text-md dark:text-white">
+                  {translate('elCompat8')}
+                </h3>
                 <p className="text-center text-base mb-4 dark:text-white">
                   <Trans t={translate} i18nKey="rl8-eol">
                     <strong>Planned EOL:</strong>
@@ -372,7 +378,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.minimal')}
@@ -380,7 +386,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.dvd')}
@@ -388,7 +394,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-boot.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.boot')}
@@ -396,7 +402,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.torrent"
                             onClick={handleDownload8}
                           >
                             {translate('body.torrent')}
@@ -425,7 +431,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-minimal.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.minimal')}
@@ -433,7 +439,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-dvd1.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.dvd')}
@@ -441,7 +447,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-boot.iso"
                             onClick={handleDownload8}
                           >
                             {translate('body.boot')}
@@ -449,7 +455,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-dvd1.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.torrent"
                             onClick={handleDownload8}
                           >
                             {translate('body.torrent')}
@@ -555,18 +561,18 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                   <div className="mt-6 prose prose-green prose-lg text-gray-500 dark:text-gray-50 dark:prose-invert lg:mt-0">
                     <h3>Export Compliance/Customs Information</h3>
                     <p>
-                      By downloading Rocky Linux software, you acknowledge that
-                      you understand all of the following:
+                      By downloading Rocky software, you acknowledge that you
+                      understand all of the following:
                     </p>
                     <p>
-                      Rocky Linux software and technical information may be
-                      subject to the U.S. Export Administration Regulations (the
-                      “EAR”) and other U.S. and foreign laws and may not be
-                      exported, re-exported or transferred (a) to a prohibited
-                      destination country under the EAR or U.S. sanctions
-                      regulations (currently Cuba, Iran, North Korea, Syria, and
-                      the Crimea Region of Ukraine, subject to change as posted
-                      by the United States government); (b) to any prohibited
+                      Rocky software and technical information may be subject to
+                      the U.S. Export Administration Regulations (the “EAR”) and
+                      other U.S. and foreign laws and may not be exported,
+                      re-exported or transferred (a) to a prohibited destination
+                      country under the EAR or U.S. sanctions regulations
+                      (currently Cuba, Iran, North Korea, Syria, and the Crimea
+                      Region of Ukraine, subject to change as posted by the
+                      United States government); (b) to any prohibited
                       destination or to any end user who has been prohibited
                       from participating in U.S. export transactions by any
                       federal agency of the U.S. government; or (c) for use in

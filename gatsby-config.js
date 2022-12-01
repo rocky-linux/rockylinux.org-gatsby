@@ -27,6 +27,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/src/resf-faq`,
+        name: `resf-faq`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/src/pages`,
         name: `pages`,
       },
@@ -160,6 +167,7 @@ module.exports = {
             'sponsors',
             'partners',
             'support',
+            'resf-faq',
           ],
           returnObjects: true,
           interpolation: {

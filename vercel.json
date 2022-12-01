@@ -6,7 +6,7 @@
     },
     {
       "source": "/dl/:type(dvd1|boot|minimal)/:architecture(x86_64|aarch64|ppc64le|s390x)",
-      "destination": "https://dl.rockylinux.org/pub/rocky/8/isos/:architecture/Rocky-8.6-:architecture-:type.iso"
+      "destination": "https://dl.rockylinux.org/pub/rocky/8/isos/:architecture/Rocky-8.7-:architecture-:type.iso"
     },
     {
       "source": "/dl/:type(genericcloud|GenericCloud)/x86_64",
