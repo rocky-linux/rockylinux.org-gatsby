@@ -42,31 +42,29 @@ exports.createPages = async ({ graphql, actions }) => {
   const postPage = path.resolve(`./src/templates/blog-post.js`);
   const faqPage = path.resolve(`./src/templates/faq-entry.js`);
   const genericPage = path.resolve(`./src/templates/generic-page.js`);
-  const result = await graphql(
-    `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                date
-                category
-                id
-                posttype
-              }
+  const result = await graphql(`
+    {
+      allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: ASC }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              date
+              category
+              id
+              posttype
             }
           }
         }
       }
-    `
-  );
+    }
+  `);
 
   if (result.errors) {
     throw result.errors;
