@@ -1,8 +1,10 @@
 {
   "title": "Download Rocky",
-  "description": "신뢰할 수 있는 미러 중 하나에서 Rocky Linux의 공식 배포판을 다운로드 받으세요.",
-  "rl8": "Rocky Linux 8",
-  "rl9": "Rocky Linux 9",
+  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "rl8": "Rocky 8",
+  "rl9": "Rocky 9",
+  "elCompat8": "Enterprise Linux v8 Compatible",
+  "elCompat9": "Enterprise Linux v9 Compatible",
   "rl8-eol": "<0>지원 중단일:</0> 2029년 5월 31일",
   "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
   "headings": {
@@ -30,11 +32,11 @@
   },
   "get-involved": {
     "heading": "참여하기",
-    "body": "Rocky Linux를 다운로드하여 사용할 때 Rocky Enterprise Software Foundation은 귀하를 <0>커뮤니티의 기여자</0>로 초대합니다. 문서화, QA 및 테스트에서 SIG에 대한 코딩 변경, 미러링 또는 호스팅 제공, 다른 사용자 지원에 이르기까지 프로젝트에 기여할 수 있는 방법은 많습니다."
+    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
     "heading": "각 ISO의 차이는 무엇입니까?",
-    "body": "Rocky Linux를 설치하기 위해 다양한 설치 이미지가 제공됩니다. 어떤 이미지를 다운로드해야 하는지는 설치 환경과 사용 환경에 따라 다릅니다.",
+    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
     "boot": {
       "heading": "Boot",
       "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
@@ -45,7 +47,7 @@
     },
     "dvd": {
       "heading": "DVD",
-      "body": "BaseOS 및 AppStream 리포지토리를 포함하고 추가 리포지토리 없이 설치를 완료할 수 있는 전체 설치입니다. DVD ISO에서 RockyLinux를 설치하는 것은 표준 Rocky Linux8 설치를 수행하는 가장 쉽고 일반적인 방법입니다."
+      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
     }
   }
 }

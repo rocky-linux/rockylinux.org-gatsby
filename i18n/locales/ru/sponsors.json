@@ -51,7 +51,13 @@
       "name": "OpenDrives",
       "title": "Главный спонсор",
       "tier": 1,
-      "blurb": "OpenDrives - глобальный поставщик гипермасштабируемых сетевых хранилищ данных (NAS) корпоративного класса. Мы предоставляем нашим клиентам самые высокопроизводительные решения - в соответствии с индивидуальными потребностями в производительности - для самых надежных, сложных и критически важных проектов и рабочих процессов, локальных и облачных."
+      "blurb": "OpenDrives is a global provider of enterprise-scale, software-defined data storage solutions. Our technology is designed to power the most demanding workflows—on premises and in the cloud. Our commitment to open standards and protocols facilitates ease of integrations, making it simpler for customers to access, use, move, and protect their data. We are headquartered in Culver City, CA."
+    },
+    "rakutensymphony": {
+      "name": "Rakuten Symphony",
+      "title": "Главный спонсор",
+      "tier": 1,
+      "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks."
     },
     "vmware": {
       "name": "VMware",

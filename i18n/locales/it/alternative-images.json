@@ -4,7 +4,7 @@
   "rl8": "Rocky Linux 8",
   "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>EOL pianificata</0>: 31 maggio 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "rl9-eol": "<0>EOL pianificata</0>: 31 Maggio 2032",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Architetture Alternative (SIG)",
   "cloud": "Cloud Generico / OpenStack",
@@ -25,6 +25,9 @@
     "rpi": "Raspberry Pi (aarch64)",
     "x86_64": "x86_64",
     "arm": "aarch64",
+    "ppc64le": "ppc64le",
+    "s390x": "s390x",
+    "mate": "MATE",
     "checksum": "Checksum",
     "download": "Scarica",
     "readme": "Leggimi"

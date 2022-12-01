@@ -8,7 +8,8 @@
     "documentation": "Documentazione",
     "get-involved": "Partecipa",
     "legal": "Informazioni legali",
-    "language": "Lingua"
+    "language": "Lingua",
+    "foundation": "Fondazione"
   },
   "about": {
     "about": "Informazioni Su Rocky Linux",
@@ -18,7 +19,7 @@
     "status": "Stato dei Servizi",
     "sponsors": "Sponsor",
     "partners": "Partner",
-    "support": "Partner Sostenitori",
+    "support": "Fornitori di Supporto",
     "errata": "Security Errata"
   },
   "community": {
@@ -41,13 +42,17 @@
     "licensing": "Licenza",
     "privacy": "Informativa sulla Privacy"
   },
+  "foundation": {
+    "charter": "RESF Statuto e Regolamento",
+    "faq": "FAQ RESF"
+  },
   "lang": {
     "choose": "Scegli la Lingua",
     "translate": "Traduci questo sito"
   },
   "download": "Scarica",
   "copyright": {
-    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. Tutti i diritti riservati.",
     "line2": "Red Hat Enterprise Linux, RHEL e CentOS sono marchi o marchi registrati di Red Hat, Inc. o le sue sussidiarie negli Stati Uniti e in altri paesi. Non siamo affiliati, avallati o sponsorizzati da Red Hat, Inc."
   }
 }
