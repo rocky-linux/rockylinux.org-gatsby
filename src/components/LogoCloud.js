@@ -6,7 +6,6 @@ import CIQLogo from '../images/ciq.svg';
 import EquinixLogo from '../images/equinix.svg';
 import FastlyLogo from '../images/fastly.svg';
 import FortyFiveDrivesLogo from '../images/45drives.svg';
-import FosshostLogo from '../images/fosshost.svg';
 import GoogleCloudLogo from '../images/gcp.svg';
 import MattermostLogo from '../images/mattermost.svg';
 import MontaVistaLogo from '../images/montavista.svg';
@@ -72,11 +71,6 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
             <a href="https://fastly.com">
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img className="max-h-12" src={FastlyLogo} alt="Fastly" />
-              </div>
-            </a>
-            <a href="https://fosshost.org">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
-                <img className="max-h-12" src={FosshostLogo} alt="Fosshost" />
               </div>
             </a>
             <a href="https://cloud.google.com">

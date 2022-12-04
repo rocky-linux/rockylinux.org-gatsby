@@ -9,7 +9,6 @@ import CiqLogo from '../images/ciq.png';
 import ArmLogo from '../images/arm.png';
 import EquinixLogo from '../images/equinix.png';
 import FastlyLogo from '../images/fastly.png';
-import FossHostLogo from '../images/fosshost.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import OslLogo from '../images/osl.png';
@@ -48,13 +47,6 @@ const PartnersPage = () => {
       blurb: `${translate('partners.fastly.blurb')}`,
       source: `${FastlyLogo}`,
       link: 'https://www.fastly.com/',
-    },
-    {
-      name: `${translate('partners.fosshost.name')}`,
-      tier: `${translate('partners.fosshost.tier')}`,
-      blurb: `${translate('partners.fosshost.blurb')}`,
-      source: `${FossHostLogo}`,
-      link: 'https://fosshost.org/',
     },
     {
       name: `${translate('partners.mattermost.name')}`,
