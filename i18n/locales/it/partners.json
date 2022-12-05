@@ -22,11 +22,6 @@
       "tier": "Partner Principale",
       "blurb": "La piattaforma di edge cloud di Fastly permette ai clienti di creare esperienze digitali grandiose velocemente, in sicurezza, e con affidabilità processando, servendo e mettendo in sicurezza le applicazioni dei nostri clienti il più vicino possibile ai loro utenti finali - ai margini di internet. "
     },
-    "fosshost": {
-      "name": "Fosshost",
-      "tier": "Partner Principale",
-      "blurb": "Fosshost (UK CIC #13356530) offre internet hosting gratuito di livello enterprise e ha gestito servizi esclusivamente per la comunità FOSS. La nostra missione è di sostenere e supportare ogni progetto software libero e open source. Andare oltre, assieme. Il nostro lavoro non si ferma mai. Applica oggi!"
-    },
     "mattermost": {
       "name": "Mattermost",
       "tier": "Partner Principale",

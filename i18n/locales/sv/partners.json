@@ -22,11 +22,6 @@
       "tier": "Principal Partner",
       "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
     },
-    "fosshost": {
-      "name": "Fosshost",
-      "tier": "Principal Partner",
-      "blurb": "Fosshost (UK CIC #13356530) offers free enterprise grade internet hosting and managed services exclusively for the FOSS community. We're on a mission to empower and support every free and open-source software project. To go further, together. Our work never stops. Apply today!"
-    },
     "mattermost": {
       "name": "Mattermost",
       "tier": "Principal Partner",
