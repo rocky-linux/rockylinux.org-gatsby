@@ -49,6 +49,10 @@ const Footer = ({ pageContext: { locale: language } }) => {
         name: `${translate('community.store')}`,
         href: 'https://www.mucklesu.com/collections/rocky-linux',
       },
+      {
+        name: `${translate('community.store')} (EU)`,
+        href: 'https://www.hellotux.com/rocky-linux',
+      },
     ],
     documentation: [
       {

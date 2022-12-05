@@ -19,7 +19,7 @@
     "status": "服務狀態",
     "sponsors": "贊助商",
     "partners": "合作夥伴",
-    "support": "支援提供商",
+    "support": "支援服務提供商",
     "errata": "安全性勘誤表"
   },
   "community": {
@@ -53,6 +53,6 @@
   "download": "下載",
   "copyright": {
     "line1": "© 2020-<0>2021</0>  Rocky企業軟體基金會（RESF）版權所有。",
-    "line2": "Red Hat Enterprise Linux、RHEL和CentOS是紅帽公司或其子公司在美國和其他國家/地區的商標或注冊商標。 我們不隸屬於紅帽公司，也沒有得到紅帽公司的認可或贊助。"
+    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
   }
 }

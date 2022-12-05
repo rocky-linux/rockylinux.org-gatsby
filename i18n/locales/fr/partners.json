@@ -22,11 +22,6 @@
       "tier": "Partenaire Principal",
       "blurb": "La plateforme cloud de pointe Fastly permet aux clients de créer de grandes expériences numériques rapidement, en toute sécurité et de manière fiable en traitant, hébergeant et sécurisant les applications de nos clients au plus près e leurs utilisateurs finaux, aux limites de l'Internet."
     },
-    "fosshost": {
-      "name": "Fosshost",
-      "tier": "Partenaire Principal",
-      "blurb": "Fosshost (UK CIC #13356530) offre gratuitement un hébergement internet de qualité entreprise et des services gérés exclusivement pour la communauté FOSS. Nous avons pour mission de donner les moyens et de soutenir chaque projet de logiciel libre et open-source. Pour aller plus loin, ensemble. Notre travail ne s'arrête jamais. Postulez dès aujourd'hui!"
-    },
     "mattermost": {
       "name": "Mattermost",
       "tier": "Partenaire Principal",

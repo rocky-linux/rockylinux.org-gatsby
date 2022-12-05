@@ -22,11 +22,6 @@
       "tier": "Nhà tài trợ chính",
       "blurb": "Dịch vụ đám mây của Fastly cho phép khách hàng của chúng tôi tạo ra các trải nghiệm số nhanh tróng, an toàn, thuận tiện bằng cách xử lý, cung cấp và đảm bảo an toàn cho các ứng dụng của khách hàng chúng tôi đến với người dùng cuối một cách nhanh nhất và gần gũi nhất"
     },
-    "fosshost": {
-      "name": "Fosshost",
-      "tier": "Nhà tài trợ chính",
-      "blurb": "Fosshost (UK CIC #13356530) cung cấp dịch vụ hosting đạt chuẩn doanh nghiệp và các dịch vụ quản trị dành riên cho cộng đồng mã nguồn mở (FOSS). Chúng tôi có một sứ mệnh là vun đắp và giúp đỡ cho tất cả các dự án mã nguồn mở để cùng nhau tiến xa hơn. Và công việc đó không bao giờ dùng lại. Hãy tham gia ngay hôm nay!"
-    },
     "mattermost": {
       "name": "Mattermost",
       "tier": "Nhà tài trợ chính",

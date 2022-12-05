@@ -27,7 +27,7 @@
     "arm": "aarch64",
     "ppc64le": "ppc64le",
     "s390x": "s390x",
-    "mate": "MATE",
+    "mate": "伙伴",
     "checksum": "校验",
     "download": "下载",
     "readme": "自述文件"

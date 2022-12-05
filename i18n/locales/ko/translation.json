@@ -53,6 +53,6 @@
   "download": "다운로드",
   "copyright": {
     "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Red Hat Enterprise Linux, RHEL 및 CentOS는 미국 및 기타 국가에서 Red Hat, Inc. 또는 그 자회사의 상표 또는 등록 상표입니다. 우리는 Red Hat, Inc.와 제휴, 보증 또는 후원을 받지 않습니다."
+    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
   }
 }
