@@ -32,7 +32,7 @@
   },
   "get-involved": {
     "heading": "參與貢獻",
-    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "body": "當您下載和使用Rocky 時，RESF（Rocky Enterprise Software Foundation，Rocky企業軟件基金會）邀請您<0>成為社區的一名貢獻者</0>。 有許多形式可以為項目做出貢獻，從文件、QA、測試SIG（Special interest group，特別興趣小組）做的程式碼變更、提供鏡像或託管以及幫助其他使用者。"
   },
   "isos": {
     "heading": "ISO鏡像文件之間有什麼區別？",
