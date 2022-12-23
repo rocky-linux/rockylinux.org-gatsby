@@ -32,7 +32,7 @@
   },
   "get-involved": {
     "heading": "Mach mit!",
-    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "body": "Während Sie Rocky Linux herunterladen und nutzen, lädt Sie die Rocky Enterprise Software Foundation ein, <0>als Mitwirkender in der Community</0> an dem RL-Projekt teil zunehmen. Es gibt viele Möglichkeiten, zum Projekt beizutragen, von der Dokumentation, der QA, und das Testen von Änderungen für SIGs, das Spiegeln oder Hosting-Bereitstellen sowie anderen Benutzern helfen."
   },
   "isos": {
     "heading": "Was ist der Unterschied zwischen den ISOs?",
