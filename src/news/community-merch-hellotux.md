@@ -16,4 +16,4 @@ Shout out to Testing Team Lead Christopher Stackpole ([@stack](mattermost://chat
 Thank you for your continued support of Rocky Linux!
 
 [^1]: Polo shirts are coming soon-ish™
-[^2]: With the exception of Embird, necessary for driving the embroidery machines used.
+[^2]: With the exception of one package necessary for driving the embroidery machines used.
