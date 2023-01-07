@@ -1,25 +1,25 @@
 {
-  "title": "Support Providers",
-  "description": "Commercial support for Rocky Linux is available from these sponsors and partners, as well as other non-affiliated companies.",
+  "title": "Proveedores soportados",
+  "description": "El soporte comercial para Rocky Linux está disponible en estos patrocinadores y socios, así como en otras compañías no afiliadas.",
   "support": {
     "ciq": {
       "name": "CIQ",
       "tier": 1,
-      "title": "Founding Partner/Sponsor",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "title": "Socio/patrocinador fundador",
+      "blurb": "Creemos en ayudar a la gente a crear grandes cosas, por eso CIQ es un socio fundador del RESF. Proporcionamos apoyo comercial y servicios para Rocky Linux a clientes en investigación, academia, gobierno, compañeros, socios y todos entre medio."
     },
     "montavista": {
       "name": "MontaVista",
       "tier": 1,
-      "title": "Principal Sponsor",
-      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
+      "title": "Patrocinador Principal",
+      "blurb": "MontaVista ha estado construyendo distribuciones Linux desde 1999, y hemos estado detrás de algunas de las primeras contribuciones que hicieron de Linux lo que es hoy. Nuestro objetivo principal es asegurar que nuestros clientes tengan éxito con sus programas a largo plazo y proporcionar acuerdos de calidad comercial a nivel de servicio de soporte de campo y mantenimiento a largo plazo de CVE en su configuración exacta del producto."
     },
     "openlogic": {
-      "name": "OpenLogic by Perforce",
+      "name": "OpenLogic para Perforce",
       "tier": 4,
-      "title": "Tier 4 Sponsor",
-      "blurb": "OpenLogic delivers comprehensive support services for open source software, so that your teams can enjoy the benefits of using open source — and confidently meet your requirements including compliance with regulations such as GDPR, HIPAA, and PCI."
+      "title": "Patrocinador de Nivel 4",
+      "blurb": "OpenLogic ofrece servicios de soporte integral para software de código abierto, para que sus equipos puedan disfrutar de los beneficios de usar código abierto — y cumplir con sus requerimientos, incluyendo el cumplimiento de regulaciones como GDPR, HIPAA, y PCI."
     }
   },
-  "get": "Get Support"
+  "get": "Obtener Soporte"
 }
