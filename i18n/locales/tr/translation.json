@@ -1,58 +1,58 @@
 {
-  "language": "en",
-  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
+  "language": "tr",
+  "js-warning": "Tarayıcınızda JavaScript devre dışı görünüyor. Bu web sitesinin çoğu alanı JavaScript kullanılmadan çalışsa da, sitemizde gezinirken istenmeyen deneyimler yaşayabilirsiniz. Lütfen tarayıcınızın ayarlarında sitemiz için bir istisna yapmayı düşünün.",
   "categories": {
-    "news": "News",
-    "about": "About",
-    "community": "Community",
-    "documentation": "Documentation",
-    "get-involved": "Get Involved",
-    "legal": "Legal",
-    "language": "Language",
+    "news": "Haberler",
+    "about": "Hakkında",
+    "community": "Topluluk",
+    "documentation": "Dökümantasyon",
+    "get-involved": "Katkıda Bulun",
+    "legal": "Yasal",
+    "language": "Dil",
     "foundation": "Foundation"
   },
   "about": {
-    "about": "About Rocky Linux",
-    "faq": "Frequently Asked Questions",
-    "charter": "Community Charter",
-    "org-structure": "Organizational Structure",
-    "status": "Service Status",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "support": "Support Providers",
-    "errata": "Security Errata"
+    "about": "Rocky Linux Hakkında",
+    "faq": "Sıkça Sorulan Sorular",
+    "charter": "Topluluk Sözleşmesi",
+    "org-structure": "Organizasyon Yapısı",
+    "status": "Servis Durumu",
+    "sponsors": "Sponsorlar",
+    "partners": "Ortaklar",
+    "support": "Destek Verenler",
+    "errata": "Güvenlik Hataları"
   },
   "community": {
-    "contribute": "Contribute",
-    "forums": "Forums",
-    "mailing": "Mailing Lists",
+    "contribute": "Katkıda Bulun",
+    "forums": "Forumlar",
+    "mailing": "E-posta Listeleri",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "Calendar",
-    "bug": "Submit Bug",
-    "donate": "Donate",
-    "store": "Store"
+    "calendar": "Takvim",
+    "bug": "Hata Bildir",
+    "donate": "Bağış Yap",
+    "store": "Mağaza"
   },
   "documentation": {
     "wiki": "Wiki",
-    "guides": "Guides and Manuals",
-    "keys": "GPG Key Info"
+    "guides": "Rehberler ve Kılavuzlar",
+    "keys": "GPG Anahtar Kimliği:"
   },
   "legal": {
-    "licensing": "Licensing",
-    "privacy": "Privacy Policy"
+    "licensing": "Lisanslama",
+    "privacy": "Gizlilik Politikası"
   },
   "foundation": {
     "charter": "RESF Charter & Bylaws",
     "faq": "RESF FAQ"
   },
   "lang": {
-    "choose": "Choose Language",
-    "translate": "Translate this site"
+    "choose": "Dil Seç",
+    "translate": "Bu siteyi çevir"
   },
-  "download": "Download",
+  "download": "İndir",
   "copyright": {
-    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. Tüm hakları saklıdır.",
     "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
   }
 }
