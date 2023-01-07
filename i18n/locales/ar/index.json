@@ -12,15 +12,15 @@
     "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
     "1": {
       "title": "جاهز للاستخدام في مراحل الإنتاج",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "description": "روكي لينكس مجهز للمؤسسات, ويؤمن ثباتا مستقراً مع تحديثات منتظمة ودورات دعم مدتها 10 سنوات، وكل ذلك مجاناً من دون أي تكلفة."
     },
     "2": {
       "title": "الدعم المجتمعي",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "description": "وقد استثمر المجتمع والجهات الراعية والشركاء في التزامات طويلة الأجل لضمان بقاء المشروع مجتمعياً."
     },
     "3": {
       "title": "الانتقال السهل",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "description": "انتقل من توزيعات (لينكس للمؤسسات) الأخرى من دون عناء. ويوجد سكريبت برمجي مجاني وسهل الاستخدام للانتقال إلى روكي لينكس."
     }
   },
   "latest-news": {
