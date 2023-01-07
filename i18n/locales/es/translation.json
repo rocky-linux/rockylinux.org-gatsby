@@ -1,58 +1,58 @@
 {
-  "language": "en",
-  "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
+  "language": "es",
+  "js-warning": "Parece que JavaScript está desactivado en su navegador. Mientras que la mayoría de las áreas de este sitio web funcionan sin el uso de JavaScript, usted puede experimentar incongruencias no intencionadas mientras navega por nuestro sitio. Por favor, considere hacer una excepción para nuestro sitio en la configuración de su navegador.",
   "categories": {
-    "news": "News",
-    "about": "About",
-    "community": "Community",
+    "news": "Noticias",
+    "about": "Acerca de",
+    "community": "Comunidad",
     "documentation": "Documentación",
     "get-involved": "Participe",
     "legal": "Legal",
-    "language": "Language",
+    "language": "Idioma",
     "foundation": "Foundation"
   },
   "about": {
-    "about": "About Rocky Linux",
-    "faq": "Frequently Asked Questions",
-    "charter": "Community Charter",
-    "org-structure": "Organizational Structure",
-    "status": "Service Status",
-    "sponsors": "Sponsors",
-    "partners": "Partners",
-    "support": "Support Providers",
-    "errata": "Security Errata"
+    "about": "Acerca de Rocky Linux",
+    "faq": "Preguntas frecuentes",
+    "charter": "Carta Comunitaria",
+    "org-structure": "Estructura Organizacional",
+    "status": "Estado Del Servicio",
+    "sponsors": "Patrocinadores",
+    "partners": "Socios",
+    "support": "Proveedores soportados",
+    "errata": "Errores de seguridad"
   },
   "community": {
-    "contribute": "Contribute",
-    "forums": "Forums",
-    "mailing": "Mailing Lists",
+    "contribute": "Contribuir",
+    "forums": "Foros",
+    "mailing": "Listas de Correo",
     "mattermost": "Mattermost",
     "irc": "IRC",
-    "calendar": "Calendar",
-    "bug": "Submit Bug",
-    "donate": "Donate",
-    "store": "Store"
+    "calendar": "Calendario",
+    "bug": "Enviar error",
+    "donate": "Donar",
+    "store": "Tienda"
   },
   "documentation": {
     "wiki": "Wiki",
-    "guides": "Guides and Manuals",
-    "keys": "GPG Key Info"
+    "guides": "Guías y Manuales",
+    "keys": "Información de llave GPG"
   },
   "legal": {
-    "licensing": "Licensing",
-    "privacy": "Privacy Policy"
+    "licensing": "Licencia",
+    "privacy": "Política de Privacidad"
   },
   "foundation": {
     "charter": "RESF Charter & Bylaws",
     "faq": "RESF FAQ"
   },
   "lang": {
-    "choose": "Choose Language",
-    "translate": "Translate this site"
+    "choose": "Seleccionar Idioma",
+    "translate": "Traducir este sitio"
   },
   "download": "Descarga",
   "copyright": {
-    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. Todos los derechos reservados.",
     "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
   }
 }
