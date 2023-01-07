@@ -4,7 +4,7 @@
   "rl8": "Rocky Linux 8",
   "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>Hạn cuối hỗ trợ (EOL):</0> 31 tháng 5 năm 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "rl9-eol": "<0>Hạn cuối hỗ trợ (EOL):</0> 31 tháng 5 năm 2032",
   "desktop": "Desktop (SIG)",
   "alt-arch": "Các kiến trúc khác (SIG)",
   "cloud": "Generic Cloud / OpenStack",
@@ -19,7 +19,7 @@
   },
   "body": {
     "gnome": "GNOME (Workstation)",
-    "gnome-lite": "GNOME (Lite Workstation)",
+    "gnome-lite": "GNOME (Phiên bản Workstation tối giản)",
     "xfce": "XFCE",
     "kde": "KDE",
     "rpi": "Raspberry Pi (aarch64)",
