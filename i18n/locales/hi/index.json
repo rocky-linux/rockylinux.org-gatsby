@@ -1,36 +1,36 @@
 {
   "hero": {
-    "new": "What's New",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
+    "new": "नया क्या है",
+    "title": "एंटरप्राइज लिनक्स, सामुदायिक तरीका।",
+    "description": "रॉकी लिनक्स एक ओपन-सोर्स एंटरप्राइज ऑपरेटिंग सिस्टम है जिसे Red Hat Enterprise Linux के साथ संगत 100% बग-फॉर-बग के लिए डिज़ाइन किया गया है। यह समुदाय द्वारा गहन विकास के अधीन है।",
     "cta1": "Download",
-    "cta2": "Migrate"
+    "cta2": "प्रवास करना"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
+    "title": "ठोस, उपयोग-मामला कोई फर्क नहीं पड़ता।",
+    "subtitle": "स्थिर, उत्पादन के लिए तैयार Linux",
     "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
     "1": {
-      "title": "Production Ready",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "title": "उत्पादन हेतु तैयार",
+      "description": "रॉकी Linux उद्यम के लिए तैयार है, नियमित अपडेट के साथ ठोस स्थिरता प्रदान करता है और 10 साल का समर्थन जीवनचक्र, बिना किसी कीमत के।"
     },
     "2": {
-      "title": "Community Supported",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "title": "सामुदायिक सहायता",
+      "description": "समुदाय, प्रायोजकों और भागीदारों ने यह सुनिश्चित करने के लिए दीर्घकालिक प्रतिबद्धताओं के साथ निवेश किया है कि परियोजना समुदाय के साथ बनी रहे।"
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "आसान प्रवास",
+      "description": "अन्य एंटरप्राइज़ लिनक्स वितरण से बिना पसीना बहाए माइग्रेट करें। हम उपयोग में आसान माइग्रेशन स्क्रिप्ट निःशुल्क प्रदान करते हैं।"
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "नवीनतम खबर",
+    "description": "हम नियमित रूप से समुदाय के साथ अपडेट साझा करते हैं कि क्या हो रहा है। यहाँ नवीनतम है।"
   },
   "sponsors-partners": {
-    "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "backed": "की मदद से",
+    "sponsors": "सभी प्रायोजक",
+    "partners": "सभी साथी",
+    "support": "समर्थन भागीदार"
   }
 }
