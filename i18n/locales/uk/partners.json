@@ -1,58 +1,58 @@
 {
-  "title": "Partners",
-  "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+  "title": "Партнери",
+  "description": "Партнери RESF представляють тривалі відносини, стратегічно важливі для проекту Rocky Linux. Жертвуючи інженерним досвідом, ресурсами інфраструктури чи іншими ресурсами, їхня підтримка має вирішальне значення для нашого подальшого успіху та довгострокової стійкості.",
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "tier": "Партнери-засновники",
+      "blurb": "Ми віримо в те, що потрібно допомагати людям робити великі справи. Ось чому CIQ є партнером-засновником RESF. Ми надаємо комерційну підтримку та послуги для Rocky Linux клієнтам із дослідницьких, академічних, урядових, корпоративних, партнерських та інших сфер."
     },
     "arm": {
       "name": "Arm",
-      "tier": "Principal Partner",
-      "blurb": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+      "tier": "Головний партнер",
+      "blurb": "З першого дня Arm прагне забезпечити, щоб її архітектура була ідеальним прикладом для Rocky Linux. Ми співпрацюємо з RESF, надаючи спеціалізовані інженерні зусилля щоб доповнити команди розробки та тестувальників Rocky Linux, тісно співпрацюючи для тестування, перевірки та підтримки ARM зараз та в майбутньому."
     },
     "equinix": {
       "name": "Equinix",
-      "tier": "Principal Partner",
-      "blurb": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+      "tier": "Головний партнер",
+      "blurb": "Equinix — світова цифрова інфраструктурна компанія. Цифрові лідери використовують нашу надійну платформу для підключення та інтеграції базової інфраструктури, яка забезпечує їхній успіх."
     },
     "fastly": {
       "name": "Fastly",
-      "tier": "Principal Partner",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "tier": "Головний партнер",
+      "blurb": "Хмарна платформа Fastly дозволяє клієнтам створювати чудові цифрові можливості швидко, безпечно та надійно, обробляючи, керуючи та захищаючи програми наших клієнтів якомога ближче до їхніх кінцевих користувачів – на межі Інтернету."
     },
     "mattermost": {
       "name": "Mattermost",
-      "tier": "Principal Partner",
-      "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      "tier": "Головний партнер",
+      "blurb": "Mattermost - це рішення для обміну повідомленнями з відкритим кодом, створене для організацій з найвищими вимогами до безпеки. Як великий прихильник відкритого вихідного коду, Mattermost із задоволенням співпрацює з RESF, щоб допомогти надати технологічній спільноті дистрибутив Linux корпоративного рівня."
     },
     "naver": {
       "name": "NAVER Cloud",
-      "tier": "Principal Partner",
-      "blurb": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+      "tier": "Головний партнер",
+      "blurb": "NAVER Cloud Platform — південнокорейський хмарний сервіс, який почав працювати в 2017 році під керівництвом NAVER Cloud, дочірньої компанії NAVER. У 2021 році він надає понад 170 окремих послуг і має різні сертифікати безпеки, включаючи CSA STAR GOLD, GDPR тощо. Зараз також надає хмарні послуги в 10 місцях по всьому світу."
     },
     "osl": {
       "name": "OSU Open Source Labs",
-      "tier": "Principal Partner",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "tier": "Головний партнер",
+      "blurb": "The Oregon State University Open Source Lab є некомерційною організацією, яка займається розвитком технологій з відкритим кодом. OSL пропонує послуги хостингу світового рівня, професійну розробку програмного забезпечення та навчання на місцях для перспективних студентів, які цікавляться управлінням і розробкою з відкритим кодом."
     },
     "supermicro": {
       "name": "Supermicro",
-      "tier": "Principal Partner",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "tier": "Головний партнер",
+      "blurb": "Як світовий лідер у високопродуктивних, високоефективних серверних технологіях та інноваціях Supermicro з радістю співпрацює з RESF і постачає сервери центрів обробки даних і системи зберігання, оптимізовані для Rocky Linux."
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "Tier 4 Partner"
+      "tier": "Партнер 4-го рівня"
     },
     "dsstudio": {
       "name": "DotSlash Studio",
-      "tier": "Tier 4 Partner"
+      "tier": "Партнер 4-го рівня"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "Tier 4 Partner"
+      "tier": "Партнер 4-го рівня"
     }
   }
 }
