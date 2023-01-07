@@ -51,13 +51,13 @@
       "name": "OpenDrive",
       "title": "主要スポンサー",
       "tier": 1,
-      "blurb": "OpenDrives is a global provider of enterprise-scale, software-defined data storage solutions. Our technology is designed to power the most demanding workflows—on premises and in the cloud. Our commitment to open standards and protocols facilitates ease of integrations, making it simpler for customers to access, use, move, and protect their data. We are headquartered in Culver City, CA."
+      "blurb": "OpenDrives は、エンタープライズ規模のソフトウェア定義型データストレージソリューションのグローバルプロバイダです。当社のテクノロジーは、最も要求の厳しいワークフローをオンプレミスおよびクラウド上で実現するよう設計されています。オープンスタンダードとプロトコルを採用することで、統合を容易にし、お客様のデータへのアクセス、使用、移動、保護をよりシンプルにしています。本社はカリフォルニア州カルバーシティにあります。"
     },
     "rakutensymphony": {
       "name": "Rakuten Symphony",
       "title": "主要スポンサー",
       "tier": 1,
-      "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks."
+      "blurb": "楽天シンフォニーは、オープンソースコミュニティがコラボレーションを通じてイノベーションを促進することを強く信じています。Rocky Linux の導入は、オープンなコミュニティによって支えられている真のオープンソースの原則への回帰を意味します。楽天シンフォニーは、Rocky Linuxを大規模ネットワークを運用するための標準オペレーティングシステムにするために、通信業界内の幅広いサードパーティベンダーやテクノロジーパートナーと密接に協力しています。"
     },
     "vmware": {
       "name": "VMware",
