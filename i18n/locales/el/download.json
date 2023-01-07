@@ -1,53 +1,53 @@
 {
-  "title": "Download Rocky",
-  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "title": "Λήψη Rocky",
+  "description": "Κατεβάστε την επίσημη κυκλοφορία του Rocky από έναν από τους έμπιστους καθρέφτες μας. ",
   "rl8": "Rocky 8",
   "rl9": "Rocky 9",
-  "elCompat8": "Enterprise Linux v8 Compatible",
-  "elCompat9": "Enterprise Linux v9 Compatible",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "elCompat8": "Συμβατό με Enterprise Linux v8",
+  "elCompat9": "Συμβατό με Enterprise Linux v9",
+  "rl8-eol": "<0>Προγραμματισμένο ΤΤΖ</0>31 Μαΐου 2029",
+  "rl9-eol": "<0>Προγραμματισμένο ΤΤΖ</0>31 Μαΐου 2032",
   "headings": {
-    "arch": "Architecture",
+    "arch": "Αρχιτεκτονική",
     "isos": "ISOs",
-    "packages": "Packages"
+    "packages": "Πακέτα"
   },
   "body": {
     "x86_64": "x86_64",
     "arm": "ARM64 (aarch64)",
-    "minimal": "Minimal",
+    "minimal": "Ελάχιστο",
     "dvd": "DVD",
-    "boot": "Boot",
+    "boot": "Εκκίνηση",
     "torrent": "Torrent",
-    "checksum": "Checksum",
+    "checksum": "Άθροισμα ελέγχου",
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "Alternative Images",
-    "bug": "Report Bug",
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "vault": "Archived Releases",
-    "verify": "Verify Download"
+    "alt": "Εναλλακτικές εικόνες",
+    "bug": "Αναφορά Σφάλματος",
+    "cloud": "Εικόνες Cloud",
+    "docs": "Τεκμηρίωση",
+    "vault": "Αρχειοθετημένες Κυκλοφορίες",
+    "verify": "Επιβεβαίωση Λήψης"
   },
   "get-involved": {
-    "heading": "Get Involved",
-    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "heading": "Συμμετάσχετε",
+    "body": "Καθώς κατεβάζετε και χρησιμοποιείτε το Rocky Linux, η Rocky Enterprise Software Foundation σας προσκαλεί να <0>να γίνετε μέρος της κοινόττηας σαν συνεργάτης</0>. Υπάρχουν πολύ τρόπη να συμβάλετε στο έργο, από τα εγχειρίδια, QA, και την δοκίμη των αλλγών κώδικα για τα SIGs, παρέχοντας ενναλακτικούς σέρβερ ή φιλοξενία, και βοηθόντας άλλους χρήστες."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Ποια είναι η διαφορά μεταξύ των ISOs?",
+    "body": "Διάφορες εικόνες εγκατάστασης είναι διαθέσιμες για την εγκατάσταση του Rocky. Το πια εικόνα θα χρειαστεί να κατεβάσετε εξαρτάται από το περιβάλλον εγκατάστασης και τη χρήση.",
     "boot": {
-      "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Εκκίνηση",
+      "body": "Χρησιμοποιείται για την εγκατάσταση του λειτουργικού συστήματος από άλλη πηγή (όπως ένα αποθετήριο HTTP των δυαδικών αρχείων). Μπορεί επίσης να χρησιμοποιηθεί για να εισέλθει σε λειτουργία διάσωσης."
     },
     "minimal": {
-      "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Ελάχιστο",
+      "body": "Χρησιμοποιείται για την εγκατάσταση του λειτουργικού συστήματος από άλλη πηγή (όπως ένα αποθετήριο HTTP των δυαδικών αρχείων). Μπορεί επίσης να χρησιμοποιηθεί για να εισέλθει σε λειτουργία διάσωσης."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
+      "body": "Μια πλήρης εγκατάσταση που περιέχει τα αποθετήρια BaseOS και AppStream και σας επιτρέπει να ολοκληρώσετε την εγκατάσταση χωρίς επιπλέον αποθετήρια. Η εγκατάσταση του Rocky από το DVD ISO είναι ευκολότερη και η πιο συχνή μέθοδος εκτέλεσης μιας τυπικής εγκατάστασης του Rocky Linux 8."
     }
   }
 }
