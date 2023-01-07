@@ -9,7 +9,7 @@
     "get-involved": "참여하기",
     "legal": "법률",
     "language": "언어",
-    "foundation": "Foundation"
+    "foundation": "재단"
   },
   "about": {
     "about": "Rocky Linux에 대하여",
@@ -20,7 +20,7 @@
     "sponsors": "후원자",
     "partners": "파트너",
     "support": "지원 제공자",
-    "errata": "Security Errata"
+    "errata": "보안 정오표"
   },
   "community": {
     "contribute": "기여하기",
@@ -43,7 +43,7 @@
     "privacy": "개인정보처리방침"
   },
   "foundation": {
-    "charter": "RESF Charter & Bylaws",
+    "charter": "RESF 헌장 및 내규",
     "faq": "RESF FAQ"
   },
   "lang": {
@@ -53,6 +53,6 @@
   "download": "다운로드",
   "copyright": {
     "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
-    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+    "line2": "Linux®는 미국과 기타 국가에서 Linux Torvalds 등록 상표입니다. Red Hat Enterprise Linux, RHEL과 CentOS는 Red Hatd, Inc 또는 미국과 기타 국가의 자회사들의 상표 혹은 등록 상표입니다. 우리는 Red Hat, Inc 제휴되지 않고, 보증받지 않으며 후원받지 않습니다. "
   }
 }
