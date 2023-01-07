@@ -1,88 +1,88 @@
 {
-  "title": "Sponsors",
-  "description": "We would like to thank our sponsors for their support thus far on the project.",
-  "tierone": "Tier 1 - Principal Sponsors",
-  "tiertwo": "Tier 2",
-  "tierthree": "Tier 3",
-  "tierfour": "Tier 4",
+  "title": "Patrocinadores",
+  "description": "Nos gustaria agradecer a nuestros patrocinadores por su apoyo hasta el momento en el proyecto",
+  "tierone": "Nivel 1 - Patrocinadoras principales",
+  "tiertwo": "Nivel 2",
+  "tierthree": "Nivel 3",
+  "tierfour": "Nivel 4",
   "blurb": {
-    "lineone": "Want to be a sponsor?",
-    "linetwo": "Get in touch today.",
-    "emailus": "Email Us"
+    "lineone": "¿Quiere ser un patrocinador?",
+    "linetwo": "Póngase en contacto hoy.",
+    "emailus": "Envíanos un correo electrónico"
   },
   "sponsors": {
     "ciq": {
       "name": "CIQ",
-      "title": "Founding Sponsor",
+      "title": "Patrocinador Fundador",
       "tier": 1,
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "blurb": "Creemos en ayudar a la gente a crear grandes cosas, por eso CIQ es un socio fundador del RESF. Proporcionamos apoyo comercial y servicios para Rocky Linux a clientes en investigación, academia, gobierno, compañeros, socios y todos entre medio."
     },
     "45drives": {
       "name": "45Drives",
-      "title": "Principal Sponsor",
+      "title": "Patrocinador Principal",
       "tier": 1,
-      "blurb": "45Drives offers enterprise storage solutions built on powerful and robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!"
+      "blurb": "45Drives ofrece soluciones de almacenamiento empresarial basadas en software de código abierto potente y robusto, que permiten a los clientes beneficiarse del ahorro de costos y la flexibilidad del hardware off-the-shelf. ¡Revisa la solución de almacenamiento de datos totalmente soportada al mejor costo por terabyte!"
     },
     "aws": {
       "name": "Amazon Web Services",
-      "title": "Principal Sponsor",
+      "title": "Patrocinador Principal",
       "tier": 1,
-      "blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do."
+      "blurb": "El RESF utiliza AWS para ejecutar gran parte de la infraestructura subyacente crítica al desarrollo y despliegue de los servicios que soportan Rocky Linux. Desde constructores de Koji para x86_64 y aarch64 ejecutándose en EC2 hasta almacenamiento de blob SRPM en S3, AWS es fundamental para gran parte de lo que hacemos."
     },
     "gcp": {
       "name": "Google Cloud",
-      "title": "Principal Sponsor",
+      "title": "Patrocinador Principal",
       "tier": 1,
-      "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one."
+      "blurb": "Como patrocinador principal del RESF, Google entiende la importancia de Rocky Linux como un sistema operativo libre, abierto y comunitario. Proporcionando recursos para pruebas y validación, nos hemos asociado con el RESF para garantizar la condición de ciudadano de primera clase en la plataforma Google Cloud desde el primer día."
     },
     "azure": {
       "name": "Microsoft Azure",
-      "title": "Principal Sponsor",
+      "title": "Patrocinador Principal",
       "tier": 1,
-      "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way."
+      "blurb": "Linux es la plataforma de mayor crecimiento en Azure, funciona en más de la mitad de los núcleos de VM. Durante más de una década, Microsoft ha estado invirtiendo en Linux, y asociaciones siendo un pilar central de la estrategia de código abierto de Microsoft, colaboramos con RESF y el amplio ecosistema Rocky Linux para asegurar que los clientes tengan un creciente conjunto de opciones para implementar cargas de trabajo de Linux en Azure de una forma compatible, gestionada y segura."
     },
     "montavista": {
       "name": "MontaVista",
-      "title": "Principal Sponsor",
+      "title": "Patrocinador Principal",
       "tier": 1,
-      "blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles."
+      "blurb": "MontaVista Software es el líder en LInux comercial embebido, soportando MontaVista CGX, Yocto Project®️, CentOS y Rocky Linux. MontaVista ofrece experiencia en software de código abierto, distribuciones de Linux de calidad comercial, mantenimiento rentable y soporte para ciclos de vida de más de 10 años."
     },
     "opendrives": {
       "name": "OpenDrives",
-      "title": "Principal Sponsor",
+      "title": "Patrocinador Principal",
       "tier": 1,
       "blurb": "OpenDrives is a global provider of enterprise-scale, software-defined data storage solutions. Our technology is designed to power the most demanding workflows—on premises and in the cloud. Our commitment to open standards and protocols facilitates ease of integrations, making it simpler for customers to access, use, move, and protect their data. We are headquartered in Culver City, CA."
     },
     "rakutensymphony": {
       "name": "Rakuten Symphony",
-      "title": "Principal Sponsor",
+      "title": "Patrocinador Principal",
       "tier": 1,
       "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks."
     },
     "vmware": {
       "name": "VMware",
-      "title": "Principal Sponsor",
+      "title": "Patrocinador Principal",
       "tier": 1,
-      "blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control."
+      "blurb": "VMware es un proveedor líder de servicios en la nube múltiple para todas las aplicaciones, permitiendo la innovación digital con control empresarial."
     },
     "openlogic": {
-      "name": "OpenLogic by Perforce",
-      "title": "Tier 4 Sponsor",
+      "name": "OpenLogic para Perforce",
+      "title": "Patrocinador de Nivel 4",
       "tier": 4
     },
     "procomputers": {
       "name": "ProComputers.com",
-      "title": "Tier 4 Sponsor",
+      "title": "Patrocinador de Nivel 4",
       "tier": 4
     },
     "seagate": {
       "name": "Seagate Federal",
-      "title": "Tier 4 Sponsor",
+      "title": "Patrocinador de Nivel 4",
       "tier": 4
     },
     "stromasys": {
       "name": "Stromasys",
-      "title": "Tier 4 Sponsor",
+      "title": "Patrocinador de Nivel 4",
       "tier": 4
     }
   }
