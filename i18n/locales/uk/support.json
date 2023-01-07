@@ -1,25 +1,25 @@
 {
-  "title": "Support Providers",
-  "description": "Commercial support for Rocky Linux is available from these sponsors and partners, as well as other non-affiliated companies.",
+  "title": "Підтримка постачальників",
+  "description": "Комерційна підтримка Rocky Linux надається від цих спонсорів і партнерів, а також від інших неафілійованих компаній.",
   "support": {
     "ciq": {
       "name": "CIQ",
       "tier": 1,
-      "title": "Founding Partner/Sponsor",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "title": "Партнер/Спонсор-засновник",
+      "blurb": "Ми віримо в те, що потрібно допомагати людям робити великі справи. Ось чому CIQ є партнером-засновником RESF. Ми надаємо комерційну підтримку та послуги для Rocky Linux клієнтам із дослідницьких, академічних, урядових, корпоративних, партнерських та інших сфер."
     },
     "montavista": {
       "name": "MontaVista",
       "tier": 1,
-      "title": "Principal Sponsor",
-      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
+      "title": "Принципові спонсори",
+      "blurb": "MontaVista створює дистрибутиви Linux із 1999 року, і ми брали участь у ранніх внесках, які зробили Linux таким, яким він є сьогодні. Наша основна мета — це бути певними, що наші клієнти успішно працюють із ПЗ у довготривалій перспективі і надають послуги комерційного рівня для польової підтримки та довгострокового обслуговування CVE на Вашій конфіґурації продукту."
     },
     "openlogic": {
-      "name": "OpenLogic by Perforce",
+      "name": "OpenLogic від Perforce",
       "tier": 4,
       "title": "Tier 4 Sponsor",
-      "blurb": "OpenLogic delivers comprehensive support services for open source software, so that your teams can enjoy the benefits of using open source — and confidently meet your requirements including compliance with regulations such as GDPR, HIPAA, and PCI."
+      "blurb": "OpenLogic надає комплексні послуги підтримки для програмного забезпечення з відкритим кодом — і впевнено відповідатиме Вашим вимогам, враховуючи відповідність таким нормам як GDPR, HIPAA та PCI."
     }
   },
-  "get": "Get Support"
+  "get": "Отримати підтримку"
 }
