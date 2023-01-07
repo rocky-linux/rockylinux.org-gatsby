@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
-  "description": "Find our official images from your favorite cloud provider.",
+  "title": "Хмарні образи",
+  "description": "Шукайте наші офіційні образи від Ваших улюблених хмарних постачальників.",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
-    "arch": "Architecture",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "version": "Версія ОС",
+    "provider": "Постачальник",
+    "region": "Регіон",
+    "arch": "Архітектура",
+    "id": "ІД образу",
+    "deploy": "Посилання для розгортання"
   },
-  "deploy": "Deploy"
+  "deploy": "Розгорнути"
 }
