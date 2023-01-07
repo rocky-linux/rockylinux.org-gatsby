@@ -1,53 +1,53 @@
 {
-  "title": "Download Rocky",
-  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "title": "Завантажити Rocky",
+  "description": "Завантажте офіційний випуск Rocky з одного із наших довірених дзеркал.",
   "rl8": "Rocky 8",
   "rl9": "Rocky 9",
-  "elCompat8": "Enterprise Linux v8 Compatible",
-  "elCompat9": "Enterprise Linux v9 Compatible",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "elCompat8": "Сумісний з Enterprise Linux v8",
+  "elCompat9": "Сумісний з Enterprise Linux v9",
+  "rl8-eol": "<0>Планове EOL:</0> 31 травня 2029 року",
+  "rl9-eol": "<0>Заплановане EOL:</0> 31 травня 2032",
   "headings": {
-    "arch": "Architecture",
-    "isos": "ISOs",
-    "packages": "Packages"
+    "arch": "Архітектура",
+    "isos": "ISO-образи",
+    "packages": "Пакети"
   },
   "body": {
     "x86_64": "x86_64",
     "arm": "ARM64 (aarch64)",
-    "minimal": "Minimal",
+    "minimal": "Мінімальний",
     "dvd": "DVD",
     "boot": "Boot",
     "torrent": "Torrent",
-    "checksum": "Checksum",
+    "checksum": "Контрольна сума",
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "Alternative Images",
-    "bug": "Report Bug",
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "vault": "Archived Releases",
-    "verify": "Verify Download"
+    "alt": "Альтернативні образи",
+    "bug": "Повідомити про ваду",
+    "cloud": "Хмарні образи",
+    "docs": "Документація",
+    "vault": "Архівовані випуски",
+    "verify": "Перевірити завантаження"
   },
   "get-involved": {
-    "heading": "Get Involved",
-    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "heading": "Долучайтеся",
+    "body": "Якщо ви завантажуєте і використовуєте Rocky, Rocky Enterprise Software Foundation  запрошує вас <0>бути частиною спільноти як співрозробник</0>. Є багато способів як можна зробити свій внесок у проєкт, від документації, QA і тестування до змін коду для SIG, забезпечення дзеркал або хостингу, і допомоги іншим користувачам."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Яка різниця між ISO-образами?",
+    "body": "Для встановлення Rocky доступні різні інсталяційні образи. Який образ обрати, залежить від середовища встановлення і виду використання.",
     "boot": {
       "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Використовується для встановлення операційної системи з іншого джерела (наприклад, із HTTP репозиторію бінарних файлів). Його також можна використовувати для входу в Режим відновлення."
     },
     "minimal": {
-      "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Мінімальний",
+      "body": "Використовується для встановлення операційної системи з іншого джерела (наприклад, із HTTP репозиторію бінарних файлів). Його також можна використовувати для входу в Режим відновлення."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
+      "body": "Повне встановлення, що містить репозиторії BaseOS та AppStream і дозволяє успішно встановити систему без додаткових репозиторіїв. Встановлення Rocky Linux з ISO DVD є основним і найлегшим способом виконати стандартне встановлення Rocky Linux."
     }
   }
 }
