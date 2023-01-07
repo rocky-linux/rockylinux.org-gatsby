@@ -5,15 +5,15 @@
     "news": "News",
     "about": "About",
     "community": "Community",
-    "documentation": "Documentation",
-    "get-involved": "Get Involved",
+    "documentation": "Τεκμηρίωση",
+    "get-involved": "Συμμετάσχετε",
     "legal": "Legal",
     "language": "Language",
     "foundation": "Foundation"
   },
   "about": {
     "about": "About Rocky Linux",
-    "faq": "Frequently Asked Questions",
+    "faq": "Συχνές ερωτήσεις",
     "charter": "Community Charter",
     "org-structure": "Organizational Structure",
     "status": "Service Status",
@@ -50,7 +50,7 @@
     "choose": "Choose Language",
     "translate": "Translate this site"
   },
-  "download": "Download",
+  "download": "Λήψη",
   "copyright": {
     "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
     "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
