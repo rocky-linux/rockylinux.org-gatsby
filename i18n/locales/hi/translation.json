@@ -2,7 +2,7 @@
   "language": "en",
   "js-warning": "It appears that JavaScript is disabled in your browser. While most areas of this website work without the use of JavaScript, you may experience unintended experiences while browsing our site. Please consider making an exception for our site in your browser's settings.",
   "categories": {
-    "news": "News",
+    "news": "समाचार",
     "about": "About",
     "community": "Community",
     "documentation": "Documentation",
@@ -13,12 +13,12 @@
   },
   "about": {
     "about": "About Rocky Linux",
-    "faq": "Frequently Asked Questions",
+    "faq": "अधिकतर पूछे जाने वाले सवाल",
     "charter": "Community Charter",
     "org-structure": "Organizational Structure",
     "status": "Service Status",
     "sponsors": "Sponsors",
-    "partners": "Partners",
+    "partners": "भागीदार या साथी",
     "support": "Support Providers",
     "errata": "Security Errata"
   },
@@ -26,7 +26,7 @@
     "contribute": "Contribute",
     "forums": "Forums",
     "mailing": "Mailing Lists",
-    "mattermost": "Mattermost",
+    "mattermost": "मत्तेरमोस्त ",
     "irc": "IRC",
     "calendar": "Calendar",
     "bug": "Submit Bug",
