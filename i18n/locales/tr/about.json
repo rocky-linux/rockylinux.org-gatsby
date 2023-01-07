@@ -1,17 +1,17 @@
 {
-  "title": "It all started with a blog comment.",
-  "subtitle": "History",
+  "title": "Her şey bir blog yorumuyla başladı.",
+  "subtitle": "Tarihçe",
   "content": {
-    "highlight": "On December 8, 2020, Red Hat announced that they would discontinue development of CentOS, which has been a production-ready downstream version of Red Hat Enterprise Linux, in favor of a newer upstream development variant of that operating system known as \"CentOS Stream\". In response, original founder of CentOS, Gregory Kurtzer, announced <0>via a comment on the CentOS website</0> that he would again start a project to achieve the original goals of CentOS. It's name was chosen as a tribute to early CentOS co-founder Rocky McGaugh. By December 12, the code repository of Rocky Linux had become the top-trending repository on GitHub.",
-    "paragraph": "On December 22, 2020, Rocky Linux announced that the target for an initial release was anywhere between March and May of 2021. On January 20, 2021, it was announced that a test repository would be made available to the public by the end of February, and a release candidate was on target for the end of March 2021. However, that date was slightly pushed back, and on April 30, 2021, the first release candidate was officially released. The second release candidate, of version 8.4, the last before the stable release, was released on June 4, 2021. On June 21, 2021, the stable release of Rocky Linux 8.4 was released, with the code name \"Green Obsidian\"."
+    "highlight": "8 Aralık 2020 tarihinde Red Hat, CentOS işletim sisteminin \"CentOS Stream\" adını verdikleri yeni geliştirme varyantını çıkarmaları dolayısıyla Red Hat Enterprise Linux'un üretime hazır alt sürümü olan CentOS'u geliştirmeyi durduracaklarını açıkladı. Bu açıklamaya yanıt olarak CentOS'un kurucusu Gregory Kurtzer, <0>CentOS sitesindeki bir yorumla</0> CentOS'un orijinal amaçlarına dönük bir projeye yeniden başlayacağını duyurdu. Projenin adı CentOS'un kurucu ortaklarından McGaugh'a teşekkür olarak seçildi.  12 Aralık'a kadar, Rocky Linux'un kod deposu, GitHub üzerindeki en popüler depo haline gelmişti.",
+    "paragraph": "22 Aralık 2020'de Rocky Linux, ilk sürümünü 2021'in Mart ve Mayıs ayları arasında yayınlamayı hedeflediğini duyurdu. 20 Ocak 2021'de, Şubat ayı sonuna kadar bir deneme deposunun halka açılacağı ve Mart 2021'in sonu için bir ön sürümün hedeflendiğini açıklandı. Ancak bu tarih biraz ertelendi ve 30 Nisan 2021 tarihinde ön sürüm resmi olarak yayınladı. Kararlı sürümden önceki son ön sürüm, versiyon 8.4 olarak yayınlanan ikinci ön sürüm, 4 Haziran 2021'de yayınlandı. 21 Haziran 2021'de Rock Linux 8.4'ün kararlı sürümü \"Green Obisidan\" kod adıyla yayınlandı."
   },
   "organization": {
-    "heading": "Organization",
-    "paragraph": "The Rocky Linux project is hosted by the Rocky Enterprise Software Foundation (RESF). To learn more about the organizational structure, please check out the <0>page</0> on the topic."
+    "heading": "Organizasyon",
+    "paragraph": "Rocky Linux projesi, Rocky Enterprise Software Foundation (RESF) tarafından barındırılmaktadır. Organizasyon yapısı hakkında daha fazla bilgi edinmek için lütfen konuyla ilgili <0>sayfaya</0> göz atın."
   },
   "quote": {
-    "content": "Thinking back to early CentOS days... My cofounder was Rocky McGaugh. He is no longer with us, so as a H/T to him, who never got to see the success that CentOS came to be, I introduce to you...Rocky Linux.",
+    "content": "Eski CentOS günlerine bakarsak... Kurucu ortağım Rocky McGaugh idi. O artık bizimle değil bu yüzden CentOS'un elde ettiği başarıyı göremeyen onun anısı için, karşınıza... Rocky Linux.",
     "gmk": "Gregory Kurtzer",
-    "occupation": "Co-Founder @ CentOS / Founder @ Rocky Linux"
+    "occupation": "Kurucu Ortak @ CentOS / Kurucu @ Rocky Linux"
   }
 }
