@@ -1,13 +1,13 @@
 {
   "title": "Cloud Images",
-  "description": "Find our official images from your favorite cloud provider.",
+  "description": "अपने पसंदीदा cloud प्रदाता से हमारे आधिकारिक चित्र प्राप्त करें।",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
+    "version": "OS संस्करण",
+    "provider": "प्रदाता",
+    "region": "क्षेत्र",
     "arch": "Architecture",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "id": "चित्र ID",
+    "deploy": "परिनियोजन लिंक"
   },
-  "deploy": "Deploy"
+  "deploy": "परिनियोजन"
 }
