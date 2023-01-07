@@ -1,25 +1,25 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
+  "title": "Εναλλακτικές εικόνες",
+  "description": "Οι εικόνες που παρέχονται σε αυτήν τη σελίδα είναι διαθέσιμες από έναν από τους αξιόπιστους mirros μας, αλλά δεν υποστηρίζονται επίσημα.",
   "rl8": "Rocky Linux 8",
   "rl9": "Rocky Linux 9",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "rl8-eol": "<0>Προγραμματισμένο ΤΤΖ</0>31 Μαΐου 2029",
+  "rl9-eol": "<0>Προγραμματισμένο ΤΤΖ</0>31 Μαΐου 2032",
   "desktop": "Desktop (SIG)",
-  "alt-arch": "Alternative Architectures (SIG)",
-  "cloud": "Generic Cloud / OpenStack",
+  "alt-arch": "Εναλλακτικές Αρχιτεκτονικές (SIG)",
+  "cloud": "Γενικό Cloud / OpenStack",
   "headings": {
     "isos": "ISOs",
-    "packages": "Packages",
-    "de": "Desktop Environment",
-    "checksum": "Checksum",
-    "arch": "Architecture",
-    "download": "Download",
-    "readme": "Readme"
+    "packages": "Πακέτα",
+    "de": "Περιβάλλον επιφάνειας εργασίας",
+    "checksum": "Άθροισμα ελέγχου",
+    "arch": "Αρχιτεκτονική",
+    "download": "Λήψη",
+    "readme": "Διάβασέ με"
   },
   "body": {
-    "gnome": "GNOME (Workstation)",
-    "gnome-lite": "GNOME (Lite Workstation)",
+    "gnome": "GNOME (Σταθμός Εργασίας)",
+    "gnome-lite": "GNOME (Ελαφρύς Σταθμός Εργασίας)",
     "xfce": "XFCE",
     "kde": "KDE",
     "rpi": "Raspberry Pi (aarch64)",
@@ -28,33 +28,33 @@
     "ppc64le": "ppc64le",
     "s390x": "s390x",
     "mate": "MATE",
-    "checksum": "Checksum",
-    "download": "Download",
-    "readme": "Readme"
+    "checksum": "Άθροισμα ελέγχου",
+    "download": "Λήψη",
+    "readme": "Διάβασέ με"
   },
   "links": {
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "cloud": "Εικόνες Cloud",
+    "docs": "Τεκμηρίωση",
+    "bug": "Αναφορά Σφάλματος"
   },
   "get-involved": {
-    "heading": "Get Involved",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "heading": "Συμμετάσχετε",
+    "body": "Καθώς κατεβάζετε και χρησιμοποιείτε το Rocky Linux, το Rocky Enterprise Software Foundation σας προσκαλεί στην <0>να είστε μέλος της κοινότητας ως συνεισφέροντας</0>. Υπάρχουν πολλοί τρόποι για να συμβάλετε στο έργο, από την τεκμηρίωση, QA, και τη δοκιμή για την κωδικοποίηση αλλαγών για SIGs, παρέχοντας εναλλακτικούς σέρβερ ή φιλοξενία, και βοηθώντας άλλους χρήστες."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Ποια είναι η διαφορά μεταξύ των ISOs?",
+    "body": "Διάφορες εικόνες εγκατάστασης είναι διαθέσιμες για την εγκατάσταση του Rocky Linux. Ποια εικόνα θα πρέπει να κατεβάσετε εξαρτάται από το περιβάλλον εγκατάστασης και τη χρήση.",
     "boot": {
-      "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Εκκίνηση",
+      "body": "Χρησιμοποιείται για την εγκατάσταση του λειτουργικού συστήματος από άλλη πηγή (όπως ένα αποθετήριο HTTP των δυαδικών αρχείων). Μπορεί επίσης να χρησιμοποιηθεί για να εισέλθει σε λειτουργία διάσωσης."
     },
     "minimal": {
-      "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Ελάχιστο",
+      "body": "Χρησιμοποιείται για την εγκατάσταση του λειτουργικού συστήματος από άλλη πηγή (όπως ένα αποθετήριο HTTP των δυαδικών αρχείων). Μπορεί επίσης να χρησιμοποιηθεί για να εισέλθει σε λειτουργία διάσωσης."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "Μια πλήρης εγκατάσταση που περιέχει τα αποθετήρια BaseOS και AppStream και σας επιτρέπει να ολοκληρώσετε την εγκατάσταση χωρίς επιπλέον αποθετήρια. Η εγκατάσταση του Rocky Linux από το DVD ISO είναι η ευκολότερη και συνηθέστερη μέθοδος εκτέλεσης μιας τυπικής εγκατάστασης του Rocky Linux 8."
     }
   }
 }
