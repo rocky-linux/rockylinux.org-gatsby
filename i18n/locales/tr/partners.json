@@ -1,58 +1,58 @@
 {
-  "title": "Partners",
-  "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+  "title": "Ortaklar",
+  "description": "RESF'nin ortakları, Rocky Linux projesi için stratejik öneme sahip devam eden ilişkileri temsil eder. Mühendislik uzmanlığının, altyapı kaynaklarının veya diğer yolların adanması yoluyla, onların desteği, devam eden başarımız ve uzun vadeli istikrarımız için kritik öneme sahiptir.",
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "tier": "Kurucu Ortak",
+      "blurb": "İnsanların harika şeyler yapmasına yardım etmeye inanıyoruz. Bu yüzden CIQ olarak RESF'nin kurucu ortaklarından olduk. Araştırma, akademi, devlet, kuruluş, ortaklar ve herkese Rocky Linux için ticari destek ve hizmet sağlıyoruz."
     },
     "arm": {
       "name": "Arm",
-      "tier": "Principal Partner",
-      "blurb": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+      "tier": "Ana Ortak",
+      "blurb": "Arm, Rocky Linux ile ilk günden itibaren mimarisinin birinci sınıf bir vatandaş olmasını sağlamaya kendini adamıştır. Rocky Linux geliştirme ve test ekiplerini tamamlamak için özel mühendislik çalışmaları sağlayarak, hem şimdi hem de gelecekte ARM'yi test etmek, doğrulamak ve desteklemek için birlikte çalışarak RESF ile ortaklık kurduk."
     },
     "equinix": {
       "name": "Equinix",
-      "tier": "Principal Partner",
-      "blurb": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+      "tier": "Ana Ortak",
+      "blurb": "Equinix, dünyanın dijital altyapı şirketidir. Dijital liderler, başarılarına güç veren temel altyapıyı bir araya getirmek ve birbirine bağlamak için güvenilir platformumuzu kullanıyor."
     },
     "fastly": {
       "name": "Fastly",
-      "tier": "Principal Partner",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "tier": "Ana Ortak",
+      "blurb": "Fastly'nin uç bulut platformu, müşterilerimizin uygulamalarını internetin ucunda, son kullanıcılarına mümkün olduğunca yakın bir yerde işleyerek, sunarak ve güvenceye alarak müşterilerin hızlı, güvenli ve güvenilir bir şekilde harika dijital deneyimler oluşturmasını sağlar."
     },
     "mattermost": {
       "name": "Mattermost",
-      "tier": "Principal Partner",
-      "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      "tier": "Ana Ortak",
+      "blurb": "Mattermost, en yüksek güvenlik gereksinimlerine sahip kuruluşlar için yapılmış açık kaynaklı bir mesajlaşma çözümüdür. Açık kaynağın gücüne büyük inananlar olarak Mattermost, Linux'un kurumsal düzeyde dağıtımını teknoloji topluluğuna getirmeye yardımcı olmak için RESF ile ortak olmaktan heyecan duyuyor."
     },
     "naver": {
       "name": "NAVER Cloud",
-      "tier": "Principal Partner",
-      "blurb": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+      "tier": "Ana Ortak",
+      "blurb": "NAVER Cloud Platform, NAVER'in bir yan kuruluşu olan NAVER Cloud altında 2017 yılında başlayan bir Güney Kore bulut hizmetidir. 2021'de 170'in üzerinde bireysel hizmet sunar ve CSA STAR GOLD, GDPR ve daha fazlası dahil olmak üzere çeşitli güvenlik sertifikalarına sahiptir. Ayrıca şu anda dünya çapında 10 yerde bulut hizmetleri sağlıyor."
     },
     "osl": {
       "name": "OSU Open Source Labs",
-      "tier": "Principal Partner",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "tier": "Ana Ortak",
+      "blurb": "Oregon Eyalet Üniversitesi Açık Kaynak Laboratuvarı, açık kaynak teknolojilerinin geliştirilmesi için çalışan kar amacı gütmeyen bir kuruluştur. OSL, açık kaynak yönetimi ve programlama ile ilgilenen gelecek vaat eden öğrenciler için birinci sınıf barındırma hizmetleri, profesyonel yazılım geliştirme ve yerinde eğitim sunar."
     },
     "supermicro": {
       "name": "Supermicro",
-      "tier": "Principal Partner",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "tier": "Ana Ortak",
+      "blurb": "Yüksek performans, yüksek verimli sunucu teknolojisi ve inovasyonda küresel bir lider olarak Supermicro, RESF ile çalışmaktan ve Rocky Linux için optimize edilmiş veri merkezi sunucuları ve depolama sistemleri sunmaktan heyecan duyuyor."
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "Tier 4 Partner"
+      "tier": "4. Kademe Ortak"
     },
     "dsstudio": {
       "name": "DotSlash Studio",
-      "tier": "Tier 4 Partner"
+      "tier": "4. Kademe Ortak"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "Tier 4 Partner"
+      "tier": "4. Kademe Ortak"
     }
   }
 }
