@@ -4,7 +4,7 @@
   "rl8": "Rocky Linux 8",
   "rl9": "Rocky Linux 9",
   "rl8-eol": "<0>지원 중단일:</0> 2029년 5월 31일",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "rl9-eol": "<0>지원 중단일:</0> 2032년 5월 31일",
   "desktop": "데스크탑 (SIG)",
   "alt-arch": "대체 아키텍쳐 (SIG)",
   "cloud": "Generic Cloud / OpenStack",
@@ -19,7 +19,7 @@
   },
   "body": {
     "gnome": "GNOME (워크스테이션)",
-    "gnome-lite": "GNOME (Lite Workstation)",
+    "gnome-lite": "GNOME (경량화된 워크스테이션)",
     "xfce": "XFCE",
     "kde": "KDE",
     "rpi": "라즈베리 파이 (aarch64)",
@@ -43,13 +43,13 @@
   },
   "isos": {
     "heading": "각 ISO의 차이는 무엇입니까?",
-    "body": "Rocky Linux를 설치하기 위해 다양한 설치 이미지가 제공됩니다. 어떤 이미지를 다운로드해야 하는지는 설치 환경과 사용 환경에 따라 다릅니다.",
+    "body": "Rocky Linux를 설치하기 위해 다양한 설치 이미지가 제공됩니다. 어떤 이미지를 다운로드 받아야 하는지는 사용자의 설치 환경과 사용 환경에 따라 달라집니다. ",
     "boot": {
       "heading": "Boot",
       "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
     },
     "minimal": {
-      "heading": "Minimal",
+      "heading": "최소",
       "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
     },
     "dvd": {
