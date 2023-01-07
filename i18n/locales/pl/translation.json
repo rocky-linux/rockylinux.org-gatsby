@@ -9,7 +9,7 @@
     "get-involved": "Zaangażuj Się",
     "legal": "Informacje Prawne",
     "language": "Język",
-    "foundation": "Foundation"
+    "foundation": "Fundacja"
   },
   "about": {
     "about": "O Rocky Linux",
@@ -20,7 +20,7 @@
     "sponsors": "Sponsorzy",
     "partners": "Partnerzy",
     "support": "Dostawcy Wsparcia",
-    "errata": "Security Errata"
+    "errata": "Errata Bezpieczeństwa"
   },
   "community": {
     "contribute": "Zaangażuj się",
@@ -44,7 +44,7 @@
   },
   "foundation": {
     "charter": "RESF Charter & Bylaws",
-    "faq": "RESF FAQ"
+    "faq": "RESF Często zadawane pytania"
   },
   "lang": {
     "choose": "Wybierz Język",
@@ -52,7 +52,7 @@
   },
   "download": "Pobieranie",
   "copyright": {
-    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. All rights reserved.",
+    "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation.  Wszystkie prawa zastrzeżone.",
     "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
   }
 }
