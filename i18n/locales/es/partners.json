@@ -1,58 +1,58 @@
 {
-  "title": "Partners",
-  "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+  "title": "Socios",
+  "description": "Los socios del RESF representan relaciones permanentes de importancia estratégica para el proyecto Rocky Linux. A través de la dedicación de los conocimientos técnicos de ingeniería, recursos de infraestructura u otros medios, su apoyo es fundamental para nuestro éxito continuo y estabilidad a largo plazo.",
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "tier": "Socio fundador",
+      "blurb": "Creemos en ayudar a la gente a crear grandes cosas, por eso CIQ es un socio fundador del RESF. Proporcionamos apoyo comercial y servicios para Rocky Linux a clientes en investigación, academia, gobierno, compañeros, socios y todos entre medio."
     },
     "arm": {
       "name": "Arm",
-      "tier": "Principal Partner",
-      "blurb": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+      "tier": "Socio Principal",
+      "blurb": "ARM está comprometido a garantizar que su arquitectura sea un ciudadano de primera clase desde el primer día con Rocky Linux. Nos hemos asociado con el RESF, proporcionando esfuerzos de ingeniería dedicados para complementar a equipos de desarrollo y pruebas de Rocky Linux, trabajar en estrecha colaboración para probar, validar y apoyar ARM ahora y mucho tiempo en el futuro."
     },
     "equinix": {
       "name": "Equinix",
-      "tier": "Principal Partner",
-      "blurb": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+      "tier": "Socio Principal",
+      "blurb": "Equinix es la empresa mundial de infraestructura digital, los líderes digitales aprovechan nuestra plataforma de confianza para unir e interconectar la infraestructura fundacional que potencia su éxito."
     },
     "fastly": {
       "name": "Fastly",
-      "tier": "Principal Partner",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "tier": "Socio Principal",
+      "blurb": "La plataforma de nube de vanguardia de Fastly permite a los clientes crear grandes experiencias digitales de forma rápida, segura y fiable mediante procesos, servir y asegurar las aplicaciones de nuestros clientes lo más cerca posible de sus usuarios finales, al borde de Internet."
     },
     "mattermost": {
       "name": "Mattermost",
-      "tier": "Principal Partner",
+      "tier": "Socio Principal",
       "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
     },
     "naver": {
       "name": "NAVER Cloud",
-      "tier": "Principal Partner",
+      "tier": "Socio Principal",
       "blurb": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
     },
     "osl": {
       "name": "OSU Open Source Labs",
-      "tier": "Principal Partner",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "tier": "Socio Principal",
+      "blurb": "El laboratorio de código abierto de la Universidad del Estado de Oregon es una organización sin fines de lucro que trabaja para el progreso de las tecnologías de código abierto. La OSL ofrece servicios de hosting de calidad mundial, desarrollo de software profesional y entrenamiento en lugar para estudiantes prometedores interesados en manejo de código abierto y desarrollo."
     },
     "supermicro": {
       "name": "Supermicro",
-      "tier": "Principal Partner",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "tier": "Socio Principal",
+      "blurb": "Como líder global en tecnología de servidores de alto rendimiento, alta eficiencia, e innovación Supermicro está encantada de trabajar con RESF y entregar servidores de centros de datos y sistemas de almacenamiento optimizados para Rocky Linux."
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "Tier 4 Partner"
+      "tier": "Socio de Nivel 4"
     },
     "dsstudio": {
       "name": "DotSlash Studio",
-      "tier": "Tier 4 Partner"
+      "tier": "Socio de Nivel 4"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "Tier 4 Partner"
+      "tier": "Socio de Nivel 4"
     }
   }
 }
