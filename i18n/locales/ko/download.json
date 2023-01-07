@@ -1,12 +1,12 @@
 {
-  "title": "Download Rocky",
-  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "title": "Rocky Linux 다운로드",
+  "description": "신뢰할 수 있는 미러 중 하나에서 Rocky Linux의 공식 배포판을 다운로드 받으세요.",
   "rl8": "Rocky 8",
   "rl9": "Rocky 9",
-  "elCompat8": "Enterprise Linux v8 Compatible",
-  "elCompat9": "Enterprise Linux v9 Compatible",
+  "elCompat8": "Enterprise Linux v8 호환",
+  "elCompat9": "Enterprise Linux v9 호환",
   "rl8-eol": "<0>지원 중단일:</0> 2029년 5월 31일",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "rl9-eol": "<0>지원 중단일:</0> 2032년 5월 31일",
   "headings": {
     "arch": "아키텍처",
     "isos": "ISO",
@@ -15,7 +15,7 @@
   "body": {
     "x86_64": "x86_64",
     "arm": "ARM64 (aarch64)",
-    "minimal": "Minimal",
+    "minimal": "최소",
     "dvd": "DVD",
     "boot": "Boot",
     "torrent": "Torrent",
@@ -28,26 +28,26 @@
     "cloud": "클라우드 이미지",
     "docs": "문서",
     "vault": "아카이브 버전",
-    "verify": "Verify Download"
+    "verify": "다운로드 확인"
   },
   "get-involved": {
     "heading": "참여하기",
-    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "body": "Rocky Linux를 다운로드하고 사용할 때, Rocky Enterprise Software Foundation은 당신을 <0> 커뮤니티의 기여자</0>의 일부로 초대합니다. 문서화, QA, 그리고 SIG에 대한 코드 변경 테스트, 복제나 임대 제공, 다른 사용자들을 돕는 데 이르기까지  프로젝트에 참여하는 방법은 많습니다.  "
   },
   "isos": {
     "heading": "각 ISO의 차이는 무엇입니까?",
-    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
+    "body": "Rocky Linux를 설치하기 위해 다양한 설치 이미지가 제공됩니다. 어떤 이미지를 다운로드 받아야 하는지는 사용자의 설치 환경과 사용 환경에 따라 달라집니다. ",
     "boot": {
       "heading": "Boot",
       "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
     },
     "minimal": {
-      "heading": "Minimal",
+      "heading": "최소",
       "body": "다른 소스(예: 바이너리 파일의 HTTP 저장소)에서 운영 체제를 설치하는 데 사용됩니다. 복구 모드로 들어가는 데에도 사용할 수 있습니다."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
+      "body": "전체 설치는 BaseOs와 AppStream 저장소를 포함하고 추가적인 저장소 없이 설치를 완료할 수 있게 합니다. DVD ISO에서 Rocky Linux를 설치하는 것은 표준 Rocky Linux 8을 실행하는 가장 쉽고 일반적인 방법입니다. "
     }
   }
 }
