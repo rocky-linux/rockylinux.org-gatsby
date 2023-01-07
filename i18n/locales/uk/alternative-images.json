@@ -1,25 +1,25 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
+  "title": "Альтернативні образи",
+  "description": "Образи, вказані на цій сторінці, можна отримати з одного із наших довірених дзеркал, але офіційно не підтримуються.",
   "rl8": "Rocky Linux 8",
   "rl9": "Rocky Linux 9",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
-  "desktop": "Desktop (SIG)",
-  "alt-arch": "Alternative Architectures (SIG)",
-  "cloud": "Generic Cloud / OpenStack",
+  "rl8-eol": "<0>Планове EOL:</0> 31 травня 2029 року",
+  "rl9-eol": "<0>Заплановане EOL:</0> 31 травня 2032",
+  "desktop": "Стільниця (SIG)",
+  "alt-arch": "Альтернативні архітектури (SIG)",
+  "cloud": "Загальна хмара / OpenStack",
   "headings": {
-    "isos": "ISOs",
-    "packages": "Packages",
-    "de": "Desktop Environment",
-    "checksum": "Checksum",
-    "arch": "Architecture",
-    "download": "Download",
-    "readme": "Readme"
+    "isos": "ISO-образи",
+    "packages": "Пакети",
+    "de": "Середовище робочого столу",
+    "checksum": "Контрольна сума",
+    "arch": "Архітектура",
+    "download": "Завантажити",
+    "readme": "Прочитай мене"
   },
   "body": {
-    "gnome": "GNOME (Workstation)",
-    "gnome-lite": "GNOME (Lite Workstation)",
+    "gnome": "GNOME (Робоча станція)",
+    "gnome-lite": "GNOME (Легка робоча станція)",
     "xfce": "XFCE",
     "kde": "KDE",
     "rpi": "Raspberry Pi (aarch64)",
@@ -28,33 +28,33 @@
     "ppc64le": "ppc64le",
     "s390x": "s390x",
     "mate": "MATE",
-    "checksum": "Checksum",
-    "download": "Download",
-    "readme": "Readme"
+    "checksum": "Контрольна сума",
+    "download": "Завантажити",
+    "readme": "Прочитай мене"
   },
   "links": {
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "cloud": "Хмарні образи",
+    "docs": "Документація",
+    "bug": "Повідомити про ваду"
   },
   "get-involved": {
-    "heading": "Get Involved",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "heading": "Долучайтеся",
+    "body": "Якщо ви завантажуєте і використовуєте Rocky Linux, Rocky Enterprise Software Foundation запрошує Вас <0>бути частиною спільноти як співрозробник</0>. Є багато способів зробити свій вклад у проєкт, від документації, QA і тестування змін кодування для SIG, забезпечуючи дзеркала або хостинг, щоб допомогати іншим користувачам."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "Яка різниця між ISO-образами?",
+    "body": "Для встановлення Rocky Linux доступні різні інсталяційні образи. Який образ завантажити, залежить від середовища встановлення та варіанту використання.",
     "boot": {
       "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "Використовується для встановлення операційної системи з іншого джерела (наприклад, із HTTP репозиторію бінарних файлів). Його також можна використовувати для входу в Режим відновлення."
     },
     "minimal": {
-      "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Мінімальний",
+      "body": "Використовується для встановлення операційної системи з іншого джерела (наприклад, із HTTP репозиторію бінарних файлів). Його також можна використовувати для входу в Режим відновлення."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "Повне встановлення, що містить репозиторії BaseOS та AppStream і дозволяє успішно встановити систему без додаткових репозиторіїв. Встановлення Rocky Linux з ISO DVD є основним і найлегшим способом виконати стандартне встановлення Rocky Linux 8."
     }
   }
 }
