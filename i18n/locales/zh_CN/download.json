@@ -3,7 +3,7 @@
   "description": "从我们信任的镜像服务器中下载 Rocky Linux 的官方版本。",
   "rl8": "Rocky 8",
   "rl9": "Rocky 9",
-  "elCompat8": "兼容Enterprise Linux v8 ",
+  "elCompat8": "兼容 Enterprise Linux v8 ",
   "elCompat9": "兼容 Enterprise Linux v9",
   "rl8-eol": "<0>计划停止维护时间:</0> 2029年05月31日",
   "rl9-eol": "<0>计划停止维护时间:</0> 2032年05月31日",
