@@ -6,7 +6,7 @@
   "elCompat8": "相容於 Enterprise Linux v8",
   "elCompat9": "相容於 Enterprise Linux v9",
   "rl8-eol": "<0>計畫的停止維護期限:</0> 2029年05月31日",
-  "rl9-eol": "<0>計畫的停止維護期限：</0>2022年5月31日",
+  "rl9-eol": "<0>計畫的停止維護期限：</0>2032年5月31日",
   "headings": {
     "arch": "架構",
     "isos": "ISO",
