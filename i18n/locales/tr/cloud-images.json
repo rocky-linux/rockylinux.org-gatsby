@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
-  "description": "Find our official images from your favorite cloud provider.",
+  "title": "Bulut İmajları",
+  "description": "Favori bulut sağlayıcınızdan resmi imajlarımızı bulun.",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
-    "arch": "Architecture",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "version": "İşletim Sistemi Versiyonu",
+    "provider": "Sağlayıcı",
+    "region": "Bölge",
+    "arch": "Mimari",
+    "id": "İmaj Kimliği",
+    "deploy": "Dağıtım Bağlantısı"
   },
-  "deploy": "Deploy"
+  "deploy": "Dağıtım"
 }
