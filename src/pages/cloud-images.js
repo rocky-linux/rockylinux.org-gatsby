@@ -16,6 +16,8 @@ function CloudImagesPage({ pageContext: { locale: language } }) {
       {
         Header: `${translate('headings.version')}`,
         accessor: 'version',
+        Filter: SelectColumnFilter,
+        filter: 'includes',
       },
       {
         Header: `${translate('headings.provider')}`,
