@@ -147,7 +147,7 @@ In addition to this Charter, the Foundation is governed by the Foundation Board 
 
 1. **Claims by Directors and Officers**. If a claim for indemnification or advancement of expenses under this Article VI is not paid in full within 30 days after a written claim therefor by the Indemnified Person has been received by the Foundation, the Indemnified Person may file suit to recover the unpaid amount of such claim and, if successful in whole or in part, shall be entitled to be paid the expense of prosecuting such claim. In any such action the Foundation shall have the burden of proving that the Indemnified Person is not entitled to the requested indemnification or advancement of expenses under applicable law.
 
-1. **Non-Exclusivity of Rights**. The rights conferred on any person by this Article VI shall not be exclusive of any other rights which such person may have or hereafter acquire under any statute, provision of the Company’s Certificate of Incorporation, these Bylaws, agreement, vote of the Board or otherwise.
+1. **Non-Exclusivity of Rights**. The rights conferred on any person by this Article VI shall not be exclusive of any other rights which such person may have or hereafter acquire under any statute, provision of the Foundation’s Certificate of Incorporation, these Bylaws, agreement, vote of the Board or otherwise.
 
 1. **Insurance**. The Board may, to the full extent permitted by applicable law as it presently exists, or may hereafter be amended from time to time, authorize an appropriate officer or officers to purchase and maintain at the Foundation’s expense insurance: (a) to indemnify the Foundation for any obligation which it incurs as a result of the indemnification of directors, officers and employees under the provisions of this Article VI; and (b) to indemnify or insure Directors, and Officers against liability in instances in which they may not otherwise be indemnified by the Foundation under the provisions of this Article VI.
 
@@ -155,9 +155,9 @@ In addition to this Charter, the Foundation is governed by the Foundation Board 
 
 **ARTICLE VII** - **AMENDMENTS TO BYLAWS AND CHARTER**
 
-1. **Amendment to Bylaws**. These Bylaws may be altered, amended, or restated by the vote of 2/3rds of the Directors then serving on the Board or by the Board of Directors of the Company.
+1. **Amendment to Bylaws**. These Bylaws may be altered, amended, or restated by the vote of 2/3rds of the Directors then serving on the Board or by the Board of Directors of the Foundation.
 
-1. ` `**Amendment to Charter**. The Foundation Charter may be altered, amended, or restated by the vote of 2/3rds of the Directors then serving on the Board or by the Board of Directors of the Company.
+1. ` `**Amendment to Charter**. The Foundation Charter may be altered, amended, or restated by the vote of 2/3rds of the Directors then serving on the Board or by the Board of Directors of the Foundation.
 
 1. **Amendment to Project Board Bylaws**. As part of its role of overseeing the Project Boards, the Foundation Board may alter, amend, or restate any Project Board Bylaws by the vote of 2/3rds of the Directors then serving on the Foundation Board.
 
