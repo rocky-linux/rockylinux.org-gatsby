@@ -103,7 +103,7 @@ In addition to this Charter, the Foundation is governed by the Foundation Board 
 
 1. **Vice President**. The Vice President will, in the absence or disability of the President, perform the duties and exercise the powers of the President, and will have such other duties as may be conferred upon the Vice President by the Board.
 
-1. **Secretary and Assistant Secretary**. The Secretary will keep or cause to be kept a record of all of the proceedings all meetings of the Board and at all meetings of the Members; cause all notices to be duly given in accordance with the provisions of these Bylaws; be the custodian of the books and records of the Foundation and perform in general all duties incident to the office of Secretary and such other duties as are given by these Bylaws or as from time to time may be assigned by the Board or the President. All minutes of the Board must be approved by the Board at the following meeting of the Board to be inserted in the minute book. The Board may appoint an Assistant Secretary, who will, if one is appointed, render assistance to the Secretary in all the responsibilities described above.
+1. **Secretary and Assistant Secretary**. The Secretary will keep or cause to be kept a record of all of the proceedings of all meetings of the Board and at all meetings of the Members; cause all notices to be duly given in accordance with the provisions of these Bylaws; be the custodian of the books and records of the Foundation and perform in general all duties incident to the office of Secretary and such other duties as are given by these Bylaws or as from time to time may be assigned by the Board or the President. All minutes of the Board must be approved by the Board at the following meeting of the Board to be inserted in the minute book. The Board may appoint an Assistant Secretary, who will, if one is appointed, render assistance to the Secretary in all the responsibilities described above.
 
 1. **Treasurer and Assistant Treasurer**. The Treasurer will have custody of all Foundation funds and financial records, will keep full and accurate accounts of receipts and disbursements and render accounts thereof at the annual meetings of members, and shall perform such other duties as may be prescribed by the Board, the Board Chair, or the President.
 
@@ -119,7 +119,7 @@ In addition to this Charter, the Foundation is governed by the Foundation Board 
 
 1. **Attendance at Board Meetings**. Directors and Officers are required to attend at least 75% of the regular meetings of the Board per year. Officers are also responsible for responding to communications of the Board in a timely manner and meeting the appropriate deadlines and responsibilities associated with their Officer position. If an Officer or Director cannot meet the requirements noted above, the person should reach out to the Board Chair to discuss.
 
-1. **Board Duties**. Directors, Officers, and Members each Project Board must act in a manner that they reasonably believe to be in the best interests of the Foundation and to the benefit of the public community supported by the Foundation.
+1. **Board Duties**. Directors, Officers, and Members of each Project Board must act in a manner that they reasonably believe to be in the best interests of the Foundation and to the benefit of the public community supported by the Foundation.
 
 **ARTICLE V** - **PROJECT BOARDS AND PROJECT TEAMS**
 
