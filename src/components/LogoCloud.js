@@ -6,7 +6,6 @@ import EquinixLogo from '../images/equinix.svg';
 import FastlyLogo from '../images/fastly.svg';
 import GoogleCloudLogo from '../images/gcp.svg';
 import MattermostLogo from '../images/mattermost.svg';
-import MontaVistaLogo from '../images/montavista.svg';
 import NaverCloudLogo from '../images/naver-cloud.svg';
 import OpenDrivesLogo from '../images/opendrives.svg';
 import OpenSourceLabs from '../images/osl.svg';
@@ -77,15 +76,6 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
                   className="max-h-12"
                   src={MattermostLogo}
                   alt="Mattermost"
-                />
-              </div>
-            </a>
-            <a href="https://www.mvista.com/">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
-                <img
-                  className="max-h-12"
-                  src={MontaVistaLogo}
-                  alt="MontaVista"
                 />
               </div>
             </a>

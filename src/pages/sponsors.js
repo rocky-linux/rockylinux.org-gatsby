@@ -82,7 +82,7 @@ const SponsorsPage = () => {
       source: `${MontaVistaLogo}`,
       link: 'https://mvista.com/',
       dateStart: '2021-03-26',
-      dateEnd: '2022-31-01',
+      dateEnd: '2022-12-31',
     },
     {
       name: `${translate('sponsors.opendrives.name')}`,
