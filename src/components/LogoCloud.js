@@ -1,7 +1,6 @@
 import React from 'react';
 import AWSLogo from '../images/aws.svg';
 import ArmLogo from '../images/arm.svg';
-import AzureLogo from '../images/azure.svg';
 import CIQLogo from '../images/ciq.svg';
 import EquinixLogo from '../images/equinix.svg';
 import FastlyLogo from '../images/fastly.svg';
@@ -88,15 +87,6 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
                   className="max-h-12"
                   src={MattermostLogo}
                   alt="Mattermost"
-                />
-              </div>
-            </a>
-            <a href="https://azure.com">
-              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
-                <img
-                  className="max-h-12"
-                  src={AzureLogo}
-                  alt="Microsoft Azure"
                 />
               </div>
             </a>
