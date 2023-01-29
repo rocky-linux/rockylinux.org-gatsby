@@ -19,6 +19,8 @@ import SeagateLogo from '../images/seagate.png';
 import StromasysLogo from '../images/stromasys.png';
 import VmwareLogo from '../images/vmware.png';
 
+const currentDate = new Date();
+
 const SponsorsPage = () => {
   const translate = Translate('sponsors');
   const sponsors = [
@@ -29,6 +31,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.ciq.blurb')}`,
       source: `${CiqLogo}`,
       link: 'https://ciq.co',
+      dateStart: '2021-01-01',
+      dateEnd: '2024-01-01',
     },
     {
       name: `${translate('sponsors.45drives.name')}`,
@@ -37,6 +41,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.45drives.blurb')}`,
       source: `${FortyFiveDrivesLogo}`,
       link: 'https://45drives.com',
+      dateStart: '2021-02-21',
+      dateEnd: '2022-02-21',
     },
     {
       name: `${translate('sponsors.aws.name')}`,
@@ -45,6 +51,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.aws.blurb')}`,
       source: `${AwsLogo}`,
       link: 'https://aws.com',
+      dateStart: '2021-01-01',
+      dateEnd: '2024-01-01',
     },
     {
       name: `${translate('sponsors.gcp.name')}`,
@@ -53,6 +61,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.gcp.blurb')}`,
       source: `${GcpLogo}`,
       link: 'https://cloud.google.com',
+      dateStart: '2021-12-15',
+      dateEnd: '2023-12-14',
     },
     {
       name: `${translate('sponsors.azure.name')}`,
@@ -61,6 +71,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.azure.blurb')}`,
       source: `${AzureLogo}`,
       link: 'https://azure.com',
+      dateStart: '2021-09-17',
+      dateEnd: '2022-09-17',
     },
     {
       name: `${translate('sponsors.montavista.name')}`,
@@ -69,6 +81,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.montavista.blurb')}`,
       source: `${MontaVistaLogo}`,
       link: 'https://mvista.com/',
+      dateStart: '2021-03-26',
+      dateEnd: '2022-31-01',
     },
     {
       name: `${translate('sponsors.opendrives.name')}`,
@@ -77,6 +91,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.opendrives.blurb')}`,
       source: `${OpenDrivesLogo}`,
       link: 'https://opendrives.com/',
+      dateStart: '2021-02-20',
+      dateEnd: '2023-02-20',
     },
     {
       name: `${translate('sponsors.rakutensymphony.name')}`,
@@ -85,6 +101,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.rakutensymphony.blurb')}`,
       source: `${RakutenSymphonyLogo}`,
       link: 'https://symphony.rakuten.com/',
+      dateStart: '2022-10-27',
+      dateEnd: '2023-10-27',
     },
     {
       name: `${translate('sponsors.vmware.name')}`,
@@ -93,6 +111,8 @@ const SponsorsPage = () => {
       blurb: `${translate('sponsors.vmware.blurb')}`,
       source: `${VmwareLogo}`,
       link: 'https://vmware.com/',
+      dateStart: '2021-10-08',
+      dateEnd: '2023-10-08',
     },
     {
       name: `${translate('sponsors.openlogic.name')}`,
@@ -100,6 +120,8 @@ const SponsorsPage = () => {
       title: `${translate('sponsors.openlogic.title')}`,
       source: `${OpenLogicLogo}`,
       link: 'https://www.openlogic.com/',
+      dateStart: '2022-04-28',
+      dateEnd: '2023-04-28',
     },
     {
       name: `${translate('sponsors.procomputers.name')}`,
@@ -107,6 +129,8 @@ const SponsorsPage = () => {
       title: `${translate('sponsors.procomputers.title')}`,
       source: `${ProComputersLogo}`,
       link: 'https://www.procomputers.com/',
+      dateStart: '2021-07-19',
+      dateEnd: '2023-07-19',
     },
     {
       name: `${translate('sponsors.seagate.name')}`,
@@ -114,6 +138,8 @@ const SponsorsPage = () => {
       title: `${translate('sponsors.seagate.title')}`,
       source: `${SeagateLogo}`,
       link: 'https://www.seagategov.com/',
+      dateStart: '2021-06-26',
+      dateEnd: '2022-06-26',
     },
     {
       name: `${translate('sponsors.stromasys.name')}`,
@@ -121,15 +147,17 @@ const SponsorsPage = () => {
       title: `${translate('sponsors.stromasys.title')}`,
       source: `${StromasysLogo}`,
       link: 'https://www.stromasys.com/',
+      dateStart: '2022-01-20',
+      dateEnd: '2023-01-20',
     },
   ];
 
   const principalSponsors = sponsors.filter(function (sponsor) {
-    return sponsor.tier === '1';
+    return sponsor.tier === '1' && currentDate <= new Date(sponsor.dateEnd);
   });
 
   const tierFourSponsors = sponsors.filter(function (sponsor) {
-    return sponsor.tier === '4';
+    return sponsor.tier === '4' && currentDate <= new Date(sponsor.dateEnd);
   });
 
   return (
