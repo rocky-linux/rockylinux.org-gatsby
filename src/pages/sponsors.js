@@ -42,7 +42,7 @@ const SponsorsPage = () => {
       source: `${FortyFiveDrivesLogo}`,
       link: 'https://45drives.com',
       dateStart: '2021-02-21',
-      dateEnd: '2022-02-21',
+      dateEnd: '2023-02-21',
     },
     {
       name: `${translate('sponsors.aws.name')}`,
@@ -82,7 +82,7 @@ const SponsorsPage = () => {
       source: `${MontaVistaLogo}`,
       link: 'https://mvista.com/',
       dateStart: '2021-03-26',
-      dateEnd: '2022-12-31',
+      dateEnd: '2023-03-26',
     },
     {
       name: `${translate('sponsors.opendrives.name')}`,
@@ -139,7 +139,7 @@ const SponsorsPage = () => {
       source: `${SeagateLogo}`,
       link: 'https://www.seagategov.com/',
       dateStart: '2021-06-26',
-      dateEnd: '2022-06-26',
+      dateEnd: '2023-06-26',
     },
     {
       name: `${translate('sponsors.stromasys.name')}`,
@@ -158,10 +158,6 @@ const SponsorsPage = () => {
 
   const tierFourSponsors = sponsors.filter(function (sponsor) {
     return sponsor.tier === '4' && currentDate <= new Date(sponsor.dateEnd);
-  });
-
-  const priorSponsors = sponsors.filter(function (sponsor) {
-    return currentDate > new Date(sponsor.dateEnd);
   });
 
   return (
