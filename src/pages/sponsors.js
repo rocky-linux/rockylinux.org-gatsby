@@ -234,28 +234,6 @@ const SponsorsPage = () => {
                 </a>
               ))}
             </ul>
-            <h1 className="text-3xl font-bold mb-5 mt-10 text-gray-900 dark:text-gray-50">
-              {translate('priorsponsors')}
-            </h1>
-            <ul
-              role="list"
-              className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
-            >
-              {priorSponsors.map((sponsor) => (
-                  <li key={sponsor.source} className="relative">
-                    <div className="group block w-full rounded-lg bg-gray-100 dark:bg-gray-600 py-10 px-10">
-                      <img
-                        src={sponsor.source}
-                        alt=""
-                        className="object-fit pointer-events-none"
-                      />
-                    </div>
-                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
-                      {sponsor.name}
-                    </p>
-                  </li>
-              ))}
-            </ul>
           </div>
         </div>
         <div className="bg-green-50 dark:bg-green-700">
