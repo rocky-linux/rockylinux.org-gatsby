@@ -20,6 +20,7 @@ import StromasysLogo from '../images/stromasys.png';
 import VmwareLogo from '../images/vmware.png';
 
 const currentDate = new Date();
+currentDate.setDate(currentDate.getDate() - 30);
 
 const SponsorsPage = () => {
   const translate = Translate('sponsors');
