@@ -26,7 +26,7 @@ const PartnersPage = () => {
       tier: `${translate('partners.ciq.tier')}`,
       blurb: `${translate('partners.ciq.blurb')}`,
       source: `${CiqLogo}`,
-      link: 'https://ciq.co',
+      link: 'https://ciq.co/products/rocky-linux?utm_source=rockylinux.org&utm_medium=web-link&utm_campaign=ciq-support',
     },
     {
       name: `${translate('partners.arm.name')}`,

@@ -28,7 +28,7 @@ const SponsorsPage = () => {
       title: `${translate('sponsors.ciq.title')}`,
       blurb: `${translate('sponsors.ciq.blurb')}`,
       source: `${CiqLogo}`,
-      link: 'https://ciq.co',
+      link: 'https://ciq.co/products/rocky-linux?utm_source=rockylinux.org&utm_medium=web-link&utm_campaign=ciq-support',
     },
     {
       name: `${translate('sponsors.45drives.name')}`,
