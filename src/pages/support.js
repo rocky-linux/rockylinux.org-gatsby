@@ -18,7 +18,7 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
       title: `${translate('support.ciq.title')}`,
       blurb: `${translate('support.ciq.blurb')}`,
       source: `${CiqLogo}`,
-      link: 'https://ciq.co',
+      link: 'http://ciq.co/products/rocky-linux?utm_source=rockylinux.org&utm_medium=web-link&utm_campaign=ciq-support',
     },
     {
       name: `${translate('support.montavista.name')}`,
