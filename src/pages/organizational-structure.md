@@ -88,7 +88,6 @@ The Release Engineering team handles and oversees the overall package building f
 The Security team works with each team to ensure the integrity, confidentiality, assurance, and compliance of data and services.
 
 - Team Leads:
-  - Benjamin Agner
   - Rob Felsburg
   - Scott Shinn
 
@@ -117,9 +116,10 @@ The Web team maintains and develops all of the websites under the RESF purview.
 
 Though we are immensely grateful for all those who have contributed to the Rocky Linux project, being a lead or deputy lead is especially time and effort intensive. Those who have done so are recognized here.
 
-- Trevor Cooper - Testing Team Lead, Jun 2021 - Jun 2022
-- Hayden Young - Web and Design Team Lead, Dec 2020 - Oct 2021
-- Jordan Pisaniello - Community Team Lead, Dec 2020 - Oct 2021
-- R. Leigh Hennig - Director of Operations, Dec 2020 - Sep 2021
+- Benjamin Agner - Security Team Lead, December 2020 - January 2023
+- Trevor Cooper - Testing Team Lead, June 2021 - June 2022
+- Hayden Young - Web and Design Team Lead, December 2020 - October 2021
+- Jordan Pisaniello - Community Team Lead, December 2020 - October 2021
+- R. Leigh Hennig - Director of Operations, December 2020 - September 2021
 
 For references, please contact hello@rockylinux.org.
