@@ -1,128 +1,128 @@
 {
-	"45drives": {
-		"name": "45Drives",
-		"tier": 1,
-		"title": "Principal Sponsor",
-		"blurb": "45Drives offers enterprise storage solutions built on powerful and robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!",
-		"logo": "45drives.png",
-		"link": "https://45drives.com",
-		"dateStart": "2021-02-21",
-		"dateEnd": "2022-02-21"
-	},
-	"aws": {
-		"name": "Amazon Web Services",
-		"tier": 1,
-		"title": "Principal Sponsor",
-		"blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do.",
-		"logo": "aws.png",
-		"link": "https://aws.com",
-		"dateStart": "2021-01-01",
-		"dateEnd": "2024-01-01"
-	},
-	"azure": {
-		"name": "Microsoft Azure",
-		"tier": 2,
-		"title": "Principal Sponsor",
-		"blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way",
-		"logo": "azure.png",
-		"link": "https://azure.com",
-		"dateStart": "2021-09-17",
-		"dateEnd": "2022-09-17"
-	},
-	"ciq": {
-		"name": "CIQ",
-		"tier": 1,
-		"title": "Founding Sponsor",
-		"blurb": "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between.",
-		"logo": "ciq.png",
-		"link": "https://ciq.co",
-		"dateStart": "2020-12-08",
-		"dateEnd": "2024-12-08"
-	},
-	"gcp": {
-		"name": "Google Cloud",
-		"tier": 1,
-		"title": "Principal Sponsor",
-		"blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one.",
-		"logo": "gcp.png",
-		"link": "https://cloud.google.com",
-		"dateStart": "2021-12-15",
-		"dateEnd": "2023-12-14"
-	},
-	"montavista": {
-		"name": "MontaVista",
-		"tier": 1,
-		"title": "Principal Sponsor",
-		"blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles.",
-		"logo": "montavista.png",
-		"link": "https://mvista.com/",
-		"dateStart": "2021-03-26",
-		"dateEnd": "2022-31-01"
-	},
-	"opendrives": {
-		"name": "OpenDrives",
-		"tier": 1,
-		"title": "Principal Sponsor",
-		"blurb": "OpenDrives is a global provider of enterprise-scale, software-defined data storage solutions. Our technology is designed to power the most demanding workflows—on premises and in the cloud. Our commitment to open standards and protocols facilitates ease of integrations, making it simpler for customers to access, use, move, and protect their data. We are headquartered in Culver City, CA.",
-		"logo": "opendrives.png",
-		"link": "https://opendrives.com/",
-		"dateStart": "2021-02-20",
-		"dateEnd": "2023-02-20"
-	},
-	"openlogic": {
-		"name": "OpenLogic by Perforce",
-		"tier": 4,
-		"title": "Tier 4 Sponsor",
-		"logo": "openlogic.svg",
-		"link": "https://www.openlogic.com/",
-		"dateStart": "2022-04-28",
-		"dateEnd": "2023-04-28"
-	},
-	"procomputers": {
-		"name": "ProComputers.com",
-		"tier": 4,
-		"title": "Tier 4 Sponsor",
-		"logo": "procomputers.png",
-		"link": "https://www.procomputers.com/",
-		"dateStart": "2021-07-19",
-		"dateEnd": "2023-07-19"
-	},
-	"rakutensymphony": {
-		"name": "Rakuten Symphony",
-		"tier": 1,
-		"title": "Principal Sponsor",
-		"blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks.",
-		"logo": "rakuten-symphony.png",
-		"link": "https://symphony.rakuten.com/",
-		"dateStart": "2022-10-27",
-		"dateEnd": "2023-10-27"
-	},
-	"seagate": {
-		"name": "Seagate Federal",
-		"tier": 4,
-		"title": "Tier 4 Sponsor",
-		"logo": "seagate.png",
-		"link": "https://www.seagategov.com/",
-		"dateStart": "2021-06-26",
-		"dateEnd": "2022-06-26"
-	},
-	"stromasys": {
-		"name": "Stromasys",
-		"tier": 4,
-		"title": "Tier 4 Sponsor",
-		"logo": "stromasys.png",
-		"link": "https://www.stromasys.com/",
-		"dateStart": "2022-01-20",
-		"dateEnd": "2023-01-20"
-	},
-	"vmware": {
-		"name": "VMware",
-		"tier": 2,
-		"title": "Principal Sponsor",
-		"blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control.",
-		"logo": "vmware.png",
-		"link": "https://vmware.com/",
-		"dateStart": "2021-10-08",
-		"dateEnd": "2023-10-08"
-	}
+  "45drives": {
+    "name": "45Drives",
+    "tier": 1,
+    "title": "Principal Sponsor",
+    "blurb": "45Drives offers enterprise storage solutions built on powerful and robust open-source software that allows customers to benefit from the cost savings & flexibility of off-the-shelf hardware. Check them out for a fully supported data storage solution at the best cost per terabyte!",
+    "logo": "45drives.png",
+    "link": "https://45drives.com",
+    "dateStart": "2021-02-21",
+    "dateEnd": "2022-02-21"
+  },
+  "aws": {
+    "name": "Amazon Web Services",
+    "tier": 1,
+    "title": "Principal Sponsor",
+    "blurb": "The RESF utilizes AWS to run much of the underlying infrastructure critical to the development and deployment of the services supporting Rocky Linux. From Koji builders for x86_64 and aarch64 running in EC2 to SRPM blob storage in S3, AWS is foundational to much of what we do.",
+    "logo": "aws.png",
+    "link": "https://aws.com",
+    "dateStart": "2021-01-01",
+    "dateEnd": "2024-01-01"
+  },
+  "azure": {
+    "name": "Microsoft Azure",
+    "tier": 2,
+    "title": "Principal Sponsor",
+    "blurb": "Linux is the fastest growing platform on Azure, running in over half of VM cores. For well over a decade, Microsoft has been investing on Linux, and with partnerships being a central pillar of Microsoft's open source strategy we collaborate with RESF and the broader Rocky Linux ecosystem to ensure customers have an increasing set of options to deploy Linux workloads on Azure in a supported, managed and secure way",
+    "logo": "azure.png",
+    "link": "https://azure.com",
+    "dateStart": "2021-09-17",
+    "dateEnd": "2022-09-17"
+  },
+  "ciq": {
+    "name": "CIQ",
+    "tier": 1,
+    "title": "Founding Sponsor",
+    "blurb": "We believe in helping people do great things. This is why CIQ is a founding sponsor of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between.",
+    "logo": "ciq.png",
+    "link": "https://ciq.co",
+    "dateStart": "2020-12-08",
+    "dateEnd": "2024-12-08"
+  },
+  "gcp": {
+    "name": "Google Cloud",
+    "tier": 1,
+    "title": "Principal Sponsor",
+    "blurb": "As a principal sponsor of the RESF, Google understands the importance of Rocky Linux as a free, open, community enterprise operating system. Providing resources for testing and validation, we've partnered with the RESF to ensure Rocky's status as a first-class citizen on the Google Cloud Platform from day one.",
+    "logo": "gcp.png",
+    "link": "https://cloud.google.com",
+    "dateStart": "2021-12-15",
+    "dateEnd": "2023-12-14"
+  },
+  "montavista": {
+    "name": "MontaVista",
+    "tier": 1,
+    "title": "Principal Sponsor",
+    "blurb": "MontaVista Software is the leader in embedded commercial LInux, supporting MontaVista CGX, Yocto Project®️, CentOS and Rocky Linux. MontaVista offers Open Source Software expertise, commercial-quality Linux distros, cost-effective maintenance and support for 10+ year life-cycles.",
+    "logo": "montavista.png",
+    "link": "https://mvista.com/",
+    "dateStart": "2021-03-26",
+    "dateEnd": "2022-31-01"
+  },
+  "opendrives": {
+    "name": "OpenDrives",
+    "tier": 1,
+    "title": "Principal Sponsor",
+    "blurb": "OpenDrives is a global provider of enterprise-scale, software-defined data storage solutions. Our technology is designed to power the most demanding workflows—on premises and in the cloud. Our commitment to open standards and protocols facilitates ease of integrations, making it simpler for customers to access, use, move, and protect their data. We are headquartered in Culver City, CA.",
+    "logo": "opendrives.png",
+    "link": "https://opendrives.com/",
+    "dateStart": "2021-02-20",
+    "dateEnd": "2023-02-20"
+  },
+  "openlogic": {
+    "name": "OpenLogic by Perforce",
+    "tier": 4,
+    "title": "Tier 4 Sponsor",
+    "logo": "openlogic.svg",
+    "link": "https://www.openlogic.com/",
+    "dateStart": "2022-04-28",
+    "dateEnd": "2023-04-28"
+  },
+  "procomputers": {
+    "name": "ProComputers.com",
+    "tier": 4,
+    "title": "Tier 4 Sponsor",
+    "logo": "procomputers.png",
+    "link": "https://www.procomputers.com/",
+    "dateStart": "2021-07-19",
+    "dateEnd": "2023-07-19"
+  },
+  "rakutensymphony": {
+    "name": "Rakuten Symphony",
+    "tier": 1,
+    "title": "Principal Sponsor",
+    "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks.",
+    "logo": "rakuten-symphony.png",
+    "link": "https://symphony.rakuten.com/",
+    "dateStart": "2022-10-27",
+    "dateEnd": "2023-10-27"
+  },
+  "seagate": {
+    "name": "Seagate Federal",
+    "tier": 4,
+    "title": "Tier 4 Sponsor",
+    "logo": "seagate.png",
+    "link": "https://www.seagategov.com/",
+    "dateStart": "2021-06-26",
+    "dateEnd": "2022-06-26"
+  },
+  "stromasys": {
+    "name": "Stromasys",
+    "tier": 4,
+    "title": "Tier 4 Sponsor",
+    "logo": "stromasys.png",
+    "link": "https://www.stromasys.com/",
+    "dateStart": "2022-01-20",
+    "dateEnd": "2023-01-20"
+  },
+  "vmware": {
+    "name": "VMware",
+    "tier": 2,
+    "title": "Principal Sponsor",
+    "blurb": "VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control.",
+    "logo": "vmware.png",
+    "link": "https://vmware.com/",
+    "dateStart": "2021-10-08",
+    "dateEnd": "2023-10-08"
+  }
 }

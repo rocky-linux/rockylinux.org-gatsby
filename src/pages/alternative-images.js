@@ -116,7 +116,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-Workstation-aarch64-aarch64.iso"
+                            href="https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-Workstation-aarch64-latest.iso"
                           >
                             {translate('body.download')}
                           </a>{' '}
