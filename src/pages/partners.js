@@ -15,7 +15,6 @@ import OslLogo from '../images/osl.png';
 import SupermicroLogo from '../images/supermicro.png';
 import CrowdinLogo from '../images/crowdin.png';
 import DsStudioLogo from '../images/dsstudio.png';
-import FathomLogo from '../images/fathom.png';
 
 const PartnersPage = () => {
   const translate = Translate('partners');
@@ -87,12 +86,6 @@ const PartnersPage = () => {
       tier: `${translate('partners.dsstudio.tier')}`,
       source: `${DsStudioLogo}`,
       link: 'https://dotslash.studio/',
-    },
-    {
-      name: `${translate('partners.fathom.name')}`,
-      tier: `${translate('partners.fathom.tier')}`,
-      source: `${FathomLogo}`,
-      link: 'https://usefathom.com/',
     },
   ];
 

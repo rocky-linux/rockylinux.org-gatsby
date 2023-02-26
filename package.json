@@ -24,7 +24,6 @@
     "@tailwindcss/typography": "^0.5.0",
     "autoprefixer": "^10.4.0",
     "gatsby": "^4.3.0",
-    "gatsby-plugin-fathom": "^2.1.1",
     "gatsby-plugin-feed": "^4.3.0",
     "gatsby-plugin-manifest": "^4.3.0",
     "gatsby-plugin-postcss": "^5.3.0",

@@ -5,7 +5,6 @@ import PageHeader from '../components/PageHeader';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Translate, Trans } from '../../i18n/utils/translate';
-import { useGoal } from 'gatsby-plugin-fathom';
 
 import {
   ArchiveIcon,
@@ -23,8 +22,6 @@ function classNames(...classes) {
 
 const DownloadPage = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('download');
-  const handleDownload8 = useGoal('ZKSYYLWD');
-  const handleDownload9 = useGoal('OMK0ZIZP');
   const actions = [
     {
       title: `${translate('links.alt')}`,
@@ -126,7 +123,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-minimal.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -134,7 +130,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-dvd.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -142,7 +137,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-boot.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -150,7 +144,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-dvd.torrent"
-                            onClick={handleDownload9}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -179,7 +172,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-minimal.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -187,7 +179,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -195,7 +186,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-boot.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -203,7 +193,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.torrent"
-                            onClick={handleDownload9}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -232,7 +221,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-minimal.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -240,7 +228,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-dvd.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -248,7 +235,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-boot.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -256,7 +242,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-dvd.torrent"
-                            onClick={handleDownload9}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -285,7 +270,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-minimal.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -293,7 +277,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-dvd.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -301,7 +284,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-boot.iso"
-                            onClick={handleDownload9}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -309,7 +291,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-dvd.torrent"
-                            onClick={handleDownload9}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -379,7 +360,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso"
-                            onClick={handleDownload8}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -387,7 +367,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.iso"
-                            onClick={handleDownload8}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -395,7 +374,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-boot.iso"
-                            onClick={handleDownload8}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -403,7 +381,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.torrent"
-                            onClick={handleDownload8}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -432,7 +409,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-minimal.iso"
-                            onClick={handleDownload8}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -440,7 +416,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.iso"
-                            onClick={handleDownload8}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -448,7 +423,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-boot.iso"
-                            onClick={handleDownload8}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -456,7 +430,6 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.torrent"
-                            onClick={handleDownload8}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
