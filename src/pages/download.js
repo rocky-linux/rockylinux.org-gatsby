@@ -20,6 +20,12 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
+function downloadEvent(versionName) {
+  if (typeof window !== "undefined" && window.plausible) {
+    window.plausible('Download Link: Click', { props: { version: versionName } });
+  }
+}
+
 const DownloadPage = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('download');
   const actions = [
@@ -123,6 +129,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-minimal.iso"
+                            onClick={() => downloadEvent('RL9: Minimal x86_64')}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -130,6 +137,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-dvd.iso"
+                            onClick={() => downloadEvent('RL9: DVD x86_64')}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -137,6 +145,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-boot.iso"
+                            onClick={() => downloadEvent('RL9: Boot x86_64')}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -144,6 +153,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-dvd.torrent"
+                            onClick={() => downloadEvent('RL9: Torrent x86_64')}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -172,6 +182,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-minimal.iso"
+                            onClick={() => downloadEvent('RL9: Minimal aarch64')}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -179,6 +190,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.iso"
+                            onClick={() => downloadEvent('RL9: DVD aarch64')}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -186,6 +198,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-boot.iso"
+                            onClick={() => downloadEvent('RL9: Boot aarch64')}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -193,6 +206,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.torrent"
+                            onClick={() => downloadEvent('RL9: Torrent aarch64')}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -221,6 +235,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-minimal.iso"
+                            onClick={() => downloadEvent('RL9: Minimal ppc64le')}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -228,6 +243,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-dvd.iso"
+                            onClick={() => downloadEvent('RL9: DVD ppc64le')}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -235,6 +251,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-boot.iso"
+                            onClick={() => downloadEvent('RL9: Boot ppc64le')}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -242,6 +259,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-dvd.torrent"
+                            onClick={() => downloadEvent('RL9: Torrent ppc64le')}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -270,6 +288,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-minimal.iso"
+                            onClick={() => downloadEvent('RL9: Minimal s390x')}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -277,6 +296,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-dvd.iso"
+                            onClick={() => downloadEvent('RL9: DVD s390x')}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -284,6 +304,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-boot.iso"
+                            onClick={() => downloadEvent('RL9: Boot s390x')}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -291,6 +312,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9.1-s390x-dvd.torrent"
+                            onClick={() => downloadEvent('RL9: Torrent s390x')}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -360,6 +382,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso"
+                            onClick={() => downloadEvent('RL8: Minimal x86_64')}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -367,6 +390,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.iso"
+                            onClick={() => downloadEvent('RL8: DVD x86_64')}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -374,6 +398,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-boot.iso"
+                            onClick={() => downloadEvent('RL8: Boot x86_64')}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -381,6 +406,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.torrent"
+                            onClick={() => downloadEvent('RL8: Torrent x86_64')}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -409,6 +435,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-minimal.iso"
+                            onClick={() => downloadEvent('RL8: Minimal aarch64')}
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -416,6 +443,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.iso"
+                            onClick={() => downloadEvent('RL8: DVD aarch64')}
                           >
                             {translate('body.dvd')}
                           </a>{' '}
@@ -423,6 +451,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-boot.iso"
+                            onClick={() => downloadEvent('RL8: Boot aarch64')}
                           >
                             {translate('body.boot')}
                           </a>{' '}
@@ -430,6 +459,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.torrent"
+                            onClick={() => downloadEvent('RL8: Torrent aarch64')}
                           >
                             {translate('body.torrent')}
                           </a>{' '}
