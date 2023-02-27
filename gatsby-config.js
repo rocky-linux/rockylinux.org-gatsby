@@ -172,5 +172,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-plausible-analytics`,
+      options: {
+        domain: `rockylinux.org`,
+        outbound: true,
+      }
+    }
   ],
 };

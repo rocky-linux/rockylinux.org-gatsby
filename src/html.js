@@ -12,7 +12,6 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link rel="me" href="https://fosstodon.org/@rockylinux" />
-	<script defer data-domain="rockylinux.org" data-api="https://img.resf.workers.dev/post/event" src="https://img.resf.workers.dev/img/script.js"></script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
