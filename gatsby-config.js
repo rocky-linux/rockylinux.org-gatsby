@@ -173,10 +173,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-plausible-analytics`,
+      resolve: `@devular/gatsby-plugin-plausible`,
       options: {
         domain: `rockylinux.org`,
-        outbound: true,
+        proxyScript: `https://img.resf.workers.dev/js/script.js`,
+        proxyApi: `https://img.resf.workers.dev/api/event`
       }
     }
   ],
