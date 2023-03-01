@@ -1,8 +1,6 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
-import { ShareToMastodon } from '@justinribeiro/share-to-mastodon';
-
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Layout from '../components/Layout';
