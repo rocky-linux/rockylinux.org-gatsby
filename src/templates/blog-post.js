@@ -75,7 +75,7 @@ const BlogPost = ({ data }) => {
                 </div>
               </a>
               <a href={linkedInLink}>
-                <div className="flex justify-center">
+                <div className="flex justify-center mr-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
