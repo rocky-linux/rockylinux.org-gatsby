@@ -177,7 +177,7 @@ module.exports = {
       options: {
         domain: `rockylinux.org`,
         proxyScript: `https://img.resf.workers.dev/js/script.outbound-links.js`,
-        proxyApi: `https://img.resf.workers.dev/api/event`
+        proxyApi: `https://img.resf.workers.dev/img/event`
       }
     }
   ],
