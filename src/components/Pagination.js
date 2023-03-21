@@ -20,18 +20,16 @@ export default function Pagination({
     <div className="text-center pagination-navi text-gray-900 dark:text-gray-50 my-10">
       <Link
         to={prevPath}
-        className={`${
-          previousPage <= 0 ? 'disabled' : null
-        } mr-5 inline-flex items-center px-4 py-2 border border-transparent dark:border-gray-600 text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 dark:active:bg-gray-900 active:text-gray-700 transition duration-150 ease-in-out`}
+        className={`${previousPage <= 0 ? 'disabled' : null
+          } mr-5 inline-flex items-center px-4 py-2 border border-transparent dark:border-gray-600 text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 dark:active:bg-gray-900 active:text-gray-700 transition duration-150 ease-in-out`}
       >
         {`<`}
       </Link>
       {currentPage} of {totalPages}
       <Link
         to={nextPath}
-        className={`${
-          nextPage > totalPages ? 'disabled' : null
-        } ml-5 inline-flex items-center px-4 py-2 border border-transparent dark:border-gray-600 text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 dark:active:bg-gray-900 active:text-gray-700 transition duration-150 ease-in-out`}
+        className={`${nextPage > totalPages ? 'disabled' : null
+          } ml-5 inline-flex items-center px-4 py-2 border border-transparent dark:border-gray-600 text-base leading-6 font-medium rounded-md shadow-md text-green-500 bg-white dark:bg-gray-800 hover:text-green-400 focus:outline-none focus:border-green-300 focus:shadow-outline-green active:bg-gray-50 dark:active:bg-gray-900 active:text-gray-700 transition duration-150 ease-in-out`}
       >
         {`>`}
       </Link>
