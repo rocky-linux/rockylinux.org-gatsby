@@ -15,16 +15,19 @@ const vendors = [
     name: "Muckles' U!",
     role: 'Ships worldwide, based in US',
     imageUrl: mucklesImg,
+    link: 'https://www.mucklesu.com/collections/rocky-linux',
   },
   {
     name: 'HELLOTUX',
     role: 'Ships worldwide, based in EU',
     imageUrl: hellotuxImg,
+    link: 'https://www.hellotux.com/rocky-linux',
   },
   {
     name: 'FreeWear',
     role: 'Ships worldwide, based in EU',
     imageUrl: freewearImg,
+    link: 'https://www.freewear.org/RockyLinux',
   },
 ];
 
@@ -47,17 +50,19 @@ const MerchPage = ({ pageContext: { locale: language } }) => {
             >
               {vendors.map((vendor) => (
                 <li key={vendor.name}>
-                  <img
-                    className="w-full rounded-2xl object-fit"
-                    src={vendor.imageUrl}
-                    alt=""
-                  />
-                  <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-50">
-                    {vendor.name}
-                  </h3>
-                  <p className="text-base leading-7 text-gray-600 dark:text-gray-400">
-                    {vendor.role}
-                  </p>
+                  <a href={vendor.link}>
+                    <img
+                      className="w-full rounded-2xl object-fit"
+                      src={vendor.imageUrl}
+                      alt=""
+                    />
+                    <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-50">
+                      {vendor.name}
+                    </h3>
+                    <p className="text-base leading-7 text-gray-600 dark:text-gray-400">
+                      {vendor.role}
+                    </p>
+                  </a>
                 </li>
               ))}
             </ul>
