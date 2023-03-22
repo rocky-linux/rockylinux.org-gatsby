@@ -161,6 +161,7 @@ module.exports = {
             'partners',
             'support',
             'resf-faq',
+            'merch'
           ],
           returnObjects: true,
           interpolation: {
