@@ -46,12 +46,8 @@ const Footer = ({ pageContext: { locale: language } }) => {
         href: 'https://rockylinux.z2systems.com/np/clients/rockylinux/donation.jsp',
       },
       {
-        name: `${translate('community.store')}`,
-        href: 'https://www.mucklesu.com/collections/rocky-linux',
-      },
-      {
-        name: `${translate('community.store')} (EU)`,
-        href: 'https://www.hellotux.com/rocky-linux',
+        name: 'Merch',
+        href: '/merch',
       },
     ],
     documentation: [
