@@ -12,7 +12,7 @@ const LocalizedLink = ({ children, to, language, className }) => {
     );
   }
   return (
-    <a href={to} className={className}>
+    <a href={to} className={className} target="_blank">
       {children}
     </a>
   );
