@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PageHeader = ({ title, children, description }) => {
+const PageHeader = ({ children }) => {
   return (
     <>
       <div>
@@ -9,9 +9,8 @@ const PageHeader = ({ title, children, description }) => {
             <p className="mt-1 text-4xl font-extrabold text-gray-900 dark:text-gray-50 sm:text-5xl sm:tracking-tight lg:text-6xl font-display">
               Welcome Changelog Listeners!
             </p>
-            <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500 dark:text-gray-50">
-              Rocky Linux rebuilds sources directly from RHEL, so you'll have a
-              stable experience no matter the use-case.
+            <p className="max-w-xl text-3xl mt-5 mx-auto text-xl text-gray-500 dark:text-gray-50">
+              Enterprise Linux, the community way.
             </p>
           </div>
         </div>
