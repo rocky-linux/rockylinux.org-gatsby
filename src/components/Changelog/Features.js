@@ -1,16 +1,15 @@
 import React from 'react';
-import {
-  AdjustmentsIcon,
-  TruckIcon,
-  UserGroupIcon,
-} from '@heroicons/react/solid';
 import LocalizedLink from '../LocalizedLink';
+
+import rockyIcon from '../../images/rockyicon.png';
+import resfIcon from '../../images/resficon.png';
+import ciqIcon from '../../images/ciqicon.png';
 
 const Features = ({ pageContext: { locale: language } }) => {
   const features = [
     {
       name: 'Production Ready',
-      icon: AdjustmentsIcon,
+      icon: rockyIcon,
       description:
         'Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost.',
       button: {
@@ -19,8 +18,8 @@ const Features = ({ pageContext: { locale: language } }) => {
       },
     },
     {
-      name: 'Community Supported',
-      icon: UserGroupIcon,
+      name: 'Community Developed',
+      icon: resfIcon,
       description:
         'The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community.',
       button: {
@@ -29,56 +28,44 @@ const Features = ({ pageContext: { locale: language } }) => {
       },
     },
     {
-      name: 'Easy Migration',
-      icon: TruckIcon,
+      name: 'CIQ Supported',
+      icon: ciqIcon,
       description:
-        'Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge.',
+        'Learn more about CIQ, the provider of rock-solid support for Enterprise and HPC environments. As the founding sponsor of Rocky Linux, CIQ is a proud supporter of Changelog.',
       button: {
-        title: 'Migrate',
-        link: 'https://docs.rockylinux.org/guides/migrate2rocky/',
+        title: 'Learn more',
+        link: 'https://ciq.co/products/rocky-linux/',
       },
     },
   ];
 
   return (
-    <div className="relative bg-gray-50 dark:bg-gray-900 py-16">
-      <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-        <div className="mt-12">
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {features.map((feature) => (
-              <>
-                <div key={feature.name} className="pt-6">
-                  <div className="flow-root bg-gray-200 dark:bg-gray-800 rounded-lg px-6 pb-8">
-                    <div className="-mt-6">
-                      <div>
-                        <span className="inline-flex items-center justify-center p-3 bg-green-500 rounded-md shadow-lg">
-                          <feature.icon
-                            className="h-6 w-6 text-white"
-                            aria-hidden="true"
-                          />
-                        </span>
-                      </div>
-                      <h3 className="mt-8 text-lg font-medium text-gray-900 dark:text-gray-50 tracking-tight">
-                        {feature.name}
-                      </h3>
-                      <p className="mt-5 text-base text-gray-500 dark:text-gray-300">
-                        {feature.description}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <LocalizedLink
-                      to={feature.button.link}
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
-                    >
-                      {feature.button.title}
-                    </LocalizedLink>
-                  </div>
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-12">
+      <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+        <dl className="grid max-w-xl gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 sm:grid-cols-1">
+          {features.map((feature) => (
+            <div key={feature.name} className="flex flex-col">
+              <dt className="text-lg font-bold leading-7 dark:text-white bg-gray-200 dark:bg-gray-800 w-full text-center rounded-t-lg font-display">
+                <div className="-mt-6 flex items-center justify-center">
+                  <img
+                    className="rounded-md shadow-lg h-14 w-14"
+                    src={feature.icon}
+                  />
                 </div>
-              </>
-            ))}
-          </div>
-        </div>
+                <div className="mt-7">{feature.name}</div>
+              </dt>
+              <dd className="pt-1 flex flex-auto flex-col text-base leading-7 dark:text-gray-300 bg-gray-200 dark:bg-gray-800 w-full text-center rounded-b-lg px-6 pb-8">
+                <p className="flex-auto">{feature.description}</p>
+              </dd>
+              <LocalizedLink
+                to={feature.button.link}
+                className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600 mt-4 sm:mt-8 col-span-1 w-fit mx-auto"
+              >
+                {feature.button.title}
+              </LocalizedLink>
+            </div>
+          ))}
+        </dl>
       </div>
     </div>
   );
