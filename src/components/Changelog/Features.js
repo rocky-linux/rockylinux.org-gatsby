@@ -23,8 +23,8 @@ const Features = ({ pageContext: { locale: language } }) => {
       description:
         'The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community.',
       button: {
-        title: 'Contribute',
-        link: 'https://wiki.rockylinux.org/contributing/',
+        title: 'Join now',
+        link: 'https://chat.rockylinux.org',
       },
     },
     {
@@ -40,7 +40,7 @@ const Features = ({ pageContext: { locale: language } }) => {
   ];
 
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-12">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-24">
       <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
         <dl className="grid gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 sm:grid-cols-1">
           {features.map((feature) => (
