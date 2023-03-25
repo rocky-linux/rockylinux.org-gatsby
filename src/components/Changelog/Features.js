@@ -42,7 +42,7 @@ const Features = ({ pageContext: { locale: language } }) => {
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-12">
       <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-        <dl className="grid max-w-xl gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 sm:grid-cols-1">
+        <dl className="grid gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3 sm:grid-cols-1">
           {features.map((feature) => (
             <div key={feature.name} className="flex flex-col">
               <dt className="text-lg font-bold leading-7 dark:text-white bg-gray-200 dark:bg-gray-800 w-full text-center rounded-t-lg font-display">
