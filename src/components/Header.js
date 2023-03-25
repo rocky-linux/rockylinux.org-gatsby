@@ -109,7 +109,7 @@ const Header = ({ pageContext: { locale: language } }) => {
           <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
             <div className="pr-16 sm:text-center sm:px-16">
               <p className="font-medium text-white">
-                <span className="hidden md:inline">
+                <span className="hidden lg:inline">
                   {translate('js-warning')}
                 </span>
               </p>
@@ -206,7 +206,7 @@ const Header = ({ pageContext: { locale: language } }) => {
       </div>
 
       <Popover className="relative">
-        <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10 max-w-7xl mx-auto">
+        <div className="flex justify-between items-center px-4 py-6 sm:px-6 lg:justify-start lg:space-x-10 max-w-7xl mx-auto">
           <div>
             <LocalizedLink to="/" language={language} className="flex">
               <span className="sr-only">Rocky Linux</span>
@@ -235,13 +235,13 @@ const Header = ({ pageContext: { locale: language } }) => {
               </svg>
             </LocalizedLink>
           </div>
-          <div className="-mr-2 -my-2 md:hidden">
+          <div className="-mr-2 -my-2 lg:hidden">
             <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
+          <div className="hidden lg:flex-1 lg:flex lg:items-center lg:justify-between">
             <Popover.Group as="nav" className="flex space-x-10">
               <LocalizedLink
                 to="/news/1"
@@ -460,7 +460,7 @@ const Header = ({ pageContext: { locale: language } }) => {
                 )}
               </Popover>
             </Popover.Group>
-            <div className="flex items-center md:ml-12">
+            <div className="flex items-center lg:ml-12">
               <LocalizedLink
                 to="/download"
                 language={language}
@@ -483,7 +483,7 @@ const Header = ({ pageContext: { locale: language } }) => {
         >
           <Popover.Panel
             focus
-            className="z-20 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+            className="z-20 absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
           >
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50 dark:divide-gray-700">
               <div className="pt-5 pb-6 px-5 dark:bg-gray-800">
