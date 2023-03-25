@@ -40,7 +40,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
   const postPage = path.resolve(`./src/templates/blog-post.js`);
-  const faqPage = path.resolve(`./src/templates/faq-entry.js`);
   const genericPage = path.resolve(`./src/templates/generic-page.js`);
   const result = await graphql(`
     {
@@ -56,8 +55,6 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               title
               date
-              category
-              id
               posttype
             }
           }
@@ -79,16 +76,6 @@ exports.createPages = async ({ graphql, actions }) => {
           slug: edge.node.fields.slug,
         },
       });
-    } else if (edge.node.frontmatter.posttype === 'resf-faq') {
-      createPage({
-        path: edge.node.fields.slug,
-        component: faqPage,
-        context: {
-          slug: edge.node.fields.slug,
-          category: edge.node.frontmatter.category,
-          id: edge.node.frontmatter.id,
-        },
-      });
     } else {
       createPage({
         path: edge.node.fields.slug,
@@ -102,7 +89,6 @@ exports.createPages = async ({ graphql, actions }) => {
 
   await Promise.all([
     paginate({ graphql, actions, type: 'news', itemPerPage: 9 }),
-    paginate({ graphql, actions, type: 'resf-faq', itemPerPage: 9 }),
   ]);
 };
 
@@ -116,12 +102,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         name: `slug`,
         node,
         value: `${value}`,
-      });
-    } else if (node.frontmatter.posttype == 'resf-faq') {
-      createNodeField({
-        name: `slug`,
-        node,
-        value: `/resf-faq${value}`,
       });
     } else {
       createNodeField({

@@ -27,13 +27,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/resf-faq`,
-        name: `resf-faq`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         path: `${__dirname}/src/pages`,
         name: `pages`,
       },
@@ -161,7 +154,7 @@ module.exports = {
             'partners',
             'support',
             'resf-faq',
-            'merch'
+            'merch',
           ],
           returnObjects: true,
           interpolation: {
@@ -178,8 +171,8 @@ module.exports = {
       options: {
         domain: `rockylinux.org`,
         proxyScript: `https://img.resf.workers.dev/js/script.outbound-links.js`,
-        proxyApi: `https://img.resf.workers.dev/img/event`
-      }
-    }
+        proxyApi: `https://img.resf.workers.dev/img/event`,
+      },
+    },
   ],
 };
