@@ -9,8 +9,8 @@ const PageHeader = ({ children }) => {
             <p className="mt-1 text-4xl font-extrabold text-gray-900 dark:text-gray-50 sm:text-5xl sm:tracking-tight lg:text-6xl font-display">
               Welcome Changelog Listeners!
             </p>
-            <p className="max-w-xl text-3xl mt-5 mx-auto text-xl text-gray-500 dark:text-gray-50">
-              Enterprise Linux, the community way.
+            <p className="max-w-3xl text-3xl mt-5 mx-auto text-gray-500 dark:text-gray-50">
+              Rocky Linux is Enterprise Linux, the community way.
             </p>
           </div>
         </div>
