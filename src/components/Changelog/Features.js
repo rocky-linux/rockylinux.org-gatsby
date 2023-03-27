@@ -11,7 +11,7 @@ const Features = ({ pageContext: { locale: language } }) => {
       name: 'Production Ready',
       icon: rockyIcon,
       description:
-        'Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost.',
+        'Rocky Linux is a stable and reliable enterprise-ready operating system with regular updates and a 10-year support lifecycle, all available at no cost.',
       button: {
         title: 'Download',
         link: '/download',
@@ -21,7 +21,7 @@ const Features = ({ pageContext: { locale: language } }) => {
       name: 'Community Developed',
       icon: resfIcon,
       description:
-        'The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community.',
+        'The Rocky Linux project has received long-term commitments from its community, sponsors, and partners to ensure its continued success.',
       button: {
         title: 'Join now',
         link: 'https://chat.rockylinux.org',
@@ -31,7 +31,7 @@ const Features = ({ pageContext: { locale: language } }) => {
       name: 'CIQ Supported',
       icon: ciqIcon,
       description:
-        'Learn more about CIQ, the provider of rock-solid support for Enterprise and HPC environments. As the founding sponsor of Rocky Linux, CIQ is a proud supporter of Changelog.',
+        'CIQ builds innovative solutions with Rocky Linux and serves as an expert extension of your IT team. CIQ is honored to partner with The Changelog Podcast.',
       button: {
         title: 'Learn more',
         link: 'https://ciq.co/products/rocky-linux/',
