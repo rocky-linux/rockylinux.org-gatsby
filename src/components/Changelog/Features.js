@@ -34,7 +34,7 @@ const Features = ({ pageContext: { locale: language } }) => {
         'CIQ builds innovative solutions with Rocky Linux and serves as an expert extension of your IT team. CIQ is honored to partner with The Changelog Podcast.',
       button: {
         title: 'Learn more',
-        link: 'https://ciq.co/products/rocky-linux/',
+        link: 'https://ciq.co/support/enterprise-escalation/',
       },
     },
   ];
