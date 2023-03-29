@@ -29,7 +29,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                 </LocalizedLink>
               </div>
               <div className="mt-6 sm:max-w-xl">
-                <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-50 tracking-tight sm:text-5xl">
+                <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-50 tracking-tight sm:text-5xl font-display">
                   {translate('hero.title')}
                 </h1>
                 <p className="mt-6 text-xl text-gray-500 dark:text-gray-50">

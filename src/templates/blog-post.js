@@ -39,10 +39,10 @@ const BlogPost = ({ data }) => {
         <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="text-lg max-w-prose mx-auto">
             <h1>
-              <span className="block text-base text-center text-green-500 font-semibold tracking-wide uppercase">
+              <span className="block text-base text-center text-green-500 font-semibold tracking-wide uppercase font-display">
                 {post.frontmatter.date}
               </span>
-              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl font-display">
                 {post.frontmatter.title}
               </span>
             </h1>

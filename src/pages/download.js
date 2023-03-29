@@ -21,8 +21,10 @@ function classNames(...classes) {
 }
 
 function downloadEvent(versionName) {
-  if (typeof window !== "undefined" && window.plausible) {
-    window.plausible('Download Link: Click', { props: { version: versionName } });
+  if (typeof window !== 'undefined' && window.plausible) {
+    window.plausible('Download Link: Click', {
+      props: { version: versionName },
+    });
   }
 }
 
@@ -85,7 +87,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
           <div className="flex flex-col">
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div className="align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
+                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white font-display">
                   {translate('rl9')}
                 </h2>
                 <h3 className="text-center mb-2 text-md dark:text-white">
@@ -102,19 +104,19 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.isos')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.packages')}
                         </th>
@@ -182,7 +184,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-minimal.iso"
-                            onClick={() => downloadEvent('RL9: Minimal aarch64')}
+                            onClick={() =>
+                              downloadEvent('RL9: Minimal aarch64')
+                            }
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -206,7 +210,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.torrent"
-                            onClick={() => downloadEvent('RL9: Torrent aarch64')}
+                            onClick={() =>
+                              downloadEvent('RL9: Torrent aarch64')
+                            }
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -235,7 +241,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-minimal.iso"
-                            onClick={() => downloadEvent('RL9: Minimal ppc64le')}
+                            onClick={() =>
+                              downloadEvent('RL9: Minimal ppc64le')
+                            }
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -259,7 +267,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9.1-ppc64le-dvd.torrent"
-                            onClick={() => downloadEvent('RL9: Torrent ppc64le')}
+                            onClick={() =>
+                              downloadEvent('RL9: Torrent ppc64le')
+                            }
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -338,7 +348,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                 </div>
               </div>
               <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
+                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white font-display">
                   {translate('rl8')}
                 </h2>
                 <h3 className="text-center mb-2 text-md dark:text-white">
@@ -355,19 +365,19 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.isos')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.packages')}
                         </th>
@@ -435,7 +445,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-minimal.iso"
-                            onClick={() => downloadEvent('RL8: Minimal aarch64')}
+                            onClick={() =>
+                              downloadEvent('RL8: Minimal aarch64')
+                            }
                           >
                             {translate('body.minimal')}
                           </a>{' '}
@@ -459,7 +471,9 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
                             href="https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.7-aarch64-dvd1.torrent"
-                            onClick={() => downloadEvent('RL8: Torrent aarch64')}
+                            onClick={() =>
+                              downloadEvent('RL8: Torrent aarch64')
+                            }
                           >
                             {translate('body.torrent')}
                           </a>{' '}
@@ -487,13 +501,13 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
             </div>
           </div>
         </div>
-        <div className="relative max-w-max lg:max-w-5xl mx-auto">
-          <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-6 sm:gap-px">
+        <div className="relative max-w-max lg:max-w-7xl mx-auto">
+          <div className="rounded-lg bg-gray-200 dark:bg-gray-600 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-600 sm:divide-y-0 sm:grid sm:grid-cols-6 sm:gap-px">
             {actions.map((action, actionIdx) => (
               <div
                 key={action.title}
                 className={classNames(
-                  'relative group bg-white dark:bg-gray-700 p-4 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500'
+                  'relative group bg-white dark:bg-gray-700 p-4 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500 font-display'
                 )}
               >
                 <div>

@@ -63,10 +63,10 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
                     />
                   </div>
                   <div className="relative">
-                    <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-300 tracking-tight sm:text-3xl">
+                    <h3 className="text-2xl font-extrabold text-gray-900 dark:text-gray-300 tracking-tight sm:text-3xl font-display">
                       {partner.name}
                     </h3>
-                    <p className="block text-xl font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
+                    <p className="block text-xl font-medium text-gray-500 dark:text-gray-50 pointer-events-none font-display">
                       {partner.title}
                     </p>
                     <p className="mt-3 text-lg text-gray-500 dark:text-gray-50">
@@ -100,10 +100,10 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
                         className="object-fit pointer-events-none"
                       />
                     </div>
-                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none font-display">
                       {partner.name}
                     </p>
-                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none font-display">
                       {partner.title}
                     </p>
                   </li>
