@@ -13,7 +13,7 @@ const SummaryItem = ({
       <div className="flex-1 bg-white dark:bg-gray-800 p-6 flex flex-col justify-between">
         <div className="flex-1">
           <LocalizedLink to={link} className="block mt-2">
-            <p className="text-2xl font-semibold text-gray-900 dark:text-gray-300">
+            <p className="text-2xl font-semibold text-gray-900 dark:text-gray-300 font-display truncate">
               {name}
             </p>
             <p className="mt-3 text-base text-gray-500 dark:text-gray-50">
@@ -23,7 +23,7 @@ const SummaryItem = ({
         </div>
         <div className="mt-6 flex items-center">
           <div>
-            <div className="flex space-x-1 text-sm text-gray-500">
+            <div className="flex space-x-1 text-sm text-gray-500 font-display">
               <time datetime={date}>{date}</time>
             </div>
           </div>

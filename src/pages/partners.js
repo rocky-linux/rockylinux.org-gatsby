@@ -113,10 +113,10 @@ const PartnersPage = () => {
                         className="object-fit pointer-events-none"
                       />
                     </div>
-                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none font-display">
                       {partner.name}
                     </p>
-                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none font-display">
                       {partner.tier}
                     </p>
                     <p className="mt-2 block text-sm font-medium text-gray-900 dark:text-gray-300 pointer-events-none">

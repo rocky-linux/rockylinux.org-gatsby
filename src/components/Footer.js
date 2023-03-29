@@ -175,7 +175,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
           <div className="grid grid-cols-2 gap-8 xl:col-span-4">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase font-display">
                   {translate('categories.about')}
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -193,7 +193,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase font-display">
                   {translate('categories.get-involved')}
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -212,7 +212,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase font-display">
                   {translate('categories.documentation')}
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -230,7 +230,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
+                <h3 className="text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase font-display">
                   {translate('categories.legal')}
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -252,7 +252,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
           <div className="mt-12 xl:mt-0">
             <div className="flex items-center">
               <TranslateIcon class="h-5 w-5 text-gray-400 dark:text-gray-200" />
-              <h3 className="ml-1 text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase">
+              <h3 className="ml-1 text-sm font-semibold text-gray-400 dark:text-gray-200 tracking-wider uppercase font-display">
                 {translate('categories.language')}
               </h3>
             </div>

@@ -56,7 +56,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
           <div className="flex flex-col">
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div className="align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
+                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white font-display">
                   {translate('rl9')}
                 </h2>
                 <p className="text-center text-base mb-6 dark:text-white">
@@ -64,10 +64,10 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     <strong>Planned EOL:</strong>
                   </Trans>
                 </p>
-                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white font-display">
                   {translate('desktop')}
                 </h2>
-                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white font-display">
                   {translate('body.gnome')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
@@ -76,13 +76,13 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.isos')}
                         </th>
@@ -132,7 +132,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white font-display">
                   {translate('body.gnome-lite')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
@@ -141,13 +141,13 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.isos')}
                         </th>
@@ -197,7 +197,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white font-display">
                   {translate('body.kde')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
@@ -206,13 +206,13 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.isos')}
                         </th>
@@ -262,7 +262,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white font-display">
                   {translate('body.xfce')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
@@ -271,13 +271,13 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.isos')}
                         </th>
@@ -327,7 +327,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white font-display">
                   {translate('body.mate')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
@@ -336,13 +336,13 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.isos')}
                         </th>
@@ -392,7 +392,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white font-display">
                   {translate('alt-arch')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
@@ -401,25 +401,25 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.checksum')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.readme')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.download')}
                         </th>
@@ -458,7 +458,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white font-display">
                   {translate('cloud')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-800 sm:rounded-lg mb-20">
@@ -467,19 +467,19 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.checksum')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.download')}
                         </th>
@@ -575,7 +575,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                 </div>
               </div>
               <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white">
+                <h2 className="text-center mb-2 font-bold text-3xl dark:text-white font-display">
                   {translate('rl8')}
                 </h2>
                 <p className="text-center text-base mb-6 dark:text-white">
@@ -583,7 +583,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     <strong>Planned EOL:</strong>
                   </Trans>
                 </p>
-                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white font-display">
                   {translate('desktop')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
@@ -592,19 +592,19 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.de')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.checksum')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.download')}
                         </th>
@@ -726,7 +726,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white font-display">
                   {translate('alt-arch')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
@@ -735,25 +735,25 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.checksum')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.readme')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.download')}
                         </th>
@@ -792,7 +792,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
-                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white">
+                <h2 className="text-center mb-4 font-bold text-2xl dark:text-white font-display">
                   {translate('cloud')}
                 </h2>
                 <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-800 sm:rounded-lg mb-20">
@@ -801,19 +801,19 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                       <tr>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.arch')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.checksum')}
                         </th>
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
                         >
                           {translate('headings.download')}
                         </th>
@@ -869,7 +869,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
             </div>
           </div>
         </div>
-        <div className="relative max-w-max lg:max-w-4xl mx-auto">
+        <div className="relative max-w-max lg:max-w-3xl mx-auto">
           <div className="rounded-lg bg-gray-200 dark:bg-gray-800 overflow-hidden shadow divide-y divide-gray-200 dark:divide-gray-800 sm:divide-y-0 sm:grid sm:grid-cols-3 sm:gap-px">
             {actions.map((action, actionIdx) => (
               <div
@@ -890,7 +890,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                   </span>
                 </div>
                 <div className="mt-2">
-                  <h3 className="text-lg font-medium dark:text-white">
+                  <h3 className="text-lg font-medium dark:text-white font-display">
                     <LocalizedLink
                       to={action.href}
                       language={language}

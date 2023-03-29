@@ -171,7 +171,7 @@ const SponsorsPage = () => {
       >
         <div className="bg-white dark:bg-gray-900">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold mb-5 text-gray-900 dark:text-gray-50">
+            <h1 className="text-3xl font-bold mb-5 text-gray-900 dark:text-gray-50 font-display">
               {translate('tierone')}
             </h1>
             <ul
@@ -188,10 +188,10 @@ const SponsorsPage = () => {
                         className="object-fit pointer-events-none"
                       />
                     </div>
-                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none font-display">
                       {sponsor.name}
                     </p>
-                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none font-display">
                       {sponsor.title}
                     </p>
                     <p className="mt-2 block text-sm font-medium text-gray-900 dark:text-gray-300 pointer-events-none">
@@ -201,7 +201,7 @@ const SponsorsPage = () => {
                 </a>
               ))}
             </ul>
-            <h1 className="text-3xl font-bold mb-5 mt-10 text-gray-900 dark:text-gray-50">
+            <h1 className="text-3xl font-bold mb-5 mt-10 text-gray-900 dark:text-gray-50 font-display">
               {translate('tierfour')}
             </h1>
             <ul
@@ -218,10 +218,10 @@ const SponsorsPage = () => {
                         className="object-fit pointer-events-none"
                       />
                     </div>
-                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none">
+                    <p className="mt-2 block text-base font-bold text-gray-900 dark:text-gray-300 truncate pointer-events-none font-display">
                       {sponsor.name}
                     </p>
-                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none">
+                    <p className="block text-sm font-medium text-gray-500 dark:text-gray-50 pointer-events-none font-display">
                       {sponsor.title}
                     </p>
                     <p className="mt-2 block text-sm font-medium text-gray-900 dark:text-gray-300 pointer-events-none">
@@ -235,7 +235,7 @@ const SponsorsPage = () => {
         </div>
         <div className="bg-green-50 dark:bg-green-700">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl">
+            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl font-display">
               <span className="block">{translate('blurb.lineone')}</span>
               <span className="block text-green-500">
                 {translate('blurb.linetwo')}
