@@ -17,127 +17,127 @@
       "destination": "https://dl.rockylinux.org/pub/rocky/8/images/Rocky-8-GenericCloud.latest.aarch64.qcow2"
     },
     {
-      "source": "/resf-faq/board-of-directors/",
+      "source": "/resf-faq/board-of-directors(/|)",
       "destination": "https://resf.org/faq/board-of-directors"
     },
     {
-      "source": "/resf-faq/board-structure/",
+      "source": "/resf-faq/board-structure(/|)",
       "destination": "https://resf.org/faq/board-structure"
     },
     {
-      "source": "/resf-faq/can-bylaws-charter-be-modified/",
+      "source": "/resf-faq/can-bylaws-charter-be-modified(/|)",
       "destination": "https://resf.org/faq/can-bylaws-charter-be-modified"
     },
     {
-      "source": "/resf-faq/company-projects-resf/",
+      "source": "/resf-faq/company-projects-resf(/|)",
       "destination": "https://resf.org/faq/company-projects-resf"
     },
     {
-      "source": "/resf-faq/difference-between-project-board-and-team/",
+      "source": "/resf-faq/difference-between-project-board-and-team(/|)",
       "destination": "https://resf.org/faq/difference-between-project-board-and-team"
     },
     {
-      "source": "/resf-faq/difficult-to-become-member/",
+      "source": "/resf-faq/difficult-to-become-member(/|)",
       "destination": "https://resf.org/faq/difficult-to-become-member"
     },
     {
-      "source": "/resf-faq/effective-date/",
+      "source": "/resf-faq/effective-date(/|)",
       "destination": "https://resf.org/faq/effective-date"
     },
     {
-      "source": "/resf-faq/gregory-kurtzer-owner/",
+      "source": "/resf-faq/gregory-kurtzer-owner(/|)",
       "destination": "https://resf.org/faq/gregory-kurtzer-owner"
     },
     {
-      "source": "/resf-faq/how-to-become-member/",
+      "source": "/resf-faq/how-to-become-member(/|)",
       "destination": "https://resf.org/faq/how-to-become-member"
     },
     {
-      "source": "/resf-faq/is-resf-nonprofit/",
+      "source": "/resf-faq/is-resf-nonprofit(/|)",
       "destination": "https://resf.org/faq/is-resf-nonprofit"
     },
     {
-      "source": "/resf-faq/kurtzer-control/",
+      "source": "/resf-faq/kurtzer-control(/|)",
       "destination": "https://resf.org/faq/kurtzer-control"
     },
     {
-      "source": "/resf-faq/open-community-voting/",
+      "source": "/resf-faq/open-community-voting(/|)",
       "destination": "https://resf.org/faq/open-community-voting"
     },
     {
-      "source": "/resf-faq/other-projects-join-resf/",
+      "source": "/resf-faq/other-projects-join-resf(/|)",
       "destination": "https://resf.org/faq/other-projects-join-resf"
     },
     {
-      "source": "/resf-faq/other-projects/",
+      "source": "/resf-faq/other-projects(/|)",
       "destination": "https://resf.org/faq/other-projects"
     },
     {
-      "source": "/resf-faq/preventing-centos/",
+      "source": "/resf-faq/preventing-centos(/|)",
       "destination": "https://resf.org/faq/preventing-centos"
     },
     {
-      "source": "/resf-faq/project-board/",
+      "source": "/resf-faq/project-board(/|)",
       "destination": "https://resf.org/faq/project-board"
     },
     {
-      "source": "/resf-faq/project-funding/",
+      "source": "/resf-faq/project-funding(/|)",
       "destination": "https://resf.org/faq/project-funding"
     },
     {
-      "source": "/resf-faq/resf-rocky/",
+      "source": "/resf-faq/resf-rocky(/|)",
       "destination": "https://resf.org/faq/resf-rocky"
     },
     {
-      "source": "/resf-faq/rl-resf-ciq/",
+      "source": "/resf-faq/rl-resf-ciq(/|)",
       "destination": "https://resf.org/faq/rl-resf-ciq"
     },
     {
-      "source": "/resf-faq/underlying-principles/",
+      "source": "/resf-faq/underlying-principles(/|)",
       "destination": "https://resf.org/faq/underlying-principles"
     },
     {
-      "source": "/resf-faq/what-are-bylaws/",
+      "source": "/resf-faq/what-are-bylaws(/|)",
       "destination": "https://resf.org/faq/what-are-bylaws"
     },
     {
-      "source": "/resf-faq/what-is-charter/",
+      "source": "/resf-faq/what-is-charter(/|)",
       "destination": "https://resf.org/faq/what-is-charter"
     },
     {
-      "source": "/resf-faq/when-why-bylaws-charter-written/",
+      "source": "/resf-faq/when-why-bylaws-charter-written(/|)",
       "destination": "https://resf.org/faq/when-why-bylaws-charter-written"
     },
     {
-      "source": "/resf-faq/where-can-read/",
+      "source": "/resf-faq/where-can-read(/|)",
       "destination": "https://resf.org/faq/where-can-read"
     },
     {
-      "source": "/resf-faq/who-elects-board-members/",
+      "source": "/resf-faq/who-elects-board-members(/|)",
       "destination": "https://resf.org/faq/who-elects-board-members"
     },
     {
-      "source": "/resf-faq/who-voted/",
+      "source": "/resf-faq/who-voted(/|)",
       "destination": "https://resf.org/faq/who-voted"
     },
     {
-      "source": "/resf-faq/who-wrote-bylaws-charter/",
+      "source": "/resf-faq/who-wrote-bylaws-charter(/|)",
       "destination": "https://resf.org/faq/who-wrote-bylaws-charter"
     },
     {
-      "source": "/resf-faq/why-become-member/",
+      "source": "/resf-faq/why-become-member(/|)",
       "destination": "https://resf.org/faq/why-become-member"
     },
     {
-      "source": "/resf-faq/why-does-resf-exist/",
+      "source": "/resf-faq/why-does-resf-exist(/|)",
       "destination": "https://resf.org/faq/why-does-resf-exist"
     },
     {
-      "source": "/resf-faq/why-this-structure/",
+      "source": "/resf-faq/why-this-structure(/|)",
       "destination": "https://resf.org/faq/why-this-structure"
     },
     {
-      "source": "/bylaws-charter/",
+      "source": "/bylaws-charter(/|)",
       "destination": "https://resf.org/about"
     }
   ]
