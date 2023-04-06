@@ -19,7 +19,7 @@
     "@commitlint/config-conventional": "^15.0.0",
     "@devular/gatsby-plugin-plausible": "^0.1.8",
     "@headlessui/react": "^1.4.2",
-    "@heroicons/react": "^1.0.5",
+    "@heroicons/react": "^1.0.6",
     "@justinribeiro/share-to-mastodon": "^2.0.1",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",

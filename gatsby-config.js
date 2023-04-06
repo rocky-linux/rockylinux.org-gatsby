@@ -155,6 +155,7 @@ module.exports = {
             'support',
             'resf-faq',
             'merch',
+            'ai',
           ],
           returnObjects: true,
           interpolation: {
