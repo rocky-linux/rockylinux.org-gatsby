@@ -54,7 +54,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
                             </div>
                           </div>
                         </div>
-                        <div className="px-6 pb-14 pt-6 dark:text-gray-50 font-mono">
+                        <div className="px-6 pb-14 pt-6 text-gray-50 font-mono">
                           <p>import tensorflow as tf</p>
                           <p>
                             (x_train, y_train), (x_test, y_test) =
