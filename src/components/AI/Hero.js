@@ -90,7 +90,7 @@ const Hero = ({ pageContext: { locale: language } }) => {
           <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white dark:from-gray-900 sm:h-32" />
         </div>
       </div>
-      <div>
+      <div className="bg-white dark:bg-gray-900 py-24">
         <p className="text-gray-900 dark:text-white text-center">
           Let us know if you wish to see your favorite applications running on
           Rocky Linux.
