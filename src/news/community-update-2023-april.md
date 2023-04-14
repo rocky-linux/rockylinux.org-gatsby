@@ -40,7 +40,7 @@ The **Peridot** team is currently working on V2! Improving image building and wo
     <ul>
         <li>Say hello to the Windy City for us.</li>
     </ul>
-    <li>SE Linux Fest June 8-11 <a href="https://southeastlinuxfest.org/">https://southeastlinuxfest.org/<li>
+    <li>SE Linux Fest June 8-11 <a href="https://southeastlinuxfest.org/">https://southeastlinuxfest.org/</a><li>
     <ul>
         <li>See you in Charlotte! More info to follow.</li>
     </ul>
