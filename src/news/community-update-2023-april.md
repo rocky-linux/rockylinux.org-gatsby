@@ -36,11 +36,11 @@ The **Peridot** team is currently working on V2! Improving image building and wo
 ## Upcoming Events
 
 <ul>
-    <li>PG Day Chicago April 20 https://2023.pgdaychicago.org/</li>
+    <li>PG Day Chicago April 20 <a href=https://2023.pgdaychicago.org/">https://2023.pgdaychicago.org/</a></li>
     <ul>
         <li>Say hello to the Windy City for us.</li>
     </ul>
-    <li>SE Linux Fest June 8-11 https://southeastlinuxfest.org/<li>
+    <li>SE Linux Fest June 8-11 <a href="https://southeastlinuxfest.org/">https://southeastlinuxfest.org/<li>
     <ul>
         <li>See you in Charlotte! More info to follow.</li>
     </ul>
