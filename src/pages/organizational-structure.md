@@ -46,7 +46,7 @@ The Leadership team is responsible for the overall direction and coordination of
 The Community team moderates, engages, and supports users across all social media and discussion platforms. This team is also responsible for organizing community events, creating programs, celebrating community successes, and working with other teams to support community initiatives.
 
 - Team Leads:
-  - (Pro tempore) Brian Clemens
+  - Krista Burdine
 
 #### Design
 
