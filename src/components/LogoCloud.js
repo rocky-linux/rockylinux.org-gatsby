@@ -29,11 +29,11 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
             {translate('sponsors-partners.backed')}
           </p>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
-            <a href="https://ciq.co">
+            <a href="https://ciq.com">
               <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
                 <img
                   className="max-h-12"
-                  href="https://ciq.co"
+                  href="https://ciq.com"
                   src={CIQLogo}
                   alt="Ctrl IQ"
                 />
