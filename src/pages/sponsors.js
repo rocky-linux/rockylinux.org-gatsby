@@ -31,7 +31,7 @@ const SponsorsPage = () => {
       title: `${translate('sponsors.ciq.title')}`,
       blurb: `${translate('sponsors.ciq.blurb')}`,
       source: `${CiqLogo}`,
-      link: 'https://ciq.co/products/rocky-linux/',
+      link: 'https://ciq.com/products/rocky-linux/',
       dateStart: '2021-01-01',
       dateEnd: '2024-01-01',
     },

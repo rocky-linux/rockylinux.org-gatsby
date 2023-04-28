@@ -18,7 +18,7 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
       title: `${translate('support.ciq.title')}`,
       blurb: `${translate('support.ciq.blurb')}`,
       source: `${CiqLogo}`,
-      link: 'https://ciq.co/products/rocky-linux/',
+      link: 'https://ciq.com/products/rocky-linux/',
     },
     {
       name: `${translate('support.openlogic.name')}`,

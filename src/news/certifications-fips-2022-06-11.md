@@ -9,7 +9,7 @@ posttype: 'news'
 
 We are excited to announce that Rocky Linux has reached a significant step in the FIPS 140-3 validation process; right on schedule, Rocky Linux is now named in the [NIST Implementation Under Test List](https://csrc.nist.gov/Projects/Cryptographic-Module-Validation-Program/Modules-In-Process/IUT-List).
 
-A big, gigantic thank you to our founding partner and sponsor [@CtrlIQ](https://ciq.co/rocky-linux) (CIQ), who has arranged and paid for the FIPS validation process and will be providing it back to the entire RESF / Rocky community for free!
+A big, gigantic thank you to our founding partner and sponsor [@CtrlIQ](https://ciq.com/rocky-linux) (CIQ), who has arranged and paid for the FIPS validation process and will be providing it back to the entire RESF / Rocky community for free!
 
 This is not a small effort, the FIPS validation is a near million dollar investment, and even more including the engineering effort. We are all very grateful for this amazing contribution to the open source community!
 
