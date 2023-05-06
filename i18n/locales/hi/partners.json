@@ -1,58 +1,58 @@
 {
-  "title": "Partners",
-  "description": "Partners of the RESF represent ongoing relationships of strategic importance to the Rocky Linux project. Through dedication of engineering expertise, infrastructure resources, or other means, their support is critical to our continued success and long term stability.",
+  "title": "भागीदार या साथी",
+  "description": "RESF के भागीदार रॉकी लिनक्स परियोजना के लिए रणनीतिक महत्व के चल रहे संबंधों का प्रतिनिधित्व करते हैं। इंजीनियरिंग विशेषज्ञता, बुनियादी ढांचे के संसाधनों, या अन्य साधनों के समर्पण के माध्यम से, हमारी निरंतर सफलता और दीर्घकालिक स्थिरता के लिए उनका समर्थन महत्वपूर्ण है।",
   "partners": {
     "ciq": {
       "name": "CIQ",
-      "tier": "Founding Partner",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "tier": "संस्थापक भागीदार",
+      "blurb": "हम लोगों को महान काम करने में मदद करने में विश्वास करते हैं। यही कारण है कि सीआईक्यू आरईएसएफ का संस्थापक भागीदार है। हम रॉकी लिनक्स के लिए अनुसंधान, शिक्षा, सरकार, उद्यम, भागीदारों और बीच में सभी को ग्राहकों को वाणिज्यिक सहायता और सेवाएं प्रदान करते हैं।"
     },
     "arm": {
-      "name": "Arm",
-      "tier": "Principal Partner",
-      "blurb": "Arm is committed to ensuring its architecture is a first-class citizen from day one with Rocky Linux. We have partnered with the RESF, providing dedicated engineering efforts to complement Rocky Linux development and testing teams, working closely together to test, validate, and support ARM now and long into the future."
+      "name": "सज्जित",
+      "tier": "प्रधान भागीदार",
+      "blurb": "ARM यह सुनिश्चित करने के लिए प्रतिबद्ध है कि इसकी वास्तुकला रॉकी लिनक्स के साथ पहले दिन से प्रथम श्रेणी का नागरिक है। हमने आरईएसएफ के साथ भागीदारी की है, रॉकी लिनक्स विकास और परीक्षण टीमों के पूरक के लिए समर्पित इंजीनियरिंग प्रयास प्रदान करते हुए, ARM को अभी और भविष्य में परीक्षण, मान्य और समर्थन करने के लिए मिलकर काम कर रहे हैं।"
     },
     "equinix": {
-      "name": "Equinix",
-      "tier": "Principal Partner",
-      "blurb": "Equinix is the world's digital infrastructure company. Digital leaders harness our trusted platform to bring together and interconnect the foundational infrastructure that powers their success."
+      "name": "इक्विनिक्स",
+      "tier": "प्रधान भागीदार",
+      "blurb": "इक्विनिक्स दुनिया की डिजिटल इंफ्रास्ट्रक्चर कंपनी है। डिजिटल लीडर्स हमारी सफलता को शक्ति प्रदान करने वाले बुनियादी ढांचे को एक साथ लाने और आपस में जोड़ने के लिए हमारे विश्वसनीय मंच का उपयोग करते हैं।"
     },
     "fastly": {
-      "name": "Fastly",
-      "tier": "Principal Partner",
-      "blurb": "Fastly's edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers' applications as close to their end-users as possible — at the edge of the internet."
+      "name": "फास्टली ",
+      "tier": "प्रधान भागीदार",
+      "blurb": "फास्टली का एज क्लाउड प्लेटफॉर्म ग्राहकों को इंटरनेट के किनारे - जितना संभव हो सके अपने अंतिम उपयोगकर्ताओं के करीब प्रसंस्करण, सेवा और हमारे ग्राहकों के अनुप्रयोगों को सुरक्षित, सुरक्षित और विश्वसनीय रूप से महान डिजिटल अनुभव बनाने में सक्षम बनाता है।"
     },
     "mattermost": {
-      "name": "Mattermost",
-      "tier": "Principal Partner",
-      "blurb": "Mattermost is an open source messaging solution made for organizations with the highest security requirements. As big believers in the power of open source, Mattermost is thrilled to partner with RESF to help bring an enterprise-grade distribution of Linux to the tech community."
+      "name": "मत्तेरमोस्त ",
+      "tier": "प्रधान भागीदार",
+      "blurb": "मैटरमॉस्ट एक ओपन सोर्स मैसेजिंग समाधान है जो उच्चतम सुरक्षा आवश्यकताओं वाले संगठनों के लिए बनाया गया है। ओपन सोर्स की शक्ति में बड़े विश्वासियों के रूप में, मैटरमॉस्ट आरईएसएफ के साथ साझेदारी करके रोमांचित है ताकि तकनीकी समुदाय के लिए लिनक्स के उद्यम-ग्रेड वितरण को लाने में मदद मिल सके।"
     },
     "naver": {
       "name": "NAVER Cloud",
-      "tier": "Principal Partner",
-      "blurb": "NAVER Cloud Platform is a South Korean cloud service that started in 2017 under NAVER Cloud, a subsidiary of NAVER. It provides over 170 individual services in 2021 and holds various security certifications including CSA STAR GOLD, GDPR, and more. It also currently provides cloud services in 10 locations around the world."
+      "tier": "प्रधान भागीदार",
+      "blurb": "NAVER क्लाउड प्लेटफ़ॉर्म एक दक्षिण कोरियाई क्लाउड सेवा है जो NAVER की सहायक कंपनी NAVER क्लाउड के तहत 2017 में शुरू हुई थी। यह 2021 में 170 से अधिक व्यक्तिगत सेवाएं प्रदान करता है और सीएसए स्टार गोल्ड, जीडीपीआर, और अधिक सहित विभिन्न सुरक्षा प्रमाणपत्र रखता है। यह वर्तमान में दुनिया भर के 10 स्थानों में क्लाउड सेवाएं भी प्रदान करता है।"
     },
     "osl": {
-      "name": "OSU Open Source Labs",
-      "tier": "Principal Partner",
-      "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
+      "name": "OSU ओपन सोर्स लैब्स",
+      "tier": "प्रधान भागीदार",
+      "blurb": "ओरेगन स्टेट यूनिवर्सिटी ओपन सोर्स लैब एक गैर-लाभकारी संगठन है जो ओपन सोर्स प्रौद्योगिकियों की उन्नति के लिए काम कर रहा है। OSLओपन सोर्स मैनेजमेंट और प्रोग्रामिंग में रुचि रखने वाले होनहार छात्रों के लिए विश्व स्तरीय होस्टिंग सेवाएं, पेशेवर सॉफ्टवेयर विकास और ऑन-द-ग्राउंड प्रशिक्षण प्रदान करता है।"
     },
     "supermicro": {
       "name": "Supermicro",
-      "tier": "Principal Partner",
-      "blurb": "As a global leader in high performance, high-efficiency server technology, and innovation Supermicro is excited to work with the RESF and deliver data center servers and storage systems optimized for Rocky Linux."
+      "tier": "प्रधान भागीदार",
+      "blurb": "उच्च प्रदर्शन, उच्च दक्षता सर्वर प्रौद्योगिकी और नवाचार में एक वैश्विक नेता के रूप में सुपरमाइक्रो RESF के साथ काम करने और रॉकी लिनक्स के लिए अनुकूलित डेटा सेंटर सर्वर और स्टोरेज सिस्टम देने के लिए उत्साहित है।"
     },
     "crowdin": {
       "name": "Crowdin",
-      "tier": "Tier 4 Partner"
+      "tier": "टियर 4 पार्टनर"
     },
     "dsstudio": {
-      "name": "DotSlash Studio",
-      "tier": "Tier 4 Partner"
+      "name": "दोतस्लाश स्टूडियो ",
+      "tier": "टियर 4 पार्टनर"
     },
     "fathom": {
       "name": "Fathom",
-      "tier": "Tier 4 Partner"
+      "tier": "टियर 4 पार्टनर"
     }
   }
 }

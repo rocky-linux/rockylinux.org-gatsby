@@ -5,6 +5,7 @@
   "tiertwo": "Tier 2",
   "tierthree": "Tier 3",
   "tierfour": "Tier 4",
+  "priorsponsors": "Prior Sponsors",
   "blurb": {
     "lineone": "후원자가 되지 않겠습니까?",
     "linetwo": "지금 바로 연락주세요.",
@@ -51,13 +52,13 @@
       "name": "OpenDrives",
       "title": "주요 후원자",
       "tier": 1,
-      "blurb": "OpenDrives is a global provider of enterprise-scale, software-defined data storage solutions. Our technology is designed to power the most demanding workflows—on premises and in the cloud. Our commitment to open standards and protocols facilitates ease of integrations, making it simpler for customers to access, use, move, and protect their data. We are headquartered in Culver City, CA."
+      "blurb": "OpenDrives는 기업 규모의 소프트웨어 정의 데이터 저장소 해결책을 제공하는 세계적인 공급 업체입니다. 당사의 기술은 온프레미스(자체 보유한 서버에 직접 설치하여 운영하는 방식)와 클라우드에서 가장 까다로운 작업 절차를 지원하도록 설계되었습니다. 개방형 표준 및 규약에 대한 당사의 약속은 소비자들이 자신들의 데이터를 더 간단히 접근하고, 사용하고, 이동하고, 보호할 수 있도록 하며 통합을 용이하게 합니다. 본사는 캘리포니아 컬버에 있습니다. "
     },
     "rakutensymphony": {
       "name": "Rakuten Symphony",
       "title": "주요 후원자",
       "tier": 1,
-      "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks."
+      "blurb": "Rakuten Symphony는 오픈 소스 커뮤니티가 협업을 통해 혁신을 장려한다고 굳게 믿습니다. Rock Linux의 배포는 개방형 커뮤니티에 힘 입은 진정한 오픈 소스 원칙으로의 귀환을 나타냅니다. Rakuten Symphony는 Rocky Linux를 대규모 네트워크를 실행하는 표준 운영 체제로 만들기 위해 통신 업계 내의 광범위한 타사 공급 업체와 기술 파트너들과 긴밀하게 협력하고 있습니다. "
     },
     "vmware": {
       "name": "VMware",

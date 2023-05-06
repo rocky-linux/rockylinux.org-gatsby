@@ -1,5 +1,5 @@
 {
-  "language": "en",
+  "language": "fr",
   "js-warning": "Il semble que JavaScript soit désactivé dans votre navigateur. Alors que la plupart des zones de ce site fonctionnent sans utiliser JavaScript, vous pouvez rencontrer des expériences non voulues lors de votre navigation sur notre site. Veuillez envisager de faire une exception pour notre site dans les paramètres de votre navigateur.",
   "categories": {
     "news": "Actualités",
@@ -53,6 +53,6 @@
   "download": "Téléchargement",
   "copyright": {
     "line1": "© 2020-<0>2021</0> Rocky Enterprise Software Foundation. Tous droits réservés.",
-    "line2": "Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the US and other countries. We are not affiliated with, endorsed by or sponsored by Red Hat, Inc."
+    "line2": "Linux® est la marque déposée de Linus Torvalds aux États-Unis et dans d'autres pays. Red Hat Enterprise Linux, RHEL et CentOS sont des marques ou des marques déposées de Red Hat, Inc. ou de ses filiales aux États-Unis et dans d'autres pays. Nous ne sommes pas affiliés, approuvés ou sponsorisés par Red Hat, Inc."
   }
 }

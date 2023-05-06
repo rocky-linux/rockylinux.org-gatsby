@@ -1,13 +1,13 @@
 {
-  "title": "Cloud Images",
-  "description": "Find our official images from your favorite cloud provider.",
+  "title": "Εικόνες Cloud",
+  "description": "Βρείτε τις επίσημες εικόνες μας από τον αγαπημένο σας πάροχο cloud.",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
-    "arch": "Architecture",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "version": "Έκδοση Λειτουργικού Συστήματος",
+    "provider": "Πάροχος",
+    "region": "Περιοχή",
+    "arch": "Αρχιτεκτονική",
+    "id": "Ταυτότητα Εικόνας",
+    "deploy": "Ανάπτυξη Συνδέσμου"
   },
-  "deploy": "Deploy"
+  "deploy": "Ανάπτυξη"
 }

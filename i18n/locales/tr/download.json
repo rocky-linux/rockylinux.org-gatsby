@@ -5,45 +5,45 @@
   "rl9": "Rocky 9",
   "elCompat8": "Enterprise Linux v8 Compatible",
   "elCompat9": "Enterprise Linux v9 Compatible",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "rl8-eol": "<0>Planlanan Son Destek Tarihi:</0> 31 Mayıs 2029",
+  "rl9-eol": "<0>Planlanan Son Destek Tarihi:</0> 31 Mayıs 2032",
   "headings": {
-    "arch": "Architecture",
-    "isos": "ISOs",
-    "packages": "Packages"
+    "arch": "Mimari",
+    "isos": "ISOlar",
+    "packages": "Paketler"
   },
   "body": {
     "x86_64": "x86_64",
     "arm": "ARM64 (aarch64)",
     "minimal": "Minimal",
     "dvd": "DVD",
-    "boot": "Boot",
+    "boot": "Başlatma",
     "torrent": "Torrent",
-    "checksum": "Checksum",
+    "checksum": "Sağlama",
     "baseos": "BaseOS"
   },
   "links": {
-    "alt": "Alternative Images",
-    "bug": "Report Bug",
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "vault": "Archived Releases",
-    "verify": "Verify Download"
+    "alt": "Alternatif Görseller",
+    "bug": "Sorun Bildir",
+    "cloud": "Bulut İmajları",
+    "docs": "Dökümantasyon",
+    "vault": "Arşivlenmiş Sürümler",
+    "verify": "İndirmeyi Doğrula"
   },
   "get-involved": {
-    "heading": "Get Involved",
+    "heading": "Katkıda Bulun",
     "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
+    "heading": "ISO'lar arasındaki farklar neler?",
     "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
     "boot": {
-      "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Başlatma",
+      "body": "İşletim sistemini başka bir kaynaktan (binary dosyalarının HTTP deposu gibi) yüklemek için kullanılır. Kurtarma Modu'na girmek için de kullanılabilir."
     },
     "minimal": {
       "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "İşletim sistemini başka bir kaynaktan (binary dosyalarının HTTP deposu gibi) yüklemek için kullanılır. Kurtarma Modu'na girmek için de kullanılabilir."
     },
     "dvd": {
       "heading": "DVD",

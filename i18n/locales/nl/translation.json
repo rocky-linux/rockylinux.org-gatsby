@@ -9,7 +9,7 @@
     "get-involved": "Meehelpen",
     "legal": "Juridisch",
     "language": "Taal",
-    "foundation": "Foundation"
+    "foundation": "Stichting"
   },
   "about": {
     "about": "Over Rocky Linux",
@@ -43,8 +43,8 @@
     "privacy": "Privacybeleid"
   },
   "foundation": {
-    "charter": "RESF Charter & Bylaws",
-    "faq": "RESF FAQ"
+    "charter": "RESF Handvest & Statuten",
+    "faq": "RESF VGV"
   },
   "lang": {
     "choose": "Taal Kiezen",

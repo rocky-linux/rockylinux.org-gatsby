@@ -1,25 +1,25 @@
 {
-  "title": "Support Providers",
-  "description": "Commercial support for Rocky Linux is available from these sponsors and partners, as well as other non-affiliated companies.",
+  "title": "Destek Verenler",
+  "description": "Rocky Linux için ticari destek, bu sponsorlardan ve ortaklardan ve ayrıca diğer bağlı olmayan kuruluşlardan alınabilir.",
   "support": {
     "ciq": {
       "name": "CIQ",
       "tier": 1,
-      "title": "Founding Partner/Sponsor",
-      "blurb": "We believe in helping people do great things. This is why CIQ is a founding partner of the RESF. We provide commercial support and services for Rocky Linux to customers in research, academia, government, enterprise, partners, and everyone in between."
+      "title": "Kurucu Ortak/Desteçi",
+      "blurb": "İnsanların harika şeyler yapmasına yardım etmeye inanıyoruz. Bu yüzden CIQ olarak RESF'nin kurucu ortaklarından olduk. Araştırma, akademi, devlet, kuruluş, ortaklar ve herkese Rocky Linux için ticari destek ve hizmet sağlıyoruz."
     },
     "montavista": {
       "name": "MontaVista",
       "tier": 1,
-      "title": "Principal Sponsor",
-      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
+      "title": "Ana Sponsor",
+      "blurb": "MontaVista, 1999'dan beri Linux dağıtımları geliştirmektedir ve biz ise Linux'u bugünkü haline getiren erken katkıların arkasındayız. Birincil hedefimiz müşterilerimizin uzun vadede programları ile beraber müşterilerimizin başarılı olması ve alan desteği için ticari açıdan hizmet düzeyi anlaşmaları ve ürün yapılandırmanızda uzun vadeli CVE bakımı sağlamaktır."
     },
     "openlogic": {
       "name": "OpenLogic by Perforce",
       "tier": 4,
-      "title": "Tier 4 Sponsor",
-      "blurb": "OpenLogic delivers comprehensive support services for open source software, so that your teams can enjoy the benefits of using open source — and confidently meet your requirements including compliance with regulations such as GDPR, HIPAA, and PCI."
+      "title": "4. Kademe Sponsor",
+      "blurb": "OpenLogic, açık kaynaklı yazılımlar için kapsamlı destek hizmetleri sunar, böylece ekipleriniz açık kaynak kullanmanın avantajlarından yararlanabilir ve GDPR, HIPAA ve PCI gibi düzenlemelerle uyumluluk da dahil olmak üzere gereksinimlerinizi güvenle karşılayabilir."
     }
   },
-  "get": "Get Support"
+  "get": "Destek Alın"
 }

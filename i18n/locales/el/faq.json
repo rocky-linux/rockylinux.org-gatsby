@@ -1,30 +1,30 @@
 {
-  "title": "Frequently Asked Questions",
-  "description": "Below is a list of our most frequently asked questions.",
+  "title": "Συχνές ερωτήσεις",
+  "description": "Παρακάτω είναι μια λίστα με τις πιο συχνές ερωτήσεις μας.",
   "faq": {
     "1": {
       "question": "How can I help mirror current and future Rocky Linux releases?",
-      "answer": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
+      "answer": "Παρακαλούμε στείλτε email στο <0>mirrors@rockylinux.org</0> για να εκφράσετε το ενδιαφέρον σας."
     },
     "2": {
-      "question": "I encountered a bug while testing Rocky Linux, what can I do?",
-      "answer": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
+      "question": "Αντιμετώπισα ένα σφάλμα κατά τη δοκιμή Rocky Linux, τι μπορώ να κάνω?",
+      "answer": "Αρχικά, δημιουργήστε ένα λογαριασμό χρησιμοποιώντας <0>Υπηρεσίες Λογαριασμού Rocky Linux</0>, στη συνέχεια κατευθυνθείτε στον <1>διακομιστή Bugzilla</1> για να αναφέρετε τυχόν σφάλματα."
     },
     "3": {
-      "question": "How can I get involved with the Testing Team?",
-      "answer": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There's also a testing topic on the forums for more durable conversation."
+      "question": "Πώς μπορώ να ασχοληθώ με την ομάδα δοκιμών?",
+      "answer": "Παρακαλώ συμμετάσχετε στο κανάλι <0>~Testing</0> στο διακομιστή μας Mattermost για να ξεκινήσετε. Υπάρχει επίσης ένα θέμα δοκιμών στα φόρουμ για πιο ανθεκτική συνομιλία."
     },
     "4": {
-      "question": "Where can I find the latest news about Rocky Linux?",
-      "answer": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
+      "question": "Πού μπορώ να βρω τα τελευταία νέα σχετικά με το Rocky Linux?",
+      "answer": "Μείνετε συντονισμένοι στην ιστοσελίδα μας, το Twitter, το LinkedIn, φόρουμ και άλλες πλατφόρμες που αναφέρονται στον κατάλογο συνδέσμων μας για τις τελευταίες ανακοινώσεις."
     },
     "5": {
-      "question": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
-      "answer": "First, we've taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We've achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we've drafted a community charter that defines the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0>Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization.</0> Finally, we're architecting and deploying the necessary infrastructure to further enable to the community to contribute to Rocky Linux."
+      "question": "Πώς θα εξασφαλίσετε ότι το Rocky Linux παραμένει πραγματικά ένα λειτουργικό σύστημα της κοινότητας?",
+      "answer": "Πρώτον, έχουμε λάβει μέτρα για να προστατεύσουμε νομικά το όνομα Rocky Linux. Αυτό σημαίνει την καταχώρηση των εμπορικών σημάτων της και διαφόρων συναφών ιδιοτήτων για την προστασία τους από τον έλεγχο από άλλη οντότητα. Το επιτύχαμε αυτό με τη δημιουργία τους στο πλαίσιο του Rocky Enterprise Software Foundation (RESF). Στη συνέχεια, έχουμε συντάξει ένα κοινοτικό χάρτη που ορίζει την οργανωτική δομή, τους στόχους, τις αξίες και την αποστολή πίσω από τη νομική οντότητα που αντιπροσωπεύει το Rocky Linux. Κρίσιμη σε αυτόν τον χάρτη είναι η θέσπιση αρχών που επιτρέπουν και προστατεύουν την κοινότητα: διαφάνεια, κοινοτική συμμετοχή, ανοιχτή ανάπτυξη και ανεξαρτησία. <0>Το Rocky Linux δεν θα ελέγχεται ποτέ, αγοράζεται ή επηρεάζεται με άλλο τρόπο από μια ενιαία οντότητα ή οργανισμό. </0> Επιτέλους, δημιουργούμε και αναπτύσσουμε τις απαραίτητες υποδομές για να μπορέσουμε περαιτέρω στην κοινότητα να συνεισφέρουμε στο Rocky Linux."
     },
     "6": {
-      "question": "What if I have feedback or my question wasn't answered here?",
-      "answer": "Please email us: <0>hello@rockylinux.org</0> and we'll get back to you as soon as we can."
+      "question": "Τι είναι το αν έχω σχόλια ή η ερώτησή μου δεν απαντήθηκε εδώ?",
+      "answer": "Παρακαλώ στείλτε μας email στο: <0>hello@rockylinux.org</0> και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατόν."
     }
   }
 }

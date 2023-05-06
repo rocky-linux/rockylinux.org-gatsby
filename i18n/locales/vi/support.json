@@ -5,14 +5,14 @@
     "ciq": {
       "name": "CIQ",
       "tier": 1,
-      "title": "Founding Partner/Sponsor",
+      "title": "Đối tác đồng sáng lập/Nhà tài trợ",
       "blurb": "Chúng tôi tin rằng việc giúp đỡ lẫn nhau sẽ luôn mang lại kết quả tuyệt vời. Đó là lý do tại sao CIQ là nhà tài trợ kiêm đồng sáng lập của RESF. Chúng tôi cung cấp các dịch vụ hỗ trợ và các dịch vụ liên quan đến Rocky Linux cho các khách hàng thuộc các lĩnh vực nghiên cứu, hàn lâm, chính phủ, doanh nghiệp, các đối tác, và các đối tượng khách hàng khác có nhu cầu."
     },
     "montavista": {
       "name": "MontaVista",
       "tier": 1,
       "title": "Nhà tài trợ chính",
-      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
+      "blurb": "MontaVista đã thực hiện việc xây dựng các bản phân phối Linux từ năm 1999, chúng tôi đã đứng sau một số đóng góp mang tính nền móng để tạo nên Linux của hiện tại. Mục tiêu chính của chúng tôi là đảm bảo sự thành công lâu dài cho các chương trình của khách hàng và cung cấp một dịch vụ có chất lượng đạt chuẩn thương mại dành cho việc hỗ trợ và bảo trì dài hạn với các CVE theo đúng cấu hình trên sản phẩm của bạn."
     },
     "openlogic": {
       "name": "OpenLogic bởi Perforce",

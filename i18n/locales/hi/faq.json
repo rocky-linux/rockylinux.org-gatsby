@@ -1,30 +1,30 @@
 {
-  "title": "Frequently Asked Questions",
-  "description": "Below is a list of our most frequently asked questions.",
+  "title": "अधिकतर पूछे जाने वाले सवाल",
+  "description": "नीचे हमारे अक्सर पूछे जाने वाले प्रश्नों की एक सूची है।",
   "faq": {
     "1": {
-      "question": "How can I help mirror current and future Rocky Linux releases?",
-      "answer": "Please email <0>mirrors@rockylinux.org</0> to express your interest."
+      "question": "मैं वर्तमान और भविष्य के Rocky Linux प्रकाशन को mirror करने में कैसे मदद कर सकता हूं?",
+      "answer": "अपनी रुचि व्यक्त करने के लिए कृपया <0>mirrors@rockylinux.org</0> ईमेल करें।"
     },
     "2": {
-      "question": "I encountered a bug while testing Rocky Linux, what can I do?",
-      "answer": "First, create an account using <0>Rocky Linux Account Services</0>, then head over to our <1>Bugzilla server</1> to report any bugs."
+      "question": "Rocky Linux का परीक्षण करते समय मुझे एक त्रुटि का सामना करना पड़ा, मैं क्या कर सकता हूं?",
+      "answer": "सबसे पहले, <0>Rocky Linux खाता सेवाएं</0> का उपयोग करके एक खाता बनाएं, फिर किसी भी बग की रिपोर्ट करने के लिए हमारे <1>Bugzilla सर्वर</1> पर जाएं।"
     },
     "3": {
-      "question": "How can I get involved with the Testing Team?",
-      "answer": "Please join the <0>~Testing</0> channel on our Mattermost server to get started. There's also a testing topic on the forums for more durable conversation."
+      "question": "मैं टेस्टिंग टोली के साथ कैसे जुड़ सकता हूं?",
+      "answer": "आरंभ करने के लिए कृपया हमारे Mattermost सर्वर पर <0>~परीक्षण</0> चैनल से जुड़ें। अधिक टिकाऊ बातचीत के लिए मंचों पर एक परीक्षण विषय भी है।"
     },
     "4": {
-      "question": "Where can I find the latest news about Rocky Linux?",
-      "answer": "Stay tuned to our website, Twitter, LinkedIn, forums, and other platforms listed in our link directory for the latest announcements."
+      "question": "मुझे Rocky Linux के बारे में नवीनतम समाचार कहां मिल सकते हैं?",
+      "answer": "नवीनतम घोषणाओं के लिए हमारी लिंक निर्देशिका में सूचीबद्ध हमारी वेबसाइट, Twitter, LinkedIn, फोरमों और अन्य मंचों पर बने रहें।"
     },
     "5": {
-      "question": "How will you ensure that Rocky Linux truly remains a community enterprise operating system?",
-      "answer": "First, we've taken steps to legally protect the Rocky Linux name. This means registering its trademarks and various associated properties to protect them from being controlled by another entity. We've achieved this by establishing them under the Rocky Enterprise Software Foundation (RESF). Next, we've drafted a community charter that defines the organizational structure, objectives, values, and mission behind the legal entity that represents Rocky Linux. Critical in this charter is the establishment of principles that enable and protect the community: transparency, community involvement, open development, and independence. <0>Rocky Linux will never be controlled, purchased, or otherwise influenced by a single entity or organization.</0> Finally, we're architecting and deploying the necessary infrastructure to further enable to the community to contribute to Rocky Linux."
+      "question": "आप कैसे सुनिश्चित करेंगे कि Rocky Linux वास्तव में एक सामुदायिक उद्यम ऑपरेटिंग सिस्टम बना रहे?",
+      "answer": "सबसे पहले, हमने Rocky Linux नाम को कानूनी रूप से सुरक्षित रखने के लिए कदम उठाए हैं। इसका अर्थ है अपने व्यापार-चिह्न और विभिन्न संबद्ध संपत्तियों को किसी अन्य संस्था द्वारा नियंत्रित होने से बचाने के लिए पंजीकृत करना। हमने इसे Rocky Enterprise Software Foundation (RESF) के तहत स्थापित करके हासिल किया है। इसके बाद, हमने एक सामुदायिक घोषणापत्र का मसौदा तैयार किया है जो Rocky Linux का प्रतिनिधित्व करने वाली कानूनी इकाई के पीछे संगठनात्मक संरचना, उद्देश्यों, मूल्यों और मिशन को परिभाषित करता है। इस घोषणापत्र में महत्वपूर्ण सिद्धांतों की स्थापना है जो समुदाय को सक्षम और संरक्षित करते हैं: पारदर्शिता, सामुदायिक भागीदारी, खुला विकास और स्वतंत्रता। <0>Rocky Linux को कभी भी एक इकाई या संगठन द्वारा नियंत्रित, खरीदा या अन्यथा प्रभावित नहीं किया जाएगा।</0> अंत में, हम Rocky Linux में योगदान करने के लिए समुदाय को और सक्षम करने के लिए आवश्यक बुनियादी ढांचे को तैयार और तैनात कर रहे हैं।"
     },
     "6": {
-      "question": "What if I have feedback or my question wasn't answered here?",
-      "answer": "Please email us: <0>hello@rockylinux.org</0> and we'll get back to you as soon as we can."
+      "question": "क्या होगा यदि मेरे पास प्रतिक्रिया है या मेरे प्रश्न का उत्तर यहां नहीं दिया गया है?",
+      "answer": "कृपया हमें ईमेल करें: <0>hello@rockylinux.org</0> और हम जल्द से जल्द आपसे संपर्क करेंगे।"
     }
   }
 }

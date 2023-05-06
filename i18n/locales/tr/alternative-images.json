@@ -1,25 +1,25 @@
 {
-  "title": "Alternative Images",
-  "description": "The images provided on this page are available from one of our trusted mirrors, but aren't officially supported.",
+  "title": "Alternatif Görseller",
+  "description": "Bu sayfadaki görsellere güvenilir aynalarımızdan erişebilirsiniz ancak aynalarımız resmi olarak desteklenmemektedir.",
   "rl8": "Rocky Linux 8",
   "rl9": "Rocky Linux 9",
-  "rl8-eol": "<0>Planned EOL:</0> May 31 2029",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
-  "desktop": "Desktop (SIG)",
-  "alt-arch": "Alternative Architectures (SIG)",
+  "rl8-eol": "<0>Planlanan Son Destek Tarihi:</0> 31 Mayıs 2029",
+  "rl9-eol": "<0>Planlanan Son Destek Tarihi:</0> 31 Mayıs 2032",
+  "desktop": "Masaüstü (SIG)",
+  "alt-arch": "Alternatif Mimariler (SIG)",
   "cloud": "Generic Cloud / OpenStack",
   "headings": {
-    "isos": "ISOs",
-    "packages": "Packages",
-    "de": "Desktop Environment",
-    "checksum": "Checksum",
-    "arch": "Architecture",
-    "download": "Download",
-    "readme": "Readme"
+    "isos": "ISOlar",
+    "packages": "Paketler",
+    "de": "Masaüstü Ortamı",
+    "checksum": "Sağlama",
+    "arch": "Mimari",
+    "download": "İndir",
+    "readme": "Beni oku"
   },
   "body": {
-    "gnome": "GNOME (Workstation)",
-    "gnome-lite": "GNOME (Lite Workstation)",
+    "gnome": "GNOME (İş İstasyonu)",
+    "gnome-lite": "GNOME (Hafif İş İstasyonu)",
     "xfce": "XFCE",
     "kde": "KDE",
     "rpi": "Raspberry Pi (aarch64)",
@@ -28,33 +28,33 @@
     "ppc64le": "ppc64le",
     "s390x": "s390x",
     "mate": "MATE",
-    "checksum": "Checksum",
-    "download": "Download",
-    "readme": "Readme"
+    "checksum": "Sağlama",
+    "download": "İndir",
+    "readme": "Beni oku"
   },
   "links": {
-    "cloud": "Cloud Images",
-    "docs": "Documentation",
-    "bug": "Report Bug"
+    "cloud": "Bulut İmajları",
+    "docs": "Dökümantasyon",
+    "bug": "Sorun Bildir"
   },
   "get-involved": {
-    "heading": "Get Involved",
-    "body": "As you download and use Rocky Linux, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "heading": "Katkıda Bulun",
+    "body": "Rocky Linux'u indirdiğinizde, Rocky Enterprise Software Foundation sizi <0>topluluğun bir parçası olarak katkıda bulunmaya</0> davet eder. Topluluğa katkı sağlamak için farklı seçenekler vardır, bunlar: dokümantasyona katkı sağlamak, kalite güvencesi, SIGler için kodlama değişikliklerini test etmek, depolama ve aynalama sağlamak ve diğer kullanıcılara destek olmak olabilir."
   },
   "isos": {
-    "heading": "What's the difference between the ISOs?",
-    "body": "Various installation images are available for installing Rocky Linux. Which image you need to download depends on your installation environment and use-case.",
+    "heading": "ISO'lar arasındaki farklar neler?",
+    "body": "Rocky Linux'u kurmak için farklı imaj seçenekleri mevcuttur. Hangisini seçeceğiniz kurulum ortamınıza ve kullanım amacınıza bağlıdır.",
     "boot": {
-      "heading": "Boot",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "heading": "Başlatma",
+      "body": "İşletim sistemini başka bir kaynaktan (binary dosyalarının HTTP deposu gibi) yüklemek için kullanılır. Kurtarma Modu'na girmek için de kullanılabilir."
     },
     "minimal": {
       "heading": "Minimal",
-      "body": "Used to install the operating system from another source (such as a HTTP repository of the binary files). Can also be used to enter Rescue Mode."
+      "body": "İşletim sistemini başka bir kaynaktan (binary dosyalarının HTTP deposu gibi) yüklemek için kullanılır. Kurtarma Modu'na girmek için de kullanılabilir."
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky Linux from the DVD ISO is the easiest and most common method of performing a standard Rocky Linux 8 installation."
+      "body": "Tam kurulum BaseOS ve AppStream depolarını içerir ve ek depolara ihtiyaç duymadan kurulumu bitirebilir. Rocky Linux'ı DVD ISO ile kurmak standart bir Rocky Linux 8 kurulumunu gerçekleştirmenin en kolay ve en yaygın yoludur."
     }
   }
 }

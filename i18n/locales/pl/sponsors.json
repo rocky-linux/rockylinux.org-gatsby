@@ -5,6 +5,7 @@
   "tiertwo": "Poziom 2",
   "tierthree": "Poziom 3",
   "tierfour": "Poziom 4",
+  "priorsponsors": "Prior Sponsors",
   "blurb": {
     "lineone": "Czy chcesz zostać sponsorem?",
     "linetwo": "Skontaktuj się już dziś.",
@@ -57,7 +58,7 @@
       "name": "Rakuten Symphony",
       "title": "Sponsor Główny",
       "tier": 1,
-      "blurb": "Rakuten Symphony is a strong believer that open source communities encourage innovation through collaboration. Deployment of Rocky Linux represents a return to true open-source principles, powered by open communities. Rakuten Symphony is working closely with a broad spectrum of third-party vendors and technology partners within the telecom industry to make Rocky Linux the standard operating system for running large networks."
+      "blurb": "Rakuten Symphony jest silnym przekonaniem, że społeczności open source zachęcają do innowacji poprzez współpracę. Wdrożenie Rocky Linux reprezentuje powrót do prawdziwych zasad open source, opartych na otwartych społecznościach. Rakuten Symphony ściśle współpracuje z szerokim spektrum zewnętrznych dostawców i partnerów technologicznych w branży telekomunikacyjnej, aby Rocky Linux stał się standardowym systemem operacyjnym dla prowadzenia dużych sieci."
     },
     "vmware": {
       "name": "VMware",
@@ -66,7 +67,7 @@
       "blurb": "Firma VMware jest wiodącym dostawcą usług chmury obliczeniowej dla wszystkich aplikacji, umożliwiając innowacje cyfrowe przy zachowaniu kontroli nad przedsiębiorstwem."
     },
     "openlogic": {
-      "name": "OpenLogic by Perforce",
+      "name": "OpenLogic tworzone przez Perforce",
       "title": "Sponsor 4 Poziomu",
       "tier": 4
     },

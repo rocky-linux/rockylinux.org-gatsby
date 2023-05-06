@@ -1,13 +1,13 @@
 {
   "title": "Imágenes para la nube",
-  "description": "Find our official images from your favorite cloud provider.",
+  "description": "Encuentra nuestras imágenes oficiales en tu proveedor de cloud favorito",
   "headings": {
-    "version": "OS Version",
-    "provider": "Provider",
-    "region": "Region",
+    "version": "Versión del Sistema Operativo",
+    "provider": "Proveedor",
+    "region": "Región",
     "arch": "Arquitectura",
-    "id": "Image ID",
-    "deploy": "Deploy Link"
+    "id": "ID de la imagen",
+    "deploy": "Link de lanzamiento"
   },
-  "deploy": "Deploy"
+  "deploy": "Desplegar"
 }

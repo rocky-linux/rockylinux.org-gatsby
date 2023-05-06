@@ -1,12 +1,12 @@
 {
-  "title": "Download Rocky",
-  "description": "Download the official release of Rocky from one of our trusted mirrors.",
+  "title": "下載 Rocky",
+  "description": "從我們信任的鏡像伺服器中下載 Rocky 的官方版本。",
   "rl8": "Rocky 8",
   "rl9": "Rocky 9",
-  "elCompat8": "Enterprise Linux v8 Compatible",
-  "elCompat9": "Enterprise Linux v9 Compatible",
+  "elCompat8": "相容於 Enterprise Linux v8",
+  "elCompat9": "相容於 Enterprise Linux v9",
   "rl8-eol": "<0>計畫的停止維護期限:</0> 2029年05月31日",
-  "rl9-eol": "<0>Planned EOL:</0> May 31 2032",
+  "rl9-eol": "<0>計畫的停止維護期限：</0>2032年5月31日",
   "headings": {
     "arch": "架構",
     "isos": "ISO",
@@ -28,15 +28,15 @@
     "cloud": "雲鏡像",
     "docs": "檔案",
     "vault": "存檔版本",
-    "verify": "Verify Download"
+    "verify": "驗證下載"
   },
   "get-involved": {
     "heading": "參與貢獻",
-    "body": "As you download and use Rocky, the Rocky Enterprise Software Foundation invites you to <0>be a part of the community as a contributor</0>. There are many ways to contribute to the project, from documentation, QA, and testing to coding changes for SIGs, providing mirroring or hosting, and helping other users."
+    "body": "當您下載和使用Rocky 時，RESF（Rocky Enterprise Software Foundation，Rocky企業軟件基金會）邀請您<0>成為社區的一名貢獻者</0>。 有許多形式可以為項目做出貢獻，從文件、QA、測試SIG（Special interest group，特別興趣小組）做的程式碼變更、提供鏡像或託管以及幫助其他使用者。"
   },
   "isos": {
     "heading": "ISO鏡像文件之間有什麼區別？",
-    "body": "Various installation images are available for installing Rocky. Which image you need to download depends on your installation environment and use-case.",
+    "body": "可以使用各式各樣的安裝映像檔來安裝 Rocky，您需要下載哪個映像檔，取決於您的安裝環境與使用狀況。",
     "boot": {
       "heading": "Boot",
       "body": "用於從另一個源（例如二進位檔案的HTTP存儲庫）安裝作業系統，也可以用來進入救援模式。"
@@ -47,7 +47,7 @@
     },
     "dvd": {
       "heading": "DVD",
-      "body": "A full installation that contains the BaseOS and AppStream repositories and allows you to complete the installation without additional repositories. Installing Rocky from the DVD ISO is the easiest and most common method of performing a standard Rocky 8 installation."
+      "body": "含有 BaseOS 與 AppStream 軟體倉庫的完整安裝，可允許您在沒有額外軟體倉庫的情况下完成安裝。從 DVD ISO 映像檔中安裝 Rocky 是執行標準 Rocky 8 安裝的最簡單與最常見的方法。"
     }
   }
 }

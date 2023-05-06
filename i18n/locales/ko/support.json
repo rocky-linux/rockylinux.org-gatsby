@@ -1,24 +1,24 @@
 {
   "title": "지원 제공자",
-  "description": "Commercial support for Rocky Linux is available from these sponsors and partners, as well as other non-affiliated companies.",
+  "description": "Rocky Linux에 대한 상업적 지원은 아래의 후원자, 파트너 그리고 기타 비계열 회사에서 제공됩니다.",
   "support": {
     "ciq": {
       "name": "CIQ",
       "tier": 1,
-      "title": "Founding Partner/Sponsor",
+      "title": "설립 파트너/후원자",
       "blurb": "우리는 사람들이 위대한 일을 할 수 있도록 도와야 한다고 믿습니다. 이것이 CIQ가 RESF의 창립 파트너인 이유입니다. 우리는 연구, 학계, 정부, 기업, 파트너 및 그 사이의 모든 고객에게 Rocky Linux에 대한 상업적 지원 및 서비스를 제공합니다."
     },
     "montavista": {
       "name": "MontaVista",
       "tier": 1,
       "title": "주요 후원자",
-      "blurb": "MontaVista has been building Linux distributions since 1999, and we have been behind some of the early contributions that made Linux what it is today. Our primary goal is making sure our customers are successful with their programs on the long term and provide commercial grade service level agreements for field support and long-term CVE maintenance on your exact product configuration."
+      "blurb": "MontaVista는 1999년부터 Linux 배포판을 구축해왔고, 당사는 오늘날의 Linux를 만든 초창기에 일부 기여하였습니다. 당사의 주요 목표는 고객이 장기적으로 프로그램을 성공적으로 수행하고 정확한 제품 구성에 대한 현장 지원과 장기 CVE 유지 보수를 위한 상용 수준의 서비스 수준 계약을 제공하는 것입니다. "
     },
     "openlogic": {
       "name": "OpenLogic by Perforce",
       "tier": 4,
       "title": "Tier 4 후원자",
-      "blurb": "OpenLogic delivers comprehensive support services for open source software, so that your teams can enjoy the benefits of using open source — and confidently meet your requirements including compliance with regulations such as GDPR, HIPAA, and PCI."
+      "blurb": "OpenLogic은 오픈 소스 소프트웨어에 대한 포괄적인 지원 서비스를 제공하여 귀사의 팀이 오픈 소스 사용의 이점을 누리고 GDPR, HIPAA 및 PCI와 같은 규정 준수를 비롯한 귀사의 요구사항을 확실하게 충족할 수 있도록 지원합니다."
     }
   },
   "get": "지원 받기"

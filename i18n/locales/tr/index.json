@@ -1,36 +1,36 @@
 {
   "hero": {
-    "new": "What's New",
-    "title": "Enterprise Linux, the community way.",
-    "description": "Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux<0>&#174;</0>. It is under intensive development by the community.",
-    "cta1": "Download",
-    "cta2": "Migrate"
+    "new": "Yenilikler",
+    "title": "Kurumsal Linux, topluluk ile.",
+    "description": "Rocky Linux, Red Hat Enterprise Linux<0>&#174;</0> ile %100 aynı sorunlara sahip olması için tasarlanan açık kaynaklı kurumsal işletim sistemidir. Topluluk tarafından yoğun bir şekilde geliştirilmektedir.",
+    "cta1": "İndir",
+    "cta2": "Geçiş"
   },
   "features": {
-    "title": "Rock solid, no matter the use-case.",
-    "subtitle": "Stable, production ready Linux",
-    "description": "Rocky Linux rebuilds sources directly from RHEL<0>&#174;</0>, so you can bet your best dollar that you'll have a super stable experience, no matter the use-case.",
+    "title": "Kaya gibi, n'olursa olsun.",
+    "subtitle": "Kararlı, üretime hazır Linux",
+    "description": "Rocky Linux kaynaklarını doğrudan RHEL<0>&#174;</0>'den oluşturur, ne olursa olsun süper istikrarlı bir deneyim yaşayacağınıza dair uğurlu paranızı bahse koyabilirsiniz.",
     "1": {
-      "title": "Production Ready",
-      "description": "Rocky Linux is enterprise-ready, providing solid stability with regular updates and a 10-year support lifecycle, all at no cost."
+      "title": "Üretime Hazır",
+      "description": "Rocky Linux kurumsal kullanımı hazırdır, düzenli güncellemeler ve 10 yıllık yaşam döngüsü ile sağlam bir kararlılık sağlar, üstelik hiçbir ücret ödemeden."
     },
     "2": {
-      "title": "Community Supported",
-      "description": "The community, sponsors, and partners have invested with long-term commitments to ensure the project stays with the community."
+      "title": "Topluluk Destekli",
+      "description": "Topluluk, sponsorlar ve partnerler; projenin topluluğun yanında olmasını sağlamak için uzun süreli yatırımlar yaptı."
     },
     "3": {
-      "title": "Easy Migration",
-      "description": "Migrate from other Enterprise Linux distributions without sweating it. We provide an easy-to-use migration script, free of charge."
+      "title": "Kolay Geçiş",
+      "description": "Terlemeden diğer Kurumsal Linux dağıtımlarından geçiş yapın. Ücretsiz olarak kullanımı kolay bir geçiş betiği sağlıyoruz."
     }
   },
   "latest-news": {
-    "title": "Latest News",
-    "description": "We regularly share updates with the community about what's happening. Here's the latest."
+    "title": "Son Haberler",
+    "description": "Topluluk ile neler olduğuna dair düzenli güncellemeler paylaşıyoruz. İşte en sonuncusu."
   },
   "sponsors-partners": {
-    "backed": "Backed By",
-    "sponsors": "All Sponsors",
-    "partners": "All Partners",
-    "support": "Support Partners"
+    "backed": "Destekleyenler",
+    "sponsors": "Tüm Sponsorlar",
+    "partners": "Tüm Ortaklar",
+    "support": "Sponsor Ortaklar"
   }
 }

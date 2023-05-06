@@ -5,6 +5,7 @@
   "tiertwo": "Niveau 2",
   "tierthree": "Niveau 3",
   "tierfour": "Niveau 4",
+  "priorsponsors": "Prior Sponsors",
   "blurb": {
     "lineone": "Vous voulez être un sponsor ?",
     "linetwo": "Contactez-nous aujourd'hui.",
@@ -51,7 +52,7 @@
       "name": "OpenDrives",
       "title": "Sponsor principal",
       "tier": 1,
-      "blurb": "OpenDrives is a global provider of enterprise-scale, software-defined data storage solutions. Our technology is designed to power the most demanding workflows—on premises and in the cloud. Our commitment to open standards and protocols facilitates ease of integrations, making it simpler for customers to access, use, move, and protect their data. We are headquartered in Culver City, CA."
+      "blurb": "OpenDrives est un fournisseur mondial de solutions logicielles de stockage de données à l'échelle de l'entreprise. Notre technologie est conçue pour alimenter les flux de travail les plus exigeants, sur site et dans le cloud. Notre engagement envers des normes et des protocoles ouverts facilite les intégrations, ce qui simplifie l'accès, l'utilisation, le transfert et la protection de leurs données pour les clients. Notre siège social est situé à Culver City, en Californie."
     },
     "rakutensymphony": {
       "name": "Rakuten Symphony",
