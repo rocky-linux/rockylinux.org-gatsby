@@ -15,6 +15,7 @@ import OslLogo from '../images/osl.png';
 import SupermicroLogo from '../images/supermicro.png';
 import CrowdinLogo from '../images/crowdin.png';
 import DsStudioLogo from '../images/dsstudio.png';
+import ActLogo from '../images/act.png';
 
 const PartnersPage = () => {
   const translate = Translate('partners');
@@ -25,6 +26,13 @@ const PartnersPage = () => {
       blurb: `${translate('partners.ciq.blurb')}`,
       source: `${CiqLogo}`,
       link: 'https://ciq.com/products/rocky-linux/',
+    },
+    {
+      name: `${translate('partners.act.name')}`,
+      tier: `${translate('partners.act.tier')}`,
+      blurb: `${translate('partners.act.blurb')}`,
+      source: `${ActLogo}`,
+      link: 'https://advancedclustering.com/',
     },
     {
       name: `${translate('partners.arm.name')}`,
