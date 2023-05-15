@@ -53,6 +53,11 @@
     "fathom": {
       "name": "Fathom",
       "tier": "Tier 4 パートナー"
+    },
+    "act": {
+      "name": "Advanced Clustering Technologies",
+      "tier": "Principal Partner",
+      "blurb": "Advanced Clustering Technologies has been building custom, turn-key high performance computing systems since 2001. We provide on premises and cloud HPC solutions based on the latest architectures. Learn more, configure a system, and request a quote at advancedclustering.com."
     }
   }
 }
