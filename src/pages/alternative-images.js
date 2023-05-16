@@ -392,6 +392,71 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                     </tbody>
                   </table>
                 </div>
+                <h2 className="text-center mb-4 font-bold text-xl dark:text-white font-display">
+                  {translate('body.cinnamon')}
+                </h2>
+                <div className="shadow overflow-hidden border-b border-gray-200 dark:border-gray-700 sm:rounded-lg mb-20">
+                  <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead className="bg-gray-100 dark:bg-gray-800">
+                      <tr>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
+                        >
+                          {translate('headings.arch')}
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider font-display"
+                        >
+                          {translate('headings.isos')}
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="bg-white dark:bg-gray-700">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                          {translate('body.x86_64')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-Cinnamon-x86_64-latest.iso"
+                          >
+                            {translate('body.download')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-Cinnamon-x86_64-latest.iso.CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                      </tr>
+                      <tr className="bg-gray-100 dark:bg-gray-800">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-200">
+                          {translate('body.arm')}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-Cinnamon-aarch64-latest.iso"
+                          >
+                            {translate('body.download')}
+                          </a>{' '}
+                          |&nbsp;
+                          <a
+                            className="font-medium text-green-600 dark:text-green-500"
+                            href="https://dl.rockylinux.org/pub/rocky/9/live/aarch64/Rocky-9-Cinnamon-aarch64-latest.iso.CHECKSUM"
+                          >
+                            {translate('body.checksum')}
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
                 <h2 className="text-center mb-4 font-bold text-2xl dark:text-white font-display">
                   {translate('alt-arch')}
                 </h2>
