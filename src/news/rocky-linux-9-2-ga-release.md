@@ -17,6 +17,10 @@ This issue is reproducible on CentOS Stream 9 and RHEL 9.2. We have opened a bug
 
 The release of Rocky Linux 9.2 for ppc64le has been delayed until this issue is fixed. The release candidates for x86_64, aarch64, and s390x passed all testing procedures, and thus will be released as normal.
 
+#### Workaround for DNF on ppc64le
+
+Because the ppc64le artifacts are unavailable, running DNF from a ppc64le Rocky 9 system that is configured to use the mirrorlist and/or is configured with the dnf variable `releasever` set to `9` will result in failed DNF metadata transactions as our mirrorlist is unable to hold back a single architecture. To work around this, please set the `releasever` variable to `9.1`. This can be done by using the `--releasever 9.1` argument to your DNF command, or by editing or creating the file `/etc/dnf/vars/releasever` with the content `9.1`. Once 9.2 for Power is released, you will need to undo this change and setting releasever will no longer be necessary.
+
 ### Breaking Changes
 
 * centos-release-nfv now provides content built on RHEL 9 buildroots.
