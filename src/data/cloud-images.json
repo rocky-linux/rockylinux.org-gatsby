@@ -3,17 +3,33 @@
     "version": "8.7",
     "provider": "AWS",
     "region": "ap-south-1",
-    "architecture": "x86_64",
-    "imageid": "ami-08c20f50324d882ad",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-08c20f50324d882ad"
+    "architecture": "arm64",
+    "imageid": "ami-0673c59d7272de474",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0673c59d7272de474"
   },
   {
-    "version": "8.5",
+    "version": "8.6",
     "provider": "AWS",
     "region": "ap-south-1",
     "architecture": "arm64",
-    "imageid": "ami-0f9e8f0b3490c929c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0f9e8f0b3490c929c"
+    "imageid": "ami-01c09e60d533c2a72",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-01c09e60d533c2a72"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-0430ac252d91a6e7d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0430ac252d91a6e7d"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0859aee7c46b16bd6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0859aee7c46b16bd6"
   },
   {
     "version": "9.1",
@@ -22,6 +38,14 @@
     "architecture": "x86_64",
     "imageid": "ami-02f6976ad03c4748b",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-02f6976ad03c4748b"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-069acadc1a75de287",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-069acadc1a75de287"
   },
   {
     "version": "8.6",
@@ -35,17 +59,9 @@
     "version": "8.5",
     "provider": "AWS",
     "region": "ap-south-1",
-    "architecture": "x86_64",
-    "imageid": "ami-099589c84ecec2f81",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-099589c84ecec2f81"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-south-1",
-    "architecture": "x86_64",
-    "imageid": "ami-014682dfd7ea0f512",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-014682dfd7ea0f512"
+    "architecture": "arm64",
+    "imageid": "ami-0f9e8f0b3490c929c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0f9e8f0b3490c929c"
   },
   {
     "version": "9.0",
@@ -56,44 +72,20 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0142dadd0a9b42a06"
   },
   {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-south-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0105a13e0ad2caa61",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0105a13e0ad2caa61"
-  },
-  {
-    "version": "8.6",
+    "version": "9.1",
     "provider": "AWS",
     "region": "ap-south-1",
     "architecture": "arm64",
-    "imageid": "ami-01c09e60d533c2a72",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-01c09e60d533c2a72"
+    "imageid": "ami-0adeae03c2fdbf83b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0adeae03c2fdbf83b"
   },
   {
-    "version": "9.0",
+    "version": "8.5",
     "provider": "AWS",
     "region": "ap-south-1",
     "architecture": "x86_64",
-    "imageid": "ami-0418936da46afcaf9",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0418936da46afcaf9"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-south-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0859aee7c46b16bd6",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0859aee7c46b16bd6"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-south-1",
-    "architecture": "arm64",
-    "imageid": "ami-0a01cceebb40da7a2",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0a01cceebb40da7a2"
+    "imageid": "ami-099589c84ecec2f81",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-099589c84ecec2f81"
   },
   {
     "version": "9.1",
@@ -108,32 +100,16 @@
     "provider": "AWS",
     "region": "ap-south-1",
     "architecture": "x86_64",
-    "imageid": "ami-0fe537eeb067d3ce9",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0fe537eeb067d3ce9"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-south-1",
-    "architecture": "arm64",
-    "imageid": "ami-0673c59d7272de474",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0673c59d7272de474"
+    "imageid": "ami-014682dfd7ea0f512",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-014682dfd7ea0f512"
   },
   {
     "version": "9.1",
     "provider": "AWS",
     "region": "ap-south-1",
-    "architecture": "arm64",
-    "imageid": "ami-0adeae03c2fdbf83b",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0adeae03c2fdbf83b"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-south-1",
-    "architecture": "arm64",
-    "imageid": "ami-0430ac252d91a6e7d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0430ac252d91a6e7d"
+    "architecture": "x86_64",
+    "imageid": "ami-0fe537eeb067d3ce9",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0fe537eeb067d3ce9"
   },
   {
     "version": "9.1",
@@ -144,12 +120,60 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0dfc105948e29bf3c"
   },
   {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0418936da46afcaf9",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0418936da46afcaf9"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-0f9930cb62202ae25",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0f9930cb62202ae25"
+  },
+  {
     "version": "8.7",
     "provider": "AWS",
-    "region": "eu-north-1",
+    "region": "ap-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-08c20f50324d882ad",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-08c20f50324d882ad"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-south-1",
     "architecture": "arm64",
-    "imageid": "ami-033a1d28879f80f00",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-033a1d28879f80f00"
+    "imageid": "ami-0a01cceebb40da7a2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0a01cceebb40da7a2"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-03bcdcf385926e599",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-03bcdcf385926e599"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0bdfe8c085317593b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0bdfe8c085317593b"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0105a13e0ad2caa61",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-south-1#LaunchInstanceWizard:ami=ami-0105a13e0ad2caa61"
   },
   {
     "version": "8.5",
@@ -160,38 +184,6 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0090b17f0ffd314ba"
   },
   {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-north-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0e99e85b063022cb3",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0e99e85b063022cb3"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-north-1",
-    "architecture": "arm64",
-    "imageid": "ami-0f3c9ba155a636e57",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0f3c9ba155a636e57"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "eu-north-1",
-    "architecture": "arm64",
-    "imageid": "ami-05661f9ef20aa047d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-05661f9ef20aa047d"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "eu-north-1",
-    "architecture": "x86_64",
-    "imageid": "ami-08547e590b7ff4d5e",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-08547e590b7ff4d5e"
-  },
-  {
     "version": "9.1",
     "provider": "AWS",
     "region": "eu-north-1",
@@ -200,12 +192,36 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0ef3b1b9aca44893b"
   },
   {
-    "version": "8.7",
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "arm64",
+    "imageid": "ami-00186a382c22ccdc2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-00186a382c22ccdc2"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "arm64",
+    "imageid": "ami-05fb88a3c4f36e15b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-05fb88a3c4f36e15b"
+  },
+  {
+    "version": "9.2",
     "provider": "AWS",
     "region": "eu-north-1",
     "architecture": "x86_64",
-    "imageid": "ami-0d15627160408c240",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0d15627160408c240"
+    "imageid": "ami-06e21a560968c1feb",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-06e21a560968c1feb"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "arm64",
+    "imageid": "ami-09c237aa6f84aa31d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-09c237aa6f84aa31d"
   },
   {
     "version": "8.7",
@@ -219,9 +235,41 @@
     "version": "8.7",
     "provider": "AWS",
     "region": "eu-north-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0d15627160408c240",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0d15627160408c240"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "x86_64",
+    "imageid": "ami-068e94e4184cffd3d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-068e94e4184cffd3d"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-north-1",
     "architecture": "arm64",
     "imageid": "ami-0fb81871888f447c6",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0fb81871888f447c6"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0e99e85b063022cb3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0e99e85b063022cb3"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "x86_64",
+    "imageid": "ami-08547e590b7ff4d5e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-08547e590b7ff4d5e"
   },
   {
     "version": "8.7",
@@ -235,25 +283,25 @@
     "version": "9.1",
     "provider": "AWS",
     "region": "eu-north-1",
-    "architecture": "arm64",
-    "imageid": "ami-00186a382c22ccdc2",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-00186a382c22ccdc2"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "eu-north-1",
-    "architecture": "arm64",
-    "imageid": "ami-073d5b5f420781fba",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-073d5b5f420781fba"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-north-1",
     "architecture": "x86_64",
     "imageid": "ami-034dfa4c528803370",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-034dfa4c528803370"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "arm64",
+    "imageid": "ami-03505cad9ade5a4af",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-03505cad9ade5a4af"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "arm64",
+    "imageid": "ami-05661f9ef20aa047d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-05661f9ef20aa047d"
   },
   {
     "version": "9.0",
@@ -264,20 +312,28 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0cd02b5d8a2140fbd"
   },
   {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "eu-north-1",
-    "architecture": "arm64",
-    "imageid": "ami-09c237aa6f84aa31d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-09c237aa6f84aa31d"
-  },
-  {
-    "version": "9.1",
+    "version": "9.2",
     "provider": "AWS",
     "region": "eu-north-1",
     "architecture": "x86_64",
-    "imageid": "ami-068e94e4184cffd3d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-068e94e4184cffd3d"
+    "imageid": "ami-08c5aa64fbb636a79",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-08c5aa64fbb636a79"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "arm64",
+    "imageid": "ami-073d5b5f420781fba",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-073d5b5f420781fba"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "arm64",
+    "imageid": "ami-033a1d28879f80f00",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-033a1d28879f80f00"
   },
   {
     "version": "9.1",
@@ -286,6 +342,22 @@
     "architecture": "x86_64",
     "imageid": "ami-00877f657c450cb44",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-00877f657c450cb44"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-north-1",
+    "architecture": "arm64",
+    "imageid": "ami-0f3c9ba155a636e57",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-north-1#LaunchInstanceWizard:ami=ami-0f3c9ba155a636e57"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "eu-west-3",
+    "architecture": "arm64",
+    "imageid": "ami-056b84ae09efb7fbe",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-056b84ae09efb7fbe"
   },
   {
     "version": "8.7",
@@ -299,33 +371,9 @@
     "version": "9.1",
     "provider": "AWS",
     "region": "eu-west-3",
-    "architecture": "x86_64",
-    "imageid": "ami-0456357239a1e9280",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0456357239a1e9280"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-west-3",
     "architecture": "arm64",
     "imageid": "ami-0dc2b75fdf685a493",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0dc2b75fdf685a493"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "eu-west-3",
-    "architecture": "x86_64",
-    "imageid": "ami-09e69690aba863a72",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-09e69690aba863a72"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "eu-west-3",
-    "architecture": "arm64",
-    "imageid": "ami-0ca23ab8bca914822",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0ca23ab8bca914822"
   },
   {
     "version": "8.6",
@@ -336,52 +384,36 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-06c9fd870b51b1216"
   },
   {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "eu-west-3",
-    "architecture": "arm64",
-    "imageid": "ami-056b84ae09efb7fbe",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-056b84ae09efb7fbe"
-  },
-  {
-    "version": "8.5",
+    "version": "9.2",
     "provider": "AWS",
     "region": "eu-west-3",
     "architecture": "x86_64",
-    "imageid": "ami-0abb90b1685f9e9fc",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0abb90b1685f9e9fc"
+    "imageid": "ami-03df398915c9669eb",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-03df398915c9669eb"
   },
   {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-3",
-    "architecture": "x86_64",
-    "imageid": "ami-0e3a259f1a2ffd63e",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0e3a259f1a2ffd63e"
-  },
-  {
-    "version": "8.7",
+    "version": "9.0",
     "provider": "AWS",
     "region": "eu-west-3",
     "architecture": "arm64",
-    "imageid": "ami-0158d123054a069a1",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0158d123054a069a1"
+    "imageid": "ami-0ca23ab8bca914822",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0ca23ab8bca914822"
   },
   {
     "version": "9.1",
     "provider": "AWS",
     "region": "eu-west-3",
     "architecture": "arm64",
-    "imageid": "ami-06967b9c9cc999a1f",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-06967b9c9cc999a1f"
+    "imageid": "ami-000d7efc6c601dba8",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-000d7efc6c601dba8"
   },
   {
-    "version": "8.7",
+    "version": "9.2",
     "provider": "AWS",
     "region": "eu-west-3",
     "architecture": "arm64",
-    "imageid": "ami-0640c85a4ad227d90",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0640c85a4ad227d90"
+    "imageid": "ami-096f35cb71979ae29",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-096f35cb71979ae29"
   },
   {
     "version": "8.5",
@@ -404,16 +436,64 @@
     "provider": "AWS",
     "region": "eu-west-3",
     "architecture": "arm64",
-    "imageid": "ami-0ddcdec706bfad52f",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0ddcdec706bfad52f"
+    "imageid": "ami-0640c85a4ad227d90",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0640c85a4ad227d90"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "eu-west-3",
+    "architecture": "x86_64",
+    "imageid": "ami-0abb90b1685f9e9fc",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0abb90b1685f9e9fc"
   },
   {
     "version": "9.1",
     "provider": "AWS",
     "region": "eu-west-3",
+    "architecture": "x86_64",
+    "imageid": "ami-0456357239a1e9280",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0456357239a1e9280"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-3",
+    "architecture": "x86_64",
+    "imageid": "ami-0e3a259f1a2ffd63e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0e3a259f1a2ffd63e"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-3",
     "architecture": "arm64",
-    "imageid": "ami-000d7efc6c601dba8",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-000d7efc6c601dba8"
+    "imageid": "ami-0158d123054a069a1",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0158d123054a069a1"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-3",
+    "architecture": "x86_64",
+    "imageid": "ami-064a83a6b9c2edb23",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-064a83a6b9c2edb23"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-3",
+    "architecture": "arm64",
+    "imageid": "ami-0ddcdec706bfad52f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0ddcdec706bfad52f"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "eu-west-3",
+    "architecture": "x86_64",
+    "imageid": "ami-09e69690aba863a72",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-09e69690aba863a72"
   },
   {
     "version": "9.1",
@@ -424,12 +504,140 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-0158057f4d42dcd5f"
   },
   {
-    "version": "8.7",
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-west-3",
+    "architecture": "arm64",
+    "imageid": "ami-06967b9c9cc999a1f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-06967b9c9cc999a1f"
+  },
+  {
+    "version": "9.2",
     "provider": "AWS",
     "region": "eu-west-3",
     "architecture": "x86_64",
-    "imageid": "ami-064a83a6b9c2edb23",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-064a83a6b9c2edb23"
+    "imageid": "ami-07365b78c38d761d3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-07365b78c38d761d3"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-3",
+    "architecture": "arm64",
+    "imageid": "ami-03a0c163d9938e9b9",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-3#LaunchInstanceWizard:ami=ami-03a0c163d9938e9b9"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-052db9cccfdb2a464",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-052db9cccfdb2a464"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-074b122c019bea0b9",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-074b122c019bea0b9"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-0bd8a8ca1ea5becd2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0bd8a8ca1ea5becd2"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-001f5c0dfb642e7ac",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-001f5c0dfb642e7ac"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0a5cf8b742d344f92",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0a5cf8b742d344f92"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0bf4fd85e22e3a427",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0bf4fd85e22e3a427"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-0f626368bef526180",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0f626368bef526180"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-052a47cf9b693a223",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-052a47cf9b693a223"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-0157652a68980902e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0157652a68980902e"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-04c2d84259afb38ea",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-04c2d84259afb38ea"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-08ffb4dd21b37216f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-08ffb4dd21b37216f"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0addd0aed036d429b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0addd0aed036d429b"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-0df0bb14e8fc979bc",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0df0bb14e8fc979bc"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-0723dd316a68a3ec8",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0723dd316a68a3ec8"
   },
   {
     "version": "9.1",
@@ -443,41 +651,9 @@
     "version": "8.7",
     "provider": "AWS",
     "region": "eu-west-2",
-    "architecture": "arm64",
-    "imageid": "ami-044cf7ed2802772d4",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-044cf7ed2802772d4"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "arm64",
-    "imageid": "ami-0723dd316a68a3ec8",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0723dd316a68a3ec8"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-2",
     "architecture": "x86_64",
-    "imageid": "ami-0a5cf8b742d344f92",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0a5cf8b742d344f92"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-08ffb4dd21b37216f",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-08ffb4dd21b37216f"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-074b122c019bea0b9",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-074b122c019bea0b9"
+    "imageid": "ami-0724a9fe9c3ebb2db",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0724a9fe9c3ebb2db"
   },
   {
     "version": "8.5",
@@ -486,6 +662,22 @@
     "architecture": "x86_64",
     "imageid": "ami-0768c1f18418e882d",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0768c1f18418e882d"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0fee1bd6233a6b61c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0fee1bd6233a6b61c"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "eu-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-044bab61bc23f98f7",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-044bab61bc23f98f7"
   },
   {
     "version": "8.6",
@@ -500,64 +692,8 @@
     "provider": "AWS",
     "region": "eu-west-2",
     "architecture": "arm64",
-    "imageid": "ami-052db9cccfdb2a464",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-052db9cccfdb2a464"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0724a9fe9c3ebb2db",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0724a9fe9c3ebb2db"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "arm64",
-    "imageid": "ami-0df0bb14e8fc979bc",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0df0bb14e8fc979bc"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-044bab61bc23f98f7",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-044bab61bc23f98f7"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0bf4fd85e22e3a427",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0bf4fd85e22e3a427"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "arm64",
-    "imageid": "ami-001f5c0dfb642e7ac",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-001f5c0dfb642e7ac"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "arm64",
-    "imageid": "ami-0f626368bef526180",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0f626368bef526180"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "arm64",
-    "imageid": "ami-0157652a68980902e",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0157652a68980902e"
+    "imageid": "ami-044cf7ed2802772d4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-044cf7ed2802772d4"
   },
   {
     "version": "9.1",
@@ -570,50 +706,42 @@
   {
     "version": "9.1",
     "provider": "AWS",
-    "region": "eu-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0fee1bd6233a6b61c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-2#LaunchInstanceWizard:ami=ami-0fee1bd6233a6b61c"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-0c1b1f607b05ca3cf",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0c1b1f607b05ca3cf"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-0c895f611e53f4630",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0c895f611e53f4630"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-0ba529caebf80385d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0ba529caebf80385d"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0c2f9a3231600a9a6",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0c2f9a3231600a9a6"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
     "region": "eu-west-1",
     "architecture": "arm64",
     "imageid": "ami-0752a9c0f8f797020",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0752a9c0f8f797020"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-06cce7b9e26e82474",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-06cce7b9e26e82474"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-06e076c901cfff2b5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-06e076c901cfff2b5"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-04199c15dc08e5667",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-04199c15dc08e5667"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0aa1786a50c788578",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0aa1786a50c788578"
   },
   {
     "version": "9.0",
@@ -627,9 +755,9 @@
     "version": "8.7",
     "provider": "AWS",
     "region": "eu-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-09abfd0bfa070c269",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-09abfd0bfa070c269"
+    "architecture": "x86_64",
+    "imageid": "ami-07686f42f40b34957",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-07686f42f40b34957"
   },
   {
     "version": "9.1",
@@ -638,6 +766,38 @@
     "architecture": "x86_64",
     "imageid": "ami-0951577d22b8e8dd4",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0951577d22b8e8dd4"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-007212bd8070e97ea",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-007212bd8070e97ea"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-035851eedfe3587ea",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-035851eedfe3587ea"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-0c1b1f607b05ca3cf",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0c1b1f607b05ca3cf"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0a10fe11f3e1bf41e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0a10fe11f3e1bf41e"
   },
   {
     "version": "9.1",
@@ -651,65 +811,9 @@
     "version": "9.1",
     "provider": "AWS",
     "region": "eu-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-06cce7b9e26e82474",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-06cce7b9e26e82474"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-07686f42f40b34957",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-07686f42f40b34957"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-1",
     "architecture": "arm64",
-    "imageid": "ami-007212bd8070e97ea",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-007212bd8070e97ea"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-06e076c901cfff2b5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-06e076c901cfff2b5"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0a9761f7c8af71e13",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0a9761f7c8af71e13"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0a10fe11f3e1bf41e",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0a10fe11f3e1bf41e"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-035851eedfe3587ea",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-035851eedfe3587ea"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "eu-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-05bdfaac44dd4f8be",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-05bdfaac44dd4f8be"
+    "imageid": "ami-0ba529caebf80385d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0ba529caebf80385d"
   },
   {
     "version": "8.7",
@@ -720,52 +824,68 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0e991d7a141f98afe"
   },
   {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-023b85b87a4bc763e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-023b85b87a4bc763e"
+  },
+  {
     "version": "8.6",
     "provider": "AWS",
-    "region": "ap-northeast-3",
-    "architecture": "arm64",
-    "imageid": "ami-086ed01af639ff06c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-086ed01af639ff06c"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-3",
+    "region": "eu-west-1",
     "architecture": "x86_64",
-    "imageid": "ami-0c701404f2042f3fd",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0c701404f2042f3fd"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-3",
-    "architecture": "x86_64",
-    "imageid": "ami-0cba0cb39de3c6afb",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0cba0cb39de3c6afb"
+    "imageid": "ami-0a9761f7c8af71e13",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0a9761f7c8af71e13"
   },
   {
     "version": "8.7",
     "provider": "AWS",
-    "region": "ap-northeast-3",
-    "architecture": "x86_64",
-    "imageid": "ami-011f3a00ba36f9dd6",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-011f3a00ba36f9dd6"
+    "region": "eu-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-0c895f611e53f4630",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0c895f611e53f4630"
   },
   {
     "version": "9.0",
     "provider": "AWS",
-    "region": "ap-northeast-3",
+    "region": "eu-west-1",
     "architecture": "x86_64",
-    "imageid": "ami-01aaca24ce5d5ca32",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-01aaca24ce5d5ca32"
+    "imageid": "ami-0c2f9a3231600a9a6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-0c2f9a3231600a9a6"
   },
   {
-    "version": "9.1",
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-05bdfaac44dd4f8be",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-05bdfaac44dd4f8be"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-01443504f9c1449da",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-01443504f9c1449da"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-09abfd0bfa070c269",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-west-1#LaunchInstanceWizard:ami=ami-09abfd0bfa070c269"
+  },
+  {
+    "version": "9.2",
     "provider": "AWS",
     "region": "ap-northeast-3",
     "architecture": "arm64",
-    "imageid": "ami-0bcb5f23007ad2985",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0bcb5f23007ad2985"
+    "imageid": "ami-02566fd5ee3090199",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-02566fd5ee3090199"
   },
   {
     "version": "9.1",
@@ -784,44 +904,28 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-088e82962f1444c12"
   },
   {
-    "version": "8.7",
+    "version": "8.5",
     "provider": "AWS",
     "region": "ap-northeast-3",
     "architecture": "x86_64",
-    "imageid": "ami-0c833ca6d83ab83b2",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0c833ca6d83ab83b2"
+    "imageid": "ami-0ce722d42255297b9",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0ce722d42255297b9"
   },
   {
-    "version": "8.7",
+    "version": "9.2",
     "provider": "AWS",
     "region": "ap-northeast-3",
-    "architecture": "arm64",
-    "imageid": "ami-0f0319ca0abbaf898",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0f0319ca0abbaf898"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "ap-northeast-3",
-    "architecture": "arm64",
-    "imageid": "ami-04aca3abe3e6ab502",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-04aca3abe3e6ab502"
+    "architecture": "x86_64",
+    "imageid": "ami-00653af389ecd7bd0",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-00653af389ecd7bd0"
   },
   {
     "version": "9.1",
     "provider": "AWS",
     "region": "ap-northeast-3",
     "architecture": "arm64",
-    "imageid": "ami-06194e552ad8b7b1a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-06194e552ad8b7b1a"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-3",
-    "architecture": "arm64",
-    "imageid": "ami-08bbb79f8caf97e25",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-08bbb79f8caf97e25"
+    "imageid": "ami-0bcb5f23007ad2985",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0bcb5f23007ad2985"
   },
   {
     "version": "8.7",
@@ -832,12 +936,84 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0bc7de2d4f01b79a9"
   },
   {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "x86_64",
+    "imageid": "ami-01aaca24ce5d5ca32",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-01aaca24ce5d5ca32"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "arm64",
+    "imageid": "ami-06194e552ad8b7b1a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-06194e552ad8b7b1a"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "x86_64",
+    "imageid": "ami-011f3a00ba36f9dd6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-011f3a00ba36f9dd6"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "arm64",
+    "imageid": "ami-0f0319ca0abbaf898",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0f0319ca0abbaf898"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "x86_64",
+    "imageid": "ami-0c833ca6d83ab83b2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0c833ca6d83ab83b2"
+  },
+  {
     "version": "8.6",
     "provider": "AWS",
     "region": "ap-northeast-3",
     "architecture": "x86_64",
     "imageid": "ami-04431d6800b6d6e58",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-04431d6800b6d6e58"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "arm64",
+    "imageid": "ami-0ca2a5130207bb324",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0ca2a5130207bb324"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "arm64",
+    "imageid": "ami-086ed01af639ff06c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-086ed01af639ff06c"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "x86_64",
+    "imageid": "ami-0c701404f2042f3fd",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0c701404f2042f3fd"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "x86_64",
+    "imageid": "ami-014bdeaab257f2c74",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-014bdeaab257f2c74"
   },
   {
     "version": "8.7",
@@ -848,6 +1024,30 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-066d94e6b7273a8ad"
   },
   {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "arm64",
+    "imageid": "ami-08bbb79f8caf97e25",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-08bbb79f8caf97e25"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "x86_64",
+    "imageid": "ami-0cba0cb39de3c6afb",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0cba0cb39de3c6afb"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "ap-northeast-3",
+    "architecture": "arm64",
+    "imageid": "ami-04aca3abe3e6ab502",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-04aca3abe3e6ab502"
+  },
+  {
     "version": "8.5",
     "provider": "AWS",
     "region": "ap-northeast-3",
@@ -856,20 +1056,92 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-052198efa1a75e212"
   },
   {
-    "version": "8.5",
+    "version": "8.7",
     "provider": "AWS",
-    "region": "ap-northeast-3",
-    "architecture": "x86_64",
-    "imageid": "ami-0ce722d42255297b9",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-3#LaunchInstanceWizard:ami=ami-0ce722d42255297b9"
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-06dfa69d895c99b3a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-06dfa69d895c99b3a"
   },
   {
-    "version": "9.0",
+    "version": "9.2",
     "provider": "AWS",
     "region": "ap-northeast-2",
     "architecture": "x86_64",
-    "imageid": "ami-0dc3ba1c85c2fe29a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0dc3ba1c85c2fe29a"
+    "imageid": "ami-019f7be19227fade5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-019f7be19227fade5"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-0bc53b47e7b02c85a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0bc53b47e7b02c85a"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-0700728f3986f68bc",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0700728f3986f68bc"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-09e6a04248f1e55c3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-09e6a04248f1e55c3"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-0cc0480c977b3b8ae",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0cc0480c977b3b8ae"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-06e1eae478e8e32bb",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-06e1eae478e8e32bb"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0d2ab988d8bdd2543",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0d2ab988d8bdd2543"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-000f9cd4cc751ab79",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-000f9cd4cc751ab79"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-09838816ec08fafa7",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-09838816ec08fafa7"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-004be2f64ffdcf283",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-004be2f64ffdcf283"
   },
   {
     "version": "8.6",
@@ -884,96 +1156,8 @@
     "provider": "AWS",
     "region": "ap-northeast-2",
     "architecture": "x86_64",
-    "imageid": "ami-06e1eae478e8e32bb",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-06e1eae478e8e32bb"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-0546b05b44ac23270",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0546b05b44ac23270"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-000f9cd4cc751ab79",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-000f9cd4cc751ab79"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-0cc0480c977b3b8ae",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0cc0480c977b3b8ae"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-0bc53b47e7b02c85a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0bc53b47e7b02c85a"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-03eac1972a0829bd6",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-03eac1972a0829bd6"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0a6981185d596d369",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0a6981185d596d369"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "x86_64",
-    "imageid": "ami-004be2f64ffdcf283",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-004be2f64ffdcf283"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0280ce8ecafa32cf7",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0280ce8ecafa32cf7"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-06dfa69d895c99b3a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-06dfa69d895c99b3a"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "x86_64",
-    "imageid": "ami-09838816ec08fafa7",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-09838816ec08fafa7"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "ap-northeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-08ae751f8a19fb9b5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-08ae751f8a19fb9b5"
+    "imageid": "ami-0175602b06617a7e5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0175602b06617a7e5"
   },
   {
     "version": "8.7",
@@ -984,20 +1168,20 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0cf0fbfc9bc996128"
   },
   {
-    "version": "9.1",
+    "version": "9.0",
     "provider": "AWS",
     "region": "ap-northeast-2",
     "architecture": "x86_64",
-    "imageid": "ami-0d2ab988d8bdd2543",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0d2ab988d8bdd2543"
+    "imageid": "ami-0dc3ba1c85c2fe29a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0dc3ba1c85c2fe29a"
   },
   {
-    "version": "8.7",
+    "version": "8.5",
     "provider": "AWS",
     "region": "ap-northeast-2",
     "architecture": "x86_64",
-    "imageid": "ami-0175602b06617a7e5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0175602b06617a7e5"
+    "imageid": "ami-0280ce8ecafa32cf7",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0280ce8ecafa32cf7"
   },
   {
     "version": "9.1",
@@ -1008,12 +1192,268 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-02d35205aa1a0f6c9"
   },
   {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-0546b05b44ac23270",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0546b05b44ac23270"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-01c3c0b15a90d7bec",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-01c3c0b15a90d7bec"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0a6981185d596d369",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-0a6981185d596d369"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-03eac1972a0829bd6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-03eac1972a0829bd6"
+  },
+  {
     "version": "8.5",
+    "provider": "AWS",
+    "region": "ap-northeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-08ae751f8a19fb9b5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#LaunchInstanceWizard:ami=ami-08ae751f8a19fb9b5"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-017c0c0a088b67957",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-017c0c0a088b67957"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0929c3ec3584578bf",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0929c3ec3584578bf"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-065875db68d6b376f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-065875db68d6b376f"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-0c2e89b38795bf97c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0c2e89b38795bf97c"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-01b96c073d6afd9fb",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-01b96c073d6afd9fb"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0addc4b9f22cba592",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0addc4b9f22cba592"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-05c8318a263e85004",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-05c8318a263e85004"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-033c880924f75c4f4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-033c880924f75c4f4"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-0446ee63a279de8db",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0446ee63a279de8db"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0224315637c988d7d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0224315637c988d7d"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-0b47016d12a4bb503",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0b47016d12a4bb503"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-069f7e9a109c5b6c4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-069f7e9a109c5b6c4"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-038030abce5bf2841",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-038030abce5bf2841"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0b13eae2441695a35",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0b13eae2441695a35"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-0b93b3d9947bdc023",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-0b93b3d9947bdc023"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-02b67a74b3a8cb5d3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-02b67a74b3a8cb5d3"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-south-1",
+    "architecture": "arm64",
+    "imageid": "ami-03f1a5113ed8b2dd7",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-south-1#LaunchInstanceWizard:ami=ami-03f1a5113ed8b2dd7"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0d006584d5cb79320",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0d006584d5cb79320"
+  },
+  {
+    "version": "8.7",
     "provider": "AWS",
     "region": "ap-northeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-0ddb05e945a674cf5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0ddb05e945a674cf5"
+    "imageid": "ami-05c652e1fd42e97f5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-05c652e1fd42e97f5"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0e0c0e3489588357c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0e0c0e3489588357c"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0a428468b2938fcce",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0a428468b2938fcce"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "x86_64",
+    "imageid": "ami-09d83868d196d9f80",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-09d83868d196d9f80"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-01aa25ac6fa78cce1",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-01aa25ac6fa78cce1"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0356bd84cf7d05d8a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0356bd84cf7d05d8a"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "x86_64",
+    "imageid": "ami-05e30c2e3ab03759f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-05e30c2e3ab03759f"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-084d423cf7accd8d9",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-084d423cf7accd8d9"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0d51a6a96a98db8bc",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0d51a6a96a98db8bc"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-northeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0b49d0bc8388a862d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0b49d0bc8388a862d"
   },
   {
     "version": "9.1",
@@ -1028,48 +1468,24 @@
     "provider": "AWS",
     "region": "ap-northeast-1",
     "architecture": "arm64",
-    "imageid": "ami-0e0c0e3489588357c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0e0c0e3489588357c"
+    "imageid": "ami-0c54e43b2c18d748a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0c54e43b2c18d748a"
   },
   {
-    "version": "8.7",
+    "version": "9.0",
     "provider": "AWS",
     "region": "ap-northeast-1",
     "architecture": "arm64",
-    "imageid": "ami-02ac6d6e3f9a90baa",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-02ac6d6e3f9a90baa"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "ap-northeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-0d51a6a96a98db8bc",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0d51a6a96a98db8bc"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-northeast-1",
-    "architecture": "x86_64",
-    "imageid": "ami-05c652e1fd42e97f5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-05c652e1fd42e97f5"
+    "imageid": "ami-0b1e549c33eafed23",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0b1e549c33eafed23"
   },
   {
     "version": "9.1",
     "provider": "AWS",
     "region": "ap-northeast-1",
     "architecture": "arm64",
-    "imageid": "ami-01aa25ac6fa78cce1",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-01aa25ac6fa78cce1"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0362c6c38aa902b42",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0362c6c38aa902b42"
+    "imageid": "ami-0b56b7f50ca0a4058",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0b56b7f50ca0a4058"
   },
   {
     "version": "8.7",
@@ -1080,28 +1496,12 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0e7fe56f3b75f60b3"
   },
   {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "ap-northeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-084d423cf7accd8d9",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-084d423cf7accd8d9"
-  },
-  {
     "version": "8.7",
     "provider": "AWS",
     "region": "ap-northeast-1",
     "architecture": "arm64",
-    "imageid": "ami-0c54e43b2c18d748a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0c54e43b2c18d748a"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "ap-northeast-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0356bd84cf7d05d8a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0356bd84cf7d05d8a"
+    "imageid": "ami-02ac6d6e3f9a90baa",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-02ac6d6e3f9a90baa"
   },
   {
     "version": "8.7",
@@ -1115,121 +1515,193 @@
     "version": "9.1",
     "provider": "AWS",
     "region": "ap-northeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-0d006584d5cb79320",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0d006584d5cb79320"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-0b56b7f50ca0a4058",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0b56b7f50ca0a4058"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "ap-northeast-1",
-    "architecture": "x86_64",
-    "imageid": "ami-09d83868d196d9f80",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-09d83868d196d9f80"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-northeast-1",
     "architecture": "x86_64",
     "imageid": "ami-0c17121dbb0b8d63b",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0c17121dbb0b8d63b"
   },
   {
-    "version": "9.0",
+    "version": "9.2",
     "provider": "AWS",
     "region": "ap-northeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-0b1e549c33eafed23",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0b1e549c33eafed23"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ca-central-1",
-    "architecture": "arm64",
-    "imageid": "ami-0ed1becabdd17906b",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0ed1becabdd17906b"
+    "architecture": "x86_64",
+    "imageid": "ami-0f495b3ae1820db00",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0f495b3ae1820db00"
   },
   {
     "version": "9.1",
     "provider": "AWS",
-    "region": "ca-central-1",
+    "region": "ap-northeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-04392d8ca14e4a482",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-04392d8ca14e4a482"
+    "imageid": "ami-0362c6c38aa902b42",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0362c6c38aa902b42"
   },
   {
     "version": "8.5",
     "provider": "AWS",
-    "region": "ca-central-1",
+    "region": "ap-northeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-09ada793eea1559e6",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-09ada793eea1559e6"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ca-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0f6259aafec1e02d3",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0f6259aafec1e02d3"
+    "imageid": "ami-0ddb05e945a674cf5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#LaunchInstanceWizard:ami=ami-0ddb05e945a674cf5"
   },
   {
     "version": "8.6",
     "provider": "AWS",
-    "region": "ca-central-1",
+    "region": "me-central-1",
     "architecture": "arm64",
-    "imageid": "ami-07c4bb5fdf45af78e",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-07c4bb5fdf45af78e"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ca-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0b723f87d6c9ca850",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0b723f87d6c9ca850"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ca-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0aae6f68d7750175e",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0aae6f68d7750175e"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ca-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-044d4570089e9d6c4",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-044d4570089e9d6c4"
+    "imageid": "ami-0061295fe1e0ee916",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0061295fe1e0ee916"
   },
   {
     "version": "8.6",
     "provider": "AWS",
-    "region": "ca-central-1",
+    "region": "me-central-1",
     "architecture": "x86_64",
-    "imageid": "ami-0e6626ba54eb89af2",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0e6626ba54eb89af2"
+    "imageid": "ami-0dd7b83e91649de61",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0dd7b83e91649de61"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-01c6a3a2e9f44e648",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-01c6a3a2e9f44e648"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-095f89e31aff3bca6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-095f89e31aff3bca6"
   },
   {
     "version": "8.7",
     "provider": "AWS",
-    "region": "ca-central-1",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0c1a33aaf36bd653a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0c1a33aaf36bd653a"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-045191ec5e5ff0dd8",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-045191ec5e5ff0dd8"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "me-central-1",
     "architecture": "arm64",
-    "imageid": "ami-0163844edbdb3f393",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0163844edbdb3f393"
+    "imageid": "ami-06301e5765505c444",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-06301e5765505c444"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0455e587ec73ce8ac",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0455e587ec73ce8ac"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0ad21feb9f7759461",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0ad21feb9f7759461"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-07901dff11c6b6b28",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-07901dff11c6b6b28"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-012d29a6edd067c95",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-012d29a6edd067c95"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-071c95229280d6342",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-071c95229280d6342"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0d916ac495a688bdd",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0d916ac495a688bdd"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0dbb1376a60f650d8",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0dbb1376a60f650d8"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-06d01cc764d2ae012",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-06d01cc764d2ae012"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-07c89b8e8da072a87",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-07c89b8e8da072a87"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0ae6eb1df48d8bbb4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0ae6eb1df48d8bbb4"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-007076cafe9e61188",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-007076cafe9e61188"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-017d8334727599e08",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-017d8334727599e08"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "me-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0e6ec5db88f73d607",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=me-central-1#LaunchInstanceWizard:ami=ami-0e6ec5db88f73d607"
   },
   {
     "version": "8.7",
@@ -1240,6 +1712,30 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-06b233447fcf9ba2a"
   },
   {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-04ab68bc93df11990",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-04ab68bc93df11990"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0b723f87d6c9ca850",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0b723f87d6c9ca850"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0163844edbdb3f393",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0163844edbdb3f393"
+  },
+  {
     "version": "9.0",
     "provider": "AWS",
     "region": "ca-central-1",
@@ -1248,12 +1744,12 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0af6c2f33cfddcdb1"
   },
   {
-    "version": "9.1",
+    "version": "8.6",
     "provider": "AWS",
     "region": "ca-central-1",
-    "architecture": "arm64",
-    "imageid": "ami-04a68edf850493e7b",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-04a68edf850493e7b"
+    "architecture": "x86_64",
+    "imageid": "ami-0e6626ba54eb89af2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0e6626ba54eb89af2"
   },
   {
     "version": "8.7",
@@ -1268,24 +1764,16 @@
     "provider": "AWS",
     "region": "ca-central-1",
     "architecture": "arm64",
-    "imageid": "ami-04ab68bc93df11990",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-04ab68bc93df11990"
+    "imageid": "ami-0eada43bdff97fce5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0eada43bdff97fce5"
   },
   {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "ca-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-06a410b4745a5b37e",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-06a410b4745a5b37e"
-  },
-  {
-    "version": "9.1",
+    "version": "8.7",
     "provider": "AWS",
     "region": "ca-central-1",
     "architecture": "arm64",
-    "imageid": "ami-0eada43bdff97fce5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0eada43bdff97fce5"
+    "imageid": "ami-0ed1becabdd17906b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0ed1becabdd17906b"
   },
   {
     "version": "8.5",
@@ -1296,20 +1784,124 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-033e74798225e42e4"
   },
   {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0f6259aafec1e02d3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0f6259aafec1e02d3"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-04392d8ca14e4a482",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-04392d8ca14e4a482"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0d33dd3593f4c09f8",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0d33dd3593f4c09f8"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-02137917dbb01b2a2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-02137917dbb01b2a2"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0aae6f68d7750175e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0aae6f68d7750175e"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-04a68edf850493e7b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-04a68edf850493e7b"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0e5d0b42bd5028537",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0e5d0b42bd5028537"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-044d4570089e9d6c4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-044d4570089e9d6c4"
+  },
+  {
     "version": "9.0",
     "provider": "AWS",
-    "region": "sa-east-1",
+    "region": "ca-central-1",
     "architecture": "x86_64",
-    "imageid": "ami-04d88b4f8c9399364",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-04d88b4f8c9399364"
+    "imageid": "ami-06a410b4745a5b37e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-06a410b4745a5b37e"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-09ada793eea1559e6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-09ada793eea1559e6"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-07c4bb5fdf45af78e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-07c4bb5fdf45af78e"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ca-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0b9506c857460d8f7",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ca-central-1#LaunchInstanceWizard:ami=ami-0b9506c857460d8f7"
   },
   {
     "version": "9.1",
     "provider": "AWS",
     "region": "sa-east-1",
     "architecture": "x86_64",
-    "imageid": "ami-02fefbe1a8886b543",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-02fefbe1a8886b543"
+    "imageid": "ami-0366c6a4fed95dbe8",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0366c6a4fed95dbe8"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-06fe0bbef30cd15fd",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-06fe0bbef30cd15fd"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0aa29616f305ec611",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0aa29616f305ec611"
   },
   {
     "version": "9.0",
@@ -1323,9 +1915,25 @@
     "version": "8.7",
     "provider": "AWS",
     "region": "sa-east-1",
-    "architecture": "arm64",
-    "imageid": "ami-004ee10bcf424dae3",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-004ee10bcf424dae3"
+    "architecture": "x86_64",
+    "imageid": "ami-0141ea3730202c075",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0141ea3730202c075"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-014b5e7faf8d38426",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-014b5e7faf8d38426"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-02fefbe1a8886b543",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-02fefbe1a8886b543"
   },
   {
     "version": "8.7",
@@ -1336,12 +1944,36 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0826ab3cf4c9e5f01"
   },
   {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-06674197fb810dc0c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-06674197fb810dc0c"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-0c722e13987af38d9",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0c722e13987af38d9"
+  },
+  {
     "version": "8.7",
     "provider": "AWS",
     "region": "sa-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-004ee10bcf424dae3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-004ee10bcf424dae3"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "sa-east-1",
     "architecture": "x86_64",
-    "imageid": "ami-0141ea3730202c075",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0141ea3730202c075"
+    "imageid": "ami-00cf843ce6771639d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-00cf843ce6771639d"
   },
   {
     "version": "8.7",
@@ -1350,6 +1982,30 @@
     "architecture": "x86_64",
     "imageid": "ami-02031f7d4baf80488",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-02031f7d4baf80488"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-07177719c7d6b0ac4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-07177719c7d6b0ac4"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-00c9a093c13d4ef61",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-00c9a093c13d4ef61"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "sa-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-04d88b4f8c9399364",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-04d88b4f8c9399364"
   },
   {
     "version": "8.7",
@@ -1363,25 +2019,25 @@
     "version": "8.6",
     "provider": "AWS",
     "region": "sa-east-1",
-    "architecture": "x86_64",
-    "imageid": "ami-01eebb1fe2b7cd12a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-01eebb1fe2b7cd12a"
+    "architecture": "arm64",
+    "imageid": "ami-0ccce94f818446f58",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0ccce94f818446f58"
   },
   {
-    "version": "8.5",
+    "version": "9.2",
     "provider": "AWS",
     "region": "sa-east-1",
     "architecture": "arm64",
-    "imageid": "ami-06674197fb810dc0c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-06674197fb810dc0c"
+    "imageid": "ami-01722d79cd1ca06c0",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-01722d79cd1ca06c0"
   },
   {
-    "version": "8.5",
+    "version": "8.6",
     "provider": "AWS",
     "region": "sa-east-1",
     "architecture": "x86_64",
-    "imageid": "ami-07177719c7d6b0ac4",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-07177719c7d6b0ac4"
+    "imageid": "ami-01eebb1fe2b7cd12a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-01eebb1fe2b7cd12a"
   },
   {
     "version": "8.7",
@@ -1400,84 +2056,36 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0fe18ca139b0b5dde"
   },
   {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "sa-east-1",
-    "architecture": "arm64",
-    "imageid": "ami-00c9a093c13d4ef61",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-00c9a093c13d4ef61"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "sa-east-1",
-    "architecture": "arm64",
-    "imageid": "ami-0ccce94f818446f58",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0ccce94f818446f58"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "sa-east-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0366c6a4fed95dbe8",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-0366c6a4fed95dbe8"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "sa-east-1",
-    "architecture": "x86_64",
-    "imageid": "ami-014b5e7faf8d38426",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-014b5e7faf8d38426"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "sa-east-1",
-    "architecture": "arm64",
-    "imageid": "ami-06fe0bbef30cd15fd",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=sa-east-1#LaunchInstanceWizard:ami=ami-06fe0bbef30cd15fd"
-  },
-  {
-    "version": "8.7",
+    "version": "9.0",
     "provider": "AWS",
     "region": "ap-southeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-04ad891b91673863c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-04ad891b91673863c"
+    "imageid": "ami-04849db5b3637e5a1",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-04849db5b3637e5a1"
   },
   {
     "version": "9.1",
     "provider": "AWS",
     "region": "ap-southeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-052afae0613f8bace",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-052afae0613f8bace"
+    "imageid": "ami-05449c0b1ee093331",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-05449c0b1ee093331"
   },
   {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "ap-southeast-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0f6054d0561e79461",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0f6054d0561e79461"
-  },
-  {
-    "version": "9.1",
+    "version": "9.0",
     "provider": "AWS",
     "region": "ap-southeast-1",
     "architecture": "arm64",
-    "imageid": "ami-0323ce2c08a23414a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0323ce2c08a23414a"
+    "imageid": "ami-09c30c3a9f9f8d261",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-09c30c3a9f9f8d261"
   },
   {
-    "version": "8.7",
+    "version": "9.2",
     "provider": "AWS",
     "region": "ap-southeast-1",
-    "architecture": "x86_64",
-    "imageid": "ami-08e2ab37347f5ee3f",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-08e2ab37347f5ee3f"
+    "architecture": "arm64",
+    "imageid": "ami-0438607a0b4937290",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0438607a0b4937290"
   },
   {
     "version": "8.7",
@@ -1491,49 +2099,25 @@
     "version": "8.6",
     "provider": "AWS",
     "region": "ap-southeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-0f1cae0564352e38c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0f1cae0564352e38c"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-southeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-05643ee1aa63b7244",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-05643ee1aa63b7244"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-southeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-05449c0b1ee093331",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-05449c0b1ee093331"
+    "imageid": "ami-0f6054d0561e79461",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0f6054d0561e79461"
   },
   {
     "version": "8.7",
     "provider": "AWS",
     "region": "ap-southeast-1",
     "architecture": "arm64",
-    "imageid": "ami-0df206b39a42f3e7f",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0df206b39a42f3e7f"
+    "imageid": "ami-06c6baf81be6a62eb",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-06c6baf81be6a62eb"
   },
   {
-    "version": "8.5",
+    "version": "8.7",
     "provider": "AWS",
     "region": "ap-southeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-0514af8e1e699170c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0514af8e1e699170c"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-southeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-0c7c89825e02c8db1",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0c7c89825e02c8db1"
+    "imageid": "ami-04ad891b91673863c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-04ad891b91673863c"
   },
   {
     "version": "8.7",
@@ -1548,32 +2132,16 @@
     "provider": "AWS",
     "region": "ap-southeast-1",
     "architecture": "arm64",
-    "imageid": "ami-06c6baf81be6a62eb",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-06c6baf81be6a62eb"
+    "imageid": "ami-0df206b39a42f3e7f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0df206b39a42f3e7f"
   },
   {
-    "version": "9.0",
+    "version": "9.2",
     "provider": "AWS",
     "region": "ap-southeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-04849db5b3637e5a1",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-04849db5b3637e5a1"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-southeast-1",
-    "architecture": "x86_64",
-    "imageid": "ami-04d74a4d8af9ff529",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-04d74a4d8af9ff529"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "ap-southeast-1",
-    "architecture": "arm64",
-    "imageid": "ami-09c30c3a9f9f8d261",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-09c30c3a9f9f8d261"
+    "imageid": "ami-07c17ea75203e9722",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-07c17ea75203e9722"
   },
   {
     "version": "8.5",
@@ -1586,18 +2154,114 @@
   {
     "version": "8.7",
     "provider": "AWS",
-    "region": "ap-southeast-2",
+    "region": "ap-southeast-1",
     "architecture": "x86_64",
-    "imageid": "ami-0d0e0e969753118d5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0d0e0e969753118d5"
+    "imageid": "ami-08e2ab37347f5ee3f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-08e2ab37347f5ee3f"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "x86_64",
+    "imageid": "ami-043b9c6b33cd6fff8",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-043b9c6b33cd6fff8"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "x86_64",
+    "imageid": "ami-04d74a4d8af9ff529",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-04d74a4d8af9ff529"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0c5704ebe50da4382",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0c5704ebe50da4382"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0f1cae0564352e38c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0f1cae0564352e38c"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0514af8e1e699170c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0514af8e1e699170c"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "x86_64",
+    "imageid": "ami-052afae0613f8bace",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-052afae0613f8bace"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0c7c89825e02c8db1",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0c7c89825e02c8db1"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-05643ee1aa63b7244",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-05643ee1aa63b7244"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-1",
+    "architecture": "arm64",
+    "imageid": "ami-0323ce2c08a23414a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard:ami=ami-0323ce2c08a23414a"
   },
   {
     "version": "8.7",
     "provider": "AWS",
     "region": "ap-southeast-2",
     "architecture": "arm64",
-    "imageid": "ami-01ec0565b870e6c72",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-01ec0565b870e6c72"
+    "imageid": "ami-0dfc42c31d451b2e1",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0dfc42c31d451b2e1"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-00f1d96b6f33c9c91",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-00f1d96b6f33c9c91"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-0a3b711f2fa00648b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0a3b711f2fa00648b"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-01d801fcba2e682d0",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-01d801fcba2e682d0"
   },
   {
     "version": "8.6",
@@ -1616,28 +2280,44 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-024fe65d8dcbc9d62"
   },
   {
-    "version": "9.1",
+    "version": "9.0",
     "provider": "AWS",
     "region": "ap-southeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-0a3b711f2fa00648b",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0a3b711f2fa00648b"
+    "architecture": "x86_64",
+    "imageid": "ami-0fdcf70daafa77bf6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0fdcf70daafa77bf6"
   },
   {
-    "version": "9.1",
+    "version": "9.2",
     "provider": "AWS",
     "region": "ap-southeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-0b299181bd7f8f2e6",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0b299181bd7f8f2e6"
+    "architecture": "x86_64",
+    "imageid": "ami-05ad975db233ec009",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-05ad975db233ec009"
   },
   {
     "version": "8.7",
     "provider": "AWS",
     "region": "ap-southeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-04ff5f2bc9a59c0f1",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-04ff5f2bc9a59c0f1"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
     "architecture": "arm64",
-    "imageid": "ami-0dfc42c31d451b2e1",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0dfc42c31d451b2e1"
+    "imageid": "ami-077d4d2f20a6cd892",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-077d4d2f20a6cd892"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-04a4e1ab581bc0406",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-04a4e1ab581bc0406"
   },
   {
     "version": "8.5",
@@ -1646,30 +2326,6 @@
     "architecture": "arm64",
     "imageid": "ami-0171b2fa317eb0d6d",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0171b2fa317eb0d6d"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-southeast-2",
-    "architecture": "arm64",
-    "imageid": "ami-036af2e62fdf543b9",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-036af2e62fdf543b9"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "ap-southeast-2",
-    "architecture": "x86_64",
-    "imageid": "ami-01d801fcba2e682d0",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-01d801fcba2e682d0"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "ap-southeast-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0f9fc10ec558f4b77",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0f9fc10ec558f4b77"
   },
   {
     "version": "9.0",
@@ -1683,25 +2339,9 @@
     "version": "9.1",
     "provider": "AWS",
     "region": "ap-southeast-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0f1f2835cf77cfa35",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0f1f2835cf77cfa35"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "ap-southeast-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0fdcf70daafa77bf6",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0fdcf70daafa77bf6"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "ap-southeast-2",
     "architecture": "arm64",
-    "imageid": "ami-0cd32bc8fbd1945ff",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0cd32bc8fbd1945ff"
+    "imageid": "ami-036af2e62fdf543b9",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-036af2e62fdf543b9"
   },
   {
     "version": "8.6",
@@ -1715,17 +2355,89 @@
     "version": "8.7",
     "provider": "AWS",
     "region": "ap-southeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-0cd32bc8fbd1945ff",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0cd32bc8fbd1945ff"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
     "architecture": "x86_64",
-    "imageid": "ami-04a4e1ab581bc0406",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-04a4e1ab581bc0406"
+    "imageid": "ami-0eccfc42d23666b84",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0eccfc42d23666b84"
   },
   {
     "version": "8.7",
     "provider": "AWS",
     "region": "ap-southeast-2",
     "architecture": "x86_64",
-    "imageid": "ami-04ff5f2bc9a59c0f1",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-04ff5f2bc9a59c0f1"
+    "imageid": "ami-0d0e0e969753118d5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0d0e0e969753118d5"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0f9fc10ec558f4b77",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0f9fc10ec558f4b77"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-01ec0565b870e6c72",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-01ec0565b870e6c72"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
+    "architecture": "arm64",
+    "imageid": "ami-0b299181bd7f8f2e6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0b299181bd7f8f2e6"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "ap-southeast-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0f1f2835cf77cfa35",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#LaunchInstanceWizard:ami=ami-0f1f2835cf77cfa35"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-085934d8ab1bfaa1c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-085934d8ab1bfaa1c"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0626c3710f2082e41",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0626c3710f2082e41"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0c18b6cf30a846cbc",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0c18b6cf30a846cbc"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-04b110e89185a0f41",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-04b110e89185a0f41"
   },
   {
     "version": "8.7",
@@ -1740,16 +2452,40 @@
     "provider": "AWS",
     "region": "eu-central-1",
     "architecture": "x86_64",
-    "imageid": "ami-036b9c72ca05536ae",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-036b9c72ca05536ae"
+    "imageid": "ami-05081d3e5072c28e2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-05081d3e5072c28e2"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0c7a527b3fa7d2cab",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0c7a527b3fa7d2cab"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0de1a4550abb24d52",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0de1a4550abb24d52"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0290798fd2108338e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0290798fd2108338e"
   },
   {
     "version": "8.7",
     "provider": "AWS",
     "region": "eu-central-1",
-    "architecture": "arm64",
-    "imageid": "ami-0276fbd4474c38af3",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0276fbd4474c38af3"
+    "architecture": "x86_64",
+    "imageid": "ami-01e4ba0a003c735ba",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-01e4ba0a003c735ba"
   },
   {
     "version": "9.1",
@@ -1760,12 +2496,52 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0edde843f486df6b5"
   },
   {
-    "version": "9.0",
+    "version": "9.2",
     "provider": "AWS",
     "region": "eu-central-1",
     "architecture": "arm64",
-    "imageid": "ami-0c7a527b3fa7d2cab",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0c7a527b3fa7d2cab"
+    "imageid": "ami-077951f1ce0b4fa26",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-077951f1ce0b4fa26"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0a9cd4ee47ff73e1d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0a9cd4ee47ff73e1d"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0e2472e3ae57bedaf",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0e2472e3ae57bedaf"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "arm64",
+    "imageid": "ami-0ae0e088f1170391d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0ae0e088f1170391d"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-036b9c72ca05536ae",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-036b9c72ca05536ae"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "eu-central-1",
+    "architecture": "x86_64",
+    "imageid": "ami-079f4c25253b27e9d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-079f4c25253b27e9d"
   },
   {
     "version": "8.6",
@@ -1784,28 +2560,12 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0845fd97bc4d2d9c1"
   },
   {
-    "version": "8.6",
+    "version": "8.7",
     "provider": "AWS",
     "region": "eu-central-1",
     "architecture": "arm64",
-    "imageid": "ami-0867fae26e716db00",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0867fae26e716db00"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0626c3710f2082e41",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0626c3710f2082e41"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0290798fd2108338e",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0290798fd2108338e"
+    "imageid": "ami-0276fbd4474c38af3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0276fbd4474c38af3"
   },
   {
     "version": "9.1",
@@ -1816,100 +2576,12 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-05be07e14ba0f8a1b"
   },
   {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "arm64",
-    "imageid": "ami-0a9cd4ee47ff73e1d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0a9cd4ee47ff73e1d"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-01e4ba0a003c735ba",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-01e4ba0a003c735ba"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-079f4c25253b27e9d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-079f4c25253b27e9d"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "arm64",
-    "imageid": "ami-085934d8ab1bfaa1c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-085934d8ab1bfaa1c"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "arm64",
-    "imageid": "ami-0ae0e088f1170391d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0ae0e088f1170391d"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "x86_64",
-    "imageid": "ami-05081d3e5072c28e2",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-05081d3e5072c28e2"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "eu-central-1",
-    "architecture": "arm64",
-    "imageid": "ami-04b110e89185a0f41",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-04b110e89185a0f41"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-east-1",
-    "architecture": "arm64",
-    "imageid": "ami-0f0486e13a0857ef5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0f0486e13a0857ef5"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-east-1",
-    "architecture": "arm64",
-    "imageid": "ami-09e86285245d7a035",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09e86285245d7a035"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-east-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0a35eb18668778108",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0a35eb18668778108"
-  },
-  {
     "version": "8.6",
     "provider": "AWS",
-    "region": "us-east-1",
+    "region": "eu-central-1",
     "architecture": "arm64",
-    "imageid": "ami-09e5024730b047901",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09e5024730b047901"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-east-1",
-    "architecture": "arm64",
-    "imageid": "ami-00ca6d0d5ddfeb72b",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-00ca6d0d5ddfeb72b"
+    "imageid": "ami-0867fae26e716db00",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=eu-central-1#LaunchInstanceWizard:ami=ami-0867fae26e716db00"
   },
   {
     "version": "8.7",
@@ -1920,6 +2592,14 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-01d7cc72576e2983f"
   },
   {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-00b0dcadee599a758",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-00b0dcadee599a758"
+  },
+  {
     "version": "8.6",
     "provider": "AWS",
     "region": "us-east-1",
@@ -1928,20 +2608,20 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0746c2106d76fa617"
   },
   {
-    "version": "9.1",
+    "version": "8.6",
     "provider": "AWS",
     "region": "us-east-1",
     "architecture": "x86_64",
-    "imageid": "ami-09b5874a3e62804ee",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09b5874a3e62804ee"
+    "imageid": "ami-04211a47a54ddc806",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-04211a47a54ddc806"
   },
   {
-    "version": "9.1",
+    "version": "8.6",
     "provider": "AWS",
     "region": "us-east-1",
     "architecture": "arm64",
-    "imageid": "ami-0aa50e47a7f244062",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0aa50e47a7f244062"
+    "imageid": "ami-09e5024730b047901",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09e5024730b047901"
   },
   {
     "version": "9.1",
@@ -1955,9 +2635,121 @@
     "version": "9.1",
     "provider": "AWS",
     "region": "us-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-0aa50e47a7f244062",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0aa50e47a7f244062"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0a35eb18668778108",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0a35eb18668778108"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-09b5874a3e62804ee",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09b5874a3e62804ee"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0e63078428ec6a2e1",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0e63078428ec6a2e1"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-00ca6d0d5ddfeb72b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-00ca6d0d5ddfeb72b"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-00588d69ca4ca0ad0",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-00588d69ca4ca0ad0"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-033ef19db07a9cdbc",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-033ef19db07a9cdbc"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-09211d7039085071f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09211d7039085071f"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-1",
     "architecture": "x86_64",
     "imageid": "ami-032d067e7f73e7519",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-032d067e7f73e7519"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-09e86285245d7a035",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-09e86285245d7a035"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-043ceee68871e0bb5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-043ceee68871e0bb5"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-0d2f7fe4c68b7603f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0d2f7fe4c68b7603f"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-010d23872696143c0",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-010d23872696143c0"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "arm64",
+    "imageid": "ami-06ce6d4e13446440e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-06ce6d4e13446440e"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-east-1",
+    "architecture": "x86_64",
+    "imageid": "ami-07d75f492ac3a326f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-07d75f492ac3a326f"
   },
   {
     "version": "8.5",
@@ -1972,56 +2764,8 @@
     "provider": "AWS",
     "region": "us-east-1",
     "architecture": "arm64",
-    "imageid": "ami-0d2f7fe4c68b7603f",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0d2f7fe4c68b7603f"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "us-east-1",
-    "architecture": "x86_64",
-    "imageid": "ami-043ceee68871e0bb5",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-043ceee68871e0bb5"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "us-east-1",
-    "architecture": "x86_64",
-    "imageid": "ami-04211a47a54ddc806",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-04211a47a54ddc806"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-east-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0e63078428ec6a2e1",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0e63078428ec6a2e1"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-east-1",
-    "architecture": "arm64",
-    "imageid": "ami-00b0dcadee599a758",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-00b0dcadee599a758"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "arm64",
-    "imageid": "ami-07864d9f69ccde7b2",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-07864d9f69ccde7b2"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "x86_64",
-    "imageid": "ami-03fbe1bdf82483266",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-03fbe1bdf82483266"
+    "imageid": "ami-0f0486e13a0857ef5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-0f0486e13a0857ef5"
   },
   {
     "version": "8.5",
@@ -2032,20 +2776,12 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0ad50f06c7fd091a3"
   },
   {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "x86_64",
-    "imageid": "ami-04e242a876eb40b82",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-04e242a876eb40b82"
-  },
-  {
-    "version": "9.1",
+    "version": "8.7",
     "provider": "AWS",
     "region": "us-east-2",
     "architecture": "arm64",
-    "imageid": "ami-0de0c5c80ee659663",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0de0c5c80ee659663"
+    "imageid": "ami-017ba73a709cadd71",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-017ba73a709cadd71"
   },
   {
     "version": "9.0",
@@ -2059,9 +2795,49 @@
     "version": "8.7",
     "provider": "AWS",
     "region": "us-east-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0cdd387cfee91b0cf",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0cdd387cfee91b0cf"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "x86_64",
+    "imageid": "ami-04e242a876eb40b82",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-04e242a876eb40b82"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0e6aca445928e3987",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0e6aca445928e3987"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-2",
     "architecture": "arm64",
-    "imageid": "ami-017ba73a709cadd71",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-017ba73a709cadd71"
+    "imageid": "ami-0a4ca78b119e1b2c4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0a4ca78b119e1b2c4"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "arm64",
+    "imageid": "ami-0b04b7ca309a8c399",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0b04b7ca309a8c399"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "x86_64",
+    "imageid": "ami-03d39810179b00672",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-03d39810179b00672"
   },
   {
     "version": "8.7",
@@ -2075,81 +2851,33 @@
     "version": "8.7",
     "provider": "AWS",
     "region": "us-east-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0cdd387cfee91b0cf",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0cdd387cfee91b0cf"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "x86_64",
-    "imageid": "ami-08882eba49067074f",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-08882eba49067074f"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-east-2",
     "architecture": "arm64",
     "imageid": "ami-0bebec0956b4ac3ea",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0bebec0956b4ac3ea"
   },
   {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "arm64",
+    "imageid": "ami-008d432c5dc66df3b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-008d432c5dc66df3b"
+  },
+  {
     "version": "9.1",
     "provider": "AWS",
     "region": "us-east-2",
     "architecture": "arm64",
-    "imageid": "ami-0a4ca78b119e1b2c4",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0a4ca78b119e1b2c4"
+    "imageid": "ami-0de0c5c80ee659663",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0de0c5c80ee659663"
   },
   {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "arm64",
-    "imageid": "ami-0b6159d240ab78b1a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0b6159d240ab78b1a"
-  },
-  {
-    "version": "9.1",
+    "version": "9.2",
     "provider": "AWS",
     "region": "us-east-2",
     "architecture": "x86_64",
-    "imageid": "ami-0e6aca445928e3987",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0e6aca445928e3987"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0ebdcb3515daa1b1b",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0ebdcb3515daa1b1b"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "arm64",
-    "imageid": "ami-0b04b7ca309a8c399",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0b04b7ca309a8c399"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "arm64",
-    "imageid": "ami-0c17a5b39084bfabe",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0c17a5b39084bfabe"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-east-2",
-    "architecture": "arm64",
-    "imageid": "ami-07ad41b2da6ec8b4f",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-07ad41b2da6ec8b4f"
+    "imageid": "ami-0b72b5196a0d1412e",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0b72b5196a0d1412e"
   },
   {
     "version": "8.7",
@@ -2160,6 +2888,70 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0e6e4523b1c946b1c"
   },
   {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0ebdcb3515daa1b1b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0ebdcb3515daa1b1b"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "arm64",
+    "imageid": "ami-0b6159d240ab78b1a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0b6159d240ab78b1a"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "arm64",
+    "imageid": "ami-07864d9f69ccde7b2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-07864d9f69ccde7b2"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "arm64",
+    "imageid": "ami-0c17a5b39084bfabe",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0c17a5b39084bfabe"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "x86_64",
+    "imageid": "ami-03fbe1bdf82483266",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-03fbe1bdf82483266"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "arm64",
+    "imageid": "ami-07ad41b2da6ec8b4f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-07ad41b2da6ec8b4f"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "x86_64",
+    "imageid": "ami-08882eba49067074f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-08882eba49067074f"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-east-2",
+    "architecture": "arm64",
+    "imageid": "ami-0bc5d531aa1aea9f3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-east-2#LaunchInstanceWizard:ami=ami-0bc5d531aa1aea9f3"
+  },
+  {
     "version": "9.1",
     "provider": "AWS",
     "region": "us-west-1",
@@ -2168,12 +2960,12 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-020ef17b3bd68cac5"
   },
   {
-    "version": "8.6",
+    "version": "9.2",
     "provider": "AWS",
     "region": "us-west-1",
     "architecture": "arm64",
-    "imageid": "ami-0eaa13b719aa6ede6",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0eaa13b719aa6ede6"
+    "imageid": "ami-0e29a2cfb5c5989f5",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0e29a2cfb5c5989f5"
   },
   {
     "version": "8.7",
@@ -2184,100 +2976,12 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-05b1a353c843e42e3"
   },
   {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-04cbb2b47664ce46d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-04cbb2b47664ce46d"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-04d2adeda62148a1c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-04d2adeda62148a1c"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-0fc0308d4577ed1e3",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0fc0308d4577ed1e3"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0b2f0cdcdd5334262",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0b2f0cdcdd5334262"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0afb7029d2868f474",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0afb7029d2868f474"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-0b5ea38a0532d8a30",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0b5ea38a0532d8a30"
-  },
-  {
     "version": "9.1",
     "provider": "AWS",
     "region": "us-west-1",
     "architecture": "arm64",
     "imageid": "ami-0c26a96c00483b0a5",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0c26a96c00483b0a5"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-081d328837400f3c4",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-081d328837400f3c4"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "arm64",
-    "imageid": "ami-0613fcbcf8ac10955",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0613fcbcf8ac10955"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-07dbbcc8c586a27d4",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-07dbbcc8c586a27d4"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0bade28b66ad2436c",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0bade28b66ad2436c"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "us-west-1",
-    "architecture": "x86_64",
-    "imageid": "ami-0335e1660e1197d63",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0335e1660e1197d63"
   },
   {
     "version": "8.7",
@@ -2296,6 +3000,118 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-028b0e5830b8156ff"
   },
   {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-04d2adeda62148a1c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-04d2adeda62148a1c"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0b2f0cdcdd5334262",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0b2f0cdcdd5334262"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0bade28b66ad2436c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0bade28b66ad2436c"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-0fc0308d4577ed1e3",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0fc0308d4577ed1e3"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-081d328837400f3c4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-081d328837400f3c4"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-0eaa13b719aa6ede6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0eaa13b719aa6ede6"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0afb7029d2868f474",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0afb7029d2868f474"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-0613fcbcf8ac10955",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0613fcbcf8ac10955"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-09ab6fbfb17eb600f",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-09ab6fbfb17eb600f"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "arm64",
+    "imageid": "ami-0b5ea38a0532d8a30",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0b5ea38a0532d8a30"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0280eb73d9f9ac5c6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0280eb73d9f9ac5c6"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-0335e1660e1197d63",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-0335e1660e1197d63"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-04cbb2b47664ce46d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-04cbb2b47664ce46d"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-west-1",
+    "architecture": "x86_64",
+    "imageid": "ami-07dbbcc8c586a27d4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-07dbbcc8c586a27d4"
+  },
+  {
     "version": "9.0",
     "provider": "AWS",
     "region": "us-west-1",
@@ -2304,100 +3120,12 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-00d831cad9ecf3215"
   },
   {
-    "version": "8.7",
+    "version": "9.2",
     "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-011d6b093f1871e28",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-011d6b093f1871e28"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0811c9f1bacb97a8b",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0811c9f1bacb97a8b"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-west-2",
+    "region": "us-west-1",
     "architecture": "arm64",
-    "imageid": "ami-0d591df4a537c24fc",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0d591df4a537c24fc"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-09ca837d91f083d04",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-09ca837d91f083d04"
-  },
-  {
-    "version": "8.5",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "arm64",
-    "imageid": "ami-08eb90c0d94c32ff4",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-08eb90c0d94c32ff4"
-  },
-  {
-    "version": "9.0",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0329a05e6b8d88e4d",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0329a05e6b8d88e4d"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-049fac02aa7aad2e2",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-049fac02aa7aad2e2"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "arm64",
-    "imageid": "ami-01cf25f337dd859cd",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-01cf25f337dd859cd"
-  },
-  {
-    "version": "8.6",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0b98dddee00301f7a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0b98dddee00301f7a"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0d9f6824c094708d4",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0d9f6824c094708d4"
-  },
-  {
-    "version": "9.1",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-0c6ad0cb888dc015a",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0c6ad0cb888dc015a"
-  },
-  {
-    "version": "8.7",
-    "provider": "AWS",
-    "region": "us-west-2",
-    "architecture": "x86_64",
-    "imageid": "ami-091fc5fc8ec8b15e7",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-091fc5fc8ec8b15e7"
+    "imageid": "ami-071c5bb3ee227ae08",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-1#LaunchInstanceWizard:ami=ami-071c5bb3ee227ae08"
   },
   {
     "version": "8.7",
@@ -2408,12 +3136,52 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-02cca3d6255ef1f61"
   },
   {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-06e48a29d702f070c",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-06e48a29d702f070c"
+  },
+  {
     "version": "9.1",
     "provider": "AWS",
     "region": "us-west-2",
     "architecture": "arm64",
     "imageid": "ami-099ed20b35fba76d8",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-099ed20b35fba76d8"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-011d6b093f1871e28",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-011d6b093f1871e28"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-049fac02aa7aad2e2",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-049fac02aa7aad2e2"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-091fc5fc8ec8b15e7",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-091fc5fc8ec8b15e7"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0d9f6824c094708d4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0d9f6824c094708d4"
   },
   {
     "version": "9.1",
@@ -2432,12 +3200,84 @@
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0867cc36e0d30d01d"
   },
   {
-    "version": "8.7",
+    "version": "9.2",
     "provider": "AWS",
     "region": "us-west-2",
     "architecture": "arm64",
-    "imageid": "ami-0c6277a25ddbb9eae",
-    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0c6277a25ddbb9eae"
+    "imageid": "ami-050755908c29b4b64",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-050755908c29b4b64"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0b98dddee00301f7a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0b98dddee00301f7a"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-0d591df4a537c24fc",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0d591df4a537c24fc"
+  },
+  {
+    "version": "9.0",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0329a05e6b8d88e4d",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0329a05e6b8d88e4d"
+  },
+  {
+    "version": "8.6",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-01cf25f337dd859cd",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-01cf25f337dd859cd"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-09ca837d91f083d04",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-09ca837d91f083d04"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0811c9f1bacb97a8b",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0811c9f1bacb97a8b"
+  },
+  {
+    "version": "9.1",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0c6ad0cb888dc015a",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0c6ad0cb888dc015a"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-07f8c9b6c95869a95",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-07f8c9b6c95869a95"
+  },
+  {
+    "version": "8.5",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-08eb90c0d94c32ff4",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-08eb90c0d94c32ff4"
   },
   {
     "version": "9.0",
@@ -2446,5 +3286,21 @@
     "architecture": "arm64",
     "imageid": "ami-0ca6a2df5e9ec2f4c",
     "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0ca6a2df5e9ec2f4c"
+  },
+  {
+    "version": "8.7",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "arm64",
+    "imageid": "ami-0c6277a25ddbb9eae",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0c6277a25ddbb9eae"
+  },
+  {
+    "version": "9.2",
+    "provider": "AWS",
+    "region": "us-west-2",
+    "architecture": "x86_64",
+    "imageid": "ami-0b3f4b2b91cbd17d6",
+    "deploylink": "https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:ami=ami-0b3f4b2b91cbd17d6"
   }
 ]
