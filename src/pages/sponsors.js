@@ -43,7 +43,7 @@ const SponsorsPage = () => {
       source: `${FortyFiveDrivesLogo}`,
       link: 'https://45drives.com',
       dateStart: '2021-02-21',
-      dateEnd: '2023-02-21',
+      dateEnd: '2024-02-21',
     },
     {
       name: `${translate('sponsors.aws.name')}`,
