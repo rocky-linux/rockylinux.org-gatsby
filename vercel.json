@@ -5,6 +5,10 @@
       "destination": "https://raw.githubusercontent.com/rocky-linux/rocky-tools/main/migrate2rocky/migrate2rocky.sh"
     },
     {
+      "source": "/migrate2rocky9.sh",
+      "destination": "https://raw.githubusercontent.com/rocky-linux/rocky-tools/main/migrate2rocky/migrate2rocky9.sh"
+    },
+    {
       "source": "/dl/:type(dvd1|boot|minimal)/:architecture(x86_64|aarch64|ppc64le|s390x)",
       "destination": "https://dl.rockylinux.org/pub/rocky/8/isos/:architecture/Rocky-8.7-:architecture-:type.iso"
     },
