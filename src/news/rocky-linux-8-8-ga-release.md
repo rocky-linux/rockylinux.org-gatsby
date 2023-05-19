@@ -53,6 +53,7 @@ We would like to thank the following individuals in particular for their contrib
 * Brian Clemens
 * Chris Stackpole
 * David H
+* Ezequiel Bruni
 * Louis Abel
 * Lukas Magauer
 * Mustafa Gezen
