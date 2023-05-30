@@ -8,12 +8,11 @@ posttype: 'news'
 After additional testing and thorough investigation into the
 architecture-specific bug we discovered, the Rocky Linux team is pleased to
 announce the availability of Rocky 9.2 for the PowerPC (LE) or ppc64le
-architecture. Before upgrading your ppc64le machine to Rocky 9.2, make sure to
-review the section below on upgrading.
+architecture. Before upgrading your ppc64le machine to Rocky 9.2, review the section below on upgrading.
 
-The result of our investigation has revealed that the environments under which
+Our investigation has revealed that the environments under which
 our tests were performed were running a "pre-production" revision to the Power 9
-CPU architecture, leading to the segmentation faults we are able to reproduce
+CPU architecture, leading to segmentation faults we are able to reproduce
 both in emulated and physical environments with affected processor revisions
 (steppings). For a more detailed explanation, please read below.
 
@@ -50,7 +49,7 @@ as to build our container and cloud images for ppc64le in an alternative fashion
 such that they can be released.
 
 The team is thankful for your patience and consideration as we have worked to
-identify, scope, and work to resolve these issues while ensuring that the
+identify, scope, and resolve these issues while ensuring that the
 release as a whole is nominally safe for most users to upgrade to if they are
 using the ppc64le architecture. Regardless of the upstream bug status, the Rocky
 Linux team does consider this a regression between 9.0, 9.1, and 9.2, as we are
