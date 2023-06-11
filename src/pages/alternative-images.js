@@ -498,7 +498,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/sig/9/altarch/aarch64/images/RockyLinuxRpi_9.1.img.xz.sha256sum"
+                            href="https://dl.rockylinux.org/pub/sig/9/altarch/aarch64/images/RockyLinuxRpi_9-latest.img.xz.sha256sum"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -506,7 +506,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/sig/9/altarch/aarch64/images/readme.txt"
+                            href="https://dl.rockylinux.org/pub/sig/9/altarch/aarch64/images/README.txt"
                           >
                             {translate('body.readme')}
                           </a>
@@ -514,7 +514,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/sig/9/altarch/aarch64/images/RockyLinuxRpi_9.1.img.xz"
+                            href="https://dl.rockylinux.org/pub/sig/9/altarch/aarch64/images/RockyLinuxRpi_9-latest.img.xz"
                           >
                             {translate('body.download')}
                           </a>
@@ -832,7 +832,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/sig/8/altarch/aarch64/images/RockyRpi_8.7.img.xz.sha256sum"
+                            href="https://dl.rockylinux.org/pub/sig/8/altarch/aarch64/images/RockyLinuxRpi_8-latest.img.xz.sha256sum"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -840,7 +840,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/sig/8/altarch/aarch64/images/README.txt"
+                            href=" https://dl.rockylinux.org/pub/sig/8/altarch/aarch64/images/README.txt"
                           >
                             {translate('body.readme')}
                           </a>
@@ -848,7 +848,7 @@ const AlternativeImagesPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://dl.rockylinux.org/pub/sig/8/altarch/aarch64/images/RockyRpi_8.7.img.xz"
+                            href="https://dl.rockylinux.org/pub/sig/8/altarch/aarch64/images/RockyLinuxRpi_8-latest.img.xz"
                           >
                             {translate('body.download')}
                           </a>
