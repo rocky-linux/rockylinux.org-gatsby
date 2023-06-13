@@ -240,7 +240,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9.1/isos/ppc64le/Rocky-9.1-ppc64le-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9.2/isos/ppc64le/Rocky-9.2-ppc64le-minimal.iso"
                             onClick={() =>
                               downloadEvent('RL9: Minimal ppc64le')
                             }
@@ -250,7 +250,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9.1/isos/ppc64le/Rocky-9.1-ppc64le-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9.2/isos/ppc64le/Rocky-9.2-ppc64le-dvd.iso"
                             onClick={() => downloadEvent('RL9: DVD ppc64le')}
                           >
                             {translate('body.dvd')}
@@ -258,7 +258,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9.1/isos/ppc64le/Rocky-9.1-ppc64le-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9.2/isos/ppc64le/Rocky-9.2-ppc64le-boot.iso"
                             onClick={() => downloadEvent('RL9: Boot ppc64le')}
                           >
                             {translate('body.boot')}
@@ -266,7 +266,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9.1/isos/ppc64le/Rocky-9.1-ppc64le-dvd.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/9.2/isos/ppc64le/Rocky-9.2-ppc64le-dvd.torrent"
                             onClick={() =>
                               downloadEvent('RL9: Torrent ppc64le')
                             }
@@ -276,7 +276,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9.1/isos/ppc64le/CHECKSUM"
+                            href="https://download.rockylinux.org/pub/rocky/9.2/isos/ppc64le/CHECKSUM"
                           >
                             {translate('body.checksum')}
                           </a>
@@ -284,7 +284,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="https://download.rockylinux.org/pub/rocky/9.1/BaseOS/ppc64le/"
+                            href="https://download.rockylinux.org/pub/rocky/9.2/BaseOS/ppc64le/"
                           >
                             {translate('body.baseos')}
                           </a>
