@@ -102,5 +102,13 @@
     "localName": "한국어",
     "langDir": "ltr",
     "dateFormat": "YYYY/MM/DD"
+  },
+  {
+    "code": "af",
+    "hrefLang": "af",
+    "name": "Afrikaans",
+    "localName": "Afrikaans",
+    "langDir": "ltr",
+    "dateFormat": "YYYY-MM-DD"
   }
 ]
