@@ -1,7 +1,7 @@
 ---
 title: Keeping Open Source Open
 date: '2023-06-29'
-description: 'In this post, we share some information about the technical details of how we're pushing forward after Red Hat's source changes.'
+description: 'In this post, we share some information about the technical details of how we're pushing forward after RHEL source changes.'
 posttype: 'news'
 ---
 
