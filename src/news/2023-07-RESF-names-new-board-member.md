@@ -6,9 +6,7 @@ posttype: 'news'
 ---
 Theodore Ts’o has joined the Rocky Enterprise Software Foundation’s Board of Directors. 
 
-On June 10, 2023, the membership of the Rocky Enterprise Software Foundation (RESF) voted to approve Theodore Ts’o as an At-Large Director of the RESF Board, effective immediately. The bylaws of the RESF incorporate At-Large Directors on the Board in order to ensure a breadth of perspectives from the greater open-source community. 
-
-“I am looking forward to this opportunity to be part of the Rocky Enterprise Linux Foundation,” says Ts’o. “Enterprise Linux provides immense value to individuals and businesses of the open source community.” 
+On June 10, 2023, the membership of the Rocky Enterprise Software Foundation (RESF) voted to approve Theodore Ts’o as an At-Large Director of the RESF Board, effective immediately. The bylaws of the RESF incorporate At-Large Directors on the Board in order to ensure a breadth of perspectives from the greater open-source community.  
 
 Since his graduation from the MIT computer science program in 1990, Ts’o has worked in the Linux community, being instrumental in the Kerberos project and the /dev/random Linux device node. He is a Debian developer whose work experience includes MIT, IBM, and Google.
 
