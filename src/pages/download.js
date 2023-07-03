@@ -183,7 +183,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="http://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.2-aarch64-minimal.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.2-aarch64-minimal.iso"
                             onClick={() =>
                               downloadEvent('RL9: Minimal aarch64')
                             }
@@ -193,7 +193,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="http://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.2-aarch64-dvd.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.2-aarch64-dvd.iso"
                             onClick={() => downloadEvent('RL9: DVD aarch64')}
                           >
                             {translate('body.dvd')}
@@ -201,7 +201,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="http://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.2-aarch64-boot.iso"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.2-aarch64-boot.iso"
                             onClick={() => downloadEvent('RL9: Boot aarch64')}
                           >
                             {translate('body.boot')}
@@ -209,7 +209,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                           |&nbsp;
                           <a
                             className="font-medium text-green-600 dark:text-green-500"
-                            href="http://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.2-aarch64-dvd.torrent"
+                            href="https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.2-aarch64-dvd.torrent"
                             onClick={() =>
                               downloadEvent('RL9: Torrent aarch64')
                             }
@@ -540,7 +540,7 @@ const DownloadPage = ({ data, pageContext: { locale: language } }) => {
                 >
                   <svg
                     className="h-4 w-4"
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns="https://www.w3.org/2000/svg"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
