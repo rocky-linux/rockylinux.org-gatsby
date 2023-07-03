@@ -1,13 +1,9 @@
-<!-----
-title: RESF Names New Board Member
-author: Krista Burdine
-tags:
-  - press release
-  - news
-  - board
-  - resf
-
------>
+---
+title: 'RESF Names New Board Member'
+date: '2023-07-03'
+description: 'Theodore Ts’o has joined the Rocky Enterprise Software Foundation’s Board of Directors'
+posttype: 'news'
+---
 # RESF Names New Board Member
 
 
