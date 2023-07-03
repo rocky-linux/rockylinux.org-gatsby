@@ -1,5 +1,5 @@
 ---
-title: 'RESF Names Theodore Tso to Board'
+title: "RESF Names Theodore Ts'o to Board"
 date: '2023-07-03'
 description: 'Theodore Ts’o has joined the Rocky Enterprise Software Foundation’s Board of Directors'
 posttype: 'news'
