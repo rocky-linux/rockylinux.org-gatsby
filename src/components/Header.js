@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { ChevronDownIcon } from '@heroicons/react/solid';
+import { ChatIcon, ChevronDownIcon, DownloadIcon } from '@heroicons/react/solid';
 import { Translate } from '../../i18n/utils/translate';
 import LocalizedLink from '../components/LocalizedLink';
 
@@ -397,10 +397,19 @@ const Header = ({ pageContext: { locale: language } }) => {
             </Popover.Group>
             <div className="flex items-center lg:ml-12">
               <LocalizedLink
+                to="https://chat.rockylinux.org"
+                language={language}
+                className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+              >
+	        <ChatIcon className="h-6 w-6" />
+                {translate('chat')}
+              </LocalizedLink>
+              <LocalizedLink
                 to="/download"
                 language={language}
                 className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
               >
+	        <DownloadIcon className="h-6 w-6" />
                 {translate('download')}
               </LocalizedLink>
             </div>
@@ -493,10 +502,19 @@ const Header = ({ pageContext: { locale: language } }) => {
                 </div>
                 <div className="mt-6">
                   <LocalizedLink
+                    to="https://chat.rockylinux.org"
+                    language={language}
+                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                  >
+	            <ChatIcon className="h-6 w-6" />
+                    {translate('chat')}
+                  </LocalizedLink>
+                  <LocalizedLink
                     to="/download"
                     language={language}
                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
                   >
+	            <DownloadIcon className="h-6 w-6" />
                     {translate('download')}
                   </LocalizedLink>
                 </div>
