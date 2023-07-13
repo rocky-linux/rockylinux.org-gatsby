@@ -399,17 +399,15 @@ const Header = ({ pageContext: { locale: language } }) => {
               <LocalizedLink
                 to="https://chat.rockylinux.org"
                 language={language}
-                className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                className="w-full flex items-center justify-center text-base font-medium rounded-md text-green-600 bg-green-50 hover:bg-green-100 hover:text-green-700 py-2 px-4"
               >
-	        <ChatIcon className="h-6 w-6" />
                 {translate('chat')}
               </LocalizedLink>
               <LocalizedLink
                 to="/download"
                 language={language}
-                className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                className="ml-3 inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
               >
-	        <DownloadIcon className="h-6 w-6" />
                 {translate('download')}
               </LocalizedLink>
             </div>
@@ -500,21 +498,19 @@ const Header = ({ pageContext: { locale: language } }) => {
                     </a>
                   ))}
                 </div>
-                <div className="mt-6">
+                <div className="mt-6 flex">
                   <LocalizedLink
                     to="https://chat.rockylinux.org"
                     language={language}
-                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                    className="w-full flex items-center justify-center text-base font-medium rounded-md text-green-600 bg-green-50 hover:bg-green-100 hover:text-green-700 py-2 px-4"
                   >
-	            <ChatIcon className="h-6 w-6" />
                     {translate('chat')}
                   </LocalizedLink>
                   <LocalizedLink
                     to="/download"
                     language={language}
-                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600 ml-3"
                   >
-	            <DownloadIcon className="h-6 w-6" />
                     {translate('download')}
                   </LocalizedLink>
                 </div>
