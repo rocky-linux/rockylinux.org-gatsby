@@ -37,6 +37,10 @@
       "tier": "Principal Partner",
       "blurb": "The Oregon State University Open Source Lab is a nonprofit organization working for the advancement of open source technologies. The OSL offers world-class hosting services, professional software development and on-the-ground training for promising students interested in open source management and programming."
     },
+    "osslab": {
+      "name": "OSSLAB",
+      "tier": "Principal Partner"
+    },
     "supermicro": {
       "name": "Supermicro",
       "tier": "Principal Partner",
