@@ -81,6 +81,7 @@ const PartnersPage = () => {
     {
       name: `${translate('partners.osslab.name')}`,
       tier: `${translate('partners.osslab.tier')}`,
+      blurb: `${translate('partners.osslab.blurb')}`,
       source: `${OsslabLogo}`,
       link: 'http://www.oss-lab.co.kr/',
     },

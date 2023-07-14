@@ -39,7 +39,8 @@
     },
     "osslab": {
       "name": "OSSLAB",
-      "tier": "Principal Partner"
+      "tier": "Principal Partner",
+      "blurb": "OSSLAB is a South Korea IT firm established in 2013. Our aim is to achieve our clients' successful business outcomes, and to that end we provide professional services including open-source infrastructure technology support, big data platform implementation, and cloud/security solution technical support."
     },
     "supermicro": {
       "name": "Supermicro",
