@@ -22,6 +22,8 @@ We believe we have an organizational structure that ensures the long term viabil
 
 ### Structure
 
+NOTE(nhanlon): 2023-08-24 - The below information is from before the ratification of the [Rocky Enterprise Software Foundation Charter](https://www.resf.org/about), and is currently undergoing a rework as it does not necessarily reflect the current structure nor governance of the Rocky Linux project. The information is kept below until new versions have been written. The Rocky Linux project's charter was approved with the ratification of the RESF in late 2022.
+
 The general structure of the organization consists of a flat hierarchy of teams with a leadership team. Each team will have one or more of the following roles:
 
 - Team Lead: The primary responsible lead for that team
