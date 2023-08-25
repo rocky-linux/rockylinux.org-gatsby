@@ -46,7 +46,7 @@ const AboutPage = () => {
                 </h3>
                 <p>
                   <Trans t={translate} i18nKey="organization.paragraph">
-                    <LocalizedLink to="/organizational-structure">
+                    <LocalizedLink to="https://resf.org/about">
                       page
                     </LocalizedLink>
                   </Trans>

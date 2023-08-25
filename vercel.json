@@ -143,6 +143,10 @@
     {
       "source": "/bylaws-charter(/|)",
       "destination": "https://resf.org/about"
+    },
+    {
+      "source": "/organizational-structure(/|)",
+      "destination": "https://resf.org/about"
     }
   ]
 }
