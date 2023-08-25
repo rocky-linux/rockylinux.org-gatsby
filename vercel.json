@@ -146,7 +146,7 @@
     },
     {
       "source": "/organizational-structure(/|)",
-      "destination": "https://resf.org/about",
+      "destination": "https://resf.org/about"
     }
   ]
 }
