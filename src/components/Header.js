@@ -26,10 +26,6 @@ const Header = ({ pageContext: { locale: language } }) => {
       href: '/community-charter',
     },
     {
-      name: `${translate('about.org-structure')}`,
-      href: '/organizational-structure',
-    },
-    {
       name: `${translate('about.sponsors')}`,
       href: '/sponsors',
     },
