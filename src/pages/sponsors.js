@@ -131,7 +131,7 @@ const SponsorsPage = () => {
       source: `${ProComputersLogo}`,
       link: 'https://www.procomputers.com/',
       dateStart: '2021-07-19',
-      dateEnd: '2023-07-19',
+      dateEnd: '2024-07-19',
     },
     {
       name: `${translate('sponsors.seagate.name')}`,
