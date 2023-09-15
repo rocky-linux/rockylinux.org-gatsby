@@ -20,10 +20,6 @@ const Footer = ({ pageContext: { locale: language } }) => {
       { name: `${translate('about.faq')}`, href: '/faq' },
       { name: `${translate('about.charter')}`, href: '/community-charter' },
       {
-        name: `${translate('about.org-structure')}`,
-        href: '/organizational-structure',
-      },
-      {
         name: `${translate('about.status')}`,
         href: 'https://status.rockylinux.org',
       },

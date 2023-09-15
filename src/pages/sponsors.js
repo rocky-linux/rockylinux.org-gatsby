@@ -83,7 +83,7 @@ const SponsorsPage = () => {
       source: `${MontaVistaLogo}`,
       link: 'https://mvista.com/',
       dateStart: '2021-03-26',
-      dateEnd: '2023-03-26',
+      dateEnd: '2024-03-26',
     },
     {
       name: `${translate('sponsors.opendrives.name')}`,
@@ -122,7 +122,7 @@ const SponsorsPage = () => {
       source: `${OpenLogicLogo}`,
       link: 'https://www.openlogic.com/',
       dateStart: '2022-04-28',
-      dateEnd: '2023-04-28',
+      dateEnd: '2024-04-28',
     },
     {
       name: `${translate('sponsors.procomputers.name')}`,

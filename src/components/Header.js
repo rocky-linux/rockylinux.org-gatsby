@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { ChevronDownIcon } from '@heroicons/react/solid';
+import { ChatIcon, ChevronDownIcon, DownloadIcon } from '@heroicons/react/solid';
 import { Translate } from '../../i18n/utils/translate';
 import LocalizedLink from '../components/LocalizedLink';
 
@@ -24,10 +24,6 @@ const Header = ({ pageContext: { locale: language } }) => {
     {
       name: `${translate('about.charter')}`,
       href: '/community-charter',
-    },
-    {
-      name: `${translate('about.org-structure')}`,
-      href: '/organizational-structure',
     },
     {
       name: `${translate('about.sponsors')}`,
@@ -397,9 +393,16 @@ const Header = ({ pageContext: { locale: language } }) => {
             </Popover.Group>
             <div className="flex items-center lg:ml-12">
               <LocalizedLink
+                to="https://chat.rockylinux.org"
+                language={language}
+                className="w-full flex items-center justify-center text-base font-medium rounded-md text-green-600 bg-green-50 hover:bg-green-100 hover:text-green-700 py-2 px-4"
+              >
+                {translate('chat')}
+              </LocalizedLink>
+              <LocalizedLink
                 to="/download"
                 language={language}
-                className="inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                className="ml-3 inline-flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-600 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
               >
                 {translate('download')}
               </LocalizedLink>
@@ -491,11 +494,18 @@ const Header = ({ pageContext: { locale: language } }) => {
                     </a>
                   ))}
                 </div>
-                <div className="mt-6">
+                <div className="mt-6 flex">
+                  <LocalizedLink
+                    to="https://chat.rockylinux.org"
+                    language={language}
+                    className="w-full flex items-center justify-center text-base font-medium rounded-md text-green-600 bg-green-50 hover:bg-green-100 hover:text-green-700 py-2 px-4"
+                  >
+                    {translate('chat')}
+                  </LocalizedLink>
                   <LocalizedLink
                     to="/download"
                     language={language}
-                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600"
+                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent dark:border-gray-800 rounded-md shadow-sm text-base font-medium text-white bg-green-500 hover:bg-green-600 ml-3"
                   >
                     {translate('download')}
                   </LocalizedLink>

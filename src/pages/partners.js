@@ -5,17 +5,19 @@ import Header from '../components/Header';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import { Translate } from '../../i18n/utils/translate';
-import CiqLogo from '../images/ciq.png';
+
+import ActLogo from '../images/act.png';
 import ArmLogo from '../images/arm.png';
+import CiqLogo from '../images/ciq.png';
+import CrowdinLogo from '../images/crowdin.png';
+import DsStudioLogo from '../images/dsstudio.png';
 import EquinixLogo from '../images/equinix.png';
 import FastlyLogo from '../images/fastly.png';
 import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import OslLogo from '../images/osl.png';
+import OsslabLogo from '../images/osslab.png';
 import SupermicroLogo from '../images/supermicro.png';
-import CrowdinLogo from '../images/crowdin.png';
-import DsStudioLogo from '../images/dsstudio.png';
-import ActLogo from '../images/act.png';
 
 const PartnersPage = () => {
   const translate = Translate('partners');
@@ -75,6 +77,13 @@ const PartnersPage = () => {
       blurb: `${translate('partners.osl.blurb')}`,
       source: `${OslLogo}`,
       link: 'https://osuosl.org/',
+    },
+    {
+      name: `${translate('partners.osslab.name')}`,
+      tier: `${translate('partners.osslab.tier')}`,
+      blurb: `${translate('partners.osslab.blurb')}`,
+      source: `${OsslabLogo}`,
+      link: 'http://www.oss-lab.co.kr/',
     },
     {
       name: `${translate('partners.supermicro.name')}`,

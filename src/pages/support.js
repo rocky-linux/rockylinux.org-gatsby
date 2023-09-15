@@ -21,6 +21,14 @@ const SupportPage = ({ data, pageContext: { locale: language } }) => {
       link: 'https://ciq.com/products/rocky-linux/',
     },
     {
+      name: `${translate('support.montavista.name')}`,
+      tier: `${translate('support.montavista.tier')}`,
+      title: `${translate('support.montavista.title')}`,
+      blurb: `${translate('support.montavista.blurb')}`,
+      source: `${MontaVistaLogo}`,
+      link: 'https://mvista.com/',
+    },
+    {
       name: `${translate('support.openlogic.name')}`,
       tier: `${translate('support.openlogic.tier')}`,
       title: `${translate('support.openlogic.title')}`,

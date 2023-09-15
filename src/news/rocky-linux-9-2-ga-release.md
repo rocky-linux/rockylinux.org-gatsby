@@ -74,9 +74,9 @@ We would like to thank the following individuals in particular for their contrib
 * Brian Clemens
 * Chris Stackpole
 * David H
-* Loise
 * Louis Abel
 * Lukas Magauer
+* Marie Loise Nolden
 * Mustafa Gezen
 * Neil Hanlon
 * Pratham Patel
