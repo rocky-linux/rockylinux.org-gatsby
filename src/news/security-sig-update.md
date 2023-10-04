@@ -1,22 +1,22 @@
 ---
-title: 'Security Update'
+title: 'Special Interest Group Announcement - Security'
 date: '2023-10-04'
-description: 'The Rocky Linux Security Special Interest Group (SIG) announces the general availability of the Security SIG repositories.'
+description: 'The Rocky Linux Project announces the general availability of the Security Special Interest Group (SIG) packages and wiki.'
 posttype: 'news'
 ---
 
-# Security update
+# Special Interest Group Announcement - Security
 
-The Rocky Linux Security Special Interest Group (SIG) announces the general availability of the Security SIG repositories, which provide extra security-related packages and security-hardened override packages (replacing those from the main distribution) for Rocky Linux and other Enterprise Linux (EL) distributions.
+The Rocky Linux Project announces the general availability of the Security Special Interest Group (SIG) packages and wiki, which provide extra security-related packages and security-hardened override packages (replacing those from the main distribution) for Rocky Linux and other Enterprise Linux (EL) distributions.
 
 ## Responsibilities
 
-These repositories are responsible for the following: 
+The Security SIG's mission is to: 
 
-* Developing and maintaining various security related packages that are not in upstream EL. 
-* Identifying, developing, and maintaining security hardening changes relative to upstream EL packages. 
-* Including/backporting additional security fixes that are not yet in upstream EL packages.
-* Contributing to the respective upstreams where practical.
+* Develop and maintain various security related packages that are not in upstream EL. 
+* Identify, develop, and maintain security hardening changes relative to upstream EL packages. 
+* Include/backport additional security fixes that are not yet in upstream EL packages.
+* Contribute to the respective upstreams where practical.
 
 Use `dnf install rocky-release-security` to enable the Security SIG repositories containing several overrides for packages in the main distribution.
 
