@@ -1,12 +1,10 @@
-/* This example requires Tailwind CSS v2.0+ */
 import React, { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { ChatIcon, ChevronDownIcon, DownloadIcon } from '@heroicons/react/solid';
+import { ChevronDownIcon } from '@heroicons/react/solid';
 import { Translate } from '../../i18n/utils/translate';
 import LocalizedLink from '../components/LocalizedLink';
-import Logo from '../images/rocky-halloween.png';
-import LogoLight from '../images/rocky-halloween-light.png';
+import HeaderLogo from './HeaderLogo';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -197,8 +195,7 @@ const Header = ({ pageContext: { locale: language } }) => {
           <div>
             <LocalizedLink to="/" language={language} className="flex">
               <span className="sr-only">Rocky Linux</span>
-              <img src={Logo} className="h-6 w-auto sm:h-8 block dark:hidden" />
-              <img src={LogoLight} className="h-6 w-auto sm:h-8 hidden dark:block" />
+              <HeaderLogo />
             </LocalizedLink>
           </div>
           <div className="-mr-2 -my-2 lg:hidden">
