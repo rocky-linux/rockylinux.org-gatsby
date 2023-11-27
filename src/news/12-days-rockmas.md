@@ -21,4 +21,4 @@ We’d like to thank [Mattermost](https://mattermost.com/) for being one of our 
 
 ## How do you play?
 
-If you haven’t already, please join our [server](https://chat.rockylinux.org/). Then find the channel called “12 Days of Rockmas” and follow the prompt to participate. Today’s prompt is: Share a poem about Rocky (rhyming not required). See you there!
+If you haven’t already, please join our [server](https://chat.rockylinux.org/). Then find the channel called [12 Days of Rockmas](https://chat.rockylinux.org/rocky-linux/channels/event---12-days-of-rockmas-2023-11-27) and follow the prompt to participate. Today’s prompt is: Share a poem about Rocky (rhyming not required). See you there!
