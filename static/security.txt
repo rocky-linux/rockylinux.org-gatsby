@@ -1,0 +1,18 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@resf.org
+Expires: 2027-12-31T15:00:00.000Z
+Encryption: https://resf.org/security-pgp-key.asc
+Encryption: https://rockylinux.org/security-pgp-key.asc
+Preferred-Languages: en
+Canonical: https://resf.org/security.txt
+Canonical: https://rockylinux.org/security.txt
+
+-----BEGIN PGP SIGNATURE-----
+
+iIgEARYIADAWIQT0wIR9cIn1ubgn5m8ydUGvXOX0SwUCZWitJRIcc2VjdXJpdHlA
+cmVzZi5vcmcACgkQMnVBr1zl9Et1KwD/dyXON+RifenzcI1pws5KLc4HaIU5L7Gm
+AdX18fkq+QQBAPaKvD+wYn872a62V3t4TG+3rZzGhTdQIBQra0JHbBQO
+=ZUZf
+-----END PGP SIGNATURE-----
