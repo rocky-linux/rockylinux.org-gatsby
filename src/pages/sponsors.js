@@ -33,7 +33,7 @@ const SponsorsPage = () => {
       source: `${CiqLogo}`,
       link: 'https://ciq.com/products/rocky-linux/',
       dateStart: '2021-01-01',
-      dateEnd: '2024-01-01',
+      dateEnd: '2025-01-01',
     },
     {
       name: `${translate('sponsors.45drives.name')}`,
@@ -43,7 +43,7 @@ const SponsorsPage = () => {
       source: `${FortyFiveDrivesLogo}`,
       link: 'https://45drives.com',
       dateStart: '2021-02-21',
-      dateEnd: '2024-02-21',
+      dateEnd: '2025-02-21',
     },
     {
       name: `${translate('sponsors.aws.name')}`,
@@ -53,7 +53,7 @@ const SponsorsPage = () => {
       source: `${AwsLogo}`,
       link: 'https://aws.com',
       dateStart: '2021-01-01',
-      dateEnd: '2024-01-01',
+      dateEnd: '2025-01-01',
     },
     {
       name: `${translate('sponsors.gcp.name')}`,
@@ -63,7 +63,7 @@ const SponsorsPage = () => {
       source: `${GcpLogo}`,
       link: 'https://cloud.google.com',
       dateStart: '2021-12-15',
-      dateEnd: '2023-12-14',
+      dateEnd: '2024-12-14',
     },
     {
       name: `${translate('sponsors.azure.name')}`,
@@ -83,7 +83,7 @@ const SponsorsPage = () => {
       source: `${MontaVistaLogo}`,
       link: 'https://mvista.com/',
       dateStart: '2021-03-26',
-      dateEnd: '2024-03-26',
+      dateEnd: '2025-03-26',
     },
     {
       name: `${translate('sponsors.opendrives.name')}`,
@@ -93,7 +93,7 @@ const SponsorsPage = () => {
       source: `${OpenDrivesLogo}`,
       link: 'https://opendrives.com/',
       dateStart: '2021-02-20',
-      dateEnd: '2023-02-20',
+      dateEnd: '2025-02-20',
     },
     {
       name: `${translate('sponsors.rakutensymphony.name')}`,
@@ -103,7 +103,7 @@ const SponsorsPage = () => {
       source: `${RakutenSymphonyLogo}`,
       link: 'https://symphony.rakuten.com/',
       dateStart: '2022-10-27',
-      dateEnd: '2023-10-27',
+      dateEnd: '2024-10-27',
     },
     {
       name: `${translate('sponsors.vmware.name')}`,
@@ -113,7 +113,7 @@ const SponsorsPage = () => {
       source: `${VmwareLogo}`,
       link: 'https://vmware.com/',
       dateStart: '2021-10-08',
-      dateEnd: '2023-10-08',
+      dateEnd: '2024-10-08',
     },
     {
       name: `${translate('sponsors.openlogic.name')}`,
@@ -122,7 +122,7 @@ const SponsorsPage = () => {
       source: `${OpenLogicLogo}`,
       link: 'https://www.openlogic.com/',
       dateStart: '2022-04-28',
-      dateEnd: '2024-04-28',
+      dateEnd: '2025-04-28',
     },
     {
       name: `${translate('sponsors.procomputers.name')}`,
@@ -140,7 +140,7 @@ const SponsorsPage = () => {
       source: `${SeagateLogo}`,
       link: 'https://www.seagategov.com/',
       dateStart: '2021-06-26',
-      dateEnd: '2023-06-26',
+      dateEnd: '2024-06-26',
     },
     {
       name: `${translate('sponsors.stromasys.name')}`,
@@ -149,7 +149,7 @@ const SponsorsPage = () => {
       source: `${StromasysLogo}`,
       link: 'https://www.stromasys.com/',
       dateStart: '2022-01-20',
-      dateEnd: '2023-01-20',
+      dateEnd: '2024-01-20',
     },
   ];
 
