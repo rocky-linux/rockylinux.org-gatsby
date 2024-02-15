@@ -60,6 +60,7 @@ const Footer = ({ pageContext: { locale: language } }) => {
     legal: [
       { name: `${translate('legal.licensing')}`, href: '/licensing' },
       { name: `${translate('legal.privacy')}`, href: '/privacy-policy' },
+      { name: `${translate('legal.trademark')}`, href: '/trademark' },
     ],
     social: [
       {
