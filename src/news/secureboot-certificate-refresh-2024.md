@@ -6,7 +6,7 @@ posttype: 'news'
 author: Neil Hanlon, Infrastructure Lead
 ---
 
-![Rocky Linux Secure Boot Update](..//images/2024-04-05-secureboot-update-header.png)
+![Rocky Linux Secure Boot Update](..//images/2024-04-05-secureboot-refresh-header.png)
 
 Over the next few days, updates will be released for Rocky Linux 8 and 9 updating a number of “critical path” components due to the expiration of the x509 certificate used to sign the build artifacts for the x86_64 (Intel/AMD) architecture. While this is a normal part of our processes, there are a few important things to know about this particular update.
 
