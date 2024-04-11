@@ -12,6 +12,7 @@ import NaverCloudLogo from '../images/naver-cloud.svg';
 import OpenDrivesLogo from '../images/opendrives.svg';
 import OpenSourceLabs from '../images/osl.svg';
 import RakutenSymphonyLogo from '../images/rakuten-symphony-logocloud.svg';
+import RISCVInternationalLogo from '../images/riscvinternational-logocloud.svg';
 import SupermicroLogo from '../images/supermicro.svg';
 import VmwareLogo from '../images/vmware.svg';
 import { Translate } from '../../i18n/utils/translate';
@@ -132,6 +133,15 @@ const LogoCloud = ({ pageContext: { locale: language } }) => {
                   className="max-h-12"
                   src={RakutenSymphonyLogo}
                   alt="Rakuten Symphony"
+                />
+              </div>
+            </a>
+            <a href="https://riscv.org">
+              <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50 dark:bg-gray-700">
+                <img
+                  className="max-h-12"
+                  src={RISCVInternationalLogo}
+                  alt="RISC-V International"
                 />
               </div>
             </a>

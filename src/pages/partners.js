@@ -17,6 +17,7 @@ import MattermostLogo from '../images/mattermost.png';
 import NaverLogo from '../images/naver.png';
 import OslLogo from '../images/osl.png';
 import OsslabLogo from '../images/osslab.png';
+import RISCVInternationalLogo from '../images/riscvinternational.png';
 import SupermicroLogo from '../images/supermicro.png';
 
 const PartnersPage = () => {
@@ -84,6 +85,13 @@ const PartnersPage = () => {
       blurb: `${translate('partners.osslab.blurb')}`,
       source: `${OsslabLogo}`,
       link: 'http://www.oss-lab.co.kr/',
+    },
+    {
+      name: `${translate('partners.riscvinternational.name')}`,
+      tier: `${translate('partners.riscvinternational.tier')}`,
+      blurb: `${translate('partners.riscvinternational.blurb')}`,
+      source: `${RISCVInternationalLogo}`,
+      link: 'https://riscv.org',
     },
     {
       name: `${translate('partners.supermicro.name')}`,
