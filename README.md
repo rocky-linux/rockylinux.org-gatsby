@@ -1,9 +1,8 @@
-# rockylinux.org
+# rockylinux.org-gatsby
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg)](#contributors-)
-[![Crowdin](https://badges.crowdin.net/rockylinuxorg/localized.svg)](https://crowdin.com/project/rockylinuxorg)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Frockylinux.org)](https://rockylinux.org)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/rocky-linux/rockylinux.org/main.svg)](https://results.pre-commit.ci/latest/github/rocky-linux/rockylinux.org/main)
+This repository is no longer in use. The current Rocky Linux website repository is available at https://github.com/rocky-linux/rockylinux.org.
+
+Thanks to all the contributors who created and maintained this website, which served the Rocky Linux project for almost three years!
 
 The Rocky Linux landing page, built using [Gatsby](https://gatsbyjs.com) and [TailwindCSS](https://tailwindcss.com).
 
