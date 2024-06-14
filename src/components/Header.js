@@ -373,7 +373,7 @@ const Header = ({ pageContext: { locale: language } }) => {
               <LocalizedLink
                 to="https://chat.rockylinux.org"
                 language={language}
-                className="w-full flex items-center justify-center text-base font-medium rounded-md text-green-600 bg-green-50 hover:bg-green-100 hover:text-green-700 py-2 px-4"
+                className="flex items-center justify-center text-base font-medium rounded-md text-green-600 bg-green-50 hover:bg-green-100 hover:text-green-700 py-2 px-4"
               >
                 {translate('chat')}
               </LocalizedLink>
