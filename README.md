@@ -74,6 +74,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jimcat8"><img src="https://avatars.githubusercontent.com/u/86754294?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tianci li</b></sub></a><br /><a href="#translation-jimcat8" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/amithbs1"><img src="https://avatars.githubusercontent.com/u/47681946?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Amith Sai</b></sub></a><br /><a href="#content-amithbs1" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/toto6038"><img src="https://avatars.githubusercontent.com/u/50100922?v=4?s=100" width="100px;" alt=""/><br /><sub><b>toto6038</b></sub></a><br /><a href="#translation-toto6038" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/JasonYangShadow"><img src="https://avatars.githubusercontent.com/u/2051711?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Xu Yang</b></sub></a><br /><a href="#translation-JasonYangShadow" title="Translation">🌍</a></td>
   </tr>
 </table>
 

@@ -2,16 +2,16 @@
   "hero": {
     "new": "最新动态",
     "title": "以社区方式驱动的企业Linux",
-    "description": "Rocky Linux是一个开源的企业级操作系统，旨在与 Red Hat Enterprise Linux<0>&#174;</0>100% 1:1兼容。它正处于社区的密集开发中。",
+    "description": "Rocky Linux是一个开源的企业级操作系统，旨在与 Red Hat Enterprise Linux<0>&#174;</0>100% 1:1兼容， 且社区正在积极开发中。",
     "cta1": "下载",
     "cta2": "迁移"
   },
   "features": {
-    "title": "坚如磐石，无论在什么情况下都是如此。",
-    "subtitle": "稳定的、可用于生产环境的Linux",
+    "title": "无论何时，坚如磐石",
+    "subtitle": "超高稳定性、企业级生产环境的Linux发行版",
     "description": "Rocky Linux直接从 RHEL <0>&#174;</0>重新构建源代码，因此不管是什么用途，您都可以拥有超级稳定的体验。",
     "1": {
-      "title": "可用于生产环境",
+      "title": "适用于生产环境",
       "description": "Rocky Linux是企业级的，通过定期更新和长达10年的生命周期支持提供稳定的稳定性，所有的这些都是免费的。"
     },
     "2": {
@@ -20,15 +20,15 @@
     },
     "3": {
       "title": "轻松迁移",
-      "description": "从其他企业 Linux 发行版迁移，无需担心，我们免费提供易于使用的迁移脚本。"
+      "description": "无需担心从其他企业 Linux 发行版迁移，我们免费提供易于使用的迁移脚本。"
     }
   },
   "latest-news": {
     "title": "最新消息",
-    "description": "我们定期与社区分享最新动态，这是最新动态。"
+    "description": "以下为社区最新动态"
   },
   "sponsors-partners": {
-    "backed": "强力后盾",
+    "backed": "鼎力支持",
     "sponsors": "所有赞助商",
     "partners": "所有合作伙伴",
     "support": "支持合作伙伴"
